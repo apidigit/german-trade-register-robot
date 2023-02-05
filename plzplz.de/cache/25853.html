@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 25853 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="25853, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 25853 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 25853">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_25853/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 25853 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="25853" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Alpenhaus/" title="PLZ Alpenhaus"><strong>PLZ Alpenhaus</strong></a>|<a href="https://plzplz.de/PLZ_Althüttendorf/" title="PLZ Althüttendorf"><strong>PLZ Althüttendorf</strong></a>|<a href="https://plzplz.de/PLZ_Arbasstätt/" title="PLZ Arbasstätt"><strong>PLZ Arbasstätt</strong></a>|<a href="https://plzplz.de/PLZ_Bildechingen/" title="PLZ Bildechingen"><strong>PLZ Bildechingen</strong></a>|<a href="https://plzplz.de/PLZ_Braak/" title="PLZ Braak"><strong>PLZ Braak</strong></a>|<a href="https://plzplz.de/PLZ_Ettenhausen/" title="PLZ Ettenhausen"><strong>PLZ Ettenhausen</strong></a>|<a href="https://plzplz.de/PLZ_Felsbergerhof/" title="PLZ Felsbergerhof"><strong>PLZ Felsbergerhof</strong></a>|<a href="https://plzplz.de/PLZ_Frenkhausen/" title="PLZ Frenkhausen"><strong>PLZ Frenkhausen</strong></a>|<a href="https://plzplz.de/PLZ_Godelhausen/" title="PLZ Godelhausen"><strong>PLZ Godelhausen</strong></a>|<a href="https://plzplz.de/PLZ_Heerhof/" title="PLZ Heerhof"><strong>PLZ Heerhof</strong></a>|<a href="https://plzplz.de/PLZ_Hirnkirchen/" title="PLZ Hirnkirchen"><strong>PLZ Hirnkirchen</strong></a>|<a href="https://plzplz.de/PLZ_Hunderdorf/" title="PLZ Hunderdorf"><strong>PLZ Hunderdorf</strong></a>|<a href="https://plzplz.de/PLZ_Innerthann/" title="PLZ Innerthann"><strong>PLZ Innerthann</strong></a>|<a href="https://plzplz.de/PLZ_Karlsbach/" title="PLZ Karlsbach"><strong>PLZ Karlsbach</strong></a>|<a href="https://plzplz.de/PLZ_Köterberg/" title="PLZ Köterberg"><strong>PLZ Köterberg</strong></a>|<a href="https://plzplz.de/PLZ_Kynoten/" title="PLZ Kynoten"><strong>PLZ Kynoten</strong></a>|<a href="https://plzplz.de/PLZ_Landstorf/" title="PLZ Landstorf"><strong>PLZ Landstorf</strong></a>|<a href="https://plzplz.de/PLZ_Linda/" title="PLZ Linda"><strong>PLZ Linda</strong></a>|<a href="https://plzplz.de/PLZ_Meimbressen/" title="PLZ Meimbressen"><strong>PLZ Meimbressen</strong></a>|<a href="https://plzplz.de/PLZ_Neu_Meteln/" title="PLZ Neu Meteln"><strong>PLZ Neu Meteln</strong></a>|<a href="https://plzplz.de/PLZ_Oberdachstetten/" title="PLZ Oberdachstetten"><strong>PLZ Oberdachstetten</strong></a>|<a href="https://plzplz.de/PLZ_Ödenhaid/" title="PLZ Ödenhaid"><strong>PLZ Ödenhaid</strong></a>|<a href="https://plzplz.de/PLZ_Purtlhof/" title="PLZ Purtlhof"><strong>PLZ Purtlhof</strong></a>|<a href="https://plzplz.de/PLZ_Rückerswind/" title="PLZ Rückerswind"><strong>PLZ Rückerswind</strong></a>|<a href="https://plzplz.de/PLZ_Schackenthal/" title="PLZ Schackenthal"><strong>PLZ Schackenthal</strong></a>|<a href="https://plzplz.de/PLZ_Schnackenburg/" title="PLZ Schnackenburg"><strong>PLZ Schnackenburg</strong></a>|<a href="https://plzplz.de/PLZ_Schönschleif/" title="PLZ Schönschleif"><strong>PLZ Schönschleif</strong></a>|<a href="https://plzplz.de/PLZ_Sickenreuth/" title="PLZ Sickenreuth"><strong>PLZ Sickenreuth</strong></a>|<a href="https://plzplz.de/PLZ_Staffen/" title="PLZ Staffen"><strong>PLZ Staffen</strong></a>|<a href="https://plzplz.de/PLZ_Stammbach/" title="PLZ Stammbach"><strong>PLZ Stammbach</strong></a>|<a href="https://plzplz.de/PLZ_Steinefrenz/" title="PLZ Steinefrenz"><strong>PLZ Steinefrenz</strong></a>|<a href="https://plzplz.de/PLZ_Trauen/" title="PLZ Trauen"><strong>PLZ Trauen</strong></a>|<a href="https://plzplz.de/PLZ_Tröbersdorf/" title="PLZ Tröbersdorf"><strong>PLZ Tröbersdorf</strong></a>|<a href="https://plzplz.de/PLZ_Wallenbrück/" title="PLZ Wallenbrück"><strong>PLZ Wallenbrück</strong></a>|<a href="https://plzplz.de/PLZ_Wolfslohe/" title="PLZ Wolfslohe"><strong>PLZ Wolfslohe</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 25853</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/"><strong>PLZ Ahrenshöft</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Alte_Dorfstraße/">Alte Dorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Alte_Dorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/"><strong>PLZ Ahrenshöft</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Am_Kirchensteig/">Am Kirchensteig</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Am_Kirchensteig/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/"><strong>PLZ Ahrenshöft</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Bäckerweg/">Bäckerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Bäckerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/"><strong>PLZ Ahrenshöft</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Borgerweg/">Borgerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Borgerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/"><strong>PLZ Ahrenshöft</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Dorfstraße/">Dorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Dorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/"><strong>PLZ Ahrenshöft</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Eibergweg/">Eibergweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Eibergweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/"><strong>PLZ Ahrenshöft</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Hochacker/">Hochacker</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Hochacker/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/"><strong>PLZ Ahrenshöft</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Jägerkrug/">Jägerkrug</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Jägerkrug/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/"><strong>PLZ Ahrenshöft</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Jaspers/">Jaspers</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Jaspers/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/"><strong>PLZ Ahrenshöft</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Kirchensteig/">Kirchensteig</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Kirchensteig/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/"><strong>PLZ Ahrenshöft</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Krogkoppel/">Krogkoppel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Krogkoppel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/"><strong>PLZ Ahrenshöft</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Meedeweg/">Meedeweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Meedeweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/"><strong>PLZ Ahrenshöft</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Meiereiweg/">Meiereiweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Meiereiweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/"><strong>PLZ Ahrenshöft</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Moorweg/">Moorweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Moorweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/"><strong>PLZ Ahrenshöft</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Osterweg/">Osterweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Osterweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/"><strong>PLZ Ahrenshöft</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Postweg/">Postweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Postweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/"><strong>PLZ Ahrenshöft</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Schoolkoppel/">Schoolkoppel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Schoolkoppel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/"><strong>PLZ Ahrenshöft</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Schulweg/">Schulweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Schulweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/"><strong>PLZ Ahrenshöft</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Steinberg/">Steinberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Ahrenshöft/Steinberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/"><strong>PLZ Bohmstedt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/An_de_Greeden/">An de Greeden</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/An_de_Greeden/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/"><strong>PLZ Bohmstedt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/An_de_Lehmkuhl/">An de Lehmkuhl</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/An_de_Lehmkuhl/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/"><strong>PLZ Bohmstedt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Bohmstedtfeld/">Bohmstedtfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Bohmstedtfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/"><strong>PLZ Bohmstedt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Bomtoft/">Bomtoft</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Bomtoft/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/"><strong>PLZ Bohmstedt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Böwerweg/">Böwerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Böwerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/"><strong>PLZ Bohmstedt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Görtzens_Gaderum/">Görtzens Gaderum</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Görtzens_Gaderum/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/"><strong>PLZ Bohmstedt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Heselbarg/">Heselbarg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Heselbarg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/"><strong>PLZ Bohmstedt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Hohe_Luft/">Hohe Luft</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Hohe_Luft/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/"><strong>PLZ Bohmstedt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Jinses_Gaderum/">Jinses Gaderum</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Jinses_Gaderum/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/"><strong>PLZ Bohmstedt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Kätnerweg/">Kätnerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Kätnerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/"><strong>PLZ Bohmstedt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Langacker/">Langacker</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Langacker/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/"><strong>PLZ Bohmstedt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Lassensstieg/">Lassensstieg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Lassensstieg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/"><strong>PLZ Bohmstedt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Liekutweg/">Liekutweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Liekutweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/"><strong>PLZ Bohmstedt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Norderende/">Norderende</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Norderende/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/"><strong>PLZ Bohmstedt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Poddam/">Poddam</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Poddam/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/"><strong>PLZ Bohmstedt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Ringweg/">Ringweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Ringweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/"><strong>PLZ Bohmstedt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Sandbarg/">Sandbarg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Sandbarg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/"><strong>PLZ Bohmstedt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Schantoft/">Schantoft</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Schantoft/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/"><strong>PLZ Bohmstedt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Sick/">Sick</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Sick/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/"><strong>PLZ Bohmstedt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Süderende/">Süderende</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Süderende/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/"><strong>PLZ Bohmstedt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Timmermanns_Gaderum/">Timmermanns Gaderum</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Timmermanns_Gaderum/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/"><strong>PLZ Bohmstedt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Westerende/">Westerende</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Bohmstedt/Westerende/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Achter_de_Schmeed/">Achter de Schmeed</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Achter_de_Schmeed/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Alte_Landstraße/">Alte Landstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Alte_Landstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Am_Bahnhof/">Am Bahnhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Am_Bahnhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Am_Forst/">Am Forst</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Am_Forst/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Am_Jägerhoch/">Am Jägerhoch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Am_Jägerhoch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Am_Sandberg/">Am Sandberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Am_Sandberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/An_de_Beek/">An de Beek</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/An_de_Beek/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Bahndamm/">Bahndamm</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Bahndamm/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Bredstedter_Straße/">Bredstedter Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Bredstedter_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Burlags/">Burlags</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Burlags/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Dorfstraße/">Dorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Dorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Drachheide/">Drachheide</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Drachheide/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Grüner_Weg/">Grüner Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Grüner_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Huk/">Huk</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Huk/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Karkenweg/">Karkenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Karkenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Kätnerweg/">Kätnerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Kätnerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Kniepenbarg/">Kniepenbarg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Kniepenbarg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Korfmakers_Weg/">Korfmakers Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Korfmakers_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Krogkoppel/">Krogkoppel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Krogkoppel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Lehn/">Lehn</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Lehn/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Lüttje_Weg/">Lüttje Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Lüttje_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Mittelweg/">Mittelweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Mittelweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Morgensterner_Weg/">Morgensterner Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Morgensterner_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Norderfelder_Weg/">Norderfelder Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Norderfelder_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Ochsendrift/">Ochsendrift</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Ochsendrift/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Osten_de_Kark/">Osten de Kark</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Osten_de_Kark/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Osterfelder_Weg/">Osterfelder Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Osterfelder_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Osterkamp/">Osterkamp</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Osterkamp/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Ostermaad/">Ostermaad</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Ostermaad/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Osterweg/">Osterweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Osterweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Peerkoppel/">Peerkoppel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Peerkoppel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Peter-Feddersen-Ring/">Peter-Feddersen-Ring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Peter-Feddersen-Ring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Petersburg-Mühle/">Petersburg-Mühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Petersburg-Mühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Presterkoppel/">Presterkoppel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Presterkoppel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Quickerdamm/">Quickerdamm</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Quickerdamm/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Rodesieck/">Rodesieck</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Rodesieck/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Rott/">Rott</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Rott/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Sandbergweg/">Sandbergweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Sandbergweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Süderweg/">Süderweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Süderweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Tayswatt/">Tayswatt</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Tayswatt/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Vollstedter_Straße/">Vollstedter Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Vollstedter_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Vollstedter_Weg/">Vollstedter Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Vollstedter_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Wacholder_Weg/">Wacholder Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Wacholder_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Westerkamp/">Westerkamp</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Westerkamp/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Westermaad/">Westermaad</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Westermaad/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/"><strong>PLZ Drelsdorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Westerweg/">Westerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_25853/">25853</a></td>
+<td><a href="https://plzplz.de/PLZ_Drelsdorf/Westerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.006 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

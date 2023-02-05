@@ -1,0 +1,351 @@
+An der Klinge
+Ortsstraße
+Reuriether Straße
+Ahornweg
+Akazienweg
+Am Backsteinfeld
+Am Bahnhof
+Am Braurangen
+Am Buchweg
+Am Busch
+Am Dambach
+Am Eichenzogel
+Am Feldrain
+Am Feuerteich
+Am Friedhof
+Am Gemeindeberg
+Am Georgeneck
+Am Goldbach
+Am Gries
+Am Hang
+Am Hechtteich
+Am Hofweg
+Am Hohen Gericht
+Am Judelsrain
+Am Kleinodsfeld
+Am Krautberg
+Am Kreuz
+Am Kümmelhag
+Am Mittelberg
+Am Mühlrangen
+Am Poststück
+Am Römersbach
+Am Roter Berg
+Am Ruhgarten
+Am Sandberg
+Am Schloßberg
+Am Schwanenteich
+Am Spittelbach
+Am Stadtberg
+Am Stadtrand
+Am Stirnberg
+Am Teich
+Am Torbogen
+Am Trockenbach
+Amselweg
+An den Bläuwiesen
+An der Alten Gärtnerei
+An der Galgenspitze
+An der Gießerei
+An der Kirche
+An der Leite
+An der Tongrube
+Apothekergasse
+Armin-Human-Straße
+Asternweg
+August-Bebel-Straße
+Bäckergasse
+Bahnhofstraße
+Bauershof
+Bechergasse
+Bernhardsbach
+Birkenfelder Straße
+Birkenweg
+Breiter Rasen
+Brückenweg
+Brunnengasse
+Clara-Zetkin-Straße
+Coburger Straße
+Dachsweg
+Dammstraße
+Dorfplatz
+Dorfstraße
+Dr.-Moritz-Mitzenheim-Straße
+Dr.-Theodor-Neubauer-Straße
+Dr.-Wilhelm-Külz-Straße
+Drosselweg
+Ebenhardser Brunnenweg
+Ebenhardser Dorfstraße
+Ebenhardser Heimsgasse
+Ebenhardser Hofäcker
+Ebenhardser Kirchgasse
+Ebenhardser Neustadt
+Eibenweg
+Eisfelder Straße
+Eishäuser Straße
+Elsternweg
+Erlenweg
+Ernst-Thälmann-Platz
+Fichtenweg
+Finkenmühlenweg
+Finkenweg
+Finksgasse
+Forstweg
+Friedensstraße
+Friedensweg
+Friedenthal
+Friedrich-Fröbel-Straße
+Friedrich-Rückert-Straße
+Friedrich-Sickler-Straße
+Friedrichsanfang
+Friesenstraße
+Froschgasse
+Fuchsweg
+Gartenstraße
+Gerbergasse
+Geschwister-Scholl-Straße
+Goetheplatz
+Goldbachstraße
+Goldbergweg
+Häfenmarkt
+Hartweg
+Häselriether Straße
+Häselriether Weg
+Hegerweg
+Heimstraße
+Helenenstraße
+Hertelstraße
+Heßberger Straße
+Hildburghäuser Straße
+Hinter der Mauer
+Hintere Gasse
+Hirtengäßchen
+Hofbäckersgäßchen
+Hofbüttnersgäßchen
+Hohle
+Hohle Gasse
+Holzweg
+Hopfenleite
+Igelweg
+Iltisweg
+Immanuel-Kant-Platz
+Johann-Sebastian-Bach-Platz
+Johann-Sebastian-Bach-Straße
+Joseph-Meyer-Straße
+Jungviehweide
+Kaltenbronner Weg
+Kanonenweg
+Kantorsweg
+Karl-Liebknecht-Straße
+Kastanienallee
+Kehrweg
+Kirchgasse
+Kirchgrund
+Kirchstraße
+Kirchweg
+Kirchwiesen
+Kleine Gasse
+Kleiner Weg
+Knappengasse
+Krautbergweg
+Krautweg
+Krumme Hohle
+Kuhgasse
+Langer Steg
+Lärchenweg
+Leimriether Dorfstraße
+Leimriether Hauptstraße
+Ligustergasse
+Ludwig-Jahn-Straße
+Luisenblick
+Marderwiesen
+Marienstraße
+Markt
+Martin-Luther-Straße
+Massenhäuser Straße
+Max-Michaelis-Straße
+Mittelweg
+Mohnhäcksweg
+Nelkenweg
+Neue Leite
+Neustadt
+Neustädter Kirchplan
+Nonneplatz
+Obere Allee
+Obere Au
+Obere Braugasse
+Obere Dorfstraße
+Obere Gasse
+Obere Marktstraße
+Oberer Kapellenstieg
+Oberer Weinberg
+Oberes Kleinodsfeld
+Papendicks Gäßchen
+Pelhrimover Straße
+Pfersdorfer Anspann
+Pfersdorfer Gries
+Pfersdorfer Hauptstraße
+Pfersdorfer Steig
+Pfersdorfer Straße
+Pfersdorfer Untere Dorfstraße
+Postgäßchen
+Pulvermühlenweg
+Puschkinplatz
+Rathausgasse
+Rehweg
+Reinhold-Huhn-Straße
+Reuriether Weg
+Rittersgasse
+Römhilder Straße
+Rosa-Luxemburg-Straße
+Rosengasse
+Rosenweg
+Rote Leite
+Roter Hügel
+Rudolf-Breitscheid-Straße
+Salzmarkt
+Sandberghof
+Scheunenweg
+Schleusinger Straße
+Schloßparkpassage
+Schloßstraße
+Schneidergasse
+Schnettersmühle
+Schulstraße
+Schulzeneller
+Schwabacher Straße
+Seminarstraße
+Sonnenhof
+Steiler Weg
+Straße der Jugend
+Suhler Straße
+Tannenweg
+Technikerweg
+Theresienplatz
+Thomas-Müntzer-Straße
+Tulpenweg
+Ulmenweg
+Unter den Weinbergen
+Untere Allee
+Untere Braugasse
+Untere Dorfstraße
+Untere Marktstraße
+Unterer Gemeindeberg
+Unterer Gries
+Unterer Kapellenstieg
+Unterer Weinberg
+Unteres Kleinodsfeld
+Veilsdorfer Straße
+Vorderer Steig
+Wacholderweg
+Waldstraße
+Walkmühlenweg
+Wallrabser Straße
+Weg zur Quelle
+Weitersrodaer Straße
+Wiedersbacher Straße
+Wiesenstraße
+Wilhelm-Rathke-Straße
+Winzergasse
+Würselener Straße
+Zapfenbahn
+Ziegeleiweg
+Zu den Hofäckern
+Zum Eicheneck
+Zum Heckenbühl
+Zum Heiligen Grund
+Zum Hölzchen
+Zum Sportplatz
+Zum Stickelsteich
+Zum Wasserbassin
+Zum Werrablick
+Zunftweg
+Zur Anspann
+Zur Frauenwiese
+Zur Kaiserbuche
+Zur Karolinenburg
+Zur Mühle
+Zur Obstwiese
+Bahnhofstraße
+Bauhütte
+Eckstraße
+Froschgasse
+Gänseau
+Gewerbestraße
+Hohle Gasse
+Holzmühle
+Kirchgasse
+Neufeldlein
+Reuriether Dorfstraße
+Schneidergasse
+Siegritzer Dorfstraße
+Trostädter Dorfstraße
+Zeilfelder Straße
+Zückgasse
+Adelhäuser Dorfstraße
+Adelhäuser Kirchgasse
+Am Frohnberg
+Am Grindrasen
+Am Weißbach
+Badegasse
+Bedheimer Weg
+Berglochstraße
+Birkenfelder Straße
+Brunnenstraße
+Coburger Straße
+Dresselgasse
+Eishäuser Gartenstraße
+Eishäuser Hauptstraße
+Eishäuser Hintere Gasse
+Fischgarten
+Gleichamberger Straße
+Gülthofgasse
+Heldburger Straße
+Hildburghäuser Straße
+Hirtenstraße
+Insel
+Krautgartenweg
+Lange Gasse
+Lange Suh
+Lindener Dorfstraße
+Löwengasse
+Marktplatz
+Massenhäuser Dorfstraße
+Massenhäuser Straße
+Mitterhof
+Obere Marktstraße
+Oberer Trieb
+Pfarrberg
+Pförtleinsgasse
+Pohlsgasse
+Poststraße
+Renkengasse
+Roßfelder Straße
+Rudelsdorfer Straße
+Ruttersweg
+Schulweg
+Seidingstädter Hauptstraße
+Seidingstädter Kirchgasse
+Simmershäuser Straße
+Söffleinsgasse
+Sommergasse
+Steinfelder Straße
+Straße am Kuhberg
+Straße am Reit
+Straße am Schulberg
+Straße an den Neubauten
+Straße der Jugend
+Straße des Friedens
+Straße Hinterdorf
+Straße in der Neustadt
+Straße zum Bad
+Stressenhäuser Bahnhofstraße
+Stressenhäuser Dorfstraße
+Stressenhäuser Hintere Gasse
+Streufdorfer Bahnhofstraße
+Streufdorfer Gartenstraße
+Trappstädter Straße
+Untere Marktstraße
+Wassergasse
+Webergasse
+Westhäuser Straße

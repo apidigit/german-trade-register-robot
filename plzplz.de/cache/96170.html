@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 96170 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="96170, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 96170 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 96170">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_96170/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 96170 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="96170" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Bühel_bei_Schwarzach/" title="PLZ Bühel bei Schwarzach"><strong>PLZ Bühel bei Schwarzach</strong></a>|<a href="https://plzplz.de/PLZ_Burgheßler/" title="PLZ Burgheßler"><strong>PLZ Burgheßler</strong></a>|<a href="https://plzplz.de/PLZ_Ehring/" title="PLZ Ehring"><strong>PLZ Ehring</strong></a>|<a href="https://plzplz.de/PLZ_Großwiesen/" title="PLZ Großwiesen"><strong>PLZ Großwiesen</strong></a>|<a href="https://plzplz.de/PLZ_Haffkrug/" title="PLZ Haffkrug"><strong>PLZ Haffkrug</strong></a>|<a href="https://plzplz.de/PLZ_Hellenthal/" title="PLZ Hellenthal"><strong>PLZ Hellenthal</strong></a>|<a href="https://plzplz.de/PLZ_Hilgersöd/" title="PLZ Hilgersöd"><strong>PLZ Hilgersöd</strong></a>|<a href="https://plzplz.de/PLZ_Höslbach/" title="PLZ Höslbach"><strong>PLZ Höslbach</strong></a>|<a href="https://plzplz.de/PLZ_Karlshöhe/" title="PLZ Karlshöhe"><strong>PLZ Karlshöhe</strong></a>|<a href="https://plzplz.de/PLZ_Letmathe/" title="PLZ Letmathe"><strong>PLZ Letmathe</strong></a>|<a href="https://plzplz.de/PLZ_Lütten_Klein/" title="PLZ Lütten Klein"><strong>PLZ Lütten Klein</strong></a>|<a href="https://plzplz.de/PLZ_Marlesreuth/" title="PLZ Marlesreuth"><strong>PLZ Marlesreuth</strong></a>|<a href="https://plzplz.de/PLZ_Niederviehbacherau/" title="PLZ Niederviehbacherau"><strong>PLZ Niederviehbacherau</strong></a>|<a href="https://plzplz.de/PLZ_Niederwalting/" title="PLZ Niederwalting"><strong>PLZ Niederwalting</strong></a>|<a href="https://plzplz.de/PLZ_Oberdachsbühl/" title="PLZ Oberdachsbühl"><strong>PLZ Oberdachsbühl</strong></a>|<a href="https://plzplz.de/PLZ_Oberlangheim/" title="PLZ Oberlangheim"><strong>PLZ Oberlangheim</strong></a>|<a href="https://plzplz.de/PLZ_Oberzettlitz/" title="PLZ Oberzettlitz"><strong>PLZ Oberzettlitz</strong></a>|<a href="https://plzplz.de/PLZ_Pfaffenhölzle/" title="PLZ Pfaffenhölzle"><strong>PLZ Pfaffenhölzle</strong></a>|<a href="https://plzplz.de/PLZ_Prächting/" title="PLZ Prächting"><strong>PLZ Prächting</strong></a>|<a href="https://plzplz.de/PLZ_Rechersberg/" title="PLZ Rechersberg"><strong>PLZ Rechersberg</strong></a>|<a href="https://plzplz.de/PLZ_Röckingen/" title="PLZ Röckingen"><strong>PLZ Röckingen</strong></a>|<a href="https://plzplz.de/PLZ_Roskow/" title="PLZ Roskow"><strong>PLZ Roskow</strong></a>|<a href="https://plzplz.de/PLZ_Rupprechtshausen/" title="PLZ Rupprechtshausen"><strong>PLZ Rupprechtshausen</strong></a>|<a href="https://plzplz.de/PLZ_Samping/" title="PLZ Samping"><strong>PLZ Samping</strong></a>|<a href="https://plzplz.de/PLZ_Scholven/" title="PLZ Scholven"><strong>PLZ Scholven</strong></a>|<a href="https://plzplz.de/PLZ_Schuenhagen/" title="PLZ Schuenhagen"><strong>PLZ Schuenhagen</strong></a>|<a href="https://plzplz.de/PLZ_Segringen/" title="PLZ Segringen"><strong>PLZ Segringen</strong></a>|<a href="https://plzplz.de/PLZ_Sichelbronn/" title="PLZ Sichelbronn"><strong>PLZ Sichelbronn</strong></a>|<a href="https://plzplz.de/PLZ_Sparnberg/" title="PLZ Sparnberg"><strong>PLZ Sparnberg</strong></a>|<a href="https://plzplz.de/PLZ_Steinmühl/" title="PLZ Steinmühl"><strong>PLZ Steinmühl</strong></a>|<a href="https://plzplz.de/PLZ_Unter-Mossau/" title="PLZ Unter-Mossau"><strong>PLZ Unter-Mossau</strong></a>|<a href="https://plzplz.de/PLZ_Wachtum/" title="PLZ Wachtum"><strong>PLZ Wachtum</strong></a>|<a href="https://plzplz.de/PLZ_Wagenhoff/" title="PLZ Wagenhoff"><strong>PLZ Wagenhoff</strong></a>|<a href="https://plzplz.de/PLZ_Wildenau/" title="PLZ Wildenau"><strong>PLZ Wildenau</strong></a>|<a href="https://plzplz.de/PLZ_Zentrum-Ost/" title="PLZ Zentrum-Ost"><strong>PLZ Zentrum-Ost</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 96170</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Trabelsdorf/">Trabelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Am_Bürgerwäldchen/">Am Bürgerwäldchen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Am_Bürgerwäldchen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Trabelsdorf/">Trabelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Am_Markt/">Am Markt</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Am_Markt/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Am_Pfaffenberg/">Am Pfaffenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Am_Pfaffenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Trabelsdorf/">Trabelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Am_Schloß/">Am Schloß</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Am_Schloß/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/An_der_Schule/">An der Schule</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/An_der_Schule/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Trabelsdorf/">Trabelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Aurachstraße/">Aurachstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Aurachstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Trabelsdorf/">Trabelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Bamberger_Straße/">Bamberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Bamberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Trabelsdorf/">Trabelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Barbarahöhe/">Barbarahöhe</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Barbarahöhe/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Trabelsdorf/">Trabelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Bergstraße/">Bergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Bergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Trabelsdorf/">Trabelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Blumenstraße/">Blumenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Blumenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Brunnenweg/">Brunnenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Brunnenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Burg/">Burg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Burg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Burgberg/">Burgberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Burgberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Burgblick/">Burgblick</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Burgblick/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Trabelsdorf/">Trabelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Bürgermeister-Kempf-Straße/">Bürgermeister-Kempf-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Bürgermeister-Kempf-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Castellstraße/">Castellstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Castellstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Conrad-Wagner-Weg/">Conrad-Wagner-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Conrad-Wagner-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Eichholzweg/">Eichholzweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Eichholzweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Trabelsdorf/">Trabelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Frankenstraße/">Frankenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Frankenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Gewerbegebiet/">Gewerbegebiet</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Gewerbegebiet/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Hauptstraße/">Hauptstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Hauptstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Hirschfeldstraße/">Hirschfeldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Hirschfeldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Im_Aschenfeld/">Im Aschenfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Im_Aschenfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Im_Eichfeld/">Im Eichfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Im_Eichfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Kasernstraße/">Kasernstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Kasernstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Kaulberg/">Kaulberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Kaulberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Trabelsdorf/">Trabelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Kirchblick/">Kirchblick</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Kirchblick/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Kolmsdorfer_Weg/">Kolmsdorfer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Kolmsdorfer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Laurenziweg/">Laurenziweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Laurenziweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Trabelsdorf/">Trabelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Mathesleite/">Mathesleite</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Mathesleite/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Mühlleite/">Mühlleite</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Mühlleite/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neumühle/">Neumühle</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Neumühle/">Neumühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Neumühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Trabelsdorf/">Trabelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Ringstraße/">Ringstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Ringstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Trabelsdorf/">Trabelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Schafleite/">Schafleite</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Schafleite/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Trabelsdorf/">Trabelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Schulweg/">Schulweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Schulweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Trabelsdorf/">Trabelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Seeblick/">Seeblick</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Seeblick/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Trabelsdorf/">Trabelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Seeleite/">Seeleite</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Seeleite/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Sonnenleite/">Sonnenleite</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Sonnenleite/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Trabelsdorf/">Trabelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Sonnenstraße/">Sonnenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Sonnenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Trabelsdorf/">Trabelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Steigerwaldstraße/">Steigerwaldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Steigerwaldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Trabelsdorf/">Trabelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Trabelsdorfer_Hof/">Trabelsdorfer Hof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Trabelsdorfer_Hof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Trabelsdorfer_Weg/">Trabelsdorfer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Trabelsdorfer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Triefenbach/">Triefenbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Triefenbach/">Triefenbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Triefenbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Trabelsdorf/">Trabelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Von-Münster-Platz/">Von-Münster-Platz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Von-Münster-Platz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Trabelsdorf/">Trabelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Von-Ostheim-Straße/">Von-Ostheim-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Von-Ostheim-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Trabelsdorf/">Trabelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Weiherer_Straße/">Weiherer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Weiherer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Zimmermannsweg/">Zimmermannsweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Zimmermannsweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Zum_Eichelsee/">Zum Eichelsee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Zum_Eichelsee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Zum_Friedleinsbrunnen/">Zum Friedleinsbrunnen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Zum_Friedleinsbrunnen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Zum_Kreuzstein/">Zum Kreuzstein</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Zum_Kreuzstein/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Trabelsdorf/">Trabelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Zum_Mühlgraben/">Zum Mühlgraben</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Zum_Mühlgraben/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Zum_Radstein/">Zum Radstein</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Zum_Radstein/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Zur_Feldscheune/">Zur Feldscheune</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Zur_Feldscheune/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Trabelsdorf/">Trabelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Zur_Neumühle/">Zur Neumühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Zur_Neumühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lisberg/"><strong>PLZ Lisberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Trabelsdorf/">Trabelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Zur_Treu/">Zur Treu</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Lisberg/Zur_Treu/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuhausen/">Neuhausen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Allee/">Allee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Allee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Am_Ansbach/">Am Ansbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Am_Ansbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Am_Bodenacker/">Am Bodenacker</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Am_Bodenacker/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Am_Brunnen/">Am Brunnen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Am_Brunnen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Am_Hölzla/">Am Hölzla</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Am_Hölzla/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Am_Kindergarten/">Am Kindergarten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Am_Kindergarten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Bamberger_Weg/">Bamberger Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Bamberger_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Berglein/">Berglein</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Berglein/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Bergstraße/">Bergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Bergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuhausen/">Neuhausen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Brunnengasse/">Brunnengasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Brunnengasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Die_Melben/">Die Melben</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Die_Melben/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Dr.-Raupach-Straße/">Dr.-Raupach-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Dr.-Raupach-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Ellernweg/">Ellernweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Ellernweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Felsenkeller/">Felsenkeller</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Felsenkeller/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Fischergasse/">Fischergasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Fischergasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuhausen/">Neuhausen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Friedleinsweg/">Friedleinsweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Friedleinsweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Gregelstraße/">Gregelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Gregelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Hans-Rust-Straße/">Hans-Rust-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Hans-Rust-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Hauptstraße/">Hauptstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Hauptstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Heugasse/">Heugasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Heugasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Hohe_Warte/">Hohe Warte</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Hohe_Warte/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Hopfengarten/">Hopfengarten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Hopfengarten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Im_Kulm/">Im Kulm</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Im_Kulm/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/In_der_Ebene/">In der Ebene</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/In_der_Ebene/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Industriestraße/">Industriestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Industriestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuhausen/">Neuhausen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Kellerweg/">Kellerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Kellerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Krengarten/">Krengarten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Krengarten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Kühtrieb/">Kühtrieb</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Kühtrieb/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Leite/">Leite</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Leite/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Melbenring/">Melbenring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Melbenring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuhausen/">Neuhausen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Mittelgrundstraße/">Mittelgrundstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Mittelgrundstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuhausen/">Neuhausen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Mittelgrundweg/">Mittelgrundweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Mittelgrundweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Mittelleite/">Mittelleite</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Mittelleite/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Mittelweg/">Mittelweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Mittelweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Oberer_Kulm/">Oberer Kulm</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Oberer_Kulm/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Pfarrer-Maas-Weg/">Pfarrer-Maas-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Pfarrer-Maas-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Pfarrer-Schöller-Ring/">Pfarrer-Schöller-Ring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Pfarrer-Schöller-Ring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuhausen/">Neuhausen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Rödernstraße/">Rödernstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Rödernstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Rote_Marter/">Rote Marter</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Rote_Marter/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Schindsgasse/">Schindsgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Schindsgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Seeweg/">Seeweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Seeweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Spielleite/">Spielleite</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Spielleite/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Steinbruchweg/">Steinbruchweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Steinbruchweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Steinbühlweg/">Steinbühlweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Steinbühlweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Weinberge/">Weinberge</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Weinberge/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Weißbergstraße/">Weißbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Weißbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuhausen/">Neuhausen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Weißmühle/">Weißmühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Weißmühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/"><strong>PLZ Priesendorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuhausen/">Neuhausen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Zum_Hunsrück/">Zum Hunsrück</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96170/">96170</a></td>
+<td><a href="https://plzplz.de/PLZ_Priesendorf/Zum_Hunsrück/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.006 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

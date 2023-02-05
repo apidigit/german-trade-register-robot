@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 85447 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="85447, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 85447 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 85447">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_85447/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 85447 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="85447" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Asbacherhütte/" title="PLZ Asbacherhütte"><strong>PLZ Asbacherhütte</strong></a>|<a href="https://plzplz.de/PLZ_Busch/" title="PLZ Busch"><strong>PLZ Busch</strong></a>|<a href="https://plzplz.de/PLZ_Dorf-Güll/" title="PLZ Dorf-Güll"><strong>PLZ Dorf-Güll</strong></a>|<a href="https://plzplz.de/PLZ_Dreckenach/" title="PLZ Dreckenach"><strong>PLZ Dreckenach</strong></a>|<a href="https://plzplz.de/PLZ_Eicks/" title="PLZ Eicks"><strong>PLZ Eicks</strong></a>|<a href="https://plzplz.de/PLZ_Espermühle/" title="PLZ Espermühle"><strong>PLZ Espermühle</strong></a>|<a href="https://plzplz.de/PLZ_Etzenbach/" title="PLZ Etzenbach"><strong>PLZ Etzenbach</strong></a>|<a href="https://plzplz.de/PLZ_Grasleben/" title="PLZ Grasleben"><strong>PLZ Grasleben</strong></a>|<a href="https://plzplz.de/PLZ_Haidenberg/" title="PLZ Haidenberg"><strong>PLZ Haidenberg</strong></a>|<a href="https://plzplz.de/PLZ_Haunreut/" title="PLZ Haunreut"><strong>PLZ Haunreut</strong></a>|<a href="https://plzplz.de/PLZ_Holzmichl/" title="PLZ Holzmichl"><strong>PLZ Holzmichl</strong></a>|<a href="https://plzplz.de/PLZ_Hüllstederfeld/" title="PLZ Hüllstederfeld"><strong>PLZ Hüllstederfeld</strong></a>|<a href="https://plzplz.de/PLZ_Kerkhofen/" title="PLZ Kerkhofen"><strong>PLZ Kerkhofen</strong></a>|<a href="https://plzplz.de/PLZ_Koldenbüttel/" title="PLZ Koldenbüttel"><strong>PLZ Koldenbüttel</strong></a>|<a href="https://plzplz.de/PLZ_Leerhafe/" title="PLZ Leerhafe"><strong>PLZ Leerhafe</strong></a>|<a href="https://plzplz.de/PLZ_Levenstorf/" title="PLZ Levenstorf"><strong>PLZ Levenstorf</strong></a>|<a href="https://plzplz.de/PLZ_Litzelkirchen/" title="PLZ Litzelkirchen"><strong>PLZ Litzelkirchen</strong></a>|<a href="https://plzplz.de/PLZ_Medelby/" title="PLZ Medelby"><strong>PLZ Medelby</strong></a>|<a href="https://plzplz.de/PLZ_Mitterfelden/" title="PLZ Mitterfelden"><strong>PLZ Mitterfelden</strong></a>|<a href="https://plzplz.de/PLZ_Muckenlochsmühle/" title="PLZ Muckenlochsmühle"><strong>PLZ Muckenlochsmühle</strong></a>|<a href="https://plzplz.de/PLZ_Oberroning/" title="PLZ Oberroning"><strong>PLZ Oberroning</strong></a>|<a href="https://plzplz.de/PLZ_Obersteina/" title="PLZ Obersteina"><strong>PLZ Obersteina</strong></a>|<a href="https://plzplz.de/PLZ_Orsoy/" title="PLZ Orsoy"><strong>PLZ Orsoy</strong></a>|<a href="https://plzplz.de/PLZ_Plankorth/" title="PLZ Plankorth"><strong>PLZ Plankorth</strong></a>|<a href="https://plzplz.de/PLZ_Praßreut/" title="PLZ Praßreut"><strong>PLZ Praßreut</strong></a>|<a href="https://plzplz.de/PLZ_Pretzabruck/" title="PLZ Pretzabruck"><strong>PLZ Pretzabruck</strong></a>|<a href="https://plzplz.de/PLZ_Quittelsdorf/" title="PLZ Quittelsdorf"><strong>PLZ Quittelsdorf</strong></a>|<a href="https://plzplz.de/PLZ_Rödingen/" title="PLZ Rödingen"><strong>PLZ Rödingen</strong></a>|<a href="https://plzplz.de/PLZ_Rückers/" title="PLZ Rückers"><strong>PLZ Rückers</strong></a>|<a href="https://plzplz.de/PLZ_Schlingshöhe/" title="PLZ Schlingshöhe"><strong>PLZ Schlingshöhe</strong></a>|<a href="https://plzplz.de/PLZ_Steimker_Gärten/" title="PLZ Steimker Gärten"><strong>PLZ Steimker Gärten</strong></a>|<a href="https://plzplz.de/PLZ_Tauchersdorf/" title="PLZ Tauchersdorf"><strong>PLZ Tauchersdorf</strong></a>|<a href="https://plzplz.de/PLZ_Ventschau/" title="PLZ Ventschau"><strong>PLZ Ventschau</strong></a>|<a href="https://plzplz.de/PLZ_Winkelhof/" title="PLZ Winkelhof"><strong>PLZ Winkelhof</strong></a>|<a href="https://plzplz.de/PLZ_Zescha/" title="PLZ Zescha"><strong>PLZ Zescha</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 85447</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Maria_Thalheim/">Maria Thalheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Am_Berg/">Am Berg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Am_Berg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Am_Fehlbach/">Am Fehlbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Am_Fehlbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Riding/">Riding</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Am_Geißberg/">Am Geißberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Am_Geißberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Am_Graben/">Am Graben</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Am_Graben/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Maria_Thalheim/">Maria Thalheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Am_Hochfeld/">Am Hochfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Am_Hochfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Maria_Thalheim/">Maria Thalheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Am_Hollerbusch/">Am Hollerbusch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Am_Hollerbusch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Am_Kindergarten/">Am Kindergarten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Am_Kindergarten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Maria_Thalheim/">Maria Thalheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Am_Marienbach/">Am Marienbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Am_Marienbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reichenkirchen/">Reichenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Am_Weiher/">Am Weiher</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Am_Weiher/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tittenkofen/">Tittenkofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/An_der_Erdinger_Straße/">An der Erdinger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/An_der_Erdinger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reichenkirchen/">Reichenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/An_der_Rosenbreite/">An der Rosenbreite</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/An_der_Rosenbreite/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Anglsbruck/">Anglsbruck</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Angelsbruck/">Angelsbruck</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Angelsbruck/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tittenkofen/">Tittenkofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Angerstraße/">Angerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Angerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reichenkirchen/">Reichenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Auenstraße/">Auenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Auenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bachham/">Bachham</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Bachham/">Bachham</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Bachham/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Bachhamer_Straße/">Bachhamer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Bachhamer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grucking/">Grucking</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Baderstraße/">Baderstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Baderstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Riding/">Riding</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Baumberger_Straße/">Baumberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Baumberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bergham/">Bergham</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Bergham/">Bergham</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Bergham/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tittenkofen/">Tittenkofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Bergstraße/">Bergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Bergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tittenkofen/">Tittenkofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Birkenweg/">Birkenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Birkenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reichenkirchen/">Reichenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Christian-Jorhan-Straße/">Christian-Jorhan-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Christian-Jorhan-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Maria_Thalheim/">Maria Thalheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Dickenaustraße/">Dickenaustraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Dickenaustraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grucking/">Grucking</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Dorfstraße/">Dorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Dorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Eck/">Eck</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Eck/">Eck</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Eck/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Edersberg/">Edersberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Edersberg/">Edersberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Edersberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Maria_Thalheim/">Maria Thalheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Egartweg/">Egartweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Egartweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Endham/">Endham</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Endham/">Endham</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Endham/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Erdinger_Straße/">Erdinger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Erdinger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Erlenweg/">Erlenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Erlenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Maria_Thalheim/">Maria Thalheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Eschbachstraße/">Eschbachstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Eschbachstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Felben/">Felben</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Felben/">Felben</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Felben/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grucking/">Grucking</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Feldstraße/">Feldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Feldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Fischerstraße/">Fischerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Fischerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Flurstraße/">Flurstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Flurstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Forach/">Forach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Forach/">Forach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Forach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Frankendorf/">Frankendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Frankendorf/">Frankendorf</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Frankendorf/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Furthmühle/">Furthmühle</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Furthmühle/">Furthmühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Furthmühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Gartenstraße/">Gartenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Gartenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tittenkofen/">Tittenkofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Gerichtsstraße/">Gerichtsstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Gerichtsstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gigling/">Gigling</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Gigling/">Gigling</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Gigling/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grafing/">Grafing</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Grafing/">Grafing</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Grafing/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reichenkirchen/">Reichenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Grafinger_Straße/">Grafinger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Grafinger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großhündlbach/">Großhündlbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Großhündlbach/">Großhündlbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Großhündlbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großstürzlham/">Großstürzlham</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Großstürzlham/">Großstürzlham</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Großstürzlham/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grub/">Grub</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Grub/">Grub</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Grub/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grün/">Grün</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Grün/">Grün</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Grün/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hainthal/">Hainthal</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Hainthal/">Hainthal</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Hainthal/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Harham/">Harham</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Harham/">Harham</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Harham/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hatting/">Hatting</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Hatting/">Hatting</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Hatting/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reichenkirchen/">Reichenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Hauptstraße/">Hauptstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Hauptstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Helling/">Helling</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Helling/">Helling</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Helling/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hinterbaumberg/">Hinterbaumberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Hinterbaumberg/">Hinterbaumberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Hinterbaumberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Hochstraße/">Hochstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Hochstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Holz/">Holz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Holz/">Holz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Holz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reichenkirchen/">Reichenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Holzstraße/">Holzstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Holzstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tittenkofen/">Tittenkofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Im_Tal/">Im Tal</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Im_Tal/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Maria_Thalheim/">Maria Thalheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Jakob-Zeilmeier-Weg/">Jakob-Zeilmeier-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Jakob-Zeilmeier-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Maria_Thalheim/">Maria Thalheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Kastulus-Graßl-Straße/">Kastulus-Graßl-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Kastulus-Graßl-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reichenkirchen/">Reichenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Keltenstraße/">Keltenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Keltenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kemoding/">Kemoding</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Kemoding/">Kemoding</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Kemoding/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Riding/">Riding</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Kirchfeldstraße/">Kirchfeldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Kirchfeldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reichenkirchen/">Reichenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Kirchplatz/">Kirchplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Kirchplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grucking/">Grucking</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Kirchstraße/">Kirchstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Kirchstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Maria_Thalheim/">Maria Thalheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Klausenstraße/">Klausenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Klausenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kleinhündlbach/">Kleinhündlbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Kleinhündlbach/">Kleinhündlbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Kleinhündlbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kleinstürzlham/">Kleinstürzlham</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Kleinstürzlham/">Kleinstürzlham</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Kleinstürzlham/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kleinthalheim/">Kleinthalheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Kleinthalheim/">Kleinthalheim</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Kleinthalheim/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Maria_Thalheim/">Maria Thalheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Kleinthalheimer_Straße/">Kleinthalheimer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Kleinthalheimer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grucking/">Grucking</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Kreisstraße/">Kreisstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Kreisstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Kunigundenweg/">Kunigundenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Kunigundenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lohkirchen/">Lohkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Lohkirchen/">Lohkirchen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Lohkirchen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Loodermoos/">Loodermoos</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Loodermoos/">Loodermoos</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Loodermoos/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Riding/">Riding</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Mühlenstraße/">Mühlenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Mühlenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reichenkirchen/">Reichenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Niedermühlstraße/">Niedermühlstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Niedermühlstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Maria_Thalheim/">Maria Thalheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Nußbaumstraße/">Nußbaumstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Nußbaumstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Nußhölzlweg/">Nußhölzlweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Nußhölzlweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Oberbierbach/">Oberbierbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Oberbierbach/">Oberbierbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Oberbierbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Riding/">Riding</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Pesenlerner_Straße/">Pesenlerner Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Pesenlerner_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reichenkirchen/">Reichenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Pfarrer-Krimmer-Weg/">Pfarrer-Krimmer-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Pfarrer-Krimmer-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pillkofen/">Pillkofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Pillkofen/">Pillkofen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Pillkofen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rappoltskirchen/">Rappoltskirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Rappoltskirchen/">Rappoltskirchen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Rappoltskirchen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Rathausplatz/">Rathausplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Rathausplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reichenkirchen/">Reichenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Rihhostraße/">Rihhostraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Rihhostraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tittenkofen/">Tittenkofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Römerstraße/">Römerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Römerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sandberg/">Sandberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Sandberg/">Sandberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Sandberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Maria_Thalheim/">Maria Thalheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Sandfalterstraße/">Sandfalterstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Sandfalterstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Schloßstraße/">Schloßstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Schloßstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Riding/">Riding</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Schmidfeldstraße/">Schmidfeldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Schmidfeldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Schulstraße/">Schulstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Schulstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Siedlungsstraße/">Siedlungsstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Siedlungsstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Sifridusstraße/">Sifridusstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Sifridusstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Singlding/">Singlding</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Singlding/">Singlding</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Singlding/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grucking/">Grucking</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Sonnenfeldstraße/">Sonnenfeldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Sonnenfeldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grucking/">Grucking</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Spathaweg/">Spathaweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Spathaweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/St.-Florian-Straße/">St.-Florian-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/St.-Florian-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reichenkirchen/">Reichenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/St.-Michael-Straße/">St.-Michael-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/St.-Michael-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reichenkirchen/">Reichenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/St.-Michael-Weg/">St.-Michael-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/St.-Michael-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Maria_Thalheim/">Maria Thalheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Stieglweg/">Stieglweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Stieglweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Strogenstraße/">Strogenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Strogenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tittenkofen/">Tittenkofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Südstraße/">Südstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Südstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Riding/">Riding</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Thalheimer_Straße/">Thalheimer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Thalheimer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grucking/">Grucking</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Tittenkofner_Feld/">Tittenkofner Feld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Tittenkofner_Feld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Unterbierbach/">Unterbierbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Unterbierbach/">Unterbierbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Unterbierbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Urtl/">Urtl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Urtl/">Urtl</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Urtl/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Vorderbaumberg/">Vorderbaumberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Vorderbaumberg/">Vorderbaumberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Vorderbaumberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Walburgaweg/">Walburgaweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Walburgaweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Riding/">Riding</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Wartenberger_Straße/">Wartenberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Wartenberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weg/">Weg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Weg/">Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Wittilostraße/">Wittilostraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Wittilostraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reichenkirchen/">Reichenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Zehmerstraße/">Zehmerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Zehmerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/"><strong>PLZ Fraunberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Ziegelweg/">Ziegelweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85447/">85447</a></td>
+<td><a href="https://plzplz.de/PLZ_Fraunberg/Ziegelweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.006 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

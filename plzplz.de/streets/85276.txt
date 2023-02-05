@@ -1,0 +1,474 @@
+Am Hagberg
+Am Hang
+Am Rain
+Anger
+Aventinusstraße
+Avisgrund
+Brunnenstraße
+Carl-Orff-Straße
+Dr.-Wirzmüller-Straße
+Eckfeldweg
+Feldmühle
+Georgshöhe
+Gießenbachstraße
+Hauptstraße
+Hittostraße
+Ilmgrund
+Ilmweg
+Jahnhöhe
+Kreuzberg
+Langer Riegel
+Logenweg
+Maiszell
+Mittelweg
+Mühlweg
+Münchener Straße
+Münchner Straße
+Posthof
+Posthofstraße
+Schaufelstiel
+Schefflerring
+Scheyerer Straße
+Sperl-Ring
+Waldspielplatz
+Waldweg
+Washof
+Washofstraße
+Webling
+Weblinger Feld
+Weinbergstraße
+Zeughausstraße
+Adlerskron
+Adolf-Rebl-Straße
+Ahornring
+Alexander-von-Humboldt-Straße
+Alte Dorfstraße
+Altenstadt
+Alter Mühlweg
+Altkaslehen
+Am Bach
+Am Berg
+Am Dorfplatz
+Am Gerlet
+Am Hang
+Am Hügel
+Am Kirendl
+Am Kreuzberg
+Am Längfeld
+Am Mitterfeld
+Am Rain
+Am Schmiedberg
+Am Schwarzbach
+Am Stieglacker
+Am Teich
+Am Temmelacker
+Am Wald
+Am Wehr
+Am Weiherfeld
+Am Weinberg
+Am Weingarten
+Am Windsteig
+Am Wirtsanger
+Am Ziegelstadel
+Ambergerweg
+Amselweg
+An der Rennbahn
+An der Weiberrast
+Angerweg
+Angkofen
+Anna-Kittenbacher-Platz
+Annabergweg
+Anton-Bruckner-Straße
+Anton-Schranz-Straße
+Auenstraße
+Auf der Höhe
+Auf der Leiten
+Augustin-Schwarz-Straße
+Äußere Moosburger Straße
+Äußere Quellengasse
+Aussiger Straße
+Bachappen
+Bachgrund
+Bahnhofstraße
+Bahnstraße
+Balthasar-Kraft-Straße
+Banater Straße
+Beethovenstraße
+Berghofstraße
+Bergleite
+Bergstraße
+Bergweg
+Bertolt-Brecht-Straße
+Birkengrund
+Birkenstraße
+Bischof-Buchberger-Platz
+Bischof-Meiser-Straße
+Bistumerweg
+Blumenstraße
+Breslauer Straße
+Brunhuberweg
+Brunnhof
+Buchenstraße
+Buchhof
+Buchscharnweg
+Bugscharrn
+Burgbergweg
+Bürgermeister-Stocker-Straße
+Burgfriedenstraße
+Burggraben
+Christoph-Probst-Straße
+Crammerstraße
+Danziger Straße
+Dekan-Auer-Straße
+Derbystraße
+Dieselstraße
+Dinkelweg
+Doderhof
+Dorfstraße
+Dr.-Bergmeister-Straße
+Dr.-Hans-Eisenmann-Straße
+Dr.-Hans-Müller-Ring
+Dr.-Ludwig-Zamenhof-Straße
+Dr.-Scharl-Straße
+Draht
+Ebenhof
+Eberstettener Straße
+Eberstettener Weg
+Eckersberg
+Eckersberg
+Egerländer Straße
+Ehrenberger Straße
+Eichendorffstraße
+Eichengrund
+Eichenweg
+Einkornweg
+Einödshof
+Eja
+Emmerweg
+Enthofstraße
+Erich-Kästner-Straße
+Erlenstraße
+Erlmühlweg
+Eutenhofen
+Eutenhofener Weg
+Fällhofstraße
+Färberstraße
+Fasanenweg
+Fichtelstraße
+Fichtenstraße
+Finkenweg
+Fischerhütte
+Flachsbogen
+Fliederstraße
+Föhrenstraße
+Forlesbrunnweg
+Förnbach
+Förnbachstraße
+Frauenstraße
+Frechmühle
+Fuchsberg
+Fünfkirchner Straße
+Fürholzen
+Gabis
+Ganghoferstraße
+Gartenstraße
+Geisenfelder Straße
+Geisenhausener Straße
+Georg-Hipp-Straße
+Gerhart-Hauptmann-Straße
+Gerstenstraße
+Geschwister-Scholl-Straße
+Ginsterstraße
+Gittenbach
+Gleiwitzer Straße
+Glogauer Straße
+Gnesener Straße
+Göbelsbach
+Göbelsbacher Straße
+Goetheallee
+Görlitzer Straße
+Grabengasse
+Grabmeirstraße
+Griesbach
+Gritschstraße
+Grubhof
+Grünwies
+Gumpersdorf
+Gundamsried
+Gutenbergstraße
+Hans-Demmelmeier-Straße
+Hans-Kohlmann-Straße
+Harderweg
+Harrerberg
+Hauptplatz
+Haydnring
+Heindlstraße
+Heinrich-Böll-Straße
+Heinrich-Streidl-Straße
+Heinrich-von-Kleist-Straße
+Heißmanning
+Hermann-Hesse-Straße
+Herzog-Albrecht-Straße
+Herzog-Ernst-Straße
+Herzog-Ludwig-Straße
+Herzog-Maximilian-Straße
+Herzog-Wilhelm-Straße
+Hinterer Bergweg
+Hirseweg
+Hochstraße
+Hofberg
+Höflmaier
+Höhenstraße
+Hohenwarter Straße
+Hoher Weg
+Hohlweg
+Holunderweg
+Holzmannstraße
+Holzried
+Hopfenstraße
+Hopfenweg
+Hoppenbichlweg
+Hörlstraße
+Ilmgrund
+Ilmsiedlung
+Ilmstraße
+Ingolstädter Straße
+Insel
+Inselweg
+Jahnstraße
+Jakob-Sanwald-Straße
+Josef-Brückl-Straße
+Josef-Stemmer-Weg
+Joseph-Fraunhofer-Straße
+Joseph-Hipp-Straße
+Joseph-Maria-Lutz-Straße
+Kapellenweg
+Karl-Schwaiger-Straße
+Kellerstraße
+Kienhöfe
+Kirchberg
+Kirchengasse
+Kirchenweg
+Kirchplatz
+Kirchsteigweg
+Kirchweg
+Kirschbaumweg
+Kleineberhof
+Kleinreichertshofen
+Köglhaus
+Köhlerstraße
+Köhlhof
+Kohlstattweg
+Kohnlestraße
+Kolpingstraße
+König-Ludwig-Straße
+König-Max-Straße
+Königsberger Straße
+Kornstraße
+Krankenhausstraße
+Kreppe
+Kreutweg
+Kreuzleite
+Kreuzloh
+Kreuzmühle
+Kuglhof
+Kuglweg
+Landwirtschaftsweg
+Langenwiesen
+Lärchenweg
+Lavendelstraße
+Lebzelterstraße
+Ledererstraße
+Leindotterweg
+Leitenweg
+Leopoldstraße
+Lerchenhöhe
+Lerchenweg
+Lessingstraße
+Lettnerstraße
+Liegnitzer Straße
+Lindacher Straße
+Lindenweg
+Linsenweg
+Lohfeldstraße
+Löwenstraße
+Luckhausstraße
+Ludwig-Hirschberger-Allee
+Ludwig-Thoma-Straße
+Luitpoldstraße
+Marie-Juchacz-Straße
+Marieluise-Fleißer-Straße
+Marienstraße
+Martin-Binder-Ring
+Max-Grabmair-Straße
+Max-Weinberger-Straße
+Menzenbach
+Menzenpriel
+Mesnergasse
+Michael-Weingartner-Straße
+Moosburger Straße
+Mozartstraße
+Mühlbachweg
+Mühlweg
+Müllerweg
+Münchener Straße
+Münchener Vormarkt
+Murhammerstraße
+Nagelstraße
+Nelly-Sachs-Straße
+Neuer Mühlweg
+Neuhäusler
+Niederscheyerer Straße
+Niederscheyerer Straße
+Nikolaistraße
+Nussergäßchen
+Obere Stadtmauer
+Obere Wiesen
+Oberfeldweg
+Oberhofstraße
+Obermühlweg
+Oskar-Maria-Graf-Straße
+Otto-Hahn-Straße
+Otto-Wels-Straße
+Pallertshausen
+Pappelweg
+Pater-Rupert-Mayer-Straße
+Pechleite
+Pernzhof
+Pettenkoferstraße
+Pfarrer-Frommeld-Straße
+Platzl
+Pörnbacher Straße
+Portenschlagerweg
+Posener Straße
+Posthofstraße
+Poststraße
+Professor-Stock-Straße
+Quellengasse
+Radlberg
+Radlhöfe
+Radlweg
+Raiffeisenstraße
+Raitbacher Weg
+Rebenweg
+Reichenberger Straße
+Reindlstraße
+Richard-Strauss-Straße
+Richard-Wagner-Straße
+Riebergweg
+Riederweg
+Riedhof
+Riegelstraße
+Riesengebirgsweg
+Ringstraße
+Robert-Schumann-Straße
+Rohrer Weg
+Rosenstraße
+Rosenweg
+Rot-Kreuz-Straße
+Saazer Straße
+Sägmühle
+Saigenwies
+Saliterstraße
+Samhofstraße
+Sanddornstraße
+Schabenberg
+Schäfflerstraße
+Schallerweg
+Scheyerer Straße
+Scheyerer Weg
+Schießstätte
+Schillerring
+Schindelhauserweg
+Schirmbeckstraße
+Schlachthofstraße
+Schlehenhag
+Schleiferberg
+Schleiferbergsiedlung
+Schleiferweg
+Schlichtstraße
+Schloßstraße
+Schmädelstraße
+Schmellerstraße
+Schöllberg
+Schönblick
+Schrenkstraße
+Schrobenhausener Straße
+Schubertstraße
+Schulstraße
+Schützenstraße
+Schwalbenweg
+Schweitenkirchener Straße
+Seitzweg
+Senefelderstraße
+Seugen
+Siebenecken
+Siedlung
+Sonnenblumenweg
+Sonnenhang
+Sonnenstraße
+Sparkassenplatz
+Spitalstraße
+St.-Andreas-Straße
+St.-Barbara-Straße
+St.-Michaels-Weg
+St.-Wendelin-Straße
+Stadtgraben
+Stettbergstraße
+Stettiner Straße
+Straßhofer Straße
+Straßleite
+Streitdorf
+Streitdorfer Straße
+Sudetenstraße
+Sulkystraße
+Sulzbach
+Sulzbacher Straße
+Tafelmayrstraße
+Tal
+Tannenstraße
+Tegernbacher Straße
+Thalhof
+Thallerstraße
+Theresienstraße
+Thomas-Mann-Straße
+Tilsiter Weg
+Troppauer Straße
+Türltorstraße
+Untere Stadtmauer
+Unterfeldweg
+Unthofstraße
+Uttenhofen
+Uttenhofener Straße
+Vogelleite
+Wagnerweg
+Waldring
+Waldweg
+Walkersbach
+Wallnerstraße
+Wannerspergerstraße
+Wasenstatt
+Weidenstraße
+Weiherer Straße
+Weihern
+Weinbergweg
+Weingarten
+Weinstraße
+Weißdornweg
+Weite Gasse
+Wendenstraße
+Weyern
+Wiesengrund
+Wimmerweg
+Wittelsbacherstraße
+Wolfgang-Borchert-Straße
+Wolfsberg
+Wolfsberger Straße
+Wolfstraße
+Ziegelkreppenweg
+Ziegelstraße
+Zierlmühle
+Zum Annesberg
+Zum Staberl
+Zur Mühle
+Zweckhof

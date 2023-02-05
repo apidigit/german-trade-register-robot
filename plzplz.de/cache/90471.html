@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 90471 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="90471, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 90471 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 90471">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_90471/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 90471 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="90471" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Amsham/" title="PLZ Amsham"><strong>PLZ Amsham</strong></a>|<a href="https://plzplz.de/PLZ_Belmsdorf/" title="PLZ Belmsdorf"><strong>PLZ Belmsdorf</strong></a>|<a href="https://plzplz.de/PLZ_Bermatingen/" title="PLZ Bermatingen"><strong>PLZ Bermatingen</strong></a>|<a href="https://plzplz.de/PLZ_Breiten/" title="PLZ Breiten"><strong>PLZ Breiten</strong></a>|<a href="https://plzplz.de/PLZ_Bretzenacker/" title="PLZ Bretzenacker"><strong>PLZ Bretzenacker</strong></a>|<a href="https://plzplz.de/PLZ_Demmingen/" title="PLZ Demmingen"><strong>PLZ Demmingen</strong></a>|<a href="https://plzplz.de/PLZ_Döschnitz/" title="PLZ Döschnitz"><strong>PLZ Döschnitz</strong></a>|<a href="https://plzplz.de/PLZ_Golmenglin/" title="PLZ Golmenglin"><strong>PLZ Golmenglin</strong></a>|<a href="https://plzplz.de/PLZ_Haunstein/" title="PLZ Haunstein"><strong>PLZ Haunstein</strong></a>|<a href="https://plzplz.de/PLZ_Heckenwies/" title="PLZ Heckenwies"><strong>PLZ Heckenwies</strong></a>|<a href="https://plzplz.de/PLZ_Hessenburg/" title="PLZ Hessenburg"><strong>PLZ Hessenburg</strong></a>|<a href="https://plzplz.de/PLZ_Inderbogen/" title="PLZ Inderbogen"><strong>PLZ Inderbogen</strong></a>|<a href="https://plzplz.de/PLZ_Innthal/" title="PLZ Innthal"><strong>PLZ Innthal</strong></a>|<a href="https://plzplz.de/PLZ_Kleine_Strohe/" title="PLZ Kleine Strohe"><strong>PLZ Kleine Strohe</strong></a>|<a href="https://plzplz.de/PLZ_Kleinholscha/" title="PLZ Kleinholscha"><strong>PLZ Kleinholscha</strong></a>|<a href="https://plzplz.de/PLZ_Laufmühle/" title="PLZ Laufmühle"><strong>PLZ Laufmühle</strong></a>|<a href="https://plzplz.de/PLZ_Lemberg/" title="PLZ Lemberg"><strong>PLZ Lemberg</strong></a>|<a href="https://plzplz.de/PLZ_Mengersdorf/" title="PLZ Mengersdorf"><strong>PLZ Mengersdorf</strong></a>|<a href="https://plzplz.de/PLZ_Motrich/" title="PLZ Motrich"><strong>PLZ Motrich</strong></a>|<a href="https://plzplz.de/PLZ_Nienover/" title="PLZ Nienover"><strong>PLZ Nienover</strong></a>|<a href="https://plzplz.de/PLZ_Pfannstiel/" title="PLZ Pfannstiel"><strong>PLZ Pfannstiel</strong></a>|<a href="https://plzplz.de/PLZ_Riggau/" title="PLZ Riggau"><strong>PLZ Riggau</strong></a>|<a href="https://plzplz.de/PLZ_Schattin/" title="PLZ Schattin"><strong>PLZ Schattin</strong></a>|<a href="https://plzplz.de/PLZ_Schiepzig/" title="PLZ Schiepzig"><strong>PLZ Schiepzig</strong></a>|<a href="https://plzplz.de/PLZ_Schlad/" title="PLZ Schlad"><strong>PLZ Schlad</strong></a>|<a href="https://plzplz.de/PLZ_Sollschwitz/" title="PLZ Sollschwitz"><strong>PLZ Sollschwitz</strong></a>|<a href="https://plzplz.de/PLZ_Steinshof/" title="PLZ Steinshof"><strong>PLZ Steinshof</strong></a>|<a href="https://plzplz.de/PLZ_Südsee-Camp/" title="PLZ Südsee-Camp"><strong>PLZ Südsee-Camp</strong></a>|<a href="https://plzplz.de/PLZ_Teufelstein/" title="PLZ Teufelstein"><strong>PLZ Teufelstein</strong></a>|<a href="https://plzplz.de/PLZ_Thürk/" title="PLZ Thürk"><strong>PLZ Thürk</strong></a>|<a href="https://plzplz.de/PLZ_Tunzenberg/" title="PLZ Tunzenberg"><strong>PLZ Tunzenberg</strong></a>|<a href="https://plzplz.de/PLZ_Unterohrn/" title="PLZ Unterohrn"><strong>PLZ Unterohrn</strong></a>|<a href="https://plzplz.de/PLZ_Wallenstein/" title="PLZ Wallenstein"><strong>PLZ Wallenstein</strong></a>|<a href="https://plzplz.de/PLZ_Weißenborn/" title="PLZ Weißenborn"><strong>PLZ Weißenborn</strong></a>|<a href="https://plzplz.de/PLZ_Wilhelmsfeld/" title="PLZ Wilhelmsfeld"><strong>PLZ Wilhelmsfeld</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 90471</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Alfred-Graf-Weg/">Alfred-Graf-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Alfred-Graf-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dutzendteich/">Dutzendteich</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Alfred-Hensel-Weg/">Alfred-Hensel-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Alfred-Hensel-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Am_Zollhaus/">Am Zollhaus</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Am_Zollhaus/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Annette-Kolb-Straße/">Annette-Kolb-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Annette-Kolb-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/August-Sieghardt-Straße/">August-Sieghardt-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/August-Sieghardt-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zollhaus/">Zollhaus</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Bauernfeindstraße/">Bauernfeindstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Bauernfeindstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Bayernstraße/">Bayernstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Bayernstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Bertolt-Brecht-Straße/">Bertolt-Brecht-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Bertolt-Brecht-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Bettelheimstraße/">Bettelheimstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Bettelheimstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Beuthener_Straße/">Beuthener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Beuthener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Brauneckweg/">Brauneckweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Brauneckweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Breslauer_Straße/">Breslauer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Breslauer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Brieger_Straße/">Brieger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Brieger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dutzendteich/">Dutzendteich</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Campingplatz/">Campingplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Campingplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Carossaweg/">Carossaweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Carossaweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zollhaus/">Zollhaus</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Ebermayerstraße/">Ebermayerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Ebermayerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Elisabeth-Nägelsbach-Weg/">Elisabeth-Nägelsbach-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Elisabeth-Nägelsbach-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Erich-Kästner-Weg/">Erich-Kästner-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Erich-Kästner-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Euckenweg/">Euckenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Euckenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Frank-Wedekind-Straße/">Frank-Wedekind-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Frank-Wedekind-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zollhaus/">Zollhaus</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Friedrich-List-Weg/">Friedrich-List-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Friedrich-List-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zollhaus/">Zollhaus</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Gleißnerplatz/">Gleißnerplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Gleißnerplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Groß-Strehlitzer-Straße/">Groß-Strehlitzer-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Groß-Strehlitzer-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Grüntenweg/">Grüntenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Grüntenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Hans-Fallada-Straße/">Hans-Fallada-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Hans-Fallada-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Stadion/">Stadion</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Hans-Kalb-Straße/">Hans-Kalb-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Hans-Kalb-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Herbert-Hisel-Weg/">Herbert-Hisel-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Herbert-Hisel-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Herta-Künzel-Straße/">Herta-Künzel-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Herta-Künzel-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Herzogstandstraße/">Herzogstandstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Herzogstandstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Hochgernstraße/">Hochgernstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Hochgernstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Hochkalterstraße/">Hochkalterstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Hochkalterstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Hochvogelring/">Hochvogelring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Hochvogelring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Höfatsweg/">Höfatsweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Höfatsweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zollhaus/">Zollhaus</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Im_Erdwinkel/">Im Erdwinkel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Im_Erdwinkel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zollhaus/">Zollhaus</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Jupiterwinkel/">Jupiterwinkel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Jupiterwinkel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Kafkastraße/">Kafkastraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Kafkastraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Karl-Schönleben-Straße/">Karl-Schönleben-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Karl-Schönleben-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Stadion/">Stadion</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Karl-Steigelmann-Straße/">Karl-Steigelmann-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Karl-Steigelmann-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Karwendelstraße/">Karwendelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Karwendelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Kerschensteinerstraße/">Kerschensteinerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Kerschensteinerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zollhaus/">Zollhaus</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Klenzestraße/">Klenzestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Klenzestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Korczakweg/">Korczakweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Korczakweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Kreuzburger_Straße/">Kreuzburger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Kreuzburger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Stadion/">Stadion</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Kurt-Leucht-Weg/">Kurt-Leucht-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Kurt-Leucht-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Stadion/">Stadion</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Kurt-Schmidtpeter-Weg/">Kurt-Schmidtpeter-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Kurt-Schmidtpeter-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Leonhard-Heiden-Straße/">Leonhard-Heiden-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Leonhard-Heiden-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Lina-Ammon-Straße/">Lina-Ammon-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Lina-Ammon-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Löwensteinstraße/">Löwensteinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Löwensteinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Lübener_Straße/">Lübener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Lübener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zollhaus/">Zollhaus</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Ludwig-Imhof-Weg/">Ludwig-Imhof-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Ludwig-Imhof-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Makarenkostraße/">Makarenkostraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Makarenkostraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Maria-Haas-Straße/">Maria-Haas-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Maria-Haas-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zollhaus/">Zollhaus</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Marsweg/">Marsweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Marsweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zollhaus/">Zollhaus</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Matthäus-Herrmann-Platz/">Matthäus-Herrmann-Platz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Matthäus-Herrmann-Platz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Max-Brod-Straße/">Max-Brod-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Max-Brod-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Max-Grundig-Platz/">Max-Grundig-Platz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Max-Grundig-Platz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Stadion/">Stadion</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Max-Morlock-Platz/">Max-Morlock-Platz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Max-Morlock-Platz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Messezentrum/">Messezentrum</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Messezentrum/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Montessoristraße/">Montessoristraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Montessoristraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Münchener_Straße/">Münchener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Münchener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Nebelhornring/">Nebelhornring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Nebelhornring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Neillstraße/">Neillstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Neillstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zollhaus/">Zollhaus</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Neptunweg/">Neptunweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Neptunweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuselsbrunn/">Neuselsbrunn</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Neuselsbrunn/">Neuselsbrunn</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Neuselsbrunn/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dutzendteich/">Dutzendteich</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Otto-Bärnreuther-Straße/">Otto-Bärnreuther-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Otto-Bärnreuther-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zollhaus/">Zollhaus</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Paulistraße/">Paulistraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Paulistraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zollhaus/">Zollhaus</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Planetenring/">Planetenring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Planetenring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Poststraße/">Poststraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Poststraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Rauschbergweg/">Rauschbergweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Rauschbergweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zollhaus/">Zollhaus</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Reisstraße/">Reisstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Reisstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Ricarda-Huch-Straße/">Ricarda-Huch-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Ricarda-Huch-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zollhaus/">Zollhaus</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Richard-Benzinger-Weg/">Richard-Benzinger-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Richard-Benzinger-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Robert-Schedl-Weg/">Robert-Schedl-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Robert-Schedl-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zollhaus/">Zollhaus</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Röcklstraße/">Röcklstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Röcklstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zollhaus/">Zollhaus</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Romigstraße/">Romigstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Romigstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Rosenberger_Straße/">Rosenberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Rosenberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zollhaus/">Zollhaus</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Rüberstraße/">Rüberstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Rüberstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zollhaus/">Zollhaus</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Saturnweg/">Saturnweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Saturnweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Scharfreiterring/">Scharfreiterring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Scharfreiterring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Schneefernerring/">Schneefernerring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Schneefernerring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zollhaus/">Zollhaus</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Schnorrstraße/">Schnorrstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Schnorrstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zollhaus/">Zollhaus</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Sonnenstraße/">Sonnenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Sonnenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Stuibenweg/">Stuibenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Stuibenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Thomas-Mann-Straße/">Thomas-Mann-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Thomas-Mann-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Tucholskystraße/">Tucholskystraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Tucholskystraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Untersbergstraße/">Untersbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Untersbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Ursula-Wolfring-Straße/">Ursula-Wolfring-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Ursula-Wolfring-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Watzmannstraße/">Watzmannstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Watzmannstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Wettersteinstraße/">Wettersteinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Wettersteinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zollhaus/">Zollhaus</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/William-Wilson-Straße/">William-Wilson-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/William-Wilson-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zollhaus/">Zollhaus</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Zengerstraße/">Zengerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Zengerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dutzendteich/">Dutzendteich</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Zeppelinfeld_Gartenkolonie/">Zeppelinfeld Gartenkolonie</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Zeppelinfeld_Gartenkolonie/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dutzendteich/">Dutzendteich</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Zeppelinstraße/">Zeppelinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Zeppelinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Zuckmayerweg/">Zuckmayerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Zuckmayerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langwasser/">Langwasser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Zugspitzstraße/">Zugspitzstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90471/">90471</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Zugspitzstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.007 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

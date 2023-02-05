@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 85139 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="85139, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 85139 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 85139">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_85139/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 85139 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="85139" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Achslach/" title="PLZ Achslach"><strong>PLZ Achslach</strong></a>|<a href="https://plzplz.de/PLZ_Adlwarting/" title="PLZ Adlwarting"><strong>PLZ Adlwarting</strong></a>|<a href="https://plzplz.de/PLZ_Aitersteinering/" title="PLZ Aitersteinering"><strong>PLZ Aitersteinering</strong></a>|<a href="https://plzplz.de/PLZ_Altweg/" title="PLZ Altweg"><strong>PLZ Altweg</strong></a>|<a href="https://plzplz.de/PLZ_Angerl/" title="PLZ Angerl"><strong>PLZ Angerl</strong></a>|<a href="https://plzplz.de/PLZ_Bargstedt/" title="PLZ Bargstedt"><strong>PLZ Bargstedt</strong></a>|<a href="https://plzplz.de/PLZ_Berganger/" title="PLZ Berganger"><strong>PLZ Berganger</strong></a>|<a href="https://plzplz.de/PLZ_Bornhof/" title="PLZ Bornhof"><strong>PLZ Bornhof</strong></a>|<a href="https://plzplz.de/PLZ_Dinzling/" title="PLZ Dinzling"><strong>PLZ Dinzling</strong></a>|<a href="https://plzplz.de/PLZ_Fading/" title="PLZ Fading"><strong>PLZ Fading</strong></a>|<a href="https://plzplz.de/PLZ_Flammersbach/" title="PLZ Flammersbach"><strong>PLZ Flammersbach</strong></a>|<a href="https://plzplz.de/PLZ_Gommersheim/" title="PLZ Gommersheim"><strong>PLZ Gommersheim</strong></a>|<a href="https://plzplz.de/PLZ_Groß_Rietz/" title="PLZ Groß Rietz"><strong>PLZ Groß Rietz</strong></a>|<a href="https://plzplz.de/PLZ_Grünberg/" title="PLZ Grünberg"><strong>PLZ Grünberg</strong></a>|<a href="https://plzplz.de/PLZ_Haargassen/" title="PLZ Haargassen"><strong>PLZ Haargassen</strong></a>|<a href="https://plzplz.de/PLZ_Karwitz/" title="PLZ Karwitz"><strong>PLZ Karwitz</strong></a>|<a href="https://plzplz.de/PLZ_Kavelsdorf/" title="PLZ Kavelsdorf"><strong>PLZ Kavelsdorf</strong></a>|<a href="https://plzplz.de/PLZ_Kühnham/" title="PLZ Kühnham"><strong>PLZ Kühnham</strong></a>|<a href="https://plzplz.de/PLZ_Langholzen/" title="PLZ Langholzen"><strong>PLZ Langholzen</strong></a>|<a href="https://plzplz.de/PLZ_Lürschau/" title="PLZ Lürschau"><strong>PLZ Lürschau</strong></a>|<a href="https://plzplz.de/PLZ_Möhrendorf/" title="PLZ Möhrendorf"><strong>PLZ Möhrendorf</strong></a>|<a href="https://plzplz.de/PLZ_Neuenbau/" title="PLZ Neuenbau"><strong>PLZ Neuenbau</strong></a>|<a href="https://plzplz.de/PLZ_Neuweiler/" title="PLZ Neuweiler"><strong>PLZ Neuweiler</strong></a>|<a href="https://plzplz.de/PLZ_Niederklütz/" title="PLZ Niederklütz"><strong>PLZ Niederklütz</strong></a>|<a href="https://plzplz.de/PLZ_Oberbibrach/" title="PLZ Oberbibrach"><strong>PLZ Oberbibrach</strong></a>|<a href="https://plzplz.de/PLZ_Oberpremrain/" title="PLZ Oberpremrain"><strong>PLZ Oberpremrain</strong></a>|<a href="https://plzplz.de/PLZ_Ramsach/" title="PLZ Ramsach"><strong>PLZ Ramsach</strong></a>|<a href="https://plzplz.de/PLZ_Reitelshofen/" title="PLZ Reitelshofen"><strong>PLZ Reitelshofen</strong></a>|<a href="https://plzplz.de/PLZ_Unterappersdorf/" title="PLZ Unterappersdorf"><strong>PLZ Unterappersdorf</strong></a>|<a href="https://plzplz.de/PLZ_Unterkotzau/" title="PLZ Unterkotzau"><strong>PLZ Unterkotzau</strong></a>|<a href="https://plzplz.de/PLZ_Vierwinden/" title="PLZ Vierwinden"><strong>PLZ Vierwinden</strong></a>|<a href="https://plzplz.de/PLZ_Wallersdorfermoos/" title="PLZ Wallersdorfermoos"><strong>PLZ Wallersdorfermoos</strong></a>|<a href="https://plzplz.de/PLZ_Weenzen/" title="PLZ Weenzen"><strong>PLZ Weenzen</strong></a>|<a href="https://plzplz.de/PLZ_Wieck_am_Darß/" title="PLZ Wieck am Darß"><strong>PLZ Wieck am Darß</strong></a>|<a href="https://plzplz.de/PLZ_Zaillach/" title="PLZ Zaillach"><strong>PLZ Zaillach</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 85139</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Echenzell/">Echenzell</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Ägidiusstraße/">Ägidiusstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Ägidiusstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Am_Adlmannsberg/">Am Adlmannsberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Am_Adlmannsberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Am_Bachl/">Am Bachl</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Am_Bachl/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Am_Berg/">Am Berg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Am_Berg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Am_Fort/">Am Fort</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Am_Fort/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Am_Grat/">Am Grat</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Am_Grat/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Am_Hasel/">Am Hasel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Am_Hasel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Am_Kreuzerbuckl/">Am Kreuzerbuckl</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Am_Kreuzerbuckl/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Am_Lohsaum/">Am Lohsaum</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Am_Lohsaum/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Am_Manterinbach/">Am Manterinbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Am_Manterinbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Am_Sportplatz/">Am Sportplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Am_Sportplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Am_Wiesfleck/">Am Wiesfleck</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Am_Wiesfleck/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/An_der_Wiege/">An der Wiege</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/An_der_Wiege/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Arndtstraße/">Arndtstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Arndtstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Asamweg/">Asamweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Asamweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Bachstraße/">Bachstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Bachstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Beethovenstraße/">Beethovenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Beethovenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Bernd-Rosemeyer-Straße/">Bernd-Rosemeyer-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Bernd-Rosemeyer-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Besenbinderstraße/">Besenbinderstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Besenbinderstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Birkenstraße/">Birkenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Birkenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Blumenstraße/">Blumenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Blumenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Echenzell/">Echenzell</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Böhmfelder_Straße/">Böhmfelder Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Böhmfelder_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Bräugasse/">Bräugasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Bräugasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Echenzell/">Echenzell</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Breitweg/">Breitweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Breitweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Bürgermeister-Fuchs-Straße/">Bürgermeister-Fuchs-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Bürgermeister-Fuchs-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Christian-Faber-Straße/">Christian-Faber-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Christian-Faber-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Dr.-Kurt-Schumacher-Ring/">Dr.-Kurt-Schumacher-Ring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Dr.-Kurt-Schumacher-Ring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Drosselweg/">Drosselweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Drosselweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Echenzeller_Straße/">Echenzeller Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Echenzeller_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Eichenstraße/">Eichenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Eichenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Eigenheimstraße/">Eigenheimstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Eigenheimstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Elsternweg/">Elsternweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Elsternweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Erlenweg/">Erlenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Erlenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Eulenweg/">Eulenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Eulenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Falkenweg/">Falkenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Falkenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Echenzell/">Echenzell</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Falterweg/">Falterweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Falterweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Fasanenweg/">Fasanenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Fasanenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Fauststraße/">Fauststraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Fauststraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Feuergalgen/">Feuergalgen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Feuergalgen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Fliederstraße/">Fliederstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Fliederstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Flurweg/">Flurweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Flurweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Frühlingstraße/">Frühlingstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Frühlingstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Echenzell/">Echenzell</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Gaimersheimer_Straße/">Gaimersheimer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Gaimersheimer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Gartenstraße/">Gartenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Gartenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Goethering/">Goethering</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Goethering/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Ilsungstraße/">Ilsungstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Ilsungstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Im_Speck/">Im Speck</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Im_Speck/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Ingolstädter_Straße/">Ingolstädter Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Ingolstädter_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Jägergasse/">Jägergasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Jägergasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Jahnstraße/">Jahnstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Jahnstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Johann-Wittmann-Straße/">Johann-Wittmann-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Johann-Wittmann-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Josef-Fleischmann-Straße/">Josef-Fleischmann-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Josef-Fleischmann-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Jurastraße/">Jurastraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Jurastraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Kanalstraße/">Kanalstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Kanalstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Karlstraße/">Karlstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Karlstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Kirchplatz/">Kirchplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Kirchplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Lange_Gasse/">Lange Gasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Lange_Gasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Leharstraße/">Leharstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Leharstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Leitenweg/">Leitenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Leitenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Lenbachstraße/">Lenbachstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Lenbachstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Lentinger_Straße/">Lentinger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Lentinger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Lerchenweg/">Lerchenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Lerchenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Lessingstraße/">Lessingstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Lessingstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Lindenweg/">Lindenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Lindenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Lönsstraße/">Lönsstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Lönsstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Ludwig-Thoma-Straße/">Ludwig-Thoma-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Ludwig-Thoma-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Ludwigstraße/">Ludwigstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Ludwigstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Martinstraße/">Martinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Martinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Max-Emanuel-Straße/">Max-Emanuel-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Max-Emanuel-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Max-Schulmeyr-Straße/">Max-Schulmeyr-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Max-Schulmeyr-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Meisenweg/">Meisenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Meisenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Mozartstraße/">Mozartstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Mozartstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Nelkenstraße/">Nelkenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Nelkenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Neubaustraße/">Neubaustraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Neubaustraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Neuhaustraße/">Neuhaustraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Neuhaustraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Nordring/">Nordring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Nordring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Oberer_Sandweg/">Oberer Sandweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Oberer_Sandweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Rackertshofener_Straße/">Rackertshofener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Rackertshofener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Reauer_Weg/">Reauer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Reauer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Regerstraße/">Regerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Regerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Römerstraße/">Römerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Römerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Rosenstraße/">Rosenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Rosenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Salvatorstraße/">Salvatorstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Salvatorstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Schelldorfer_Straße/">Schelldorfer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Schelldorfer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Schillerstraße/">Schillerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Schillerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Schubertstraße/">Schubertstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Schubertstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Schulweg/">Schulweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Schulweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Schwalbenweg/">Schwalbenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Schwalbenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Siedlungsstraße/">Siedlungsstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Siedlungsstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Sommerstraße/">Sommerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Sommerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Spatzenweg/">Spatzenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Spatzenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Sperberweg/">Sperberweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Sperberweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Sperlingweg/">Sperlingweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Sperlingweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/St.-Gangolf-Straße/">St.-Gangolf-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/St.-Gangolf-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Stammhamer_Straße/">Stammhamer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Stammhamer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Steinweg/">Steinweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Steinweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Sudetenstraße/">Sudetenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Sudetenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Südring/">Südring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Südring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Theresienstraße/">Theresienstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Theresienstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Tulpenstraße/">Tulpenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Tulpenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Ulmenstraße/">Ulmenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Ulmenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Unterer_Sandweg/">Unterer Sandweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Unterer_Sandweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Veilchenstraße/">Veilchenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Veilchenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Vorwerkstraße/">Vorwerkstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Vorwerkstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Echenzell/">Echenzell</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Waldweg/">Waldweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Waldweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Echenzell/">Echenzell</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Wettstettener_Straße/">Wettstettener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Wettstettener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Wetzogasse/">Wetzogasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Wetzogasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Wiesenweg/">Wiesenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Wiesenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Zeisigweg/">Zeisigweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Zeisigweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/"><strong>PLZ Wettstetten</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Ziegelberg/">Ziegelberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85139/">85139</a></td>
+<td><a href="https://plzplz.de/PLZ_Wettstetten/Ziegelberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.005 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

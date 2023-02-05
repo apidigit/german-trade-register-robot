@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 08459 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="08459, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 08459 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 08459">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_08459/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 08459 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="08459" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Ahmsen/" title="PLZ Ahmsen"><strong>PLZ Ahmsen</strong></a>|<a href="https://plzplz.de/PLZ_Alperting/" title="PLZ Alperting"><strong>PLZ Alperting</strong></a>|<a href="https://plzplz.de/PLZ_Bedingrade/" title="PLZ Bedingrade"><strong>PLZ Bedingrade</strong></a>|<a href="https://plzplz.de/PLZ_Bierhütte/" title="PLZ Bierhütte"><strong>PLZ Bierhütte</strong></a>|<a href="https://plzplz.de/PLZ_Buschvitz/" title="PLZ Buschvitz"><strong>PLZ Buschvitz</strong></a>|<a href="https://plzplz.de/PLZ_Dabrun/" title="PLZ Dabrun"><strong>PLZ Dabrun</strong></a>|<a href="https://plzplz.de/PLZ_Gottmannshofen/" title="PLZ Gottmannshofen"><strong>PLZ Gottmannshofen</strong></a>|<a href="https://plzplz.de/PLZ_Graben/" title="PLZ Graben"><strong>PLZ Graben</strong></a>|<a href="https://plzplz.de/PLZ_Gramling/" title="PLZ Gramling"><strong>PLZ Gramling</strong></a>|<a href="https://plzplz.de/PLZ_Groß_Elbe/" title="PLZ Groß Elbe"><strong>PLZ Groß Elbe</strong></a>|<a href="https://plzplz.de/PLZ_Halmstein/" title="PLZ Halmstein"><strong>PLZ Halmstein</strong></a>|<a href="https://plzplz.de/PLZ_Hohenböken/" title="PLZ Hohenböken"><strong>PLZ Hohenböken</strong></a>|<a href="https://plzplz.de/PLZ_Johannesbrunn/" title="PLZ Johannesbrunn"><strong>PLZ Johannesbrunn</strong></a>|<a href="https://plzplz.de/PLZ_Judentenberg/" title="PLZ Judentenberg"><strong>PLZ Judentenberg</strong></a>|<a href="https://plzplz.de/PLZ_Klein_Rodensleben/" title="PLZ Klein Rodensleben"><strong>PLZ Klein Rodensleben</strong></a>|<a href="https://plzplz.de/PLZ_Krusemarkshagen/" title="PLZ Krusemarkshagen"><strong>PLZ Krusemarkshagen</strong></a>|<a href="https://plzplz.de/PLZ_Marxzell/" title="PLZ Marxzell"><strong>PLZ Marxzell</strong></a>|<a href="https://plzplz.de/PLZ_Muthmannshofen/" title="PLZ Muthmannshofen"><strong>PLZ Muthmannshofen</strong></a>|<a href="https://plzplz.de/PLZ_Niederharthausen/" title="PLZ Niederharthausen"><strong>PLZ Niederharthausen</strong></a>|<a href="https://plzplz.de/PLZ_Pisl/" title="PLZ Pisl"><strong>PLZ Pisl</strong></a>|<a href="https://plzplz.de/PLZ_Redemitz/" title="PLZ Redemitz"><strong>PLZ Redemitz</strong></a>|<a href="https://plzplz.de/PLZ_Rimsting/" title="PLZ Rimsting"><strong>PLZ Rimsting</strong></a>|<a href="https://plzplz.de/PLZ_Rumpin/" title="PLZ Rumpin"><strong>PLZ Rumpin</strong></a>|<a href="https://plzplz.de/PLZ_Sasbachwalden/" title="PLZ Sasbachwalden"><strong>PLZ Sasbachwalden</strong></a>|<a href="https://plzplz.de/PLZ_Scharlach/" title="PLZ Scharlach"><strong>PLZ Scharlach</strong></a>|<a href="https://plzplz.de/PLZ_Schmidseidl/" title="PLZ Schmidseidl"><strong>PLZ Schmidseidl</strong></a>|<a href="https://plzplz.de/PLZ_Schnaditz/" title="PLZ Schnaditz"><strong>PLZ Schnaditz</strong></a>|<a href="https://plzplz.de/PLZ_Schwabenberg/" title="PLZ Schwabenberg"><strong>PLZ Schwabenberg</strong></a>|<a href="https://plzplz.de/PLZ_Simmerhausen/" title="PLZ Simmerhausen"><strong>PLZ Simmerhausen</strong></a>|<a href="https://plzplz.de/PLZ_Sonnleiten/" title="PLZ Sonnleiten"><strong>PLZ Sonnleiten</strong></a>|<a href="https://plzplz.de/PLZ_Stangelszell/" title="PLZ Stangelszell"><strong>PLZ Stangelszell</strong></a>|<a href="https://plzplz.de/PLZ_Südende_I/" title="PLZ Südende I"><strong>PLZ Südende I</strong></a>|<a href="https://plzplz.de/PLZ_Thomashardt/" title="PLZ Thomashardt"><strong>PLZ Thomashardt</strong></a>|<a href="https://plzplz.de/PLZ_Valley/" title="PLZ Valley"><strong>PLZ Valley</strong></a>|<a href="https://plzplz.de/PLZ_Verna/" title="PLZ Verna"><strong>PLZ Verna</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 08459</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Am_Hain/">Am Hain</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Am_Hain/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Am_Mühlgraben/">Am Mühlgraben</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Am_Mühlgraben/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Am_Sand/">Am Sand</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Am_Sand/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lauterbach/">Lauterbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Am_Schloß/">Am Schloß</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Am_Schloß/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Am_Sportplatz/">Am Sportplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Am_Sportplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dänkritz/">Dänkritz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Am_Steinberg/">Am Steinberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Am_Steinberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Am_Tannersberg/">Am Tannersberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Am_Tannersberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Am_Wiesengrund/">Am Wiesengrund</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Am_Wiesengrund/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Angerstraße/">Angerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Angerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Bahnhofstraße/">Bahnhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Bahnhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Bergallee/">Bergallee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Bergallee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lauterbach/">Lauterbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Bergstraße/">Bergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Bergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Bosenhof/">Bosenhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Bosenhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Bosenhofweg/">Bosenhofweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Bosenhofweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Brückenstraße/">Brückenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Brückenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Carl-Wolf-Siedlung/">Carl-Wolf-Siedlung</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Carl-Wolf-Siedlung/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Carthäuser_Weg/">Carthäuser Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Carthäuser_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dänkritz/">Dänkritz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Crimmitschauer_Straße/">Crimmitschauer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Crimmitschauer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Culten/">Culten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Culten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Dänkritzer_Straße/">Dänkritzer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Dänkritzer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lauterbach/">Lauterbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Dorfstraße/">Dorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Dorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Ernst-Thälmann-Straße/">Ernst-Thälmann-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Ernst-Thälmann-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Falkestraße/">Falkestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Falkestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Gartenstraße/">Gartenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Gartenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Grenzstraße/">Grenzstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Grenzstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Grenzweg/">Grenzweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Grenzweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Hainstraße/">Hainstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Hainstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Hammerstraße/">Hammerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Hammerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dänkritz/">Dänkritz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Hartmannsdorfer_Straße/">Hartmannsdorfer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Hartmannsdorfer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Hauptstraße/">Hauptstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Hauptstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Krippenberg/">Krippenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Krippenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Kurt-Große-Straße/">Kurt-Große-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Kurt-Große-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Langenreinsdorfer_Straße/">Langenreinsdorfer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Langenreinsdorfer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lauterbach/">Lauterbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Lauterbacher_Hain/">Lauterbacher Hain</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Lauterbacher_Hain/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lauterbach/">Lauterbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Lauterbacher_Hauptstraße/">Lauterbacher Hauptstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Lauterbacher_Hauptstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Lauterbacher_Straße/">Lauterbacher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Lauterbacher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Malzstraße/">Malzstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Malzstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Mannichswalder_Straße/">Mannichswalder Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Mannichswalder_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Mittelstraße/">Mittelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Mittelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Naundorfer_Straße/">Naundorfer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Naundorfer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Nordstraße/">Nordstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Nordstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Oststraße/">Oststraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Oststraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Pestalozzistraße/">Pestalozzistraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Pestalozzistraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Pleißen_Anger/">Pleißen Anger</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Pleißen_Anger/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Pleißenweg/">Pleißenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Pleißenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Poststraße/">Poststraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Poststraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Rudelswalder_Straße/">Rudelswalder Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Rudelswalder_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Schäfereiweg/">Schäfereiweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Schäfereiweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lauterbach/">Lauterbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Schänkenberg/">Schänkenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Schänkenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Schiedelhof/">Schiedelhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Schiedelhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Schiedelstraße/">Schiedelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Schiedelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Siedlung/">Siedlung</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Siedlung/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dänkritz/">Dänkritz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Talblick/">Talblick</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Talblick/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dänkritz/">Dänkritz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Talstraße/">Talstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Talstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lauterbach/">Lauterbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Tannengrund/">Tannengrund</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Tannengrund/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Vereinsstraße/">Vereinsstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Vereinsstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Werdauer_Straße/">Werdauer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Werdauer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/"><strong>PLZ Neukirchen (Pleiße)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neukirchen/">Neukirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Wiesenstraße/">Wiesenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08459/">08459</a></td>
+<td><a href="https://plzplz.de/PLZ_Neukirchen_(Pleiße)/Wiesenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.005 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

@@ -1,0 +1,533 @@
+Abt-Candidus-Straße
+Abt-Dennerlein-Straße
+Abt-Hemmerlein-Straße
+Abt-Knauer-Straße
+Abt-Mösinger-Straße
+Abt-Wolf-Straße
+Abteistraße
+Abtsberg
+Abtswiesenstraße
+Adolf-Kolping-Straße
+Akazienweg
+Albert-Schweitzer-Straße
+Albrecht-Dürer-Straße
+Allee
+Altachsberg
+Alte Bamberger Straße
+Alte Coburger Straße
+Alte Dorfstraße
+Alte Reichsstraße
+Altenbergweg
+Altendorfer Straße
+Am Ährenfeld
+Am Albertsbrunnen
+Am Ansbach
+Am Berg
+Am Boden
+Am Brand
+Am Breiten Rasen
+Am Bühl
+Am Damm
+Am Eichenwäldchen
+Am Gehring
+Am Goldberg
+Am Hahn
+Am Hang
+Am Herberg
+Am Höhlein
+Am Hohlweg
+Am Jägersbrunnen
+Am Kastenboden
+Am Kindergarten
+Am Klentsch
+Am Klosterwald
+Am Krappenberg
+Am Krebsbach
+Am Ladehof
+Am Landwehr
+Am Lauersberg
+Am Main
+Am Melm
+Am Mühlbach
+Am Paulusbrunnen
+Am Rehbrunnen
+Am Roten Hügel
+Am Sandgarten
+Am Sandhügel
+Am Schneitruff
+Am Stadtgraben
+Am Stein
+Am Steinig
+Am Taubenbrunnen
+Am Torweiher
+Am Westhang
+Amselweg
+An der Friedenslinde
+An der Hummerei
+An der Leite
+An der Moritzkappel
+An der Porzellanfabrik
+An der Rodelbahn
+An der Schwedenschanze
+An der Steinlinde
+An der Wirts
+An der Zeil
+Andechser Straße
+Andreas-Dück-Straße
+Andreas-Mahr-Straße
+Andreas-Röschlaub-Straße
+Andreas-Werner-Straße
+Anemonenweg
+Angerweg
+Annaweg
+Artur-Weinbeer-Straße
+Asternweg
+Auenweg
+Austraße
+Bachstraße
+Bäckergasse
+Badgasse
+Bahnhofplatz
+Bahnhofstraße
+Bahnhofsweg
+Balthasar-Neumann-Straße
+Bamberger Straße
+Bamberger Straße
+Baumgarten
+Bayernstraße
+Beckenleite
+Berggasse
+Berghof
+Bergleite
+Bergzaberner Straße
+Berliner Straße
+Bgm.-Andreas-Müller-Straße
+Bgm.-Krauß-Weg
+Bgm.-Prell-Straße
+Bgm.-Scheller-Straße
+Bgm.-Silbermann-Straße
+Bgm.-Stamm-Straße
+Bgm.-Steiner-Straße
+Bgm.-Strähnz-Straße
+Bgm.-Wenglein-Straße
+Biffigweg
+Birkacher Straße
+Birkenweg
+Bischofshof
+Bismarckstraße
+Blumenrode
+Blumenstraße
+Bohnberg
+Breslauer Straße
+Brückenberg
+Brückleinsgraben
+Brunnenäcker
+Brünnleinsweg
+Buchenrangen
+Buchentorweg
+Bucher Straße
+Büchlein
+Bühlstraße
+Burgberg
+Bürgermeisterstraße
+Bürgerweg
+Burgkunstadter Straße
+Bürglein
+Burgweg
+Büschlein
+Bussardweg
+Carl-Zeiss-Straße
+Christ-König-Platz
+Coburger Straße
+Conrad-Wagner-Straße
+Cournonstraße
+Danziger Straße
+Dekan-Höfinger-Straße
+Dientzenhoferstraße
+Dr.-Benecke-Straße
+Dr.-Ferdinand-Geldner-Straße
+Dr.-Gustav-Roßbach-Straße
+Dr.-Martin-Luther-Straße
+Dr.-Thomas-Dehler-Straße
+Dr.-Wittmann-Straße
+Drosselweg
+Egerländerstraße
+Eichendorffstraße
+Eichenweg
+Eiserne Hand
+Elisabethenstraße
+Emil-Wilhelm-Straße
+Erlenweg
+Erthalstraße
+Faberstraße
+Falkenweg
+Farbgasse
+Fasanenweg
+Felsenweg
+Fichtenau
+Fichtenweg
+Finkenweg
+Fischgasse
+Fliederweg
+Flößergasse
+Flurstraße
+Flurweg
+Flußweg
+Forsthuber Straße
+Frank-Bauer-Straße
+Frankenstraße
+Frankenthaler Straße
+Friedhofstraße
+Friedhofsweg
+Friedrich-Ebert-Straße
+Friedrich-Rückert-Straße
+Friesenhof
+Friesenweg
+Fritz-Doppel-Straße
+Fuchsweg
+Gabelsbergerstraße
+Gartenstraße
+Gartenweg
+Gehrenberg
+Geiersleite
+Gnellenroth
+Gnellenrother Straße
+Goethestraße
+Goldbergstraße
+Goldleite
+Gotenstraße
+Grabenweg
+Grundfelder Straße
+Gründleinsweg
+Grünewaldstraße
+Gustav-Heinemann-Straße
+Gustav-Weiß-Straße
+Habichtweg
+Hahnleite
+Hainstraße
+Hammer
+Hangleite
+Hans-Diroll-Straße
+Hasenweg
+Hausener Straße
+Heidestraße
+Heidweiher
+Heimstättenstraße
+Heimstraße
+Heinach
+Heinrich-Meyer-Straße
+Henry-Dunant-Straße
+Hermann-Löns-Straße
+Hermann-Müller-Straße
+Herrenhof
+Herzogstraße
+Hindenburgstraße
+Hinterer Rutschberg
+Hirtenleite
+Hirtenstraße
+Hochgerichtsstraße
+Hochleite
+Hof Söhnleinsberg
+Hofacker
+Hofbauerweg
+Hofstraße
+Hohensteinweg
+Höhenweg
+Holbeinstraße
+Holunderweg
+Hopfengrund
+Horbhof
+Hühnerberg
+Humboldtstraße
+Hutweide
+Im Föhrig
+Im Gründla
+Innere Bamberger Straße
+Irisweg
+Islinger Straße
+Jagdsteig
+Jahnstraße
+Jahnstraße
+Johannesweg
+Josef-Kraus-Straße
+Josef-Schmidt-Straße
+Judengasse
+Kammerwiese
+Kapellenberg
+Kapellenbrünnlein
+Kapellengäßchen
+Kapellenweg
+Karolinenhöhe
+Karolinenstraße
+Kastanienweg
+Katharina-von-Bora-Straße
+Katharinenweg
+Kellergasse
+Keltenstraße
+Keupergasse
+Kieselweg
+Kieswinkelweg
+Kirchenrat-Friedrich-Straße
+Kirchgasse
+Kirchhof
+Kirchplatz
+Kirchsteigweg
+Kirschberg
+Kirschenschrot
+Kleinaustraße
+Kloster-Banz-Straße
+Klosterlangheimer Straße
+Knopsberg
+Kohlbauerplatz
+Kohlstattweg
+Königsberger Straße
+Konrad-Adenauer-Straße
+Konrad-Schnapp-Straße
+Kornweg
+Köstener Straße
+Kötteler Graben
+Krähenberg
+Krappenrother Straße
+Kreuzbergstraße
+Kreuzbühlstraße
+Krohnestraße
+Kronacher Straße
+Krößwehrstraße
+Küchelstraße
+Kulmbacher Straße
+Kunigundenweg
+Kuratus-Will-Straße
+Kurze Gasse
+Lahmer Straße
+Lahmer Weg
+Lange Straße
+Langenau
+Langheimer Straße
+Langhofweg
+Lärchenweg
+Laubenweg
+Laurenzistraße
+Lehenweg
+Leibesgrund
+Leite
+Leitenhof
+Leo-Veth-Straße
+Leuchsenhof
+Leuchsenweg
+Lichtenfelser Weg
+Lilienweg
+Lindenplatz
+Lindenstraße
+Lucas-Cranach-Weg
+Ludwig-Richter-Straße
+Ludwig-Thoma-Weg
+Ludwigstraße
+Mainau
+Maingasse
+Maintalstraße
+Maintalweg
+Mainwehrstraße
+Mainwiesenweg
+Margaretenweg
+Marienweg
+Marktplatz
+Matthäus-Kraus-Straße
+Mauergasse
+Max-Planck-Straße
+Meisenweg
+Meranierstraße
+Michael-Och-Straße
+Mistelweg
+Mittlere Straße
+Mohnweg
+Mönchkröttendorfer Straße
+Mönchsberg
+Moritz-Abend-Straße
+Moritzanger
+Mühlengrund
+Mühlgasse
+Müssigerstraße
+Myconiusstraße
+Naßanger
+Nelkenstraße
+Nelkenweg
+Nestelgraben
+Neue Welt
+Neuensorger Straße
+Neuer Weg
+Nibelungenstraße
+Nikolaus-Schmidt-Straße
+Nordgauerstraße
+Nußweg
+Obere Brunnengasse
+Obere Dorfstraße
+Obere Hut
+Obere Sandstraße
+Oberlangheimer Straße
+Obersdorfer Straße
+Oberwallenstadter Weg
+Ottenbergstraße
+Ottostraße
+Pabstenweg
+Parkstraße
+Pater-Hofmann-Straße
+Pestalozzistraße
+Peter-Vischer-Weg
+Pfälzerstraße
+Pfarrgraben
+Pfarrsteig
+Pfarrweg
+Pilgerweg
+Pommernstraße
+Prälatenweg
+Prestwickstraße
+Professor-Arneth-Straße
+Prötzelsdorfer Weg
+Quellenweg
+Rabenstein
+Rackensteiner Straße
+Rangenweg
+Reitschgasse
+Rennleinsweg
+Reundorfer Straße
+Reuthstraße
+Riemenschneiderstraße
+Ringgasse
+Ringstraße
+Robert-Koch-Straße
+Rodendorfer Weg
+Rohrbacher Straße
+Rosenstraße
+Rosenweg
+Rotenhanstraße
+Röthen
+Rother Straße
+Rotkehlchenweg
+Rudolf-Diesel-Straße
+Ruhsteinweg
+Saarstraße
+Sachsenstraße
+Sandplatz
+Schafhof
+Schafrangen
+Schillerstraße
+Schirmerweg
+Schlehenweg
+Schlesierstraße
+Schloß-Banz-Straße
+Schloßberg
+Schlößchenpark
+Schloßmauerstraße
+Schloßplatz
+Schloßstraße
+Schmiedsgasse
+Schneidmühlweg
+Schneyer Straße
+Schneyer Weg
+Schönbornstraße
+Schönbrunner Straße
+Schöneck
+Schönleite
+Schönsreuther Mühle
+Schönsreuther Straße
+Schulstraße
+Schützenplatz
+Schützenstraße
+Schwabenstraße
+Seehof
+Seeleinstraße
+Seinsheimstraße
+Serkendorfer Straße
+Seubelsdorfer Straße
+Siedlerplatz
+Siedlerstraße
+Siedlungsstraße
+Siegenbachstraße
+Siegfried-Hofmann-Straße
+Siemensstraße
+Sofie-Seliger-Weg
+Sonnenweg
+Sonnleite
+Spendweg
+Sperbergasse
+St.-Veit-Straße
+Stadtknechtsgasse
+Starenweg
+Stauffenbergstraße
+Steingarten
+Steingasse
+Steinleite
+Sternbergstraße
+Stettener Straße
+Stiftstraße
+Stöcken
+Sudetenstraße
+Sulzengasse
+Talweg
+Tannenweg
+Theodor-Heuss-Straße
+Theodoriweg
+Theresienweg
+Thiersteinstraße
+Thüringerstraße
+Töpferweg
+Traufelder
+Trieber Straße
+Tulpenweg
+Überscharweg
+Uetzinger Straße
+Uferweg
+Ulmenstraße
+Untere Brunnengasse
+Untere Burgbergstraße
+Untere Sandstraße
+Untersiemauer Straße
+Unterwallenstadter Weg
+Vandaliastraße
+Veit-Stoß-Straße
+Vierzehnheiligener Straße
+Viktor-von-Scheffel-Straße
+Vogelsleite
+Vogtei
+Von-Brockdorff-Straße
+Von-Ketteler-Straße
+Von-Malsen-Ring
+Von-Schaumberg-Straße
+Von-Stockmar-Straße
+Vonbrunngasse
+Vordere Sandstraße
+Vorderer Rutschberg
+Wacholderweg
+Waldstraße
+Wallachei
+Walter-Großmann-Allee
+Waltersbach
+Wassergasse
+Weiherstraße
+Weinbergstraße
+Weingartener Weg
+Weinleite
+Weismainer Straße
+Weiße Leite
+Weißenbrunner Straße
+Wendenstraße
+Werkstraße
+Wiesenstraße
+Wiesenweg
+Wirtsberg
+Wittelsbacherstraße
+Wöhrdstraße
+Wolfsäcker
+Wolfsgrube
+Zehntweg
+Ziegelrangen
+Zilgendorfer Weg
+Zum Heuern
+Zum Hohenberg
+Zum Kulm
+Zum Löhlein
+Zur Fähre
+Zur Heide
+Zur Kreuzkapelle
+Zur Leuchsenquelle
+Zweigstraße

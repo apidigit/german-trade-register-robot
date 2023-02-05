@@ -1,0 +1,300 @@
+Adlersteig
+Albert-Mücke-Ring
+Alte Spaargasse
+Alte Straße
+Alter Mühlenweg
+Altzaschendorf
+Am Bogen
+Am Breitenberg
+Am Buschbad
+Am Hohen Gericht
+Am Knorrberg
+Am Langen Graben
+Am Lommatzscher Tor
+Am Mühlgraben
+Am Röhrbrunnen
+Am Schottenberg
+Am Steinberg
+Am Triebischwehr
+Am Wall
+An den Katzenstufen
+An der Alten Ziegelei
+An der Frauenkirche
+An der Grubenbahn
+An der Hohen Eifer
+An der Schreberstraße
+An der Spaargasse
+An der Telle
+An der Trinitatiskirche
+Angerweg
+Aritaring
+Auenstraße
+Auf der Höhe
+August-Bebel-Straße
+Baderberg
+Badgasse
+Bahnhofstraße
+Beethovenstraße
+Bennoweg
+Berghausstraße
+Berglehne
+Bergstraße
+Birkenweg
+Bockwener Weg
+Bohnitzscher Straße
+Boselweg
+Böttgerstraße
+Brauhausstraße
+Brennerstraße
+Burgstraße
+Carl-Schäfer-Weg
+Cöllner Straße
+Crassostraße
+Dammweg
+Dieraer Weg
+Dobritzer Berg
+Domblick
+Domplatz
+Dr.-Donner-Straße
+Dr.-Eberle-Platz
+Dr.-Felicitas-Kolde-Weg
+Dr.-Margarethe-Bahrmann-Weg
+Dr.-Wilhelm-Krohn-Weg
+Dreilindenstraße
+Drescherweg
+Dresdner Straße
+Drosselgrund
+Eichberg
+Elbberg
+Elbgasse
+Elbstraße
+Elbtalstraße
+Emil-Zöllner-Weg
+Erlichtstraße
+Etzlerstraße
+Fabrikstraße
+Fährgäßchen
+Fährmannstraße
+Feldgasse
+Fellbacher Straße
+Ferdinandstraße
+Fischergasse
+Fleischergasse
+Franz-Adam-Beyerlein-Platz
+Freiheit
+Friedrich-Geyer-Straße
+Gabelsbergerstraße
+Gabelstraße
+Gartenstraße
+Gasernberg
+Gelegegasse
+Gellertstraße
+Gerbergasse
+Gerichtsweg
+Geschwister-Große-Weg
+Goethestraße
+Goldgrund
+Görnische Gasse
+Großenhainer Straße
+Grünaue
+Grundmannstraße
+Grundstraße
+Grüner Weg
+Gustav-Graf-Straße
+Haasestraße
+Hafenstraße
+Hahnemannsplatz
+Hainstraße
+Hainweg
+Heiliger Grund
+Heinrich-Freitäger-Straße
+Heinrich-Heine-Straße
+Heinrichsplatz
+Herbert-Böhme-Straße
+Hermann-Grafe-Straße
+Hintermauer
+Hirschbergstraße
+Hochuferstraße
+Hohe Sicht
+Hohe Straße
+Hohe Wiese
+Hohlweg
+Höroldtstraße
+Hospitalstraße
+Huttenburgweg
+Ilschnerstraße
+Jagdsteig
+Jägerstraße
+Jahnastraße
+Jaspisstraße
+Joachimstal
+Johannesplatz
+Johannesstraße
+Jüdenbergstraße
+Kalkberg
+Kändlerstraße
+Kapellenweg
+Kapitelholzsteig
+Karl-Marx-Straße
+Karl-Niesner-Straße
+Karlstraße
+Käuzchenring
+Kerbe
+Kerstingstraße
+Kiebitzweg
+Kirchgasse
+Klausenweg
+Kleinmarkt
+Köhlerstraße
+Kohrockstraße
+Korbitzer Straße
+Korfustraße
+Kreyerner Straße
+Kruspestraße
+Kühnestraße
+Kurt-Hein-Straße
+Kynastweg
+Lehmberg
+Leinewebergasse
+Leinpfad
+Leipziger Straße
+Leitmeritzer Bogen
+Lerchahöhe
+Lerchaweg
+Leschnerstraße
+Lessingstraße
+Lindenplatz
+Loosestraße
+Lorenstraße
+Lorenzgasse
+Louise-Otto-Straße
+Löwengäßchen
+Lückenhübelstraße
+Ludwig-Richter-Straße
+Ludwig-Zepner-Weg
+Luisenstraße
+Lutherplatz
+Lutherstraße
+Mannfeldstraße
+Many-Jost-Weg
+Marienhofstraße
+Markt
+Marktgasse
+Martinstraße
+Max-Dietel-Straße
+Max-Haarig-Straße
+Max-Kamprath-Straße
+Meisastraße
+Melzerstraße
+Mendestraße
+Mittelberg
+Mönchslehne
+Moritzburger Platz
+Moritzstraße
+Mühlweg
+Muldenweg
+Nassauweg
+Neue Hoffnung
+Neugasse
+Neulandgasse
+Neumarkt
+Neuzaschendorf
+Nicolaisteg
+Niederauer Straße
+Niederfährer Straße
+Niederspaarer Straße
+Nossener Straße
+Obergasse
+Oberspaarer Straße
+Öffingener Straße
+Ossietzkystraße
+Pestalozzistraße
+Pfarrgasse
+Plangasse
+Platanenstraße
+Plossenhöhe
+Plossenweg
+Poetenweg
+Polenzer Weg
+Postgäßchen
+Poststraße
+Proschwitzer Straße
+Proschwitzer Weg
+Quellgasse
+Querallee
+Querstraße
+Questenberger Weg
+Radeburger Straße
+Ratsweinberg
+Rauhentalstraße
+Rautenbergweg
+Riesensteinstraße
+Ringstraße
+Robert-Blum-Straße
+Robert-Koch-Platz
+Rodelandweg
+Röhrenweg
+Rosa-Luxemburg-Straße
+Rosengasse
+Roßmarkt
+Rote Gasse
+Rote Stufen
+Roter Weg
+Rottewitzer Straße
+Rühlingstraße
+Schanzenstraße
+Schillerstraße
+Schlettaer Straße
+Schloßberg
+Schlossergasse
+Schloßgäßchen
+Schloßstufen
+Schmidener Straße
+Schreberstraße
+Schulgasse
+Schulplatz
+Schützestraße
+Seelensteig
+Siebeneichen
+Siebeneichener Kirschberg
+Siebeneichener Schloßberg
+Siebeneichener Straße
+Siedlerstraße
+Smetanastraße
+Sonnenleite
+Stadtblick
+Stadtparkhöhe
+Steinweg
+Stiftsweg
+Talstraße
+Teichertring
+Teichstraße
+Theaterplatz
+Thomas-Müntzer-Straße
+Tonberg
+Triftweg
+Trinitatiskirchweg
+Tzschuckestraße
+Uferstraße
+Unverhofft Glück
+Vorbrücker Straße
+Wasserweg
+Webergasse
+Weinberggasse
+Werdermannstraße
+Wettinstraße
+Wiesandstraße
+Wiesengasse
+Wilhelm-Walkhoff-Platz
+Wilsdruffer Straße
+Winkwitzer Straße
+Winzerstraße
+Wittigstraße
+Wolyniezstraße
+Zaschendorfer Straße
+Ziegelstraße
+Zieglerweg
+Zscheilaer Straße
+Zscheilberg
+Zum Klingertal
+Zum Roten Gut

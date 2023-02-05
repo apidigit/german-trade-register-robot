@@ -1,0 +1,257 @@
+Ackerstraße
+Ahornweg
+Alte Plantage
+Alter Anger
+Alter Kietz
+Altes Forsthaus
+Am Badestich
+Am Bahndamm
+Am Bahnhof
+Am Bahnhof Neuhof
+Am Berliner Tor
+Am Birkenstich
+Am Eichler Stich
+Am Feldrain
+Am Graben
+Am großen Stich
+Am Haveleck
+Am Hufeisenstich
+Am Kanal
+Am Kirchplatz
+Am kleinen Stich
+Am Markt
+Am Mietenstich
+Am Mühlenfließ
+Am Mutzer Stich
+Am Neuhofer Stich
+Am Neuholländer Weg
+Am Park
+Am Prerauer Stich
+Am Schmiedestich
+Am See
+Am Stich Maaß 1
+Am Stich Maaß 3
+Am Wald
+Am Wäldchen
+Am Waldstich
+Am Welsengraben
+Am Wentowsee
+Am Wolfsgarten
+Am Ziegeleistich
+Amselweg
+Amtswallstraße
+An der Garnison
+An der Hastbrücke
+An der Havel
+An der Kampbrücke
+An Kessels Stich
+Ausbau 1
+Badinger Chaussee
+Badinger Dorfstraße
+Badinger Straße
+Badinger Weg
+Bahnhofstraße
+Bahnhofsweg
+Bergluch
+Bergsdorfer Bahnhofstraße
+Bergsdorfer Dorfstraße
+Bergsdorfer Straße
+Berliner Straße
+Birkengrund
+Birkenweg
+Boddin Ausbau
+Böschungsweg
+Brunnenstraße
+Burgwaller Dorfstraße
+Burgwaller Försterei
+Burgwaller Landstraße
+Burgwaller Straße
+Burgwaller Weg
+Castrop-Rauxel-Allee
+Chaussee Ausbau
+Chausseestraße
+Clara-Zetkin-Straße
+Dammhaststraße
+Darrgang
+Deutschboden
+Döllner Chaussee
+Dorfanger
+Dr.-Ernst-Urbahn-Straße
+Dr.-Salvador-Allende-Straße
+Eisenbahnstraße
+Erlengrund
+Eschenweg
+Exinstraße
+Falkenthaler Chaussee
+Falterstraße
+Feldweg
+Fichtenweg
+Finkensteig
+Fischerstraße
+Fontaneweg
+Forsthaus Kappe
+Freiarche
+Friedhofstraße
+Friedrich-Ebert-Platz
+Friedrich-Engels-Straße
+Gartenstraße
+Gerade Straße
+Gewerbegebiet Karlshof
+Granseer Straße
+Großenhofer Weg
+Grubenweg
+Grüner Weg
+Grüner Zweig
+Grünstraße
+Grünstreifen
+Hammelstall
+Häsener Straße
+Häsener Weg
+Haveleck
+Havelstraße
+Havelweg
+Heideweg
+Hellberger Straße
+Hellberger Weg
+Henriette-Frölich-Straße
+Herrenstraße
+Hinter dem Erlengrund
+Hinter den Höfen
+Hirtenstraße
+Hoch- und Stapelweg
+Höfler Ausbau
+Hospitalstraße
+Im Gutshof
+Im Kloster
+Industriestraße
+Jahnstraße
+Kampstraße
+Kanal Ausbau
+Kanalstraße
+Kapellenstraße
+Kapper Dorfstraße
+Kapper Straße
+Karl-Liebknecht-Platz
+Kathagenstraße
+Kiefernweg
+Kielende
+Kirschenallee
+Klausdamm
+Klosterstraße
+Kreweliner Dorfstraße
+Kreweliner Weg
+Kurtschlager Dorfstraße
+Libellenweg
+Liebenberger Weg
+Liebenwalder Ausbau
+Liebenwalder Chaussee
+Liebenwalder Straße
+Lindenstraße
+Lindenweg
+Löwenberger Weg
+Lüthkeshof
+Mahnhorst Ausbau
+Marianne-Grunthal-Straße
+Marienstraße
+Marienthaler Dorfstraße
+Marienthaler Straße
+Marienthaler Waldstraße
+Marktstraße
+Mildenberger Dorfstraße
+Mildenberger Straße
+Mühlensee Ausbau
+Mühlenstraße
+Mühlenweg
+Mutzer Plan
+Mutzer Weg
+Neue Straße
+Neuer Kietz
+Neuer Weg
+Neuhofer Weg
+Neuholländer Weg
+Osterner Weg
+Parkstraße
+Parkweg
+Pawel-Duwanow-Straße
+Philipp-Müller-Straße
+Poststraße
+Poyenweg
+Rahmenstraße
+Ribbecker Dorfstraße
+Ribbecker Straße
+Rieckesthal Ausbau
+Ringstraße
+Robinienweg
+Rosenweg
+Rotdornsteig
+Rübengasse
+Rudolf-Breitscheid-Straße
+Saatzuchtgut
+Sandmüllerweg
+Schaacksche Halbinsel
+Scheunenweg
+Schleuse Ausbau
+Schleusenstraße
+Schmelzstraße
+Schmetterlingsweg
+Schmidts Stiche
+Schorfheideweg
+Schulgang
+Schulstraße
+Schwärmerweg
+Schwarzer Weg
+Seeweg
+Siedlung 1
+Siedlung 2
+Siedlungsgut
+Stadtförsterei
+Steinbergweg
+Steindammer Weg
+Stich 1 Ausbau
+Stiller Winkel
+Storkower Weg
+Straße der Jugend
+Straße des Aufbaus
+Straße des Friedens
+Tannenweg
+Templiner Chaussee
+Treidelweg
+Triftweg
+Uferweg
+Verlängerte Ackerstraße
+Verlängerte Grünstraße
+Verlängerte Klosterstraße
+Verlängerte Schulstraße
+Verlängerter Triftweg
+Vogelsangstraße
+Voßkanal
+Waldfriedenstraße
+Waldheimstraße
+Waldstraße
+Weg zum Kanal
+Weinbergstraße
+Wentower Straße
+Wesendorfer Straße
+Wesendorfer Weg
+Wiesenweg
+Zabelsdorfer Birkenweg
+Zabelsdorfer Chaussee
+Zabelsdorfer Dorfstraße
+Zabelsdorfer Kiefernweg
+Zabelsdorfer Lindenweg
+Zabelsdorfer Tannenweg
+Zehdenicker Straße
+Zehdenicker Weg
+Zehdenicker Ziegeleiweg
+Ziegelei
+Ziegelei Ausbau
+Ziegelei Frank
+Ziegelei Gebrüder Voigt
+Ziegelei Rote Burg
+Ziegelei Werk Abt. 3
+Ziegelei Werk Abt. 4
+Ziegelei Werk Abt. 5
+Ziegeleiweg
+Zum alten Bahnhof
+Zum See
+Zur Burgwaller Brücke

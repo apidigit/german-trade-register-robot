@@ -1,0 +1,511 @@
+Ackerstraße
+Adolf-Diesterweg-Straße
+Ahornweg
+Albert-Gerst-Straße
+Albert-Lindner-Straße
+Alte Gasse
+Alte Kupferstraße
+Alte Straße
+Alter Steinweg
+Altremda
+Altremdaer Berg
+Altremdaer Straße
+Am Alten Anger
+Am Anger
+Am Bach
+Am Bache
+Am Bahndamm
+Am Brauhaus
+Am Dorfgarten
+Am Dorfplatz
+Am Eichberg
+Am Eschdorfer Berge
+Am Flutgraben
+Am Friedhof
+Am Gänsebach
+Am Gatter
+Am Gemeindeberg
+Am Gewächshaus
+Am Groschenteich
+Am Hainberg
+Am Kalkofen
+Am Kalmberg
+Am Kalten Frosch
+Am Kochbergsgraben
+Am Lindengarten
+Am Mehnert
+Am Mühlberg
+Am Mühlenweg
+Am Mühlgraben
+Am Nußbaum
+Am Plan
+Am Rieth
+Am Rosengraben
+Am Roten Berg
+Am Saaldamm
+Am Schaalbach
+Am Schenkenberg
+Am Silberbach
+Am Sperlingsberg
+Am Spielborn
+Am Stein
+Am Stocksborn
+Am Stutenrand
+Am Tannberg
+Am Teich
+Am Teicheler Rathaus
+Am Torhaus
+Am Unterbühl
+Am Viehberg
+Am Wachtelberg
+Am Wasserwerk
+Ammelstädt
+Ammerberg
+Amselweg
+An den Gotteswiesen
+An den Katzenlöchern
+An den Langen Bergen
+An den Oberen Bergen
+An den Pappeln
+An den Sommerbergen
+An den Torwiesen
+An der Brücke
+An der Gornitz
+An der Kirche
+An der Koppel
+An der Lehmgrube
+An der Leite
+An der Lust
+An der Orangerie
+An der Pörze
+An der Rinne
+An der Sommerseite
+An der Sternwarte
+An der Teichwiese
+An der Waage
+An der Wittge
+Anger
+Angerstraße
+Ankerweg
+Anne-Frank-Straße
+Anton-Sommer-Straße
+Auf dem Eisfeld
+Auf dem Rodig
+Auf dem Schweinskopf
+Auf dem Wechsel
+Auf der Zonne
+August-Bebel-Straße
+August-Bebel-Straße
+Bachweg
+Bahnhofsgasse
+Bahnhofstraße
+Bayreuther Platz
+Berggasse
+Berthold-Rein-Straße
+Blankenburger Straße
+Borngasse
+Borngraben
+Brandstatt
+Brauersgasse
+Breitscheidstraße
+Breitscheidstraße
+Breitscheidstraße
+Brückengasse
+Burgstraße
+Carl-Becker-Straße
+Caspar-Schulte-Straße
+Catharinauer Straße
+Cottastraße
+Cumbacher Straße
+Damaschkestraße
+Darrgasse
+Debrahof
+Debrastraße
+Debrastraße
+Die Muckel
+Dorfplatz
+Dr.-Hermann-Ludewig-Ring
+Dr.-Wilhelm-Külz-Straße
+Drosselweg
+Dürerstraße
+Eberweinstraße
+Edelhofstraße
+Egerland
+Ehrensteiner Straße
+Ehrensteiner Weg
+Elxleber Weg
+Emil-Hartmann-Straße
+Entleich
+Erfurter Straße
+Erich-Correns-Ring
+Erlebachstraße
+Eschdorf
+Eschenweg
+Feldmühle
+Finkenweg
+Fischerstal
+Florian-Geyer-Straße
+Flursteinweg
+Francois-Mitterrand-Allee
+Franz-Liszt-Straße
+Freiligrathstraße
+Frenzelstraße
+Friedensstraße
+Friedhofstraße
+Friedrich-Adolf-Richter-Straße
+Friedrich-Ebert-Straße
+Friedrich-Engels-Straße
+Friedrich-Fröbel-Straße
+Friedrich-Lundgreen-Straße
+Friedrich-Naumann-Straße
+Fritz-Bolland-Straße
+Fritz-Reuter-Straße
+Fröbelring
+Gabelsbergerstraße
+Gartenstraße
+Gartenstraße
+Gebindstraße
+Geitersdorf
+Gerberstraße
+Geschwister-Scholl-Straße
+Gewerbegebiet
+Gewerbepark
+Glockenstraße
+Glockenstraße
+Goethestraße
+Groschwitz
+Große Allee
+Große Badergasse
+Große Gasse
+Große Wiese
+Gustav-Barth-Weg
+Gustav-Freytag-Straße
+Gustav-Lilienthal-Straße
+Gutenbergstraße
+Haufeld
+Hauptstraße
+Heilsberger Mühle
+Heilsberger Straße
+Heinepark
+Heinrich-Geißler-Straße
+Herbert-Stauch-Straße
+Hinter der Kirche
+Hinter der Mauer
+Hinter der Ziegelhütte
+Hohe Straße
+Höhenweg
+Hopfgartenstraße
+Hugo-Trinckler-Straße
+Humboldtstraße
+Im Baumgarten
+Im Ehrlich
+Im Eiserstal
+Im Kirschgarten
+Im Königstal
+Im Malmtal
+Im Rudolspark
+Im Schwansee
+Im Tälchen
+Im Tiergarten
+Im Weidig
+Im Weintal
+Im Winkel
+Im Wörth
+In den Wiesen
+In der Aue
+In der Laase
+In der Schremsche
+Jenaische Straße
+Jenaische Straße
+Jenaische Straße
+Jettinastraße
+Johannes-Brahms-Weg
+Johannes-Kepler-Straße
+Kämmeritze
+Karl-Langebach-Straße
+Karl-Liebknecht-Straße
+Karlstraße
+Karlstraße
+Kastanienring
+Käthe-Kollwitz-Straße
+Keilhauer Straße
+Kirchgasse
+Kirchhof
+Kirchplatz
+Kirchremda
+Kirchremdaer Straße
+Kirchweg
+Kleine Allee
+Kleine Allee
+Kleine Badergasse
+Kleine Gasse
+Kleiner Damm
+Klinghammerstraße
+Kopernikusweg
+Kranichfelder Straße
+Kreuzstraße
+Kuckucksweg
+Kupferstraße
+Kürschnertal
+Kürschnertal
+Kurzer Weg
+Lengefeldstraße
+Lengefeldstraße
+Lerchenweg
+Lichstedt
+Liebigweg
+Lindenweg
+Linzigweg
+Lomonossowweg
+Ludwig-Jahn-Straße
+Ludwigstraße
+Lutherstraße
+Macheleidtstraße
+Mangelgasse
+Mariental
+Marienturm
+Markt
+Marktstraße
+Mauerstraße
+Methfesselstraße
+Milbitz
+Milbitzer Straße
+Milbitzer Weg
+Mittelweg
+Molkereistraße
+Mörla
+Mörlaer Straße
+Mörlagraben
+Mühlbachgasse
+Mühlenstraße
+Mühlenweg
+Mühlgasse
+Nachtigallenweg
+Neue Gasse
+Neue Schulstraße
+Neue Siedlung
+Neumarkt
+Obergasse
+Oberpreilipp
+Oststraße
+Oststraße
+Otto-Grotewohl-Straße
+Otto-Nuschke-Straße
+Paganinistraße
+Paul-Herger-Straße
+Pechgrube
+Pestalozzistraße
+Pfarrei
+Pflanzwirbach
+Platanenstraße
+Platz der OdF
+Pörztal
+Pörztalsiedlung
+Preilipper Straße
+Prinz-Louis-Ferdinand-Straße
+Prof.-Hans-Böhringer-Straße
+Prof.-Hermann-Klare-Straße
+Prof.-Hermann-Klare-Straße
+Puschkinstraße
+Querweg
+Raiffeisenstraße
+Raiffeisenstraße
+Rathenaustraße
+Ratsgasse
+Remdaer Hauptstraße
+Remdaer Markt
+Remdaer Straße
+Richard-Wagner-Straße
+Robert-Birkner-Straße
+Robert-Blum-Straße
+Robert-Koch-Straße
+Röhrenweg
+Röntgenstraße
+Rosa-Luxemburg-Straße
+Rosenweg
+Rudolf-Herzer-Platz
+Rudolf-Zinkel-Straße
+Rudolstädter Straße
+Saalfelder Straße
+Saalgärten
+Saalgasse
+Sandweg
+Schaalaer Chaussee
+Scheinpflugstraße
+Schillershöhe
+Schillerstraße
+Schillingstraße
+Schloßaufgang I
+Schloßaufgang II
+Schloßaufgang III
+Schloßaufgang IV
+Schloßaufgang V
+Schloßaufgang VI
+Schloßbezirk
+Schloßstraße
+Schloßstraße
+Schöbelgasse
+Schöne Aussicht
+Schopenhauerstraße
+Schremscheweg
+Schulplatz
+Schulstraße
+Schwalbenweg
+Schwarzburger Chaussee
+Schwarzburger Straße
+Schwarzenshof
+Schwarzenshofer Weg
+Sigismundstraße
+Spansberg
+Spielbornstraße
+Stadtilmer Straße
+Stadtweg
+Steinweg
+Stiftsgasse
+Strumpfgasse
+Sundremdaer Straße
+Talstraße
+Talweg
+Tännich
+Tännichsweg
+Teichstraße
+Teichweidener Straße
+Theodor-Körner-Straße
+Theodor-Neubauer-Straße
+Thomas-Müntzer-Straße
+Tiergartenstraße
+Titaniastraße
+Töpfergasse
+Treppendorf
+Trommsdorffstraße
+Uckelstal
+Unsinnsgasse
+Unter den Galeriebergen
+Untere Gasse
+Unterm Hain
+Unterm Steinberg
+Unterpreilipp
+Vatersruh
+Viehberg
+Vorwerksgasse
+Waldhaus
+Walter-Knäblein-Straße
+Wehlweg
+Weimarische Straße
+Weinbergstraße
+Weinbergstraße
+Werner-John-Siedlung
+Werner-John-Straße
+Werner-John-Straße
+Werner-Seelenbinder-Straße
+Weststraße
+Wiednergasse
+Wilhelm-Pieck-Straße
+Wilhelm-Wander-Straße
+Zeigerheimer Berg
+Zeigerheimer Straße
+Zum Heidenberg
+Zum Kretz
+Zum Sand
+Zum Schmelitz
+Zum Schulhof
+Zum Tal
+Zum Vogelherd
+Zur Salze
+Zur Schlagmühle
+Ahornweg
+Alt Saale
+Am Felsen
+Am Goetheplatz
+Am Haselbach
+Am Kirschgraben
+Am Saalewehr
+Am Schloß
+Am Sperlingsberg
+Am Sportplatz
+Am Steigerhaus
+An der Gärtnerei
+An der Kirche
+Auf der Sorge
+Bachstraße
+Bahnhofstraße
+Bergweg
+Beutelsdorf
+Blöschitzgasse
+Catharinauer Straße
+Clöswitz
+Clöswitzer Straße
+Dorndorf
+Dr.-Bathory-Hüttner-Straße
+Eichenweg
+Engerda
+Erfurter Straße
+Etzelbach
+Hauptstraße
+Heilingen
+Hinter dem Garten
+Hinter der Kirche
+Hinterm Ehrlich
+Hirschhügel
+Hohe Straße
+Im Kleegarten
+Im Mühlgarten
+Im Schloßhof
+Im Vorwerksgarten
+In dem Tal
+Jenaische Straße
+Kessels Edelhof
+Kirchgasse
+Kirchstraße
+Kirchweg
+Kleiner Weg
+Kleinkochberg
+Kleinkrossen
+Kolkwitz
+Kuhfraß
+Lachenstraße
+Lausnitzweg
+Lindigweg
+Mittelweg
+Mötzelbach
+Mötzelbacher Straße
+Naundorf
+Neusitz
+Neusitzer Straße
+Niederkrossen
+Obercatharinau
+Oberhasel
+Oberhof
+Oberhofstraße
+Oberkrossen
+Partschefeld
+Pfarrgasse
+Pfeffermühle
+Riethtalgasse
+Röbschütz
+Rödelwitz
+Rückersdorf
+Rudolstädter Straße
+Sandstraße
+Sandweg
+Schloßkulm
+Schmieden
+Schulgasse
+Studnitzer Weg
+Teichweiden
+Uhlsbachstraße
+Unter dem Bache
+Untercatharinau
+Unterhasel
+Vor der Plinau
+Weinbergstraße
+Weißbach
+Weißen
+Weißenburg
+Weißenburg
+Weitersdorf
+Weitersdorfer Weg
+Zum Hirschgrund
+Zum Schindsattel
+Zwischen dem Dorfe
+Zwölf Äcker

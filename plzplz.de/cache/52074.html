@@ -1,0 +1,1433 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 52074 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="52074, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 52074 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 52074">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_52074/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 52074 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="52074" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Albern/" title="PLZ Albern"><strong>PLZ Albern</strong></a>|<a href="https://plzplz.de/PLZ_Banzermühle/" title="PLZ Banzermühle"><strong>PLZ Banzermühle</strong></a>|<a href="https://plzplz.de/PLZ_Beuerlbach/" title="PLZ Beuerlbach"><strong>PLZ Beuerlbach</strong></a>|<a href="https://plzplz.de/PLZ_Brauneck/" title="PLZ Brauneck"><strong>PLZ Brauneck</strong></a>|<a href="https://plzplz.de/PLZ_Buhlenberg/" title="PLZ Buhlenberg"><strong>PLZ Buhlenberg</strong></a>|<a href="https://plzplz.de/PLZ_Eckenheim/" title="PLZ Eckenheim"><strong>PLZ Eckenheim</strong></a>|<a href="https://plzplz.de/PLZ_Eichhofen/" title="PLZ Eichhofen"><strong>PLZ Eichhofen</strong></a>|<a href="https://plzplz.de/PLZ_Einsbach/" title="PLZ Einsbach"><strong>PLZ Einsbach</strong></a>|<a href="https://plzplz.de/PLZ_Glien_Siedlung/" title="PLZ Glien Siedlung"><strong>PLZ Glien Siedlung</strong></a>|<a href="https://plzplz.de/PLZ_Gowens/" title="PLZ Gowens"><strong>PLZ Gowens</strong></a>|<a href="https://plzplz.de/PLZ_Grüne_Mühle/" title="PLZ Grüne Mühle"><strong>PLZ Grüne Mühle</strong></a>|<a href="https://plzplz.de/PLZ_Heuberg/" title="PLZ Heuberg"><strong>PLZ Heuberg</strong></a>|<a href="https://plzplz.de/PLZ_Hofbau/" title="PLZ Hofbau"><strong>PLZ Hofbau</strong></a>|<a href="https://plzplz.de/PLZ_Hopfenau/" title="PLZ Hopfenau"><strong>PLZ Hopfenau</strong></a>|<a href="https://plzplz.de/PLZ_Kauscha/" title="PLZ Kauscha"><strong>PLZ Kauscha</strong></a>|<a href="https://plzplz.de/PLZ_Koppelow/" title="PLZ Koppelow"><strong>PLZ Koppelow</strong></a>|<a href="https://plzplz.de/PLZ_Krautgartenholz/" title="PLZ Krautgartenholz"><strong>PLZ Krautgartenholz</strong></a>|<a href="https://plzplz.de/PLZ_Kronbügl/" title="PLZ Kronbügl"><strong>PLZ Kronbügl</strong></a>|<a href="https://plzplz.de/PLZ_Oberkaina/" title="PLZ Oberkaina"><strong>PLZ Oberkaina</strong></a>|<a href="https://plzplz.de/PLZ_Obermainsbach/" title="PLZ Obermainsbach"><strong>PLZ Obermainsbach</strong></a>|<a href="https://plzplz.de/PLZ_Oberwürzbach/" title="PLZ Oberwürzbach"><strong>PLZ Oberwürzbach</strong></a>|<a href="https://plzplz.de/PLZ_Raubersried/" title="PLZ Raubersried"><strong>PLZ Raubersried</strong></a>|<a href="https://plzplz.de/PLZ_Rißdorf/" title="PLZ Rißdorf"><strong>PLZ Rißdorf</strong></a>|<a href="https://plzplz.de/PLZ_Rodameuschel/" title="PLZ Rodameuschel"><strong>PLZ Rodameuschel</strong></a>|<a href="https://plzplz.de/PLZ_Roglkreuth/" title="PLZ Roglkreuth"><strong>PLZ Roglkreuth</strong></a>|<a href="https://plzplz.de/PLZ_Rufenberg/" title="PLZ Rufenberg"><strong>PLZ Rufenberg</strong></a>|<a href="https://plzplz.de/PLZ_Schäferberg/" title="PLZ Schäferberg"><strong>PLZ Schäferberg</strong></a>|<a href="https://plzplz.de/PLZ_Sulzen/" title="PLZ Sulzen"><strong>PLZ Sulzen</strong></a>|<a href="https://plzplz.de/PLZ_Überlingen/" title="PLZ Überlingen"><strong>PLZ Überlingen</strong></a>|<a href="https://plzplz.de/PLZ_Untereichenstein/" title="PLZ Untereichenstein"><strong>PLZ Untereichenstein</strong></a>|<a href="https://plzplz.de/PLZ_Varchentin/" title="PLZ Varchentin"><strong>PLZ Varchentin</strong></a>|<a href="https://plzplz.de/PLZ_Wagenau/" title="PLZ Wagenau"><strong>PLZ Wagenau</strong></a>|<a href="https://plzplz.de/PLZ_Werlaburgdorf/" title="PLZ Werlaburgdorf"><strong>PLZ Werlaburgdorf</strong></a>|<a href="https://plzplz.de/PLZ_Westklüne/" title="PLZ Westklüne"><strong>PLZ Westklüne</strong></a>|<a href="https://plzplz.de/PLZ_Worpswede/" title="PLZ Worpswede"><strong>PLZ Worpswede</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 52074</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Aachener-und-Münchener-Allee/">Aachener-und-Münchener-Allee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Aachener-und-Münchener-Allee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Laurensberg/">Laurensberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Ackerstraße/">Ackerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Ackerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Ahornstraße/">Ahornstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Ahornstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Alois-Riedler-Straße/">Alois-Riedler-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Alois-Riedler-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Alte_Vaalser_Straße/">Alte Vaalser Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Alte_Vaalser_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Altenberger_Straße/">Altenberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Altenberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Am_Adamshäuschen/">Am Adamshäuschen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Am_Adamshäuschen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Am_Backes/">Am Backes</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Am_Backes/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Am_Blockhaus/">Am Blockhaus</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Am_Blockhaus/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Am_Friedrich/">Am Friedrich</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Am_Friedrich/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Am_Hangeweiher/">Am Hangeweiher</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Am_Hangeweiher/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Am_Hasselholz/">Am Hasselholz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Am_Hasselholz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Am_Hügel/">Am Hügel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Am_Hügel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Am_Neuenhof/">Am Neuenhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Am_Neuenhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Am_Venskyhäuschen/">Am Venskyhäuschen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Am_Venskyhäuschen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Am_Weißenberg/">Am Weißenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Am_Weißenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Laurensberg/">Laurensberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Am_Weyenberg/">Am Weyenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Am_Weyenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Amsterdamer_Ring/">Amsterdamer Ring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Amsterdamer_Ring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/An_den_Finkenweiden/">An den Finkenweiden</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/An_den_Finkenweiden/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/An_der_Glashütte/">An der Glashütte</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/An_der_Glashütte/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Laurensberg/">Laurensberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/An_der_Ölmühle/">An der Ölmühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/An_der_Ölmühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Laurensberg/">Laurensberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/An_der_Schurzelter_Brücke/">An der Schurzelter Brücke</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/An_der_Schurzelter_Brücke/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Atherstraße/">Atherstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Atherstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Auf_der_Hörn/">Auf der Hörn</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Auf_der_Hörn/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Bleiberger_Straße/">Bleiberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Bleiberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Laurensberg/">Laurensberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Brunnenstraße/">Brunnenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Brunnenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Laurensberg/">Laurensberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Brunnenweg/">Brunnenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Brunnenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Brunssumstraße/">Brunssumstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Brunssumstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Brüsseler_Ring/">Brüsseler Ring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Brüsseler_Ring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Vaalserquartier/">Vaalserquartier</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Buchweg/">Buchweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Buchweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Orsbach/">Orsbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Bungartsweg/">Bungartsweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Bungartsweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Vaalserquartier/">Vaalserquartier</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Burgstraße/">Burgstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Burgstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Vaalserquartier/">Vaalserquartier</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Burgwinkel/">Burgwinkel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Burgwinkel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Campus-Boulevard/">Campus-Boulevard</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Campus-Boulevard/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Cesar-Franck-Straße/">Cesar-Franck-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Cesar-Franck-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Charles-de-Coster-Straße/">Charles-de-Coster-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Charles-de-Coster-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Colynshofstraße/">Colynshofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Colynshofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Doris-Schachner-Straße/">Doris-Schachner-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Doris-Schachner-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Vaalserquartier/">Vaalserquartier</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Dreiländerweg/">Dreiländerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Dreiländerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Orsbach/">Orsbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Düserhofstraße/">Düserhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Düserhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Vaalserquartier/">Vaalserquartier</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Eburonenstraße/">Eburonenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Eburonenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Vaalserquartier/">Vaalserquartier</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Eburonenwinkel/">Eburonenwinkel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Eburonenwinkel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Eckertweg/">Eckertweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Eckertweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Entenpfuhler_Weg/">Entenpfuhler Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Entenpfuhler_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Erlenweg/">Erlenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Erlenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Felix-Timmermans-Straße/">Felix-Timmermans-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Felix-Timmermans-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Fichthang/">Fichthang</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Fichthang/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Orsbach/">Orsbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Finkenhag/">Finkenhag</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Finkenhag/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Laurensberg/">Laurensberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Forckenbeckstraße/">Forckenbeckstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Forckenbeckstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Laurensberg/">Laurensberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Forellenweg/">Forellenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Forellenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Frans-Masereel-Straße/">Frans-Masereel-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Frans-Masereel-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Franziskusweg/">Franziskusweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Franziskusweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Galaterstraße/">Galaterstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Galaterstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Gallierstraße/">Gallierstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Gallierstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Vaalserquartier/">Vaalserquartier</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Gemmenicher_Weg/">Gemmenicher Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Gemmenicher_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Vaalserquartier/">Vaalserquartier</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Geusenweg/">Geusenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Geusenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Gulpener_Straße/">Gulpener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Gulpener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Gut_Steeg/">Gut Steeg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Gut_Steeg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Hainbuchenstraße/">Hainbuchenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Hainbuchenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Halifaxstraße/">Halifaxstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Halifaxstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Hammerweg/">Hammerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Hammerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Hanbrucher_Weg/">Hanbrucher Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Hanbrucher_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Händelstraße/">Händelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Händelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Hans-Böckler-Allee/">Hans-Böckler-Allee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Hans-Böckler-Allee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Haselsteig/">Haselsteig</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Haselsteig/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Hasselholzer_Weg/">Hasselholzer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Hasselholzer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Hauseter_Weg/">Hauseter Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Hauseter_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Heerlener_Straße/">Heerlener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Heerlener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Helmertweg/">Helmertweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Helmertweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Helvetierstraße/">Helvetierstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Helvetierstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Hergenrather_Weg/">Hergenrather Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Hergenrather_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Hermann-Löns-Allee/">Hermann-Löns-Allee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Hermann-Löns-Allee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Herstaler_Straße/">Herstaler Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Herstaler_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Laurensberg/">Laurensberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Herzogsweg/">Herzogsweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Herzogsweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Hexenberg/">Hexenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Hexenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Hohenstaufenallee/">Hohenstaufenallee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Hohenstaufenallee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Höhenweg/">Höhenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Höhenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Orsbach/">Orsbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Hohlweg/">Hohlweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Hohlweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Hörnhang/">Hörnhang</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Hörnhang/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Hörnstieg/">Hörnstieg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Hörnstieg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Im_Brockenfeld/">Im Brockenfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Im_Brockenfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Vaalserquartier/">Vaalserquartier</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Im_Mittelfeld/">Im Mittelfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Im_Mittelfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Laurensberg/">Laurensberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Im_Weingarten/">Im Weingarten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Im_Weingarten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Jean-Lejeune-Straße/">Jean-Lejeune-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Jean-Lejeune-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Johannes-von-den-Driesch-Weg/">Johannes-von-den-Driesch-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Johannes-von-den-Driesch-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Kaiser-Friedrich-Allee/">Kaiser-Friedrich-Allee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Kaiser-Friedrich-Allee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Kandelfeldstraße/">Kandelfeldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Kandelfeldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Karlshöher_Hochweg/">Karlshöher Hochweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Karlshöher_Hochweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Kastanienweg/">Kastanienweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Kastanienweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Kelmiser_Straße/">Kelmiser Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Kelmiser_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Vaalserquartier/">Vaalserquartier</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Keltenstraße/">Keltenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Keltenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Kirchrather_Straße/">Kirchrather Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Kirchrather_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Klemensstraße/">Klemensstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Klemensstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Knöpgerweg/">Knöpgerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Knöpgerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Königshügel/">Königshügel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Königshügel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Vaalserquartier/">Vaalserquartier</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Konradstraße/">Konradstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Konradstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Kopernikusstraße/">Kopernikusstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Kopernikusstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Kronenberg/">Kronenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Kronenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Orsbach/">Orsbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Kuhlweg/">Kuhlweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Kuhlweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Kullenhofstraße/">Kullenhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Kullenhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Kullenhofwinkel/">Kullenhofwinkel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Kullenhofwinkel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Landoltweg/">Landoltweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Landoltweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Orsbach/">Orsbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Lemierser_Berg/">Lemierser Berg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Lemierser_Berg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Lemierser_Straße/">Lemierser Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Lemierser_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Lennestraße/">Lennestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Lennestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Leo-Blech-Straße/">Leo-Blech-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Leo-Blech-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Lisztstraße/">Lisztstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Lisztstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Lohmühlenstraße/">Lohmühlenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Lohmühlenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Lortzingstraße/">Lortzingstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Lortzingstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Luerweg/">Luerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Luerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Lutherweg/">Lutherweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Lutherweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Lütticher_Straße/">Lütticher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Lütticher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Maastrichter_Straße/">Maastrichter Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Maastrichter_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Maria-Lipp-Straße/">Maria-Lipp-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Maria-Lipp-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Maria-Theresia-Allee/">Maria-Theresia-Allee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Maria-Theresia-Allee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Mathieustraße/">Mathieustraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Mathieustraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Meerssener_Straße/">Meerssener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Meerssener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Melatener_Straße/">Melatener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Melatener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Melatener_Weg/">Melatener Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Melatener_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Mies-van-der-Rohe-Straße/">Mies-van-der-Rohe-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Mies-van-der-Rohe-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Montzener_Straße/">Montzener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Montzener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Moreller_Weg/">Moreller Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Moreller_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Morillenhang/">Morillenhang</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Morillenhang/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Morinerweg/">Morinerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Morinerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Muffeter_Weg/">Muffeter Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Muffeter_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Nekesstraße/">Nekesstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Nekesstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Nervierstraße/">Nervierstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Nervierstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Neuenhofer_Weg/">Neuenhofer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Neuenhofer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Orsbach/">Orsbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Nonnenhofstraße/">Nonnenhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Nonnenhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Nordhoffstraße/">Nordhoffstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Nordhoffstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Laurensberg/">Laurensberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Orsbacher_Straße/">Orsbacher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Orsbacher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Otto-Blumenthal-Straße/">Otto-Blumenthal-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Otto-Blumenthal-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Pauwelsstraße/">Pauwelsstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Pauwelsstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Philipp-Neri-Weg/">Philipp-Neri-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Philipp-Neri-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Pieter-Bruegel-Straße/">Pieter-Bruegel-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Pieter-Bruegel-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Preusweg/">Preusweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Preusweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Professor-Pirlet-Straße/">Professor-Pirlet-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Professor-Pirlet-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Vaalserquartier/">Vaalserquartier</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Püngelerstraße/">Püngelerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Püngelerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Quellenweg/">Quellenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Quellenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Reimser_Straße/">Reimser Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Reimser_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Reutershagweg/">Reutershagweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Reutershagweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Reutershagwinkel/">Reutershagwinkel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Reutershagwinkel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Laurensberg/">Laurensberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Rohrbergweg/">Rohrbergweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Rohrbergweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Rosberg/">Rosberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Rosberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Rosfeld/">Rosfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Rosfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Orsbach/">Orsbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Rotbusch/">Rotbusch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Rotbusch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Scheurenstraße/">Scheurenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Scheurenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Orsbach/">Orsbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Schiefdell/">Schiefdell</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Schiefdell/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Schindlerstraße/">Schindlerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Schindlerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Orsbach/">Orsbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Schlangenweg/">Schlangenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Schlangenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Laurensberg/">Laurensberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Schlottfelder_Straße/">Schlottfelder Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Schlottfelder_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Laurensberg/">Laurensberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Schlottfelder_Winkel/">Schlottfelder Winkel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Schlottfelder_Winkel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Vaalserquartier/">Vaalserquartier</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Schmiedgasse/">Schmiedgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Schmiedgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Laurensberg/">Laurensberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Schneebergweg/">Schneebergweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Schneebergweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Laurensberg/">Laurensberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Schurzelter_Mühle/">Schurzelter Mühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Schurzelter_Mühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Schurzelter_Straße/">Schurzelter Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Schurzelter_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Laurensberg/">Laurensberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Schurzelter_Straße/">Schurzelter Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Schurzelter_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Laurensberg/">Laurensberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Schurzelter_Winkel/">Schurzelter Winkel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Schurzelter_Winkel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Laurensberg/">Laurensberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Seffenter_Berg/">Seffenter Berg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Seffenter_Berg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Seffenter_Weg/">Seffenter Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Seffenter_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Senserbachweg/">Senserbachweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Senserbachweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Siemensstraße/">Siemensstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Siemensstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Simpelvelder_Straße/">Simpelvelder Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Simpelvelder_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Sommerfeldstraße/">Sommerfeldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Sommerfeldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Steinbachstraße/">Steinbachstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Steinbachstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Steinbergweg/">Steinbergweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Steinbergweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Steppenbergallee/">Steppenbergallee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Steppenbergallee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Steppenbergweg/">Steppenbergweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Steppenbergweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Tauriskerweg/">Tauriskerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Tauriskerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Laurensberg/">Laurensberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Teichstraße/">Teichstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Teichstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Laurensberg/">Laurensberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Teichwinkel/">Teichwinkel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Teichwinkel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Tielmanweg/">Tielmanweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Tielmanweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Trevererstraße/">Trevererstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Trevererstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Unterer_Backertsweg/">Unterer Backertsweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Unterer_Backertsweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Vaalser_Straße/">Vaalser Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Vaalser_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Valkenburger_Straße/">Valkenburger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Valkenburger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Veneterstraße/">Veneterstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Veneterstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Laurensberg/">Laurensberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Vetschauer_Berg/">Vetschauer Berg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Vetschauer_Berg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Walhorner_Straße/">Walhorner Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Walhorner_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Laurensberg/">Laurensberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Walkmühlenstraße/">Walkmühlenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Walkmühlenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Weidenweg/">Weidenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Weidenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Weißenbergweg/">Weißenbergweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Weißenbergweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Welkenrather_Straße/">Welkenrather Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Welkenrather_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Wendlingweg/">Wendlingweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Wendlingweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Weststraße/">Weststraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Weststraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Laurensberg/">Laurensberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Wildbacher_Mühle/">Wildbacher Mühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Wildbacher_Mühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Laurensberg/">Laurensberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Wildbachstraße/">Wildbachstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Wildbachstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Wilfried-König-Straße/">Wilfried-König-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Wilfried-König-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Worringerweg/">Worringerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Worringerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Yorckstraße/">Yorckstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_52074/">52074</a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/Yorckstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.006 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

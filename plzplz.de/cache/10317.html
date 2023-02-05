@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 10317 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="10317, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 10317 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 10317">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_10317/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 10317 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="10317" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Altdörnfeld/" title="PLZ Altdörnfeld"><strong>PLZ Altdörnfeld</strong></a>|<a href="https://plzplz.de/PLZ_Amsham/" title="PLZ Amsham"><strong>PLZ Amsham</strong></a>|<a href="https://plzplz.de/PLZ_Ascheffel/" title="PLZ Ascheffel"><strong>PLZ Ascheffel</strong></a>|<a href="https://plzplz.de/PLZ_Beikers/" title="PLZ Beikers"><strong>PLZ Beikers</strong></a>|<a href="https://plzplz.de/PLZ_Bergholz/" title="PLZ Bergholz"><strong>PLZ Bergholz</strong></a>|<a href="https://plzplz.de/PLZ_Bibra/" title="PLZ Bibra"><strong>PLZ Bibra</strong></a>|<a href="https://plzplz.de/PLZ_Biestow/" title="PLZ Biestow"><strong>PLZ Biestow</strong></a>|<a href="https://plzplz.de/PLZ_Birlinghoven/" title="PLZ Birlinghoven"><strong>PLZ Birlinghoven</strong></a>|<a href="https://plzplz.de/PLZ_Bismarckturm/" title="PLZ Bismarckturm"><strong>PLZ Bismarckturm</strong></a>|<a href="https://plzplz.de/PLZ_Blaugrund/" title="PLZ Blaugrund"><strong>PLZ Blaugrund</strong></a>|<a href="https://plzplz.de/PLZ_Börnicke/" title="PLZ Börnicke"><strong>PLZ Börnicke</strong></a>|<a href="https://plzplz.de/PLZ_Börzow/" title="PLZ Börzow"><strong>PLZ Börzow</strong></a>|<a href="https://plzplz.de/PLZ_Caule/" title="PLZ Caule"><strong>PLZ Caule</strong></a>|<a href="https://plzplz.de/PLZ_Dreisielen/" title="PLZ Dreisielen"><strong>PLZ Dreisielen</strong></a>|<a href="https://plzplz.de/PLZ_Ebeleben/" title="PLZ Ebeleben"><strong>PLZ Ebeleben</strong></a>|<a href="https://plzplz.de/PLZ_Feudenheim/" title="PLZ Feudenheim"><strong>PLZ Feudenheim</strong></a>|<a href="https://plzplz.de/PLZ_Grünow/" title="PLZ Grünow"><strong>PLZ Grünow</strong></a>|<a href="https://plzplz.de/PLZ_Hallerbach/" title="PLZ Hallerbach"><strong>PLZ Hallerbach</strong></a>|<a href="https://plzplz.de/PLZ_Hürben/" title="PLZ Hürben"><strong>PLZ Hürben</strong></a>|<a href="https://plzplz.de/PLZ_Kappel-Grafenhausen/" title="PLZ Kappel-Grafenhausen"><strong>PLZ Kappel-Grafenhausen</strong></a>|<a href="https://plzplz.de/PLZ_Krummin/" title="PLZ Krummin"><strong>PLZ Krummin</strong></a>|<a href="https://plzplz.de/PLZ_Lenglern/" title="PLZ Lenglern"><strong>PLZ Lenglern</strong></a>|<a href="https://plzplz.de/PLZ_Neidenstein/" title="PLZ Neidenstein"><strong>PLZ Neidenstein</strong></a>|<a href="https://plzplz.de/PLZ_Neu-_und_Neershof/" title="PLZ Neu- und Neershof"><strong>PLZ Neu- und Neershof</strong></a>|<a href="https://plzplz.de/PLZ_Niederdorfelden/" title="PLZ Niederdorfelden"><strong>PLZ Niederdorfelden</strong></a>|<a href="https://plzplz.de/PLZ_Niedergebraching/" title="PLZ Niedergebraching"><strong>PLZ Niedergebraching</strong></a>|<a href="https://plzplz.de/PLZ_Obercunnersdorf/" title="PLZ Obercunnersdorf"><strong>PLZ Obercunnersdorf</strong></a>|<a href="https://plzplz.de/PLZ_Radlkofen/" title="PLZ Radlkofen"><strong>PLZ Radlkofen</strong></a>|<a href="https://plzplz.de/PLZ_Raum/" title="PLZ Raum"><strong>PLZ Raum</strong></a>|<a href="https://plzplz.de/PLZ_Reumannswind/" title="PLZ Reumannswind"><strong>PLZ Reumannswind</strong></a>|<a href="https://plzplz.de/PLZ_Ronhausen/" title="PLZ Ronhausen"><strong>PLZ Ronhausen</strong></a>|<a href="https://plzplz.de/PLZ_Roßstadt/" title="PLZ Roßstadt"><strong>PLZ Roßstadt</strong></a>|<a href="https://plzplz.de/PLZ_Saig/" title="PLZ Saig"><strong>PLZ Saig</strong></a>|<a href="https://plzplz.de/PLZ_Schaitz/" title="PLZ Schaitz"><strong>PLZ Schaitz</strong></a>|<a href="https://plzplz.de/PLZ_Schönegg/" title="PLZ Schönegg"><strong>PLZ Schönegg</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 10317</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rummelsburg/">Rummelsburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Alice-und-Hella-Hirsch-Ring/">Alice-und-Hella-Hirsch-Ring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Alice-und-Hella-Hirsch-Ring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rummelsburg/">Rummelsburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Am_Bremsenwerk/">Am Bremsenwerk</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Am_Bremsenwerk/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rummelsburg/">Rummelsburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/An_den_Knabenhäusern/">An den Knabenhäusern</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/An_den_Knabenhäusern/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rummelsburg/">Rummelsburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/An_der_Bucht/">An der Bucht</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/An_der_Bucht/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Archibaldweg/">Archibaldweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Archibaldweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Blockdammweg/">Blockdammweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Blockdammweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rummelsburg/">Rummelsburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Charlotte-Salomon-Hain/">Charlotte-Salomon-Hain</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Charlotte-Salomon-Hain/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rummelsburg/">Rummelsburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Clara-Grunwald-Straße/">Clara-Grunwald-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Clara-Grunwald-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Eduardstraße/">Eduardstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Eduardstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Egmontstraße/">Egmontstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Egmontstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Einbecker_Straße/">Einbecker Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Einbecker_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Eitelstraße/">Eitelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Eitelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Emanuelstraße/">Emanuelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Emanuelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rummelsburg/">Rummelsburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Emma-Ihrer-Straße/">Emma-Ihrer-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Emma-Ihrer-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rummelsburg/">Rummelsburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Erich-Müller-Straße/">Erich-Müller-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Erich-Müller-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Fischerstraße/">Fischerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Fischerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Frankfurter_Allee/">Frankfurter Allee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Frankfurter_Allee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Friedastraße/">Friedastraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Friedastraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rummelsburg/">Rummelsburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Friedrich-Jacobs-Promenade/">Friedrich-Jacobs-Promenade</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Friedrich-Jacobs-Promenade/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rummelsburg/">Rummelsburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Georg-Löwenstein-Straße/">Georg-Löwenstein-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Georg-Löwenstein-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Geusenstraße/">Geusenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Geusenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Giselastraße/">Giselastraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Giselastraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rummelsburg/">Rummelsburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Gisele-Freund-Hain/">Gisele-Freund-Hain</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Gisele-Freund-Hain/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rummelsburg/">Rummelsburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Gustav-Holzmann-Straße/">Gustav-Holzmann-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Gustav-Holzmann-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Hauffstraße/">Hauffstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Hauffstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Hauptstraße/">Hauptstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Hauptstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Heinrichstraße/">Heinrichstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Heinrichstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rummelsburg/">Rummelsburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Hildegard-Marcusson-Straße/">Hildegard-Marcusson-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Hildegard-Marcusson-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Hirschberger_Straße/">Hirschberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Hirschberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Im_Lichtenhain/">Im Lichtenhain</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Im_Lichtenhain/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Irenenstraße/">Irenenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Irenenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rummelsburg/">Rummelsburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Karl-Wilker-Straße/">Karl-Wilker-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Karl-Wilker-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Karlshorster_Straße/">Karlshorster Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Karlshorster_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Kaskelstraße/">Kaskelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Kaskelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Kernhofer_Straße/">Kernhofer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Kernhofer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/KGA_Paradies_1/">KGA Paradies 1</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/KGA_Paradies_1/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/KGA_Paradies_2/">KGA Paradies 2</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/KGA_Paradies_2/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/KGA_Sanssouci/">KGA Sanssouci</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/KGA_Sanssouci/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Köpenicker_Chaussee/">Köpenicker Chaussee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Köpenicker_Chaussee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Krummhübler_Straße/">Krummhübler Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Krummhübler_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Kynaststraße/">Kynaststraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Kynaststraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Leopoldstraße/">Leopoldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Leopoldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rummelsburg/">Rummelsburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Lina-Morgenstern-Straße/">Lina-Morgenstern-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Lina-Morgenstern-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Lückstraße/">Lückstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Lückstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Margaretenstraße/">Margaretenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Margaretenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Marktstraße/">Marktstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Marktstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Maximilianstraße/">Maximilianstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Maximilianstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Metastraße/">Metastraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Metastraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Münsterlandplatz/">Münsterlandplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Münsterlandplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Münsterlandstraße/">Münsterlandstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Münsterlandstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Nöldnerstraße/">Nöldnerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Nöldnerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rummelsburg/">Rummelsburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Paul-und-Paula-Ufer/">Paul-und-Paula-Ufer</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Paul-und-Paula-Ufer/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rummelsburg/">Rummelsburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Paula-Fürst-Straße/">Paula-Fürst-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Paula-Fürst-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Pfarrstraße/">Pfarrstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Pfarrstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Rosenfelder_Straße/">Rosenfelder Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Rosenfelder_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Rupprechtstraße/">Rupprechtstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Rupprechtstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Friedrichsfelde/">Friedrichsfelde</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/S-Bhf_Betriebsbahnhof_Rummelsburg/">S-Bhf Betriebsbahnhof Rummelsburg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/S-Bhf_Betriebsbahnhof_Rummelsburg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Friedrichsfelde/">Friedrichsfelde</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/S-Bhf_Lichtenberg/">S-Bhf Lichtenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/S-Bhf_Lichtenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Friedrichsfelde/">Friedrichsfelde</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/S-Bhf_Nöldnerplatz/">S-Bhf Nöldnerplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/S-Bhf_Nöldnerplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Friedrichsfelde/">Friedrichsfelde</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/S-Bhf_Rummelsburg/">S-Bhf Rummelsburg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/S-Bhf_Rummelsburg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Saganer_Straße/">Saganer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Saganer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Schlichtallee/">Schlichtallee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Schlichtallee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Schreiberhauer_Straße/">Schreiberhauer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Schreiberhauer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Skandinavische_Straße/">Skandinavische Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Skandinavische_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Sophienstraße/">Sophienstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Sophienstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Spittastraße/">Spittastraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Spittastraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Stadthausstraße/">Stadthausstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Stadthausstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Tuchollaplatz/">Tuchollaplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Tuchollaplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Türrschmidtstraße/">Türrschmidtstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Türrschmidtstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Friedrichsfelde/">Friedrichsfelde</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/U-Bhf_Lichtenberg/">U-Bhf Lichtenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/U-Bhf_Lichtenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rummelsburg/">Rummelsburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Vicki-Baum-Straße/">Vicki-Baum-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Vicki-Baum-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Weitlingstraße/">Weitlingstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Weitlingstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichtenberg/">Lichtenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Wönnichstraße/">Wönnichstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Wönnichstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rummelsburg/">Rummelsburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Zillepromenade/">Zillepromenade</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Zillepromenade/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Friedrichsfelde/">Friedrichsfelde</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Zobtener_Straße/">Zobtener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Zobtener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rummelsburg/">Rummelsburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Zur_Alten_Flussbadeanstalt/">Zur Alten Flussbadeanstalt</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_10317/">10317</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Zur_Alten_Flussbadeanstalt/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.005 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 77880 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="77880, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 77880 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 77880">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_77880/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 77880 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="77880" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Albishofen/" title="PLZ Albishofen"><strong>PLZ Albishofen</strong></a>|<a href="https://plzplz.de/PLZ_Bärfallen/" title="PLZ Bärfallen"><strong>PLZ Bärfallen</strong></a>|<a href="https://plzplz.de/PLZ_Bräumühle/" title="PLZ Bräumühle"><strong>PLZ Bräumühle</strong></a>|<a href="https://plzplz.de/PLZ_Eckelhausen/" title="PLZ Eckelhausen"><strong>PLZ Eckelhausen</strong></a>|<a href="https://plzplz.de/PLZ_Emstekerfeld/" title="PLZ Emstekerfeld"><strong>PLZ Emstekerfeld</strong></a>|<a href="https://plzplz.de/PLZ_Ermsleben/" title="PLZ Ermsleben"><strong>PLZ Ermsleben</strong></a>|<a href="https://plzplz.de/PLZ_Gänsschnabl/" title="PLZ Gänsschnabl"><strong>PLZ Gänsschnabl</strong></a>|<a href="https://plzplz.de/PLZ_Großbreitenbronn/" title="PLZ Großbreitenbronn"><strong>PLZ Großbreitenbronn</strong></a>|<a href="https://plzplz.de/PLZ_Hahlen/" title="PLZ Hahlen"><strong>PLZ Hahlen</strong></a>|<a href="https://plzplz.de/PLZ_Hainchen/" title="PLZ Hainchen"><strong>PLZ Hainchen</strong></a>|<a href="https://plzplz.de/PLZ_Heinzlmühl/" title="PLZ Heinzlmühl"><strong>PLZ Heinzlmühl</strong></a>|<a href="https://plzplz.de/PLZ_Hersbruck/" title="PLZ Hersbruck"><strong>PLZ Hersbruck</strong></a>|<a href="https://plzplz.de/PLZ_Hintersteig/" title="PLZ Hintersteig"><strong>PLZ Hintersteig</strong></a>|<a href="https://plzplz.de/PLZ_Hirzing/" title="PLZ Hirzing"><strong>PLZ Hirzing</strong></a>|<a href="https://plzplz.de/PLZ_Höllhäusl/" title="PLZ Höllhäusl"><strong>PLZ Höllhäusl</strong></a>|<a href="https://plzplz.de/PLZ_Hundmühl/" title="PLZ Hundmühl"><strong>PLZ Hundmühl</strong></a>|<a href="https://plzplz.de/PLZ_Kleppermühle/" title="PLZ Kleppermühle"><strong>PLZ Kleppermühle</strong></a>|<a href="https://plzplz.de/PLZ_Kurf/" title="PLZ Kurf"><strong>PLZ Kurf</strong></a>|<a href="https://plzplz.de/PLZ_Martinstödling/" title="PLZ Martinstödling"><strong>PLZ Martinstödling</strong></a>|<a href="https://plzplz.de/PLZ_Mäuslberg/" title="PLZ Mäuslberg"><strong>PLZ Mäuslberg</strong></a>|<a href="https://plzplz.de/PLZ_Neu_Schrepkow/" title="PLZ Neu Schrepkow"><strong>PLZ Neu Schrepkow</strong></a>|<a href="https://plzplz.de/PLZ_Niederwerth/" title="PLZ Niederwerth"><strong>PLZ Niederwerth</strong></a>|<a href="https://plzplz.de/PLZ_Oberhagendorf/" title="PLZ Oberhagendorf"><strong>PLZ Oberhagendorf</strong></a>|<a href="https://plzplz.de/PLZ_Oberottendorf/" title="PLZ Oberottendorf"><strong>PLZ Oberottendorf</strong></a>|<a href="https://plzplz.de/PLZ_Okel/" title="PLZ Okel"><strong>PLZ Okel</strong></a>|<a href="https://plzplz.de/PLZ_Pfelling/" title="PLZ Pfelling"><strong>PLZ Pfelling</strong></a>|<a href="https://plzplz.de/PLZ_Reißlsberg/" title="PLZ Reißlsberg"><strong>PLZ Reißlsberg</strong></a>|<a href="https://plzplz.de/PLZ_Remscheid/" title="PLZ Remscheid"><strong>PLZ Remscheid</strong></a>|<a href="https://plzplz.de/PLZ_Rottfelling/" title="PLZ Rottfelling"><strong>PLZ Rottfelling</strong></a>|<a href="https://plzplz.de/PLZ_Schwedi/" title="PLZ Schwedi"><strong>PLZ Schwedi</strong></a>|<a href="https://plzplz.de/PLZ_Sumte/" title="PLZ Sumte"><strong>PLZ Sumte</strong></a>|<a href="https://plzplz.de/PLZ_Vallried/" title="PLZ Vallried"><strong>PLZ Vallried</strong></a>|<a href="https://plzplz.de/PLZ_Wichtenbeck/" title="PLZ Wichtenbeck"><strong>PLZ Wichtenbeck</strong></a>|<a href="https://plzplz.de/PLZ_Wildthurn/" title="PLZ Wildthurn"><strong>PLZ Wildthurn</strong></a>|<a href="https://plzplz.de/PLZ_Wussegel/" title="PLZ Wussegel"><strong>PLZ Wussegel</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 77880</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Allmendstraße/">Allmendstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Allmendstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Alter_Sportplatz/">Alter Sportplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Alter_Sportplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Am_Badstein/">Am Badstein</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Am_Badstein/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Am_Bungert/">Am Bungert</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Am_Bungert/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Am_Engelbuckel/">Am Engelbuckel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Am_Engelbuckel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Am_Fuchsgraben/">Am Fuchsgraben</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Am_Fuchsgraben/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Am_Kältebächel/">Am Kältebächel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Am_Kältebächel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Am_Pförich/">Am Pförich</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Am_Pförich/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Am_Rebbuckel/">Am Rebbuckel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Am_Rebbuckel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Obersasbach/">Obersasbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Am_Vogelsberg/">Am Vogelsberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Am_Vogelsberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Am_Waldgraben/">Am Waldgraben</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Am_Waldgraben/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/An_der_Grub/">An der Grub</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/An_der_Grub/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Auenweg/">Auenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Auenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Bachstraße/">Bachstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Bachstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Bälgenstraße/">Bälgenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Bälgenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Banaterweg/">Banaterweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Banaterweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Obersasbach/">Obersasbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Blumberg/">Blumberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Blumberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Blumenstraße/">Blumenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Blumenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Botzheimweg/">Botzheimweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Botzheimweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Obersasbach/">Obersasbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Brunnenstraße/">Brunnenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Brunnenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Obersasbach/">Obersasbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Buchenstraße/">Buchenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Buchenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Bühlerstraße/">Bühlerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Bühlerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Eichwaldstraße/">Eichwaldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Eichwaldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Obersasbach/">Obersasbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Erlenbadstraße/">Erlenbadstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Erlenbadstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Obersasbach/">Obersasbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Erlenhaus/">Erlenhaus</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Erlenhaus/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Obersasbach/">Obersasbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Fichtenstraße/">Fichtenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Fichtenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Fliederstraße/">Fliederstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Fliederstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Obersasbach/">Obersasbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Franz-Striebel-Straße/">Franz-Striebel-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Franz-Striebel-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Friedhofstraße/">Friedhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Friedhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Gartenstraße/">Gartenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Gartenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Goethestraße/">Goethestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Goethestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Großer_Winkel/">Großer Winkel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Großer_Winkel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Hansjakobstraße/">Hansjakobstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Hansjakobstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Hauptstraße/">Hauptstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Hauptstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Hebelstraße/">Hebelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Hebelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Heideweg/">Heideweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Heideweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Hermann-Berger-Straße/">Hermann-Berger-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Hermann-Berger-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Hochfeld/">Hochfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Hochfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Holunderweg/">Holunderweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Holunderweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Obersasbach/">Obersasbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Hornisgrinde/">Hornisgrinde</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Hornisgrinde/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Obersasbach/">Obersasbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Hornisgrindestraße/">Hornisgrindestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Hornisgrindestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Obersasbach/">Obersasbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Hundsrücken/">Hundsrücken</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Hundsrücken/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Obersasbach/">Obersasbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Illenbach/">Illenbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Illenbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Im_Grabenläng/">Im Grabenläng</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Im_Grabenläng/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Im_Rot/">Im Rot</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Im_Rot/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Obersasbach/">Obersasbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Kammersbrunn/">Kammersbrunn</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Kammersbrunn/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Obersasbach/">Obersasbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Kastanienstraße/">Kastanienstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Kastanienstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Kirchgraben/">Kirchgraben</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Kirchgraben/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Kirchplatz/">Kirchplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Kirchplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Kirchwegfeld/">Kirchwegfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Kirchwegfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Obersasbach/">Obersasbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Klammsbosch/">Klammsbosch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Klammsbosch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Kleiner_Winkel/">Kleiner Winkel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Kleiner_Winkel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Obersasbach/">Obersasbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Klepperhöfe/">Klepperhöfe</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Klepperhöfe/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Kroppenstück/">Kroppenstück</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Kroppenstück/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Laufer_Gasse/">Laufer Gasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Laufer_Gasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Lenderstraße/">Lenderstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Lenderstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Lilienstraße/">Lilienstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Lilienstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Lindenhaus/">Lindenhaus</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Lindenhaus/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Lindenplatz/">Lindenplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Lindenplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Lochmatt/">Lochmatt</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Lochmatt/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Obersasbach/">Obersasbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Maienstraße/">Maienstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Maienstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Markwald/">Markwald</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Markwald/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Mättich/">Mättich</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Mättich/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Nelkenstraße/">Nelkenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Nelkenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Oberdorfstraße/">Oberdorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Oberdorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Obersasbacher_Straße/">Obersasbacher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Obersasbacher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Ostpreußenweg/">Ostpreußenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Ostpreußenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Prälat-Benz-Weg/">Prälat-Benz-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Prälat-Benz-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Rosenstraße/">Rosenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Rosenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Obersasbach/">Obersasbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Rösselweg/">Rösselweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Rösselweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Sasbachriederstraße/">Sasbachriederstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Sasbachriederstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Obersasbach/">Obersasbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Sasbachwaldener_Straße/">Sasbachwaldener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Sasbachwaldener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Schillerstraße/">Schillerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Schillerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Schlesierweg/">Schlesierweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Schlesierweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Obersasbach/">Obersasbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Schulstraße/">Schulstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Schulstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Schwarzwaldstraße/">Schwarzwaldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Schwarzwaldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Obersasbach/">Obersasbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Sentistraße/">Sentistraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Sentistraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Tulpenweg/">Tulpenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Tulpenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Turenneweg/">Turenneweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Turenneweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Uhlandstraße/">Uhlandstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Uhlandstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Unterdorfstraße/">Unterdorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Unterdorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Unterstmatt/">Unterstmatt</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Unterstmatt/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Obersasbach/">Obersasbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Vogelsbergstraße/">Vogelsbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Vogelsbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Waldfeldstraße/">Waldfeldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Waldfeldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Obersasbach/">Obersasbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Waldstraße/">Waldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Waldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Obersasbach/">Obersasbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Wannenwinkel/">Wannenwinkel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Wannenwinkel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Obersasbach/">Obersasbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Weinbergstraße/">Weinbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Weinbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Weststraße/">Weststraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Weststraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Wiesenweg/">Wiesenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Wiesenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Obersasbach/">Obersasbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Winterbach/">Winterbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Winterbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Sasbach/"><strong>PLZ Sasbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ortsgebiet/">Ortsgebiet</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Zellerstraße/">Zellerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_77880/">77880</a></td>
+<td><a href="https://plzplz.de/PLZ_Sasbach/Zellerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.007 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

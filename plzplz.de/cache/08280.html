@@ -1,0 +1,1343 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 08280 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="08280, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 08280 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 08280">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_08280/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 08280 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="08280" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Baumhof/" title="PLZ Baumhof"><strong>PLZ Baumhof</strong></a>|<a href="https://plzplz.de/PLZ_Dießen/" title="PLZ Dießen"><strong>PLZ Dießen</strong></a>|<a href="https://plzplz.de/PLZ_Doberzeit/" title="PLZ Doberzeit"><strong>PLZ Doberzeit</strong></a>|<a href="https://plzplz.de/PLZ_Dünzing/" title="PLZ Dünzing"><strong>PLZ Dünzing</strong></a>|<a href="https://plzplz.de/PLZ_Dürmentingen/" title="PLZ Dürmentingen"><strong>PLZ Dürmentingen</strong></a>|<a href="https://plzplz.de/PLZ_Eicks/" title="PLZ Eicks"><strong>PLZ Eicks</strong></a>|<a href="https://plzplz.de/PLZ_Eilum/" title="PLZ Eilum"><strong>PLZ Eilum</strong></a>|<a href="https://plzplz.de/PLZ_Flischberg/" title="PLZ Flischberg"><strong>PLZ Flischberg</strong></a>|<a href="https://plzplz.de/PLZ_Friesau/" title="PLZ Friesau"><strong>PLZ Friesau</strong></a>|<a href="https://plzplz.de/PLZ_Geyer/" title="PLZ Geyer"><strong>PLZ Geyer</strong></a>|<a href="https://plzplz.de/PLZ_Golzwarden/" title="PLZ Golzwarden"><strong>PLZ Golzwarden</strong></a>|<a href="https://plzplz.de/PLZ_Höchensee/" title="PLZ Höchensee"><strong>PLZ Höchensee</strong></a>|<a href="https://plzplz.de/PLZ_Höllbruck/" title="PLZ Höllbruck"><strong>PLZ Höllbruck</strong></a>|<a href="https://plzplz.de/PLZ_Holsthum/" title="PLZ Holsthum"><strong>PLZ Holsthum</strong></a>|<a href="https://plzplz.de/PLZ_Kahlemeile/" title="PLZ Kahlemeile"><strong>PLZ Kahlemeile</strong></a>|<a href="https://plzplz.de/PLZ_Kayhauserfeld/" title="PLZ Kayhauserfeld"><strong>PLZ Kayhauserfeld</strong></a>|<a href="https://plzplz.de/PLZ_Klanxbüll/" title="PLZ Klanxbüll"><strong>PLZ Klanxbüll</strong></a>|<a href="https://plzplz.de/PLZ_Kleeth/" title="PLZ Kleeth"><strong>PLZ Kleeth</strong></a>|<a href="https://plzplz.de/PLZ_Kollenzendorf/" title="PLZ Kollenzendorf"><strong>PLZ Kollenzendorf</strong></a>|<a href="https://plzplz.de/PLZ_Malkomes/" title="PLZ Malkomes"><strong>PLZ Malkomes</strong></a>|<a href="https://plzplz.de/PLZ_Millingen/" title="PLZ Millingen"><strong>PLZ Millingen</strong></a>|<a href="https://plzplz.de/PLZ_Muhr_a._See/" title="PLZ Muhr a. See"><strong>PLZ Muhr a. See</strong></a>|<a href="https://plzplz.de/PLZ_Neu_Polzow/" title="PLZ Neu Polzow"><strong>PLZ Neu Polzow</strong></a>|<a href="https://plzplz.de/PLZ_Ney/" title="PLZ Ney"><strong>PLZ Ney</strong></a>|<a href="https://plzplz.de/PLZ_Ottenkofen/" title="PLZ Ottenkofen"><strong>PLZ Ottenkofen</strong></a>|<a href="https://plzplz.de/PLZ_Pumpernudl/" title="PLZ Pumpernudl"><strong>PLZ Pumpernudl</strong></a>|<a href="https://plzplz.de/PLZ_Scheggerott/" title="PLZ Scheggerott"><strong>PLZ Scheggerott</strong></a>|<a href="https://plzplz.de/PLZ_Simmereinöd/" title="PLZ Simmereinöd"><strong>PLZ Simmereinöd</strong></a>|<a href="https://plzplz.de/PLZ_Spiegelbrunn/" title="PLZ Spiegelbrunn"><strong>PLZ Spiegelbrunn</strong></a>|<a href="https://plzplz.de/PLZ_Stappenbach/" title="PLZ Stappenbach"><strong>PLZ Stappenbach</strong></a>|<a href="https://plzplz.de/PLZ_Süder-Frieschenmoor/" title="PLZ Süder-Frieschenmoor"><strong>PLZ Süder-Frieschenmoor</strong></a>|<a href="https://plzplz.de/PLZ_Unterginsbach/" title="PLZ Unterginsbach"><strong>PLZ Unterginsbach</strong></a>|<a href="https://plzplz.de/PLZ_Weiherhof/" title="PLZ Weiherhof"><strong>PLZ Weiherhof</strong></a>|<a href="https://plzplz.de/PLZ_Werdum/" title="PLZ Werdum"><strong>PLZ Werdum</strong></a>|<a href="https://plzplz.de/PLZ_Wolfenacker/" title="PLZ Wolfenacker"><strong>PLZ Wolfenacker</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 08280</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Agricolastraße/">Agricolastraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Agricolastraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Alberodaer_Straße/">Alberodaer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Alberodaer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Albert-Funk-Straße/">Albert-Funk-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Albert-Funk-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Albert-Schweitzer-Straße/">Albert-Schweitzer-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Albert-Schweitzer-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Alfred-Brodauf-Straße/">Alfred-Brodauf-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Alfred-Brodauf-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Alte_Johanngeorgenstädter_Straße/">Alte Johanngeorgenstädter Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Alte_Johanngeorgenstädter_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Altmarkt/">Altmarkt</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Altmarkt/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Am_Anger/">Am Anger</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Am_Anger/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Am_Bahndamm/">Am Bahndamm</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Am_Bahndamm/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Am_Bahnhof/">Am Bahnhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Am_Bahnhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Am_Buchenberg/">Am Buchenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Am_Buchenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Am_Eichert/">Am Eichert</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Am_Eichert/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Am_Finkenschlag/">Am Finkenschlag</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Am_Finkenschlag/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Am_Floßgraben/">Am Floßgraben</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Am_Floßgraben/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Am_Grünen_Winkel/">Am Grünen Winkel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Am_Grünen_Winkel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Am_Heidelsberg/">Am Heidelsberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Am_Heidelsberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Am_Plan/">Am Plan</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Am_Plan/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Am_Sonnenhof/">Am Sonnenhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Am_Sonnenhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Am_Waldberg/">Am Waldberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Am_Waldberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Am_Waldsaum/">Am Waldsaum</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Am_Waldsaum/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Amselweg/">Amselweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Amselweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/An_den_Gütern/">An den Gütern</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/An_den_Gütern/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/An_den_Teichen/">An den Teichen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/An_den_Teichen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/An_der_Hakenkrümme/">An der Hakenkrümme</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/An_der_Hakenkrümme/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/An_der_Mulde/">An der Mulde</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/An_der_Mulde/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Anton-Günther-Platz/">Anton-Günther-Platz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Anton-Günther-Platz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Arndtstraße/">Arndtstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Arndtstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Auerhammerstraße/">Auerhammerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Auerhammerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Badstraße/">Badstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Badstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Bahnhofstraße/">Bahnhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Bahnhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Bahnweg/">Bahnweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Bahnweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Barbara-Uthmann-Straße/">Barbara-Uthmann-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Barbara-Uthmann-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Basteiweg/">Basteiweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Basteiweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Becherweg/">Becherweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Becherweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Beethovenstraße/">Beethovenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Beethovenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Bergfreiheit/">Bergfreiheit</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Bergfreiheit/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Bergmannstraße/">Bergmannstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Bergmannstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Bergstraße/">Bergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Bergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Bockauer_Gasse/">Bockauer Gasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Bockauer_Gasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Bockauer_Straße/">Bockauer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Bockauer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Bockauer_Talstraße/">Bockauer Talstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Bockauer_Talstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Brauhausberg/">Brauhausberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Brauhausberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Brückenstraße/">Brückenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Brückenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Brünlasberg/">Brünlasberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Brünlasberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Brünnelweg/">Brünnelweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Brünnelweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Brunnenstraße/">Brunnenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Brunnenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Buchenweg/">Buchenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Buchenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Carl-von-Ossietzky-Straße/">Carl-von-Ossietzky-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Carl-von-Ossietzky-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Chemnitzer_Straße/">Chemnitzer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Chemnitzer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Clara-Zetkin-Straße/">Clara-Zetkin-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Clara-Zetkin-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Curt-Bauer-Straße/">Curt-Bauer-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Curt-Bauer-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Damaschkestraße/">Damaschkestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Damaschkestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Dittersdorfer_Weg/">Dittersdorfer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Dittersdorfer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Dr.-Külz-Straße/">Dr.-Külz-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Dr.-Külz-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Dr.-Otto-Nuschke-Straße/">Dr.-Otto-Nuschke-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Dr.-Otto-Nuschke-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Dr.-Semmelweis-Straße/">Dr.-Semmelweis-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Dr.-Semmelweis-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Dr.-Siegfried-Sieber-Weg/">Dr.-Siegfried-Sieber-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Dr.-Siegfried-Sieber-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Dürre_Henne/">Dürre Henne</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Dürre_Henne/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Eisenbahnstraße/">Eisenbahnstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Eisenbahnstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Eisenbrückenweg/">Eisenbrückenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Eisenbrückenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Emil-Teubner-Straße/">Emil-Teubner-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Emil-Teubner-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Erdmann-Kircheis-Straße/">Erdmann-Kircheis-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Erdmann-Kircheis-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Ernst-Bauch-Straße/">Ernst-Bauch-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Ernst-Bauch-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Färberstraße/">Färberstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Färberstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Floßgrabensiedlung/">Floßgrabensiedlung</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Floßgrabensiedlung/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Forstweg/">Forstweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Forstweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Gabelsbergerstraße/">Gabelsbergerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Gabelsbergerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Galerieweg/">Galerieweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Galerieweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Gartenstraße/">Gartenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Gartenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Gellertstraße/">Gellertstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Gellertstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Gerberstraße/">Gerberstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Gerberstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Gerichtsstraße/">Gerichtsstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Gerichtsstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Geschwister-Scholl-Straße/">Geschwister-Scholl-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Geschwister-Scholl-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Glück-Auf-Weg/">Glück-Auf-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Glück-Auf-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Goethestraße/">Goethestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Goethestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Grimmweg/">Grimmweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Grimmweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Gutsweg/">Gutsweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Gutsweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Hammerplatz/">Hammerplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Hammerplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Hangweg/">Hangweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Hangweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Hebbelstraße/">Hebbelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Hebbelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Helmut-Just-Straße/">Helmut-Just-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Helmut-Just-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Herrengasse/">Herrengasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Herrengasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Hirschweg/">Hirschweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Hirschweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Hohe_Straße/">Hohe Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Hohe_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Hubertusstraße/">Hubertusstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Hubertusstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Hüttenweg/">Hüttenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Hüttenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Industriestraße/">Industriestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Industriestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Jägerstraße/">Jägerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Jägerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Johann-Sebastian-Bach-Straße/">Johann-Sebastian-Bach-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Johann-Sebastian-Bach-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Juri-Gagarin-Ring/">Juri-Gagarin-Ring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Juri-Gagarin-Ring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Kantstraße/">Kantstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Kantstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Kiefernweg/">Kiefernweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Kiefernweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Kirchstraße/">Kirchstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Kirchstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Klingeleiweg/">Klingeleiweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Klingeleiweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Knollweg/">Knollweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Knollweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Kobaltplatz/">Kobaltplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Kobaltplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Kobaltstraße/">Kobaltstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Kobaltstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Kohlweg/">Kohlweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Kohlweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Kurze_Straße/">Kurze Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Kurze_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Lärchenweg/">Lärchenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Lärchenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Lessingstraße/">Lessingstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Lessingstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Liebstraße/">Liebstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Liebstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Lindenstraße/">Lindenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Lindenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Lößnitzer_Straße/">Lößnitzer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Lößnitzer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Louis-Braille-Straße/">Louis-Braille-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Louis-Braille-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Lutherplatz/">Lutherplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Lutherplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Lutherstraße/">Lutherstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Lutherstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Maria-Müller-Straße/">Maria-Müller-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Maria-Müller-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Marktgäßchen/">Marktgäßchen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Marktgäßchen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Marktsteig/">Marktsteig</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Marktsteig/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Mittelstraße/">Mittelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Mittelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Mozartstraße/">Mozartstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Mozartstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Mühlenweg/">Mühlenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Mühlenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Mühlstraße/">Mühlstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Mühlstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Muldenstraße/">Muldenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Muldenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Neumarkt/">Neumarkt</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Neumarkt/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Neustädtler_Weg/">Neustädtler Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Neustädtler_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Niederpfannenstiel/">Niederpfannenstiel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Niederpfannenstiel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Oststraße/">Oststraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Oststraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Otto-Brosowski-Straße/">Otto-Brosowski-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Otto-Brosowski-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Parkstraße/">Parkstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Parkstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Parkweg/">Parkweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Parkweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Paul-Strößner-Straße/">Paul-Strößner-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Paul-Strößner-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Pestalozzistraße/">Pestalozzistraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Pestalozzistraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Pfarrstraße/">Pfarrstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Pfarrstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Poppenwald/">Poppenwald</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Poppenwald/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Postplatz/">Postplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Postplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Poststraße/">Poststraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Poststraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Prof.-Dr.-Dieckmann-Straße/">Prof.-Dr.-Dieckmann-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Prof.-Dr.-Dieckmann-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Prof.-Dr.-Wolfgang-Kaden-Straße/">Prof.-Dr.-Wolfgang-Kaden-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Prof.-Dr.-Wolfgang-Kaden-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Prof.-Richard-Beck-Straße/">Prof.-Richard-Beck-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Prof.-Richard-Beck-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Prof.-Virchow-Straße/">Prof.-Virchow-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Prof.-Virchow-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Querstraße/">Querstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Querstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Querweg/">Querweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Querweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Ricarda-Huch-Straße/">Ricarda-Huch-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Ricarda-Huch-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Robert-Koch-Straße/">Robert-Koch-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Robert-Koch-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Robert-Schumann-Straße/">Robert-Schumann-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Robert-Schumann-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Robert-Schumann-Weg/">Robert-Schumann-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Robert-Schumann-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Röntgenstraße/">Röntgenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Röntgenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Rosa-Luxemburg-Straße/">Rosa-Luxemburg-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Rosa-Luxemburg-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Rudolf-Breitscheid-Straße/">Rudolf-Breitscheid-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Rudolf-Breitscheid-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Schafweg/">Schafweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Schafweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Schillerstraße/">Schillerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Schillerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Schlemaer_Straße/">Schlemaer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Schlemaer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Schmelzhütte/">Schmelzhütte</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Schmelzhütte/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Schneeberger_Straße/">Schneeberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Schneeberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Schöner_Blick/">Schöner Blick</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Schöner_Blick/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Schreberstraße/">Schreberstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Schreberstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Schulbrücke/">Schulbrücke</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Schulbrücke/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Schulgasse/">Schulgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Schulgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Schwarzenberger_Straße/">Schwarzenberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Schwarzenberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Siedlerstraße/">Siedlerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Siedlerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Solinger_Straße/">Solinger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Solinger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Sonnenleithe/">Sonnenleithe</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Sonnenleithe/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Steinstraße/">Steinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Steinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Steinweg/">Steinweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Steinweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Straße_der_Freundschaft/">Straße der Freundschaft</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Straße_der_Freundschaft/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Thomas-Mann-Straße/">Thomas-Mann-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Thomas-Mann-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Thomas-Müntzer-Straße/">Thomas-Müntzer-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Thomas-Müntzer-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Uhlandstraße/">Uhlandstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Uhlandstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Wachbergstraße/">Wachbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Wachbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Waldfriedenweg/">Waldfriedenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Waldfriedenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Waldstraße/">Waldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Waldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Wasserstraße/">Wasserstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Wasserstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Wehrstraße/">Wehrstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Wehrstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Weidmannsweg/">Weidmannsweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Weidmannsweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Wettinerplatz/">Wettinerplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Wettinerplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Wettinerstraße/">Wettinerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Wettinerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Wiesenweg/">Wiesenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Wiesenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Zeisigweg/">Zeisigweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Zeisigweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Ziegelstraße/">Ziegelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Ziegelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Zinnstraße/">Zinnstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Zinnstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Zschorlauer_Straße/">Zschorlauer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Zschorlauer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Zur_Hohen_Warte/">Zur Hohen Warte</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Zur_Hohen_Warte/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/"><strong>PLZ Aue-Bad Schlema</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aue/">Aue</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Zwitterweg/">Zwitterweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08280/">08280</a></td>
+<td><a href="https://plzplz.de/PLZ_Aue-Bad_Schlema/Zwitterweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.007 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

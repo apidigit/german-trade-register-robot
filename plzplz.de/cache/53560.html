@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 53560 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="53560, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 53560 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 53560">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_53560/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 53560 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="53560" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Ainbrach/" title="PLZ Ainbrach"><strong>PLZ Ainbrach</strong></a>|<a href="https://plzplz.de/PLZ_Arzell/" title="PLZ Arzell"><strong>PLZ Arzell</strong></a>|<a href="https://plzplz.de/PLZ_Bogenmühle/" title="PLZ Bogenmühle"><strong>PLZ Bogenmühle</strong></a>|<a href="https://plzplz.de/PLZ_Burgellern/" title="PLZ Burgellern"><strong>PLZ Burgellern</strong></a>|<a href="https://plzplz.de/PLZ_Dallau/" title="PLZ Dallau"><strong>PLZ Dallau</strong></a>|<a href="https://plzplz.de/PLZ_Dienhof/" title="PLZ Dienhof"><strong>PLZ Dienhof</strong></a>|<a href="https://plzplz.de/PLZ_Dittelsheim-Heßloch/" title="PLZ Dittelsheim-Heßloch"><strong>PLZ Dittelsheim-Heßloch</strong></a>|<a href="https://plzplz.de/PLZ_Grundau/" title="PLZ Grundau"><strong>PLZ Grundau</strong></a>|<a href="https://plzplz.de/PLZ_Hanstorf/" title="PLZ Hanstorf"><strong>PLZ Hanstorf</strong></a>|<a href="https://plzplz.de/PLZ_Heinzenberg/" title="PLZ Heinzenberg"><strong>PLZ Heinzenberg</strong></a>|<a href="https://plzplz.de/PLZ_Hildebrandshagen/" title="PLZ Hildebrandshagen"><strong>PLZ Hildebrandshagen</strong></a>|<a href="https://plzplz.de/PLZ_Kirchenbirkig/" title="PLZ Kirchenbirkig"><strong>PLZ Kirchenbirkig</strong></a>|<a href="https://plzplz.de/PLZ_Kleingießhübel/" title="PLZ Kleingießhübel"><strong>PLZ Kleingießhübel</strong></a>|<a href="https://plzplz.de/PLZ_Kleingörschen/" title="PLZ Kleingörschen"><strong>PLZ Kleingörschen</strong></a>|<a href="https://plzplz.de/PLZ_Kleinpoppenhof/" title="PLZ Kleinpoppenhof"><strong>PLZ Kleinpoppenhof</strong></a>|<a href="https://plzplz.de/PLZ_Kögning/" title="PLZ Kögning"><strong>PLZ Kögning</strong></a>|<a href="https://plzplz.de/PLZ_Königslutter_am_Elm/" title="PLZ Königslutter am Elm"><strong>PLZ Königslutter am Elm</strong></a>|<a href="https://plzplz.de/PLZ_Lempertshausen/" title="PLZ Lempertshausen"><strong>PLZ Lempertshausen</strong></a>|<a href="https://plzplz.de/PLZ_Lotharheil/" title="PLZ Lotharheil"><strong>PLZ Lotharheil</strong></a>|<a href="https://plzplz.de/PLZ_Mauerriedl/" title="PLZ Mauerriedl"><strong>PLZ Mauerriedl</strong></a>|<a href="https://plzplz.de/PLZ_Mennwangen/" title="PLZ Mennwangen"><strong>PLZ Mennwangen</strong></a>|<a href="https://plzplz.de/PLZ_Niederdielfen/" title="PLZ Niederdielfen"><strong>PLZ Niederdielfen</strong></a>|<a href="https://plzplz.de/PLZ_Oberbaumühle/" title="PLZ Oberbaumühle"><strong>PLZ Oberbaumühle</strong></a>|<a href="https://plzplz.de/PLZ_Oberhausbach/" title="PLZ Oberhausbach"><strong>PLZ Oberhausbach</strong></a>|<a href="https://plzplz.de/PLZ_Obersüßbach/" title="PLZ Obersüßbach"><strong>PLZ Obersüßbach</strong></a>|<a href="https://plzplz.de/PLZ_Poplitz/" title="PLZ Poplitz"><strong>PLZ Poplitz</strong></a>|<a href="https://plzplz.de/PLZ_Quotshausen/" title="PLZ Quotshausen"><strong>PLZ Quotshausen</strong></a>|<a href="https://plzplz.de/PLZ_Rockersbach/" title="PLZ Rockersbach"><strong>PLZ Rockersbach</strong></a>|<a href="https://plzplz.de/PLZ_Rosenkopf/" title="PLZ Rosenkopf"><strong>PLZ Rosenkopf</strong></a>|<a href="https://plzplz.de/PLZ_Setzplatz/" title="PLZ Setzplatz"><strong>PLZ Setzplatz</strong></a>|<a href="https://plzplz.de/PLZ_Stieglholzen/" title="PLZ Stieglholzen"><strong>PLZ Stieglholzen</strong></a>|<a href="https://plzplz.de/PLZ_Storbeckshof/" title="PLZ Storbeckshof"><strong>PLZ Storbeckshof</strong></a>|<a href="https://plzplz.de/PLZ_Weißkirchhof/" title="PLZ Weißkirchhof"><strong>PLZ Weißkirchhof</strong></a>|<a href="https://plzplz.de/PLZ_Wendelsheim/" title="PLZ Wendelsheim"><strong>PLZ Wendelsheim</strong></a>|<a href="https://plzplz.de/PLZ_Wiesenthal/" title="PLZ Wiesenthal"><strong>PLZ Wiesenthal</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 53560</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Linz_am_Rhein/"><strong>PLZ Linz am Rhein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kretzhaus/">Kretzhaus</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Linz_am_Rhein/Asbacher_Straße/">Asbacher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Linz_am_Rhein/Asbacher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Linz_am_Rhein/"><strong>PLZ Linz am Rhein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kretzhaus/">Kretzhaus</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Linz_am_Rhein/Gemarkung_Laubheck/">Gemarkung Laubheck</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Linz_am_Rhein/Gemarkung_Laubheck/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Linz_am_Rhein/"><strong>PLZ Linz am Rhein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kretzhaus/">Kretzhaus</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Linz_am_Rhein/Notscheider_Straße/">Notscheider Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Linz_am_Rhein/Notscheider_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Ahrweg/">Ahrweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Ahrweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Alte_Bahnhofstraße/">Alte Bahnhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Alte_Bahnhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kalenborn/">Kalenborn</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Alte_Schulstraße/">Alte Schulstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Alte_Schulstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kalenborn/">Kalenborn</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Am_Backeshof/">Am Backeshof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Am_Backeshof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kalenborn/">Kalenborn</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Am_Bahndamm/">Am Bahndamm</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Am_Bahndamm/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Am_Blauen_See/">Am Blauen See</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Am_Blauen_See/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Am_Geißenhügel/">Am Geißenhügel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Am_Geißenhügel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Am_Hügel/">Am Hügel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Am_Hügel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Am_Walde/">Am Walde</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Am_Walde/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Amselweg/">Amselweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Amselweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kalenborn/">Kalenborn</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Asbacher_Straße/">Asbacher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Asbacher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Auf_dem_Lewrot/">Auf dem Lewrot</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Auf_dem_Lewrot/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Auf_den_Plätzen/">Auf den Plätzen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Auf_den_Plätzen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Auf_der_Höhe/">Auf der Höhe</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Auf_der_Höhe/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kalenborn/">Kalenborn</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Bahnhofstraße/">Bahnhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Bahnhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Bergstraße/">Bergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Bergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kalenborn/">Kalenborn</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Bernhardtstraße/">Bernhardtstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Bernhardtstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kalenborn/">Kalenborn</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Birkenweg/">Birkenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Birkenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Brunnenweg/">Brunnenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Brunnenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kalenborn/">Kalenborn</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Bucherfelder_Weg/">Bucherfelder Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Bucherfelder_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Dompfaffenstraße/">Dompfaffenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Dompfaffenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Dr.-Schneider-Straße/">Dr.-Schneider-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Dr.-Schneider-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kalenborn/">Kalenborn</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Erlenhof/">Erlenhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Erlenhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Erlenweg/">Erlenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Erlenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kalenborn/">Kalenborn</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Erpeler_Weg/">Erpeler Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Erpeler_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Finkenweg/">Finkenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Finkenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Friedenstraße/">Friedenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Friedenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Gartenstraße/">Gartenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Gartenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Hans-Streif-Straße/">Hans-Streif-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Hans-Streif-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Hauptstraße/">Hauptstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Hauptstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Hauptstraße_Willscheid/">Hauptstraße Willscheid</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Hauptstraße_Willscheid/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Heideweg/">Heideweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Heideweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Hübelsheckerweg/">Hübelsheckerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Hübelsheckerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Im_alten_Hohn/">Im alten Hohn</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Im_alten_Hohn/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kalenborn/">Kalenborn</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Im_großen_Feld/">Im großen Feld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Im_großen_Feld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kalenborn/">Kalenborn</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Im_grünen_Winkel/">Im grünen Winkel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Im_grünen_Winkel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kalenborn/">Kalenborn</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Im_Hahn/">Im Hahn</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Im_Hahn/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Im_Pösch/">Im Pösch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Im_Pösch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Im_Schneidersgarten/">Im Schneidersgarten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Im_Schneidersgarten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Im_Vogelsang/">Im Vogelsang</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Im_Vogelsang/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kalenborn/">Kalenborn</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Im_Wiesengrund/">Im Wiesengrund</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Im_Wiesengrund/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/In_den_Hähnen/">In den Hähnen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/In_den_Hähnen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/In_der_Kau/">In der Kau</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/In_der_Kau/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/In_der_Kuhl/">In der Kuhl</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/In_der_Kuhl/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kalenborn/">Kalenborn</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/In_der_Mark/">In der Mark</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/In_der_Mark/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kalenborn/">Kalenborn</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Kalenborner_Straße/">Kalenborner Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Kalenborner_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Karl-Ferdinand-Braun-Straße/">Karl-Ferdinand-Braun-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Karl-Ferdinand-Braun-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Kauer_Ring/">Kauer Ring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Kauer_Ring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Kaufstraße/">Kaufstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Kaufstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Kirchstraße/">Kirchstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Kirchstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Klaushof/">Klaushof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Klaushof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Konrad-Zuse-Straße/">Konrad-Zuse-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Konrad-Zuse-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Lenzenweg/">Lenzenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Lenzenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Lerchenstraße/">Lerchenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Lerchenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kalenborn/">Kalenborn</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Marienstraße/">Marienstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Marienstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Martinstraße/">Martinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Martinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Meisenstraße/">Meisenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Meisenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Michaelstraße/">Michaelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Michaelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kalenborn/">Kalenborn</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Notscheider_Straße/">Notscheider Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Notscheider_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Ober-Elsaff/">Ober-Elsaff</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Ober-Elsaff/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kalenborn/">Kalenborn</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Ober-Willscheider-Weg/">Ober-Willscheider-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Ober-Willscheider-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Poststraße/">Poststraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Poststraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kalenborn/">Kalenborn</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Reifstein/">Reifstein</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Reifstein/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Rheinstraße/">Rheinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Rheinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Seiferhof/">Seiferhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Seiferhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Sonnenweg/">Sonnenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Sonnenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Sonntagstraße/">Sonntagstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Sonntagstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Steinweg/">Steinweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Steinweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kalenborn/">Kalenborn</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Tannenweg/">Tannenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Tannenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kalenborn/">Kalenborn</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Waldstraße/">Waldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Waldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Weidenstraße/">Weidenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Weidenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Weiherstraße/">Weiherstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Weiherstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Wiedstraße/">Wiedstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Wiedstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Wiesenhof/">Wiesenhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Wiesenhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kalenborn/">Kalenborn</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Willemstraße/">Willemstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Willemstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Willscheider_Berg/">Willscheider Berg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Willscheider_Berg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Willscheider_Weg/">Willscheider Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Willscheider_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kalenborn/">Kalenborn</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Zu_den_Eichen/">Zu den Eichen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Zu_den_Eichen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Zum_Blauen_See/">Zum Blauen See</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Zum_Blauen_See/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Zum_Hallerbach/">Zum Hallerbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Zum_Hallerbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kalenborn/">Kalenborn</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Zur_Heide/">Zur Heide</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Zur_Heide/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/"><strong>PLZ Vettelschoß</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kalenborn/">Kalenborn</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Zur_schönen_Aussicht/">Zur schönen Aussicht</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_53560/">53560</a></td>
+<td><a href="https://plzplz.de/PLZ_Vettelschoß/Zur_schönen_Aussicht/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.005 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

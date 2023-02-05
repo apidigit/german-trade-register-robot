@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 45259 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="45259, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 45259 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 45259">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_45259/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 45259 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="45259" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Alm/" title="PLZ Alm"><strong>PLZ Alm</strong></a>|<a href="https://plzplz.de/PLZ_Altenbamberg/" title="PLZ Altenbamberg"><strong>PLZ Altenbamberg</strong></a>|<a href="https://plzplz.de/PLZ_Am_Kaiberg/" title="PLZ Am Kaiberg"><strong>PLZ Am Kaiberg</strong></a>|<a href="https://plzplz.de/PLZ_Blainthal/" title="PLZ Blainthal"><strong>PLZ Blainthal</strong></a>|<a href="https://plzplz.de/PLZ_Borken/" title="PLZ Borken"><strong>PLZ Borken</strong></a>|<a href="https://plzplz.de/PLZ_Dürneck/" title="PLZ Dürneck"><strong>PLZ Dürneck</strong></a>|<a href="https://plzplz.de/PLZ_Eichenberg-Dorf/" title="PLZ Eichenberg-Dorf"><strong>PLZ Eichenberg-Dorf</strong></a>|<a href="https://plzplz.de/PLZ_Engelbach/" title="PLZ Engelbach"><strong>PLZ Engelbach</strong></a>|<a href="https://plzplz.de/PLZ_Fäustlinger/" title="PLZ Fäustlinger"><strong>PLZ Fäustlinger</strong></a>|<a href="https://plzplz.de/PLZ_Groß_Klessow/" title="PLZ Groß Klessow"><strong>PLZ Groß Klessow</strong></a>|<a href="https://plzplz.de/PLZ_Hoppstädten-Weiersbach/" title="PLZ Hoppstädten-Weiersbach"><strong>PLZ Hoppstädten-Weiersbach</strong></a>|<a href="https://plzplz.de/PLZ_Jarmen/" title="PLZ Jarmen"><strong>PLZ Jarmen</strong></a>|<a href="https://plzplz.de/PLZ_Koppenwind/" title="PLZ Koppenwind"><strong>PLZ Koppenwind</strong></a>|<a href="https://plzplz.de/PLZ_Kreideberg/" title="PLZ Kreideberg"><strong>PLZ Kreideberg</strong></a>|<a href="https://plzplz.de/PLZ_Kronau/" title="PLZ Kronau"><strong>PLZ Kronau</strong></a>|<a href="https://plzplz.de/PLZ_Latzow/" title="PLZ Latzow"><strong>PLZ Latzow</strong></a>|<a href="https://plzplz.de/PLZ_Laufenbürg/" title="PLZ Laufenbürg"><strong>PLZ Laufenbürg</strong></a>|<a href="https://plzplz.de/PLZ_Leegebruch/" title="PLZ Leegebruch"><strong>PLZ Leegebruch</strong></a>|<a href="https://plzplz.de/PLZ_Mannholzer_Ölmühle/" title="PLZ Mannholzer Ölmühle"><strong>PLZ Mannholzer Ölmühle</strong></a>|<a href="https://plzplz.de/PLZ_Mittelhembach/" title="PLZ Mittelhembach"><strong>PLZ Mittelhembach</strong></a>|<a href="https://plzplz.de/PLZ_Mönkehöfen/" title="PLZ Mönkehöfen"><strong>PLZ Mönkehöfen</strong></a>|<a href="https://plzplz.de/PLZ_Niederau/" title="PLZ Niederau"><strong>PLZ Niederau</strong></a>|<a href="https://plzplz.de/PLZ_Oberhörlbach/" title="PLZ Oberhörlbach"><strong>PLZ Oberhörlbach</strong></a>|<a href="https://plzplz.de/PLZ_Obermanndorf/" title="PLZ Obermanndorf"><strong>PLZ Obermanndorf</strong></a>|<a href="https://plzplz.de/PLZ_Oberpfaffenhofen/" title="PLZ Oberpfaffenhofen"><strong>PLZ Oberpfaffenhofen</strong></a>|<a href="https://plzplz.de/PLZ_Oberrossau/" title="PLZ Oberrossau"><strong>PLZ Oberrossau</strong></a>|<a href="https://plzplz.de/PLZ_Presenske/" title="PLZ Presenske"><strong>PLZ Presenske</strong></a>|<a href="https://plzplz.de/PLZ_Rädel/" title="PLZ Rädel"><strong>PLZ Rädel</strong></a>|<a href="https://plzplz.de/PLZ_Renchen/" title="PLZ Renchen"><strong>PLZ Renchen</strong></a>|<a href="https://plzplz.de/PLZ_Rethsollskamp/" title="PLZ Rethsollskamp"><strong>PLZ Rethsollskamp</strong></a>|<a href="https://plzplz.de/PLZ_Rundorf/" title="PLZ Rundorf"><strong>PLZ Rundorf</strong></a>|<a href="https://plzplz.de/PLZ_Schlaatz/" title="PLZ Schlaatz"><strong>PLZ Schlaatz</strong></a>|<a href="https://plzplz.de/PLZ_Voßberg/" title="PLZ Voßberg"><strong>PLZ Voßberg</strong></a>|<a href="https://plzplz.de/PLZ_Wopping/" title="PLZ Wopping"><strong>PLZ Wopping</strong></a>|<a href="https://plzplz.de/PLZ_Zahling/" title="PLZ Zahling"><strong>PLZ Zahling</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 45259</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Am_Bonnenberg/">Am Bonnenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Am_Bonnenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Am_Hagenbusch/">Am Hagenbusch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Am_Hagenbusch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Am_Herrenbusch/">Am Herrenbusch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Am_Herrenbusch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Am_Krusen/">Am Krusen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Am_Krusen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Am_Langensiepen/">Am Langensiepen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Am_Langensiepen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Am_Seeblick/">Am Seeblick</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Am_Seeblick/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Am_Vierkotten/">Am Vierkotten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Am_Vierkotten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Auf_der_Bucht/">Auf der Bucht</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Auf_der_Bucht/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Auf_der_Gathe/">Auf der Gathe</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Auf_der_Gathe/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Baderweg/">Baderweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Baderweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Bahnhofstraße/">Bahnhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Bahnhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Bahrenbergring/">Bahrenbergring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Bahrenbergring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Barnscheidtstraße/">Barnscheidtstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Barnscheidtstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Beckumsfeld/">Beckumsfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Beckumsfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Bogenstraße/">Bogenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Bogenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Bökensiepen/">Bökensiepen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Bökensiepen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Bonnenbergstraße/">Bonnenbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Bonnenbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Bonscheidter_Straße/">Bonscheidter Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Bonscheidter_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Brunnsiepen/">Brunnsiepen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Brunnsiepen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Bühne/">Bühne</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Bühne/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Buschkampstraße/">Buschkampstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Buschkampstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Butenbergs_Kamp/">Butenbergs Kamp</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Butenbergs_Kamp/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Carl-Funke-Straße/">Carl-Funke-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Carl-Funke-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Dickebank/">Dickebank</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Dickebank/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Dorflinde/">Dorflinde</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Dorflinde/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Duvenkamp/">Duvenkamp</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Duvenkamp/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Elsaßstraße/">Elsaßstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Elsaßstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Ernst-Tengelmann-Ring/">Ernst-Tengelmann-Ring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Ernst-Tengelmann-Ring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Eupenstraße/">Eupenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Eupenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Fährenkotten/">Fährenkotten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Fährenkotten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Fernblick/">Fernblick</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Fernblick/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Flörken/">Flörken</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Flörken/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Florweg/">Florweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Florweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Freiherr-vom-Stein-Straße/">Freiherr-vom-Stein-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Freiherr-vom-Stein-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Gathergang/">Gathergang</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Gathergang/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Geismarweg/">Geismarweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Geismarweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Georgkirchstraße/">Georgkirchstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Georgkirchstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Hackland/">Hackland</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Hackland/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Hagmanngarten/">Hagmanngarten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Hagmanngarten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Haus_Heisingen/">Haus Heisingen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Haus_Heisingen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Heckhülsenring/">Heckhülsenring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Heckhülsenring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Heisinger_Straße/">Heisinger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Heisinger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Hemsingskotten/">Hemsingskotten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Hemsingskotten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Hirschanger/">Hirschanger</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Hirschanger/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Hofackerstraße/">Hofackerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Hofackerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Holsteinanger/">Holsteinanger</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Holsteinanger/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Höttering/">Höttering</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Höttering/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Hunsiepen/">Hunsiepen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Hunsiepen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Im_Karkamp/">Im Karkamp</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Im_Karkamp/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Im_Oberfeld/">Im Oberfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Im_Oberfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Kleinkamp/">Kleinkamp</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Kleinkamp/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Kofeldhöhe/">Kofeldhöhe</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Kofeldhöhe/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Koldenbuschweg/">Koldenbuschweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Koldenbuschweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Königsiepen/">Königsiepen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Königsiepen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Krapenbrink/">Krapenbrink</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Krapenbrink/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Krekelingheide/">Krekelingheide</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Krekelingheide/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Kreuzstraße/">Kreuzstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Kreuzstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Kuckuckstraße/">Kuckuckstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Kuckuckstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Lanfermannfähre/">Lanfermannfähre</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Lanfermannfähre/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Lelei/">Lelei</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Lelei/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Lindauhöhe/">Lindauhöhe</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Lindauhöhe/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Lindauweg/">Lindauweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Lindauweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Linhöferberg/">Linhöferberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Linhöferberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Lothringenstraße/">Lothringenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Lothringenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Malmedystraße/">Malmedystraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Malmedystraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Memelstraße/">Memelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Memelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Mühlmannsbank/">Mühlmannsbank</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Mühlmannsbank/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Nordschleswigstraße/">Nordschleswigstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Nordschleswigstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Nottekampsbank/">Nottekampsbank</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Nottekampsbank/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Nottekampswinkel/">Nottekampswinkel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Nottekampswinkel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Nussbaumweg/">Nussbaumweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Nussbaumweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Obere_Aue/">Obere Aue</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Obere_Aue/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Ostpreußenstraße/">Ostpreußenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Ostpreußenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Petzelsberg/">Petzelsberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Petzelsberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Rehstraße/">Rehstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Rehstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Rotemühle/">Rotemühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Rotemühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Rumpstraße/">Rumpstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Rumpstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Schacht_Jakob/">Schacht Jakob</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Schacht_Jakob/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Schangstraße/">Schangstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Schangstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Scharweg/">Scharweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Scharweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Schmiedekottenweg/">Schmiedekottenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Schmiedekottenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Soniusweg/">Soniusweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Soniusweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Sonnenstraße/">Sonnenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Sonnenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Spiekbank/">Spiekbank</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Spiekbank/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Springloh/">Springloh</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Springloh/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Staelsfeld/">Staelsfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Staelsfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Stauseebogen/">Stauseebogen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Stauseebogen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Stemmering/">Stemmering</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Stemmering/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Stornefranzstraße/">Stornefranzstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Stornefranzstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Tannscheidtweg/">Tannscheidtweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Tannscheidtweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Ten-Hövel-Weg/">Ten-Hövel-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Ten-Hövel-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Uhlenstraße/">Uhlenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Uhlenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Vollbergwinkel/">Vollbergwinkel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Vollbergwinkel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Voßbergring/">Voßbergring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Voßbergring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Voßhegge/">Voßhegge</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Voßhegge/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Wasserschnepfe/">Wasserschnepfe</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Wasserschnepfe/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Wechselpfad/">Wechselpfad</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Wechselpfad/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Westpreußenstraße/">Westpreußenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Westpreußenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Wuppertaler_Straße/">Wuppertaler Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Wuppertaler_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Zölestinstraße/">Zölestinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Zölestinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heisingen/">Heisingen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Zur_Waldesquelle/">Zur Waldesquelle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_45259/">45259</a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/Zur_Waldesquelle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.005 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

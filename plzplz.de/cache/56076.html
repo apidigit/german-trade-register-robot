@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 56076 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="56076, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 56076 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 56076">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_56076/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 56076 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="56076" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Dorf_Wehlen/" title="PLZ Dorf Wehlen"><strong>PLZ Dorf Wehlen</strong></a>|<a href="https://plzplz.de/PLZ_Elende/" title="PLZ Elende"><strong>PLZ Elende</strong></a>|<a href="https://plzplz.de/PLZ_Frauenlohe/" title="PLZ Frauenlohe"><strong>PLZ Frauenlohe</strong></a>|<a href="https://plzplz.de/PLZ_Gallin-Kuppentin/" title="PLZ Gallin-Kuppentin"><strong>PLZ Gallin-Kuppentin</strong></a>|<a href="https://plzplz.de/PLZ_Gebelzig/" title="PLZ Gebelzig"><strong>PLZ Gebelzig</strong></a>|<a href="https://plzplz.de/PLZ_Geilenkirchen/" title="PLZ Geilenkirchen"><strong>PLZ Geilenkirchen</strong></a>|<a href="https://plzplz.de/PLZ_Godendorfer_Papiermühle/" title="PLZ Godendorfer Papiermühle"><strong>PLZ Godendorfer Papiermühle</strong></a>|<a href="https://plzplz.de/PLZ_Gundernhausen/" title="PLZ Gundernhausen"><strong>PLZ Gundernhausen</strong></a>|<a href="https://plzplz.de/PLZ_Häselingen/" title="PLZ Häselingen"><strong>PLZ Häselingen</strong></a>|<a href="https://plzplz.de/PLZ_Heideberg/" title="PLZ Heideberg"><strong>PLZ Heideberg</strong></a>|<a href="https://plzplz.de/PLZ_Heseln/" title="PLZ Heseln"><strong>PLZ Heseln</strong></a>|<a href="https://plzplz.de/PLZ_Holsen/" title="PLZ Holsen"><strong>PLZ Holsen</strong></a>|<a href="https://plzplz.de/PLZ_Holzböck/" title="PLZ Holzböck"><strong>PLZ Holzböck</strong></a>|<a href="https://plzplz.de/PLZ_Hülsdonk/" title="PLZ Hülsdonk"><strong>PLZ Hülsdonk</strong></a>|<a href="https://plzplz.de/PLZ_Hülseberg/" title="PLZ Hülseberg"><strong>PLZ Hülseberg</strong></a>|<a href="https://plzplz.de/PLZ_Kaltenwestheim/" title="PLZ Kaltenwestheim"><strong>PLZ Kaltenwestheim</strong></a>|<a href="https://plzplz.de/PLZ_Kirchendemenreuth/" title="PLZ Kirchendemenreuth"><strong>PLZ Kirchendemenreuth</strong></a>|<a href="https://plzplz.de/PLZ_Klein_Ilsede/" title="PLZ Klein Ilsede"><strong>PLZ Klein Ilsede</strong></a>|<a href="https://plzplz.de/PLZ_Lipprechterode/" title="PLZ Lipprechterode"><strong>PLZ Lipprechterode</strong></a>|<a href="https://plzplz.de/PLZ_Mückeln/" title="PLZ Mückeln"><strong>PLZ Mückeln</strong></a>|<a href="https://plzplz.de/PLZ_Oberremmelsberg/" title="PLZ Oberremmelsberg"><strong>PLZ Oberremmelsberg</strong></a>|<a href="https://plzplz.de/PLZ_Pichlberg/" title="PLZ Pichlberg"><strong>PLZ Pichlberg</strong></a>|<a href="https://plzplz.de/PLZ_Pottenau/" title="PLZ Pottenau"><strong>PLZ Pottenau</strong></a>|<a href="https://plzplz.de/PLZ_Saasdorf/" title="PLZ Saasdorf"><strong>PLZ Saasdorf</strong></a>|<a href="https://plzplz.de/PLZ_Sankt_Bernhard/" title="PLZ Sankt Bernhard"><strong>PLZ Sankt Bernhard</strong></a>|<a href="https://plzplz.de/PLZ_Scharrhof/" title="PLZ Scharrhof"><strong>PLZ Scharrhof</strong></a>|<a href="https://plzplz.de/PLZ_Stublang/" title="PLZ Stublang"><strong>PLZ Stublang</strong></a>|<a href="https://plzplz.de/PLZ_Unterrottmannsdorf/" title="PLZ Unterrottmannsdorf"><strong>PLZ Unterrottmannsdorf</strong></a>|<a href="https://plzplz.de/PLZ_Unterweisenborn/" title="PLZ Unterweisenborn"><strong>PLZ Unterweisenborn</strong></a>|<a href="https://plzplz.de/PLZ_Vogtshagen/" title="PLZ Vogtshagen"><strong>PLZ Vogtshagen</strong></a>|<a href="https://plzplz.de/PLZ_Weckbach/" title="PLZ Weckbach"><strong>PLZ Weckbach</strong></a>|<a href="https://plzplz.de/PLZ_Welcherath/" title="PLZ Welcherath"><strong>PLZ Welcherath</strong></a>|<a href="https://plzplz.de/PLZ_Wesseloh/" title="PLZ Wesseloh"><strong>PLZ Wesseloh</strong></a>|<a href="https://plzplz.de/PLZ_Wessiszell/" title="PLZ Wessiszell"><strong>PLZ Wessiszell</strong></a>|<a href="https://plzplz.de/PLZ_Zorge/" title="PLZ Zorge"><strong>PLZ Zorge</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 56076</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorfer_Höhe/">Pfaffendorfer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Albert-Schweitzer-Straße/">Albert-Schweitzer-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Albert-Schweitzer-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorfer_Höhe/">Pfaffendorfer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Alfred-Delp-Straße/">Alfred-Delp-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Alfred-Delp-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheim/">Horchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Alte_Heerstraße/">Alte Heerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Alte_Heerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheimer_Höhe/">Horchheimer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Alte_Heerstraße/">Alte Heerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Alte_Heerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorfer_Höhe/">Pfaffendorfer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Altenbergerhofstraße/">Altenbergerhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Altenbergerhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheim/">Horchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Alter_Weg/">Alter Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Alter_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheimer_Höhe/">Horchheimer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Am_Dornsbach/">Am Dornsbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Am_Dornsbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ehrenbreitstein/">Ehrenbreitstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Am_Hafen/">Am Hafen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Am_Hafen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorf/">Pfaffendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Am_Heiligenhäuschen/">Am Heiligenhäuschen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Am_Heiligenhäuschen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorf/">Pfaffendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Am_Hof/">Am Hof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Am_Hof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorfer_Höhe/">Pfaffendorfer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Am_Kratzkopfer_Hof/">Am Kratzkopfer Hof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Am_Kratzkopfer_Hof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheimer_Höhe/">Horchheimer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/An_der_Grünen_Bank/">An der Grünen Bank</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/An_der_Grünen_Bank/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheim/">Horchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Angelbergstraße/">Angelbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Angelbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorfer_Höhe/">Pfaffendorfer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Auf_der_Fußsohl/">Auf der Fußsohl</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Auf_der_Fußsohl/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheim/">Horchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Auf_der_Luh/">Auf der Luh</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Auf_der_Luh/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorfer_Höhe/">Pfaffendorfer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Auf_der_Steinreusch/">Auf der Steinreusch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Auf_der_Steinreusch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheim/">Horchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Bächelstraße/">Bächelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Bächelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorf/">Pfaffendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Backhausgasse/">Backhausgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Backhausgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorf/">Pfaffendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Balthasar-Neumann-Straße/">Balthasar-Neumann-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Balthasar-Neumann-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorfer_Höhe/">Pfaffendorfer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Balthasar-Neumann-Straße/">Balthasar-Neumann-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Balthasar-Neumann-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheim/">Horchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Beckenkampstraße/">Beckenkampstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Beckenkampstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorfer_Höhe/">Pfaffendorfer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Bienhornhöhe/">Bienhornhöhe</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Bienhornhöhe/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorf/">Pfaffendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Bienhornstraße/">Bienhornstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Bienhornstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheim/">Horchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Bornsgasse/">Bornsgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Bornsgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheim/">Horchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Brandenburgstraße/">Brandenburgstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Brandenburgstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorf/">Pfaffendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Brückenstraße/">Brückenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Brückenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorfer_Höhe/">Pfaffendorfer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Bruno-Hirschfeld-Straße/">Bruno-Hirschfeld-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Bruno-Hirschfeld-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorfer_Höhe/">Pfaffendorfer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Carlo-Mierendorff-Straße/">Carlo-Mierendorff-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Carlo-Mierendorff-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheim/">Horchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Collgasse/">Collgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Collgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorf/">Pfaffendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Diethardstraße/">Diethardstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Diethardstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorfer_Höhe/">Pfaffendorfer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Dietrich-Bonhoeffer-Straße/">Dietrich-Bonhoeffer-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Dietrich-Bonhoeffer-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheimer_Höhe/">Horchheimer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Dornsweg/">Dornsweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Dornsweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheim/">Horchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Dritteneimerweg/">Dritteneimerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Dritteneimerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorf/">Pfaffendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Ellingshohl/">Ellingshohl</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Ellingshohl/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorfer_Höhe/">Pfaffendorfer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Ellingshohl/">Ellingshohl</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Ellingshohl/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheim/">Horchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Emser_Straße/">Emser Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Emser_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorf/">Pfaffendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Emser_Straße/">Emser Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Emser_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheim/">Horchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Engelstraße/">Engelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Engelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheim/">Horchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Erbenstraße/">Erbenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Erbenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorfer_Höhe/">Pfaffendorfer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Erwin-Planck-Straße/">Erwin-Planck-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Erwin-Planck-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorf/">Pfaffendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Fährgasse/">Fährgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Fährgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorfer_Höhe/">Pfaffendorfer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Franz-Leuninger-Straße/">Franz-Leuninger-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Franz-Leuninger-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheim/">Horchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Friedrich-Gerlach-Straße/">Friedrich-Gerlach-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Friedrich-Gerlach-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorf/">Pfaffendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Friedrich-Gerlach-Straße/">Friedrich-Gerlach-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Friedrich-Gerlach-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorf/">Pfaffendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Gerbergasse/">Gerbergasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Gerbergasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorfer_Höhe/">Pfaffendorfer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Geschwister-Scholl-Straße/">Geschwister-Scholl-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Geschwister-Scholl-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheim/">Horchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Grafenstraße/">Grafenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Grafenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorfer_Höhe/">Pfaffendorfer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Gustav-Nachtigal-Straße/">Gustav-Nachtigal-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Gustav-Nachtigal-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheim/">Horchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Haukertsweg/">Haukertsweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Haukertsweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheim/">Horchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Heddesdorfstraße/">Heddesdorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Heddesdorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorf/">Pfaffendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Hermannstraße/">Hermannstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Hermannstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheimer_Höhe/">Horchheimer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Horchheimer_Höhe/">Horchheimer Höhe</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Horchheimer_Höhe/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheimer_Höhe/">Horchheimer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Im_Baumgarten/">Im Baumgarten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Im_Baumgarten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheimer_Höhe/">Horchheimer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Im_Junkerstück/">Im Junkerstück</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Im_Junkerstück/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheimer_Höhe/">Horchheimer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Im_Keitenberg/">Im Keitenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Im_Keitenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheimer_Höhe/">Horchheimer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Im_Plonzert/">Im Plonzert</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Im_Plonzert/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorfer_Höhe/">Pfaffendorfer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Im_Plonzert/">Im Plonzert</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Im_Plonzert/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorfer_Höhe/">Pfaffendorfer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Im_Schenkelsberg/">Im Schenkelsberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Im_Schenkelsberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ehrenbreitstein/">Ehrenbreitstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Im_Teichert/">Im Teichert</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Im_Teichert/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorf/">Pfaffendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/In_der_Hohlstadt/">In der Hohlstadt</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/In_der_Hohlstadt/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheim/">Horchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Jahnplatz/">Jahnplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Jahnplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorfer_Höhe/">Pfaffendorfer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Jakob-Kaiser-Straße/">Jakob-Kaiser-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Jakob-Kaiser-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorfer_Höhe/">Pfaffendorfer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Johannes-Popitz-Straße/">Johannes-Popitz-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Johannes-Popitz-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorfer_Höhe/">Pfaffendorfer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Julius-Leber-Straße/">Julius-Leber-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Julius-Leber-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorfer_Höhe/">Pfaffendorfer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Karl-Friedrich-Goerdeler-Straße/">Karl-Friedrich-Goerdeler-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Karl-Friedrich-Goerdeler-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorf/">Pfaffendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Kirchgasse/">Kirchgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Kirchgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheim/">Horchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Kirchstraße/">Kirchstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Kirchstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorfer_Höhe/">Pfaffendorfer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Leo-Frobenius-Straße/">Leo-Frobenius-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Leo-Frobenius-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheim/">Horchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Louis-Berger-Straße/">Louis-Berger-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Louis-Berger-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorfer_Höhe/">Pfaffendorfer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Lüderitzstraße/">Lüderitzstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Lüderitzstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorfer_Höhe/">Pfaffendorfer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Ludwig-Beck-Straße/">Ludwig-Beck-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Ludwig-Beck-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheim/">Horchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Ludwig-Gall-Straße/">Ludwig-Gall-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Ludwig-Gall-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorfer_Höhe/">Pfaffendorfer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Ludwig-Schwamb-Straße/">Ludwig-Schwamb-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Ludwig-Schwamb-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorfer_Höhe/">Pfaffendorfer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Mariannenhof/">Mariannenhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Mariannenhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheim/">Horchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Meesstraße/">Meesstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Meesstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheim/">Horchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Mendelssohnstraße/">Mendelssohnstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Mendelssohnstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheim/">Horchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Mittelstraße/">Mittelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Mittelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheim/">Horchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Müfflingstraße/">Müfflingstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Müfflingstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorf/">Pfaffendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Mühlgraben/">Mühlgraben</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Mühlgraben/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheim/">Horchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Niederfelder_Weg/">Niederfelder Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Niederfelder_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheimer_Höhe/">Horchheimer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Paul-Schneider-Straße/">Paul-Schneider-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Paul-Schneider-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheim/">Horchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Pechlerberg/">Pechlerberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Pechlerberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorf/">Pfaffendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Ravensteynstraße/">Ravensteynstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Ravensteynstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheim/">Horchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Reiffenbergstraße/">Reiffenbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Reiffenbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorf/">Pfaffendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Rheinuferweg/">Rheinuferweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Rheinuferweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorf/">Pfaffendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Ritterstraße/">Ritterstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Ritterstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorf/">Pfaffendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Sebastianistraße/">Sebastianistraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Sebastianistraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorf/">Pfaffendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Seifenbachstraße/">Seifenbachstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Seifenbachstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorf/">Pfaffendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Seizstraße/">Seizstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Seizstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorf/">Pfaffendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Spangenbergstraße/">Spangenbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Spangenbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorf/">Pfaffendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Untere_Rheingasse/">Untere Rheingasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Untere_Rheingasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheim/">Horchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Varazdinstraße/">Varazdinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Varazdinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorf/">Pfaffendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Von-Cohausen-Straße/">Von-Cohausen-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Von-Cohausen-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorfer_Höhe/">Pfaffendorfer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Von-der-Arken-Straße/">Von-der-Arken-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Von-der-Arken-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheim/">Horchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Von-Eyß-Straße/">Von-Eyß-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Von-Eyß-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheimer_Höhe/">Horchheimer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Von-Galen-Straße/">Von-Galen-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Von-Galen-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheim/">Horchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Von-Kellenbach-Straße/">Von-Kellenbach-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Von-Kellenbach-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheimer_Höhe/">Horchheimer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Von-Witzleben-Straße/">Von-Witzleben-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Von-Witzleben-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorfer_Höhe/">Pfaffendorfer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Von-Witzleben-Straße/">Von-Witzleben-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Von-Witzleben-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horchheim/">Horchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Weitenbornstraße/">Weitenbornstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Weitenbornstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorf/">Pfaffendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Wendelinusstraße/">Wendelinusstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Wendelinusstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffendorfer_Höhe/">Pfaffendorfer Höhe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Wilhelm-Leuschner-Straße/">Wilhelm-Leuschner-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_56076/">56076</a></td>
+<td><a href="https://plzplz.de/PLZ_Koblenz/Wilhelm-Leuschner-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.006 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

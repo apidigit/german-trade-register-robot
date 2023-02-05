@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 86579 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="86579, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 86579 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 86579">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_86579/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 86579 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="86579" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Altenbanz/" title="PLZ Altenbanz"><strong>PLZ Altenbanz</strong></a>|<a href="https://plzplz.de/PLZ_Auenheim_(Rienau)/" title="PLZ Auenheim (Rienau)"><strong>PLZ Auenheim (Rienau)</strong></a>|<a href="https://plzplz.de/PLZ_Binkenhofen/" title="PLZ Binkenhofen"><strong>PLZ Binkenhofen</strong></a>|<a href="https://plzplz.de/PLZ_Buchenhüll/" title="PLZ Buchenhüll"><strong>PLZ Buchenhüll</strong></a>|<a href="https://plzplz.de/PLZ_Ersfeld/" title="PLZ Ersfeld"><strong>PLZ Ersfeld</strong></a>|<a href="https://plzplz.de/PLZ_Fredersdorf/" title="PLZ Fredersdorf"><strong>PLZ Fredersdorf</strong></a>|<a href="https://plzplz.de/PLZ_Grechwitz/" title="PLZ Grechwitz"><strong>PLZ Grechwitz</strong></a>|<a href="https://plzplz.de/PLZ_Großlohra/" title="PLZ Großlohra"><strong>PLZ Großlohra</strong></a>|<a href="https://plzplz.de/PLZ_Gstaudach/" title="PLZ Gstaudach"><strong>PLZ Gstaudach</strong></a>|<a href="https://plzplz.de/PLZ_Halver/" title="PLZ Halver"><strong>PLZ Halver</strong></a>|<a href="https://plzplz.de/PLZ_Hintergindering/" title="PLZ Hintergindering"><strong>PLZ Hintergindering</strong></a>|<a href="https://plzplz.de/PLZ_Hohburg/" title="PLZ Hohburg"><strong>PLZ Hohburg</strong></a>|<a href="https://plzplz.de/PLZ_Klein_Breesen/" title="PLZ Klein Breesen"><strong>PLZ Klein Breesen</strong></a>|<a href="https://plzplz.de/PLZ_Klugham/" title="PLZ Klugham"><strong>PLZ Klugham</strong></a>|<a href="https://plzplz.de/PLZ_Kronsburg/" title="PLZ Kronsburg"><strong>PLZ Kronsburg</strong></a>|<a href="https://plzplz.de/PLZ_Lungsdorf/" title="PLZ Lungsdorf"><strong>PLZ Lungsdorf</strong></a>|<a href="https://plzplz.de/PLZ_Mittergolding/" title="PLZ Mittergolding"><strong>PLZ Mittergolding</strong></a>|<a href="https://plzplz.de/PLZ_Mühlenfließ/" title="PLZ Mühlenfließ"><strong>PLZ Mühlenfließ</strong></a>|<a href="https://plzplz.de/PLZ_Nefling/" title="PLZ Nefling"><strong>PLZ Nefling</strong></a>|<a href="https://plzplz.de/PLZ_Oberneumühle/" title="PLZ Oberneumühle"><strong>PLZ Oberneumühle</strong></a>|<a href="https://plzplz.de/PLZ_Oberschönhagen/" title="PLZ Oberschönhagen"><strong>PLZ Oberschönhagen</strong></a>|<a href="https://plzplz.de/PLZ_Pellndorf/" title="PLZ Pellndorf"><strong>PLZ Pellndorf</strong></a>|<a href="https://plzplz.de/PLZ_Prethalmühle/" title="PLZ Prethalmühle"><strong>PLZ Prethalmühle</strong></a>|<a href="https://plzplz.de/PLZ_Rammertshof/" title="PLZ Rammertshof"><strong>PLZ Rammertshof</strong></a>|<a href="https://plzplz.de/PLZ_Reiher/" title="PLZ Reiher"><strong>PLZ Reiher</strong></a>|<a href="https://plzplz.de/PLZ_Rüdersdorf_bei_Berlin/" title="PLZ Rüdersdorf bei Berlin"><strong>PLZ Rüdersdorf bei Berlin</strong></a>|<a href="https://plzplz.de/PLZ_Rüdigershagen/" title="PLZ Rüdigershagen"><strong>PLZ Rüdigershagen</strong></a>|<a href="https://plzplz.de/PLZ_Sahlkamp/" title="PLZ Sahlkamp"><strong>PLZ Sahlkamp</strong></a>|<a href="https://plzplz.de/PLZ_Sarenseck/" title="PLZ Sarenseck"><strong>PLZ Sarenseck</strong></a>|<a href="https://plzplz.de/PLZ_Schmolde/" title="PLZ Schmolde"><strong>PLZ Schmolde</strong></a>|<a href="https://plzplz.de/PLZ_Unterdrackenstein/" title="PLZ Unterdrackenstein"><strong>PLZ Unterdrackenstein</strong></a>|<a href="https://plzplz.de/PLZ_Unterteuerting/" title="PLZ Unterteuerting"><strong>PLZ Unterteuerting</strong></a>|<a href="https://plzplz.de/PLZ_Ustersbach/" title="PLZ Ustersbach"><strong>PLZ Ustersbach</strong></a>|<a href="https://plzplz.de/PLZ_Völkersen/" title="PLZ Völkersen"><strong>PLZ Völkersen</strong></a>|<a href="https://plzplz.de/PLZ_Vordergalgenberg/" title="PLZ Vordergalgenberg"><strong>PLZ Vordergalgenberg</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 86579</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altenburg/">Altenburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Altenburg/">Altenburg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Altenburg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Am_Bach/">Am Bach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Am_Bach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Am_Graben/">Am Graben</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Am_Graben/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rachelsbach/">Rachelsbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Am_Hang/">Am Hang</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Am_Hang/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Am_Hirschfeld/">Am Hirschfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Am_Hirschfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rachelsbach/">Rachelsbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Am_Lillberg/">Am Lillberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Am_Lillberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Am_Mühlfeld/">Am Mühlfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Am_Mühlfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rachelsbach/">Rachelsbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Am_Schlagacker/">Am Schlagacker</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Am_Schlagacker/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Am_Schmidbach/">Am Schmidbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Am_Schmidbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rachelsbach/">Rachelsbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Am_Spargelfeld/">Am Spargelfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Am_Spargelfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Westerbach/">Westerbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Am_Wald/">Am Wald</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Am_Wald/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rachelsbach/">Rachelsbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Am_Wall/">Am Wall</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Am_Wall/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Westerbach/">Westerbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Am_Wiesenrain/">Am Wiesenrain</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Am_Wiesenrain/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rachelsbach/">Rachelsbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Am_Wolfshofer_Weg/">Am Wolfshofer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Am_Wolfshofer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ammersberg/">Ammersberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Ammersberg/">Ammersberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Ammersberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Amselweg/">Amselweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Amselweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schenkenau/">Schenkenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/An_der_Allee/">An der Allee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/An_der_Allee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Diepoltshofen/">Diepoltshofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/An_der_Breiten/">An der Breiten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/An_der_Breiten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Diepoltshofen/">Diepoltshofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Angerweg/">Angerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Angerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rachelsbach/">Rachelsbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Bachstraße/">Bachstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Bachstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Diepoltshofen/">Diepoltshofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Bergstraße/">Bergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Bergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Birkenweg/">Birkenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Birkenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Blumenstraße/">Blumenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Blumenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Brosiweg/">Brosiweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Brosiweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gröbern/">Gröbern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Brunnener_Straße/">Brunnener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Brunnener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Waizenried/">Waizenried</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Eichenweg/">Eichenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Eichenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gröbern/">Gröbern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Eybergstraße/">Eybergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Eybergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rachelsbach/">Rachelsbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Feldweg/">Feldweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Feldweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Frühlingstraße/">Frühlingstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Frühlingstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Gabisweg/">Gabisweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Gabisweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Gartenstraße/">Gartenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Gartenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Goriweg/">Goriweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Goriweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Gröbener_Straße/">Gröbener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Gröbener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rachelsbach/">Rachelsbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Grundäcker/">Grundäcker</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Grundäcker/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Haid_am_Rain/">Haid am Rain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Haid_am_Rain/">Haid am Rain</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Haid_am_Rain/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Diepoltshofen/">Diepoltshofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Heckenweg/">Heckenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Heckenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Herbstweg/">Herbstweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Herbstweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Westerbach/">Westerbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Hickerbachstraße/">Hickerbachstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Hickerbachstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Diepoltshofen/">Diepoltshofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Hirtweg/">Hirtweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Hirtweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Hofmarkstraße/">Hofmarkstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Hofmarkstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wangen/">Wangen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Hohenwarter_Straße/">Hohenwarter Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Hohenwarter_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rachelsbach/">Rachelsbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Hubertusweg/">Hubertusweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Hubertusweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaifeck/">Kaifeck</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Kaifeck/">Kaifeck</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Kaifeck/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rachelsbach/">Rachelsbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Kapellenweg/">Kapellenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Kapellenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Westerbach/">Westerbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Kiesgrubenweg/">Kiesgrubenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Kiesgrubenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Koppenbacher_Straße/">Koppenbacher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Koppenbacher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rachelsbach/">Rachelsbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Kramerberg/">Kramerberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Kramerberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Laag/">Laag</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Laag/">Laag</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Laag/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Lerchenweg/">Lerchenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Lerchenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Lindenstraße/">Lindenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Lindenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mergertsmühle/">Mergertsmühle</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Mergertsmühle/">Mergertsmühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Mergertsmühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Mesnerweg/">Mesnerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Mesnerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Mittelweg/">Mittelweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Mittelweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Diepoltshofen/">Diepoltshofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Mitterbreiten/">Mitterbreiten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Mitterbreiten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wangen/">Wangen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Mitterfeldstraße/">Mitterfeldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Mitterfeldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wangen/">Wangen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Mühlgasse/">Mühlgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Mühlgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Mühlweg/">Mühlweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Mühlweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wangen/">Wangen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Oberfeldstraße/">Oberfeldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Oberfeldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Ostendstraße/">Ostendstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Ostendstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rachelsbach/">Rachelsbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Paartalblick/">Paartalblick</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Paartalblick/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wangen/">Wangen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Paarweg/">Paarweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Paarweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Postbauernweg/">Postbauernweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Postbauernweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wangen/">Wangen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Postweberweg/">Postweberweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Postweberweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Prielweg/">Prielweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Prielweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Raiffeisenstraße/">Raiffeisenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Raiffeisenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Ringstraße/">Ringstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Ringstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gröbern/">Gröbern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Römerweg/">Römerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Römerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schenkenau/">Schenkenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Schenkenau/">Schenkenau</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Schenkenau/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schenkengrub/">Schenkengrub</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Schenkengrub/">Schenkengrub</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Schenkengrub/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schenkenau/">Schenkenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Schloßweg/">Schloßweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Schloßweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schenkenau/">Schenkenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Schlotter_Straße/">Schlotter Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Schlotter_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Schulstraße/">Schulstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Schulstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rachelsbach/">Rachelsbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Schützenstraße/">Schützenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Schützenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seelhof/">Seelhof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Seelhof/">Seelhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Seelhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Sonnenstraße/">Sonnenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Sonnenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/St.-Wendelin-Straße/">St.-Wendelin-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/St.-Wendelin-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Stadel/">Stadel</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Stadel/">Stadel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Stadel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Sternstraße/">Sternstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Sternstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Diepoltshofen/">Diepoltshofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Strobenrieder_Straße/">Strobenrieder Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Strobenrieder_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rachelsbach/">Rachelsbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Strobenrieder_Straße/">Strobenrieder Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Strobenrieder_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Waizenried/">Waizenried</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Strobenrieder_Straße/">Strobenrieder Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Strobenrieder_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Sudetenstraße/">Sudetenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Sudetenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Weberweg/">Weberweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Weberweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Weiherweg/">Weiherweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Weiherweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rachelsbach/">Rachelsbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Westerbacher_Weg/">Westerbacher Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Westerbacher_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/"><strong>PLZ Waidhofen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wangen/">Wangen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Wilbergstraße/">Wilbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86579/">86579</a></td>
+<td><a href="https://plzplz.de/PLZ_Waidhofen/Wilbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.006 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

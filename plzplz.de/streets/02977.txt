@@ -1,0 +1,286 @@
+Ackerstraße
+Akazienweg
+Albert-Einstein-Straße
+Albert-Schweitzer-Straße
+Albrecht-Dürer-Straße
+Alte Berliner Straße
+Alte Gartenstraße
+Am Adler
+Am Anger
+Am Anschlußgleis
+Am Autopark
+Am Bahndamm
+Am Bahnhof
+Am Bahnhofsvorplatz
+Am Bergbaumuseum
+Am Elsterbogen
+Am Elstergrund
+Am Elsterstrand
+Am Feldrain
+Am Feldrand
+Am Feuerwehrhaus
+Am Friedhof
+Am Gondelteich
+Am Haag
+Am Hochwald
+Am Knappensee
+Am Schwarzen Graben
+Am Speicher
+Am Stadion
+Am Stadtrand
+Am Teich
+Am Vincenzgraben
+Am Waldfriedhof
+Am Waldrand
+Am Wasserschloß
+Am Wasserturm
+Am Wiesengrund
+Amselweg
+An den Gärten
+An der Bahn
+An der Hochkippe
+An der Jenschwitz
+An der Kiesgrube
+An der Kummelmühle
+An der Kummelmühle
+An der Mühle
+An der Schule
+An der Thrune
+An der Windmühle
+Andreas-Seiler-Straße
+Anne-Frank-Weg
+Aufbaustraße
+August-Bebel-Platz
+August-Bebel-Straße
+Badergasse
+Bahnhofsallee
+Bahnhofsweg
+Bautzener Allee
+Bautzener Straße
+Bertolt-Brecht-Straße
+Birkenweg
+Bleichgäßchen
+Braschkaweg
+Braugasse
+Breitscheidstraße
+Brigitte-Reimann-Straße
+Bröthener Straße
+Bröthener Weg
+Burgplatz
+Clara-Zetkin-Straße
+Claus-von-Stauffenberg-Straße
+Collinsstraße
+Cottbuser Tor
+Cranachstraße
+Dammweg
+Diesterwegstraße
+Dietrich-Bonhoeffer-Straße
+Dillinger Straße
+Dorfaue
+Dorfstraße
+Dr.-Wilhelm-Külz-Straße
+Dresdener Straße
+Dresdener Straße
+Dresdener Straße
+Eibenweg
+Eichenweg
+Elsteraue
+Elsterstraße
+Erich-Weinert-Straße
+Ernst-Heim-Straße
+Ernst-Thälmann-Straße
+Feldstraße
+Ferdinand-von-Freiligrath-Straße
+Ferdinand-von-Schill-Straße
+Feuerwehrstraße
+Fichtenweg
+Fichtestraße
+Finkenweg
+Fischerstraße
+Florian-Geyer-Straße
+Flugplatzstraße
+Flugplatzstraße
+Flurweg
+Forstweg
+Franz-Liszt-Straße
+Franz-Mehring-Straße
+Frederic-Joliot-Curie-Straße
+Friedensstraße
+Friedrich-Ebert-Straße
+Friedrich-Engels-Straße
+Friedrich-Löffler-Straße
+Friedrich-Ludwig-Jahn-Straße
+Friedrichsstraße
+Fuggerstraße
+Galileistraße
+Gartenstraße
+Gaußstraße
+Gebrüder-Grimm-Straße
+Georg-Friedrich-Händel-Straße
+Gerhard-von-Scharnhorst-Straße
+Gerhart-Hauptmann-Straße
+Geschwister-Scholl-Straße
+Goethestraße
+Groß-Neidaer-Straße
+Grüner Weg
+Grünewaldring
+Grünstraße
+Günter-Peters-Straße
+Gutenbergstraße
+Hauptstraße
+Heideweg
+Heinrich-Heine-Straße
+Heinrich-Mann-Straße
+Heinrich-Zille-Straße
+Herweghstraße
+Hoffmann-von-Fallersleben-Straße
+Holbeinstraße
+Hommelmühlenweg
+Hufelandstraße
+Humboldtstraße
+Jan-Amos-Comenius-Straße
+Jan-Arnost-Smoler-Straße
+Johann-Gottfried-Herder-Straße
+Johann-Sebastian-Bach-Straße
+Johannes-R.-Becher-Straße
+Joseph-Haydn-Straße
+Juri-Gagarin-Straße
+Kamenzer Bogen
+Karl-Liebknecht-Straße
+Karl-Marx-Straße
+Kastanienweg
+Käthe-Kollwitz-Straße
+Käthe-Niederkirchner-Straße
+Kiefernweg
+Kirchplatz
+Kirchstraße
+Klein Zeißig
+Kleine Bleiche
+Knappengasse
+Kochstraße
+Kocorstraße
+Kolpingstraße
+Konrad-Zuse-Straße
+Koselbruch
+Koselbruchweg
+Krabatring
+Krabatweg
+Kubitzberg
+Kühnichter Straße
+Kurt-Klinkert-Straße
+Kurze Straße
+Lange Straße
+Lärchenweg
+Lausitzer Platz
+Leipper Weg
+Lessingstraße
+Lilienthalstraße
+Lindenweg
+Lipezker Platz
+Lise-Meitner-Straße
+Liselotte-Herrmann-Straße
+Lohsaer Weg
+Ludwig-van-Beethoven-Straße
+Maria-Grollmuß-Straße
+Markt
+Martin-Luther-Straße
+Merzdorfer Straße
+Mittelstraße
+Mittelweg
+Moorweg
+Mozartstraße
+Mühlenweg
+Mühlweg
+Nardter Weg
+Neidaer Weg
+Neidhardt-von-Gneisenau-Straße
+Neil-Armstrong-Straße
+Neue Straße
+Neukollm
+Neumarkt
+Nieskyer Straße
+Nordring
+Nordstraße
+Otto-Damerau-Straße
+Otto-Dix-Straße
+Otto-Nagel-Straße
+Paracelsusstraße
+Paul-Ehrlich-Straße
+Pestalozzistraße
+Petzerberg
+Pforzheimer Platz
+Philipp-Melanchthon-Straße
+Plonweg
+Pucik
+Ratzener Straße
+Reichsbahnstraße
+Richard-Wagner-Straße
+Ringstraße
+Robert-Schumann-Straße
+Röntgenstraße
+Rosa-Luxemburg-Straße
+Rosenstraße
+Rosenweg
+Salomon-Gottlob-Frentzel-Straße
+Sandwäsche
+Scadoer Straße
+Schäferweg
+Scheunenweg
+Schilfweg
+Schillerstraße
+Schlossergasse
+Schloßplatz
+Schloßstraße
+Schmiedeweg
+Schöpsdorfer Straße
+Schubertallee
+Schulstraße
+Semmelweisstraße
+Senftenberger Straße
+Senftenberger Vorstadt
+Spohlaer Straße
+Spremberger Chaussee
+Spremberger Straße
+Spremberger Vorstadt
+Sputnikstraße
+Stadtpromenade
+Steinbruch
+Steinbruchweg
+Steinbrückstraße
+Steinstraße
+Straße A
+Straße am Lessinghaus
+Straße am Sender
+Straße B
+Straße C
+Straße D
+Straße des Friedens
+Straße E
+Straße F
+Straße G
+Straße zum Industriegelände
+Teichweg
+Tereschkowastraße
+Teschenstraße
+Theodor-Körner-Straße
+Theodor-Storm-Straße
+Thomas-Müntzer-Straße
+Ulrich-von-Hutten-Straße
+Virchowstraße
+Voigts Grundstück
+Waldesruh
+Waldesruhweg
+Waldstraße
+Walther-Rathenau-Straße
+Weidenweg
+Weinbergstraße
+Werkstraße
+Werminghoffstraße
+Wiesenweg
+Wittichenauer Straße
+Wittichenauer Straße
+YADOS-Straße
+Ziegeleistraße
+Ziolkowskistraße
+Zum Wehr
+Zur Alten Elster

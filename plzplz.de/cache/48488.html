@@ -1,0 +1,2231 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 48488 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="48488, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 48488 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 48488">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_48488/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 48488 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="48488" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Altisheim/" title="PLZ Altisheim"><strong>PLZ Altisheim</strong></a>|<a href="https://plzplz.de/PLZ_Behnkenhagen/" title="PLZ Behnkenhagen"><strong>PLZ Behnkenhagen</strong></a>|<a href="https://plzplz.de/PLZ_Brebersdorf/" title="PLZ Brebersdorf"><strong>PLZ Brebersdorf</strong></a>|<a href="https://plzplz.de/PLZ_Curau/" title="PLZ Curau"><strong>PLZ Curau</strong></a>|<a href="https://plzplz.de/PLZ_Eberswang/" title="PLZ Eberswang"><strong>PLZ Eberswang</strong></a>|<a href="https://plzplz.de/PLZ_Effenricht/" title="PLZ Effenricht"><strong>PLZ Effenricht</strong></a>|<a href="https://plzplz.de/PLZ_Evenhausen/" title="PLZ Evenhausen"><strong>PLZ Evenhausen</strong></a>|<a href="https://plzplz.de/PLZ_Fridolfing/" title="PLZ Fridolfing"><strong>PLZ Fridolfing</strong></a>|<a href="https://plzplz.de/PLZ_Geigersau/" title="PLZ Geigersau"><strong>PLZ Geigersau</strong></a>|<a href="https://plzplz.de/PLZ_Gleidorf/" title="PLZ Gleidorf"><strong>PLZ Gleidorf</strong></a>|<a href="https://plzplz.de/PLZ_Gresse/" title="PLZ Gresse"><strong>PLZ Gresse</strong></a>|<a href="https://plzplz.de/PLZ_Groß_Buchholz/" title="PLZ Groß Buchholz"><strong>PLZ Groß Buchholz</strong></a>|<a href="https://plzplz.de/PLZ_Großbrüchter/" title="PLZ Großbrüchter"><strong>PLZ Großbrüchter</strong></a>|<a href="https://plzplz.de/PLZ_Großpalmberg/" title="PLZ Großpalmberg"><strong>PLZ Großpalmberg</strong></a>|<a href="https://plzplz.de/PLZ_Haitzing/" title="PLZ Haitzing"><strong>PLZ Haitzing</strong></a>|<a href="https://plzplz.de/PLZ_Haselau/" title="PLZ Haselau"><strong>PLZ Haselau</strong></a>|<a href="https://plzplz.de/PLZ_Hausstette/" title="PLZ Hausstette"><strong>PLZ Hausstette</strong></a>|<a href="https://plzplz.de/PLZ_Hellham/" title="PLZ Hellham"><strong>PLZ Hellham</strong></a>|<a href="https://plzplz.de/PLZ_Hohentengen/" title="PLZ Hohentengen"><strong>PLZ Hohentengen</strong></a>|<a href="https://plzplz.de/PLZ_Höherberg/" title="PLZ Höherberg"><strong>PLZ Höherberg</strong></a>|<a href="https://plzplz.de/PLZ_Ketsch/" title="PLZ Ketsch"><strong>PLZ Ketsch</strong></a>|<a href="https://plzplz.de/PLZ_Longkamp/" title="PLZ Longkamp"><strong>PLZ Longkamp</strong></a>|<a href="https://plzplz.de/PLZ_Ohl/" title="PLZ Ohl"><strong>PLZ Ohl</strong></a>|<a href="https://plzplz.de/PLZ_Pfersee/" title="PLZ Pfersee"><strong>PLZ Pfersee</strong></a>|<a href="https://plzplz.de/PLZ_Priemen/" title="PLZ Priemen"><strong>PLZ Priemen</strong></a>|<a href="https://plzplz.de/PLZ_Raitenhaslach/" title="PLZ Raitenhaslach"><strong>PLZ Raitenhaslach</strong></a>|<a href="https://plzplz.de/PLZ_Salchendorf/" title="PLZ Salchendorf"><strong>PLZ Salchendorf</strong></a>|<a href="https://plzplz.de/PLZ_Schrotsdorf/" title="PLZ Schrotsdorf"><strong>PLZ Schrotsdorf</strong></a>|<a href="https://plzplz.de/PLZ_Stögen/" title="PLZ Stögen"><strong>PLZ Stögen</strong></a>|<a href="https://plzplz.de/PLZ_Volkwardingen/" title="PLZ Volkwardingen"><strong>PLZ Volkwardingen</strong></a>|<a href="https://plzplz.de/PLZ_Wächtersbach/" title="PLZ Wächtersbach"><strong>PLZ Wächtersbach</strong></a>|<a href="https://plzplz.de/PLZ_Wagun/" title="PLZ Wagun"><strong>PLZ Wagun</strong></a>|<a href="https://plzplz.de/PLZ_Wolfsbronn/" title="PLZ Wolfsbronn"><strong>PLZ Wolfsbronn</strong></a>|<a href="https://plzplz.de/PLZ_Zackermühle/" title="PLZ Zackermühle"><strong>PLZ Zackermühle</strong></a>|<a href="https://plzplz.de/PLZ_Zechlinerhütte/" title="PLZ Zechlinerhütte"><strong>PLZ Zechlinerhütte</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 48488</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Ackerweg/">Ackerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Ackerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ahlde/">Ahlde</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Ahlde/">Ahlde</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Ahlde/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Ahlder_Straße/">Ahlder Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Ahlder_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Ahornweg/">Ahornweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Ahornweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Albert-Deitering-Straße/">Albert-Deitering-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Albert-Deitering-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elbergen/">Elbergen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Alte_Steege/">Alte Steege</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Alte_Steege/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Alter_Kirchweg/">Alter Kirchweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Alter_Kirchweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Listrup/">Listrup</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Alter_Mühlenweg/">Alter Mühlenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Alter_Mühlenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elbergen/">Elbergen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Alter_Schulweg/">Alter Schulweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Alter_Schulweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Bach/">Am Bach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Bach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Bahndamm/">Am Bahndamm</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Bahndamm/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Bauerngarten/">Am Bauerngarten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Bauerngarten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Listrup/">Listrup</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Emstal/">Am Emstal</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Emstal/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Erdberg/">Am Erdberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Erdberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Falkenhorst/">Am Falkenhorst</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Falkenhorst/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Feldkamp/">Am Feldkamp</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Feldkamp/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Fleckenbach/">Am Fleckenbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Fleckenbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Grünen_Revier/">Am Grünen Revier</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Grünen_Revier/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Listrup/">Listrup</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Haferkamp/">Am Haferkamp</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Haferkamp/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Heimathof/">Am Heimathof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Heimathof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Holtkamp/">Am Holtkamp</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Holtkamp/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Kamp/">Am Kamp</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Kamp/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Kirchplatz/">Am Kirchplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Kirchplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Kräutergarten/">Am Kräutergarten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Kräutergarten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Listrup/">Listrup</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Lohbach/">Am Lohbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Lohbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Ludgerus/">Am Ludgerus</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Ludgerus/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Nattenberg/">Am Nattenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Nattenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Poschkeberg/">Am Poschkeberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Poschkeberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Rampool/">Am Rampool</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Rampool/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Santenkamp/">Am Santenkamp</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Santenkamp/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Schmiedefeuer/">Am Schmiedefeuer</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Schmiedefeuer/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Schüttenkamp/">Am Schüttenkamp</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Schüttenkamp/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_See/">Am See</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_See/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Listrup/">Listrup</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Spellberg/">Am Spellberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Spellberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Steinkamp/">Am Steinkamp</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Steinkamp/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Stillen_Wasser/">Am Stillen Wasser</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Stillen_Wasser/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Uhlenkopp/">Am Uhlenkopp</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Uhlenkopp/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Waldessaum/">Am Waldessaum</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Waldessaum/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Wall/">Am Wall</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Am_Wall/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Amalienweg/">Amalienweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Amalienweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Amselweg/">Amselweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Amselweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/An_der_Aa/">An der Aa</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/An_der_Aa/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/An_der_Gleesener_Schule/">An der Gleesener Schule</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/An_der_Gleesener_Schule/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/An_der_Hünenburg/">An der Hünenburg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/An_der_Hünenburg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/An_der_Kapelle/">An der Kapelle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/An_der_Kapelle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/An_der_Waldschule/">An der Waldschule</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/An_der_Waldschule/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Anglerpfad/">Anglerpfad</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Anglerpfad/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Anisweg/">Anisweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Anisweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Asternstraße/">Asternstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Asternstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Auf_dem_Diek/">Auf dem Diek</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Auf_dem_Diek/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Auf_dem_Hörtel/">Auf dem Hörtel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Auf_dem_Hörtel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Auf_dem_Hügel/">Auf dem Hügel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Auf_dem_Hügel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Auf_der_Haar/">Auf der Haar</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Auf_der_Haar/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Auf_der_Worte/">Auf der Worte</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Auf_der_Worte/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Bahnhofstraße/">Bahnhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Bahnhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Bahnhofstraße/">Bahnhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Bahnhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Basilikumstraße/">Basilikumstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Basilikumstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ahlde/">Ahlde</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Bechsteinstraße/">Bechsteinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Bechsteinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Benzstraße/">Benzstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Benzstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Berge/">Berge</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Berge/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Bernte/">Bernte</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Bernte/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Listrup/">Listrup</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Binsenweg/">Binsenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Binsenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Birkenstraße/">Birkenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Birkenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Listrup/">Listrup</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Bleckenweg/">Bleckenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Bleckenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Bleßhuhnstraße/">Bleßhuhnstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Bleßhuhnstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Bogenweg/">Bogenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Bogenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Boombrede/">Boombrede</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Boombrede/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Borkenweg/">Borkenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Borkenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Bovenberge/">Bovenberge</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Bovenberge/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Bramscher_Straße/">Bramscher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Bramscher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Brombeerweg/">Brombeerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Brombeerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Brunnenweg/">Brunnenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Brunnenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Buchenweg/">Buchenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Buchenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Bürgermeister-Korte-Weg/">Bürgermeister-Korte-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Bürgermeister-Korte-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Buschweg/">Buschweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Buschweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Bussardhöhe/">Bussardhöhe</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Bussardhöhe/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ahlde/">Ahlde</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Carl-von-Linne-Straße/">Carl-von-Linne-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Carl-von-Linne-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Dahlhok/">Dahlhok</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Dahlhok/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Dahlienstraße/">Dahlienstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Dahlienstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Dahlienstraße/">Dahlienstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Dahlienstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ahlde/">Ahlde</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Darwinstraße/">Darwinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Darwinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Deutzstraße/">Deutzstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Deutzstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Dieselstraße/">Dieselstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Dieselstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Dillen_Drey/">Dillen Drey</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Dillen_Drey/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Dillweg/">Dillweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Dillweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Listrup/">Listrup</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Doorenweg/">Doorenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Doorenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Listrup/">Listrup</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Dorfstraße/">Dorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Dorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Drievordener_Straße/">Drievordener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Drievordener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Dunkernpättken/">Dunkernpättken</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Dunkernpättken/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Listrup/">Listrup</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Ebendiekstraße/">Ebendiekstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Ebendiekstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Eichendorffstraße/">Eichendorffstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Eichendorffstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Eichenstraße/">Eichenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Eichenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elbergen/">Elbergen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Elbergen/">Elbergen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Elbergen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Elisabeth-Bertling-Straße/">Elisabeth-Bertling-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Elisabeth-Bertling-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Elisabethstraße/">Elisabethstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Elisabethstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Listrup/">Listrup</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Elsenbergweg/">Elsenbergweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Elsenbergweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Elsterweg/">Elsterweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Elsterweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Ems-Au/">Ems-Au</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Ems-Au/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Listrup/">Listrup</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Emsblick/">Emsblick</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Emsblick/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Listrup/">Listrup</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Emsflach/">Emsflach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Emsflach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Listrup/">Listrup</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Emskämpe/">Emskämpe</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Emskämpe/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Emsstraße/">Emsstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Emsstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Engdener_Kirchweg/">Engdener Kirchweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Engdener_Kirchweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Erikaweg/">Erikaweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Erikaweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Erlenweg/">Erlenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Erlenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Eschstraße/">Eschstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Eschstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Espenweg/">Espenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Espenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Falkenweg/">Falkenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Falkenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Fasanenweg/">Fasanenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Fasanenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Feldkampweg/">Feldkampweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Feldkampweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Feldstraße/">Feldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Feldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Fenchelweg/">Fenchelweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Fenchelweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Finkenweg/">Finkenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Finkenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Fischerweg/">Fischerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Fischerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Fleckenweg/">Fleckenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Fleckenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Fleckenweg/">Fleckenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Fleckenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Fliederstraße/">Fliederstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Fliederstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Forstweg/">Forstweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Forstweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Franz-Silies-Straße/">Franz-Silies-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Franz-Silies-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Freesenweg/">Freesenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Freesenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Fuchsienweg/">Fuchsienweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Fuchsienweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Fuchspfad/">Fuchspfad</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Fuchspfad/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Gartenweg/">Gartenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Gartenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Geranienweg/">Geranienweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Geranienweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Gerstenweg/">Gerstenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Gerstenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Ginsterweg/">Ginsterweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Ginsterweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Glatzer_Straße/">Glatzer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Glatzer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Gleesen/">Gleesen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Gleesen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Gleesener_Hauptstraße/">Gleesener Hauptstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Gleesener_Hauptstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Gleisweg/">Gleisweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Gleisweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Grabenweg/">Grabenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Grabenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Grenzstraße/">Grenzstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Grenzstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Grenzstraße/">Grenzstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Grenzstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Haagenkamp/">Haagenkamp</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Haagenkamp/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Habichtsweg/">Habichtsweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Habichtsweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Hanwische_Straße/">Hanwische Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Hanwische_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Hanwische_Straße/">Hanwische Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Hanwische_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Hanwischer_Höhe/">Hanwischer Höhe</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Hanwischer_Höhe/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Haverlandweg/">Haverlandweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Haverlandweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Hedwigstraße/">Hedwigstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Hedwigstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Heidelbeerweg/">Heidelbeerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Heidelbeerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Heideweg/">Heideweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Heideweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Heie/">Heie</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Heie/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Helschen/">Helschen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Helschen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Listrup/">Listrup</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Helschener_Straße/">Helschener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Helschener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elbergen/">Elbergen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Heßbergstraße/">Heßbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Heßbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Hesselte/">Hesselte</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Hesselte/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Himbeerweg/">Himbeerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Himbeerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Hinter_Quaing's_Hof/">Hinter Quaing's Hof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Hinter_Quaing's_Hof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elbergen/">Elbergen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Hövelstraße/">Hövelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Hövelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Hügeleschweg/">Hügeleschweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Hügeleschweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elbergen/">Elbergen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Hülskrabbenweg/">Hülskrabbenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Hülskrabbenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Humboldtstraße/">Humboldtstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Humboldtstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Im_Dunkern/">Im Dunkern</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Im_Dunkern/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Im_Eichenbusch/">Im Eichenbusch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Im_Eichenbusch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Listrup/">Listrup</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Im_Emshook/">Im Emshook</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Im_Emshook/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Im_Gartenfeld/">Im Gartenfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Im_Gartenfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Im_Hagen/">Im Hagen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Im_Hagen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Im_Kuckuckswinkel/">Im Kuckuckswinkel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Im_Kuckuckswinkel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Im_Rehwinkel/">Im Rehwinkel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Im_Rehwinkel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Im_Wäldchen/">Im Wäldchen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Im_Wäldchen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Im_Windfeld/">Im Windfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Im_Windfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Immenweg/">Immenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Immenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/In_den_Gärten/">In den Gärten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/In_den_Gärten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/In_den_Gärten/">In den Gärten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/In_den_Gärten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/In_den_Tannen/">In den Tannen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/In_den_Tannen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/In_der_Maate/">In der Maate</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/In_der_Maate/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/In_der_Stroote/">In der Stroote</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/In_der_Stroote/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Industriestraße/">Industriestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Industriestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Johannisbeerweg/">Johannisbeerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Johannisbeerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Josef-Krämer-Straße/">Josef-Krämer-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Josef-Krämer-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Josef-Tiesmeyer-Straße/">Josef-Tiesmeyer-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Josef-Tiesmeyer-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Kamillenweg/">Kamillenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Kamillenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Listrup/">Listrup</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Kanalstraße/">Kanalstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Kanalstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Karolinenstraße/">Karolinenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Karolinenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Kerbelweg/">Kerbelweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Kerbelweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Kespelweg/">Kespelweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Kespelweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Kiebitzstraße/">Kiebitzstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Kiebitzstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Kieselstraße/">Kieselstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Kieselstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Kornblumenstraße/">Kornblumenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Kornblumenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Kostverloren/">Kostverloren</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Kostverloren/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Kräuterstraße/">Kräuterstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Kräuterstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Kruppstraße/">Kruppstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Kruppstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Kuhm/">Kuhm</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Kuhm/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Kunkemühlenweg/">Kunkemühlenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Kunkemühlenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Lambertiweg/">Lambertiweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Lambertiweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Landwehrweg/">Landwehrweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Landwehrweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Lange_Straße/">Lange Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Lange_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Lange-Diek-Weg/">Lange-Diek-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Lange-Diek-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Lavendelweg/">Lavendelweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Lavendelweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Lescheder_Esch/">Lescheder Esch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Lescheder_Esch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Lescheder_Straße/">Lescheder Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Lescheder_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Listrup/">Listrup</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Letberger_Straße/">Letberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Letberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Lilienstraße/">Lilienstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Lilienstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Lindenweg/">Lindenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Lindenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Lingener_Straße/">Lingener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Lingener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Listrup/">Listrup</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Listrup/">Listrup</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Listrup/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Listrup/">Listrup</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Listruper_Wehr/">Listruper Wehr</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Listruper_Wehr/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Lönsweg/">Lönsweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Lönsweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Lorbeerweg/">Lorbeerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Lorbeerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Losserpad/">Losserpad</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Losserpad/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Ludgeristraße/">Ludgeristraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Ludgeristraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Luisenweg/">Luisenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Luisenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Lünner_Straße/">Lünner Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Lünner_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Magistratsstraße/">Magistratsstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Magistratsstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Magnusstraße/">Magnusstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Magnusstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Maria-Mönch-Tegeder-Straße/">Maria-Mönch-Tegeder-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Maria-Mönch-Tegeder-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Marienstraße/">Marienstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Marienstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Markt/">Markt</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Markt/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Marthastraße/">Marthastraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Marthastraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Mathildenweg/">Mathildenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Mathildenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Mehringen/">Mehringen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Mehringen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Mehringer_Straße/">Mehringer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Mehringer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Mehringer_Straße/">Mehringer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Mehringer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Meisenweg/">Meisenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Meisenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Melissenweg/">Melissenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Melissenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Mendelstraße/">Mendelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Mendelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ahlde/">Ahlde</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Merianstraße/">Merianstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Merianstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Merlinweg/">Merlinweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Merlinweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Milanweg/">Milanweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Milanweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Minzeweg/">Minzeweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Minzeweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Monsignore-Scheperjans-Straße/">Monsignore-Scheperjans-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Monsignore-Scheperjans-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Moorlage/">Moorlage</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Moorlage/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Listrup/">Listrup</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Moorlager_Straße/">Moorlager Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Moorlager_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Mühlenstraße/">Mühlenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Mühlenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Mühlenstraße/">Mühlenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Mühlenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Mühlentorweg/">Mühlentorweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Mühlentorweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Nach_Wintermanns_Hof/">Nach Wintermanns Hof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Nach_Wintermanns_Hof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Nachtigallenstraße/">Nachtigallenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Nachtigallenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Napoleondamm/">Napoleondamm</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Napoleondamm/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Napoleondamm/">Napoleondamm</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Napoleondamm/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Narzissenstraße/">Narzissenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Narzissenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Nelkenstraße/">Nelkenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Nelkenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Neu-Mehringen/">Neu-Mehringen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Neu-Mehringen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Nußbaumweg/">Nußbaumweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Nußbaumweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Oevelgünne/">Oevelgünne</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Oevelgünne/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Papenstraße/">Papenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Papenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Pappelweg/">Pappelweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Pappelweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ahlde/">Ahlde</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Paxtonstraße/">Paxtonstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Paxtonstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Petersilienweg/">Petersilienweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Petersilienweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ahlde/">Ahlde</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Pliniusstraße/">Pliniusstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Pliniusstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Prozessionsweg/">Prozessionsweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Prozessionsweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Prozessionsweg/">Prozessionsweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Prozessionsweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Querstraße/">Querstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Querstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Rebhuhnweg/">Rebhuhnweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Rebhuhnweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Reuterweg/">Reuterweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Reuterweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Richters_Esch/">Richters Esch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Richters_Esch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Richthofstraße/">Richthofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Richthofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Rosenstraße/">Rosenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Rosenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Rosmarinstraße/">Rosmarinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Rosmarinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Salbeiweg/">Salbeiweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Salbeiweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elbergen/">Elbergen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Sandäcker/">Sandäcker</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Sandäcker/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Sandstraße/">Sandstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Sandstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Listrup/">Listrup</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Schilfweg/">Schilfweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Schilfweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Schleheneck/">Schleheneck</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Schleheneck/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Schmiedestraße/">Schmiedestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Schmiedestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Schnepfenstraße/">Schnepfenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Schnepfenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Schulstraße/">Schulstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Schulstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Schüttorfer_Straße/">Schüttorfer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Schüttorfer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Schützenstraße/">Schützenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Schützenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ahlde/">Ahlde</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Sechs-Sterne-Weg/">Sechs-Sterne-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Sechs-Sterne-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Siemensstraße/">Siemensstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Siemensstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Simonenweg/">Simonenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Simonenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Sonnenblumenweg/">Sonnenblumenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Sonnenblumenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Sonnenweg/">Sonnenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Sonnenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Sophienstraße/">Sophienstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Sophienstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Sperberweg/">Sperberweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Sperberweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Stefaniestraße/">Stefaniestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Stefaniestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Steinstraße/">Steinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Steinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Stormstraße/">Stormstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Stormstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Strooteweg/">Strooteweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Strooteweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Suddenstraße/">Suddenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Suddenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Tannenstraße/">Tannenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Tannenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Taubenstraße/">Taubenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Taubenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Thymianstraße/">Thymianstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Thymianstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Tietmeyerstraße/">Tietmeyerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Tietmeyerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Tiggelwerkweg/">Tiggelwerkweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Tiggelwerkweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Tulpenstraße/">Tulpenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Tulpenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Uhlandweg/">Uhlandweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Uhlandweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Unter_den_Eichen/">Unter den Eichen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Unter_den_Eichen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Uphok/">Uphok</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Uphok/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Veilchenweg/">Veilchenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Veilchenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Von-Linde-Straße/">Von-Linde-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Von-Linde-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Wachtelweg/">Wachtelweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Wachtelweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Listrup/">Listrup</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Waldschlösschenweg/">Waldschlösschenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Waldschlösschenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Waldstraße/">Waldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Waldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Waldstraße/">Waldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Waldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Wankelstraße/">Wankelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Wankelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Weidenstraße/">Weidenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Weidenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berge/">Berge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Widbuschweg/">Widbuschweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Widbuschweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Wiesenstraße/">Wiesenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Wiesenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Wilhelm-van-Lengerich-Straße/">Wilhelm-van-Lengerich-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Wilhelm-van-Lengerich-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Windthorststraße/">Windthorststraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Windthorststraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Ziegeleidamm/">Ziegeleidamm</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Ziegeleidamm/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elbergen/">Elbergen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zu_den_Fischerhütten/">Zu den Fischerhütten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zu_den_Fischerhütten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Backhaus/">Zum Backhaus</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Backhaus/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Braken/">Zum Braken</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Braken/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Busch/">Zum Busch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Busch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Emsufer/">Zum Emsufer</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Emsufer/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Listrup/">Listrup</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Emswehr/">Zum Emswehr</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Emswehr/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Listrup/">Listrup</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Esch/">Zum Esch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Esch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Feldbrook/">Zum Feldbrook</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Feldbrook/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Listrup/">Listrup</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Feldhook/">Zum Feldhook</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Feldhook/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leschede/">Leschede</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Fernen_Sand/">Zum Fernen Sand</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Fernen_Sand/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Heuerhaus/">Zum Heuerhaus</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Heuerhaus/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Hornberg/">Zum Hornberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Hornberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Listrup/">Listrup</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Kamphook/">Zum Kamphook</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Kamphook/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Kuckshörn/">Zum Kuckshörn</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Kuckshörn/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Linnspiek/">Zum Linnspiek</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Linnspiek/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Palhügel/">Zum Palhügel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Palhügel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Listrup/">Listrup</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Schultenhook/">Zum Schultenhook</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Schultenhook/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Listrup/">Listrup</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Sportplatz/">Zum Sportplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Sportplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Sunderhügel/">Zum Sunderhügel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Sunderhügel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Wasser/">Zum Wasser</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zum_Wasser/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zur_Gleesener_Schleuse/">Zur Gleesener Schleuse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zur_Gleesener_Schleuse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zur_Halbinsel/">Zur Halbinsel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zur_Halbinsel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zur_Hesselter_Schleuse/">Zur Hesselter Schleuse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zur_Hesselter_Schleuse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zur_Kreissandgrube/">Zur Kreissandgrube</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zur_Kreissandgrube/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Listrup/">Listrup</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zur_Nore/">Zur Nore</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zur_Nore/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zur_Streuobstwiese/">Zur Streuobstwiese</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zur_Streuobstwiese/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleesen/">Gleesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zur_Venhauser_Schleuse/">Zur Venhauser Schleuse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zur_Venhauser_Schleuse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zur_Wagenremise/">Zur Wagenremise</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zur_Wagenremise/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/"><strong>PLZ Emsbüren</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mehringen/">Mehringen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zur_Windmühle/">Zur Windmühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_48488/">48488</a></td>
+<td><a href="https://plzplz.de/PLZ_Emsbüren/Zur_Windmühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.016 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

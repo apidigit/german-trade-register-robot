@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 86476 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="86476, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 86476 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 86476">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_86476/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 86476 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="86476" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Alt_Stassow/" title="PLZ Alt Stassow"><strong>PLZ Alt Stassow</strong></a>|<a href="https://plzplz.de/PLZ_Amerang/" title="PLZ Amerang"><strong>PLZ Amerang</strong></a>|<a href="https://plzplz.de/PLZ_Asenwinkl/" title="PLZ Asenwinkl"><strong>PLZ Asenwinkl</strong></a>|<a href="https://plzplz.de/PLZ_Beenhausen/" title="PLZ Beenhausen"><strong>PLZ Beenhausen</strong></a>|<a href="https://plzplz.de/PLZ_Bräunlingen/" title="PLZ Bräunlingen"><strong>PLZ Bräunlingen</strong></a>|<a href="https://plzplz.de/PLZ_Däinghausen/" title="PLZ Däinghausen"><strong>PLZ Däinghausen</strong></a>|<a href="https://plzplz.de/PLZ_Dersekow/" title="PLZ Dersekow"><strong>PLZ Dersekow</strong></a>|<a href="https://plzplz.de/PLZ_Dreye/" title="PLZ Dreye"><strong>PLZ Dreye</strong></a>|<a href="https://plzplz.de/PLZ_Engelhardshausen/" title="PLZ Engelhardshausen"><strong>PLZ Engelhardshausen</strong></a>|<a href="https://plzplz.de/PLZ_Felbern/" title="PLZ Felbern"><strong>PLZ Felbern</strong></a>|<a href="https://plzplz.de/PLZ_Fichtelbrunn/" title="PLZ Fichtelbrunn"><strong>PLZ Fichtelbrunn</strong></a>|<a href="https://plzplz.de/PLZ_Frankenreute/" title="PLZ Frankenreute"><strong>PLZ Frankenreute</strong></a>|<a href="https://plzplz.de/PLZ_Froschlack/" title="PLZ Froschlack"><strong>PLZ Froschlack</strong></a>|<a href="https://plzplz.de/PLZ_Garching_a._d._Alz/" title="PLZ Garching a. d. Alz"><strong>PLZ Garching a. d. Alz</strong></a>|<a href="https://plzplz.de/PLZ_Gerolzhofen/" title="PLZ Gerolzhofen"><strong>PLZ Gerolzhofen</strong></a>|<a href="https://plzplz.de/PLZ_Götzingen/" title="PLZ Götzingen"><strong>PLZ Götzingen</strong></a>|<a href="https://plzplz.de/PLZ_Großschafhausen/" title="PLZ Großschafhausen"><strong>PLZ Großschafhausen</strong></a>|<a href="https://plzplz.de/PLZ_Guggenhausen/" title="PLZ Guggenhausen"><strong>PLZ Guggenhausen</strong></a>|<a href="https://plzplz.de/PLZ_Hainert/" title="PLZ Hainert"><strong>PLZ Hainert</strong></a>|<a href="https://plzplz.de/PLZ_Hattorf_am_Harz/" title="PLZ Hattorf am Harz"><strong>PLZ Hattorf am Harz</strong></a>|<a href="https://plzplz.de/PLZ_Hetzentännig/" title="PLZ Hetzentännig"><strong>PLZ Hetzentännig</strong></a>|<a href="https://plzplz.de/PLZ_Issel/" title="PLZ Issel"><strong>PLZ Issel</strong></a>|<a href="https://plzplz.de/PLZ_Klein_Hesebeck/" title="PLZ Klein Hesebeck"><strong>PLZ Klein Hesebeck</strong></a>|<a href="https://plzplz.de/PLZ_Leidingendorf/" title="PLZ Leidingendorf"><strong>PLZ Leidingendorf</strong></a>|<a href="https://plzplz.de/PLZ_Merzig/" title="PLZ Merzig"><strong>PLZ Merzig</strong></a>|<a href="https://plzplz.de/PLZ_Neehausen/" title="PLZ Neehausen"><strong>PLZ Neehausen</strong></a>|<a href="https://plzplz.de/PLZ_Niedertrebra/" title="PLZ Niedertrebra"><strong>PLZ Niedertrebra</strong></a>|<a href="https://plzplz.de/PLZ_Prienzing-Tradl/" title="PLZ Prienzing-Tradl"><strong>PLZ Prienzing-Tradl</strong></a>|<a href="https://plzplz.de/PLZ_Seboldshausen/" title="PLZ Seboldshausen"><strong>PLZ Seboldshausen</strong></a>|<a href="https://plzplz.de/PLZ_Stamsried/" title="PLZ Stamsried"><strong>PLZ Stamsried</strong></a>|<a href="https://plzplz.de/PLZ_Straßloh/" title="PLZ Straßloh"><strong>PLZ Straßloh</strong></a>|<a href="https://plzplz.de/PLZ_Waldkönigen/" title="PLZ Waldkönigen"><strong>PLZ Waldkönigen</strong></a>|<a href="https://plzplz.de/PLZ_Weinsfeld/" title="PLZ Weinsfeld"><strong>PLZ Weinsfeld</strong></a>|<a href="https://plzplz.de/PLZ_Westerholzhausen/" title="PLZ Westerholzhausen"><strong>PLZ Westerholzhausen</strong></a>|<a href="https://plzplz.de/PLZ_Willis/" title="PLZ Willis"><strong>PLZ Willis</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 86476</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langenhaslach/">Langenhaslach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Alte_Landstraße/">Alte Landstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Alte_Landstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Altvaterstraße/">Altvaterstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Altvaterstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Edelstetten/">Edelstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Am_Brühl/">Am Brühl</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Am_Brühl/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wattenweiler/">Wattenweiler</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Am_Eichele/">Am Eichele</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Am_Eichele/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Am_Eisberg/">Am Eisberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Am_Eisberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langenhaslach/">Langenhaslach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Am_Feldtor/">Am Feldtor</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Am_Feldtor/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wattenweiler/">Wattenweiler</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Am_Gansreis/">Am Gansreis</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Am_Gansreis/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wattenweiler/">Wattenweiler</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Am_Hasenberg/">Am Hasenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Am_Hasenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langenhaslach/">Langenhaslach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Am_Kirchle/">Am Kirchle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Am_Kirchle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Edelstetten/">Edelstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Am_Kreuzberg/">Am Kreuzberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Am_Kreuzberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Am_Nußgraben/">Am Nußgraben</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Am_Nußgraben/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wattenweiler/">Wattenweiler</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Am_Schloßberg/">Am Schloßberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Am_Schloßberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Am_Spielbrett/">Am Spielbrett</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Am_Spielbrett/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Edelstetten/">Edelstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Am_Täschle/">Am Täschle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Am_Täschle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Edelstetten/">Edelstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Am_Ziegelstadel/">Am Ziegelstadel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Am_Ziegelstadel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wattenweiler/">Wattenweiler</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Am_Zollerberg/">Am Zollerberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Am_Zollerberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Edelstetten/">Edelstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/An_der_Klinge/">An der Klinge</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/An_der_Klinge/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langenhaslach/">Langenhaslach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/An_der_Kohlstatt/">An der Kohlstatt</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/An_der_Kohlstatt/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/An_der_Platte/">An der Platte</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/An_der_Platte/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Edelstetten/">Edelstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/An_der_Schlucht/">An der Schlucht</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/An_der_Schlucht/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Edelstetten/">Edelstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Attenhauser_Straße/">Attenhauser Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Attenhauser_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langenhaslach/">Langenhaslach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Äußere_Dorfstraße/">Äußere Dorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Äußere_Dorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Äußere_Schlucht/">Äußere Schlucht</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Äußere_Schlucht/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wattenweiler/">Wattenweiler</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Bachweg/">Bachweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Bachweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Bahnhofstraße/">Bahnhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Bahnhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Behlinger_Weg/">Behlinger Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Behlinger_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Bergstraße/">Bergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Bergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Christoph-Rodt-Straße/">Christoph-Rodt-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Christoph-Rodt-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wattenweiler/">Wattenweiler</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Dorfstraße/">Dorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Dorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Dr.-Lecheler-Straße/">Dr.-Lecheler-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Dr.-Lecheler-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langenhaslach/">Langenhaslach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Edelstetter_Straße/">Edelstetter Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Edelstetter_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Edelstetter_Weg/">Edelstetter Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Edelstetter_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Egerlandstraße/">Egerlandstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Egerlandstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Eiskellerweg/">Eiskellerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Eiskellerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Ellerbachstraße/">Ellerbachstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Ellerbachstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wattenweiler/">Wattenweiler</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Ellzeer_Straße/">Ellzeer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Ellzeer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Erisweiler/">Erisweiler</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Erisweiler/">Erisweiler</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Erisweiler/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Edelstetten/">Edelstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Flurstraße/">Flurstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Flurstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Frühlingsweg/">Frühlingsweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Frühlingsweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Edelstetten/">Edelstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Fürst-Esterhazy-Straße/">Fürst-Esterhazy-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Fürst-Esterhazy-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Gartenstraße/">Gartenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Gartenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langenhaslach/">Langenhaslach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Gärtnerweg/">Gärtnerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Gärtnerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Höselhurst/">Höselhurst</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Günzweg/">Günzweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Günzweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Hagenmahd/">Hagenmahd</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Hagenmahd/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Edelstetten/">Edelstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Hagenrieder_Weg/">Hagenrieder Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Hagenrieder_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Halbertshofer_Straße/">Halbertshofer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Halbertshofer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Edelstetten/">Edelstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Haselweg/">Haselweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Haselweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langenhaslach/">Langenhaslach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Hauptstraße/">Hauptstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Hauptstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langenhaslach/">Langenhaslach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Hinter_den_Gärten/">Hinter den Gärten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Hinter_den_Gärten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Edelstetten/">Edelstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Hirschfelder_Weg/">Hirschfelder Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Hirschfelder_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Hoffeldstraße/">Hoffeldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Hoffeldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Höselhurster_Straße/">Höselhurster Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Höselhurster_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Edelstetten/">Edelstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Im_Wiesengrunde/">Im Wiesengrunde</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Im_Wiesengrunde/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Josef-Weilbach-Straße/">Josef-Weilbach-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Josef-Weilbach-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langenhaslach/">Langenhaslach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Kaiserbauerstraße/">Kaiserbauerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Kaiserbauerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Kesselstraße/">Kesselstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Kesselstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wattenweiler/">Wattenweiler</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Kirchberg/">Kirchberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Kirchberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langenhaslach/">Langenhaslach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Kirchenstraße/">Kirchenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Kirchenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Edelstetten/">Edelstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Kirchplatz/">Kirchplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Kirchplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langenhaslach/">Langenhaslach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Kirchsteigstraße/">Kirchsteigstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Kirchsteigstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Kittingerweg/">Kittingerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Kittingerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Krumbacher_Straße/">Krumbacher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Krumbacher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Langenhaslacher_Weg/">Langenhaslacher Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Langenhaslacher_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Ludwig-Schindlmayr-Straße/">Ludwig-Schindlmayr-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Ludwig-Schindlmayr-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Marbach/">Marbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Marbach/">Marbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Marbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wattenweiler/">Wattenweiler</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Maria-Eich-Weg/">Maria-Eich-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Maria-Eich-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Marktplatz/">Marktplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Marktplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Max-Mayer-Berg/">Max-Mayer-Berg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Max-Mayer-Berg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Edelstetten/">Edelstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Mechthildisstraße/">Mechthildisstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Mechthildisstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Megamat-Platz/">Megamat-Platz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Megamat-Platz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Molkereistraße/">Molkereistraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Molkereistraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Mühlbachweg/">Mühlbachweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Mühlbachweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Mühlstraße/">Mühlstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Mühlstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langenhaslach/">Langenhaslach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Mühlweg/">Mühlweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Mühlweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langenhaslach/">Langenhaslach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Naichen/">Naichen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Naichen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Halbertshofen/">Halbertshofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Neubruchstraße/">Neubruchstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Neubruchstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wattenweiler/">Wattenweiler</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Neuburger_Straße/">Neuburger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Neuburger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wattenweiler/">Wattenweiler</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Oberer_Hasenberg/">Oberer Hasenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Oberer_Hasenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Halbertshofen/">Halbertshofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Ortsstraße/">Ortsstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Ortsstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langenhaslach/">Langenhaslach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Pfarrer-Baumeister-Weg/">Pfarrer-Baumeister-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Pfarrer-Baumeister-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Edelstetten/">Edelstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Pfarrer-Bußigel-Straße/">Pfarrer-Bußigel-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Pfarrer-Bußigel-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Pfarrer-Herburger-Straße/">Pfarrer-Herburger-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Pfarrer-Herburger-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wattenweiler/">Wattenweiler</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Pfarrer-Kast-Weg/">Pfarrer-Kast-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Pfarrer-Kast-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Pia-von-Aretin-Straße/">Pia-von-Aretin-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Pia-von-Aretin-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Plätzen/">Plätzen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Plätzen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wattenweiler/">Wattenweiler</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Raiffeisenstraße/">Raiffeisenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Raiffeisenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Rechbergstraße/">Rechbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Rechbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langenhaslach/">Langenhaslach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Riedstraße/">Riedstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Riedstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Schloßweg/">Schloßweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Schloßweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Schluchtstraße/">Schluchtstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Schluchtstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langenhaslach/">Langenhaslach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Schulgasse/">Schulgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Schulgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wattenweiler/">Wattenweiler</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Schulstraße/">Schulstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Schulstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Edelstetten/">Edelstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Simpert-Kraemer-Straße/">Simpert-Kraemer-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Simpert-Kraemer-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langenhaslach/">Langenhaslach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Sonnenstraße/">Sonnenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Sonnenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langenhaslach/">Langenhaslach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/St.-Martin-Platz/">St.-Martin-Platz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/St.-Martin-Platz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Edelstetten/">Edelstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/St.-Michael-Weg/">St.-Michael-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/St.-Michael-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Höselhurst/">Höselhurst</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/St.-Nikolaus-Ring/">St.-Nikolaus-Ring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/St.-Nikolaus-Ring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Sudetenstraße/">Sudetenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Sudetenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Höselhurst/">Höselhurst</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Unterwiesenbacher_Weg/">Unterwiesenbacher Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Unterwiesenbacher_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Edelstetten/">Edelstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Vigneulles_Straße/">Vigneulles Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Vigneulles_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Vöhlinstraße/">Vöhlinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Vöhlinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langenhaslach/">Langenhaslach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Waldstraße/">Waldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Waldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Höselhurst/">Höselhurst</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Wattenweiler_Straße/">Wattenweiler Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Wattenweiler_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langenhaslach/">Langenhaslach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Webergasse/">Webergasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Webergasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Edelstetten/">Edelstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Weiherweg/">Weiherweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Weiherweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Edelstetten/">Edelstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Westernachstraße/">Westernachstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Westernachstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Höselhurst/">Höselhurst</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Wiesenbacher_Weg/">Wiesenbacher Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Wiesenbacher_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuburg/">Neuburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Wiesenstraße/">Wiesenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Wiesenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langenhaslach/">Langenhaslach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Ziegeleistraße/">Ziegeleistraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Ziegeleistraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langenhaslach/">Langenhaslach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Zum_Burgberg/">Zum Burgberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Zum_Burgberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wattenweiler/">Wattenweiler</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Zum_Kraftwerk/">Zum Kraftwerk</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Zum_Kraftwerk/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/"><strong>PLZ Neuburg a. d. Kammel</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langenhaslach/">Langenhaslach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Zur_Hammerschmiede/">Zur Hammerschmiede</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86476/">86476</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuburg_a._d._Kammel/Zur_Hammerschmiede/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.006 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

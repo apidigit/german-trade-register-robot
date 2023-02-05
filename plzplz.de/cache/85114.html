@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 85114 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="85114, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 85114 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 85114">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_85114/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 85114 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="85114" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Alt-Chrieschwitz/" title="PLZ Alt-Chrieschwitz"><strong>PLZ Alt-Chrieschwitz</strong></a>|<a href="https://plzplz.de/PLZ_Bairahöfe/" title="PLZ Bairahöfe"><strong>PLZ Bairahöfe</strong></a>|<a href="https://plzplz.de/PLZ_Biesenrode/" title="PLZ Biesenrode"><strong>PLZ Biesenrode</strong></a>|<a href="https://plzplz.de/PLZ_Borgishain/" title="PLZ Borgishain"><strong>PLZ Borgishain</strong></a>|<a href="https://plzplz.de/PLZ_Dickarting/" title="PLZ Dickarting"><strong>PLZ Dickarting</strong></a>|<a href="https://plzplz.de/PLZ_Dierbach/" title="PLZ Dierbach"><strong>PLZ Dierbach</strong></a>|<a href="https://plzplz.de/PLZ_Ettringen/" title="PLZ Ettringen"><strong>PLZ Ettringen</strong></a>|<a href="https://plzplz.de/PLZ_Friedeln/" title="PLZ Friedeln"><strong>PLZ Friedeln</strong></a>|<a href="https://plzplz.de/PLZ_Gotteszell-Bahnhof/" title="PLZ Gotteszell-Bahnhof"><strong>PLZ Gotteszell-Bahnhof</strong></a>|<a href="https://plzplz.de/PLZ_Häger/" title="PLZ Häger"><strong>PLZ Häger</strong></a>|<a href="https://plzplz.de/PLZ_Hefersweiler/" title="PLZ Hefersweiler"><strong>PLZ Hefersweiler</strong></a>|<a href="https://plzplz.de/PLZ_Hohenröhren/" title="PLZ Hohenröhren"><strong>PLZ Hohenröhren</strong></a>|<a href="https://plzplz.de/PLZ_Hohnstein/" title="PLZ Hohnstein"><strong>PLZ Hohnstein</strong></a>|<a href="https://plzplz.de/PLZ_Iselshausen/" title="PLZ Iselshausen"><strong>PLZ Iselshausen</strong></a>|<a href="https://plzplz.de/PLZ_Jakobsdorf/" title="PLZ Jakobsdorf"><strong>PLZ Jakobsdorf</strong></a>|<a href="https://plzplz.de/PLZ_Klein_Teetzleben/" title="PLZ Klein Teetzleben"><strong>PLZ Klein Teetzleben</strong></a>|<a href="https://plzplz.de/PLZ_Kleintann/" title="PLZ Kleintann"><strong>PLZ Kleintann</strong></a>|<a href="https://plzplz.de/PLZ_Kusters/" title="PLZ Kusters"><strong>PLZ Kusters</strong></a>|<a href="https://plzplz.de/PLZ_Lammsdorf/" title="PLZ Lammsdorf"><strong>PLZ Lammsdorf</strong></a>|<a href="https://plzplz.de/PLZ_Langförden/" title="PLZ Langförden"><strong>PLZ Langförden</strong></a>|<a href="https://plzplz.de/PLZ_Montabaur/" title="PLZ Montabaur"><strong>PLZ Montabaur</strong></a>|<a href="https://plzplz.de/PLZ_Nadenberg/" title="PLZ Nadenberg"><strong>PLZ Nadenberg</strong></a>|<a href="https://plzplz.de/PLZ_Niedernach/" title="PLZ Niedernach"><strong>PLZ Niedernach</strong></a>|<a href="https://plzplz.de/PLZ_Oberstadtfeld/" title="PLZ Oberstadtfeld"><strong>PLZ Oberstadtfeld</strong></a>|<a href="https://plzplz.de/PLZ_Oedenberg/" title="PLZ Oedenberg"><strong>PLZ Oedenberg</strong></a>|<a href="https://plzplz.de/PLZ_Peulingen/" title="PLZ Peulingen"><strong>PLZ Peulingen</strong></a>|<a href="https://plzplz.de/PLZ_Pfaffenloh/" title="PLZ Pfaffenloh"><strong>PLZ Pfaffenloh</strong></a>|<a href="https://plzplz.de/PLZ_Poggersdorf/" title="PLZ Poggersdorf"><strong>PLZ Poggersdorf</strong></a>|<a href="https://plzplz.de/PLZ_Prüglried/" title="PLZ Prüglried"><strong>PLZ Prüglried</strong></a>|<a href="https://plzplz.de/PLZ_Ramsloh-Hollen-Brand/" title="PLZ Ramsloh-Hollen-Brand"><strong>PLZ Ramsloh-Hollen-Brand</strong></a>|<a href="https://plzplz.de/PLZ_Süsel/" title="PLZ Süsel"><strong>PLZ Süsel</strong></a>|<a href="https://plzplz.de/PLZ_Wagmannsberg/" title="PLZ Wagmannsberg"><strong>PLZ Wagmannsberg</strong></a>|<a href="https://plzplz.de/PLZ_Weidenloh/" title="PLZ Weidenloh"><strong>PLZ Weidenloh</strong></a>|<a href="https://plzplz.de/PLZ_Zeubach/" title="PLZ Zeubach"><strong>PLZ Zeubach</strong></a>|<a href="https://plzplz.de/PLZ_Zollschneidmühle/" title="PLZ Zollschneidmühle"><strong>PLZ Zollschneidmühle</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 85114</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Ahornweg/">Ahornweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Ahornweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Am_Anger/">Am Anger</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Am_Anger/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Am_Aschweg/">Am Aschweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Am_Aschweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Am_Friedhof/">Am Friedhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Am_Friedhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tauberfeld/">Tauberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Am_Mesnerfeld/">Am Mesnerfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Am_Mesnerfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Am_Pfahlfeld/">Am Pfahlfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Am_Pfahlfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Am_Sportplatz/">Am Sportplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Am_Sportplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Am_Wasserwerk/">Am Wasserwerk</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Am_Wasserwerk/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/An_der_Römerstraße/">An der Römerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/An_der_Römerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Aschbuck/">Aschbuck</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Aschbuck/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Bachweg/">Bachweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Bachweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tauberfeld/">Tauberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Bahnhofsweg/">Bahnhofsweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Bahnhofsweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Bayernstraße/">Bayernstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Bayernstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tauberfeld/">Tauberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Beethovenstraße/">Beethovenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Beethovenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Bergstraße/">Bergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Bergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Bgm.-Josef-Wittmann-Straße/">Bgm.-Josef-Wittmann-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Bgm.-Josef-Wittmann-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Bgm.-Walter-Meier-Straße/">Bgm.-Walter-Meier-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Bgm.-Walter-Meier-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Bierweg/">Bierweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Bierweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Birkenweg/">Birkenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Birkenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tauberfeld/">Tauberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Blumenstraße/">Blumenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Blumenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Breitwiesweg/">Breitwiesweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Breitwiesweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tauberfeld/">Tauberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Brunnhuberring/">Brunnhuberring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Brunnhuberring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Buchenweg/">Buchenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Buchenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tauberfeld/">Tauberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Buxheimer_Straße/">Buxheimer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Buxheimer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Dorfplatz/">Dorfplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Dorfplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Eichenweg/">Eichenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Eichenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Eitensheimer_Straße/">Eitensheimer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Eitensheimer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Erlenweg/">Erlenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Erlenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Fischergasse/">Fischergasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Fischergasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Floriansweg/">Floriansweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Floriansweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Frankenring/">Frankenring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Frankenring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Frühlingstraße/">Frühlingstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Frühlingstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Gabelstraße/">Gabelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Gabelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Gartenweg/">Gartenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Gartenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Glockenbecherweg/">Glockenbecherweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Glockenbecherweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hessenhof/">Hessenhof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Hessenhof/">Hessenhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Hessenhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Hitzhofer_Weg/">Hitzhofer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Hitzhofer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Hopfenstraße/">Hopfenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Hopfenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tauberfeld/">Tauberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/In_der_Wimm/">In der Wimm</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/In_der_Wimm/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Jurastraße/">Jurastraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Jurastraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Karststraße/">Karststraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Karststraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Kirchenring/">Kirchenring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Kirchenring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tauberfeld/">Tauberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Kirchplatz/">Kirchplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Kirchplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tauberfeld/">Tauberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Kräuterstraße/">Kräuterstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Kräuterstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Lärchenstraße/">Lärchenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Lärchenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Lindelweg/">Lindelweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Lindelweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Lohweg/">Lohweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Lohweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Lößstraße/">Lößstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Lößstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Margeritenweg/">Margeritenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Margeritenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tauberfeld/">Tauberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Martinsweg/">Martinsweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Martinsweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Maurerweg/">Maurerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Maurerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tauberfeld/">Tauberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Möckenloher_Straße/">Möckenloher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Möckenloher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Moosbauer/">Moosbauer</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Moosbauer/">Moosbauer</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Moosbauer/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Moosmühle/">Moosmühle</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Moosmühle/">Moosmühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Moosmühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tauberfeld/">Tauberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Mühltaler_Weg/">Mühltaler Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Mühltaler_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Nelkenweg/">Nelkenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Nelkenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tauberfeld/">Tauberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Pankratiusstraße/">Pankratiusstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Pankratiusstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Pettenhofer_Weg/">Pettenhofer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Pettenhofer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfahlhof/">Pfahlhof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Pfahlhof/">Pfahlhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Pfahlhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tauberfeld/">Tauberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Pfarrer-Mohr-Weg/">Pfarrer-Mohr-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Pfarrer-Mohr-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tauberfeld/">Tauberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Pfarrer-Weeger-Straße/">Pfarrer-Weeger-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Pfarrer-Weeger-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tauberfeld/">Tauberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Pietenfelder_Straße/">Pietenfelder Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Pietenfelder_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reinboldsmühle/">Reinboldsmühle</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Reinboldsmühle/">Reinboldsmühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Reinboldsmühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tauberfeld/">Tauberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Rosenweg/">Rosenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Rosenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tauberfeld/">Tauberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Röthelweg/">Röthelweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Röthelweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Schellenberg/">Schellenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Schellenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Schlehenweg/">Schlehenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Schlehenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Schulstraße/">Schulstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Schulstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tauberfeld/">Tauberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Steinbergstraße/">Steinbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Steinbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Steinbruchweg/">Steinbruchweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Steinbruchweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Tannenweg/">Tannenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Tannenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Tauberfelder_Straße/">Tauberfelder Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Tauberfelder_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Tulpenweg/">Tulpenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Tulpenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tauberfeld/">Tauberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Volchlinstraße/">Volchlinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Volchlinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tauberfeld/">Tauberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Waldweg/">Waldweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Waldweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tauberfeld/">Tauberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Weinbergstraße/">Weinbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Weinbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tauberfeld/">Tauberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Westental/">Westental</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Westental/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tauberfeld/">Tauberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Wiesenstraße/">Wiesenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Wiesenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tauberfeld/">Tauberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Wirtsgasse/">Wirtsgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Wirtsgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Wolkertshofener_Straße/">Wolkertshofener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Wolkertshofener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Buxheim/"><strong>PLZ Buxheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tauberfeld/">Tauberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Zeiläcker/">Zeiläcker</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85114/">85114</a></td>
+<td><a href="https://plzplz.de/PLZ_Buxheim/Zeiläcker/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.005 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

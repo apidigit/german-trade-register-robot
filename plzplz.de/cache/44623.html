@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 44623 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="44623, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 44623 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 44623">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_44623/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 44623 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="44623" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Birkenhard/" title="PLZ Birkenhard"><strong>PLZ Birkenhard</strong></a>|<a href="https://plzplz.de/PLZ_Bremervörde/" title="PLZ Bremervörde"><strong>PLZ Bremervörde</strong></a>|<a href="https://plzplz.de/PLZ_Cröffelbach/" title="PLZ Cröffelbach"><strong>PLZ Cröffelbach</strong></a>|<a href="https://plzplz.de/PLZ_Dießlings/" title="PLZ Dießlings"><strong>PLZ Dießlings</strong></a>|<a href="https://plzplz.de/PLZ_Dietlas/" title="PLZ Dietlas"><strong>PLZ Dietlas</strong></a>|<a href="https://plzplz.de/PLZ_Düsternort/" title="PLZ Düsternort"><strong>PLZ Düsternort</strong></a>|<a href="https://plzplz.de/PLZ_Eberhardszell/" title="PLZ Eberhardszell"><strong>PLZ Eberhardszell</strong></a>|<a href="https://plzplz.de/PLZ_Edelsbrunn/" title="PLZ Edelsbrunn"><strong>PLZ Edelsbrunn</strong></a>|<a href="https://plzplz.de/PLZ_Eichhofen/" title="PLZ Eichhofen"><strong>PLZ Eichhofen</strong></a>|<a href="https://plzplz.de/PLZ_Eigenes_Heim/" title="PLZ Eigenes Heim"><strong>PLZ Eigenes Heim</strong></a>|<a href="https://plzplz.de/PLZ_Eutendorf/" title="PLZ Eutendorf"><strong>PLZ Eutendorf</strong></a>|<a href="https://plzplz.de/PLZ_Floiten/" title="PLZ Floiten"><strong>PLZ Floiten</strong></a>|<a href="https://plzplz.de/PLZ_Forstberg/" title="PLZ Forstberg"><strong>PLZ Forstberg</strong></a>|<a href="https://plzplz.de/PLZ_Gallenmühle/" title="PLZ Gallenmühle"><strong>PLZ Gallenmühle</strong></a>|<a href="https://plzplz.de/PLZ_Gilgöd/" title="PLZ Gilgöd"><strong>PLZ Gilgöd</strong></a>|<a href="https://plzplz.de/PLZ_Hauserhof/" title="PLZ Hauserhof"><strong>PLZ Hauserhof</strong></a>|<a href="https://plzplz.de/PLZ_Hennickendorf/" title="PLZ Hennickendorf"><strong>PLZ Hennickendorf</strong></a>|<a href="https://plzplz.de/PLZ_Hetzdorf/" title="PLZ Hetzdorf"><strong>PLZ Hetzdorf</strong></a>|<a href="https://plzplz.de/PLZ_Hoisbüttel/" title="PLZ Hoisbüttel"><strong>PLZ Hoisbüttel</strong></a>|<a href="https://plzplz.de/PLZ_Hönning/" title="PLZ Hönning"><strong>PLZ Hönning</strong></a>|<a href="https://plzplz.de/PLZ_Kaisreith/" title="PLZ Kaisreith"><strong>PLZ Kaisreith</strong></a>|<a href="https://plzplz.de/PLZ_Landmannsdorf/" title="PLZ Landmannsdorf"><strong>PLZ Landmannsdorf</strong></a>|<a href="https://plzplz.de/PLZ_Lütjenburg/" title="PLZ Lütjenburg"><strong>PLZ Lütjenburg</strong></a>|<a href="https://plzplz.de/PLZ_Malsburg/" title="PLZ Malsburg"><strong>PLZ Malsburg</strong></a>|<a href="https://plzplz.de/PLZ_Neugütl/" title="PLZ Neugütl"><strong>PLZ Neugütl</strong></a>|<a href="https://plzplz.de/PLZ_Niederlengerich/" title="PLZ Niederlengerich"><strong>PLZ Niederlengerich</strong></a>|<a href="https://plzplz.de/PLZ_Oberhausen_an_der_Nahe/" title="PLZ Oberhausen an der Nahe"><strong>PLZ Oberhausen an der Nahe</strong></a>|<a href="https://plzplz.de/PLZ_Oberhochstatt/" title="PLZ Oberhochstatt"><strong>PLZ Oberhochstatt</strong></a>|<a href="https://plzplz.de/PLZ_Öd_b._Kirchberg/" title="PLZ Öd b. Kirchberg"><strong>PLZ Öd b. Kirchberg</strong></a>|<a href="https://plzplz.de/PLZ_Pilgramsreuth/" title="PLZ Pilgramsreuth"><strong>PLZ Pilgramsreuth</strong></a>|<a href="https://plzplz.de/PLZ_Rheinberg/" title="PLZ Rheinberg"><strong>PLZ Rheinberg</strong></a>|<a href="https://plzplz.de/PLZ_Schneckenbichl/" title="PLZ Schneckenbichl"><strong>PLZ Schneckenbichl</strong></a>|<a href="https://plzplz.de/PLZ_Segendorf/" title="PLZ Segendorf"><strong>PLZ Segendorf</strong></a>|<a href="https://plzplz.de/PLZ_Steinenstadt/" title="PLZ Steinenstadt"><strong>PLZ Steinenstadt</strong></a>|<a href="https://plzplz.de/PLZ_Wohnsgehaig/" title="PLZ Wohnsgehaig"><strong>PLZ Wohnsgehaig</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 44623</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Adalbertstraße/">Adalbertstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Adalbertstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Altenhöfener_Straße/">Altenhöfener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Altenhöfener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Süd/">Herne-Süd</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Altenhöfener_Straße/">Altenhöfener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Altenhöfener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Am_Frauenplan/">Am Frauenplan</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Am_Frauenplan/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Am_Stadtgarten/">Am Stadtgarten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Am_Stadtgarten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Amalienstraße/">Amalienstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Amalienstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/An_der_Kreuzkirche/">An der Kreuzkirche</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/An_der_Kreuzkirche/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Annettestraße/">Annettestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Annettestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Arndtstraße/">Arndtstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Arndtstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Auf_dem_Metlerort/">Auf dem Metlerort</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Auf_dem_Metlerort/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Auf_der_Insel/">Auf der Insel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Auf_der_Insel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baukau-Ost/">Baukau-Ost</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Bahnhofstraße/">Bahnhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Bahnhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Bahnhofstraße/">Bahnhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Bahnhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baukau-Ost/">Baukau-Ost</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Baumstraße/">Baumstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Baumstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Bebelstraße/">Bebelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Bebelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Behrensstraße/">Behrensstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Behrensstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Beien-Weg/">Beien-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Beien-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Bergelmanns_Hof/">Bergelmanns Hof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Bergelmanns_Hof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Berliner_Platz/">Berliner Platz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Berliner_Platz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Bochumer_Straße/">Bochumer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Bochumer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Breddestraße/">Breddestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Breddestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Brunnenstraße/">Brunnenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Brunnenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Büchnerstraße/">Büchnerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Büchnerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Dammstraße/">Dammstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Dammstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Düngelstraße/">Düngelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Düngelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Eckstraße/">Eckstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Eckstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Elisabethstraße/">Elisabethstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Elisabethstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Europaplatz/">Europaplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Europaplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Fleiges_Hof/">Fleiges Hof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Fleiges_Hof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Franz-Düwell-Straße/">Franz-Düwell-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Franz-Düwell-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Freiligrathstraße/">Freiligrathstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Freiligrathstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Friedrich-Ebert-Platz/">Friedrich-Ebert-Platz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Friedrich-Ebert-Platz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baukau-Ost/">Baukau-Ost</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Funkenbergstraße/">Funkenbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Funkenbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Gertrudenplatz/">Gertrudenplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Gertrudenplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Geschwister-Scholl-Straße/">Geschwister-Scholl-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Geschwister-Scholl-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Glockenstraße/">Glockenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Glockenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Goethestraße/">Goethestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Goethestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Gräffstraße/">Gräffstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Gräffstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Süd/">Herne-Süd</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Gräffstraße/">Gräffstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Gräffstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Grenzweg/">Grenzweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Grenzweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Gutenbergstraße/">Gutenbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Gutenbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Harannistraße/">Harannistraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Harannistraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Hebbelstraße/">Hebbelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Hebbelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Heinrichstraße/">Heinrichstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Heinrichstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Herderstraße/">Herderstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Herderstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Hermann-Löns-Straße/">Hermann-Löns-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Hermann-Löns-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Hiberniastraße/">Hiberniastraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Hiberniastraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Süd/">Herne-Süd</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Hiberniastraße/">Hiberniastraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Hiberniastraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Hiltrops_Hof/">Hiltrops Hof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Hiltrops_Hof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Hoheneickstraße/">Hoheneickstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Hoheneickstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Hölderlinstraße/">Hölderlinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Hölderlinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Im_Dülskamp/">Im Dülskamp</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Im_Dülskamp/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Im_Pratort/">Im Pratort</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Im_Pratort/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Im_Schlagenkamp/">Im Schlagenkamp</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Im_Schlagenkamp/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/In_dem_Breil/">In dem Breil</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/In_dem_Breil/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/In_der_Helle/">In der Helle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/In_der_Helle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Juri-Gerus-Weg/">Juri-Gerus-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Juri-Gerus-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Kirchhofstraße/">Kirchhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Kirchhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Kleiststraße/">Kleiststraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Kleiststraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Klopstockstraße/">Klopstockstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Klopstockstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Koksstraße/">Koksstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Koksstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Koppenbergs_Hof/">Koppenbergs Hof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Koppenbergs_Hof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Körnerstraße/">Körnerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Körnerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Kronprinzenstraße/">Kronprinzenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Kronprinzenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Kurfürstenstraße/">Kurfürstenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Kurfürstenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baukau-Ost/">Baukau-Ost</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Manteuffelstraße/">Manteuffelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Manteuffelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Markgrafenstraße/">Markgrafenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Markgrafenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Mittelstraße/">Mittelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Mittelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Mont-Cenis-Straße/">Mont-Cenis-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Mont-Cenis-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Mörikestraße/">Mörikestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Mörikestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Mulvanystraße/">Mulvanystraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Mulvanystraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Museumsstraße/">Museumsstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Museumsstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Neustraße/">Neustraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Neustraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Oskarstraße/">Oskarstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Oskarstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Ostbachtal/">Ostbachtal</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Ostbachtal/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Otto-Hue-Straße/">Otto-Hue-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Otto-Hue-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Overkamps_Hof/">Overkamps Hof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Overkamps_Hof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Pfählerstraße/">Pfählerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Pfählerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Robert-Brauner-Platz/">Robert-Brauner-Platz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Robert-Brauner-Platz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Schaeferstraße/">Schaeferstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Schaeferstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Schillerstraße/">Schillerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Schillerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Schmiedestraße/">Schmiedestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Schmiedestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Schulstraße/">Schulstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Schulstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Shamrockring/">Shamrockring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Shamrockring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Shamrockstraße/">Shamrockstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Shamrockstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Siepenstraße/">Siepenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Siepenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Sodinger_Straße/">Sodinger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Sodinger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Stammstraße/">Stammstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Stammstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Straßburger_Straße/">Straßburger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Straßburger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Viktor-Reuter-Straße/">Viktor-Reuter-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Viktor-Reuter-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Vinckestraße/">Vinckestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Vinckestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Westring/">Westring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Westring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Wielandstraße/">Wielandstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Wielandstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Wiescherstraße/">Wiescherstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Wiescherstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Süd/">Herne-Süd</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Wiescherstraße/">Wiescherstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Wiescherstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Herne-Mitte/">Herne-Mitte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Willi-Pohlmann-Platz/">Willi-Pohlmann-Platz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_44623/">44623</a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/Willi-Pohlmann-Platz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.007 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

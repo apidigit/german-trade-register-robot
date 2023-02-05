@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 88161 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="88161, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 88161 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 88161">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_88161/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 88161 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="88161" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Ahstedt/" title="PLZ Ahstedt"><strong>PLZ Ahstedt</strong></a>|<a href="https://plzplz.de/PLZ_Blashof/" title="PLZ Blashof"><strong>PLZ Blashof</strong></a>|<a href="https://plzplz.de/PLZ_Dahlen/" title="PLZ Dahlen"><strong>PLZ Dahlen</strong></a>|<a href="https://plzplz.de/PLZ_Daseburg/" title="PLZ Daseburg"><strong>PLZ Daseburg</strong></a>|<a href="https://plzplz.de/PLZ_Dauerwang/" title="PLZ Dauerwang"><strong>PLZ Dauerwang</strong></a>|<a href="https://plzplz.de/PLZ_Deglholz/" title="PLZ Deglholz"><strong>PLZ Deglholz</strong></a>|<a href="https://plzplz.de/PLZ_Dürrlewang/" title="PLZ Dürrlewang"><strong>PLZ Dürrlewang</strong></a>|<a href="https://plzplz.de/PLZ_Eltville/" title="PLZ Eltville"><strong>PLZ Eltville</strong></a>|<a href="https://plzplz.de/PLZ_Geyern/" title="PLZ Geyern"><strong>PLZ Geyern</strong></a>|<a href="https://plzplz.de/PLZ_Grimmen/" title="PLZ Grimmen"><strong>PLZ Grimmen</strong></a>|<a href="https://plzplz.de/PLZ_Grünet/" title="PLZ Grünet"><strong>PLZ Grünet</strong></a>|<a href="https://plzplz.de/PLZ_Hanhof/" title="PLZ Hanhof"><strong>PLZ Hanhof</strong></a>|<a href="https://plzplz.de/PLZ_Heufeld/" title="PLZ Heufeld"><strong>PLZ Heufeld</strong></a>|<a href="https://plzplz.de/PLZ_Horkheim/" title="PLZ Horkheim"><strong>PLZ Horkheim</strong></a>|<a href="https://plzplz.de/PLZ_Ipwegermoor/" title="PLZ Ipwegermoor"><strong>PLZ Ipwegermoor</strong></a>|<a href="https://plzplz.de/PLZ_Kellberg/" title="PLZ Kellberg"><strong>PLZ Kellberg</strong></a>|<a href="https://plzplz.de/PLZ_Klockries/" title="PLZ Klockries"><strong>PLZ Klockries</strong></a>|<a href="https://plzplz.de/PLZ_Lesse/" title="PLZ Lesse"><strong>PLZ Lesse</strong></a>|<a href="https://plzplz.de/PLZ_Ludersheim-Au/" title="PLZ Ludersheim-Au"><strong>PLZ Ludersheim-Au</strong></a>|<a href="https://plzplz.de/PLZ_Lutherplatz/" title="PLZ Lutherplatz"><strong>PLZ Lutherplatz</strong></a>|<a href="https://plzplz.de/PLZ_Mantelkam/" title="PLZ Mantelkam"><strong>PLZ Mantelkam</strong></a>|<a href="https://plzplz.de/PLZ_Mühlenberg/" title="PLZ Mühlenberg"><strong>PLZ Mühlenberg</strong></a>|<a href="https://plzplz.de/PLZ_Niederaltmannsberg/" title="PLZ Niederaltmannsberg"><strong>PLZ Niederaltmannsberg</strong></a>|<a href="https://plzplz.de/PLZ_Oberelfringhausen/" title="PLZ Oberelfringhausen"><strong>PLZ Oberelfringhausen</strong></a>|<a href="https://plzplz.de/PLZ_Oberwitzenberg/" title="PLZ Oberwitzenberg"><strong>PLZ Oberwitzenberg</strong></a>|<a href="https://plzplz.de/PLZ_Piflitz/" title="PLZ Piflitz"><strong>PLZ Piflitz</strong></a>|<a href="https://plzplz.de/PLZ_Podelwitz/" title="PLZ Podelwitz"><strong>PLZ Podelwitz</strong></a>|<a href="https://plzplz.de/PLZ_Reinsbüttel/" title="PLZ Reinsbüttel"><strong>PLZ Reinsbüttel</strong></a>|<a href="https://plzplz.de/PLZ_Rothleiten/" title="PLZ Rothleiten"><strong>PLZ Rothleiten</strong></a>|<a href="https://plzplz.de/PLZ_Säcklmühle/" title="PLZ Säcklmühle"><strong>PLZ Säcklmühle</strong></a>|<a href="https://plzplz.de/PLZ_Schneideröden/" title="PLZ Schneideröden"><strong>PLZ Schneideröden</strong></a>|<a href="https://plzplz.de/PLZ_Statt/" title="PLZ Statt"><strong>PLZ Statt</strong></a>|<a href="https://plzplz.de/PLZ_Upleward/" title="PLZ Upleward"><strong>PLZ Upleward</strong></a>|<a href="https://plzplz.de/PLZ_Wendershausen/" title="PLZ Wendershausen"><strong>PLZ Wendershausen</strong></a>|<a href="https://plzplz.de/PLZ_Wirrenweiler/" title="PLZ Wirrenweiler"><strong>PLZ Wirrenweiler</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 88161</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Ahornweg/">Ahornweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Ahornweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Alemannenstraße/">Alemannenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Alemannenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Goßholz/">Goßholz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Althausweg/">Althausweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Althausweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Altmannweg/">Altmannweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Altmannweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Am_alten_Bahndamm/">Am alten Bahndamm</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Am_alten_Bahndamm/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Am_Dürrenbühl/">Am Dürrenbühl</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Am_Dürrenbühl/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Am_Feriendorf/">Am Feriendorf</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Am_Feriendorf/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Am_Gutshof/">Am Gutshof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Am_Gutshof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Am_Hasentobel/">Am Hasentobel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Am_Hasentobel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Am_Katzenholz/">Am Katzenholz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Am_Katzenholz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Am_Mühlbach/">Am Mühlbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Am_Mühlbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Goßholz/">Goßholz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Am_Schachen/">Am Schachen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Am_Schachen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Am_Wäldele/">Am Wäldele</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Am_Wäldele/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Am_Wunderbrunnen/">Am Wunderbrunnen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Am_Wunderbrunnen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Amselweg/">Amselweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Amselweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/An_der_Alp/">An der Alp</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/An_der_Alp/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/An_der_Säge/">An der Säge</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/An_der_Säge/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Anton-Fehr-Straße/">Anton-Fehr-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Anton-Fehr-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Antoniusplatz/">Antoniusplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Antoniusplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Auf_der_Hub/">Auf der Hub</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Auf_der_Hub/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Auf_der_Schanz/">Auf der Schanz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Auf_der_Schanz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Aurel-Kohler-Straße/">Aurel-Kohler-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Aurel-Kohler-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Austraße/">Austraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Austraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Badstraße/">Badstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Badstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Bahnhofstraße/">Bahnhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Bahnhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Baumeister-Specht-Straße/">Baumeister-Specht-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Baumeister-Specht-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Bergstraße/">Bergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Bergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Berliner_Straße/">Berliner Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Berliner_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Birkenweg/">Birkenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Birkenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Bismarckstraße/">Bismarckstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Bismarckstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Blumenstraße/">Blumenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Blumenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Bräuhausstraße/">Bräuhausstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Bräuhausstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Brennterwinkel/">Brennterwinkel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Brennterwinkel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Brunnenbühl/">Brunnenbühl</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Brunnenbühl/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Buchenweg/">Buchenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Buchenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Bürgermeister-Schmitt-Straße/">Bürgermeister-Schmitt-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Bürgermeister-Schmitt-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Dr.-Otto-Geßler-Platz/">Dr.-Otto-Geßler-Platz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Dr.-Otto-Geßler-Platz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Ellgassen/">Ellgassen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Ellgassen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Ellgasser_Straße/">Ellgasser Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Ellgasser_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Falkenweg/">Falkenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Falkenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Färberstraße/">Färberstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Färberstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Finkenweg/">Finkenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Finkenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Fridolin-Holzer-Straße/">Fridolin-Holzer-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Fridolin-Holzer-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Frühlingstraße/">Frühlingstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Frühlingstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Gebhard-Huber-Straße/">Gebhard-Huber-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Gebhard-Huber-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Glasbühlstraße/">Glasbühlstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Glasbühlstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Goethestraße/">Goethestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Goethestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Goßholz/">Goßholz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Goßholz/">Goßholz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Goßholz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Goßholz/">Goßholz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Goßholzer_Straße/">Goßholzer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Goßholzer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Grüntenweg/">Grüntenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Grüntenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Hädrichweg/">Hädrichweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Hädrichweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Hans-Liebherr-Straße/">Hans-Liebherr-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Hans-Liebherr-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Hansenweiherstraße/">Hansenweiherstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Hansenweiherstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Hauptstraße/">Hauptstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Hauptstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Heckenweg/">Heckenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Heckenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Heinrich-Brauns-Straße/">Heinrich-Brauns-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Heinrich-Brauns-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Hirschbergstraße/">Hirschbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Hirschbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Hirschstraße/">Hirschstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Hirschstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Hochgratstraße/">Hochgratstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Hochgratstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Holzstraße/">Holzstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Holzstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Im_Friedhag/">Im Friedhag</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Im_Friedhag/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Imbergweg/">Imbergweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Imbergweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Jägerstraße/">Jägerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Jägerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Josef-Reich-Straße/">Josef-Reich-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Josef-Reich-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Karl-Aßfalg-Straße/">Karl-Aßfalg-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Karl-Aßfalg-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kellershub/">Kellershub</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Kellershub/">Kellershub</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Kellershub/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Kohlstattweg/">Kohlstattweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Kohlstattweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Kreuzhofstraße/">Kreuzhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Kreuzhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Kronenstraße/">Kronenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Kronenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Lärchenweg/">Lärchenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Lärchenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Laubachweg/">Laubachweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Laubachweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Lauenbühlstraße/">Lauenbühlstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Lauenbühlstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Lorenz-Rädler-Weg/">Lorenz-Rädler-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Lorenz-Rädler-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Löwenstraße/">Löwenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Löwenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Manzen/">Manzen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Manzen/">Manzen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Manzen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Marktstraße/">Marktstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Marktstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Martinstraße/">Martinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Martinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Maximilian-Bentele-Straße/">Maximilian-Bentele-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Maximilian-Bentele-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Mühlweg/">Mühlweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Mühlweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Museumsplatz/">Museumsplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Museumsplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Nadenberg/">Nadenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Nadenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Nadenbergstraße/">Nadenbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Nadenbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Otto-Keck-Straße/">Otto-Keck-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Otto-Keck-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Peter-Dörfler-Straße/">Peter-Dörfler-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Peter-Dörfler-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Pfänderstraße/">Pfänderstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Pfänderstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Poststraße/">Poststraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Poststraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Rathausstraße/">Rathausstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Rathausstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ratzenberg/">Ratzenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Ratzenberg/">Ratzenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Ratzenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reisach/">Reisach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Reisach/">Reisach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Reisach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ried/">Ried</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Ried/">Ried</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Ried/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Rotkreuzplatz/">Rotkreuzplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Rotkreuzplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Sandstraße/">Sandstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Sandstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Säntisweg/">Säntisweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Säntisweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Schäfflerstraße/">Schäfflerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Schäfflerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Schillerstraße/">Schillerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Schillerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Sedanstraße/">Sedanstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Sedanstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Sonnenhalde/">Sonnenhalde</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Sonnenhalde/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Sonnenstraße/">Sonnenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Sonnenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Spielermoos/">Spielermoos</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Spielermoos/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/St.-Ulrich-Straße/">St.-Ulrich-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/St.-Ulrich-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Stadtplatz/">Stadtplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Stadtplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Staufner_Straße/">Staufner Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Staufner_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Steinstraße/">Steinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Steinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Stuibenweg/">Stuibenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Stuibenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Waldseeweg/">Waldseeweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Waldseeweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Waldstraße/">Waldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Waldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weihers/">Weihers</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Weihers/">Weihers</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Weihers/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Weinstraße/">Weinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Weinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Westpark/">Westpark</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Westpark/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/"><strong>PLZ Lindenberg i. Allgäu</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lindenberg/">Lindenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Xaver-Milz-Weg/">Xaver-Milz-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88161/">88161</a></td>
+<td><a href="https://plzplz.de/PLZ_Lindenberg_i._Allgäu/Xaver-Milz-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.004 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

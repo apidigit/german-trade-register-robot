@@ -1,0 +1,355 @@
+Am Wuhlwinkel
+B 103
+Bergstraße
+Birkenweg
+Burgstraße
+Dorfstraße
+Hauptstraße
+Hofstraße
+Hofweg
+Jungfernkrug
+Neue Straße
+Pritzwalker Straße
+Triftstraße
+Waldweg
+Alte Dorfstraße
+Alte Schule
+Am Bahnhof Rohlsdorf
+Am Bimmelbaum
+Am Bölzker Bahnhof
+Am Dammteich
+Am Jahl
+Am Karpfenteich
+Am Märchenwald
+Am Ring
+Am Rundling
+Am Sportplatz
+Am Wäldchen
+An den Teichen
+An der Bushaltestelle
+An der Friedenseiche
+B 103
+Badstraße
+Baeker Ausbau
+Baeker Bahnhof
+Baeker Damm
+Baeker Hauptstraße
+Baeker Straße
+Bahnhofstraße
+Blumenthaler Weg
+Blumenweg
+Boddiner Dorfstraße
+Boddiner Weg
+Bodenreformsiedlung
+Buchholzer Weg
+Bullendorf
+Chausseestraße
+Dorfplatz
+Dorfstraße
+Eichenallee
+Eichenweg
+Gartenweg
+Groß Pankower Weg
+Guhlsdorf
+Gülitzer Straße
+Gulower Hauptstraße
+Gutsallee
+Gutshof
+Heidelberger Straße
+Hellburger Dorfstraße
+Horster Weg
+Im Busch
+Im Dörp
+Jakobsdorfer Weg
+Kastanienallee
+Kehrberger Dorfstraße
+Klein Langerwisch
+Klein Linde
+Klein Woltersdorfer Straße
+Klenzenhofer Weg
+Koloniestraße
+Krampfer Weg
+Kreuzburg
+Kronsbergweg
+Kuhbier Ausbau
+Kuhbierer Dorfstraße
+Kuhsdorf
+Kuhsdorfer Weg
+Langerwischer Weg
+Langnower Ausbau
+Langnower Straße
+Lindenallee
+Lindenberg
+Lindenstraße
+Lindenweg
+Mühlendamm
+Mühlenweg
+Neu Hohenvier
+Neu Rohlsdorf
+Obere Dorfstraße
+Pankeweg
+Pankower Weg
+Parkstraße
+Perleberger Straße
+Putlitzer Straße
+Reckenthiner Straße
+Reckenthiner Weg
+Reetzer Straße
+Retziner Weg
+Ringstraße
+Rohlsdorf
+Rosa-Luxemburg-Straße
+Rosenweg
+Sandweg
+Sarnower Weg
+Schafstrift
+Schönebecker Weg
+Schulweg
+Schwarzer Weg
+Seddin
+Seddiner Weg
+Steindamm
+Straße des Friedens
+Striglebener Straße
+Tacken
+Tangendorf Ausbau
+Tangendorfer Hauptstraße
+Tangendorfer Straße
+Tüchener Dorfstraße
+Tüchener Hauptstraße
+Tüchener Straße
+Unter den Linden
+Vahrnower Straße
+Verlängerte Straße
+Vettin
+Vettiner Mühle 1
+Vettinerstraße
+Waldstraße
+Weg nach Wolfshagen
+Wiesenweg
+Wirtschaftsweg
+Wolfshagener Damm
+Wolfshagener Straße
+Wunderknabenweg
+Ahornweg
+Alt Wittstocker Weg
+Am Bahnhof
+Am Bahnhof Bölzke
+Am Berg
+Am Findling
+Am Heerweg
+Am Hünengrab
+Am Kreuzweg
+Am Ring
+Am Stadion
+Am Wasserturm
+Am Wilmersdorfer Weg
+Amselweg
+An den Krickgärten
+An der Dömnitz
+An der Promenade
+An der Wegemühle
+Aufbaustraße
+August-Bartels-Weg
+Ausbau
+Ausbau Nord
+Ausbau Süd
+B 103
+Bahnhofstraße
+Bahnhofsweg Beveringen
+Bahnhofsweg Falkenhagen
+Beethovenstraße
+Bergstraße
+Bergweg
+Bertha-von-Suttner-Weg
+Biesterholz
+Birkenfelde
+Birkenweg
+Birkenweg Buchholz
+Birkenweg Falkenhagen
+Blesendorfer Weg
+Boddiner Weg Bölzke
+Boddiner Weg Buchholz
+Bölzker Straße Bölzke
+Bölzker Straße Kemnitz
+Bölzker Weg
+Bremer Ring
+Brünkendorferweg
+Buchenweg
+Buchholzer Weg
+Bullenstraße
+Burgstraße
+Burgwall
+Doerfelstraße
+Dorfmitte
+Dorfstraße Alt Krüssow
+Dorfstraße Beveringen
+Dorfstraße Giesensdorf
+Dorfstraße Kemnitz
+Dorfstraße Sadenbeck
+Dorfstraße Sarnow
+Dorfstraße Schönhagen
+Dorfstraße Seefeld
+Dorfstraße Steffenshagen
+Dorfstraße Wilmersdorf
+Drosselweg
+Ebereschenweg
+Eggersdorfer Damm
+Eichenweg
+Elsässer Straße
+Elsterweg
+Erich-Mühsam-Weg
+Erlenweg
+Falkenhagener Damm
+Falkenhagener Straße
+Fasanenweg
+Feldmark
+Felsenhagener Weg
+Finkenweg
+Franz-Liszt-Straße
+Freyensteiner Chaussee
+Freyensteiner Chaussee Beveringen
+Fritz-Reuter-Straße
+Fürststücken
+Gartenstraße
+Gewerbegebiet
+Giesensdorfer Weg
+Goetheweg
+Groß Woltersdorfer Damm
+Groß Woltersdorfer Weg
+Grünstraße
+Hagenstraße
+Hainholz
+Hainholz Beveringen
+Hainholzweg
+Hamburger Straße
+Hansedamm
+Hasenwinkel
+Hauptmannsweg
+Hauptstraße Buchholz
+Hauptstraße Falkenhagen
+Hauptstraße Wilmersdorf
+Havelberger Chaussee
+Havelberger Straße
+Havelberger Straße Mesendorf
+Heidbergweg
+Heidelberger Weg
+Heinrich-Gätke-Straße
+Heinrich-Heine-Weg
+Hermann-Graebke-Straße
+Hermann-Holz-Straße
+Hermann-Lutz-Straße
+Hoepperbuschweg
+Holzhof
+Im Hagen
+Jahnstraße
+Jakobsdorfer Straße
+Johann-Sebastian-Bach-Straße
+Kammermark
+Kastanienweg
+Kathfelder Mühle
+Kiebitzberg
+Kiebitzweg
+Kiefernweg
+Kietz
+Kirchstraße
+Klein Woltersdorfer Damm
+Klein Woltersdorfer Weg
+Kniep
+Könkendorfer Straße
+Könkendorfer Weg
+Kreuzweg
+Kuckuckstraße
+Kyritzer Chaussee
+Kyritzer Straße
+Lerchenweg
+Lessingweg
+Lindengang
+Lindenstraße
+Lindenweg
+Lindenweg Buchholz
+Lindenweg Falkenhagen
+Lothringer Straße
+Lübecker Straße
+Magazinplatz
+Marktplatz
+Marktstraße
+Maxim-Gorki-Weg
+Meisenweg
+Metzer Straße
+Meyenburger Chaussee
+Meyenburger Straße
+Meyenburger Straße Falkenhagen
+Meyenburger Tor
+Mittelmühle
+Mittelstraße
+Mozartweg
+Mühle
+Mühlenweg Buchholz
+Mühlenweg Schönhagen
+Neu Kemnitz
+Neu Krüssower Straße
+Neu Krüssower Weg
+Neuhausen
+Neuhof
+Nordstraße
+Obere Dorfstraße
+P 111
+Pappelweg
+Pappelweg Falkenhagen
+Parkstraße
+Perleberger Chaussee
+Perleberger Straße
+Perleberger Tor
+Petersilienweg
+Platz des Friedens
+Postplatz
+Poststraße
+Preddöhler Weg
+Pritzwalker Straße Eggersdorf
+Pritzwalker Straße Falkenhagen
+Pritzwalker Straße Giesensdorf
+Putlitzer Straße
+Rapshagener Straße
+Rapshagener Weg Falkenhagen
+Rapshagener Weg Kuckuck
+Rathenaustraße
+Reepergang
+Rolf-Hövelmann-Straße
+Roßstraße
+Rostocker Straße
+Saarstraße
+Sadenbecker Straße
+Salbachweg
+Sarnower Weg
+Schillerstraße
+Schlachthausstraße
+Schönhagener Mühle
+Schönhagener Straße
+Schützenstraße
+Schwalbenweg
+Schwanenweg
+Spatzenweg
+Stralsunder Weg
+Straßburger Straße
+Straße des Friedens
+Streckenthiner Dorfstraße
+Stresemannstraße
+Tannenkoppelweg
+Taubenweg
+Voßberg
+Wallstraße
+Wiesenweg Falkenhagen
+Wiesenweg Wilmersdorf
+Wilmersdorfer Straße
+Wirtschaftsweg Buchholz
+Wirtschaftsweg Giesensdorf
+Wirtschaftsweg Schönhagen
+Wirtschaftsweg Steffenshagen
+Wismarer Weg
+Wittstocker Chaussee
+Wittstocker Chaussee Kemnitz
+Ziegeleiweg
+Zum Holzhof
+Zum Stadion
+Zur Hainholzmühle

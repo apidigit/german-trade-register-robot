@@ -1,0 +1,335 @@
+Adelsbergstraße
+Ahornweg
+Akazienweg
+Alfred-Delp-Straße
+Alheimer Weg
+Alleestraße
+Alter Weg
+Am Anger
+Am Bahndamm
+Am Berg
+Am Birks
+Am Bornsprengel
+Am Bühl
+Am Bünberg
+Am Burggarten
+Am Burgrain
+Am Eckartsberg
+Am Eichbach
+Am Elimberg
+Am Elm
+Am Fläßchen
+Am Hang
+Am Herdrain
+Am Höberück
+Am Holzbach
+Am Kalkofen
+Am Kirchberg
+Am Köhlersrain
+Am Molkenborn
+Am Mühlgraben
+Am Mühlrain
+Am Piffersgarten
+Am Ratz
+Am Reesen
+Am Rittersgraben
+Am Sandrück
+Am Schäfersberg
+Am Schlegrain
+Am Schützenplatz
+Am Schwimmbad
+Am Sportplatz
+Am Stadtbad
+Am Steg
+Am Taubenberg
+Am Tiefenbach
+Am Wartheberg
+Am Wasserturm
+Am Weinberg
+Am Wiesenbach
+Amalienstraße
+Amselstraße
+An der Bebra
+An der Bleiche
+An der Hardt
+An der Kirche
+An der Kisselsburg
+An der Mast
+An der Pfarrwiese
+An der Ulfe
+Andreas-Fischer-Straße
+Annastraße
+Apothekenstraße
+Arndtstraße
+Asmusstraße
+Auestraße
+Auf dem Schilderkopf
+Auf dem Siebels
+Auf dem Stück
+Auf der Freiheit
+Bachseite
+Bachweg
+Bahnhofstraße
+Bebraer Straße
+Bebritstraße
+Bei der Laupfütze
+Bergstraße
+Berliner Ring
+Berliner Straße
+Bismarckstraße
+Bitzenweg
+Blücherstraße
+Bodenthaler Weg
+Bornweg
+Braunhäuser Straße
+Breitenbacher Weg
+Breslauer Straße
+Brühlstraße
+Brunnenstraße
+Buchenweg
+Burgring
+Carl-Goerdeler-Straße
+Continentalstraße
+Cornberger Weg
+Danziger Straße
+Dickenrücker Straße
+Dietrich-Bonhoeffer-Straße
+Dopprück
+Drosselstraße
+Ederstraße
+Egerländer Straße
+Eichendorffstraße
+Eichweg
+Eisenacher Straße
+Eisenacher Straße
+Entengasse
+Erlenweg
+Ernst-Abbe-Straße
+Ernst-von-Harnack-Straße
+Falkenweg
+Fasanenweg
+Feldstraße
+Feuerbachplatz
+Fichtenweg
+Fichtestraße
+Finkenstraße
+Fontaneweg
+Forststraße
+Frankfurter Straße
+Freiherr-vom-Stein-Straße
+Friedestraße
+Friedhofstraße
+Friedländer Straße
+Friedrich-List-Straße
+Friedrichrodaer Straße
+Friedrichshütte
+Friedrichstraße
+Fröbelweg
+Fuhrmannweg
+Fuldastraße
+Gartenstraße
+Georg-Ohm-Straße
+Gerstunger Allee
+Gilfershäuser Straße
+Goethestraße
+Görlitzer Straße
+Göttinger Straße
+Gottlieb-Daimler-Straße
+Grimmelsbergstraße
+Grundmühle
+Grüner Weg
+Gut Boxerode
+Hamburger Mühle
+Hans-Neumann-Straße
+Haunestraße
+Hauptstraße
+Haus Sonnenblick
+Haus Waldesruh
+Hegenstraße
+Heidaustraße
+Heigernstraße
+Heinrich-Heine-Straße
+Heinrich-Hertz-Straße
+Hermann-Löns-Weg
+Hersfelder Straße
+Hersfelder Straße
+Hessische Straße
+Hinterm Stein
+Hochstraße
+Hof Dachsfeld
+Hof Mischels
+Hof Vockerode
+Hofgasse
+Höhenweg
+Ibaer Weg
+Im Baumgarten
+Im Bilder
+Im Göttinger Bogen
+Im Graben
+Im Hopfengarten
+Im Kessel
+Im Knatz
+Im Kringel
+Im Leimbach
+Im Park
+Im Roßbach
+Im Sambach
+Im Siebels
+Im Steinigt
+Im Trottenpark
+Imshäuser Straße
+In den Dellen
+In der Lache
+In der Lüstenau
+Jahnstraße
+Justus-Liebig-Straße
+Kantor-Thomas-Straße
+Karlstraße
+Kasseler Straße
+Kerschensteinerstraße
+Kiefernweg
+Kirchkranz
+Kirchweg
+Kleebergstraße
+Kleine Gasse
+Kleiststraße
+Klenges
+Klosterweg
+Knüllstraße
+Königsberger Straße
+Körnerstraße
+Kupferstraße
+Kurze Straße
+Küsterweg
+Lämmerbergstraße
+Lärchenweg
+Lessingstraße
+Lindenallee
+Lindenplatz
+Lindenstraße
+Losberg
+Lüdersdorfer Straße
+Lüderstraße
+Ludwig-Uhland-Straße
+Luisenstraße
+Machtloser Weg
+Malerweg
+Marie-Juchacz-Straße
+Marienstraße
+Märkische Straße
+Max-Planck-Straße
+Meininger Allee
+Mischelsweg
+Mittelstraße
+Mittelweg
+Moltkestraße
+Mühlenstraße
+Mühlwiesenweg
+Nachtigallenweg
+Neßbergstraße
+Neue Straße
+Neuer Weg
+Nordbahnstraße
+Nordstraße
+Nürnberger Straße
+Obere Straße
+Oberer Bickner
+Obermühle
+Oberweg
+Ostpreußenstraße
+Oststraße
+Oststraße
+Otto-Hahn-Straße
+Otto-Kraffke-Straße
+Otto-Schäfer-Straße
+Pestalozzistraße
+Pfarrstraße
+Philipp-Reis-Straße
+Pommersche Straße
+Postweg
+Querstraße
+Raiffeisenstraße
+Rasenweg
+Rathausmarkt
+Rathausstraße
+Ringstraße
+Robert-Bunsen-Straße
+Röderweg
+Rohrweg
+Ronshäuser Weg
+Rosweg
+Rotenburger Straße
+Roter Rain
+Ruckertsweg
+Rudolf-Diesel-Straße
+Sandkaute
+Schachtweg
+Schieferstraße
+Schillerstraße
+Schlesische Straße
+Schmiedegasse
+Schulrain
+Schulstraße
+Schulweg
+Schützenweg
+Schwalbenweg
+Schwalmstraße
+Signalstraße
+Simbachstraße
+Solzer Straße
+Sonnenweg
+Sophienstraße
+Spessartstraße
+Stadtweg
+Steilstraße
+Stephensonstraße
+Sternstraße
+Stettiner Straße
+Stockhausen
+Stollenweg
+Stölzinger Weg
+Storchenweg
+Südstraße
+Tannenbergweg
+Tannenweg
+Teichstraße
+Theodor-Storm-Straße
+Thomas-Mann-Straße
+Tromagstraße
+Über Land
+Ulfenmühle
+Unterer Bickner
+Untermühle
+Vilmarstraße
+Von-Stauffenberg-Straße
+Von-Trott-zu-Solz-Straße
+Vor dem Hirschloh
+Vor der Höhe
+Weiteröder Weg
+Welgersgraben
+Wengbergstraße
+Werrastraße
+Weserstraße
+Westpreußenstraße
+Weststraße
+Wiesenweg
+Wilhelm-Busch-Straße
+Wilhelm-Leuschner-Straße
+Wittchweg
+Wittstraße
+Wolfsbergstraße
+Zellerstraße
+Zum Fuldablick
+Zum Hachthal
+Zum Haselborn
+Zum Käsberg
+Zum Kelkerbach
+Zum Metzenmüller
+Zum Pfarrhaus
+Zum Riegelsgraben
+Zum Steinbruch
+Zum Unterwerk
+Zur Biberkampfbahn
+Zur Erzhecke
+Zur Schwemme
+Gunkelrode

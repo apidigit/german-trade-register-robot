@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 92280 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="92280, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 92280 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 92280">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_92280/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 92280 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="92280" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Altenfelden/" title="PLZ Altenfelden"><strong>PLZ Altenfelden</strong></a>|<a href="https://plzplz.de/PLZ_Bernrieth/" title="PLZ Bernrieth"><strong>PLZ Bernrieth</strong></a>|<a href="https://plzplz.de/PLZ_Birkland/" title="PLZ Birkland"><strong>PLZ Birkland</strong></a>|<a href="https://plzplz.de/PLZ_Blätterberg/" title="PLZ Blätterberg"><strong>PLZ Blätterberg</strong></a>|<a href="https://plzplz.de/PLZ_Blumenkamp/" title="PLZ Blumenkamp"><strong>PLZ Blumenkamp</strong></a>|<a href="https://plzplz.de/PLZ_Brinkum/" title="PLZ Brinkum"><strong>PLZ Brinkum</strong></a>|<a href="https://plzplz.de/PLZ_Fehrenbötel/" title="PLZ Fehrenbötel"><strong>PLZ Fehrenbötel</strong></a>|<a href="https://plzplz.de/PLZ_Filderstadt/" title="PLZ Filderstadt"><strong>PLZ Filderstadt</strong></a>|<a href="https://plzplz.de/PLZ_Forstwiesen/" title="PLZ Forstwiesen"><strong>PLZ Forstwiesen</strong></a>|<a href="https://plzplz.de/PLZ_Geischberg/" title="PLZ Geischberg"><strong>PLZ Geischberg</strong></a>|<a href="https://plzplz.de/PLZ_Gerach/" title="PLZ Gerach"><strong>PLZ Gerach</strong></a>|<a href="https://plzplz.de/PLZ_Großberghausen/" title="PLZ Großberghausen"><strong>PLZ Großberghausen</strong></a>|<a href="https://plzplz.de/PLZ_Höxter/" title="PLZ Höxter"><strong>PLZ Höxter</strong></a>|<a href="https://plzplz.de/PLZ_Kaulstoß/" title="PLZ Kaulstoß"><strong>PLZ Kaulstoß</strong></a>|<a href="https://plzplz.de/PLZ_Löhnhorst/" title="PLZ Löhnhorst"><strong>PLZ Löhnhorst</strong></a>|<a href="https://plzplz.de/PLZ_Margarethenthann/" title="PLZ Margarethenthann"><strong>PLZ Margarethenthann</strong></a>|<a href="https://plzplz.de/PLZ_Marienroda/" title="PLZ Marienroda"><strong>PLZ Marienroda</strong></a>|<a href="https://plzplz.de/PLZ_Marschacht/" title="PLZ Marschacht"><strong>PLZ Marschacht</strong></a>|<a href="https://plzplz.de/PLZ_Miehlen/" title="PLZ Miehlen"><strong>PLZ Miehlen</strong></a>|<a href="https://plzplz.de/PLZ_Mieswarz/" title="PLZ Mieswarz"><strong>PLZ Mieswarz</strong></a>|<a href="https://plzplz.de/PLZ_Neusornzig/" title="PLZ Neusornzig"><strong>PLZ Neusornzig</strong></a>|<a href="https://plzplz.de/PLZ_Oberapfelkam/" title="PLZ Oberapfelkam"><strong>PLZ Oberapfelkam</strong></a>|<a href="https://plzplz.de/PLZ_Oekoven/" title="PLZ Oekoven"><strong>PLZ Oekoven</strong></a>|<a href="https://plzplz.de/PLZ_Petriroda/" title="PLZ Petriroda"><strong>PLZ Petriroda</strong></a>|<a href="https://plzplz.de/PLZ_Presnitz/" title="PLZ Presnitz"><strong>PLZ Presnitz</strong></a>|<a href="https://plzplz.de/PLZ_Prießnitz/" title="PLZ Prießnitz"><strong>PLZ Prießnitz</strong></a>|<a href="https://plzplz.de/PLZ_Rajoch/" title="PLZ Rajoch"><strong>PLZ Rajoch</strong></a>|<a href="https://plzplz.de/PLZ_Rechersberg/" title="PLZ Rechersberg"><strong>PLZ Rechersberg</strong></a>|<a href="https://plzplz.de/PLZ_Sudwalde/" title="PLZ Sudwalde"><strong>PLZ Sudwalde</strong></a>|<a href="https://plzplz.de/PLZ_Villigst/" title="PLZ Villigst"><strong>PLZ Villigst</strong></a>|<a href="https://plzplz.de/PLZ_Vordergausberg/" title="PLZ Vordergausberg"><strong>PLZ Vordergausberg</strong></a>|<a href="https://plzplz.de/PLZ_Westergellersen/" title="PLZ Westergellersen"><strong>PLZ Westergellersen</strong></a>|<a href="https://plzplz.de/PLZ_Willmannsdorf/" title="PLZ Willmannsdorf"><strong>PLZ Willmannsdorf</strong></a>|<a href="https://plzplz.de/PLZ_Wolfscheiben/" title="PLZ Wolfscheiben"><strong>PLZ Wolfscheiben</strong></a>|<a href="https://plzplz.de/PLZ_Wörgant/" title="PLZ Wörgant"><strong>PLZ Wörgant</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 92280</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aicha/">Aicha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Aicha/">Aicha</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Aicha/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Allmannsfeld/">Allmannsfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Allmannsfeld/">Allmannsfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Allmannsfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Alte_Hohenburger_Straße/">Alte Hohenburger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Alte_Hohenburger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Utzenhofen/">Utzenhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Alte_Schulgasse/">Alte Schulgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Alte_Schulgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffenhofen/">Pfaffenhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Alte_Straße/">Alte Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Alte_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Am_Enzenberg/">Am Enzenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Am_Enzenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Utzenhofen/">Utzenhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Am_Kehrer/">Am Kehrer</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Am_Kehrer/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Am_Mennersberger_Weg/">Am Mennersberger Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Am_Mennersberger_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffenhofen/">Pfaffenhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Am_Reiser/">Am Reiser</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Am_Reiser/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Am_Schönblick/">Am Schönblick</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Am_Schönblick/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Amberger_Straße/">Amberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Amberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Antonius-Ertl-Straße/">Antonius-Ertl-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Antonius-Ertl-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Appesloh/">Appesloh</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Appesloh/">Appesloh</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Appesloh/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aumühle/">Aumühle</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Aumühle/">Aumühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Aumühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Umelsdorf/">Umelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Bachstraße/">Bachstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Bachstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Badstraße/">Badstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Badstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bärnhof/">Bärnhof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Bärnhof/">Bärnhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Bärnhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Berghäuser_Weg/">Berghäuser Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Berghäuser_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Utzenhofen/">Utzenhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Bergstraße/">Bergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Bergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Brauhausgasse/">Brauhausgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Brauhausgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Brünnthal/">Brünnthal</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Brünnthal/">Brünnthal</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Brünnthal/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffenhofen/">Pfaffenhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Burgweg/">Burgweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Burgweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Deinshof/">Deinshof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Deinshof/">Deinshof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Deinshof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dettnach/">Dettnach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Dettnach/">Dettnach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Dettnach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Utzenhofen/">Utzenhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Dornerweg/">Dornerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Dornerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Drahberg/">Drahberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Drahberg/">Drahberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Drahberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Flügelsbuch/">Flügelsbuch</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Flügelsbuch/">Flügelsbuch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Flügelsbuch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Freischweibach/">Freischweibach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Freischweibach/">Freischweibach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Freischweibach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gaishof/">Gaishof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Gaishof/">Gaishof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Gaishof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Georg-Reiser-Straße/">Georg-Reiser-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Georg-Reiser-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Giggelsberg/">Giggelsberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Giggelsberg/">Giggelsberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Giggelsberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Utzenhofen/">Utzenhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Grottenweg/">Grottenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Grottenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Guttenberg/">Guttenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Guttenberg/">Guttenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Guttenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Haid/">Haid</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Haid/">Haid</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Haid/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hainhof/">Hainhof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Hainhof/">Hainhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Hainhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Hainthalstraße/">Hainthalstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Hainthalstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Halbmühle/">Halbmühle</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Halbmühle/">Halbmühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Halbmühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Utzenhofen/">Utzenhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Hauptstraße/">Hauptstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Hauptstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hellberg/">Hellberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Hellberg/">Hellberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Hellberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Hochhaus/">Hochhaus</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Hochhaus/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Hochholzstraße/">Hochholzstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Hochholzstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Hohenburger_Straße/">Hohenburger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Hohenburger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hohengrund/">Hohengrund</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Hohengrund/">Hohengrund</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Hohengrund/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Im_Gewerbegebiet/">Im Gewerbegebiet</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Im_Gewerbegebiet/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Johannes-Straße/">Johannes-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Johannes-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pattershofen/">Pattershofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Kapellenweg/">Kapellenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Kapellenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pattershofen/">Pattershofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Kastler_Straße/">Kastler Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Kastler_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffenhofen/">Pfaffenhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Kastler_Straße/">Kastler Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Kastler_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Utzenhofen/">Utzenhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Kastler_Straße/">Kastler Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Kastler_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Utzenhofen/">Utzenhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Kirchensteig/">Kirchensteig</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Kirchensteig/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Klosterbergstraße/">Klosterbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Klosterbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Klosterburg/">Klosterburg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Klosterburg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffenhofen/">Pfaffenhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Knipferweg/">Knipferweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Knipferweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langenberg/">Langenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Langenberg/">Langenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Langenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lauterach/">Lauterach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Lauterach/">Lauterach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Lauterach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Lauterachtalstraße/">Lauterachtalstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Lauterachtalstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Marktplatz/">Marktplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Marktplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Martin-Weiß-Straße/">Martin-Weiß-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Martin-Weiß-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mennersberg/">Mennersberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Mennersberg/">Mennersberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Mennersberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pattershofen/">Pattershofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Mennersbergweg/">Mennersbergweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Mennersbergweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Merianstraße/">Merianstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Merianstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Utzenhofen/">Utzenhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Mittlerweg/">Mittlerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Mittlerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mühlhausen/">Mühlhausen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Mühlhausen/">Mühlhausen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Mühlhausen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Mühlhausener_Straße/">Mühlhausener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Mühlhausener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Utzenhofen/">Utzenhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Mühlhausener_Straße/">Mühlhausener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Mühlhausener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Neumarkter_Straße/">Neumarkter Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Neumarkter_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Obere_Hainthalstraße/">Obere Hainthalstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Obere_Hainthalstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Oberfeld/">Oberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Oberfeld/">Oberfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Oberfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Oberthalweg/">Oberthalweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Oberthalweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Peter-Spies-Straße/">Peter-Spies-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Peter-Spies-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Pfaffenhofener_Weg/">Pfaffenhofener Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Pfaffenhofener_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Utzenhofen/">Utzenhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Pfarrer-Eras-Straße/">Pfarrer-Eras-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Pfarrer-Eras-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Pfingstberg/">Pfingstberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Pfingstberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Utzenhofen/">Utzenhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Raiffeisenstraße/">Raiffeisenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Raiffeisenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reusch/">Reusch</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Reusch/">Reusch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Reusch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Richt/">Richt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Richt/">Richt</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Richt/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Utzenhofen/">Utzenhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Sandberg/">Sandberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Sandberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Saugraben/">Saugraben</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Saugraben/">Saugraben</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Saugraben/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Umelsdorf/">Umelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Schmiedgasse/">Schmiedgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Schmiedgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffenhofen/">Pfaffenhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Schneiderberg/">Schneiderberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Schneiderberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schwärz/">Schwärz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Schwärz/">Schwärz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Schwärz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Schweppermannstraße/">Schweppermannstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Schweppermannstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Lampert/">Sankt Lampert</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/St._Lampert/">St. Lampert</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/St._Lampert/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffenhofen/">Pfaffenhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/St.-Martin-Straße/">St.-Martin-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/St.-Martin-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Umelsdorf/">Umelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/St.-Nikolaus-Straße/">St.-Nikolaus-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/St.-Nikolaus-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Utzenhofen/">Utzenhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Stephanstraße/">Stephanstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Stephanstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Umelsdorf/">Umelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Talweg/">Talweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Talweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Utzenhofen/">Utzenhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Umelsdorfer_Straße/">Umelsdorfer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Umelsdorfer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Utzenhofener_Straße/">Utzenhofener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Utzenhofener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Utzenhofen/">Utzenhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Vitusstraße/">Vitusstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Vitusstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pfaffenhofen/">Pfaffenhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Wernhammerstraße/">Wernhammerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Wernhammerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wolfersdorf/">Wolfersdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Wolfersdorf/">Wolfersdorf</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Wolfersdorf/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Umelsdorf/">Umelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Wolfersdorfer_Straße/">Wolfersdorfer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Wolfersdorfer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wolfsfeld/">Wolfsfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Wolfsfeld/">Wolfsfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Wolfsfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zapfl/">Zapfl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Zapfl/">Zapfl</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Zapfl/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Utzenhofen/">Utzenhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Zapflweg/">Zapflweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Zapflweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ziegelhütte/">Ziegelhütte</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Ziegelhütte/">Ziegelhütte</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Ziegelhütte/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kastl/"><strong>PLZ Kastl</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Umelsdorf/">Umelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Zum_Wiesengrund/">Zum Wiesengrund</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_92280/">92280</a></td>
+<td><a href="https://plzplz.de/PLZ_Kastl/Zum_Wiesengrund/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.006 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

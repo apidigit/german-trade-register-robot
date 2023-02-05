@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 90478 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="90478, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 90478 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 90478">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_90478/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 90478 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="90478" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Amtzell/" title="PLZ Amtzell"><strong>PLZ Amtzell</strong></a>|<a href="https://plzplz.de/PLZ_Bahnsdorf/" title="PLZ Bahnsdorf"><strong>PLZ Bahnsdorf</strong></a>|<a href="https://plzplz.de/PLZ_Beesten/" title="PLZ Beesten"><strong>PLZ Beesten</strong></a>|<a href="https://plzplz.de/PLZ_Bocköd/" title="PLZ Bocköd"><strong>PLZ Bocköd</strong></a>|<a href="https://plzplz.de/PLZ_Dietenberg/" title="PLZ Dietenberg"><strong>PLZ Dietenberg</strong></a>|<a href="https://plzplz.de/PLZ_Eimersleben/" title="PLZ Eimersleben"><strong>PLZ Eimersleben</strong></a>|<a href="https://plzplz.de/PLZ_Ellen/" title="PLZ Ellen"><strong>PLZ Ellen</strong></a>|<a href="https://plzplz.de/PLZ_Emmen/" title="PLZ Emmen"><strong>PLZ Emmen</strong></a>|<a href="https://plzplz.de/PLZ_Emmendorf/" title="PLZ Emmendorf"><strong>PLZ Emmendorf</strong></a>|<a href="https://plzplz.de/PLZ_Euerhausen/" title="PLZ Euerhausen"><strong>PLZ Euerhausen</strong></a>|<a href="https://plzplz.de/PLZ_Eulau/" title="PLZ Eulau"><strong>PLZ Eulau</strong></a>|<a href="https://plzplz.de/PLZ_Fockenberg-Limbach/" title="PLZ Fockenberg-Limbach"><strong>PLZ Fockenberg-Limbach</strong></a>|<a href="https://plzplz.de/PLZ_Hefersweiler/" title="PLZ Hefersweiler"><strong>PLZ Hefersweiler</strong></a>|<a href="https://plzplz.de/PLZ_Heiligendorf/" title="PLZ Heiligendorf"><strong>PLZ Heiligendorf</strong></a>|<a href="https://plzplz.de/PLZ_Heinrichsruh/" title="PLZ Heinrichsruh"><strong>PLZ Heinrichsruh</strong></a>|<a href="https://plzplz.de/PLZ_Hessenhof/" title="PLZ Hessenhof"><strong>PLZ Hessenhof</strong></a>|<a href="https://plzplz.de/PLZ_Heusweiler/" title="PLZ Heusweiler"><strong>PLZ Heusweiler</strong></a>|<a href="https://plzplz.de/PLZ_Kleingartenanlage_Frohsinn/" title="PLZ Kleingartenanlage Frohsinn"><strong>PLZ Kleingartenanlage Frohsinn</strong></a>|<a href="https://plzplz.de/PLZ_Kohlhütte/" title="PLZ Kohlhütte"><strong>PLZ Kohlhütte</strong></a>|<a href="https://plzplz.de/PLZ_Kritzenberg/" title="PLZ Kritzenberg"><strong>PLZ Kritzenberg</strong></a>|<a href="https://plzplz.de/PLZ_Kronthal/" title="PLZ Kronthal"><strong>PLZ Kronthal</strong></a>|<a href="https://plzplz.de/PLZ_Laimering/" title="PLZ Laimering"><strong>PLZ Laimering</strong></a>|<a href="https://plzplz.de/PLZ_Löpitz/" title="PLZ Löpitz"><strong>PLZ Löpitz</strong></a>|<a href="https://plzplz.de/PLZ_Maiszell/" title="PLZ Maiszell"><strong>PLZ Maiszell</strong></a>|<a href="https://plzplz.de/PLZ_Miesenböck/" title="PLZ Miesenböck"><strong>PLZ Miesenböck</strong></a>|<a href="https://plzplz.de/PLZ_Morenhoven/" title="PLZ Morenhoven"><strong>PLZ Morenhoven</strong></a>|<a href="https://plzplz.de/PLZ_Oberhohlenbach/" title="PLZ Oberhohlenbach"><strong>PLZ Oberhohlenbach</strong></a>|<a href="https://plzplz.de/PLZ_Ochsenhöfle/" title="PLZ Ochsenhöfle"><strong>PLZ Ochsenhöfle</strong></a>|<a href="https://plzplz.de/PLZ_Poikam/" title="PLZ Poikam"><strong>PLZ Poikam</strong></a>|<a href="https://plzplz.de/PLZ_Rodach/" title="PLZ Rodach"><strong>PLZ Rodach</strong></a>|<a href="https://plzplz.de/PLZ_Schönstadt/" title="PLZ Schönstadt"><strong>PLZ Schönstadt</strong></a>|<a href="https://plzplz.de/PLZ_Schwielowsee/" title="PLZ Schwielowsee"><strong>PLZ Schwielowsee</strong></a>|<a href="https://plzplz.de/PLZ_Unterhaslau/" title="PLZ Unterhaslau"><strong>PLZ Unterhaslau</strong></a>|<a href="https://plzplz.de/PLZ_Waldsteig/" title="PLZ Waldsteig"><strong>PLZ Waldsteig</strong></a>|<a href="https://plzplz.de/PLZ_Wollershausen/" title="PLZ Wollershausen"><strong>PLZ Wollershausen</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 90478</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Peter/">Sankt Peter</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Albertstraße/">Albertstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Albertstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dutzendteich/">Dutzendteich</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Bayernstraße/">Bayernstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Bayernstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Peter/">Sankt Peter</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Bestelmeyerstraße/">Bestelmeyerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Bestelmeyerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleißhammer/">Gleißhammer</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Birkenhof/">Birkenhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Birkenhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleißhammer/">Gleißhammer</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Boelckestraße/">Boelckestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Boelckestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Peter/">Sankt Peter</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Borsigstraße/">Borsigstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Borsigstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Peter/">Sankt Peter</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Burgerstraße/">Burgerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Burgerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Peter/">Sankt Peter</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Dürrenhofstraße/">Dürrenhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Dürrenhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleißhammer/">Gleißhammer</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Dutzendteichstraße/">Dutzendteichstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Dutzendteichstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Glockenhof/">Glockenhof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Ehemannstraße/">Ehemannstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Ehemannstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dutzendteich/">Dutzendteich</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Elias-Holl-Straße/">Elias-Holl-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Elias-Holl-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Glockenhof/">Glockenhof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Enderleinstraße/">Enderleinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Enderleinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Peter/">Sankt Peter</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Ernststraße/">Ernststraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Ernststraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Glockenhof/">Glockenhof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Findelwiesenstraße/">Findelwiesenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Findelwiesenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleißhammer/">Gleißhammer</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Fliegerstraße/">Fliegerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Fliegerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dutzendteich/">Dutzendteich</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Gabriel-von-Seidl-Platz/">Gabriel-von-Seidl-Platz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Gabriel-von-Seidl-Platz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleißhammer/">Gleißhammer</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Gleimstraße/">Gleimstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Gleimstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Glockenhof/">Glockenhof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Glockenhofstraße/">Glockenhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Glockenhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Peter/">Sankt Peter</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Gottfriedstraße/">Gottfriedstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Gottfriedstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dutzendteich/">Dutzendteich</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Hagedornstraße/">Hagedornstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Hagedornstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Glockenhof/">Glockenhof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Harsdörfferplatz/">Harsdörfferplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Harsdörfferplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleißhammer/">Gleißhammer</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Harsdörfferstraße/">Harsdörfferstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Harsdörfferstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Peter/">Sankt Peter</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Hartmannstraße/">Hartmannstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Hartmannstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Glockenhof/">Glockenhof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Heideloffplatz/">Heideloffplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Heideloffplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Glockenhof/">Glockenhof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Heideloffstraße/">Heideloffstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Heideloffstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dutzendteich/">Dutzendteich</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Herzogstraße/">Herzogstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Herzogstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Peter/">Sankt Peter</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Hintere_Cramergasse/">Hintere Cramergasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Hintere_Cramergasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleißhammer/">Gleißhammer</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Immelmannstraße/">Immelmannstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Immelmannstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dutzendteich/">Dutzendteich</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Jakob-Wolff-Straße/">Jakob-Wolff-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Jakob-Wolff-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Peter/">Sankt Peter</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Kapellenstraße/">Kapellenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Kapellenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Glockenhof/">Glockenhof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Keplerstraße/">Keplerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Keplerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Glockenhof/">Glockenhof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Kirchenstraße/">Kirchenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Kirchenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Glockenhof/">Glockenhof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Köhnstraße/">Köhnstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Köhnstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Peter/">Sankt Peter</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Kupferstraße/">Kupferstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Kupferstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Peter/">Sankt Peter</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Kurtstraße/">Kurtstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Kurtstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Glockenhof/">Glockenhof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Lamprechtstraße/">Lamprechtstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Lamprechtstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Peter/">Sankt Peter</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Lorschstraße/">Lorschstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Lorschstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleißhammer/">Gleißhammer</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Ludwig-Frank-Straße/">Ludwig-Frank-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Ludwig-Frank-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Peter/">Sankt Peter</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Luisenstraße/">Luisenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Luisenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dutzendteich/">Dutzendteich</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Münchener_Straße/">Münchener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Münchener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Peter/">Sankt Peter</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Neubleiche/">Neubleiche</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Neubleiche/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Peter/">Sankt Peter</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Neumarkter_Straße/">Neumarkter Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Neumarkter_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Glockenhof/">Glockenhof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Obere_Baustraße/">Obere Baustraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Obere_Baustraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dutzendteich/">Dutzendteich</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Oskar-von-Miller-Straße/">Oskar-von-Miller-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Oskar-von-Miller-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Peter/">Sankt Peter</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Parsberger_Straße/">Parsberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Parsberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Peter/">Sankt Peter</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Peterstraße/">Peterstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Peterstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Peter/">Sankt Peter</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Pfründnerstraße/">Pfründnerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Pfründnerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Peter/">Sankt Peter</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Regensburger_Straße/">Regensburger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Regensburger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zerzabelshof/">Zerzabelshof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Regensburger_Straße/">Regensburger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Regensburger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleißhammer/">Gleißhammer</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Richthofenstraße/">Richthofenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Richthofenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Glockenhof/">Glockenhof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Ritterplatz/">Ritterplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Ritterplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleißhammer/">Gleißhammer</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Rosenhofstraße/">Rosenhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Rosenhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Peter/">Sankt Peter</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Schanzenstraße/">Schanzenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Schanzenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Peter/">Sankt Peter</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Scharrerstraße/">Scharrerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Scharrerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Glockenhof/">Glockenhof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Scheurlstraße/">Scheurlstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Scheurlstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Peter/">Sankt Peter</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Schieferstraße/">Schieferstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Schieferstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Peter/">Sankt Peter</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Schloßstraße/">Schloßstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Schloßstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleißhammer/">Gleißhammer</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Schultheißallee/">Schultheißallee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Schultheißallee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleißhammer/">Gleißhammer</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Schwanhardtstraße/">Schwanhardtstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Schwanhardtstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Glockenhof/">Glockenhof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Schweiggerstraße/">Schweiggerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Schweiggerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dutzendteich/">Dutzendteich</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Seumestraße/">Seumestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Seumestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Glockenhof/">Glockenhof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Sophienstraße/">Sophienstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Sophienstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Peter/">Sankt Peter</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Steibweg/">Steibweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Steibweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Peter/">Sankt Peter</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Stephanstraße/">Stephanstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Stephanstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Glockenhof/">Glockenhof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Strauchstraße/">Strauchstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Strauchstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Glockenhof/">Glockenhof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Sturmstraße/">Sturmstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Sturmstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Peter/">Sankt Peter</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Theklastraße/">Theklastraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Theklastraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Glockenhof/">Glockenhof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Untere_Baustraße/">Untere Baustraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Untere_Baustraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dutzendteich/">Dutzendteich</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Uzstraße/">Uzstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Uzstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Peter/">Sankt Peter</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Velburger_Straße/">Velburger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Velburger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Peter/">Sankt Peter</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Vordere_Cramergasse/">Vordere Cramergasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Vordere_Cramergasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Glockenhof/">Glockenhof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Walter-Meckauer-Straße/">Walter-Meckauer-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Walter-Meckauer-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gleißhammer/">Gleißhammer</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Weddigenstraße/">Weddigenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Weddigenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dutzendteich/">Dutzendteich</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Weidmannstraße/">Weidmannstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Weidmannstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zerzabelshof/">Zerzabelshof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Zerzabelshofstraße/">Zerzabelshofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90478/">90478</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Zerzabelshofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.005 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

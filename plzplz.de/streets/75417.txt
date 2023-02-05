@@ -1,0 +1,442 @@
+Acht Morgen
+Adalbert-Stifter-Weg
+Agnes-Günther-Weg
+Ahornweg
+Aischbühlweg
+Akazienweg
+Albert-Schweitzer-Straße
+Alemannenstraße
+Alte Steige
+Am Berg
+Am Landgraben
+Am Spottenberg
+Am Wässerle
+Amselweg
+Andreas-Scheck-Straße
+Anna-Blos-Weg
+Anna-Haag-Ring
+Arnaudstraße
+Ascherstraße
+Asternweg
+Auf dem Nagd
+August-Hebenstreit-Straße
+August-Lämmle-Straße
+Austraße
+Auwiesenweg
+Bachstraße
+Bädergasse
+Bahnhofstraße
+Banzhafstraße
+Baron-Müller-Weg
+Bassanostraße
+Beethovenstraße
+Bei der Frauenkirche
+Beim Igelsbach
+Beim St. Peter
+Belzackerweg
+Benzenäckerweg
+Bergstraße
+Berliner Ring
+Bernhardhausenstraße
+Bierkeller
+Bischof-Wurm-Platz
+Bismarckstraße
+Bodenrainweg
+Bonhoefferstraße
+Brahmsstraße
+Brauereigasse
+Braunstraße
+Breslauer Straße
+Brettener Straße
+Brückenstraße
+Brucknerstraße
+Brühlstraße
+Brunnengasse
+Brunnenstubenweg
+Bubensteige
+Buchenweg
+Buchscheidung
+Burgfeldstraße
+Burggraben
+Burgherrenstraße
+Burgweg
+Carl-Orff-Weg
+Dahlienweg
+Daimlerstraße
+Dammweg
+Danziger Straße
+Denzelhalde
+Dorfwiesenstraße
+Dörnichhof
+Dr.-Otto-Schneider-Straße
+Dr.-Simons-Straße
+Dresdner Straße
+Drosselweg
+Dürerstraße
+Eckenweiherstraße
+Edisonweg
+Eibenweg
+Eichendorffstraße
+Eichenweg
+Einsteinstraße
+Eiswiesenstraße
+Emrichstraße
+Enzberger Straße
+Enzstraße
+Eppenwiesenweg
+Erlenbachstraße
+Erlenweg
+Ernst-Händle-Straße
+Ernst-Reuter-Straße
+Eschenbergweg
+Eulerstraße
+Falkenweg
+Falltorweg
+Fasanenhof
+Fasanenweg
+Faustackerweg
+Felsenweg
+Festplatz
+Fichtenweg
+Finkenweg
+Finkenwiesenstraße
+Fischeräckerstraße
+Flachsweg
+Fliederweg
+Flöhbergstraße
+Flößergasse
+Forellenweg
+Fortenbacherweg
+Frankenstraße
+Friedenstraße
+Friedhofstraße
+Friedrich-Ebert-Straße
+Friedrich-List-Straße
+Friedrich-Münch-Straße
+Friedrich-Silcher-Weg
+Friedrichstraße
+Fronackerweg
+Froschwiesenweg
+Fuchsweg
+Gaiernstraße
+Galileistraße
+Gartenstraße
+Gärtnereiweg
+Gaußweg
+Geißbergweg
+Gerlinde-Beck-Ring
+Ginsterweg
+Gladiolenweg
+Gluckstraße
+Goethestraße
+Goldshaldenstraße
+Gottlieb-Meißner-Straße
+Götzentor
+Grafenweg
+Großglattbacher Weg
+Gustav-Schwab-Straße
+Gutenbergstraße
+Hagelreute
+Haldenstraße
+Händelstraße
+Hanfweg
+Hangenstein
+Hartfeldstraße
+Haselweg
+Hasenberghof
+Hauffstraße
+Hauptmannstraße
+Hauptstraße
+Haydnstraße
+Heckenweg
+Heerstraße
+Hegelstraße
+Heideweg
+Heilbronner Straße
+Heinestraße
+Helene-Lange-Weg
+Hermann-Hesse-Straße
+Herrenbrunnenstraße
+Herrenwaag
+Hertzweg
+Herzenbühlstraße
+Hillerstraße
+Hindenburgstraße
+Hintere Bergstraße
+Hintere Gasse
+Hirschstraße
+Hof Birkenau
+Hofstraße
+Hohenstaufenstraße
+Höhenstraße
+Hölderlinstraße
+Holunderweg
+Hornbergsteige
+Hörnlestraße
+Hüfen
+Hummelberg
+Hundsrücken
+Iglauer Straße
+Illinger Straße
+Im Bannholz
+Im Biegel
+Im Boden
+Im Buchwäldle
+Im Dörnich
+Im Hagen
+Im Hohberg
+Im Käppele
+Im langen Rain
+Im Leiterstiegel
+Im Letten
+Im Maisenbühl
+Im Mühlehof
+Im Öhrlach
+In den Waldäckern
+Industriestraße
+Iptinger Weg
+Isolde-Kurz-Weg
+Jägerstraße
+Jahnstraße
+Jörgenwaag
+Jupiterstraße
+Kalkweg
+Kanalstraße
+Kantstraße
+Kanzlerstraße
+Kapellenweg
+Karl-Gerok-Straße
+Karl-Knöller-Straße
+Karlstraße
+Karolingerstraße
+Käthe-Kollwitz-Straße
+Kelterplatz
+Kelterstraße
+Keplerstraße
+Kernerstraße
+Kerschensteinerstraße
+Kiefernweg
+Kieselbronner Straße
+Kirchbergstraße
+Kirchenburggasse
+Kirchgässle
+Kißlingweg
+Klammenweg
+Kleewiesenweg
+Klettenäcker
+Klinge
+Klosterweg
+Klotzbergstraße
+Knittlinger Straße
+Königsberger Straße
+Konrad-Adenauer-Platz
+Kopernikusstraße
+Kornweg
+Kreuzweg
+Krokusweg
+Krumme Gasse
+Lammgasse
+Landhausstraße
+Lärchenweg
+Leipziger Straße
+Leoweg
+Lessingweg
+Lichtholzstraße
+Lienzinger Straße
+Lilienweg
+Lina-Hähnle-Weg
+Lindachstraße
+Lindenweg
+Löffelstelzweg
+Lohr
+Lohwiesenstraße
+Lomersheimer Straße
+Lortzingstraße
+Louise-Schröder-Straße
+Löwengasse
+Ludowicistraße
+Ludwig-Lenz-Straße
+Ludwig-Thoma-Straße
+Ludwigstraße
+Lugwaldstraße
+Marconistraße
+Marktplatz
+Marsstraße
+Martin-Luther-Straße
+Maulbronner Weg
+Max-Dürr-Staffel
+Max-Eyth-Straße
+Meisenweg
+Mergeläcker
+Merkurstraße
+Merowingerstraße
+Mittlerer Häldenweg
+Mittlerer Weinbergweg
+Moltkestraße
+Mönchberg
+Mönsheimer Steige
+Moorhaldenstraße
+Mörikeweg
+Mozartstraße
+Mühlackerstraße
+Mühlhäuser Steige
+Mühlweg
+Mülleräcker
+Nachtigallenstraße
+Narichenhalde
+Narzissenweg
+Nelkenweg
+Neuer Stöckach
+Neuwiesenstraße
+Nieferner Straße
+Nipkowstraße
+Obenaus
+Oberdorfstraße
+Obere Au
+Obere Bergstraße
+Obere Gasse
+Obere Königstraße
+Öschelbronner Straße
+Oskar-Schlemmer-Straße
+Ötisheimer Steige
+Ötisheimer Straße
+Ottilie-Wildermuth-Weg
+Otto-Aichele-Straße
+Otto-Rieger-Straße
+Otto-Stolpp-Straße
+Panoramastraße
+Pappelweg
+Parkstraße
+Peterswiesenweg
+Pfarrgasse
+Pferchäcker
+Pforzheimer Straße
+Philipp-Bauer-Weg
+Pinacher Straße
+Pirolweg
+Planckstraße
+Poststraße
+Raithstraße
+Rappstraße
+Rathausgasse
+Rathausplatz
+Rauhensteinstraße
+Rebenweg
+Regerstraße
+Regine-Merkle-Weg
+Reichardtstraße
+Reichenberger Straße
+Reichmannstraße
+Reisweg
+Rennweg
+Reutweg
+Richard-Allmendinger-Straße
+Richard-Wagner-Straße
+Richard-Woerner-Straße
+Ringstraße
+Ritterweg
+Röntgenstraße
+Rosenweg
+Rößlesweg
+Roßwager Straße
+Sägmühle
+Salenwiesenweg
+Salierstraße
+Saturnstraße
+Schafweg
+Scheffelstraße
+Schellingstraße
+Schelmenwaldstraße
+Schiedstraße
+Schillerstraße
+Schlehenweg
+Schloßstraße
+Schlüsselweg
+Schmale Gasse
+Schmiebachweg
+Schollwiesenstraße
+Schönblickweg
+Schreineräckerstraße
+Schubartweg
+Schulerweg
+Schulstraße
+Schumannstraße
+Schützinger Straße
+Schwalbenweg
+Schwarzwaldstraße
+Seestraße
+Senderstraße
+Sommerberg
+Sonnenbergweg
+Sophie-Scholl-Weg
+Sperberweg
+Spindelgasse
+St. Peter
+St.-Andreas-Straße
+St.-Markus-Straße
+Steegerstraße
+Steigstraße
+Steinbeisstraße
+Steinbergle
+Stettiner Weg
+Stöckachweg
+Straußweg
+Stuttgarter Straße
+Sudetenstraße
+Tailfingen
+Talweg
+Tannenweg
+Telemannweg
+Theodor-Heuss-Straße
+Tiefer Weg
+Torackerweg
+Trollingerweg
+Tulpenweg
+Turmstraße
+Uhlandstraße
+Ulmenweg
+Ulmer Schanz
+Ulrichweg
+Umgehungsstraße
+Unter dem Nagd
+Untere Königstraße
+Unterer Häldenweg
+Unterer Weinbergweg
+Unterm Berg
+Vaihinger Straße
+Veilchenweg
+Venusstraße
+Vetterstraße
+Vogelsangstraße
+Vogeltalgasse
+Vor dem Stöckachwald
+Vordere Bergstraße
+Vordere Wanne
+Waagrain
+Wacholderweg
+Waldenserstraße
+Waldstraße
+Wallfahrtsweg
+Walterswiesen
+Waltherweg
+Wassergäßle
+Wasserhalde
+Wasserstraße
+Weberweg
+Wehrgasse
+Welsche Straße
+Werkstraße
+Wielandstraße
+Wiernsheimer Straße
+Wiesenstraße
+Wilhelmstraße
+Willi-Baumeister-Straße
+Wittumrain
+Wolfackerweg
+Wolfgangweg
+Zaisersweiher Straße
+Zaunäckerweg
+Zehntgasse
+Zeppelinstraße
+Ziegeleistraße
+Zwerchstraße

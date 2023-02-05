@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 14195 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="14195, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 14195 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 14195">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_14195/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 14195 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="14195" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Allmershausen/" title="PLZ Allmershausen"><strong>PLZ Allmershausen</strong></a>|<a href="https://plzplz.de/PLZ_Auermühle/" title="PLZ Auermühle"><strong>PLZ Auermühle</strong></a>|<a href="https://plzplz.de/PLZ_Badel/" title="PLZ Badel"><strong>PLZ Badel</strong></a>|<a href="https://plzplz.de/PLZ_Böhmzwiesel/" title="PLZ Böhmzwiesel"><strong>PLZ Böhmzwiesel</strong></a>|<a href="https://plzplz.de/PLZ_Breunsberg/" title="PLZ Breunsberg"><strong>PLZ Breunsberg</strong></a>|<a href="https://plzplz.de/PLZ_Dingolshausen/" title="PLZ Dingolshausen"><strong>PLZ Dingolshausen</strong></a>|<a href="https://plzplz.de/PLZ_Dittersbach_a._d._Eigen/" title="PLZ Dittersbach a. d. Eigen"><strong>PLZ Dittersbach a. d. Eigen</strong></a>|<a href="https://plzplz.de/PLZ_Dunkelhäuser/" title="PLZ Dunkelhäuser"><strong>PLZ Dunkelhäuser</strong></a>|<a href="https://plzplz.de/PLZ_Eidinghausen/" title="PLZ Eidinghausen"><strong>PLZ Eidinghausen</strong></a>|<a href="https://plzplz.de/PLZ_Emkendorf/" title="PLZ Emkendorf"><strong>PLZ Emkendorf</strong></a>|<a href="https://plzplz.de/PLZ_Gramkow/" title="PLZ Gramkow"><strong>PLZ Gramkow</strong></a>|<a href="https://plzplz.de/PLZ_Graupenmühle/" title="PLZ Graupenmühle"><strong>PLZ Graupenmühle</strong></a>|<a href="https://plzplz.de/PLZ_Großenvörde/" title="PLZ Großenvörde"><strong>PLZ Großenvörde</strong></a>|<a href="https://plzplz.de/PLZ_Großweier/" title="PLZ Großweier"><strong>PLZ Großweier</strong></a>|<a href="https://plzplz.de/PLZ_Gutmaning/" title="PLZ Gutmaning"><strong>PLZ Gutmaning</strong></a>|<a href="https://plzplz.de/PLZ_Hattersheim/" title="PLZ Hattersheim"><strong>PLZ Hattersheim</strong></a>|<a href="https://plzplz.de/PLZ_Haugenried/" title="PLZ Haugenried"><strong>PLZ Haugenried</strong></a>|<a href="https://plzplz.de/PLZ_Heerte/" title="PLZ Heerte"><strong>PLZ Heerte</strong></a>|<a href="https://plzplz.de/PLZ_Hopferstadt/" title="PLZ Hopferstadt"><strong>PLZ Hopferstadt</strong></a>|<a href="https://plzplz.de/PLZ_Kaibach/" title="PLZ Kaibach"><strong>PLZ Kaibach</strong></a>|<a href="https://plzplz.de/PLZ_Lindenhayn/" title="PLZ Lindenhayn"><strong>PLZ Lindenhayn</strong></a>|<a href="https://plzplz.de/PLZ_Ludwigsthal/" title="PLZ Ludwigsthal"><strong>PLZ Ludwigsthal</strong></a>|<a href="https://plzplz.de/PLZ_Lustberg/" title="PLZ Lustberg"><strong>PLZ Lustberg</strong></a>|<a href="https://plzplz.de/PLZ_Münchnerau/" title="PLZ Münchnerau"><strong>PLZ Münchnerau</strong></a>|<a href="https://plzplz.de/PLZ_Oberammergau/" title="PLZ Oberammergau"><strong>PLZ Oberammergau</strong></a>|<a href="https://plzplz.de/PLZ_Odach/" title="PLZ Odach"><strong>PLZ Odach</strong></a>|<a href="https://plzplz.de/PLZ_Pfreimd/" title="PLZ Pfreimd"><strong>PLZ Pfreimd</strong></a>|<a href="https://plzplz.de/PLZ_Plattenthal/" title="PLZ Plattenthal"><strong>PLZ Plattenthal</strong></a>|<a href="https://plzplz.de/PLZ_Riede/" title="PLZ Riede"><strong>PLZ Riede</strong></a>|<a href="https://plzplz.de/PLZ_Schönkamp/" title="PLZ Schönkamp"><strong>PLZ Schönkamp</strong></a>|<a href="https://plzplz.de/PLZ_Steinrausch/" title="PLZ Steinrausch"><strong>PLZ Steinrausch</strong></a>|<a href="https://plzplz.de/PLZ_Tannried/" title="PLZ Tannried"><strong>PLZ Tannried</strong></a>|<a href="https://plzplz.de/PLZ_Traisdorf/" title="PLZ Traisdorf"><strong>PLZ Traisdorf</strong></a>|<a href="https://plzplz.de/PLZ_Weilheim_i._OB/" title="PLZ Weilheim i. OB"><strong>PLZ Weilheim i. OB</strong></a>|<a href="https://plzplz.de/PLZ_Weitzschenhain/" title="PLZ Weitzschenhain"><strong>PLZ Weitzschenhain</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 14195</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Albrecht-Thaer-Weg/">Albrecht-Thaer-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Albrecht-Thaer-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Altensteinstraße/">Altensteinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Altensteinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichterfelde/">Lichterfelde</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Altensteinstraße/">Altensteinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Altensteinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Altkircher_Straße/">Altkircher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Altkircher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Am_Anger/">Am Anger</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Am_Anger/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Am_Erlenbusch/">Am Erlenbusch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Am_Erlenbusch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Am_Hirschsprung/">Am Hirschsprung</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Am_Hirschsprung/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Am_Petersberg/">Am Petersberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Am_Petersberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Am_Schülerheim/">Am Schülerheim</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Am_Schülerheim/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Amselstraße/">Amselstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Amselstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schmargendorf/">Schmargendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Amselstraße/">Amselstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Amselstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Archivstraße/">Archivstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Archivstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Arnimallee/">Arnimallee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Arnimallee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Auf_dem_Grat/">Auf dem Grat</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Auf_dem_Grat/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Bachstelzenweg/">Bachstelzenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Bachstelzenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Balbronner_Straße/">Balbronner Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Balbronner_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Bernadottestraße/">Bernadottestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Bernadottestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schmargendorf/">Schmargendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Bernadottestraße/">Bernadottestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Bernadottestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schmargendorf/">Schmargendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Bibersteig/">Bibersteig</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Bibersteig/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Bitscher_Straße/">Bitscher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Bitscher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Bitterstraße/">Bitterstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Bitterstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Boetticherstraße/">Boetticherstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Boetticherstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Boltzmannstraße/">Boltzmannstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Boltzmannstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Breisacher_Straße/">Breisacher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Breisacher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Breitenbachplatz/">Breitenbachplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Breitenbachplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Steglitz/">Steglitz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Breitenbachplatz/">Breitenbachplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Breitenbachplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wilmersdorf/">Wilmersdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Breitenbachplatz/">Breitenbachplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Breitenbachplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Brümmerstraße/">Brümmerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Brümmerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Buchsweilerstraße/">Buchsweilerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Buchsweilerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Bussardsteig/">Bussardsteig</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Bussardsteig/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Clayallee/">Clayallee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Clayallee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Corrensplatz/">Corrensplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Corrensplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Dohnenstieg/">Dohnenstieg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Dohnenstieg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Drosselweg/">Drosselweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Drosselweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Drygalskistraße/">Drygalskistraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Drygalskistraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schmargendorf/">Schmargendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Dünkelbergsteig/">Dünkelbergsteig</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Dünkelbergsteig/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Edwin-Redslob-Straße/">Edwin-Redslob-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Edwin-Redslob-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Ehrenbergstraße/">Ehrenbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Ehrenbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Englerallee/">Englerallee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Englerallee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Eppinger_Straße/">Eppinger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Eppinger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Fabeckstraße/">Fabeckstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Fabeckstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Falkenried/">Falkenried</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Falkenried/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Faradayweg/">Faradayweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Faradayweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Finkenstraße/">Finkenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Finkenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schmargendorf/">Schmargendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Fischottersteig/">Fischottersteig</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Fischottersteig/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Flanaganstraße/">Flanaganstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Flanaganstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Fliednerweg/">Fliednerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Fliednerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Fohlenweg/">Fohlenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Fohlenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Föhrenweg/">Föhrenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Föhrenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schmargendorf/">Schmargendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Frischlingsteig/">Frischlingsteig</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Frischlingsteig/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Fünf_Morgen/">Fünf Morgen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Fünf_Morgen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Gadebuscher_Weg/">Gadebuscher Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Gadebuscher_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Garystraße/">Garystraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Garystraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Gebweilerstraße/">Gebweilerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Gebweilerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Gelfertstraße/">Gelfertstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Gelfertstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schmargendorf/">Schmargendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Goldfinkweg/">Goldfinkweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Goldfinkweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Goßlerstraße/">Goßlerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Goßlerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Gregor-Mendel-Straße/">Gregor-Mendel-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Gregor-Mendel-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Gustav-Meyer-Straße/">Gustav-Meyer-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Gustav-Meyer-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Habelschwerdter_Allee/">Habelschwerdter Allee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Habelschwerdter_Allee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Harnackstraße/">Harnackstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Harnackstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Hechtgraben/">Hechtgraben</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Hechtgraben/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Heinrich-Stahl-Weg/">Heinrich-Stahl-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Heinrich-Stahl-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Hellriegelstraße/">Hellriegelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Hellriegelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schmargendorf/">Schmargendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Heydenstraße/">Heydenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Heydenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Hittorfstraße/">Hittorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Hittorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Hohe_Ähren/">Hohe Ähren</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Hohe_Ähren/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Hüninger_Straße/">Hüninger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Hüninger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Hüttenweg/">Hüttenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Hüttenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Ihnestraße/">Ihnestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Ihnestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Iltisstraße/">Iltisstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Iltisstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Im_Dol/">Im Dol</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Im_Dol/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Im_Gehege/">Im Gehege</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Im_Gehege/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Im_Schwarzen_Grund/">Im Schwarzen Grund</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Im_Schwarzen_Grund/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Im_Winkel/">Im Winkel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Im_Winkel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/In_der_Halde/">In der Halde</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/In_der_Halde/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Kaiserswerther_Straße/">Kaiserswerther Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Kaiserswerther_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Käuzchensteig/">Käuzchensteig</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Käuzchensteig/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Kehler_Weg/">Kehler Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Kehler_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Königin-Luise-Platz/">Königin-Luise-Platz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Königin-Luise-Platz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Königin-Luise-Straße/">Königin-Luise-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Königin-Luise-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Koserstraße/">Koserstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Koserstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Kuckucksweg/">Kuckucksweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Kuckucksweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Ladenbergstraße/">Ladenbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Ladenbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Landoltweg/">Landoltweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Landoltweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Lansstraße/">Lansstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Lansstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Leichhardtstraße/">Leichhardtstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Leichhardtstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Lentzeallee/">Lentzeallee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Lentzeallee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Liebensteinstraße/">Liebensteinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Liebensteinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Löhleinstraße/">Löhleinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Löhleinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schmargendorf/">Schmargendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Luchsweg/">Luchsweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Luchsweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Lützelsteiner_Weg/">Lützelsteiner Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Lützelsteiner_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Markircher_Weg/">Markircher Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Markircher_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Marshallstraße/">Marshallstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Marshallstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Max-Eyth-Straße/">Max-Eyth-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Max-Eyth-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Meisenstraße/">Meisenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Meisenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Messelstraße/">Messelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Messelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schmargendorf/">Schmargendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Messelstraße/">Messelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Messelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Milowstraße/">Milowstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Milowstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Miquelstraße/">Miquelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Miquelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Molsheimer_Straße/">Molsheimer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Molsheimer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Musäusstraße/">Musäusstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Musäusstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Nebinger_Straße/">Nebinger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Nebinger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Oskar-Helene-Park/">Oskar-Helene-Park</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Oskar-Helene-Park/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Otto-Appel-Straße/">Otto-Appel-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Otto-Appel-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Otto-von-Simson-Straße/">Otto-von-Simson-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Otto-von-Simson-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Pacelliallee/">Pacelliallee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Pacelliallee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Patschkauer_Weg/">Patschkauer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Patschkauer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichterfelde/">Lichterfelde</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Patschkauer_Weg/">Patschkauer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Patschkauer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Pechüler_Pfad/">Pechüler Pfad</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Pechüler_Pfad/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Peter-Lenne-Straße/">Peter-Lenne-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Peter-Lenne-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Podbielskiallee/">Podbielskiallee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Podbielskiallee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Pücklerstraße/">Pücklerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Pücklerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grunewald/">Grunewald</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Pücklerstraße/">Pücklerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Pücklerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schmargendorf/">Schmargendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Pücklerstraße/">Pücklerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Pücklerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schmargendorf/">Schmargendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Rehkitzsteig/">Rehkitzsteig</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Rehkitzsteig/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Reichensteiner_Weg/">Reichensteiner Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Reichensteiner_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lichterfelde/">Lichterfelde</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Reichensteiner_Weg/">Reichensteiner Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Reichensteiner_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Reichshofer_Straße/">Reichshofer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Reichshofer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Ripleystraße/">Ripleystraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Ripleystraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Rohlfsstraße/">Rohlfsstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Rohlfsstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Rudeloffweg/">Rudeloffweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Rudeloffweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Saargemünder_Straße/">Saargemünder Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Saargemünder_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Schorlemerallee/">Schorlemerallee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Schorlemerallee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Steglitz/">Steglitz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Schorlemerallee/">Schorlemerallee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Schorlemerallee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Schweinfurthstraße/">Schweinfurthstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Schweinfurthstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Schwendenerstraße/">Schwendenerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Schwendenerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Spechtstraße/">Spechtstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Spechtstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Spilstraße/">Spilstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Spilstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Starstraße/">Starstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Starstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Takustraße/">Takustraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Takustraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Taylorstraße/">Taylorstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Taylorstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Thanner_Pfad/">Thanner Pfad</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Thanner_Pfad/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Thielallee/">Thielallee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Thielallee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/U-Bhf_Breitenbachplatz/">U-Bhf Breitenbachplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/U-Bhf_Breitenbachplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/U-Bhf_Oskar-Helene-Heim/">U-Bhf Oskar-Helene-Heim</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/U-Bhf_Oskar-Helene-Heim/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/U-Bhf_Podbielskiallee/">U-Bhf Podbielskiallee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/U-Bhf_Podbielskiallee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/U-Bhf_Thielplatz/">U-Bhf Thielplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/U-Bhf_Thielplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Van't-Hoff-Straße/">Van't-Hoff-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Van't-Hoff-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Vogelsang/">Vogelsang</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Vogelsang/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Von-Laue-Straße/">Von-Laue-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Von-Laue-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Von-Wettstein-Straße/">Von-Wettstein-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Von-Wettstein-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Wachtelstraße/">Wachtelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Wachtelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dahlem/">Dahlem</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Wichernstraße/">Wichernstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Wichernstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schmargendorf/">Schmargendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Wildentensteig/">Wildentensteig</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_14195/">14195</a></td>
+<td><a href="https://plzplz.de/PLZ_Berlin/Wildentensteig/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.006 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

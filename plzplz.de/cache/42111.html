@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 42111 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="42111, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 42111 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 42111">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_42111/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 42111 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="42111" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Altenhofen/" title="PLZ Altenhofen"><strong>PLZ Altenhofen</strong></a>|<a href="https://plzplz.de/PLZ_Au_bei_Bad_Aibling/" title="PLZ Au bei Bad Aibling"><strong>PLZ Au bei Bad Aibling</strong></a>|<a href="https://plzplz.de/PLZ_Beffendorf/" title="PLZ Beffendorf"><strong>PLZ Beffendorf</strong></a>|<a href="https://plzplz.de/PLZ_Blasen/" title="PLZ Blasen"><strong>PLZ Blasen</strong></a>|<a href="https://plzplz.de/PLZ_Brietz/" title="PLZ Brietz"><strong>PLZ Brietz</strong></a>|<a href="https://plzplz.de/PLZ_Dirnöd/" title="PLZ Dirnöd"><strong>PLZ Dirnöd</strong></a>|<a href="https://plzplz.de/PLZ_Dorfchemnitz/" title="PLZ Dorfchemnitz"><strong>PLZ Dorfchemnitz</strong></a>|<a href="https://plzplz.de/PLZ_Fronlohe/" title="PLZ Fronlohe"><strong>PLZ Fronlohe</strong></a>|<a href="https://plzplz.de/PLZ_Grittel/" title="PLZ Grittel"><strong>PLZ Grittel</strong></a>|<a href="https://plzplz.de/PLZ_Groß_Nienhagen/" title="PLZ Groß Nienhagen"><strong>PLZ Groß Nienhagen</strong></a>|<a href="https://plzplz.de/PLZ_Gschlavers/" title="PLZ Gschlavers"><strong>PLZ Gschlavers</strong></a>|<a href="https://plzplz.de/PLZ_Habenhausen/" title="PLZ Habenhausen"><strong>PLZ Habenhausen</strong></a>|<a href="https://plzplz.de/PLZ_Hader/" title="PLZ Hader"><strong>PLZ Hader</strong></a>|<a href="https://plzplz.de/PLZ_Hainbücht/" title="PLZ Hainbücht"><strong>PLZ Hainbücht</strong></a>|<a href="https://plzplz.de/PLZ_Hammerbach/" title="PLZ Hammerbach"><strong>PLZ Hammerbach</strong></a>|<a href="https://plzplz.de/PLZ_Harzheim/" title="PLZ Harzheim"><strong>PLZ Harzheim</strong></a>|<a href="https://plzplz.de/PLZ_Hennersberg/" title="PLZ Hennersberg"><strong>PLZ Hennersberg</strong></a>|<a href="https://plzplz.de/PLZ_Hohenwinden/" title="PLZ Hohenwinden"><strong>PLZ Hohenwinden</strong></a>|<a href="https://plzplz.de/PLZ_Horheim/" title="PLZ Horheim"><strong>PLZ Horheim</strong></a>|<a href="https://plzplz.de/PLZ_Kirchhuchting/" title="PLZ Kirchhuchting"><strong>PLZ Kirchhuchting</strong></a>|<a href="https://plzplz.de/PLZ_Laasow/" title="PLZ Laasow"><strong>PLZ Laasow</strong></a>|<a href="https://plzplz.de/PLZ_Milchenbach/" title="PLZ Milchenbach"><strong>PLZ Milchenbach</strong></a>|<a href="https://plzplz.de/PLZ_Nassau/" title="PLZ Nassau"><strong>PLZ Nassau</strong></a>|<a href="https://plzplz.de/PLZ_Pirkern/" title="PLZ Pirkern"><strong>PLZ Pirkern</strong></a>|<a href="https://plzplz.de/PLZ_Ranetsham/" title="PLZ Ranetsham"><strong>PLZ Ranetsham</strong></a>|<a href="https://plzplz.de/PLZ_Salmbach/" title="PLZ Salmbach"><strong>PLZ Salmbach</strong></a>|<a href="https://plzplz.de/PLZ_Schaurach/" title="PLZ Schaurach"><strong>PLZ Schaurach</strong></a>|<a href="https://plzplz.de/PLZ_Schreiersgrün/" title="PLZ Schreiersgrün"><strong>PLZ Schreiersgrün</strong></a>|<a href="https://plzplz.de/PLZ_Schwarzenshof/" title="PLZ Schwarzenshof"><strong>PLZ Schwarzenshof</strong></a>|<a href="https://plzplz.de/PLZ_Sechtl/" title="PLZ Sechtl"><strong>PLZ Sechtl</strong></a>|<a href="https://plzplz.de/PLZ_Steinernkreuz/" title="PLZ Steinernkreuz"><strong>PLZ Steinernkreuz</strong></a>|<a href="https://plzplz.de/PLZ_Tschirn/" title="PLZ Tschirn"><strong>PLZ Tschirn</strong></a>|<a href="https://plzplz.de/PLZ_Veert/" title="PLZ Veert"><strong>PLZ Veert</strong></a>|<a href="https://plzplz.de/PLZ_Werenain/" title="PLZ Werenain"><strong>PLZ Werenain</strong></a>|<a href="https://plzplz.de/PLZ_Wullenstetten/" title="PLZ Wullenstetten"><strong>PLZ Wullenstetten</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 42111</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Alfred-Dobbert-Straße/">Alfred-Dobbert-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Alfred-Dobbert-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Alter_Triebel/">Alter Triebel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Alter_Triebel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Adamshäuschen/">Am Adamshäuschen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Adamshäuschen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Cleefchen/">Am Cleefchen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Cleefchen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Deckershäuschen/">Am Deckershäuschen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Deckershäuschen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Dönberg/">Am Dönberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Dönberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Eickhof/">Am Eickhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Eickhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Elisabethheim/">Am Elisabethheim</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Elisabethheim/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Flöthen/">Am Flöthen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Flöthen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Hammerkloth/">Am Hammerkloth</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Hammerkloth/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Handweiser/">Am Handweiser</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Handweiser/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Hitzhaus/">Am Hitzhaus</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Hitzhaus/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Hundsbusch/">Am Hundsbusch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Hundsbusch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Krieg/">Am Krieg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Krieg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Krüppershaus/">Am Krüppershaus</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Krüppershaus/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Langen_Bruch/">Am Langen Bruch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Langen_Bruch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Langensiepen/">Am Langensiepen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Langensiepen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Raukamp/">Am Raukamp</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Raukamp/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Sonnenhang/">Am Sonnenhang</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Sonnenhang/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Westerbusch/">Am Westerbusch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Westerbusch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Zuckerloch/">Am Zuckerloch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Zuckerloch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Ampferweg/">Ampferweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Ampferweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/An_der_Grenze/">An der Grenze</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/An_der_Grenze/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/An_der_Kirche/">An der Kirche</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/An_der_Kirche/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Aschenputtelweg/">Aschenputtelweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Aschenputtelweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Auf_dem_Stein/">Auf dem Stein</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Auf_dem_Stein/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Auf_der_Egge/">Auf der Egge</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Auf_der_Egge/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Barbarastraße/">Barbarastraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Barbarastraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Binsenweg/">Binsenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Binsenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Brink/">Brink</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Brink/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Cordulastraße/">Cordulastraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Cordulastraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Dönberger_Straße/">Dönberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Dönberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Dornröschenweg/">Dornröschenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Dornröschenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Efeuweg/">Efeuweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Efeuweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Eggenbruch/">Eggenbruch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Eggenbruch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Eibenweg/">Eibenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Eibenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Fettenberger_Weg/">Fettenberger Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Fettenberger_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Giselastraße/">Giselastraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Giselastraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Grünentalweg/">Grünentalweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Grünentalweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Gustav-Heinemann-Straße/">Gustav-Heinemann-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Gustav-Heinemann-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Hans-Böckler-Straße/">Hans-Böckler-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Hans-Böckler-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Hohenhagen/">Hohenhagen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Hohenhagen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Hohenholz/">Hohenholz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Hohenholz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Höhenstraße/">Höhenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Höhenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Holunderweg/">Holunderweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Holunderweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Horather_Straße/">Horather Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Horather_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Ibacher_Mühle/">Ibacher Mühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Ibacher_Mühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Ilexweg/">Ilexweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Ilexweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/In_der_Sonne/">In der Sonne</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/In_der_Sonne/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Jakob-Kaiser-Weg/">Jakob-Kaiser-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Jakob-Kaiser-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Kiebitzweg/">Kiebitzweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Kiebitzweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Kleiberweg/">Kleiberweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Kleiberweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Konrad-Adenauer-Straße/">Konrad-Adenauer-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Konrad-Adenauer-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Krähenberger_Weg/">Krähenberger Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Krähenberger_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Kranichweg/">Kranichweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Kranichweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Kurt-Schumacher-Straße/">Kurt-Schumacher-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Kurt-Schumacher-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Ligusterweg/">Ligusterweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Ligusterweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Lockfinke/">Lockfinke</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Lockfinke/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Magdalenenstraße/">Magdalenenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Magdalenenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Metzmachersrath/">Metzmachersrath</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Metzmachersrath/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Mutzberger_Weg/">Mutzberger Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Mutzberger_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Neuenbaumer_Weg/">Neuenbaumer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Neuenbaumer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Neuer_Triebel/">Neuer Triebel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Neuer_Triebel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Neuer_Weg/">Neuer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Neuer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Nevigeser_Straße/">Nevigeser Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Nevigeser_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Nordrather_Straße/">Nordrather Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Nordrather_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Obenrohleder/">Obenrohleder</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Obenrohleder/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Otto-Wels-Straße/">Otto-Wels-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Otto-Wels-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Prinzberger_Weg/">Prinzberger Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Prinzberger_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Rotdornweg/">Rotdornweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Rotdornweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Rotkäppchenweg/">Rotkäppchenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Rotkäppchenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Rübezahlweg/">Rübezahlweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Rübezahlweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Schanzenweg/">Schanzenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Schanzenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Schevenhofer_Weg/">Schevenhofer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Schevenhofer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Schevenssiepen/">Schevenssiepen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Schevenssiepen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Schneewittchenweg/">Schneewittchenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Schneewittchenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Schneis/">Schneis</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Schneis/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Schönefelder_Weg/">Schönefelder Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Schönefelder_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Siebeneicker_Straße/">Siebeneicker Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Siebeneicker_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Sonnenblume/">Sonnenblume</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Sonnenblume/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Sterntalerweg/">Sterntalerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Sterntalerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Stürmannsweg/">Stürmannsweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Stürmannsweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Triebelsheide/">Triebelsheide</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Triebelsheide/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Triebelsheider_Weg/">Triebelsheider Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Triebelsheider_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Uellendahler_Straße/">Uellendahler Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Uellendahler_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Untenrohleder/">Untenrohleder</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Untenrohleder/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Ursulastraße/">Ursulastraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Ursulastraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Vogelsbruch/">Vogelsbruch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Vogelsbruch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Waldstraße/">Waldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Waldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Webershaus/">Webershaus</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Webershaus/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Westfalenweg/">Westfalenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Westfalenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Winterberger_Weg/">Winterberger Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Winterberger_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Wolfsholz/">Wolfsholz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Wolfsholz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Wollbruchsmühle/">Wollbruchsmühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Wollbruchsmühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Woltersberg/">Woltersberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Woltersberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Worderberg/">Worderberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Worderberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Zedernweg/">Zedernweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Zedernweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Zum_Lohbusch/">Zum Lohbusch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Zum_Lohbusch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Zum_Steinenpitter/">Zum Steinenpitter</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Zum_Steinenpitter/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Elberfeld/">Elberfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Zur_Delle/">Zur Delle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42111/">42111</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Zur_Delle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.005 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

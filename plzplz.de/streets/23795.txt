@@ -1,0 +1,398 @@
+Am Apfelgarten
+Am Bienenhof
+Am Eichberg
+Am Gasberg
+Am Ihlsee
+Am Kalkberg
+Am Kurpark
+Am Landratspark
+Am Markt
+Am Wasserwerk
+Am Wege nach Stipsdorf
+Am Weinhof
+Am Wiesengrund
+Amselweg
+An den Fischteichen
+An der B 206
+An der Trave
+Anne-Frank-Weg
+Anny-Schröder-Weg
+Artur-Kraft-Straße
+Asternweg
+Bahnhofstraße
+Beethovenweg
+Beim Schützenhof
+Berliner Straße
+Birkenring
+Bismarckallee
+Bornweg
+Bornwischen
+Brahmsweg
+Bramstedter Landstraße
+Brandenburger Straße
+Breslauer Straße
+Bruchweg
+Burgfeldstraße
+Bussardweg
+Carl-Stämmler-Weg
+Christian-Rohlfs-Straße
+Christiansfelde
+Dahlienstraße
+David-Kropff-Weg
+Dorfstraße
+Dr.-Helmut-Lemke-Straße
+Drosselweg
+Efeustraße
+Eggershorst
+Eichkamp
+Erhard-Saager-Weg
+Esmarchstraße
+Eutiner Straße
+Falkenburger Straße
+Fehrsweg
+Feldstraße
+Fliederweg
+Fritz-Reuter-Weg
+Gänsekamp
+Gartenstraße
+Geschwister-Scholl-Straße
+Gieschenhagen
+Gieselkamp
+Ginsterweg
+Glindenberg
+Gorch-Fock-Straße
+Graf-Gerhard-Straße
+Große Seestraße
+Gustav-Frenssen-Weg
+Habichtshorst
+Hamburger Straße
+Hamdorfer Weg
+Havkamp
+Hebbelweg
+Heinrich-der-Löwe-Ring
+Heischkamp
+Hilda-Kühl-Weg
+Hindenburgstraße
+Holunderweg
+Jaguarring
+Jasminstraße
+Jean-Labowsky-Weg
+Julius-Leber-Straße
+Jürgensweg
+Kaiser-Lothar-Allee
+Kanaltwiete
+Karl-May-Platz
+Karl-Storch-Straße
+Kastanienweg
+Kattberg
+Keltingstraße
+Kiekut
+Kirchplatz
+Kirchstraße
+Klaus-Groth-Weg
+Klein Niendorfer Weg
+Kleine Seestraße
+Klosterkamp
+Königsberger Straße
+Konrad-Adenauer-Ring
+Krankenhausstraße
+Kreutzkamp
+Kuckucksbarg
+Kuhkamp
+Kühneweg
+Kurhausstraße
+Kurt-Schumacher-Ring
+Laward-Weg
+Leopardstraße
+Liliencronweg
+Lindenstraße
+Lindhofstraße
+Lohmühlenweg
+Lornsenstraße
+Lübecker Landstraße
+Lübecker Straße
+Ludwig-Levy-Straße
+Marderstieg
+Marienstraße
+Matthias-Claudius-Weg
+Mecklenburger Straße
+Meisenweg
+Moltkestraße
+Mozartweg
+Mühlenkamp
+Nelkenweg
+Neue Straße
+Neuer Platz
+Neuland
+Oberbergstraße
+Oldesloer Straße
+Ostlandstraße
+Ostpreußenstraße
+Otto-Flath-Straße
+Parkstraße
+Pommernstraße
+Rantzaustraße
+Redderblecken
+Riihimäkistraße
+Rosenstraße
+Rugenberg
+Schauenburger Weg
+Schillerstraße
+Schlangenredder
+Schlehenweg
+Schlesienstraße
+Schubertweg
+Schulkamp
+Schwalbenweg
+Seekoppel
+Segeberger Straße
+Seminarweg
+Sperberweg
+St. Jürgen
+Stauffenberg-Straße
+Steensbrook
+Steinkamp
+Tannenweg
+Tegelkoppel
+Teichstraße
+Teterower Straße
+Theodor-Heuss-Ring
+Theodor-Storm-Straße
+Thoms Koppel
+Thüringer Straße
+Timm-Kröger-Weg
+Tulpenweg
+Vogtkamp
+Wacholderstraße
+Waldemar-von-Mohl-Straße
+Waldweg
+Wankendorfer Weg
+Weichseldamm
+Weißdornstraße
+Wickelstraße
+Wilhelmshöh
+Winklersgang
+Wischhof
+Ziegelstraße
+Am Aigreplatz
+Bahnhofstraße
+Boomgarden
+Bornkamp
+Drosselgasse
+Eichkamp
+Fahrenkruger Ziegelei
+Grüner Weg
+Heideweg
+Kirchwegskamp
+Lüttkoppel
+Mariahöh
+Mayenhoog
+Meisterweg
+Moosberg
+Nienkamp
+Raiffeisenplatz
+Rosenweg
+Rotenhahn
+Sachkuhlskamp
+Schackendorfer Weg
+Schmiedeweg
+Segeberger Straße
+Stegelkaten
+Steinkamp
+Wahlstedter Straße
+Wittenborner Weg
+Zum Karpfenteich
+Am Bahnhof
+Am Kamp
+An der K 45
+Brookhof
+Dorfstraße
+Ernst-Holst-Straße
+Jitthorst
+Lindenweg
+Moorweg
+Schulstraße
+Segeberger Straße
+Stückenkoppel
+Theekoppel
+Travehof
+Waldweg
+Zur Trave
+Am Dorfplatz
+Bramstedter Chaussee
+Dorfstraße
+Fahrenkruger Straße
+Hühnerkamp
+Jägerberg
+Klosterhof
+Lehfenfelde
+Lütt Eck
+Ortsfelde
+Paulas Höh
+Schmiedeberg
+Seeweg
+Traveberg
+Alte Ziegelei
+Am Gieselteich
+Bullenredder
+Christianshof
+Gooskamp
+Hamann's Koppel
+Himphamp
+Neue Ziegelei
+Öber de Beek
+Ohlenburger Redder
+Oldesloer Straße
+Segeberger Straße
+Traventhaler Straße
+Wischhof
+Am Dorfplatz
+Am Plöner Eck
+An der Linde
+Birkenweg
+Bollmoor
+Bürgermeister-Würzbach-Allee
+Chausseebaum
+Diekkamp
+Eutiner Straße
+Flachswühren
+Gewerbegebiet Chausseebaum
+Heinrich-Lembrecht-Straße
+Huskoppelallee
+Kiesweg
+Klüthseehof
+Moorkoppel
+Mühlenweg
+Ohlenhoff
+Plesserstraße
+Plöner Straße
+Rahland
+Schulstraße
+Seekoppelring
+Seeweg
+St.-Georges-Allee
+Stipsdorfer Weg
+Thun'scher Weg
+Timmerbarg
+Tököl-Allee
+Ton Hus Rönnau
+Traveredder
+Wiesengrund
+Wilhelm-Kistenmacher-Straße
+An der B 432
+Beeck
+Dorfstraße
+Heist
+Kamp
+Sandbarg
+Twiete
+Wiesengrund
+Achterholzkamp
+Achtern Hoff
+Am Forst
+Am Sportplatz
+Am Voßberg
+Bowel
+Bredensegen
+Diekblök
+Dorfstraße
+Feldstraße
+Hamdorfer Dorfstraße
+Hamdorfer Weg
+Heidkaten
+Kamp
+Kiebitzholm
+Kieler Straße
+Lehmberg
+Lehwisch
+Maleksberg
+Meisenweg
+Negernböteler Straße
+Ostlandweg
+Rundling
+Rützenhagen
+Segeberger Straße
+Stüff
+Twiete
+Wiesenweg
+Altdorf
+Am Bornkamp
+Am Sportplatz
+Am Wanderweg
+An der A 21
+Bergstraße
+Birkenhof
+Birkenweg
+Dorfplatz
+Eichhorst
+Fahrenkruger Weg
+Hamdorfer Weg
+Hauptstraße
+Heidkoppelweg
+Im Winkel
+Lilienweg
+Neukoppel
+Twiete
+Waidmannsheil
+Wierensiek
+Wurth
+Zur Trave
+Alte Brücke
+Bißnitz
+Bockhorstweg
+Kuhlstücken
+Neuenteich
+Neuenteichweg
+Quaaler Straße
+Segeberger Straße
+Westerrader Straße
+Wischhof
+Woord
+Dorfstraße
+Fasanenweg
+Hammweg
+Heidberg
+Kampredder
+Kampweg
+Lerchenweg
+Lüttredder
+Müssenweg
+Waldweg
+Dorfstraße
+Krogredder
+Quaalerteich
+Rönnauer Weg
+Seeweg
+Segeberger Straße
+Alleekoppel
+Brookredder
+Dorfstraße
+Herrenmühle
+Hoheluft
+Landgestüt
+Lindenallee
+Schandule
+Schulberg
+Schweiz
+Siedlung
+Tegelbek
+Twiete
+Am Teich
+Fresenrühm
+Hofkoppel
+Lindenstraße
+Mielsdorfer Dorfstraße
+Mielsdorfer Straße
+Neuengörser Straße
+Rössra
+Scheidekrug
+Scheidekruger Straße
+Schierener Straße
+Segeberger Straße
+Siedlungsstraße
+Steinbeker Bahnhof
+Steinbeker Dorfstraße
+Steinbeker Ziegelei
+Stipsdorfer Straße
+Weeder Dorfstraße
+Willendorfer Weg

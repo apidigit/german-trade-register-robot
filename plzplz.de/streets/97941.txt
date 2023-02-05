@@ -1,0 +1,344 @@
+Abt-Brandt-Straße
+Adam-Ries-Straße
+Ahornstraße
+Albert-Einstein-Straße
+Albert-Schweitzer-Straße
+Alemannenweg
+Alte Steige
+Alte Wertheimer Straße
+Am Baumgarten
+Am Bild
+Am Brenner
+Am Brunnenrain
+Am Dittwarer Bahnhof
+Am Dorf
+Am Dörrlein
+Am Eichelberg
+Am Flur
+Am Fronbrunnen
+Am Hang
+Am Haubenlöchlein
+Am Heimbergsflur
+Am Höhberg
+Am Jüdlein
+Am Käpelle
+Am Kirschengarten
+Am Landeplatz
+Am Miltenstein
+Am Neuberg
+Am Pfarrweinberg
+Am Rain
+Am Rebhuhn
+Am Spielplatz
+Am Sprait
+Am Staaten
+Am Stadtschreiber
+Am Tiefen Weg
+Am Weiher
+Am Wiesenbach
+Am Wört
+Amtstraße
+An der Eisenbahn
+An der Friedrichshöhe
+An der Gänsstirne
+An der Lehmgrube
+An der Setz
+Anton-Schwan-Straße
+Armstraße
+Asternweg
+Bachgasse
+Badener Ring
+Badgasse
+Bahnhofstraße
+Barbarossaweg
+Baumgartenweg
+Bäumlein
+Beethovenstraße
+Bei der Kläranlage
+Beim Kindergarten
+Bergpfad
+Bergstraße
+Beundstraße
+Birkenweg
+Bleichstraße
+Blumenstraße
+Bödeleinsweg
+Bonifatiusstraße
+Brahmsweg
+Brehmbachstraße
+Brennerring
+Brentanoweg
+Brückenstraße
+Brunnengasse
+Bundesstraße
+Burgunderweg
+Burgweg
+Buscherstraße
+Clausingstraße
+Dahlienweg
+Daimlerstraße
+Dittigheimer Straße
+Dittigheimer Weg
+Dittwarer Straße
+Dr. Stöcker-Weg
+Dr.-Burger-Straße
+Dr.-Ulrich-Straße
+Duderstädter Allee
+Dürerstraße
+Eichendorffstraße
+Eichstraße
+Eiersheimer Weg
+Enge Gasse
+Eppstraße
+Erlenstraße
+Ernst-Bauer-Straße
+Falk-Müller-Straße
+Fichtenweg
+Fischergärten
+Fischgäßchen
+Fliederstraße
+Fliederweg
+Flürlein
+Flurstraße
+Franken-Passage
+Frankenweg
+Frauenstraße
+Friedhofstraße
+Friesenweg
+Frombergstraße
+Frühlingstraße
+Frühmeßgasse
+Ganter Campus
+Gartenstraße
+Gäßleinsgärten
+Gerbergasse
+Gissigheimer Straße
+Glashüttenweg
+Glockengraben
+Glockenweg
+Goethestraße
+Gotenweg
+Götzenberg
+Grabenweg
+Grasbergstraße
+Grünewaldstraße
+Grünsfelder Straße
+Gymnasiumstraße
+Hauptstraße
+Haydnweg
+Hebelweg
+Heckfelder Straße
+Heineweg
+Herbelweg
+Herderweg
+Herrenmühle
+Hintere Gasse
+Hintere Torstraße
+Hochhäuser Straße
+Hockergräberstraße
+Hof Steinbach
+Höhbergstraße
+Hohenstraße
+Hölderlinweg
+Im Gäßlein
+Im Grund
+Im Stickelgarten
+Impfinger Pfad
+Johannes-Kepler-Straße
+Johanneskreuzstraße
+Josef-Dürr-Straße
+Josef-Lang-Weg
+Julius-Berberich-Straße
+Julius-Echter-Straße
+Kachelstraße
+Kapellenstraße
+Kartäuser Ring
+Kasernenstraße
+Kastanienallee
+Keltenweg
+Kilianstraße
+Kirchenbergring
+Kirchgäßchen
+Kirchpfad
+Kirchplatz
+Kirchweg
+Klesbergstraße
+Klinge
+Klostergasse
+Kolpingstraße
+Königheimer Straße
+Königheimer Weg
+Krainer Weg
+Krautgartenweg
+Kreuzweg
+Külsheimer Straße
+Kurmainzring
+Kurze Gasse
+Kurze Steige
+La Roche-Weg
+Landstraße
+Lange Gasse
+Lange Steig
+Laurentiusbergstraße
+Laurentiusstraße
+Leintalblick
+Lerchenrain
+Lessingweg
+Lindenstraße
+Lindenweg
+Lortzingweg
+Ludwig-Mönch-Straße
+Lupinenweg
+Manggasse
+Marie-Curie-Straße
+Marktplatz
+Martinsgasse
+Mäuerlein
+Max-Planck-Straße
+Max-Strauß-Weg
+Mergentheimer Straße
+Merowingerstraße
+Mittbergweg
+Mittelort
+Mittlere Gasse
+Mittlere Sonnenhalde
+Mörikeweg
+Mozartweg
+Muckbachweg
+Mühlenwörth
+Mühlgasse
+Mühlrainstraße
+Museumsstraße
+Nelkenweg
+Nelly-Sachs-Weg
+Neubaugasse
+Neue Gasse
+Niels-Bohr-Straße
+Oberdorf
+Obere Beund
+Obere Gasse
+Obere Sonnenhalde
+Obere Torstraße
+Oberer Kirchberg
+Oldenburger Straße
+Parkblick
+Pestalozziallee
+Pfarrgasse
+Plan
+Raiffeisenweg
+Rammingerstraße
+Rathausplatz
+Rathausstraße
+Rentamtsgasse
+Richard-Trunk-Straße
+Riedernstraße
+Riemenschneiderstraße
+Rilkeweg
+Ringstraße
+Robert-Koch-Straße
+Rollenmühle
+Römerstraße
+Rosengasse
+Rosenstraße
+Ruhbankstraße
+Sachsenweg
+Schafweg
+Scheffelweg
+Schillerstraße
+Schirrmannweg
+Schlachtsteige
+Schlachtstraße
+Schloßplatz
+Schloßstraße
+Schloßweg
+Schmiedegasse
+Schmiederstraße
+Schneidemühle
+Schubertstraße
+Schulgasse
+Schulweg
+Schulzengasse
+Schürerweg
+Schützenweg
+Schwabenweg
+Seewiesenweg
+Siemensstraße
+Sonnenplatz
+Speerstraße
+Spitalweg
+St.-Lioba-Platz
+St.-Lioba-Straße
+Stadionweg
+Stammbergweg
+Stauferring
+Steige
+Steinbacherweg
+Steppersgasse
+Stifterstraße
+Stockgewann
+Stormweg
+Struwepfad
+Sudetenstraße
+Synagogengasse
+Talblick
+Talstraße
+Tannenbergstraße
+Tannenweg
+Taubenhausweg
+Tauberblick
+Tauberhell
+Tauberstraße
+Taubertalstraße
+Teicht
+Tiefengasse
+Torgartenstraße
+Torgartenweg
+Tulpenstraße
+Tulpenweg
+Uhlandweg
+Ulmenweg
+Unterdorf
+Untere Beund
+Untere Flurstraße
+Untere Gasse
+Untere Sonnenhalde
+Untere Torstraße
+Unterer Kirchberg
+Veit-Stoß-Straße
+Veitstraße
+Vitryallee
+Von-Faber-Straße
+Von-Ketteler-Weg
+Von-Rieneck-Straße
+Waldsteige
+Weickstraße
+Weidengärten
+Weinigstraße
+Wellenbergstraße
+Wertheimer Straße
+Wickental
+Wieselweg
+Wilhelm-Busch-Straße
+Wolfgangstraße
+Wolfstalflurstraße
+Wörtstraße
+Würzburger Straße
+Zähringerweg
+Zehntfreistraße
+Zehntgasse
+Zobelweg
+Zugelderstraße
+Zum Berg
+Zum Brünnle
+Zum Mühlkanal
+Zum Oberen Tor
+Zum Plan
+Zum Rohnberg
+Zum Schneekasten
+Zum Steinschmätzer
+Zum Stickelgarten
+Zum Wehrgarten
+Zur Altenau
+Zur Steige
+Zur Wanne
+Zwinger

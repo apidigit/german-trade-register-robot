@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 42277 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="42277, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 42277 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 42277">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_42277/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 42277 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="42277" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Bleidenrod/" title="PLZ Bleidenrod"><strong>PLZ Bleidenrod</strong></a>|<a href="https://plzplz.de/PLZ_Burgsdorf/" title="PLZ Burgsdorf"><strong>PLZ Burgsdorf</strong></a>|<a href="https://plzplz.de/PLZ_Emlinghausen/" title="PLZ Emlinghausen"><strong>PLZ Emlinghausen</strong></a>|<a href="https://plzplz.de/PLZ_Epfenhofen/" title="PLZ Epfenhofen"><strong>PLZ Epfenhofen</strong></a>|<a href="https://plzplz.de/PLZ_Gleismuthhausen/" title="PLZ Gleismuthhausen"><strong>PLZ Gleismuthhausen</strong></a>|<a href="https://plzplz.de/PLZ_Grafengehaig/" title="PLZ Grafengehaig"><strong>PLZ Grafengehaig</strong></a>|<a href="https://plzplz.de/PLZ_Groß_Liebitz/" title="PLZ Groß Liebitz"><strong>PLZ Groß Liebitz</strong></a>|<a href="https://plzplz.de/PLZ_Großmannshof/" title="PLZ Großmannshof"><strong>PLZ Großmannshof</strong></a>|<a href="https://plzplz.de/PLZ_Habelsee/" title="PLZ Habelsee"><strong>PLZ Habelsee</strong></a>|<a href="https://plzplz.de/PLZ_Höchstetten/" title="PLZ Höchstetten"><strong>PLZ Höchstetten</strong></a>|<a href="https://plzplz.de/PLZ_Holzgattern/" title="PLZ Holzgattern"><strong>PLZ Holzgattern</strong></a>|<a href="https://plzplz.de/PLZ_Illerich/" title="PLZ Illerich"><strong>PLZ Illerich</strong></a>|<a href="https://plzplz.de/PLZ_Immelstetten/" title="PLZ Immelstetten"><strong>PLZ Immelstetten</strong></a>|<a href="https://plzplz.de/PLZ_Indelhausen/" title="PLZ Indelhausen"><strong>PLZ Indelhausen</strong></a>|<a href="https://plzplz.de/PLZ_Katzenbach/" title="PLZ Katzenbach"><strong>PLZ Katzenbach</strong></a>|<a href="https://plzplz.de/PLZ_Kauerndorf/" title="PLZ Kauerndorf"><strong>PLZ Kauerndorf</strong></a>|<a href="https://plzplz.de/PLZ_Kesselsdorf/" title="PLZ Kesselsdorf"><strong>PLZ Kesselsdorf</strong></a>|<a href="https://plzplz.de/PLZ_Kleinau/" title="PLZ Kleinau"><strong>PLZ Kleinau</strong></a>|<a href="https://plzplz.de/PLZ_Kleinpienzenau/" title="PLZ Kleinpienzenau"><strong>PLZ Kleinpienzenau</strong></a>|<a href="https://plzplz.de/PLZ_Kleintroisdorf/" title="PLZ Kleintroisdorf"><strong>PLZ Kleintroisdorf</strong></a>|<a href="https://plzplz.de/PLZ_Kochermühle/" title="PLZ Kochermühle"><strong>PLZ Kochermühle</strong></a>|<a href="https://plzplz.de/PLZ_Kuhlhausen/" title="PLZ Kuhlhausen"><strong>PLZ Kuhlhausen</strong></a>|<a href="https://plzplz.de/PLZ_Lauschied/" title="PLZ Lauschied"><strong>PLZ Lauschied</strong></a>|<a href="https://plzplz.de/PLZ_Liebersberg/" title="PLZ Liebersberg"><strong>PLZ Liebersberg</strong></a>|<a href="https://plzplz.de/PLZ_Lissow-Bau/" title="PLZ Lissow-Bau"><strong>PLZ Lissow-Bau</strong></a>|<a href="https://plzplz.de/PLZ_Lüttewitz_bei_Döbeln/" title="PLZ Lüttewitz bei Döbeln"><strong>PLZ Lüttewitz bei Döbeln</strong></a>|<a href="https://plzplz.de/PLZ_Marienkirche/" title="PLZ Marienkirche"><strong>PLZ Marienkirche</strong></a>|<a href="https://plzplz.de/PLZ_Nannhofen/" title="PLZ Nannhofen"><strong>PLZ Nannhofen</strong></a>|<a href="https://plzplz.de/PLZ_Neetzka/" title="PLZ Neetzka"><strong>PLZ Neetzka</strong></a>|<a href="https://plzplz.de/PLZ_Rußbrenn/" title="PLZ Rußbrenn"><strong>PLZ Rußbrenn</strong></a>|<a href="https://plzplz.de/PLZ_Rütschenhausen/" title="PLZ Rütschenhausen"><strong>PLZ Rütschenhausen</strong></a>|<a href="https://plzplz.de/PLZ_Schrezheimer_Mühle/" title="PLZ Schrezheimer Mühle"><strong>PLZ Schrezheimer Mühle</strong></a>|<a href="https://plzplz.de/PLZ_Untergessenbach/" title="PLZ Untergessenbach"><strong>PLZ Untergessenbach</strong></a>|<a href="https://plzplz.de/PLZ_Vorderhaidhof/" title="PLZ Vorderhaidhof"><strong>PLZ Vorderhaidhof</strong></a>|<a href="https://plzplz.de/PLZ_Wildenhofen/" title="PLZ Wildenhofen"><strong>PLZ Wildenhofen</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 42277</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Allensteiner_Straße/">Allensteiner Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Allensteiner_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Alte_Straße/">Alte Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Alte_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Altenkotten/">Altenkotten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Altenkotten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Bilten/">Am Bilten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Bilten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Diek/">Am Diek</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Diek/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Eckstein/">Am Eckstein</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Am_Eckstein/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Andreas-Hofer-Straße/">Andreas-Hofer-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Andreas-Hofer-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Bahnhof_Oberbarmen/">Bahnhof Oberbarmen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Bahnhof_Oberbarmen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Bahnhof_Wichlinghausen/">Bahnhof Wichlinghausen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Bahnhof_Wichlinghausen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Bartholomäusstraße/">Bartholomäusstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Bartholomäusstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Beckacker_Schulstraße/">Beckacker Schulstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Beckacker_Schulstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Berliner_Platz/">Berliner Platz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Berliner_Platz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Berliner_Straße/">Berliner Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Berliner_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Beule/">Beule</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Beule/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Breslauer_Straße/">Breslauer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Breslauer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Clarenbachstraße/">Clarenbachstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Clarenbachstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Collenbuschstraße/">Collenbuschstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Collenbuschstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Dr.-Kurt-Herberts-Straße/">Dr.-Kurt-Herberts-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Dr.-Kurt-Herberts-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Eintrachtstraße/">Eintrachtstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Eintrachtstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Elbersstraße/">Elbersstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Elbersstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Eylauer_Straße/">Eylauer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Eylauer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Feldstraße/">Feldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Feldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Freiheitstraße/">Freiheitstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Freiheitstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Friedhofstraße/">Friedhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Friedhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Friedrich-Tillmanns-Straße/">Friedrich-Tillmanns-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Friedrich-Tillmanns-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Fürstenstraße/">Fürstenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Fürstenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Gennebrecker_Straße/">Gennebrecker Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Gennebrecker_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Germanenstraße/">Germanenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Germanenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Giesenberg/">Giesenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Giesenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Gildenstraße/">Gildenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Gildenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Görlitzer_Platz/">Görlitzer Platz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Görlitzer_Platz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Görlitzer_Straße/">Görlitzer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Görlitzer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Grafenstraße/">Grafenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Grafenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Gudrunstraße/">Gudrunstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Gudrunstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Hagener_Straße/">Hagener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Hagener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Handelstraße/">Handelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Handelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Heinrich-Böll-Straße/">Heinrich-Böll-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Heinrich-Böll-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Hermannstraße/">Hermannstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Hermannstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Hildburgstraße/">Hildburgstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Hildburgstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Hilgershöhe/">Hilgershöhe</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Hilgershöhe/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Höfen/">Höfen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Höfen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Hollmanns_Böschken/">Hollmanns Böschken</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Hollmanns_Böschken/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Hügelstraße/">Hügelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Hügelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Huldastraße/">Huldastraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Huldastraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Huttenstraße/">Huttenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Huttenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Insterburger_Straße/">Insterburger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Insterburger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Jungstraße/">Jungstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Jungstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Karl-Barth-Straße/">Karl-Barth-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Karl-Barth-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Karl-Otto-Dehnert-Straße/">Karl-Otto-Dehnert-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Karl-Otto-Dehnert-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Klaus-Brauda-Weg/">Klaus-Brauda-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Klaus-Brauda-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Königsberger_Straße/">Königsberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Königsberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Kopernikusstraße/">Kopernikusstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Kopernikusstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Kreuzstraße/">Kreuzstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Kreuzstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Krühbusch/">Krühbusch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Krühbusch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Kuckuckstraße/">Kuckuckstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Kuckuckstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Langobardenstraße/">Langobardenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Langobardenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Lentzestraße/">Lentzestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Lentzestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Liegnitzer_Straße/">Liegnitzer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Liegnitzer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Luhnsstraße/">Luhnsstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Luhnsstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Marienburger_Straße/">Marienburger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Marienburger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Markusstraße/">Markusstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Markusstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Matthäusstraße/">Matthäusstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Matthäusstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Max-Planck-Straße/">Max-Planck-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Max-Planck-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Müggenburg/">Müggenburg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Müggenburg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Münzstraße/">Münzstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Münzstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Neanderstraße/">Neanderstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Neanderstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Normannenstraße/">Normannenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Normannenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Nornenstraße/">Nornenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Nornenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Olgastraße/">Olgastraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Olgastraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Ortelsburger_Straße/">Ortelsburger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Ortelsburger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Osteroder_Straße/">Osteroder Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Osteroder_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Oststraße/">Oststraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Oststraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Pater-Pire-Weg/">Pater-Pire-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Pater-Pire-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Peter-Beier-Straße/">Peter-Beier-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Peter-Beier-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Rathenaustraße/">Rathenaustraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Rathenaustraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Rittershauser_Brücke/">Rittershauser Brücke</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Rittershauser_Brücke/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Rohrstraße/">Rohrstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Rohrstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Rosenau/">Rosenau</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Rosenau/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Samoastraße/">Samoastraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Samoastraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Schäferstraße/">Schäferstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Schäferstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Schimmelsburg/">Schimmelsburg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Schimmelsburg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Schöneberger_Ufer/">Schöneberger Ufer</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Schöneberger_Ufer/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Schülkestraße/">Schülkestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Schülkestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Schwarzbach/">Schwarzbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Schwarzbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Schwebebahnhof_Oberbarmen/">Schwebebahnhof Oberbarmen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Schwebebahnhof_Oberbarmen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Sodastraße/">Sodastraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Sodastraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Sonnabendstraße/">Sonnabendstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Sonnabendstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Sonnenstraße/">Sonnenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Sonnenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Steile_Straße/">Steile Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Steile_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Stollenstraße/">Stollenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Stollenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Teichstraße/">Teichstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Teichstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Tilsiter_Straße/">Tilsiter Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Tilsiter_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Togostraße/">Togostraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Togostraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Tütersburg/">Tütersburg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Tütersburg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Voigtstraße/">Voigtstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Voigtstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Vor_der_Beule/">Vor der Beule</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Vor_der_Beule/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Voswinckelstraße/">Voswinckelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Voswinckelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Weiherstraße/">Weiherstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Weiherstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Westkotter_Straße/">Westkotter Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Westkotter_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Wichlinghauser_Markt/">Wichlinghauser Markt</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Wichlinghauser_Markt/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Wichlinghauser_Schulstraße/">Wichlinghauser Schulstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Wichlinghauser_Schulstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Wichlinghauser_Straße/">Wichlinghauser Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Wichlinghauser_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Wiescher_Straße/">Wiescher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Wiescher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Windhukstraße/">Windhukstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Windhukstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Wittener_Straße/">Wittener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Wittener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Barmen/">Barmen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Zwergstraße/">Zwergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_42277/">42277</a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/Zwergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.006 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

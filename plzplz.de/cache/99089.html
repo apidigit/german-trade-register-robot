@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 99089 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="99089, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 99089 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 99089">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_99089/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 99089 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="99089" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Angerode/" title="PLZ Angerode"><strong>PLZ Angerode</strong></a>|<a href="https://plzplz.de/PLZ_Bad_Soden_am_Taunus/" title="PLZ Bad Soden am Taunus"><strong>PLZ Bad Soden am Taunus</strong></a>|<a href="https://plzplz.de/PLZ_Breite/" title="PLZ Breite"><strong>PLZ Breite</strong></a>|<a href="https://plzplz.de/PLZ_Brodersby-Goltoft/" title="PLZ Brodersby-Goltoft"><strong>PLZ Brodersby-Goltoft</strong></a>|<a href="https://plzplz.de/PLZ_Deimberg/" title="PLZ Deimberg"><strong>PLZ Deimberg</strong></a>|<a href="https://plzplz.de/PLZ_Dörpling/" title="PLZ Dörpling"><strong>PLZ Dörpling</strong></a>|<a href="https://plzplz.de/PLZ_Ebenschwand/" title="PLZ Ebenschwand"><strong>PLZ Ebenschwand</strong></a>|<a href="https://plzplz.de/PLZ_Etterzhausen/" title="PLZ Etterzhausen"><strong>PLZ Etterzhausen</strong></a>|<a href="https://plzplz.de/PLZ_Filzen/" title="PLZ Filzen"><strong>PLZ Filzen</strong></a>|<a href="https://plzplz.de/PLZ_Fürstenwald/" title="PLZ Fürstenwald"><strong>PLZ Fürstenwald</strong></a>|<a href="https://plzplz.de/PLZ_Gehering/" title="PLZ Gehering"><strong>PLZ Gehering</strong></a>|<a href="https://plzplz.de/PLZ_Geislitz/" title="PLZ Geislitz"><strong>PLZ Geislitz</strong></a>|<a href="https://plzplz.de/PLZ_Inzmühlen/" title="PLZ Inzmühlen"><strong>PLZ Inzmühlen</strong></a>|<a href="https://plzplz.de/PLZ_Istein/" title="PLZ Istein"><strong>PLZ Istein</strong></a>|<a href="https://plzplz.de/PLZ_Klein_Viegeln/" title="PLZ Klein Viegeln"><strong>PLZ Klein Viegeln</strong></a>|<a href="https://plzplz.de/PLZ_Ledern/" title="PLZ Ledern"><strong>PLZ Ledern</strong></a>|<a href="https://plzplz.de/PLZ_Malkes/" title="PLZ Malkes"><strong>PLZ Malkes</strong></a>|<a href="https://plzplz.de/PLZ_Neuköslarn/" title="PLZ Neuköslarn"><strong>PLZ Neuköslarn</strong></a>|<a href="https://plzplz.de/PLZ_Niedertunding/" title="PLZ Niedertunding"><strong>PLZ Niedertunding</strong></a>|<a href="https://plzplz.de/PLZ_Oberahorn/" title="PLZ Oberahorn"><strong>PLZ Oberahorn</strong></a>|<a href="https://plzplz.de/PLZ_Oberbaumgarten/" title="PLZ Oberbaumgarten"><strong>PLZ Oberbaumgarten</strong></a>|<a href="https://plzplz.de/PLZ_Obernesselbach/" title="PLZ Obernesselbach"><strong>PLZ Obernesselbach</strong></a>|<a href="https://plzplz.de/PLZ_Pohla/" title="PLZ Pohla"><strong>PLZ Pohla</strong></a>|<a href="https://plzplz.de/PLZ_Prem/" title="PLZ Prem"><strong>PLZ Prem</strong></a>|<a href="https://plzplz.de/PLZ_Reetzerhütten/" title="PLZ Reetzerhütten"><strong>PLZ Reetzerhütten</strong></a>|<a href="https://plzplz.de/PLZ_Rhaude/" title="PLZ Rhaude"><strong>PLZ Rhaude</strong></a>|<a href="https://plzplz.de/PLZ_Saalsdorf/" title="PLZ Saalsdorf"><strong>PLZ Saalsdorf</strong></a>|<a href="https://plzplz.de/PLZ_Schafhausermühle/" title="PLZ Schafhausermühle"><strong>PLZ Schafhausermühle</strong></a>|<a href="https://plzplz.de/PLZ_Schausende/" title="PLZ Schausende"><strong>PLZ Schausende</strong></a>|<a href="https://plzplz.de/PLZ_Stätzling/" title="PLZ Stätzling"><strong>PLZ Stätzling</strong></a>|<a href="https://plzplz.de/PLZ_Veitsteinbach/" title="PLZ Veitsteinbach"><strong>PLZ Veitsteinbach</strong></a>|<a href="https://plzplz.de/PLZ_Vogelbrunn/" title="PLZ Vogelbrunn"><strong>PLZ Vogelbrunn</strong></a>|<a href="https://plzplz.de/PLZ_Wiesmoor/" title="PLZ Wiesmoor"><strong>PLZ Wiesmoor</strong></a>|<a href="https://plzplz.de/PLZ_Wollmerschied/" title="PLZ Wollmerschied"><strong>PLZ Wollmerschied</strong></a>|<a href="https://plzplz.de/PLZ_Wulsbüttel/" title="PLZ Wulsbüttel"><strong>PLZ Wulsbüttel</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 99089</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Adalberthof/">Adalberthof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Adalberthof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Adalbertstraße/">Adalbertstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Adalbertstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Albrechtstraße/">Albrechtstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Albrechtstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Alfred-Weber-Platz/">Alfred-Weber-Platz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Alfred-Weber-Platz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ilversgehofen/">Ilversgehofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Am_Gelben_Gut/">Am Gelben Gut</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Am_Gelben_Gut/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ilversgehofen/">Ilversgehofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Am_Salpeterberg/">Am Salpeterberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Am_Salpeterberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ilversgehofen/">Ilversgehofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Am_Studentenrasen/">Am Studentenrasen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Am_Studentenrasen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rieth/">Rieth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Am_Wiesengrunde/">Am Wiesengrunde</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Am_Wiesengrunde/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Amploniusweg/">Amploniusweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Amploniusweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/An_der_Auenschanze/">An der Auenschanze</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/An_der_Auenschanze/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/An_der_Parkharfe/">An der Parkharfe</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/An_der_Parkharfe/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Andreas-Gordon-Straße/">Andreas-Gordon-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Andreas-Gordon-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Annemarie-Schimmel-Straße/">Annemarie-Schimmel-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Annemarie-Schimmel-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Auenstraße/">Auenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Auenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/August-Schleicher-Straße/">August-Schleicher-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/August-Schleicher-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Baumerstraße/">Baumerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Baumerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Bergstraße/">Bergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Bergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Birkenweg/">Birkenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Birkenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ilversgehofen/">Ilversgehofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Bleichenstraße/">Bleichenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Bleichenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ilversgehofen/">Ilversgehofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Bogenstraße/">Bogenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Bogenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Boyneburgufer/">Boyneburgufer</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Boyneburgufer/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ilversgehofen/">Ilversgehofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Braunstraße/">Braunstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Braunstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ilversgehofen/">Ilversgehofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Dachsgrund/">Dachsgrund</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Dachsgrund/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Donaustraße/">Donaustraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Donaustraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ilversgehofen/">Ilversgehofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Eichhornweg/">Eichhornweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Eichhornweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Elbestraße/">Elbestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Elbestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Erhard-Etzlaub-Straße/">Erhard-Etzlaub-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Erhard-Etzlaub-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rieth/">Rieth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Essener_Straße/">Essener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Essener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ilversgehofen/">Ilversgehofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Falkenried/">Falkenried</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Falkenried/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ilversgehofen/">Ilversgehofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Fasanenweg/">Fasanenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Fasanenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ilversgehofen/">Ilversgehofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Filßstraße/">Filßstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Filßstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ilversgehofen/">Ilversgehofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Fuchsgrund/">Fuchsgrund</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Fuchsgrund/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Gerberstraße/">Gerberstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Gerberstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ilversgehofen/">Ilversgehofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Gisperslebener_Straße/">Gisperslebener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Gisperslebener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rieth/">Rieth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Györer_Straße/">Györer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Györer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ilversgehofen/">Ilversgehofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Hans-Sailer-Straße/">Hans-Sailer-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Hans-Sailer-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ilversgehofen/">Ilversgehofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Hasenwende/">Hasenwende</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Hasenwende/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Heinrich-Hübschmann-Ring/">Heinrich-Hübschmann-Ring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Heinrich-Hübschmann-Ring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Hieronymus-Schröter-Straße/">Hieronymus-Schröter-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Hieronymus-Schröter-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Hinter_der_Rennbahn/">Hinter der Rennbahn</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Hinter_der_Rennbahn/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ilversgehofen/">Ilversgehofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Hühnerbalz/">Hühnerbalz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Hühnerbalz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Im_Nordpark/">Im Nordpark</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Im_Nordpark/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ilversgehofen/">Ilversgehofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Im_Tiergarten/">Im Tiergarten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Im_Tiergarten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Jacob-Planer-Straße/">Jacob-Planer-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Jacob-Planer-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Joachim-Bellermann-Straße/">Joachim-Bellermann-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Joachim-Bellermann-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Johannes-Hartmann-Straße/">Johannes-Hartmann-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Johannes-Hartmann-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Justus-Jonas-Straße/">Justus-Jonas-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Justus-Jonas-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Karl-Florenz-Straße/">Karl-Florenz-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Karl-Florenz-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Karlstraße/">Karlstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Karlstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rieth/">Rieth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Kasseler_Straße/">Kasseler Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Kasseler_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ilversgehofen/">Ilversgehofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Kolpingstraße/">Kolpingstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Kolpingstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ilversgehofen/">Ilversgehofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Krähenweg/">Krähenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Krähenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Leopoldstraße/">Leopoldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Leopoldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ilversgehofen/">Ilversgehofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Lerchenweg/">Lerchenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Lerchenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rieth/">Rieth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Lowetscher_Straße/">Lowetscher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Lowetscher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Ludwig-Mollner-Straße/">Ludwig-Mollner-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Ludwig-Mollner-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ilversgehofen/">Ilversgehofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Mahlmühlenweg/">Mahlmühlenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Mahlmühlenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rieth/">Rieth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Mainzer_Straße/">Mainzer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Mainzer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Marie-Elise-Kayser-Straße/">Marie-Elise-Kayser-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Marie-Elise-Kayser-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Martin-Buber-Straße/">Martin-Buber-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Martin-Buber-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Mathes-Maler-Straße/">Mathes-Maler-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Mathes-Maler-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Max-Weber-Allee/">Max-Weber-Allee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Max-Weber-Allee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ilversgehofen/">Ilversgehofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Mittelhäuser_Straße/">Mittelhäuser Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Mittelhäuser_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rieth/">Rieth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Mittelhäuser_Straße/">Mittelhäuser Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Mittelhäuser_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Mittelstraße/">Mittelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Mittelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Moritzwallstraße/">Moritzwallstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Moritzwallstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Nettelbeckufer/">Nettelbeckufer</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Nettelbeckufer/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ilversgehofen/">Ilversgehofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Nettelbeckufer/">Nettelbeckufer</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Nettelbeckufer/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Nikolaus-Marschalk-Straße/">Nikolaus-Marschalk-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Nikolaus-Marschalk-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ilversgehofen/">Ilversgehofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Nikolausstraße/">Nikolausstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Nikolausstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Nordhäuser_Straße/">Nordhäuser Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Nordhäuser_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Nordstraße/">Nordstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Nordstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Oskarstraße/">Oskarstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Oskarstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Papiermühlenweg/">Papiermühlenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Papiermühlenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rieth/">Rieth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Platz_der_Völkerfreundschaft/">Platz der Völkerfreundschaft</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Platz_der_Völkerfreundschaft/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Plauener_Weg/">Plauener Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Plauener_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ilversgehofen/">Ilversgehofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Rehleite/">Rehleite</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Rehleite/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ilversgehofen/">Ilversgehofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Reiherweg/">Reiherweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Reiherweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rieth/">Rieth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Riethstraße/">Riethstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Riethstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Ritschlstraße/">Ritschlstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Ritschlstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altstadt/">Altstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Rosa-Luxemburg-Platz/">Rosa-Luxemburg-Platz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Rosa-Luxemburg-Platz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Rotdornweg/">Rotdornweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Rotdornweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Saalestraße/">Saalestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Saalestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ilversgehofen/">Ilversgehofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Salinenstraße/">Salinenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Salinenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Schinkelstraße/">Schinkelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Schinkelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Schlüterstraße/">Schlüterstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Schlüterstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Schobersmühlenweg/">Schobersmühlenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Schobersmühlenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ilversgehofen/">Ilversgehofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Schwalbenweg/">Schwalbenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Schwalbenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Schweriner_Straße/">Schweriner Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Schweriner_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ilversgehofen/">Ilversgehofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Sperlingsweg/">Sperlingsweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Sperlingsweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ilversgehofen/">Ilversgehofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Spittelgartenstraße/">Spittelgartenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Spittelgartenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Storchmühlenweg/">Storchmühlenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Storchmühlenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Talstraße/">Talstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Talstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ilversgehofen/">Ilversgehofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Tiergartenstraße/">Tiergartenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Tiergartenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Treppenstraße/">Treppenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Treppenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rieth/">Rieth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Vilniuser_Straße/">Vilniuser Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Vilniuser_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Vogelbeerweg/">Vogelbeerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Vogelbeerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Von-der-Gabelentz-Straße/">Von-der-Gabelentz-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Von-der-Gabelentz-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Waidmühlenweg/">Waidmühlenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Waidmühlenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Waldemarstraße/">Waldemarstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Waldemarstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Berliner_Platz/">Berliner Platz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Warschauer_Straße/">Warschauer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Warschauer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ilversgehofen/">Ilversgehofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Wendenstraße/">Wendenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Wendenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ilversgehofen/">Ilversgehofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Wermutmühlenweg/">Wermutmühlenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Wermutmühlenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Andreasvorstadt/">Andreasvorstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Wolfgang-Ratke-Straße/">Wolfgang-Ratke-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Wolfgang-Ratke-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ilversgehofen/">Ilversgehofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Ziegensteig/">Ziegensteig</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99089/">99089</a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/Ziegensteig/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.005 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

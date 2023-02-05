@@ -1,0 +1,1799 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 93326 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="93326, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 93326 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 93326">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_93326/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 93326 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="93326" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Absberg/" title="PLZ Absberg"><strong>PLZ Absberg</strong></a>|<a href="https://plzplz.de/PLZ_Bad_Kreuznach/" title="PLZ Bad Kreuznach"><strong>PLZ Bad Kreuznach</strong></a>|<a href="https://plzplz.de/PLZ_Baisingen/" title="PLZ Baisingen"><strong>PLZ Baisingen</strong></a>|<a href="https://plzplz.de/PLZ_Berchtolding/" title="PLZ Berchtolding"><strong>PLZ Berchtolding</strong></a>|<a href="https://plzplz.de/PLZ_Blankenhöfe/" title="PLZ Blankenhöfe"><strong>PLZ Blankenhöfe</strong></a>|<a href="https://plzplz.de/PLZ_Breitenbuch/" title="PLZ Breitenbuch"><strong>PLZ Breitenbuch</strong></a>|<a href="https://plzplz.de/PLZ_Fellner/" title="PLZ Fellner"><strong>PLZ Fellner</strong></a>|<a href="https://plzplz.de/PLZ_Graßau/" title="PLZ Graßau"><strong>PLZ Graßau</strong></a>|<a href="https://plzplz.de/PLZ_Großolbersdorf/" title="PLZ Großolbersdorf"><strong>PLZ Großolbersdorf</strong></a>|<a href="https://plzplz.de/PLZ_Hamersleben/" title="PLZ Hamersleben"><strong>PLZ Hamersleben</strong></a>|<a href="https://plzplz.de/PLZ_Hauswurz/" title="PLZ Hauswurz"><strong>PLZ Hauswurz</strong></a>|<a href="https://plzplz.de/PLZ_Hedendorf/" title="PLZ Hedendorf"><strong>PLZ Hedendorf</strong></a>|<a href="https://plzplz.de/PLZ_Hilpertsried/" title="PLZ Hilpertsried"><strong>PLZ Hilpertsried</strong></a>|<a href="https://plzplz.de/PLZ_Irl/" title="PLZ Irl"><strong>PLZ Irl</strong></a>|<a href="https://plzplz.de/PLZ_Keinberg/" title="PLZ Keinberg"><strong>PLZ Keinberg</strong></a>|<a href="https://plzplz.de/PLZ_Kirchbierlingen/" title="PLZ Kirchbierlingen"><strong>PLZ Kirchbierlingen</strong></a>|<a href="https://plzplz.de/PLZ_Kraksdorf-Strand/" title="PLZ Kraksdorf-Strand"><strong>PLZ Kraksdorf-Strand</strong></a>|<a href="https://plzplz.de/PLZ_Lorchhausen/" title="PLZ Lorchhausen"><strong>PLZ Lorchhausen</strong></a>|<a href="https://plzplz.de/PLZ_Menchau/" title="PLZ Menchau"><strong>PLZ Menchau</strong></a>|<a href="https://plzplz.de/PLZ_Niederdielfen/" title="PLZ Niederdielfen"><strong>PLZ Niederdielfen</strong></a>|<a href="https://plzplz.de/PLZ_Oberelend/" title="PLZ Oberelend"><strong>PLZ Oberelend</strong></a>|<a href="https://plzplz.de/PLZ_Pilstl/" title="PLZ Pilstl"><strong>PLZ Pilstl</strong></a>|<a href="https://plzplz.de/PLZ_Plossig/" title="PLZ Plossig"><strong>PLZ Plossig</strong></a>|<a href="https://plzplz.de/PLZ_Reichelshof/" title="PLZ Reichelshof"><strong>PLZ Reichelshof</strong></a>|<a href="https://plzplz.de/PLZ_Ringfurth/" title="PLZ Ringfurth"><strong>PLZ Ringfurth</strong></a>|<a href="https://plzplz.de/PLZ_Ringofen/" title="PLZ Ringofen"><strong>PLZ Ringofen</strong></a>|<a href="https://plzplz.de/PLZ_Rohda_am_Haarberg/" title="PLZ Rohda am Haarberg"><strong>PLZ Rohda am Haarberg</strong></a>|<a href="https://plzplz.de/PLZ_Schmithof/" title="PLZ Schmithof"><strong>PLZ Schmithof</strong></a>|<a href="https://plzplz.de/PLZ_Schrotsdorf/" title="PLZ Schrotsdorf"><strong>PLZ Schrotsdorf</strong></a>|<a href="https://plzplz.de/PLZ_Starbach/" title="PLZ Starbach"><strong>PLZ Starbach</strong></a>|<a href="https://plzplz.de/PLZ_Stieglreuth/" title="PLZ Stieglreuth"><strong>PLZ Stieglreuth</strong></a>|<a href="https://plzplz.de/PLZ_Volkrading/" title="PLZ Volkrading"><strong>PLZ Volkrading</strong></a>|<a href="https://plzplz.de/PLZ_Webams/" title="PLZ Webams"><strong>PLZ Webams</strong></a>|<a href="https://plzplz.de/PLZ_Wichlinghofen/" title="PLZ Wichlinghofen"><strong>PLZ Wichlinghofen</strong></a>|<a href="https://plzplz.de/PLZ_Wunstorf/" title="PLZ Wunstorf"><strong>PLZ Wunstorf</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 93326</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sandharlanden/">Sandharlanden</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Abensberger_Straße/">Abensberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Abensberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Holzharlanden/">Holzharlanden</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Abensberger_Weg/">Abensberger Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Abensberger_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Abensstraße/">Abensstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Abensstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Adalbert-Stifter-Straße/">Adalbert-Stifter-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Adalbert-Stifter-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Adlerstraße/">Adlerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Adlerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Adolf-Kolping-Platz/">Adolf-Kolping-Platz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Adolf-Kolping-Platz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Adolf-von-Braunmühl-Straße/">Adolf-von-Braunmühl-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Adolf-von-Braunmühl-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Ahornweg/">Ahornweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Ahornweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Alfons-Listl-Straße/">Alfons-Listl-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Alfons-Listl-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sandharlanden/">Sandharlanden</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Alleestraße/">Alleestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Alleestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Allersdorf/">Allersdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Allersdorf/">Allersdorf</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Allersdorf/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Allersdorfer_Weg/">Allersdorfer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Allersdorfer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Allingerweg/">Allingerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Allingerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Alte_Hopfenstraße/">Alte Hopfenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Alte_Hopfenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schwaighausen/">Schwaighausen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Alte_Schlosserei/">Alte Schlosserei</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Alte_Schlosserei/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sandharlanden/">Sandharlanden</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Anger/">Am Anger</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Anger/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Bahndamm/">Am Bahndamm</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Bahndamm/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Birket/">Am Birket</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Birket/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Degelfeld/">Am Degelfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Degelfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Holzharlanden/">Holzharlanden</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Eichenbuckel/">Am Eichenbuckel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Eichenbuckel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Arnhofen/">Arnhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Fürst/">Am Fürst</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Fürst/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Galgenberg/">Am Galgenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Galgenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Grauen_Felsen/">Am Grauen Felsen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Grauen_Felsen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sandharlanden/">Sandharlanden</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Hang/">Am Hang</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Hang/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sandharlanden/">Sandharlanden</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Herrenberg/">Am Herrenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Herrenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Arnhofen/">Arnhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Linderfeld/">Am Linderfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Linderfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Schlott/">Am Schlott</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Schlott/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Schmiedweiher/">Am Schmiedweiher</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Schmiedweiher/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Seeacker/">Am Seeacker</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Seeacker/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Sommerkeller/">Am Sommerkeller</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Sommerkeller/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pullach/">Pullach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Spielplatz/">Am Spielplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Spielplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Sportplatz/">Am Sportplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Sportplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Stadtgraben/">Am Stadtgraben</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Stadtgraben/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Straßfeld/">Am Straßfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Straßfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Wasserwerk/">Am Wasserwerk</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Wasserwerk/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Holzharlanden/">Holzharlanden</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Weiher/">Am Weiher</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Am_Weiher/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/An_den_Sandwellen/">An den Sandwellen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/An_den_Sandwellen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Arnhofen/">Arnhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/An_der_Bergstraße/">An der Bergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/An_der_Bergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/An_der_Keltenschanze/">An der Keltenschanze</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/An_der_Keltenschanze/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/An_der_Linde/">An der Linde</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/An_der_Linde/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Anton-Günther-Straße/">Anton-Günther-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Anton-Günther-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Arnhofen/">Arnhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Arnhelmstraße/">Arnhelmstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Arnhelmstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Arnhofen/">Arnhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Arnhofen/">Arnhofen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Arnhofen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Arnhofener_Weg/">Arnhofener Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Arnhofener_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Arnhofen/">Arnhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Arnostraße/">Arnostraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Arnostraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Aschenbrennerstraße/">Aschenbrennerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Aschenbrennerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Asternstraße/">Asternstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Asternstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Auerhahnweg/">Auerhahnweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Auerhahnweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Auf_dem_Judenbuckel/">Auf dem Judenbuckel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Auf_dem_Judenbuckel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Auf_dem_Weinberg/">Auf dem Weinberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Auf_dem_Weinberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Aumühle/">Aumühle</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Aumühle/">Aumühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Aumühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Aumühlstraße/">Aumühlstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Aumühlstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Aunkofener_Siedlung/">Aunkofener Siedlung</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Aunkofener_Siedlung/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Aunkofener_Straße/">Aunkofener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Aunkofener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Aventinusplatz/">Aventinusplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Aventinusplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Babostraße/">Babostraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Babostraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Bacchusweg/">Bacchusweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Bacchusweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Bad_Gögginger_Weg/">Bad Gögginger Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Bad_Gögginger_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Baderstraße/">Baderstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Baderstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Badhausstraße/">Badhausstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Badhausstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Bahnhofstraße/">Bahnhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Bahnhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Arnhofen/">Arnhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Bahnweg/">Bahnweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Bahnweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Barbaraplatz/">Barbaraplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Barbaraplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Arnhofen/">Arnhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Baumschulweg/">Baumschulweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Baumschulweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sandharlanden/">Sandharlanden</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Bergstraße/">Bergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Bergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Birkenstraße/">Birkenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Birkenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Birkhahnweg/">Birkhahnweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Birkhahnweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Blumenstraße/">Blumenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Blumenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Arnhofen/">Arnhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Brünnlweg/">Brünnlweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Brünnlweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Buchenstraße/">Buchenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Buchenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Buchhof/">Buchhof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Buchhof/">Buchhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Buchhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Burgunderweg/">Burgunderweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Burgunderweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Cabriniheim/">Cabriniheim</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Cabriniheim/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Dahlienstraße/">Dahlienstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Dahlienstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Degenhardstraße/">Degenhardstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Degenhardstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schwaighausen/">Schwaighausen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Deisenhofener_Weg/">Deisenhofener Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Deisenhofener_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Dollingerstraße/">Dollingerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Dollingerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pullach/">Pullach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Dorfstraße/">Dorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Dorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Dreifaltigkeitsweg/">Dreifaltigkeitsweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Dreifaltigkeitsweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Dünenweg/">Dünenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Dünenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Edelhardgasse/">Edelhardgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Edelhardgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Eibenweg/">Eibenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Eibenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Eichendorffstraße/">Eichendorffstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Eichendorffstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pullach/">Pullach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Eichenstraße/">Eichenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Eichenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Eisenmeierstraße/">Eisenmeierstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Eisenmeierstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Elsterweg/">Elsterweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Elsterweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Erikaweg/">Erikaweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Erikaweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Eschenstraße/">Eschenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Eschenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Eulenstraße/">Eulenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Eulenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Falkenstraße/">Falkenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Falkenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Fasanenstraße/">Fasanenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Fasanenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Fichtenweg/">Fichtenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Fichtenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Fliederweg/">Fliederweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Fliederweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sandharlanden/">Sandharlanden</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Flurweg/">Flurweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Flurweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Frankstraße/">Frankstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Frankstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Freibadweg/">Freibadweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Freibadweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Friedhofweg/">Friedhofweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Friedhofweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sandharlanden/">Sandharlanden</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Friedstraße/">Friedstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Friedstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Frönaustraße/">Frönaustraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Frönaustraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Frühlingstraße/">Frühlingstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Frühlingstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gaden/">Gaden</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Gaden/">Gaden</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Gaden/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sandharlanden/">Sandharlanden</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Gartenstraße/">Gartenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Gartenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Gerhardingerstraße/">Gerhardingerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Gerhardingerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Gerzergassl/">Gerzergassl</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Gerzergassl/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gilla/">Gilla</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Gilla/">Gilla</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Gilla/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schwaighausen/">Schwaighausen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Gillaweg/">Gillaweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Gillaweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Goethestraße/">Goethestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Goethestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Graf-Niclas-Straße/">Graf-Niclas-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Graf-Niclas-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Graf-von-Tauffkirchen-Straße/">Graf-von-Tauffkirchen-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Graf-von-Tauffkirchen-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Gut_Offenstetten/">Gut Offenstetten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Gut_Offenstetten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Habichtweg/">Habichtweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Habichtweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Arnhofen/">Arnhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Hangweg/">Hangweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Hangweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sandharlanden/">Sandharlanden</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Harlandener_Straße/">Harlandener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Harlandener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Haslangstraße/">Haslangstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Haslangstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sandharlanden/">Sandharlanden</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Heideweg/">Heideweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Heideweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Herrensteig/">Herrensteig</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Herrensteig/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pullach/">Pullach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Herrenstraße/">Herrenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Herrenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Hinterer_Steinberg/">Hinterer Steinberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Hinterer_Steinberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Hofmark/">Hofmark</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Hofmark/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Holzharlanden/">Holzharlanden</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Holzharlanden/">Holzharlanden</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Holzharlanden/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Hopfenstraße/">Hopfenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Hopfenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Hörlbacher_Straße/">Hörlbacher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Hörlbacher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Arnhofen/">Arnhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Hornsteinweg/">Hornsteinweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Hornsteinweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schwaighausen/">Schwaighausen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Im_Mühltal/">Im Mühltal</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Im_Mühltal/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pullach/">Pullach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Im_Winkel/">Im Winkel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Im_Winkel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sandharlanden/">Sandharlanden</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/In_der_Au/">In der Au</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/In_der_Au/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schwaighausen/">Schwaighausen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/In_der_Talau/">In der Talau</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/In_der_Talau/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/In_See/">In See</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/In_See/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Industriestraße/">Industriestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Industriestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Jahnstraße/">Jahnstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Jahnstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Johann-Zimmermann-Straße/">Johann-Zimmermann-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Johann-Zimmermann-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Josef-Stanglmeier-Straße/">Josef-Stanglmeier-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Josef-Stanglmeier-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Kagrastraße/">Kagrastraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Kagrastraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pullach/">Pullach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Kaiserweg/">Kaiserweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Kaiserweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Karmelitenplatz/">Karmelitenplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Karmelitenplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schwaighausen/">Schwaighausen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Katharina-von-Bora-Straße/">Katharina-von-Bora-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Katharina-von-Bora-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Kellerbachstraße/">Kellerbachstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Kellerbachstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Kellnauweg/">Kellnauweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Kellnauweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Kiefernweg/">Kiefernweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Kiefernweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Arnhofen/">Arnhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Kirchenweg/">Kirchenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Kirchenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sandharlanden/">Sandharlanden</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Kirchplatz/">Kirchplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Kirchplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pullach/">Pullach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Kleedorfer_Straße/">Kleedorfer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Kleedorfer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Kornblumenstraße/">Kornblumenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Kornblumenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Kreittmayrstraße/">Kreittmayrstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Kreittmayrstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Kreuz-Schwestern-Straße/">Kreuz-Schwestern-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Kreuz-Schwestern-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pullach/">Pullach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Kreuzeck/">Kreuzeck</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Kreuzeck/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Kuhweide/">Kuhweide</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Kuhweide/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sandharlanden/">Sandharlanden</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Kurze_Straße/">Kurze Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Kurze_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Lärchenweg/">Lärchenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Lärchenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Laubengasse/">Laubengasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Laubengasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lehen/">Lehen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Lehen/">Lehen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Lehen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Lessingstraße/">Lessingstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Lessingstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Lilienweg/">Lilienweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Lilienweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Lindensiedlung/">Lindensiedlung</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Lindensiedlung/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Lindenstraße/">Lindenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Lindenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Holzharlanden/">Holzharlanden</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Lindenweg/">Lindenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Lindenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Löffelholzstraße/">Löffelholzstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Löffelholzstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Ludwig-Berger-Straße/">Ludwig-Berger-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Ludwig-Berger-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Lusteckstraße/">Lusteckstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Lusteckstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Mahlergasse/">Mahlergasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Mahlergasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Max-Bronold-Straße/">Max-Bronold-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Max-Bronold-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Mayrstraße/">Mayrstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Mayrstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mitterhörlbach/">Mitterhörlbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Mitterhörlbach/">Mitterhörlbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Mitterhörlbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Mohnblumenweg/">Mohnblumenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Mohnblumenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Monsignore-Eberth-Straße/">Monsignore-Eberth-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Monsignore-Eberth-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Moststraße/">Moststraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Moststraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Arnhofen/">Arnhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Mühlweg/">Mühlweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Mühlweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Münchener_Straße/">Münchener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Münchener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Münstererstraße/">Münstererstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Münstererstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Nelkenstraße/">Nelkenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Nelkenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Nikolaus-Otto-Straße/">Nikolaus-Otto-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Nikolaus-Otto-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Oberhörlbach/">Oberhörlbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Oberhörlbach/">Oberhörlbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Oberhörlbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Oskar-Schlitter-Ring/">Oskar-Schlitter-Ring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Oskar-Schlitter-Ring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Osterriedergasse/">Osterriedergasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Osterriedergasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Öxlau/">Öxlau</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Öxlau/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Pernhartstraße/">Pernhartstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Pernhartstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Peter-Rosegger-Straße/">Peter-Rosegger-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Peter-Rosegger-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Pfarrer-Adam-Rottler-Straße/">Pfarrer-Adam-Rottler-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Pfarrer-Adam-Rottler-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Pfarrer-Ederer-Straße/">Pfarrer-Ederer-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Pfarrer-Ederer-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Pöglstraße/">Pöglstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Pöglstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Prälat-Thaller-Straße/">Prälat-Thaller-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Prälat-Thaller-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Preysingstraße/">Preysingstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Preysingstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Rabenweg/">Rabenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Rabenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Raiffeisenstraße/">Raiffeisenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Raiffeisenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Rebenstraße/">Rebenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Rebenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Rebhuhnstraße/">Rebhuhnstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Rebhuhnstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Regensburger_Straße/">Regensburger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Regensburger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Regensburger-Tor-Platz/">Regensburger-Tor-Platz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Regensburger-Tor-Platz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Richtstättstraße/">Richtstättstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Richtstättstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Riedererstraße/">Riedererstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Riedererstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Rieslingstraße/">Rieslingstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Rieslingstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Römerstraße/">Römerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Römerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Rosenstraße/">Rosenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Rosenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Rudolf-Diesel-Straße/">Rudolf-Diesel-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Rudolf-Diesel-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pullach/">Pullach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Sandharlandener_Weg/">Sandharlandener Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Sandharlandener_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Sandkreppe/">Sandkreppe</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Sandkreppe/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sandharlanden/">Sandharlanden</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Sandstraße/">Sandstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Sandstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Schillerstraße/">Schillerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Schillerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schillhof/">Schillhof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Schillhof/">Schillhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Schillhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Schloßwiese/">Schloßwiese</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Schloßwiese/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pullach/">Pullach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Schlotweg/">Schlotweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Schlotweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Schmidgasse/">Schmidgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Schmidgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Schreierstraße/">Schreierstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Schreierstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Schulhausplatz/">Schulhausplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Schulhausplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Schulstraße/">Schulstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Schulstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Schustergasse/">Schustergasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Schustergasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schwaighausen/">Schwaighausen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Schwaighausener_Straße/">Schwaighausener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Schwaighausener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Seeweg/">Seeweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Seeweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Silvanerstraße/">Silvanerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Silvanerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sandharlanden/">Sandharlanden</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Sonnenhang/">Sonnenhang</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Sonnenhang/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Sonnenstraße/">Sonnenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Sonnenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Spargelstraße/">Spargelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Spargelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Spargelweg/">Spargelweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Spargelweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Stadionstraße/">Stadionstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Stadionstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Stadtplatz/">Stadtplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Stadtplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Starkstraße/">Starkstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Starkstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sandharlanden/">Sandharlanden</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Staubinger_Straße/">Staubinger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Staubinger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Steinbruch/">Steinbruch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Steinbruch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Steinbruchstraße/">Steinbruchstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Steinbruchstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Steinweg/">Steinweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Steinweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schwaighausen/">Schwaighausen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Stephan-Kastenbauer-Straße/">Stephan-Kastenbauer-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Stephan-Kastenbauer-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Straubinger_Straße/">Straubinger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Straubinger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Sudetenstraße/">Sudetenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Sudetenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Theoderichstraße/">Theoderichstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Theoderichstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Theodor-Körner-Straße/">Theodor-Körner-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Theodor-Körner-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Traubenstraße/">Traubenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Traubenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Tulpenstraße/">Tulpenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Tulpenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Uhlandstraße/">Uhlandstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Uhlandstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Ulmenstraße/">Ulmenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Ulmenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Ulrichstraße/">Ulrichstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Ulrichstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Unterhörlbach/">Unterhörlbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Unterhörlbach/">Unterhörlbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Unterhörlbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Vitusplatz/">Vitusplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Vitusplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Von-Hazzi-Straße/">Von-Hazzi-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Von-Hazzi-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Vorderer_Steinberg/">Vorderer Steinberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Vorderer_Steinberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sandharlanden/">Sandharlanden</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Waldstadion/">Waldstadion</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Waldstadion/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sandharlanden/">Sandharlanden</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Waldstraße/">Waldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Waldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Walterfingerstraße/">Walterfingerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Walterfingerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Waltkunstraße/">Waltkunstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Waltkunstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Weberstraße/">Weberstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Weberstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Weiherfeldstraße/">Weiherfeldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Weiherfeldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Weinbergerstraße/">Weinbergerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Weinbergerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Welschenbach/">Welschenbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Welschenbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Werkstraße/">Werkstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Werkstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Werner-von-Siemens-Straße/">Werner-von-Siemens-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Werner-von-Siemens-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Wiesenweg/">Wiesenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Wiesenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pullach/">Pullach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Windfalterstraße/">Windfalterstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Windfalterstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Winzerstraße/">Winzerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Winzerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Arnhofen/">Arnhofen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Ziegeleistraße/">Ziegeleistraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Ziegeleistraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Offenstetten/">Offenstetten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Zollnerstraße/">Zollnerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Zollnerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Zum_Roten_Peter/">Zum Roten Peter</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Zum_Roten_Peter/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Abensberg/"><strong>PLZ Abensberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Zur_Abensfurt/">Zur Abensfurt</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_93326/">93326</a></td>
+<td><a href="https://plzplz.de/PLZ_Abensberg/Zur_Abensfurt/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.010 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

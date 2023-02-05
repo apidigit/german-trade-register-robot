@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 18249 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="18249, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 18249 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 18249">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_18249/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 18249 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="18249" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Astheim/" title="PLZ Astheim"><strong>PLZ Astheim</strong></a>|<a href="https://plzplz.de/PLZ_Baldern/" title="PLZ Baldern"><strong>PLZ Baldern</strong></a>|<a href="https://plzplz.de/PLZ_Berkatal/" title="PLZ Berkatal"><strong>PLZ Berkatal</strong></a>|<a href="https://plzplz.de/PLZ_Charlottenpolder/" title="PLZ Charlottenpolder"><strong>PLZ Charlottenpolder</strong></a>|<a href="https://plzplz.de/PLZ_Dematshof/" title="PLZ Dematshof"><strong>PLZ Dematshof</strong></a>|<a href="https://plzplz.de/PLZ_Dietenberg/" title="PLZ Dietenberg"><strong>PLZ Dietenberg</strong></a>|<a href="https://plzplz.de/PLZ_Effert/" title="PLZ Effert"><strong>PLZ Effert</strong></a>|<a href="https://plzplz.de/PLZ_Euenheim/" title="PLZ Euenheim"><strong>PLZ Euenheim</strong></a>|<a href="https://plzplz.de/PLZ_Großheubach/" title="PLZ Großheubach"><strong>PLZ Großheubach</strong></a>|<a href="https://plzplz.de/PLZ_Hauzendorf/" title="PLZ Hauzendorf"><strong>PLZ Hauzendorf</strong></a>|<a href="https://plzplz.de/PLZ_Hohenbachern/" title="PLZ Hohenbachern"><strong>PLZ Hohenbachern</strong></a>|<a href="https://plzplz.de/PLZ_Ingersleben/" title="PLZ Ingersleben"><strong>PLZ Ingersleben</strong></a>|<a href="https://plzplz.de/PLZ_Kleingartenanlage_Krugpfuhl/" title="PLZ Kleingartenanlage Krugpfuhl"><strong>PLZ Kleingartenanlage Krugpfuhl</strong></a>|<a href="https://plzplz.de/PLZ_Kolba/" title="PLZ Kolba"><strong>PLZ Kolba</strong></a>|<a href="https://plzplz.de/PLZ_Koxhausen/" title="PLZ Koxhausen"><strong>PLZ Koxhausen</strong></a>|<a href="https://plzplz.de/PLZ_Kuckshagen/" title="PLZ Kuckshagen"><strong>PLZ Kuckshagen</strong></a>|<a href="https://plzplz.de/PLZ_Leichspoint/" title="PLZ Leichspoint"><strong>PLZ Leichspoint</strong></a>|<a href="https://plzplz.de/PLZ_Leimgrub/" title="PLZ Leimgrub"><strong>PLZ Leimgrub</strong></a>|<a href="https://plzplz.de/PLZ_Mehr/" title="PLZ Mehr"><strong>PLZ Mehr</strong></a>|<a href="https://plzplz.de/PLZ_Neuensorga/" title="PLZ Neuensorga"><strong>PLZ Neuensorga</strong></a>|<a href="https://plzplz.de/PLZ_Niederöfflingen/" title="PLZ Niederöfflingen"><strong>PLZ Niederöfflingen</strong></a>|<a href="https://plzplz.de/PLZ_Obergiesing/" title="PLZ Obergiesing"><strong>PLZ Obergiesing</strong></a>|<a href="https://plzplz.de/PLZ_Oerie/" title="PLZ Oerie"><strong>PLZ Oerie</strong></a>|<a href="https://plzplz.de/PLZ_Ostenviertel/" title="PLZ Ostenviertel"><strong>PLZ Ostenviertel</strong></a>|<a href="https://plzplz.de/PLZ_Puchhof/" title="PLZ Puchhof"><strong>PLZ Puchhof</strong></a>|<a href="https://plzplz.de/PLZ_Reppen/" title="PLZ Reppen"><strong>PLZ Reppen</strong></a>|<a href="https://plzplz.de/PLZ_Schatzenhof/" title="PLZ Schatzenhof"><strong>PLZ Schatzenhof</strong></a>|<a href="https://plzplz.de/PLZ_Sickling/" title="PLZ Sickling"><strong>PLZ Sickling</strong></a>|<a href="https://plzplz.de/PLZ_Stiersbach/" title="PLZ Stiersbach"><strong>PLZ Stiersbach</strong></a>|<a href="https://plzplz.de/PLZ_Tapfham/" title="PLZ Tapfham"><strong>PLZ Tapfham</strong></a>|<a href="https://plzplz.de/PLZ_Theobaldshof/" title="PLZ Theobaldshof"><strong>PLZ Theobaldshof</strong></a>|<a href="https://plzplz.de/PLZ_Unterlosa/" title="PLZ Unterlosa"><strong>PLZ Unterlosa</strong></a>|<a href="https://plzplz.de/PLZ_Vorsfelde/" title="PLZ Vorsfelde"><strong>PLZ Vorsfelde</strong></a>|<a href="https://plzplz.de/PLZ_Weiherhäuser/" title="PLZ Weiherhäuser"><strong>PLZ Weiherhäuser</strong></a>|<a href="https://plzplz.de/PLZ_Wulkersdorf/" title="PLZ Wulkersdorf"><strong>PLZ Wulkersdorf</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 18249</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bernitt/"><strong>PLZ Bernitt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schlemmin/">Schlemmin</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bernitt/Am_Berg/">Am Berg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Bernitt/Am_Berg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bernitt/"><strong>PLZ Bernitt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bernitt/Am_neuen_Friedhof/">Am neuen Friedhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Bernitt/Am_neuen_Friedhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bernitt/"><strong>PLZ Bernitt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schlemmin/">Schlemmin</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bernitt/Am_See/">Am See</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Bernitt/Am_See/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bernitt/"><strong>PLZ Bernitt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neu_Bernitt/">Neu Bernitt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bernitt/Dorfstraße/">Dorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Bernitt/Dorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bernitt/"><strong>PLZ Bernitt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schlemmin/">Schlemmin</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bernitt/Gralower_Weg/">Gralower Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Bernitt/Gralower_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bernitt/"><strong>PLZ Bernitt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schlemmin/">Schlemmin</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bernitt/Hauptstraße/">Hauptstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Bernitt/Hauptstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bernitt/"><strong>PLZ Bernitt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neu_Bernitt/">Neu Bernitt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bernitt/Heidestraße/">Heidestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Bernitt/Heidestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bernitt/"><strong>PLZ Bernitt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bernitt/Lange_Straße/">Lange Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Bernitt/Lange_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bernitt/"><strong>PLZ Bernitt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Viezen/">Viezen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bernitt/Lange_Straße/">Lange Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Bernitt/Lange_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bernitt/"><strong>PLZ Bernitt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bernitt/Moltenower_Weg/">Moltenower Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Bernitt/Moltenower_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bernitt/"><strong>PLZ Bernitt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schlemmin/">Schlemmin</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bernitt/Neu_Schlemmin/">Neu Schlemmin</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Bernitt/Neu_Schlemmin/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bernitt/"><strong>PLZ Bernitt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bernitt/Neubaustraße/">Neubaustraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Bernitt/Neubaustraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bernitt/"><strong>PLZ Bernitt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bernitt/Schulstraße/">Schulstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Bernitt/Schulstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bernitt/"><strong>PLZ Bernitt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schlemmin/">Schlemmin</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bernitt/Teichweg/">Teichweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Bernitt/Teichweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bernitt/"><strong>PLZ Bernitt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bernitt/Trechower_Weg/">Trechower Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Bernitt/Trechower_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bernitt/"><strong>PLZ Bernitt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bernitt/Viezener_Straße/">Viezener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Bernitt/Viezener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bernitt/"><strong>PLZ Bernitt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bernitt/Wanderweg/">Wanderweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Bernitt/Wanderweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dreetz/"><strong>PLZ Dreetz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dreetz/Am_Ring/">Am Ring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Dreetz/Am_Ring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dreetz/"><strong>PLZ Dreetz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dreetz/Am_Schmiedeberg/">Am Schmiedeberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Dreetz/Am_Schmiedeberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dreetz/"><strong>PLZ Dreetz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zibühl/">Zibühl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dreetz/Am_See/">Am See</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Dreetz/Am_See/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dreetz/"><strong>PLZ Dreetz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Peetsch/">Peetsch</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dreetz/Dorfstraße/">Dorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Dreetz/Dorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dreetz/"><strong>PLZ Dreetz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zibühl/">Zibühl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dreetz/Hauptstraße/">Hauptstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Dreetz/Hauptstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dreetz/"><strong>PLZ Dreetz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zibühl/">Zibühl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dreetz/Langenseer_Weg/">Langenseer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Dreetz/Langenseer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dreetz/"><strong>PLZ Dreetz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Peetsch/">Peetsch</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dreetz/Lindenweg/">Lindenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Dreetz/Lindenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dreetz/"><strong>PLZ Dreetz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zibühl/">Zibühl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dreetz/Tarnower_Chaussee/">Tarnower Chaussee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Dreetz/Tarnower_Chaussee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dreetz/"><strong>PLZ Dreetz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zibühl/">Zibühl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dreetz/Wiesenweg/">Wiesenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Dreetz/Wiesenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dreetz/"><strong>PLZ Dreetz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dreetz/Zum_Wald/">Zum Wald</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Dreetz/Zum_Wald/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Penzin/"><strong>PLZ Penzin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Penzin/Bernitter_Straße/">Bernitter Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Penzin/Bernitter_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Penzin/"><strong>PLZ Penzin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Penzin/Bützower_Straße/">Bützower Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Penzin/Bützower_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Penzin/"><strong>PLZ Penzin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Penzin/Bützower_Straße_Ausbau/">Bützower Straße Ausbau</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Penzin/Bützower_Straße_Ausbau/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Penzin/"><strong>PLZ Penzin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Penzin/Dorfstraße/">Dorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Penzin/Dorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Penzin/"><strong>PLZ Penzin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Penzin/Reinstorfer_Weg/">Reinstorfer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Penzin/Reinstorfer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Penzin/"><strong>PLZ Penzin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Penzin/Reinstorfer_Weg_Ausbau/">Reinstorfer Weg Ausbau</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Penzin/Reinstorfer_Weg_Ausbau/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Penzin/"><strong>PLZ Penzin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Penzin/Selower_Weg/">Selower Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Penzin/Selower_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Penzin/"><strong>PLZ Penzin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Penzin/Viezener_Weg/">Viezener Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Penzin/Viezener_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Tarnow/"><strong>PLZ Tarnow</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Am_Mühlberg/">Am Mühlberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Am_Mühlberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Tarnow/"><strong>PLZ Tarnow</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünenhagen/">Grünenhagen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Ausbau/">Ausbau</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Ausbau/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Tarnow/"><strong>PLZ Tarnow</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Ausbau_Süd/">Ausbau Süd</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Ausbau_Süd/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Tarnow/"><strong>PLZ Tarnow</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Ausbau_West/">Ausbau West</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Ausbau_West/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Tarnow/"><strong>PLZ Tarnow</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Boitiner_Straße/">Boitiner Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Boitiner_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Tarnow/"><strong>PLZ Tarnow</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zernin/">Zernin</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Bützower_Straße/">Bützower Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Bützower_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Tarnow/"><strong>PLZ Tarnow</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Boitin/">Boitin</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Dorfstraße/">Dorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Dorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Tarnow/"><strong>PLZ Tarnow</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Gartenstraße/">Gartenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Gartenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Tarnow/"><strong>PLZ Tarnow</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünenhagen/">Grünenhagen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Grüner_Winkel/">Grüner Winkel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Grüner_Winkel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Tarnow/"><strong>PLZ Tarnow</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Hauptstraße/">Hauptstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Hauptstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Tarnow/"><strong>PLZ Tarnow</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zernin/">Zernin</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Hauptstraße/">Hauptstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Hauptstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Tarnow/"><strong>PLZ Tarnow</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Boitin/">Boitin</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Hofstraße/">Hofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Hofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Tarnow/"><strong>PLZ Tarnow</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Im_Eck/">Im Eck</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Im_Eck/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Tarnow/"><strong>PLZ Tarnow</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Klosterstraße/">Klosterstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Klosterstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Tarnow/"><strong>PLZ Tarnow</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zernin/">Zernin</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Pappelallee/">Pappelallee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Pappelallee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Tarnow/"><strong>PLZ Tarnow</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Schulgang/">Schulgang</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Schulgang/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Tarnow/"><strong>PLZ Tarnow</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Boitin/">Boitin</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Seestraße/">Seestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Seestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Tarnow/"><strong>PLZ Tarnow</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zernin/">Zernin</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Warnower_Straße/">Warnower Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Warnower_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Tarnow/"><strong>PLZ Tarnow</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Zur_Heuring/">Zur Heuring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Tarnow/Zur_Heuring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Warnow/"><strong>PLZ Warnow</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Am_Bahnhof/">Am Bahnhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Am_Bahnhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Warnow/"><strong>PLZ Warnow</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lübzin/">Lübzin</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Am_Bauernbruch/">Am Bauernbruch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Am_Bauernbruch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Warnow/"><strong>PLZ Warnow</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lübzin/">Lübzin</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Am_Kahlbruch/">Am Kahlbruch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Am_Kahlbruch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Warnow/"><strong>PLZ Warnow</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Ausbau/">Ausbau</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Ausbau/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Warnow/"><strong>PLZ Warnow</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Blumenstraße/">Blumenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Blumenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Warnow/"><strong>PLZ Warnow</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Klein_Raden/">Klein Raden</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Bungalowsiedlung/">Bungalowsiedlung</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Bungalowsiedlung/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Warnow/"><strong>PLZ Warnow</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rosenow/">Rosenow</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Bungalowsiedlung_am_See/">Bungalowsiedlung am See</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Bungalowsiedlung_am_See/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Warnow/"><strong>PLZ Warnow</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Diedrichshof/">Diedrichshof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Diedrichshof/">Diedrichshof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Diedrichshof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Warnow/"><strong>PLZ Warnow</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Buchenhof/">Buchenhof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Dorfstraße/">Dorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Dorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Warnow/"><strong>PLZ Warnow</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Eickelberg/">Eickelberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Dorfstraße/">Dorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Dorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Warnow/"><strong>PLZ Warnow</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Eickhof/">Eickhof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Dorfstraße/">Dorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Dorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Warnow/"><strong>PLZ Warnow</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Klein_Raden/">Klein Raden</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Dorfstraße/">Dorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Dorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Warnow/"><strong>PLZ Warnow</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schlockow/">Schlockow</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Dorfstraße/">Dorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Dorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Warnow/"><strong>PLZ Warnow</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Dorfstraße/">Dorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Dorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Warnow/"><strong>PLZ Warnow</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Eickhofer_Straße/">Eickhofer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Eickhofer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Warnow/"><strong>PLZ Warnow</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rosenow/">Rosenow</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Forsthof/">Forsthof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Forsthof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Warnow/"><strong>PLZ Warnow</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Güstrower_Landweg/">Güstrower Landweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Güstrower_Landweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Warnow/"><strong>PLZ Warnow</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lübzin/">Lübzin</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Hauptstraße/">Hauptstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Hauptstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Warnow/"><strong>PLZ Warnow</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Mühlenstraße/">Mühlenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Mühlenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Warnow/"><strong>PLZ Warnow</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Neubaugebiet/">Neubaugebiet</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Neubaugebiet/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Warnow/"><strong>PLZ Warnow</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lübzin/">Lübzin</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Parkstraße/">Parkstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Parkstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Warnow/"><strong>PLZ Warnow</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rosenow/">Rosenow</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Ringstraße/">Ringstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Ringstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Warnow/"><strong>PLZ Warnow</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Ringstraße/">Ringstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Ringstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Warnow/"><strong>PLZ Warnow</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lübzin/">Lübzin</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Schloßstraße/">Schloßstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Schloßstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Warnow/"><strong>PLZ Warnow</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Schmiedestraße/">Schmiedestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Schmiedestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Warnow/"><strong>PLZ Warnow</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rosenow/">Rosenow</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Sternberger_Straße/">Sternberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Sternberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Warnow/"><strong>PLZ Warnow</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Wiesenblick/">Wiesenblick</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Wiesenblick/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Warnow/"><strong>PLZ Warnow</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rosenow/">Rosenow</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Witziner_Straße/">Witziner Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Witziner_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Warnow/"><strong>PLZ Warnow</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Zerniner_Straße/">Zerniner Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18249/">18249</a></td>
+<td><a href="https://plzplz.de/PLZ_Warnow/Zerniner_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.006 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

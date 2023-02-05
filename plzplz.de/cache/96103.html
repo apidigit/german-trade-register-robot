@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 96103 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="96103, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 96103 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 96103">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_96103/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 96103 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="96103" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Babelsberg_Süd/" title="PLZ Babelsberg Süd"><strong>PLZ Babelsberg Süd</strong></a>|<a href="https://plzplz.de/PLZ_Buldern/" title="PLZ Buldern"><strong>PLZ Buldern</strong></a>|<a href="https://plzplz.de/PLZ_Cremlingen/" title="PLZ Cremlingen"><strong>PLZ Cremlingen</strong></a>|<a href="https://plzplz.de/PLZ_Dörzbach/" title="PLZ Dörzbach"><strong>PLZ Dörzbach</strong></a>|<a href="https://plzplz.de/PLZ_Drochow/" title="PLZ Drochow"><strong>PLZ Drochow</strong></a>|<a href="https://plzplz.de/PLZ_Edensbach/" title="PLZ Edensbach"><strong>PLZ Edensbach</strong></a>|<a href="https://plzplz.de/PLZ_Enderndorf/" title="PLZ Enderndorf"><strong>PLZ Enderndorf</strong></a>|<a href="https://plzplz.de/PLZ_Glösa-Draisdorf/" title="PLZ Glösa-Draisdorf"><strong>PLZ Glösa-Draisdorf</strong></a>|<a href="https://plzplz.de/PLZ_Hambostel/" title="PLZ Hambostel"><strong>PLZ Hambostel</strong></a>|<a href="https://plzplz.de/PLZ_Kachlin/" title="PLZ Kachlin"><strong>PLZ Kachlin</strong></a>|<a href="https://plzplz.de/PLZ_Kleina/" title="PLZ Kleina"><strong>PLZ Kleina</strong></a>|<a href="https://plzplz.de/PLZ_Kösfeld/" title="PLZ Kösfeld"><strong>PLZ Kösfeld</strong></a>|<a href="https://plzplz.de/PLZ_Kröß/" title="PLZ Kröß"><strong>PLZ Kröß</strong></a>|<a href="https://plzplz.de/PLZ_Kürnberg/" title="PLZ Kürnberg"><strong>PLZ Kürnberg</strong></a>|<a href="https://plzplz.de/PLZ_Ligenz/" title="PLZ Ligenz"><strong>PLZ Ligenz</strong></a>|<a href="https://plzplz.de/PLZ_Marketsmühle/" title="PLZ Marketsmühle"><strong>PLZ Marketsmühle</strong></a>|<a href="https://plzplz.de/PLZ_Norderfriedrichskoog/" title="PLZ Norderfriedrichskoog"><strong>PLZ Norderfriedrichskoog</strong></a>|<a href="https://plzplz.de/PLZ_Obergermaringen/" title="PLZ Obergermaringen"><strong>PLZ Obergermaringen</strong></a>|<a href="https://plzplz.de/PLZ_Obergladbach/" title="PLZ Obergladbach"><strong>PLZ Obergladbach</strong></a>|<a href="https://plzplz.de/PLZ_Obermosbach/" title="PLZ Obermosbach"><strong>PLZ Obermosbach</strong></a>|<a href="https://plzplz.de/PLZ_Obermühl/" title="PLZ Obermühl"><strong>PLZ Obermühl</strong></a>|<a href="https://plzplz.de/PLZ_Oberviehmoos/" title="PLZ Oberviehmoos"><strong>PLZ Oberviehmoos</strong></a>|<a href="https://plzplz.de/PLZ_Regau/" title="PLZ Regau"><strong>PLZ Regau</strong></a>|<a href="https://plzplz.de/PLZ_Reissen/" title="PLZ Reissen"><strong>PLZ Reissen</strong></a>|<a href="https://plzplz.de/PLZ_Rietze/" title="PLZ Rietze"><strong>PLZ Rietze</strong></a>|<a href="https://plzplz.de/PLZ_Rotthalmünster/" title="PLZ Rotthalmünster"><strong>PLZ Rotthalmünster</strong></a>|<a href="https://plzplz.de/PLZ_Rupboden/" title="PLZ Rupboden"><strong>PLZ Rupboden</strong></a>|<a href="https://plzplz.de/PLZ_Seebruck/" title="PLZ Seebruck"><strong>PLZ Seebruck</strong></a>|<a href="https://plzplz.de/PLZ_Sehmatal/" title="PLZ Sehmatal"><strong>PLZ Sehmatal</strong></a>|<a href="https://plzplz.de/PLZ_Stich/" title="PLZ Stich"><strong>PLZ Stich</strong></a>|<a href="https://plzplz.de/PLZ_Trockenbrück/" title="PLZ Trockenbrück"><strong>PLZ Trockenbrück</strong></a>|<a href="https://plzplz.de/PLZ_Tunxdorf/" title="PLZ Tunxdorf"><strong>PLZ Tunxdorf</strong></a>|<a href="https://plzplz.de/PLZ_Unterbergscheid/" title="PLZ Unterbergscheid"><strong>PLZ Unterbergscheid</strong></a>|<a href="https://plzplz.de/PLZ_Wüsten_Vahrnow/" title="PLZ Wüsten Vahrnow"><strong>PLZ Wüsten Vahrnow</strong></a>|<a href="https://plzplz.de/PLZ_Zirmoisel/" title="PLZ Zirmoisel"><strong>PLZ Zirmoisel</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 96103</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Adolf-Wächter-Straße/">Adolf-Wächter-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Adolf-Wächter-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Ahornweg/">Ahornweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Ahornweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dörfleins/">Dörfleins</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Am_Brünnlein/">Am Brünnlein</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Am_Brünnlein/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Am_Gründleinsbach/">Am Gründleinsbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Am_Gründleinsbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dörfleins/">Dörfleins</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Am_Kreuzberg/">Am Kreuzberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Am_Kreuzberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Am_Landgericht/">Am Landgericht</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Am_Landgericht/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Am_Sportplatz/">Am Sportplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Am_Sportplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Am_Vesperbild/">Am Vesperbild</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Am_Vesperbild/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dörfleins/">Dörfleins</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Am_Ziedergraben/">Am Ziedergraben</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Am_Ziedergraben/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/An_der_Angelbrücke/">An der Angelbrücke</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/An_der_Angelbrücke/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/An_der_Marktscheune/">An der Marktscheune</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/An_der_Marktscheune/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dörfleins/">Dörfleins</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Angerstraße/">Angerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Angerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Bachgasse/">Bachgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Bachgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Bahnhofstraße/">Bahnhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Bahnhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Bamberger_Straße/">Bamberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Bamberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Biegenhofstraße/">Biegenhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Biegenhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Birkenweg/">Birkenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Birkenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Blumenstraße/">Blumenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Blumenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Borstig/">Borstig</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Borstig/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dörfleins/">Dörfleins</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Brunnenstraße/">Brunnenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Brunnenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Buchenländer_Straße/">Buchenländer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Buchenländer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dörfleins/">Dörfleins</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Dammstraße/">Dammstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Dammstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dörfleins/">Dörfleins</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Dörfleinser_Straße/">Dörfleinser Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Dörfleinser_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Dr.-Robert-Pfleger-Straße/">Dr.-Robert-Pfleger-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Dr.-Robert-Pfleger-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Egerländer_Straße/">Egerländer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Egerländer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dörfleins/">Dörfleins</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Ellerweg/">Ellerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Ellerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Emil-Kemmer-Straße/">Emil-Kemmer-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Emil-Kemmer-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Erlweinstraße/">Erlweinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Erlweinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Fischergasse/">Fischergasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Fischergasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Flachsgarten/">Flachsgarten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Flachsgarten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Fliederweg/">Fliederweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Fliederweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dörfleins/">Dörfleins</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Flurstraße/">Flurstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Flurstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Friedhofstraße/">Friedhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Friedhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Gartenstraße/">Gartenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Gartenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Ginsterweg/">Ginsterweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Ginsterweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Grabenstraße/">Grabenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Grabenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Hallstätter_Weg/">Hallstätter Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Hallstätter_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Hans-Wölfel-Straße/">Hans-Wölfel-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Hans-Wölfel-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Heganger/">Heganger</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Heganger/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dörfleins/">Dörfleins</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Hirtenstraße/">Hirtenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Hirtenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Hopfengarten/">Hopfengarten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Hopfengarten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dörfleins/">Dörfleins</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Hutstraße/">Hutstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Hutstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Johannesstraße/">Johannesstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Johannesstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Josefstraße/">Josefstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Josefstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Kaiweg/">Kaiweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Kaiweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Kapellenstraße/">Kapellenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Kapellenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Karlstraße/">Karlstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Karlstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Kaspar-Schleibner-Straße/">Kaspar-Schleibner-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Kaspar-Schleibner-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dörfleins/">Dörfleins</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Kellergasse/">Kellergasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Kellergasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Kemmerner_Weg/">Kemmerner Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Kemmerner_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Kilianstraße/">Kilianstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Kilianstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Königshofstraße/">Königshofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Königshofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Landsknechtstraße/">Landsknechtstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Landsknechtstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Lärchenweg/">Lärchenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Lärchenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Laubanger/">Laubanger</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Laubanger/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Lempdeser_Straße/">Lempdeser Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Lempdeser_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Lichtenfelser_Straße/">Lichtenfelser Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Lichtenfelser_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Lindenweg/">Lindenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Lindenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Mainanger/">Mainanger</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Mainanger/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dörfleins/">Dörfleins</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Mainleite/">Mainleite</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Mainleite/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Mainstraße/">Mainstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Mainstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Marktplatz/">Marktplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Marktplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Max-Brose-Straße/">Max-Brose-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Max-Brose-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Michael-Bienlein-Straße/">Michael-Bienlein-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Michael-Bienlein-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Michelinstraße/">Michelinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Michelinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Mühlgasse/">Mühlgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Mühlgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Mühlhofstraße/">Mühlhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Mühlhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dörfleins/">Dörfleins</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Obere_Hut/">Obere Hut</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Obere_Hut/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dörfleins/">Dörfleins</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Oberer_Kapellberg/">Oberer Kapellberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Oberer_Kapellberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/P.-F.-Steinheimer-Straße/">P.-F.-Steinheimer-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/P.-F.-Steinheimer-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Peter-Groh-Weg/">Peter-Groh-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Peter-Groh-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Peuntstraße/">Peuntstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Peuntstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Pfarrer-Eizenhöfer-Weg/">Pfarrer-Eizenhöfer-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Pfarrer-Eizenhöfer-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Pfarrer-Wachter-Straße/">Pfarrer-Wachter-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Pfarrer-Wachter-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Reitersweg/">Reitersweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Reitersweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Rosenweg/">Rosenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Rosenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Rotdornstraße/">Rotdornstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Rotdornstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Rothbachstraße/">Rothbachstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Rothbachstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Sandstraße/">Sandstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Sandstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Schafhof/">Schafhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Schafhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Schlesier_Straße/">Schlesier Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Schlesier_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dörfleins/">Dörfleins</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Schulstraße/">Schulstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Schulstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Schwester_Columbana_Weg/">Schwester Columbana Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Schwester_Columbana_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Seebachmarter/">Seebachmarter</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Seebachmarter/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Seebachstraße/">Seebachstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Seebachstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Seelagraben/">Seelagraben</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Seelagraben/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Sonnenstraße/">Sonnenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Sonnenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/St.-Kilians-Platz/">St.-Kilians-Platz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/St.-Kilians-Platz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Steinlachenstraße/">Steinlachenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Steinlachenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Südring/">Südring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Südring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Tiergarten/">Tiergarten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Tiergarten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Untere_Peuntstraße/">Untere Peuntstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Untere_Peuntstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dörfleins/">Dörfleins</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Untere_Zehntstraße/">Untere Zehntstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Untere_Zehntstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dörfleins/">Dörfleins</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Unterer_Kapellberg/">Unterer Kapellberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Unterer_Kapellberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Valentinstraße/">Valentinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Valentinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Wacholderweg/">Wacholderweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Wacholderweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dörfleins/">Dörfleins</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Weiherstraße/">Weiherstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Weiherstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dörfleins/">Dörfleins</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Weißer_Graben/">Weißer Graben</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Weißer_Graben/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Wilhelm-Högner-Straße/">Wilhelm-Högner-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Wilhelm-Högner-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/"><strong>PLZ Hallstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dörfleins/">Dörfleins</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Zehntstraße/">Zehntstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96103/">96103</a></td>
+<td><a href="https://plzplz.de/PLZ_Hallstadt/Zehntstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.005 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

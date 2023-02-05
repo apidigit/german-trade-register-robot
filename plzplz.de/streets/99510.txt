@@ -1,0 +1,513 @@
+Ackerwand
+Adolf-Aber-Straße
+Ahornweg
+Albstädter Straße
+Alexander-Puschkin-Platz
+Alexanderstraße
+Alzendorfer Straße
+Am Anger
+Am Blauraine
+Am Borne
+Am Brückenborn
+Am Busbahnhof
+Am Friedhof
+Am Füllenstall
+Am Gänseplan
+Am Heerweg
+Am Kalkberg
+Am Kalkteich
+Am Kastanienberg
+Am Kirchgarten
+Am Krautlande
+Am Kreuzsteine
+Am Mühldamm
+Am Querweg
+Am Schloß
+Am Sportpark
+Am Sportplatz
+Am Stadthaus
+Am Steingraben
+Am tiefen Graben
+Am Tröbel
+Am Wasserberg
+Am Weimarer Berg
+An dem Bienengarten
+An der Brauerei
+An der Burg
+An der Goethebrücke
+An der Karlsquelle
+An der Kirche
+An der Marke
+An der Molkerei
+An der Mühle
+An der Promenade
+An der Ringpromenade
+An der Schule
+Anger
+Apoldaer Straße
+Apothekergäßchen
+Auenstraße
+Auf dem Angespanne
+Auf dem Berge
+August-Baudert-Straße
+August-Bebel-Straße
+August-Berger-Straße
+Bachstraße
+Backhausweg
+Bahnhof
+Bahnhofstraße
+Bahnweg
+Barbiergäßchen
+Bärholdgasse
+Beethovenstraße
+Behringstraße
+Beim Weidige
+Berggäßchen
+Bergstraße
+Berliner Straße
+Bernhard-Prager-Gasse
+Bernhardstraße
+Bertolt-Brecht-Straße
+Birkenweg
+Blumenstraße
+Bockswiesen
+Böhmsgasse
+Bornsgasse
+Brandesstraße
+Brauerweg
+Brauhof
+Brehmstraße
+Bremer Straße
+Brückenstraße
+Brückenweg
+Brühl
+Budapester Straße
+Bukarester Straße
+Burkhardtstraße
+Buttstädter Straße
+Camburger Straße
+Carolinenstraße
+Christian-Zimmermann-Straße
+Clara-Zetkin-Straße
+Compterstraße
+Damaschkestraße
+Dammstraße
+Darrplatz
+Darrstraße
+Denstedter Weg
+Deutsch-Griffener-Straße
+Dieterstedter Straße
+Dobermannstraße
+Dorfgasse
+Dorfplatz
+Dorfstraße
+Dornburger Straße
+Dornsgasse
+Dr.-Hering-Platz
+Dr.-Külz-Straße
+Dr.-Rudi-Moser-Straße
+Dr.-Theodor-Neubauer-Straße
+Dreßlerstraße
+Ebertplatz
+Eduardstraße
+Egelstraße
+Elisenstraße
+Erfurter Straße
+Ernst-Haeckel-Straße
+Ernst-Homann-Straße
+Ernst-Thälmann-Ring
+Ernst-Thälmann-Straße
+Faulborn
+Feldstraße
+Fichtestraße
+Fischerstraße
+Florian-Geyer-Straße
+Flurstedter Marktweg
+Franckestraße
+Franz-Mehring-Straße
+Franz-Möricke-Straße
+Franz-Roh-Straße
+Freiherr-vom-Stein-Straße
+Friedensstraße
+Friedhofstraße
+Friedrich-Engels-Straße
+Friedrichstraße
+Gabelsberger Straße
+Gartenstraße
+Gerbachei
+Gerichtsweg
+Glockengießereistraße
+Goerdelerstraße
+Goethestraße
+Goldgasse
+Görwitzstraße
+Göttinger Straße
+Graf-Wichmann-Straße
+Gramonter Straße
+Grönland
+Groß-Gerauer Straße
+Großer Anger
+Grüner Weg
+Grünstraße
+Gutenbergstraße
+Hallesche Straße
+Hanfstraße
+Heidenberg
+Heinrich-Heine-Straße
+Heinrich-Ulrich-Straße
+Herderstraße
+Hermstedter Straße
+Herressener Straße
+Herressener Weg
+Herrmannstraße
+Heynestraße
+Hohle Gasse
+Hugo-Michel-Straße
+Hugo-Ruppe-Straße
+Ilmenauer Straße
+Im Dürstborne
+Immischstraße
+In der Gasse
+Jägerstraße
+Jahnplatz
+Jährlingsgasse
+Jakobstraße
+Jenaer Straße
+Johannisgasse
+Joliot-Curie-Straße
+Kanoldstraße
+Kantplatz
+Kapellendorfer Straße
+Karl-August-Straße
+Karl-Marx-Straße
+Katharinenweg
+Käthe-Kollwitz-Straße
+Keßlerstraße
+Kirchberg
+Kirchgasse
+Kirschberg
+Klause
+Kölner Straße
+Königstraße
+Kösnitzer Straße
+Krautländer Weg
+Kronfeldstraße
+Kurze Gasse
+Lange Gasse
+Lauthsweg
+Leipziger Straße
+Lessingstraße
+Leutertstraße
+Leutloffstraße
+Liebknechtstraße
+Liechtensteiner Straße
+Lindenberg
+Lindengasse
+Lindwurmweg
+Louis-Braille-Straße
+Louis-Opel-Straße
+Ludwig-Edinger-Straße
+Ludwigsplatz
+Lutherkirchstraße
+Lutherstraße
+Mannheimer Straße
+Marker Straße
+Markt
+Martinsgasse
+Martinskirchgasse
+Martinsplatz
+Mattstedter Straße
+Mattstedter Weg
+Max-Planck-Straße
+Melanchthonplatz
+Mittelgasse
+Mittelweg
+Mönchsgasse
+Moorentaler Straße
+Moskauer Straße
+Mozartweg
+Müllerstraße
+Münchener Weg
+Neue Straße
+Neue Welt
+Neusätze
+Niederroßlaer Straße
+Niemöllerstraße
+Nirmsdorfer Straße
+Nordstraße
+Obere Siedlung
+Oberndorfer Straße
+Oberndorfer Weg
+Ollikstraße
+Oststraße
+Ötisheimer Straße
+Parkstraße
+Paul-Schneider-Straße
+Pestalozzistraße
+Peter-Schilling-Straße
+Pfiffelbacher Weg
+Philipp-Müller-Straße
+Planstraße
+Planweg
+Platz der Demokratie
+Platz des Friedens
+Promenadenstraße
+Promenadenweg
+Rabestraße
+Rapid-City-Straße
+Rathenaustraße
+Rauchstraße
+Reuschelstraße
+Richard-Wagner-Straße
+Ritterstraße
+Robert-Birkner-Weg
+Robert-Blum-Straße
+Robert-Koch-Straße
+Rosa-Luxemburg-Straße
+Rosestraße
+Rosmariengäßchen
+Rudolf-Breitscheid-Straße
+San-Miniato-Straße
+Schanzenweg
+Schieringstraße
+Schillerstraße
+Schleiergasse
+Schleifenstraße
+Schötener Dorfstraße
+Schötener Grund
+Schötener Straße
+Schrönplatz
+Schubertstraße
+Schulbergstraße
+Schulplatz
+Schwabestraße
+Secliner Straße
+Siedlung
+Siedlungsweg
+Stegmannstraße
+Steinweg
+Stobraer Straße
+Straße der Bodenreform
+Straße der Einheit
+Straße des Friedens
+Straußstraße
+Sulzaer Straße
+Sulzaer Straße
+Tannenweg
+Teichgartenweg
+Teichgasse
+Thomas-Müntzer-Straße
+Tonbergsweg
+Topfmarkt
+Tyroffstraße
+Über dem Dieterstedter Bache
+Über dem Schulberg
+Über den Teichgärten
+Ulrich-von-Hutten-Straße
+Unruhstraße
+Untere Siedlung
+Unterm Schloß
+Utenbacher Grund
+Utenbacher Straße
+Walter-Gordon-Platz
+Warschauer Straße
+Wasserberg
+Wehrweg
+Weilandstraße
+Weimarische Straße
+Werner-Seelenbinder-Straße
+Wersdorfer Weg
+Weststraße
+Wickerstedter Straße
+Wiegendorfer Weg
+Wielandstraße
+Wiener Weg
+Wiesenstraße
+Wilhelmstraße
+Wohnhofstraße
+Wormstedter Straße
+Würzburger Straße
+Zeppelinstraße
+Zum Kritzchen
+Zum Mühlenhof
+Zur kleinen Aue
+Zur Mühle
+Ahornweg
+Alter Markt
+Am Anger
+Am Bach
+Am Froschgraben
+Am Gasselberge
+Am Graben
+Am Isargarten
+Am Lindenberg
+Am Markt
+Am Mühlgraben
+Am Neuen Anger
+Am Pfarrstieg
+Am Pfiffelbacher Weg
+Am Schenkberg
+Am Schenkgarten
+Am Sportplatz
+Am Teich
+Am Tiergarten
+Am Wasserturm
+Am Weinberg
+Am Wickerstedter Weg
+An der Apoldaer Straße
+An der Hauptstraße
+An der Kirche
+An der Küchelgrube
+An der Lehmgrube
+An der Leite
+Apoldaer Straße
+Apoldaer Weg
+Arno-Berger-Straße
+Arno-Müller-Straße
+Aydemir Straße
+Bahnhofstraße
+Bei der Kirche
+Beim Backhause
+Berggasse
+Birkengasse
+Birkenstraße
+Breite Straße
+Burg Denstedt
+Burgmühlgasse
+Buttstädter Straße
+Christoph-Günther-Straße
+Denstedter Straße
+Dorfplatz
+Dorfstraße
+Dr.-Haenert-Weg
+Dr.-Theodor-Neubauer-Siedlung
+Dr.-Theodor-Neubauer-Straße
+Dürrenbacher Hütte
+Eselsweg
+Ferdinand-Gerstung-Platz
+Flurblick
+Franz-Liszt-Straße
+Franz-Magnus-Böhme-Straße
+Friedrich-Ebert-Straße
+Friedrich-Ludwig-Jahn-Platz
+Friedrich-Ludwig-Jahn-Straße
+Gagarinplatz
+Gagarinstraße
+Gartenstraße
+Goethestraße
+Goldbach
+Goldbacher Weg
+Große Kirchgasse
+Hauptstraße
+Hinter dem Dorfe
+Hinter der Kirche
+Hirtenberg
+Hummelsberg
+Igelsberg
+Ilmschlößchenweg
+Im Dorfe
+In den Krautländern
+In Rohrbach
+Karl-Liebknecht-Straße
+Karl-Marx-Straße
+Karl-Schlömilch-Straße
+Kastanienweg
+Kirchberg
+Kirchgässchen
+Kirchgasse
+Kirchweg
+Kleine Kirchgasse
+Kupferstraße
+Lange Straße
+Langer Weg
+Lehmgrube
+Leutenthal
+Liebstedter Straße
+Lindenberg
+Lindengasse
+Lindenstraße
+Lindenweg
+Linkershof
+Linkershofer Weg
+Ludwig-Jahn-Platz
+Mälzhausgasse
+Mittelgasse
+Mittelstraße
+Mühlgasse
+Nermsdorfer Straße
+Nordstraße
+Oberdorfstraße
+Oberreißener Straße
+Oberroßlaer Weg
+Oßmannstedter Straße
+Oßmannstedter Weg
+Pappelstraße
+Pestalozzistraße
+Pfiffelbacher Straße
+Platz der Demokratie
+Poststraße
+Rathenaustraße
+Rosa-Luxemburg-Straße
+Rudersdorfer Straße
+Schillerstraße
+Schloßhof
+Schmiedegasse
+Schöndorfer Weg
+Schwabsdorfer Weg
+Sebastian-Bach-Straße
+Siedlung
+Siedlung nach Oberroßla
+Silberdistelweg
+Speckgasse
+Süßenborner Weg
+Teichplatz
+Thomas-Müntzer-Siedlung
+Thomas-Müntzer-Straße
+Über dem Lohfelde
+Über der Lehmgrube
+Über der Mühle
+Unter dem Lohfelde
+Unter der Allee
+Unter der Weinstraße
+Unterdorf
+Wartburg
+Wasserweg
+Weimarer Straße
+Weimarische Straße
+Weinbergweg
+Weisenheimer Straße
+Wielandstraße
+Wiesenstraße
+Wilhelm-Pieck-Straße
+Willerstedter Landstraße
+Willerstedter Straße
+Witzlebenstraße
+Zottelstedter Straße
+Zum Brauhaus
+Zum Kirschberg
+Zur Poche
+Am Asperteich
+Am Bäckerberg
+Am Burggraben
+Am Burgplatz
+Am Rosengarten
+Am Schenkplan
+Am Sperlingsberg
+An der Mühle
+Apoldaer Straße
+Frankendorfer Straße
+Hohlstedter Weg
+Im Rosengarten
+Kirchgasse
+Kirschgarten
+Niedermühle
+Nußbergweg
+Werlitzgraben
+Dorfstraße
+Gewerbegebiet
+An der Ziegelei
+Dorfstraße
+Hinter dem Kirschgarten
+Hinter den Safrangärten
+Im Dorfe
+Kupferstraße

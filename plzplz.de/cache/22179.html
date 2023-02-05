@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 22179 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="22179, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 22179 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 22179">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_22179/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 22179 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="22179" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Arget/" title="PLZ Arget"><strong>PLZ Arget</strong></a>|<a href="https://plzplz.de/PLZ_Bischoffen/" title="PLZ Bischoffen"><strong>PLZ Bischoffen</strong></a>|<a href="https://plzplz.de/PLZ_Bülower_Burg/" title="PLZ Bülower Burg"><strong>PLZ Bülower Burg</strong></a>|<a href="https://plzplz.de/PLZ_Dietmaning/" title="PLZ Dietmaning"><strong>PLZ Dietmaning</strong></a>|<a href="https://plzplz.de/PLZ_Gnissau/" title="PLZ Gnissau"><strong>PLZ Gnissau</strong></a>|<a href="https://plzplz.de/PLZ_Grafenmühle/" title="PLZ Grafenmühle"><strong>PLZ Grafenmühle</strong></a>|<a href="https://plzplz.de/PLZ_Großwaltersdorf/" title="PLZ Großwaltersdorf"><strong>PLZ Großwaltersdorf</strong></a>|<a href="https://plzplz.de/PLZ_Gundelsberg/" title="PLZ Gundelsberg"><strong>PLZ Gundelsberg</strong></a>|<a href="https://plzplz.de/PLZ_Haldensleben/" title="PLZ Haldensleben"><strong>PLZ Haldensleben</strong></a>|<a href="https://plzplz.de/PLZ_Haschabühl/" title="PLZ Haschabühl"><strong>PLZ Haschabühl</strong></a>|<a href="https://plzplz.de/PLZ_Helzendorf/" title="PLZ Helzendorf"><strong>PLZ Helzendorf</strong></a>|<a href="https://plzplz.de/PLZ_Hollage/" title="PLZ Hollage"><strong>PLZ Hollage</strong></a>|<a href="https://plzplz.de/PLZ_Kathus/" title="PLZ Kathus"><strong>PLZ Kathus</strong></a>|<a href="https://plzplz.de/PLZ_Klietzen/" title="PLZ Klietzen"><strong>PLZ Klietzen</strong></a>|<a href="https://plzplz.de/PLZ_Kramlehen/" title="PLZ Kramlehen"><strong>PLZ Kramlehen</strong></a>|<a href="https://plzplz.de/PLZ_Leismühle/" title="PLZ Leismühle"><strong>PLZ Leismühle</strong></a>|<a href="https://plzplz.de/PLZ_Lerch/" title="PLZ Lerch"><strong>PLZ Lerch</strong></a>|<a href="https://plzplz.de/PLZ_Moltkestein/" title="PLZ Moltkestein"><strong>PLZ Moltkestein</strong></a>|<a href="https://plzplz.de/PLZ_Niederdornberg/" title="PLZ Niederdornberg"><strong>PLZ Niederdornberg</strong></a>|<a href="https://plzplz.de/PLZ_Obernhagen/" title="PLZ Obernhagen"><strong>PLZ Obernhagen</strong></a>|<a href="https://plzplz.de/PLZ_Ödpielmannsberg/" title="PLZ Ödpielmannsberg"><strong>PLZ Ödpielmannsberg</strong></a>|<a href="https://plzplz.de/PLZ_Pfaffenthann/" title="PLZ Pfaffenthann"><strong>PLZ Pfaffenthann</strong></a>|<a href="https://plzplz.de/PLZ_Schiphorst/" title="PLZ Schiphorst"><strong>PLZ Schiphorst</strong></a>|<a href="https://plzplz.de/PLZ_Söllitz/" title="PLZ Söllitz"><strong>PLZ Söllitz</strong></a>|<a href="https://plzplz.de/PLZ_Speiersberg/" title="PLZ Speiersberg"><strong>PLZ Speiersberg</strong></a>|<a href="https://plzplz.de/PLZ_Steffelsöd/" title="PLZ Steffelsöd"><strong>PLZ Steffelsöd</strong></a>|<a href="https://plzplz.de/PLZ_Stöckau/" title="PLZ Stöckau"><strong>PLZ Stöckau</strong></a>|<a href="https://plzplz.de/PLZ_Twiehausen/" title="PLZ Twiehausen"><strong>PLZ Twiehausen</strong></a>|<a href="https://plzplz.de/PLZ_Unterschöllnach/" title="PLZ Unterschöllnach"><strong>PLZ Unterschöllnach</strong></a>|<a href="https://plzplz.de/PLZ_Untrasried/" title="PLZ Untrasried"><strong>PLZ Untrasried</strong></a>|<a href="https://plzplz.de/PLZ_Vegesack/" title="PLZ Vegesack"><strong>PLZ Vegesack</strong></a>|<a href="https://plzplz.de/PLZ_Volkmarsdorf/" title="PLZ Volkmarsdorf"><strong>PLZ Volkmarsdorf</strong></a>|<a href="https://plzplz.de/PLZ_Wehenöd/" title="PLZ Wehenöd"><strong>PLZ Wehenöd</strong></a>|<a href="https://plzplz.de/PLZ_Zeilhub/" title="PLZ Zeilhub"><strong>PLZ Zeilhub</strong></a>|<a href="https://plzplz.de/PLZ_Zollenreute/" title="PLZ Zollenreute"><strong>PLZ Zollenreute</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 22179</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Am_Bramfelder_Zoll/">Am Bramfelder Zoll</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Am_Bramfelder_Zoll/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Bannwarthstraße/">Bannwarthstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Bannwarthstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Barenbleek/">Barenbleek</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Barenbleek/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Bargackerdamm/">Bargackerdamm</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Bargackerdamm/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Barmwisch/">Barmwisch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Barmwisch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Bengelsdorfstieg/">Bengelsdorfstieg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Bengelsdorfstieg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Bengelsdorfstraße/">Bengelsdorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Bengelsdorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Bornblick/">Bornblick</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Bornblick/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Brachetweg/">Brachetweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Brachetweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Bramfelder_Dorfplatz/">Bramfelder Dorfplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Bramfelder_Dorfplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Brammerhörn/">Brammerhörn</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Brammerhörn/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Buchfinkenweg/">Buchfinkenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Buchfinkenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Carl-Bremer-Ring/">Carl-Bremer-Ring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Carl-Bremer-Ring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Eenstock/">Eenstock</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Eenstock/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Ellernreihe/">Ellernreihe</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Ellernreihe/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Erntingweg/">Erntingweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Erntingweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Fahrenkrön/">Fahrenkrön</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Fahrenkrön/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Fahrenkrönstieg/">Fahrenkrönstieg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Fahrenkrönstieg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Haldesdorfer_Straße/">Haldesdorfer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Haldesdorfer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Harmsweg/">Harmsweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Harmsweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Harnisch/">Harnisch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Harnisch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Hegholt/">Hegholt</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Hegholt/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Heidstücken/">Heidstücken</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Heidstücken/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Heidstückenkehre/">Heidstückenkehre</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Heidstückenkehre/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Heidstückenweg/">Heidstückenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Heidstückenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Herthastraße/">Herthastraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Herthastraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Heuertweg/">Heuertweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Heuertweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Heukoppel/">Heukoppel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Heukoppel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Hildeboldtweg/">Hildeboldtweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Hildeboldtweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Höhnkoppel/">Höhnkoppel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Höhnkoppel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Höhnkoppelort/">Höhnkoppelort</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Höhnkoppelort/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Hornungweg/">Hornungweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Hornungweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Hülsdornweg/">Hülsdornweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Hülsdornweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Ilenkruut/">Ilenkruut</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Ilenkruut/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Im_Soll/">Im Soll</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Im_Soll/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Jahnkeweg/">Jahnkeweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Jahnkeweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Karl-Müller-Ring/">Karl-Müller-Ring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Karl-Müller-Ring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Lenzingweg/">Lenzingweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Lenzingweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Lohkoppel/">Lohkoppel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Lohkoppel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Maimoortwiete/">Maimoortwiete</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Maimoortwiete/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Maimoorweg/">Maimoorweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Maimoorweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Mispelstieg/">Mispelstieg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Mispelstieg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Mispelweg/">Mispelweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Mispelweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Mützendorpsteed/">Mützendorpsteed</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Mützendorpsteed/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Prökelmoor/">Prökelmoor</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Prökelmoor/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Rahnstraße/">Rahnstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Rahnstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Reembusch/">Reembusch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Reembusch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Sauerampferweg/">Sauerampferweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Sauerampferweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Scheidingweg/">Scheidingweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Scheidingweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Schlagboom/">Schlagboom</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Schlagboom/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Sollkehre/">Sollkehre</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Sollkehre/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Soltaus_Allee/">Soltaus Allee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Soltaus_Allee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Steilshooper_Allee/">Steilshooper Allee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Steilshooper_Allee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Stockrosenweg/">Stockrosenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Stockrosenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Trittauer_Amtsweg/">Trittauer Amtsweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Trittauer_Amtsweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Turnierstieg/">Turnierstieg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Turnierstieg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Weidkoppel/">Weidkoppel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Weidkoppel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Werner-Otto-Straße/">Werner-Otto-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Werner-Otto-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Wichelkamp/">Wichelkamp</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Wichelkamp/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Wiedehopfstieg/">Wiedehopfstieg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Wiedehopfstieg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bramfeld/">Bramfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Willy-Nissen-Ring/">Willy-Nissen-Ring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_22179/">22179</a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/Willy-Nissen-Ring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.005 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

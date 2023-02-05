@@ -1,0 +1,574 @@
+Carmzow
+Cremzow
+Hedwigshof
+Wallmow
+Wendtshof
+Bahnhofstraße
+Chausseestraße
+Damerower Weg
+Dorfmitte
+Dorfstraße
+Gärtnerweg
+Prenzlauer Straße
+Schmiedeweg
+Schönfelder Weg
+Schulstraße
+Siedlungsstraße
+Tornow
+Tornower Damm
+Am Bahnhof
+Am Bienenweg
+Am Gutshof
+Am Kietz
+Am Markt
+Am Mühlenberg
+Am Poetensteig
+Am Sportplatz
+Angermünder Straße
+Anna-Karbe-Straße
+Ausbau
+Bahnhofstraße
+Blankenburger Weg
+Chausseehaus
+Chausseestraße
+Dorfstraße
+Edelhof
+Forsthaus
+Friedhofstraße
+Gartenstraße
+Gewerbegebiet
+Gramzower Straße
+Gutsweg
+Hauptstraße
+Heuweg
+Karlshof
+Kirchstraße
+Klosterberg
+Koboltenhof
+Leopoldsthaler Straße
+Lindenallee
+Lützlower Straße
+Meichower Straße
+Meichower Weg
+Meisterstraße
+Meisterweg
+Melzower Damm
+Mühlenberg
+Polßener Mühle
+Poststraße
+Prenzlauer Straße
+Randowhöhe
+Schlosserstraße
+Schulstraße
+Schulzengang
+Schulzenstraße
+Schwedter Straße
+Seesiedlung
+Seeweg
+Seilerstraße
+Sportplatz
+Stiller Winkel
+Waldstraße
+Waldweg
+Zehnebeck
+Zehnebeck Am Berg
+Zehnebeck Randow
+Zehnebecker Straße
+Zum Katt
+Zum Kuhsee
+Am Grünower See
+Am Neuen Friedhof
+Bahnhofstraße
+Birkenweg
+Dorfstraße
+Dreesch
+Dreescher Weg
+Drenser Straße
+Feldstraße
+Grünower Weg
+Heiseshofer Weg
+Kleine Straße
+Lindenstraße
+Mönchehof
+Neuer Weg
+Schanzenweg
+Schulweg
+Seeweg
+Siedlungsweg
+Straße des Friedens
+Wetzelweg
+Ziemkendorfer Straße
+Alleestraße
+Alte Bahnhofstraße
+Alte Schule
+Alte Schulstraße
+Alte Straße
+Am Alten Bahnhof
+Am Bahnhof
+Am Bauersee
+Am Berkholzer Wald
+Am Dammsee
+Am Dorfanger
+Am Dorfplatz
+Am Feldrain
+Am Grottsteig
+Am Gut
+Am Gutspark
+Am Gutsweg
+Am Katzenbruch
+Am Kiecker
+Am Mühlenberg
+Am Schäferpfuhl
+Am See
+Am Sportplatz
+Am Wahrensee
+Am Wasserwerk
+Am Zionsberg
+Amtsstraße
+An der Beeke
+An der Charlottenhöhe
+An der Mühle
+Arendseer Damm
+Arendseer Weg
+Augustfelder Damm
+Ausbau
+Bahnhofsweg
+Basedower Weg
+Beenzer Damm
+Beenzer Straße
+Berliner Straße
+Birkenallee
+Birkenhain
+Birkenweg
+Blockstraße
+Boben Enn
+Bülowssieger Weg
+Buschweg
+Chausseestraße
+Dollshof
+Dorfberg
+Dorfstraße
+Enge Gasse
+Ernst-Korff-Straße
+Ernst-Thälmann-Straße
+Feldberger Straße
+Ferdinandshorster Straße
+Fischereiweg
+Fischershof
+Friedenshof
+Friedhofsweg
+Fürstenauer Straße
+Fürstenwerder Straße
+Gartenstraße
+Grüner Weg
+Güstower Straße
+Gutshof
+Hauptstraße
+Heidereiterweg
+Hildebrandshagener Straße
+Hindenburger Platz
+Hinterm Schilf
+Hohenzollchow
+Holunderweg
+Holzendorfer Straße
+Horster Straße
+Hubertusstraße
+Hügelland
+Inselweg
+Karl-Marx-Straße
+Kastanienallee
+Kirchgasse
+Kirchstraße
+Kirchweg
+Kirschallee
+Kösters Berg
+Kraatzer Weg
+Kranichweg
+Kruseshof
+Kuhzer Weg
+Langer Winkel
+Lindendamm
+Lindenstraße
+Lindenweg
+Louisenthal
+Maurerstraße
+MTS-Weg
+Mühlenberg
+Mühlenbergstraße
+Mühlengasse
+Müllergang
+Museumsstraße
+Naugartener Straße
+Naugartner Weg
+Neubauweg
+Neuer Damm
+Neuer Weg
+Neusiedlerstraße
+Oskar-von-Arnim-Straße
+Otto-Bremer-Straße
+Pappelallee
+Parkhausweg
+Parkweg
+Parmener Straße
+Parmer Weg
+Pilzweg
+Pinnower Weg
+Prenzlauer Chaussee
+Prenzlauer Straße
+Quillowstraße
+Raakower Weg
+Rittgartener Straße
+Sackstraße
+Schapower Weg
+Schloßstraße
+Schloßweg
+Schmiedestraße
+Schmiedeweg
+Schönermarker Weg
+Schulstraße
+Schusterweg
+Schwarzer Weg
+Seestraße
+Seeweg
+Speicherweg
+Stangenweg
+Steen Enn
+Steinfeld
+Sternhagener Straße
+Straße am Uckersee
+Strehlower Weg
+Tannenweg
+Theerbrennerweg
+Torfwiesenweg
+Uckerblick
+Uferzone
+Unkengrund
+Unner Enn
+Waldeck
+Waldsiedlung
+Waldweg
+Wallscheunenweg
+Warbender Straße
+Weidengrund
+Wiesengrund
+Wittstocker Straße
+Wittstocker Weg
+Woldegker Chaussee
+Wolterberger Weg
+Ziegeleiweg
+Zum Königsweg
+Zum Pappelberg
+Zum Quillow
+Zum Röthberg
+Zum Steinsee
+Zum Vogelberg
+Zur Lindenallee
+Abbau
+Ahornweg
+Am Anger
+Am Brink
+Am Feld
+Am Feldrain
+Am Festplatz
+Am Kietz
+Am Markt
+Am Ring
+Am Stubben
+Am Trumpf
+Am Wald
+An der Kirche
+An der Lanke
+Ausbau
+Bahnhofstraße
+Berghausen
+Bertikower Straße
+Brandmühle
+Dorfstraße
+Dreiecksee
+Fergitzer Weg
+Fischerweg
+Friedhofstraße
+Gartenstraße
+Gerswalder Weg
+Gramzower Straße
+Gramzower Weg
+Grüner Gang
+Grünheider Straße
+Gutshof
+Heidehof
+Höhnesweg
+Hügelhof
+Kirchgasse
+Klosterweg
+Lindenallee
+Lindenstraße
+Lindenweg
+Meistereck
+Melzower Straße
+Mittelweg
+Moorgrund
+Mühlenberg
+Neuhofer Straße
+Neuhofer Weg
+Oberquast
+Pappelweg
+Postgasse
+Poststraße
+Prenzlauer Allee
+Prenzlauer Straße
+Quast
+Quastweg
+Schulstraße
+Seeblick
+Seehausener Chaussee
+Seehausener Straße
+Seestraße
+Seeweg
+Siedlerweg
+Steglitzer Straße
+Turnersruh
+Uckerblick
+Unterquast
+Vorwerk
+Waldstraße
+Warnitzer Straße
+Zum alten Schulgarten
+Zum Schlangengraben
+Zum Zeltplatz
+Adolf-Stahr-Straße
+Ahornweg
+Akazienstraße
+Alexanderhöhe
+Alexanderstraße
+Alfred-Hinrichs-Straße
+Am Alten Bahndamm
+Am Dreieck
+Am Durchbruch
+Am Igelpfuhl
+Am Lindenberg
+Am Quillow
+Am Rohrteich
+Am Sägewerk
+Am Schäfergraben
+Am Schafgrund
+Am Scharfrichtersee
+Am Seelübber See
+Am Stausee
+Am Steintor
+Am Sternberg
+Am Strom
+Am Umspannwerk
+Am Weinberg
+Amselsteig
+An der Baumschule
+An der Milchviehanlage
+An der Schnelle
+An der Ucker
+Angermünder Straße
+Anlagen
+Armaturenstraße
+Augustenfelde
+Ausbau an der F 198
+Automeile
+Bäckerweg
+Badestraße
+Bahnhofstraße
+Bahnwärterhaus
+Basedower Straße
+Baumgärtner Weg
+Baustraße
+Bergstraße
+Berliner Straße
+Bertikower Weg
+Binnenmühle
+Birkenweg
+Blumenstraße
+Bruchweg
+Brüderstraße
+Brüssower Allee
+Brüssower Straße
+Buchenweg
+Bündigershof
+Diesterwegstraße
+Dittenplatz
+Dorfstraße
+Dr.-Bähr-Straße
+Dr.-Lena-Ohnesorge-Straße
+Dr.-Wilhelm-Külz-Straße
+Dreyershof
+Drosselgasse
+Eibenweg
+Ellingen
+Erika-Kliemann-Weg
+Erlenweg
+Eschenweg
+Ewaldshof
+Feldstraße
+Fichtenweg
+Fischerstraße
+Fliederweg
+Franz-Wienholz-Straße
+Freyschmidtstraße
+Friedenskamp
+Friedhofstraße
+Friedrichstraße
+Frohe Zukunft
+Gartenstraße
+Gebrüder-Hoffmann-Straße
+Georg-Dreke-Ring
+Geschwister-Scholl-Straße
+Gewerbegebiet
+Gewerbestraße
+Goethestraße
+Grabowstraße
+Großes Bruch
+Grüner Weg
+Grüner Winkel
+Grünower Chaussee
+Grünower Weg
+Güstower Straße
+Heideweg
+Heinrich-Heine-Straße
+Hospitalstraße
+Karl-Marx-Straße
+Kiefernweg
+Kietzstraße
+Kirchsteig
+Kirchweg
+Kleine Baustraße
+Kleine Friedrichstraße
+Kleine Heide
+Klosterstraße
+Koppelweg
+Kreuzstraße
+Krummer Weg
+Kupferschmiedegang
+Landstraße
+Laubenweg
+Lerchensteig
+Lessingstraße
+Lindenstraße
+Magnushof
+Marienkirchstraße
+Marius-Eriksen-Straße
+Marktberg
+Mauerstraße
+Max-Lindow-Straße
+Mühlendamm
+Mühlenpforte
+Mühlmannstraße
+Neubrandenburger Straße
+Neustadt
+Neustädter Damm
+Neustädter Feldmark
+Paul-Glöde-Straße
+Philipp-Hackert-Straße
+Platanenallee
+Prenzlauer Straße
+Richard-Steinweg-Straße
+Richtstraße
+Robert-Schulz-Ring
+Rodinger Gasse
+Röpersdorfer Straße
+Rosa-Luxemburg-Straße
+Rosenweg
+Rudolf-Breitscheid-Straße
+Sabinenkloster-Ziegelei
+Scharrnstraße
+Schenkenberger Straße
+Schleusenstraße
+Schulstraße
+Schulzenstraße
+Schwarzer Weg
+Schwedter Straße
+Seelübber Weg
+Seeweg
+Siedlungsstraße
+Siedlungsweg
+Siefertshof
+Sperlingslust
+St.-Nikolai-Kirch-Platz
+Stegemannshof
+Steinfurth
+Steinfurther Straße
+Steinstraße
+Sternstraße
+Stettiner Straße
+Straße des Friedens
+Süßer Grund
+Tannenweg
+Thomas-Müntzer-Platz
+Triftstraße
+Uckerblick
+Uckerpromenade
+Uckerwiek
+Vincentstraße
+Vogelsang
+Vorstadtbahnhof
+Wallgasse
+Walther-Rathenau-Platz
+Walther-Rathenau-Straße
+Wasserpforte
+Wiesengrund
+Wiesenweg
+Winterfeldtstraße
+Wittenhofer Straße
+Woldegker Straße
+Wollenthin
+Zu den Bahngleisen
+Zum Gutshof
+Zum Strom
+Zur Mühle
+Zur Wehr
+Albrechtshof
+Eickstedt
+Eickstedt Ausbau
+Grenz
+Räuberberg
+Rollberg
+Schmölln
+Schwaneberg
+Vogelsang
+Wegnershof
+Wollin
+Ziemkendorf
+Baumgarten
+Dauerthal
+Dorfstraße
+Kleptow
+Ludwigsburg
+Ludwigsburg An der Chaussee
+Wittenhof
+Dorfstraße
+Karlshof
+Klockow
+Neuenfeld
+Ahornweg
+Am Sportplatz
+Ausbau
+Birkenweg
+Blankenburger Straße
+Chausseestraße
+Dammer Weg
+Dorfstraße
+Dreescher Straße
+Gramzower Straße
+Gut Bietikow
+Gutshof
+Hauptstraße
+Kirchstraße
+Kleinow
+Lindenallee
+Lützlower Damm
+Mattheshöh
+Mattheshöher Weg
+Neu-Kleinow
+Neu-Kleinower Weg
+Oberdorfstraße
+Pappelweg
+Prenzlauer Straße
+Ringstraße
+Seelübber Weg
+Seeweg
+Unterdorfstraße
+Weselitz

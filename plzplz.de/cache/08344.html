@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 08344 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="08344, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 08344 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 08344">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_08344/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 08344 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="08344" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Beßlich/" title="PLZ Beßlich"><strong>PLZ Beßlich</strong></a>|<a href="https://plzplz.de/PLZ_Blauenneuschacht/" title="PLZ Blauenneuschacht"><strong>PLZ Blauenneuschacht</strong></a>|<a href="https://plzplz.de/PLZ_Burhave/" title="PLZ Burhave"><strong>PLZ Burhave</strong></a>|<a href="https://plzplz.de/PLZ_Dannau/" title="PLZ Dannau"><strong>PLZ Dannau</strong></a>|<a href="https://plzplz.de/PLZ_Ellerau/" title="PLZ Ellerau"><strong>PLZ Ellerau</strong></a>|<a href="https://plzplz.de/PLZ_Feldkahl/" title="PLZ Feldkahl"><strong>PLZ Feldkahl</strong></a>|<a href="https://plzplz.de/PLZ_Gellershagen/" title="PLZ Gellershagen"><strong>PLZ Gellershagen</strong></a>|<a href="https://plzplz.de/PLZ_Göhra/" title="PLZ Göhra"><strong>PLZ Göhra</strong></a>|<a href="https://plzplz.de/PLZ_Goldhausen/" title="PLZ Goldhausen"><strong>PLZ Goldhausen</strong></a>|<a href="https://plzplz.de/PLZ_Grimm/" title="PLZ Grimm"><strong>PLZ Grimm</strong></a>|<a href="https://plzplz.de/PLZ_Jakobsmühle/" title="PLZ Jakobsmühle"><strong>PLZ Jakobsmühle</strong></a>|<a href="https://plzplz.de/PLZ_Klintum/" title="PLZ Klintum"><strong>PLZ Klintum</strong></a>|<a href="https://plzplz.de/PLZ_Krumhermersdorf/" title="PLZ Krumhermersdorf"><strong>PLZ Krumhermersdorf</strong></a>|<a href="https://plzplz.de/PLZ_Leutra/" title="PLZ Leutra"><strong>PLZ Leutra</strong></a>|<a href="https://plzplz.de/PLZ_Loßburg/" title="PLZ Loßburg"><strong>PLZ Loßburg</strong></a>|<a href="https://plzplz.de/PLZ_Lottengrün/" title="PLZ Lottengrün"><strong>PLZ Lottengrün</strong></a>|<a href="https://plzplz.de/PLZ_Mahnburg/" title="PLZ Mahnburg"><strong>PLZ Mahnburg</strong></a>|<a href="https://plzplz.de/PLZ_Mannstedt/" title="PLZ Mannstedt"><strong>PLZ Mannstedt</strong></a>|<a href="https://plzplz.de/PLZ_Markdorf/" title="PLZ Markdorf"><strong>PLZ Markdorf</strong></a>|<a href="https://plzplz.de/PLZ_Mittermurnthal/" title="PLZ Mittermurnthal"><strong>PLZ Mittermurnthal</strong></a>|<a href="https://plzplz.de/PLZ_Neu_Poserin/" title="PLZ Neu Poserin"><strong>PLZ Neu Poserin</strong></a>|<a href="https://plzplz.de/PLZ_Neuenwalde/" title="PLZ Neuenwalde"><strong>PLZ Neuenwalde</strong></a>|<a href="https://plzplz.de/PLZ_Ochsenholz/" title="PLZ Ochsenholz"><strong>PLZ Ochsenholz</strong></a>|<a href="https://plzplz.de/PLZ_Pissen/" title="PLZ Pissen"><strong>PLZ Pissen</strong></a>|<a href="https://plzplz.de/PLZ_Prag/" title="PLZ Prag"><strong>PLZ Prag</strong></a>|<a href="https://plzplz.de/PLZ_Raderthal/" title="PLZ Raderthal"><strong>PLZ Raderthal</strong></a>|<a href="https://plzplz.de/PLZ_Rampersdorf/" title="PLZ Rampersdorf"><strong>PLZ Rampersdorf</strong></a>|<a href="https://plzplz.de/PLZ_Rinnberg/" title="PLZ Rinnberg"><strong>PLZ Rinnberg</strong></a>|<a href="https://plzplz.de/PLZ_Speckshof/" title="PLZ Speckshof"><strong>PLZ Speckshof</strong></a>|<a href="https://plzplz.de/PLZ_Vorach/" title="PLZ Vorach"><strong>PLZ Vorach</strong></a>|<a href="https://plzplz.de/PLZ_Vorderrehberg/" title="PLZ Vorderrehberg"><strong>PLZ Vorderrehberg</strong></a>|<a href="https://plzplz.de/PLZ_Wallner_an_der_Osterwies/" title="PLZ Wallner an der Osterwies"><strong>PLZ Wallner an der Osterwies</strong></a>|<a href="https://plzplz.de/PLZ_Wendisch_Evern/" title="PLZ Wendisch Evern"><strong>PLZ Wendisch Evern</strong></a>|<a href="https://plzplz.de/PLZ_Wildtal/" title="PLZ Wildtal"><strong>PLZ Wildtal</strong></a>|<a href="https://plzplz.de/PLZ_Windeby/" title="PLZ Windeby"><strong>PLZ Windeby</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 08344</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Albert-Straube-Siedlung/">Albert-Straube-Siedlung</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Albert-Straube-Siedlung/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Alte_Bergstraße/">Alte Bergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Alte_Bergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Alte_Bernsbacher_Straße/">Alte Bernsbacher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Alte_Bernsbacher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Alte_Burgstraße/">Alte Burgstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Alte_Burgstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Waschleithe/">Waschleithe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Alte_Straße/">Alte Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Alte_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Alter_Mühlgraben/">Alter Mühlgraben</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Alter_Mühlgraben/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Am_Bahnhof/">Am Bahnhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Am_Bahnhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Am_Birkenhain/">Am Birkenhain</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Am_Birkenhain/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Am_Bockwald/">Am Bockwald</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Am_Bockwald/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Waschleithe/">Waschleithe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Am_Fürstenberg/">Am Fürstenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Am_Fürstenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Am_Gewerbegebiet/">Am Gewerbegebiet</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Am_Gewerbegebiet/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Am_Gewerbepark/">Am Gewerbepark</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Am_Gewerbepark/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Am_Hang/">Am Hang</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Am_Hang/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Am_Moosbach/">Am Moosbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Am_Moosbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Am_Schloßberg/">Am Schloßberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Am_Schloßberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Am_Spiegelwald/">Am Spiegelwald</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Am_Spiegelwald/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Am_Sportplatz/">Am Sportplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Am_Sportplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Am_Weinberg/">Am Weinberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Am_Weinberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/An_der_Dürre_Schönberg/">An der Dürre Schönberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/An_der_Dürre_Schönberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/An_der_Kohlung/">An der Kohlung</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/An_der_Kohlung/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/An_der_Sturmlaterne/">An der Sturmlaterne</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/An_der_Sturmlaterne/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Auer_Straße/">Auer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Auer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/August-Bebel-Straße/">August-Bebel-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/August-Bebel-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Bahnhofstraße/">Bahnhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Bahnhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Bauernweg/">Bauernweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Bauernweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Beierfelder_Höhe/">Beierfelder Höhe</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Beierfelder_Höhe/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Waschleithe/">Waschleithe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Beierfelder_Straße/">Beierfelder Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Beierfelder_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Beierfelder_Weg/">Beierfelder Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Beierfelder_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Bergstraße/">Bergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Bergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Bernhard-Hecker-Straße/">Bernhard-Hecker-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Bernhard-Hecker-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Bernhard-Riedel-Straße/">Bernhard-Riedel-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Bernhard-Riedel-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Bernsbacher_Straße/">Bernsbacher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Bernsbacher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Bockweg/">Bockweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Bockweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Brunnweg/">Brunnweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Brunnweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Buchenweg/">Buchenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Buchenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Burgstraße/">Burgstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Burgstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Damaschkestraße/">Damaschkestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Damaschkestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Dittersdorfer_Straße/">Dittersdorfer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Dittersdorfer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Elterleiner_Straße/">Elterleiner Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Elterleiner_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Ernst-Nier-Straße/">Ernst-Nier-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Ernst-Nier-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Flurstück/">Flurstück</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Flurstück/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Forsthäuser/">Forsthäuser</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Forsthäuser/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Forstweg/">Forstweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Forstweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Frankstraße/">Frankstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Frankstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Franz-Mehring-Straße/">Franz-Mehring-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Franz-Mehring-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Friedrich-Engels-Straße/">Friedrich-Engels-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Friedrich-Engels-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Fürstenbrunner_Straße/">Fürstenbrunner Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Fürstenbrunner_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Gartenstraße/">Gartenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Gartenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Gärtnerweg/">Gärtnerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Gärtnerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Geschwister-Scholl-Straße/">Geschwister-Scholl-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Geschwister-Scholl-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Goethestraße/">Goethestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Goethestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Waschleithe/">Waschleithe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Haide/">Haide</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Haide/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Heinrich-Heine-Straße/">Heinrich-Heine-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Heinrich-Heine-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Hermann-Schein-Straße/">Hermann-Schein-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Hermann-Schein-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Hermannstraße/">Hermannstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Hermannstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Waschleithe/">Waschleithe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Hinterdorfer_Straße/">Hinterdorfer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Hinterdorfer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Hospitalgasse/">Hospitalgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Hospitalgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Im_Wiesengrund/">Im Wiesengrund</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Im_Wiesengrund/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Kantstraße/">Kantstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Kantstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Kühnhaider_Straße/">Kühnhaider Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Kühnhaider_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Lärchenweg/">Lärchenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Lärchenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Lößnitzer_Straße/">Lößnitzer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Lößnitzer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Markt/">Markt</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Markt/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Waschleithe/">Waschleithe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Mühlberg/">Mühlberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Mühlberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Neue_Burgstraße/">Neue Burgstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Neue_Burgstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Obere_Viehtrift/">Obere Viehtrift</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Obere_Viehtrift/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Oswaldtalstraße/">Oswaldtalstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Oswaldtalstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Pestalozzistraße/">Pestalozzistraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Pestalozzistraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Pfarrweg/">Pfarrweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Pfarrweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Pförtelsteig/">Pförtelsteig</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Pförtelsteig/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Richterstraße/">Richterstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Richterstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Röhrenweg/">Röhrenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Röhrenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Rosa-Luxemburg-Straße/">Rosa-Luxemburg-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Rosa-Luxemburg-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Rudolf-Breitscheid-Straße/">Rudolf-Breitscheid-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Rudolf-Breitscheid-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Salzerweg/">Salzerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Salzerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Scheinfeldstraße/">Scheinfeldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Scheinfeldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Schillerstraße/">Schillerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Schillerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Schloßwaldweg/">Schloßwaldweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Schloßwaldweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Schröterweg/">Schröterweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Schröterweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Schwarzenberger_Straße/">Schwarzenberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Schwarzenberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Seidelweg/">Seidelweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Seidelweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Waschleithe/">Waschleithe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Siedlung/">Siedlung</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Siedlung/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Sonnenblick/">Sonnenblick</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Sonnenblick/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Spiegelwaldstraße/">Spiegelwaldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Spiegelwaldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Steinmüllerstraße/">Steinmüllerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Steinmüllerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Stiehlerweg/">Stiehlerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Stiehlerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Straße_der_AWG/">Straße der AWG</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Straße_der_AWG/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Straße_des_Sportes/">Straße des Sportes</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Straße_des_Sportes/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Waschleithe/">Waschleithe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Talstraße/">Talstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Talstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Turngartenweg/">Turngartenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Turngartenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Untere_Viehtrift/">Untere Viehtrift</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Untere_Viehtrift/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Waschleither_Straße/">Waschleither Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Waschleither_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Wernergässel/">Wernergässel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Wernergässel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Beierfeld/">Beierfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Wiesenstraße/">Wiesenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Wiesenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/"><strong>PLZ Grünhain-Beierfeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünhain/">Grünhain</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Zwönitzer_Straße/">Zwönitzer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08344/">08344</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünhain-Beierfeld/Zwönitzer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.004 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

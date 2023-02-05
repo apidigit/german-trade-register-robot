@@ -1,0 +1,42 @@
+all
+HRA
+    all
+    Anstalt öffentlichen Rechts
+    Bergrechtliche Gewerkschaft
+    Einzelkauffrau
+    Einzelkaufmann
+    Einzelkaufmann / Einzelkauffrau
+    Europäische wirtschaftliche Interessenvereinigung
+    HRA Juristische Person
+    HRA sonstige Rechtsformen
+    Kommanditgesellschaft
+    Körperschaft öffentlichen Rechts
+    Offene Handelsgesellschaft
+    Rechtsform ausländischen Rechts HRA
+    Seerechtliche Gesellschaft
+    Sonstige juristische Person
+    Stiftung öffentlichen Rechts
+    Stiftung privaten Rechts
+HRB
+    all
+    Aktiengesellschaft
+    Europäische Aktiengesellschaft (SE)
+    Gesellschaft mit beschränkter Haftung
+    Kommanditgesellschaft auf Aktien
+    Rechtsform ausländischen Rechts HRB
+    Versicherungsverein auf Gegenseitigkeit
+GnR
+    all
+    eingetragene Genossenschaft
+    Europäische Genossenschaft (SCE)
+    Rechtsform ausländischen Rechts GnR
+PR
+    all
+    Partnerschaft
+    Partnerschaftsgesellschaft
+    Rechtsform ausländischen Rechts PR
+VR
+    all
+
+
+    all, HRA, HRB, GnR, PR, VR

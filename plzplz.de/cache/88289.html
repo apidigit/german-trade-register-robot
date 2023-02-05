@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 88289 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="88289, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 88289 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 88289">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_88289/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 88289 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="88289" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Altenhundem/" title="PLZ Altenhundem"><strong>PLZ Altenhundem</strong></a>|<a href="https://plzplz.de/PLZ_Apweiler/" title="PLZ Apweiler"><strong>PLZ Apweiler</strong></a>|<a href="https://plzplz.de/PLZ_Bellinghauser_Hof/" title="PLZ Bellinghauser Hof"><strong>PLZ Bellinghauser Hof</strong></a>|<a href="https://plzplz.de/PLZ_Bergen-Enkheim/" title="PLZ Bergen-Enkheim"><strong>PLZ Bergen-Enkheim</strong></a>|<a href="https://plzplz.de/PLZ_Breddenberg/" title="PLZ Breddenberg"><strong>PLZ Breddenberg</strong></a>|<a href="https://plzplz.de/PLZ_Brockdorf/" title="PLZ Brockdorf"><strong>PLZ Brockdorf</strong></a>|<a href="https://plzplz.de/PLZ_Bübingen/" title="PLZ Bübingen"><strong>PLZ Bübingen</strong></a>|<a href="https://plzplz.de/PLZ_Burg_Höfen/" title="PLZ Burg Höfen"><strong>PLZ Burg Höfen</strong></a>|<a href="https://plzplz.de/PLZ_Dobermühle/" title="PLZ Dobermühle"><strong>PLZ Dobermühle</strong></a>|<a href="https://plzplz.de/PLZ_Druxberge/" title="PLZ Druxberge"><strong>PLZ Druxberge</strong></a>|<a href="https://plzplz.de/PLZ_Eckendorf/" title="PLZ Eckendorf"><strong>PLZ Eckendorf</strong></a>|<a href="https://plzplz.de/PLZ_Eiselberg/" title="PLZ Eiselberg"><strong>PLZ Eiselberg</strong></a>|<a href="https://plzplz.de/PLZ_Flemhude/" title="PLZ Flemhude"><strong>PLZ Flemhude</strong></a>|<a href="https://plzplz.de/PLZ_Gardelegen/" title="PLZ Gardelegen"><strong>PLZ Gardelegen</strong></a>|<a href="https://plzplz.de/PLZ_Glasschleif/" title="PLZ Glasschleif"><strong>PLZ Glasschleif</strong></a>|<a href="https://plzplz.de/PLZ_Godeldorf/" title="PLZ Godeldorf"><strong>PLZ Godeldorf</strong></a>|<a href="https://plzplz.de/PLZ_Hausenried/" title="PLZ Hausenried"><strong>PLZ Hausenried</strong></a>|<a href="https://plzplz.de/PLZ_Höntrop/" title="PLZ Höntrop"><strong>PLZ Höntrop</strong></a>|<a href="https://plzplz.de/PLZ_Jammer/" title="PLZ Jammer"><strong>PLZ Jammer</strong></a>|<a href="https://plzplz.de/PLZ_Kagenow/" title="PLZ Kagenow"><strong>PLZ Kagenow</strong></a>|<a href="https://plzplz.de/PLZ_Kleinsteinfeld/" title="PLZ Kleinsteinfeld"><strong>PLZ Kleinsteinfeld</strong></a>|<a href="https://plzplz.de/PLZ_Niederdollendorf/" title="PLZ Niederdollendorf"><strong>PLZ Niederdollendorf</strong></a>|<a href="https://plzplz.de/PLZ_Norf/" title="PLZ Norf"><strong>PLZ Norf</strong></a>|<a href="https://plzplz.de/PLZ_Oberadlfurt/" title="PLZ Oberadlfurt"><strong>PLZ Oberadlfurt</strong></a>|<a href="https://plzplz.de/PLZ_Oelhäuser/" title="PLZ Oelhäuser"><strong>PLZ Oelhäuser</strong></a>|<a href="https://plzplz.de/PLZ_Ottmannsreuth/" title="PLZ Ottmannsreuth"><strong>PLZ Ottmannsreuth</strong></a>|<a href="https://plzplz.de/PLZ_Pildenau/" title="PLZ Pildenau"><strong>PLZ Pildenau</strong></a>|<a href="https://plzplz.de/PLZ_Rammingen/" title="PLZ Rammingen"><strong>PLZ Rammingen</strong></a>|<a href="https://plzplz.de/PLZ_Schmon/" title="PLZ Schmon"><strong>PLZ Schmon</strong></a>|<a href="https://plzplz.de/PLZ_Seelingstädt-Bahnhof/" title="PLZ Seelingstädt-Bahnhof"><strong>PLZ Seelingstädt-Bahnhof</strong></a>|<a href="https://plzplz.de/PLZ_Sehestedt/" title="PLZ Sehestedt"><strong>PLZ Sehestedt</strong></a>|<a href="https://plzplz.de/PLZ_Sigmertshausen/" title="PLZ Sigmertshausen"><strong>PLZ Sigmertshausen</strong></a>|<a href="https://plzplz.de/PLZ_Steißlingen/" title="PLZ Steißlingen"><strong>PLZ Steißlingen</strong></a>|<a href="https://plzplz.de/PLZ_Wonnau/" title="PLZ Wonnau"><strong>PLZ Wonnau</strong></a>|<a href="https://plzplz.de/PLZ_Zellerberg/" title="PLZ Zellerberg"><strong>PLZ Zellerberg</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 88289</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Adlerstraße/">Adlerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Adlerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Ahornweg/">Ahornweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Ahornweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Alpenweg/">Alpenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Alpenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Am_Kohlenberg/">Am Kohlenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Am_Kohlenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hannober/">Hannober</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Am_Langholz/">Am Langholz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Am_Langholz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Am_Mittelberg/">Am Mittelberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Am_Mittelberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Am_Schloßberg/">Am Schloßberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Am_Schloßberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Am_Wallgraben/">Am Wallgraben</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Am_Wallgraben/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Amtzeller_Straße/">Amtzeller Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Amtzeller_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Appen/">Appen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Appen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Badstuben/">Badstuben</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Badstuben/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Bannried/">Bannried</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Bannried/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Bannrieder_Straße/">Bannrieder Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Bannrieder_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Bauernjörgstraße/">Bauernjörgstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Bauernjörgstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Baurenmühle/">Baurenmühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Baurenmühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Bildspitz/">Bildspitz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Bildspitz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Birkenweg/">Birkenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Birkenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Blaser/">Blaser</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Blaser/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Blauensee/">Blauensee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Blauensee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Bodnegger_Straße/">Bodnegger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Bodnegger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Brachäcker/">Brachäcker</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Brachäcker/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Breitenbergstraße/">Breitenbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Breitenbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Buchenweg/">Buchenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Buchenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Burgweg/">Burgweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Burgweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Bussardweg/">Bussardweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Bussardweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Dietenberg/">Dietenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Dietenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Edensbach/">Edensbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Edensbach/">Edensbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Edensbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Egg/">Egg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Egg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Ehrlen/">Ehrlen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Ehrlen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Eichenweg/">Eichenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Eichenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Ershaus/">Ershaus</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Ershaus/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Eulenweg/">Eulenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Eulenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Falkenweg/">Falkenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Falkenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Fasanenweg/">Fasanenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Fasanenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Feld/">Feld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Feld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Forstenhausen/">Forstenhausen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Forstenhausen/">Forstenhausen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Forstenhausen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Frankenberg/">Frankenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Frankenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Füglesmühle/">Füglesmühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Füglesmühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Füssinger/">Füssinger</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Füssinger/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Gehrenäcker/">Gehrenäcker</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Gehrenäcker/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Greut/">Greut</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Greut/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Grüntenstraße/">Grüntenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Grüntenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Habichtweg/">Habichtweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Habichtweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Habnitweg/">Habnitweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Habnitweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hannober/">Hannober</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Hannober/">Hannober</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Hannober/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Hauptstraße/">Hauptstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Hauptstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Hecker/">Hecker</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Hecker/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Hinterwiddum/">Hinterwiddum</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Hinterwiddum/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Hochgratstraße/">Hochgratstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Hochgratstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Hoher-Ifen-Weg/">Hoher-Ifen-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Hoher-Ifen-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Im_Ösch/">Im Ösch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Im_Ösch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Imbergweg/">Imbergweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Imbergweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Kanisfluhweg/">Kanisfluhweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Kanisfluhweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Kastanienweg/">Kastanienweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Kastanienweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Kesenweiler/">Kesenweiler</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Kesenweiler/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Kesenweilerstraße/">Kesenweilerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Kesenweilerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Kirchsteige/">Kirchsteige</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Kirchsteige/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Kohlenberg/">Kohlenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Kohlenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Kohlhaus/">Kohlhaus</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Kohlhaus/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Kronenberger_Straße/">Kronenberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Kronenberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Krottenbühl/">Krottenbühl</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Krottenbühl/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Lerchenweg/">Lerchenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Lerchenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Lindenweg/">Lindenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Lindenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Mader/">Mader</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Mader/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Magnusweg/">Magnusweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Magnusweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Maiertal/">Maiertal</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Maiertal/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Milanweg/">Milanweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Milanweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Morgenhof/">Morgenhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Morgenhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Neuschel/">Neuschel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Neuschel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Neuwaldburg/">Neuwaldburg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Neuwaldburg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Niggel/">Niggel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Niggel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Obergreut/">Obergreut</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Obergreut/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Ottolehen/">Ottolehen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Ottolehen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Paul-Mayer-Straße/">Paul-Mayer-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Paul-Mayer-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Pfänderweg/">Pfänderweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Pfänderweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Rebhuhnweg/">Rebhuhnweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Rebhuhnweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Reichermoos/">Reichermoos</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Reichermoos/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Reinhold-Abele-Straße/">Reinhold-Abele-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Reinhold-Abele-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Reute/">Reute</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Reute/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Ried/">Ried</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Ried/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Rotenburg/">Rotenburg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Rotenburg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Säntisweg/">Säntisweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Säntisweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Sausenwind/">Sausenwind</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Sausenwind/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Schafmaier/">Schafmaier</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Schafmaier/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Schleife/">Schleife</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Schleife/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Schlierer_Straße/">Schlierer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Schlierer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Schloss/">Schloss</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Schloss/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Schmitteäcker/">Schmitteäcker</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Schmitteäcker/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Schwedengasse/">Schwedengasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Schwedengasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sieberatsreute/">Sieberatsreute</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Sieberatsreute/">Sieberatsreute</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Sieberatsreute/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Sperberweg/">Sperberweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Sperberweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Stocken/">Stocken</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Stocken/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Tannerholz/">Tannerholz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Tannerholz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Teuringer/">Teuringer</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Teuringer/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Torfwerk/">Torfwerk</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Torfwerk/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Truchsess_Weg/">Truchsess Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Truchsess_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Truchsessenweg/">Truchsessenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Truchsessenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Ulmenweg/">Ulmenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Ulmenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Vorderwiddum/">Vorderwiddum</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Vorderwiddum/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Welfenstraße/">Welfenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Welfenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Waldburg/"><strong>PLZ Waldburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Wiedmannsbronn/">Wiedmannsbronn</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_88289/">88289</a></td>
+<td><a href="https://plzplz.de/PLZ_Waldburg/Wiedmannsbronn/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.005 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

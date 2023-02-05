@@ -1,0 +1,392 @@
+Achtern Hof
+Adolf-Stein-Straße
+Agnes-Miegel-Straße
+Albert-Schweitzer-Straße
+Alfred-Dührssen-Straße
+Alte Weddingstedter Landstraße
+Am Bahndamm
+Am Ellervieh
+Am Galgenberg
+Am Kirchhof
+Am Kleinbahnhof
+Am Nußgang
+Am Sportplatz
+Am Stadtpark
+Amrumer Straße
+Amtmann-Rohde-Straße
+Andreas-Stammer-Ring
+Anklamer Straße
+Anna-Engelbrecht-Ring
+Anna-Prall-Weg
+Apenrader Straße
+Arnold-Ebel-Straße
+August-Schölermann-Straße
+Auguste-Ebeling-Straße
+Bachmannstraße
+Bahnhofsgang
+Bahnhofstraße
+Batzdamm
+Bennewohlder Straße
+Bergstraße
+Berliner Straße
+Beselerstraße
+Birkenweg
+Blauer Lappen
+Blauortweg
+Blumenstraße
+Boßelweg
+Brahmsstraße
+Breslauer Straße
+Bromberger Straße
+Bruhnstraße
+Bürgermeister-Blaas-Straße
+Bürgermeister-Vehrs-Straße
+Büsumer Straße
+Danziger Straße
+Dellweg
+Dietrich-Bonhoeffer-Straße
+Dohrnstraße
+Dorfstraße
+Dorlenschweg
+Dorothea-Erxleben-Weg
+Dr.-Cornils-Weg
+Dr.-Gillmeister-Weg
+Dr.-Lammers-Straße
+Dr.-Pauly-Straße
+Duvenheide
+Eduard-Mörike-Damm
+Eekenrebenweg
+Eichendorffstraße
+Eichenredder
+Emil-Gosch-Straße
+Emil-Nolde-Straße
+Erna-Weißenborn-Ring
+Ernst-Mohr-Straße
+Ernst-Tamm-Straße
+Esmarchstraße
+Fasanenweg
+Fehrsplatz
+Feldblick
+Feldstedter Straße
+Feldstraße
+Flensburger Straße
+Föhrer Straße
+Forstweg
+Franz-Bockel-Straße
+Freudenstädter Straße
+Freudental
+Friedensstraße
+Friedrich-Elvers-Straße
+Friedrichstraße
+Friesenweg
+Fritz-Reuter-Straße
+Fritz-Thiedemann-Ring
+Gartenweg
+Gleiwitzer Straße
+Goethestraße
+Gorch-Fock-Straße
+Grashof
+Graudenzer Straße
+Greifenhagener Weg
+Griebelstraße
+Grödeweg
+Große Westerstraße
+Grüner Weg
+Gustav-Thomsen-Straße
+Güterstraße
+Habelweg
+Haderslebener Straße
+Hafenstraße
+Halligweg
+Hamburger Hof
+Hamburger Straße
+Hamburger Straße
+Hans-Böckler-Straße
+Hans-J.-Ramundt-Straße
+Hans-Sierks-Straße
+Harmoniestraße
+Hebbelstraße
+Heimkehrerstraße
+Heimweg
+Heinrich-Claussen-Straße
+Heistedter Straße
+Heisterweg
+Helgoländer Straße
+Helmsander Weg
+Hermann-Claudius-Straße
+Hermann-Löns-Straße
+Himmelreichstraße
+Hindenburgstraße
+Hindenkampring
+Hinrich-Schmidt-Straße
+Hinterm Ziegelhof
+Hochfeld
+Hochfelder Weg
+Hölle
+Holstenweg
+Hoogeweg
+Husarenweg
+Husumer Straße
+Im Grund
+Im grünen Eck
+Im Redder
+Im Sonneneck
+Im Vieh
+Im Wiesengrund
+Im Winkel
+Jahnstraße
+Johann-Hinrich-Fehrs-Straße
+Jürgen-Harder-Straße
+Kaiser-Wilhelm-Platz
+Kelters Drift
+Kirchspielsweg
+Klaus-Groth-Straße
+Klaus-Harms-Straße
+Kleine Freiheit
+Kleine Straße
+Kleine Weide
+Kleine Westerstraße
+Kleiststraße
+Kluckstraße
+Kneippweg
+Kolberger Straße
+Königsberger Straße
+Kreuzstraße
+Landvogt-Johannsen-Straße
+Landweg
+Langendamm
+Langeneßweg
+Lanzenweg
+Lerchenstraße
+Lessingstraße
+Liliencronstraße
+Lilly-Wolff-Straße
+Lindenstraße
+Lise-Meitner-Straße
+Lobeskampweg
+Loher Weg
+Louisenstraße
+Lüttenheid
+Marie-Curie-Weg
+Marienstraße
+Markt
+Marktdrift
+Marschstraße
+Meldorfer Straße
+Mittelstraße
+Möhlenbarg
+Moltkestraße
+Mommsenstraße
+Moorblick
+Moorkamp
+Moorlandweg
+Mühlenstraße
+Naugarder Weg
+Neue Anlage
+Neue Heimat
+Neuwerkstraße
+Norderdamm
+Norderoogweg
+Norderstraße
+Nordstrander Straße
+Notpool
+Nowogarder Straße
+Olandweg
+Österkoppel
+Österstraße
+Österweide
+Ostroher Weg
+Pellwormer Straße
+Peter-Bur-Straße
+Petersstraße
+Posener Straße
+Postelweg
+Poststraße
+Prenzlauer Weg
+Professor-Bier-Straße
+Professor-Heinz-Haber-Straße
+Professor-Hennings-Straße
+Professorin-von-Wrangell-Straße
+Querweg
+Rehdamm
+Reimer-von-Wiemerstedt-Straße
+Rektor-Marten-Straße
+Rendsburger Straße
+Riemannstraße
+Ringreiterweg
+Robert-Koch-Straße
+Röntgenstraße
+Rosenstraße
+Rudolf-Harbig-Weg
+Rudolph-Dirks-Weg
+Rügendamm
+Rundweg
+Rungholtstraße
+Rüsdorfer Straße
+Sandfall
+Sauerbruchstraße
+Schanzenstraße
+Scharhörnweg
+Schillerstraße
+Schlehenweg
+Schleswiger Straße
+Schmiedeweg
+Schnittweg
+Schuhmacherort
+Schweriner Straße
+Semmelweisstraße
+Sickendamm
+Sonderburger Straße
+Sophie-Dethleffs-Straße
+Sophienweg
+Speichergasse
+Stettiner Straße
+Stiftstraße
+Struckweg
+Süderdamm
+Süderholmer Straße
+Südermoorweg
+Süderoogweg
+Süderstraße
+Südfallweg
+Sylter Straße
+Tannenstraße
+Teichkoppel
+Teichstraße
+Tertiusweg
+Theodor-Fontane-Ring
+Theodor-Storm-Straße
+Tilsiter Straße
+Timm-Kröger-Straße
+Tivolistraße
+Tondernstraße
+Trischenweg
+Turnstraße
+Tweitjenkoppel
+Uhlandstraße
+Uwe-Jens-Lornsen-Straße
+Vereinsstraße
+Virchowstraße
+Vogelweide
+Von-Behring-Straße
+Von-Heidenstam-Straße
+Waibelstraße
+Waldschlößchenstraße
+Waldstraße
+Weddingstedter Straße
+Weidenkamp
+Wesselner Chaussee
+Wesselner Weg
+Westermoorweg
+Westerweide
+Wiesengrund
+Wulf-Isebrand-Platz
+Ziegelhofweg
+Zum Autal
+Achtern Knick
+Alte Gärtnerei
+Alte Schulstraße
+Bgm.-Bruhn-Straße
+Birkenweg
+Blauer Lappen
+Bruno-Nielsen-Ring
+Dannholt
+Diekkoppel
+Drosselweg
+Fasanenstraße
+Ferdinand-Jessen-Straße
+Finkenweg
+Friedrichswerk
+Hasenkamp
+Heistereck
+Hermann-Börger-Straße
+Hindenburgweg
+Hohe Geest
+Kapellenberg
+Kattrepel
+Kiewittstieg
+Kirchenallee
+Köstergang
+Krähenwinkel
+Lärchenplatz
+Loher Weg
+Moorstückenweg
+Nehren
+Neuer Heimweg
+Op de Weid
+Persenweg
+Reiherweg
+Ringreiterweg
+Rudolf-Junge-Straße
+Schwalbengang
+Taubenweg
+Treller
+Uhlenhorst
+Wiesengrund
+Dellweg
+Edemannswisch
+Edemannswurth
+Ellernhof
+Eschenallee
+Hauptstraße
+Kastanienallee
+Nannemannshusen
+Oeverwisch
+Poppenhusen
+Poststraße
+Schulstraße
+Weideweg
+Wennemannswisch
+Am Brook
+An Steenoben
+Bronkweg
+Im Dorfe
+Kampen
+Karkweg
+Kringelkrug
+Lütjenkamp
+Neue Straße
+Redder
+Ringreiterplatz
+Spanngrund
+Steinkamp
+Twiete
+Am Rotdorn
+Am Ruthenstrom
+Am Schwarzdorn
+Am Weißdorn
+Amselweg
+An der Bundesstraße 5
+Bgm.-Lohmeier-Ring
+Birkenweg
+Brookweg
+Dithmarscher Straße
+Doppeleiche
+Eichelhäherweg
+Erlenweg
+Eschenkamp
+Eulenkamp
+Fliederweg
+Geestkamp
+Grüner Kamp
+Heider Weg
+Hochfeld
+Holstenstraße
+Im Grünen
+Im Wiesengrund
+Jägerstraße
+Kastanienweg
+Kiefernweg
+Meisenweg
+Nordfelder Straße
+Ole Schoolweg
+Reiterweg
+Schützenstraße
+Schwalbenweg
+Sophienhof
+Sportweg
+Von-Humboldt-Straße
+Voßwurth
+Waldstraße
+Wesling
+Wischweg

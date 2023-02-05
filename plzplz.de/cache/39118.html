@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 39118 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="39118, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 39118 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 39118">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_39118/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 39118 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="39118" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Astfeld/" title="PLZ Astfeld"><strong>PLZ Astfeld</strong></a>|<a href="https://plzplz.de/PLZ_Baierbach/" title="PLZ Baierbach"><strong>PLZ Baierbach</strong></a>|<a href="https://plzplz.de/PLZ_Bergalingen/" title="PLZ Bergalingen"><strong>PLZ Bergalingen</strong></a>|<a href="https://plzplz.de/PLZ_Bitzenhofen/" title="PLZ Bitzenhofen"><strong>PLZ Bitzenhofen</strong></a>|<a href="https://plzplz.de/PLZ_Bolsdorf/" title="PLZ Bolsdorf"><strong>PLZ Bolsdorf</strong></a>|<a href="https://plzplz.de/PLZ_Bösleben/" title="PLZ Bösleben"><strong>PLZ Bösleben</strong></a>|<a href="https://plzplz.de/PLZ_Busch/" title="PLZ Busch"><strong>PLZ Busch</strong></a>|<a href="https://plzplz.de/PLZ_Cronskamp/" title="PLZ Cronskamp"><strong>PLZ Cronskamp</strong></a>|<a href="https://plzplz.de/PLZ_Dietrichsfeld/" title="PLZ Dietrichsfeld"><strong>PLZ Dietrichsfeld</strong></a>|<a href="https://plzplz.de/PLZ_Dreizehnhausen/" title="PLZ Dreizehnhausen"><strong>PLZ Dreizehnhausen</strong></a>|<a href="https://plzplz.de/PLZ_Engenhahn/" title="PLZ Engenhahn"><strong>PLZ Engenhahn</strong></a>|<a href="https://plzplz.de/PLZ_Frichlkofen/" title="PLZ Frichlkofen"><strong>PLZ Frichlkofen</strong></a>|<a href="https://plzplz.de/PLZ_Friebertshausen/" title="PLZ Friebertshausen"><strong>PLZ Friebertshausen</strong></a>|<a href="https://plzplz.de/PLZ_Grabus/" title="PLZ Grabus"><strong>PLZ Grabus</strong></a>|<a href="https://plzplz.de/PLZ_Herdt/" title="PLZ Herdt"><strong>PLZ Herdt</strong></a>|<a href="https://plzplz.de/PLZ_Kautenbach/" title="PLZ Kautenbach"><strong>PLZ Kautenbach</strong></a>|<a href="https://plzplz.de/PLZ_Kützin/" title="PLZ Kützin"><strong>PLZ Kützin</strong></a>|<a href="https://plzplz.de/PLZ_Lürrip/" title="PLZ Lürrip"><strong>PLZ Lürrip</strong></a>|<a href="https://plzplz.de/PLZ_Michendorf/" title="PLZ Michendorf"><strong>PLZ Michendorf</strong></a>|<a href="https://plzplz.de/PLZ_Netzstall/" title="PLZ Netzstall"><strong>PLZ Netzstall</strong></a>|<a href="https://plzplz.de/PLZ_Neustadtgödens/" title="PLZ Neustadtgödens"><strong>PLZ Neustadtgödens</strong></a>|<a href="https://plzplz.de/PLZ_Norderseefeld/" title="PLZ Norderseefeld"><strong>PLZ Norderseefeld</strong></a>|<a href="https://plzplz.de/PLZ_Obersalwey/" title="PLZ Obersalwey"><strong>PLZ Obersalwey</strong></a>|<a href="https://plzplz.de/PLZ_Okel/" title="PLZ Okel"><strong>PLZ Okel</strong></a>|<a href="https://plzplz.de/PLZ_Pöhlde/" title="PLZ Pöhlde"><strong>PLZ Pöhlde</strong></a>|<a href="https://plzplz.de/PLZ_Renzen/" title="PLZ Renzen"><strong>PLZ Renzen</strong></a>|<a href="https://plzplz.de/PLZ_Schönmünzach/" title="PLZ Schönmünzach"><strong>PLZ Schönmünzach</strong></a>|<a href="https://plzplz.de/PLZ_Steinhude/" title="PLZ Steinhude"><strong>PLZ Steinhude</strong></a>|<a href="https://plzplz.de/PLZ_Stinglwager/" title="PLZ Stinglwager"><strong>PLZ Stinglwager</strong></a>|<a href="https://plzplz.de/PLZ_Tewskoppel/" title="PLZ Tewskoppel"><strong>PLZ Tewskoppel</strong></a>|<a href="https://plzplz.de/PLZ_Thanning/" title="PLZ Thanning"><strong>PLZ Thanning</strong></a>|<a href="https://plzplz.de/PLZ_Unterpreuschwitz/" title="PLZ Unterpreuschwitz"><strong>PLZ Unterpreuschwitz</strong></a>|<a href="https://plzplz.de/PLZ_Wachenbuchen/" title="PLZ Wachenbuchen"><strong>PLZ Wachenbuchen</strong></a>|<a href="https://plzplz.de/PLZ_Weckerling/" title="PLZ Weckerling"><strong>PLZ Weckerling</strong></a>|<a href="https://plzplz.de/PLZ_Zaunlehen/" title="PLZ Zaunlehen"><strong>PLZ Zaunlehen</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 39118</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lemsdorf/">Lemsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Am_Akazienbusch/">Am Akazienbusch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Am_Akazienbusch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Am_Busch/">Am Busch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Am_Busch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lemsdorf/">Lemsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Am_Eulegraben/">Am Eulegraben</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Am_Eulegraben/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lemsdorf/">Lemsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Am_Nordenfeld/">Am Nordenfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Am_Nordenfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lemsdorf/">Lemsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/An_der_Klinke/">An der Klinke</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/An_der_Klinke/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Apollostraße/">Apollostraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Apollostraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Asternweg/">Asternweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Asternweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lemsdorf/">Lemsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Ballenstedter_Straße/">Ballenstedter Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Ballenstedter_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Birnenweg/">Birnenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Birnenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lemsdorf/">Lemsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Blankenburger_Straße/">Blankenburger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Blankenburger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lemsdorf/">Lemsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Bodestraße/">Bodestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Bodestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lemsdorf/">Lemsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Brenneckestraße/">Brenneckestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Brenneckestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Brenneckestraße/">Brenneckestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Brenneckestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sudenburg/">Sudenburg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Brenneckestraße/">Brenneckestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Brenneckestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Bunter_Weg/">Bunter Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Bunter_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Dahlienweg/">Dahlienweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Dahlienweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lemsdorf/">Lemsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Derenburger_Weg/">Derenburger Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Derenburger_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lemsdorf/">Lemsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Drübecker_Weg/">Drübecker Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Drübecker_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lemsdorf/">Lemsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Eisleber_Straße/">Eisleber Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Eisleber_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Fliederweg/">Fliederweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Fliederweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Galileostraße/">Galileostraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Galileostraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lemsdorf/">Lemsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Goslarer_Straße/">Goslarer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Goslarer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Hagedornstraße/">Hagedornstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Hagedornstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Hahnemannstraße/">Hahnemannstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Hahnemannstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lemsdorf/">Lemsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Harzburger_Straße/">Harzburger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Harzburger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Heckenweg/">Heckenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Heckenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Hektorweg/">Hektorweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Hektorweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Hermann-Hesse-Straße/">Hermann-Hesse-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Hermann-Hesse-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Hoffnung-Privatweg/">Hoffnung-Privatweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Hoffnung-Privatweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Holunderweg/">Holunderweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Holunderweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lemsdorf/">Lemsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Ilsenburger_Straße/">Ilsenburger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Ilsenburger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Ilsestraße/">Ilsestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Ilsestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lemsdorf/">Lemsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Im_Winkel/">Im Winkel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Im_Winkel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lemsdorf/">Lemsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/In_der_Spitzbreite/">In der Spitzbreite</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/In_der_Spitzbreite/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lemsdorf/">Lemsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Inselstraße/">Inselstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Inselstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Junoweg/">Junoweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Junoweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Jupiterweg/">Jupiterweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Jupiterweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Juri-Gagarin-Straße/">Juri-Gagarin-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Juri-Gagarin-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Kirschweg/">Kirschweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Kirschweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Kometenweg/">Kometenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Kometenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Kosmonautenweg/">Kosmonautenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Kosmonautenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Kosmos-Promenade/">Kosmos-Promenade</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Kosmos-Promenade/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Kretschmannstraße/">Kretschmannstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Kretschmannstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lemsdorf/">Lemsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Kreuzbreite/">Kreuzbreite</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Kreuzbreite/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Krokusweg/">Krokusweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Krokusweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Leipziger_Chaussee/">Leipziger Chaussee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Leipziger_Chaussee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Lilienweg/">Lilienweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Lilienweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Louis-Braille-Straße/">Louis-Braille-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Louis-Braille-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Lunochodstraße/">Lunochodstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Lunochodstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Maienhof/">Maienhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Maienhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Marsweg/">Marsweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Marsweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Merkurweg/">Merkurweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Merkurweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Milchstraße/">Milchstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Milchstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Narzissenweg/">Narzissenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Narzissenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lemsdorf/">Lemsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Neinstedter_Straße/">Neinstedter Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Neinstedter_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Nelkenweg/">Nelkenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Nelkenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Neptunweg/">Neptunweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Neptunweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lemsdorf/">Lemsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Nienburger_Straße/">Nienburger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Nienburger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lemsdorf/">Lemsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Nordhäuser_Straße/">Nordhäuser Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Nordhäuser_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lemsdorf/">Lemsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Okerstraße/">Okerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Okerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Otto-Baer-Straße/">Otto-Baer-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Otto-Baer-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Pallasweg/">Pallasweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Pallasweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Paracelsusstraße/">Paracelsusstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Paracelsusstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Paul-Schreiber-Straße/">Paul-Schreiber-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Paul-Schreiber-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Planetenweg/">Planetenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Planetenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lemsdorf/">Lemsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Quedlinburger_Straße/">Quedlinburger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Quedlinburger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Quittenweg/">Quittenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Quittenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Rebenweg/">Rebenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Rebenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Resedaweg/">Resedaweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Resedaweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lemsdorf/">Lemsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Rübeländer_Weg/">Rübeländer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Rübeländer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Salbker_Chaussee/">Salbker Chaussee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Salbker_Chaussee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Saturnweg/">Saturnweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Saturnweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lemsdorf/">Lemsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Schierker_Straße/">Schierker Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Schierker_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Schlehenweg/">Schlehenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Schlehenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lemsdorf/">Lemsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Selkeweg/">Selkeweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Selkeweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Siriusweg/">Siriusweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Siriusweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Skorpionstraße/">Skorpionstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Skorpionstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Sojusstraße/">Sojusstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Sojusstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Sputnikstraße/">Sputnikstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Sputnikstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Steinbockstraße/">Steinbockstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Steinbockstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Straße_A/">Straße A</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Straße_A/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Straße_B/">Straße B</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Straße_B/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Straße_C/">Straße C</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Straße_C/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Straße_D/">Straße D</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Straße_D/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Straße_E/">Straße E</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Straße_E/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Straße_F/">Straße F</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Straße_F/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Straße_G/">Straße G</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Straße_G/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Straße_H/">Straße H</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Straße_H/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lemsdorf/">Lemsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Teichstraße/">Teichstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Teichstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lemsdorf/">Lemsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Treseburger_Straße/">Treseburger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Treseburger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Tulpenweg/">Tulpenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Tulpenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Uranusweg/">Uranusweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Uranusweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Venusweg/">Venusweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Venusweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Verlorener_Grundstein/">Verlorener Grundstein</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Verlorener_Grundstein/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Waagestraße/">Waagestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Waagestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Weinbrennerallee/">Weinbrennerallee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Weinbrennerallee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lemsdorf/">Lemsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Wendefurther_Weg/">Wendefurther Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Wendefurther_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Werner-Seelenbinder-Straße/">Werner-Seelenbinder-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Werner-Seelenbinder-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lemsdorf/">Lemsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Wernigeröder_Straße/">Wernigeröder Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Wernigeröder_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Widderstraße/">Widderstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Widderstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Wostokstraße/">Wostokstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Wostokstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Zum_Bördepark/">Zum Bördepark</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Zum_Bördepark/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reform/">Reform</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Zur_Siedlung_Reform/">Zur Siedlung Reform</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_39118/">39118</a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/Zur_Siedlung_Reform/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.005 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

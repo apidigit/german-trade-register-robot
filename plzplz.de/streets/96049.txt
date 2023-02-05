@@ -1,0 +1,284 @@
+Abt-Wolfram-Ring
+Abtsberg
+Adalbertstraße
+Agnesstraße
+Albrecht-von-Eyb-Leite
+Altenburg
+Altenburger Straße
+Alter Graben
+Alter Knock
+Am Bildlein
+Am Bundleshof
+Am Campingplatz
+Am Friedrichsbrunnen
+Am Hahnenweg
+Am Knöcklein
+Am Leinritt
+Am Regnitzufer
+Am Roten Knock
+Am Sportplatz
+Am Steinberg
+Am Weidenbrunnen
+Am Weingarten
+Amselweg
+An der Kettenstraße
+An der Ziegelei
+Andreas-Hofer-Straße
+Andreas-Lang-Steig
+Angerstraße
+Anna-Linder-Platz
+Artur-Landgraf-Straße
+Auf dem Lerchenbühl
+Auf der Höhe
+Aufbaustraße
+Aufseßstraße
+Babenbergerring
+Badstraße
+Balthasargäßchen
+Bamberger Straße
+Bamberger Weg
+Bauchwitzstraße
+Bergstraße
+Bierkrugweg
+Blumenstraße
+Bonhoefferplatz
+Breitäckerstraße
+Bruderwaldstraße
+Brunnenstraße
+Buger Hauptstraße
+Buger Straße
+Bughof
+Burgheimer Lage
+Carl-Schmolz-Weg
+Caspersmeyerstraße
+Cherbonhofstraße
+Christophorusweg
+Concordiastraße
+Die Bergner
+Die Krött
+Dominikanerstraße
+Domplatz
+Domstraße
+Dorotheenstraße
+Dr.-Eisenbart-Hof
+Dr.-Hans-Ehard-Straße
+Dr.-Martinet-Straße
+Dr.-Remeis-Straße
+Dr.-Thomas-Dehler-Straße
+Dunantstraße
+Eichelseeweg
+Eisgrube
+Elisabethenstraße
+Elsa-Brändström-Straße
+Esztergomstraße
+Ezzostraße
+Fabrikbau
+Fischergasse
+Fischerhof
+Flößergasse
+Frankenwaldstraße
+Franziskanergasse
+Frauenplatz
+Fraunbergstraße
+Fritz-Bayerlein-Weg
+Fritz-Eberle-Straße
+Frutolfstraße
+Gackensteinweg
+Garagenweg
+Gartenstraße
+Gaustadter Hauptstraße
+Gebrüder-Pfau-Straße
+Georg-Mann-Straße
+Geyerswörthplatz
+Giselastraße
+Grabfeldstraße
+Graf-Arnold-Straße
+Grünhundsbrunnen
+Grüntalstraße
+Gumboldsleite
+Guntherstraße
+Häfnerstraße
+Halbäcker
+Hans-Wölfel-Straße
+Haßbergestraße
+Heidengasse
+Heinrich-Semlinger-Straße
+Heinrichshöhe
+Helmholtzstraße
+Hennebergerstraße
+Heringsgraben
+Herrenstraße
+Heßlergasse
+Hetzerstraße
+Heunischstraße
+Hezilostraße
+Hildegardstraße
+Hinterer Bach
+Hinterer Knock
+Höcherbühl
+Höfener Weg
+Hohe-Kreuz-Straße
+Hohenlohestraße
+Hohenstauferstraße
+Höhenstraße
+Hölle
+Hopfengartenstraße
+Im Bauernfeld
+Im Dunster
+Im Eichhorn
+Im Färbersgarten
+Im Sücklein
+Im Wiesengrund
+In der Warth
+Jakobsberg
+Jakobsplatz
+Judenstraße
+Jungfernleite
+Jungkreutstraße
+Jurastraße
+Karl-Leicht-Straße
+Karl-May-Straße
+Karmelitenplatz
+Karolinenstraße
+Kasernstraße
+Katzenberg
+Kindleinseiche
+Kirchweg
+Kleebaumsgasse
+Köhlerstraße
+König-Konrad-Straße
+Kroatengasse
+Krötleinstraße
+Lange Äcker
+Langgartenstraße
+Laurenziplatz
+Laurenzistraße
+Leiten
+Lobenhofferstraße
+Lorbersgasse
+Ludwigshöhe
+Lugbank
+Maienbrunnen
+Mainluststraße
+Mannshalm
+Maria-Lerch-Weg
+Martin-Ott-Straße
+Maternstraße
+Meinhardtstraße
+Meranierstraße
+Michael-Rümmer-Straße
+Michelsberg
+Michelsberger Straße
+Milchweg
+Mittlere Seelgasse
+Mittlerer Kaulberg
+Molitorgasse
+Mönchsleite
+Müllerfeldweg
+Obere Dorotheenstraße
+Obere Karolinenstraße
+Obere Mühlbrücke
+Obere Sandstraße
+Obere Seelgasse
+Oberer Kaulberg
+Oberer Leinritt
+Oberer Stephansberg
+Oberes Gäßchen
+Ochsenanger
+Ottobrunnen
+Ottoplatz
+Panzerleite
+Paracelsusstraße
+Paradiesweg
+Pelzmühlweg
+Peter-Link-Straße
+Peter-Schneider-Straße
+Pfahlplätzchen
+Pfarrer-Kneipp-Hof
+Pfarrgasse
+Pulvergasse
+Rattlerstraße
+Renkfeldweg
+Riegelhofgasse
+Ringleinsgasse
+Rinnersteig
+Robert-Koch-Straße
+Rodelbahn
+Roppeltsgasse
+Rössleinsweg
+Röthelbachweg
+Rothofer Straße
+Rothofer Weg
+Rothofleite
+Salierstraße
+Sandbad
+Schellenbergerstraße
+Schimmelsgasse
+Schlagfeldweg
+Schloßstraße
+Schlüsselbergerstraße
+Schneisenweg
+Schorkstraße
+Schranne
+Schreiberstraße
+Schrottenberggasse
+Schulplatz
+Schweinfurter Straße
+Seefriedweg
+Seewiesenstraße
+Semmelweisstraße
+Siedlungsweg
+Sodalenruh
+Sonnenplätzchen
+St.-Getreu-Straße
+Staffelbergweg
+Stammfeldstraße
+Stegauracher Straße
+Steigerwaldstraße
+Stephansplatz
+Sternwartstraße
+Storchsgasse
+Sturzstraße
+Suidgerstraße
+Sutristraße
+Sutte
+Sylvanerweg
+Tarvisstraße
+Teufelsgraben
+Titusstraße
+Unterauracher Weg
+Untere Brücke
+Untere Sandstraße
+Untere Seelgasse
+Unterer Kaulberg
+Unterer Leinritt
+Unterer Stephansberg
+Valentin-Becker-Straße
+Valentin-Rathgeber-Straße
+Viktor-von-Scheffel-Straße
+Vögleinsleite
+Vogtstraße
+Volkfeldstraße
+Von-Reider-Straße
+Von-Rotenhan-Straße
+Vorderer Bach
+Wagnersleite
+Waizendorfer Straße
+Waldstraße
+Waldwiesenstraße
+Weichselfeld
+Weiherstraße
+Weinbergweg
+Weiße Marterstraße
+Weyermannstraße
+Wiesenteich
+Wildensorger Hauptstraße
+Wildensorger Straße
+Willostraße
+Winkelweg
+Würzburger Straße
+Ziegeleistraße
+Ziegelgasse
+Ziegelhof
+Ziegelhüttenweg
+Zieglerschlag

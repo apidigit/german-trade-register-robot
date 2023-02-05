@@ -1,0 +1,369 @@
+Ackerstraße
+Ahornweg
+Albert-Schweitzer-Straße
+Albertus-Magnus-Straße
+Alexander-von-Humboldt-Straße
+Alkenstraße
+Alleestraße
+Allenzer Straße
+Alte Heerstraße
+Alte Hohl
+Alter Andernacher Weg
+Am Barwinkel
+Am Brückentor
+Am Bürgerhaus
+Am Dorfbrunnen
+Am Erdwall
+Am Fichtenwäldchen
+Am Hansenkreuz
+Am Hasberg
+Am Heckenberg
+Am Hungerbach
+Am Kirchenhügel
+Am Kirchershof
+Am Knüppchen
+Am Lavafeld
+Am Layenborn
+Am Layerhof
+Am Mosellaplatz
+Am Mühlenturm
+Am Neutor
+Am Obertor
+Am Park
+Am Scheid
+Am Sonnenhang
+Am Sürchen
+Am Taubenberg
+Am Vulkanpark
+Am Wasserturm
+Am Wittbender Tor
+Amselweg
+An den Mühlsteinen
+An der Bleiche
+An der Kirche
+An der Lay
+An der Saalburg
+An der Stadtmauer
+An der Teichwiese
+An Sagnesmühle
+Auf Briddel
+Auf dem Hügel
+Auf dem Weingarten
+Auf dem Werth
+Auf den Steinen
+Auf der Eich
+Auf der Klapp
+Auf Nebels
+Bachstraße
+Bäckerstraße
+Backewiese
+Bahnhofstraße
+Balduinstraße
+Balthasar-Krems-Straße
+Bannerberg
+Basaltweg
+Bergstraße
+Bernardshof
+Berresheimer Straße
+Betzinger Landstraße
+Betzinger Weg
+Birkenhof
+Birkenweg
+Bleichenweg
+Blumenstraße
+Boemundring
+Bornhaustert
+Breslaustraße
+Brückenstraße
+Brunnenstraße
+Buchenstraße
+Bundesstraße
+Burgfrieden
+Bürresheimer Straße
+Cederwaldstraße
+Cond
+Conder Straße
+Conderhöhe
+Dorfstraße
+Drötscherstraße
+Eduard-Rhein-Straße
+Eichendorffstraße
+Eichenstraße
+Eifelplatz
+Eifelstraße
+Einsteinstraße
+Eintrachtstraße
+Eiterbachtal
+Eltzer Straße
+Entenpfuhl
+Erlenstraße
+Eschenweg
+Ettringer Weg
+Feilsgraben
+Fernblick
+Finkenweg
+Finstingenstraße
+Fontanestraße
+Frankenstraße
+Friedlandstraße
+Friedrich-Ebert-Straße
+Gartenstraße
+Geisheckerhof
+Genovevastraße
+Gerberstraße
+Geringer Straße
+Germanenstraße
+Gevelsbergstraße
+Gipsmühle
+Göbelstraße
+Goethestraße
+Goldbuschweg
+Golostraße
+Gottlieb-Daimler-Straße
+Graf-Zeppelin-Straße
+Grube Katzenberg
+Grubenfeld
+Habsburgring
+Hahnengasse
+Harry-Garm-Weg
+Haselnussweg
+Hauptstraße
+Hausener Landstraße
+Hausener Straße
+Haydn-Weg
+Hinter Burg
+Hinter dem Westbahnhof
+Hinter den Ställen
+Hinter Forst
+Hochscheidstraße
+Hochstraße
+Hohlstraße
+Hohlweiden
+Hölderlinstraße
+Holler Pfad
+Holunderweg
+Hospitalgasse
+Hubertusstraße
+Im Aller
+Im Altenborn
+Im Bannen
+Im Bienengarten
+Im Borngraben
+Im Borntal
+Im Bungert
+Im Dehlengarten
+Im Etzlergraben
+Im Evgestal
+Im Flürchen
+Im Hombrich
+Im Hostert
+Im Keutel
+Im Möhren
+Im Nettetal
+Im Preul
+Im Trinnel
+Im Vogelsang
+Im Weiherhölzchen
+Im Wingert
+In den Steingärten
+In den Wingerten
+In der Merk
+In der Pluns
+In der Weiersbach
+Industriestraße
+Jägersköpfchen
+Jägerstieg
+Jägerstraße
+Joignystraße
+Justus-von-Liebig-Straße
+Kaiserstraße
+Kalenbornerhof
+Karbachsberg
+Karolingerstraße
+Kastanienweg
+Katzenberger Weg
+Kehriger Straße
+Kelberger Straße
+Keltenstraße
+Kirchgasse
+Kirchplatz
+Kirchstraße
+Kirchwalder Straße
+Koblenzer Straße
+Kolpingstraße
+Königsbergstraße
+Konner Paradies
+Konner Pfad
+Kottenheimer Straße
+Kottenheimer Weg
+Krechels Eck
+Kreuzgang
+Kuckucksberg
+Kuhtrift
+Kürrenberger Steig
+Kürrenberger Straße
+Kurze Kunde
+Laachstraße
+Lapidea Weg
+Lavastraße
+Layenweg
+Leanderweg
+Lenauweg
+Lendstraße
+Lerchenweg
+Lindenstraße
+Liszt-Weg
+Ludwig-Erhard-Straße
+Magmastraße
+Mahlerstraße
+Maifeldstraße
+Marienburgstraße
+Mario Adorf-Burgweg
+Marktplatz
+Marktstraße
+Mauerstraße
+Mayener Straße
+Meisenweg
+Mendelssohnweg
+Michel-Schäfer-Straße
+Mittelstraße
+Monrealer Straße
+Mörikestraße
+Mosellaschacht
+Mozart-Weg
+Mühlenweg
+Müllershof
+Nachtigallenweg
+Nettehof
+Neustraße
+Nikolaus-Otto-Straße
+Nordumgehung
+Ober dem Driesch
+Obere Grabenstraße
+Obere Kond
+Orsbeckstraße
+Ostbahnhofstraße
+Ostrampe
+Papiermühle
+Pastor-Schlink-Straße
+Pellenzstraße
+Peter-Diederich-Weg
+Pfarrer-Kneipp-Straße
+Pfarrer-Kowollik-Weg
+Pfarrer-Winand-Straße
+Pfarrstraße
+Polcher Straße
+Pumpenweg
+Rathausgasse
+Ravensteynweg
+Richard-Labonte-Straße
+Robert-Bosch-Straße
+Robert-Koch-Straße
+Römerhügel
+Römerstieg
+Römerstraße
+Röntgenstraße
+Rosengasse
+Rotdornweg
+Rüberswinkel
+Rudolf-Diesel-Straße
+Sauerbornweg
+Sauerbruchstraße
+Schieferweg
+Schillerstraße
+Schloss-Straße
+Schlotterhof
+Schöne Aussicht
+Schulweg
+Schützenstraße
+Seekante
+Semmelweisstraße
+Siegfriedstraße
+Siska-Kunz-Weg
+Sonnenstraße
+Spechtsgraben
+Spurzemer Weg
+St.-Barbara-Straße
+St.-Bernhard-Straße
+St.-Johanner-Straße
+St.-Silvester-Straße
+St.-Veit-Straße
+Stehbach
+Steinweg
+Stettinstraße
+Stocktal
+Strauß-Weg
+Talstraße
+Tannenweg
+Thomashof
+Töpferstraße
+Trevererweg
+Triaccaweg
+Trierer Weg
+Trimbser Weg
+Uferstraße
+Uhlandstraße
+Untere Grabenstraße
+Van-Beethoven-Weg
+Virchowstraße
+Von-Behring-Straße
+Von-der-Leyen-Straße
+Vulkaneifelstraße
+Wacholderweg
+Waldstraße
+Wasserpförtchen
+Werkelslay
+Westbahnhofstraße
+Wiesenweg
+Wittbende
+Wölwerhöfe
+Zum Eichenhügel
+Zum Funkental
+Zur Mühle
+Am Hochgarten
+Am Nachtgraben
+Auf der Burnick
+Dellegarten
+Gartenstraße
+Hauptstraße
+Hirtenberger Höfe
+In der Delle
+Klosterstraße
+Kürrenberger Straße
+Mayener Straße
+Monrealer Weg
+Neustraße
+Sonnenweg
+Talstraße
+Waldstraße
+Wiesenweg
+Zwischen den Häusern
+An der Raest
+Auf Beul
+Auf Buchkammen
+Auf der Trinnel
+Backhausstraße
+Barbarastraße
+Bellerweg
+Blumenstraße
+Brachems
+Buhrweg
+Bürresheim
+Bürresheimer Straße
+Ettringer Straße
+Florinstraße
+Gartenstraße
+Hammes Mühle
+Hauptstraße
+Hochsimmer Straße
+Im Dömpel
+Kirchstraße
+Marienstraße
+Mayener Straße
+Nettetal
+Neustraße
+Schloß Bürresheim
+Silbersand
+Südstraße
+Vulkanstraße
+Waldstraße

@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 96268 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="96268, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 96268 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 96268">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_96268/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 96268 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="96268" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Bärnhöhe/" title="PLZ Bärnhöhe"><strong>PLZ Bärnhöhe</strong></a>|<a href="https://plzplz.de/PLZ_Bolstern/" title="PLZ Bolstern"><strong>PLZ Bolstern</strong></a>|<a href="https://plzplz.de/PLZ_Bremelau/" title="PLZ Bremelau"><strong>PLZ Bremelau</strong></a>|<a href="https://plzplz.de/PLZ_Eigenes_Heim/" title="PLZ Eigenes Heim"><strong>PLZ Eigenes Heim</strong></a>|<a href="https://plzplz.de/PLZ_Esterhofen/" title="PLZ Esterhofen"><strong>PLZ Esterhofen</strong></a>|<a href="https://plzplz.de/PLZ_Falkenhof/" title="PLZ Falkenhof"><strong>PLZ Falkenhof</strong></a>|<a href="https://plzplz.de/PLZ_Gierath/" title="PLZ Gierath"><strong>PLZ Gierath</strong></a>|<a href="https://plzplz.de/PLZ_Hemmern/" title="PLZ Hemmern"><strong>PLZ Hemmern</strong></a>|<a href="https://plzplz.de/PLZ_Holthusen_I/" title="PLZ Holthusen I"><strong>PLZ Holthusen I</strong></a>|<a href="https://plzplz.de/PLZ_Hubertushof/" title="PLZ Hubertushof"><strong>PLZ Hubertushof</strong></a>|<a href="https://plzplz.de/PLZ_Iffelsberg/" title="PLZ Iffelsberg"><strong>PLZ Iffelsberg</strong></a>|<a href="https://plzplz.de/PLZ_Kaisheim/" title="PLZ Kaisheim"><strong>PLZ Kaisheim</strong></a>|<a href="https://plzplz.de/PLZ_Kerzendorf/" title="PLZ Kerzendorf"><strong>PLZ Kerzendorf</strong></a>|<a href="https://plzplz.de/PLZ_Kolochau/" title="PLZ Kolochau"><strong>PLZ Kolochau</strong></a>|<a href="https://plzplz.de/PLZ_Lexgaard/" title="PLZ Lexgaard"><strong>PLZ Lexgaard</strong></a>|<a href="https://plzplz.de/PLZ_Müllerdorf/" title="PLZ Müllerdorf"><strong>PLZ Müllerdorf</strong></a>|<a href="https://plzplz.de/PLZ_Niesassen/" title="PLZ Niesassen"><strong>PLZ Niesassen</strong></a>|<a href="https://plzplz.de/PLZ_Oberegg/" title="PLZ Oberegg"><strong>PLZ Oberegg</strong></a>|<a href="https://plzplz.de/PLZ_Obergölitz/" title="PLZ Obergölitz"><strong>PLZ Obergölitz</strong></a>|<a href="https://plzplz.de/PLZ_Oberrothof/" title="PLZ Oberrothof"><strong>PLZ Oberrothof</strong></a>|<a href="https://plzplz.de/PLZ_Orsoy/" title="PLZ Orsoy"><strong>PLZ Orsoy</strong></a>|<a href="https://plzplz.de/PLZ_Pöppschen/" title="PLZ Pöppschen"><strong>PLZ Pöppschen</strong></a>|<a href="https://plzplz.de/PLZ_Riddagshausen/" title="PLZ Riddagshausen"><strong>PLZ Riddagshausen</strong></a>|<a href="https://plzplz.de/PLZ_Ritzenbüttel/" title="PLZ Ritzenbüttel"><strong>PLZ Ritzenbüttel</strong></a>|<a href="https://plzplz.de/PLZ_Schura/" title="PLZ Schura"><strong>PLZ Schura</strong></a>|<a href="https://plzplz.de/PLZ_Solching/" title="PLZ Solching"><strong>PLZ Solching</strong></a>|<a href="https://plzplz.de/PLZ_Spaatz/" title="PLZ Spaatz"><strong>PLZ Spaatz</strong></a>|<a href="https://plzplz.de/PLZ_Talheim/" title="PLZ Talheim"><strong>PLZ Talheim</strong></a>|<a href="https://plzplz.de/PLZ_Trautheim/" title="PLZ Trautheim"><strong>PLZ Trautheim</strong></a>|<a href="https://plzplz.de/PLZ_Unterkretzbach/" title="PLZ Unterkretzbach"><strong>PLZ Unterkretzbach</strong></a>|<a href="https://plzplz.de/PLZ_Vierhausen/" title="PLZ Vierhausen"><strong>PLZ Vierhausen</strong></a>|<a href="https://plzplz.de/PLZ_Vorderhoibl/" title="PLZ Vorderhoibl"><strong>PLZ Vorderhoibl</strong></a>|<a href="https://plzplz.de/PLZ_Wadrill/" title="PLZ Wadrill"><strong>PLZ Wadrill</strong></a>|<a href="https://plzplz.de/PLZ_Zand/" title="PLZ Zand"><strong>PLZ Zand</strong></a>|<a href="https://plzplz.de/PLZ_Zitterpenningshagen/" title="PLZ Zitterpenningshagen"><strong>PLZ Zitterpenningshagen</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 96268</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Am_Grünen_Tal/">Am Grünen Tal</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Am_Grünen_Tal/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Am_Herrschaftsstück/">Am Herrschaftsstück</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Am_Herrschaftsstück/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Am_Lerchenfeld/">Am Lerchenfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Am_Lerchenfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Steinach_a._d._Steinach/">Steinach a. d. Steinach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Am_Mühlbach/">Am Mühlbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Am_Mühlbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Am_Pachtershof/">Am Pachtershof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Am_Pachtershof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Am_Riegel/">Am Riegel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Am_Riegel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Am_Säbel/">Am Säbel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Am_Säbel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Am_Teich/">Am Teich</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Am_Teich/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Am_Wald/">Am Wald</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Am_Wald/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Am_Wolfsgarten/">Am Wolfsgarten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Am_Wolfsgarten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leutendorf/">Leutendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/An_der_Gubel/">An der Gubel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/An_der_Gubel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Steinach_a._d._Steinach/">Steinach a. d. Steinach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/An_der_Wolfsgrube/">An der Wolfsgrube</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/An_der_Wolfsgrube/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Steinach_a._d._Steinach/">Steinach a. d. Steinach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Angerstraße/">Angerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Angerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Angerwustung/">Angerwustung</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Angerwustung/">Angerwustung</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Angerwustung/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Aumühle/">Aumühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Aumühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bächlein/">Bächlein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Bächlein/">Bächlein</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Bächlein/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Steinach_a._d._Steinach/">Steinach a. d. Steinach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Bahnhofstraße/">Bahnhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Bahnhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bätzenwustung/">Bätzenwustung</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Bätzenwustung/">Bätzenwustung</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Bätzenwustung/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Steinach_a._d._Steinach/">Steinach a. d. Steinach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Birklesstraße/">Birklesstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Birklesstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Blumenstraße/">Blumenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Blumenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bohlswustung/">Bohlswustung</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Bohlswustung/">Bohlswustung</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Bohlswustung/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Breitenseeweg/">Breitenseeweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Breitenseeweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Bubsgäßchen/">Bubsgäßchen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Bubsgäßchen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Burgstall/">Burgstall</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Burgstall/">Burgstall</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Burgstall/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Burgstaller_Weg/">Burgstaller Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Burgstaller_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Coburger_Straße/">Coburger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Coburger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dickenwustung/">Dickenwustung</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Dickenwustung/">Dickenwustung</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Dickenwustung/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Friedhofstraße/">Friedhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Friedhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Froschgrün/">Froschgrün</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Froschgrün/">Froschgrün</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Froschgrün/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neundorf/">Neundorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Gartenäckerweg/">Gartenäckerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Gartenäckerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Gartenstraße/">Gartenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Gartenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Gebrüder-Dötschel-Straße/">Gebrüder-Dötschel-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Gebrüder-Dötschel-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Haderleinswustung/">Haderleinswustung</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Haderleinswustung/">Haderleinswustung</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Haderleinswustung/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Harthof/">Harthof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Harthof/">Harthof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Harthof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Häusles/">Häusles</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Häusles/">Häusles</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Häusles/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Häuslesweg/">Häuslesweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Häuslesweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hof_a._d._Steinach/">Hof a. d. Steinach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Hof/">Hof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Hof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Horb_a._d._Steinach/">Horb a. d. Steinach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Horb/">Horb</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Horb/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hüttenwustung/">Hüttenwustung</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Hüttenwustung/">Hüttenwustung</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Hüttenwustung/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Jakobsberg/">Jakobsberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Jakobsberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaltenbrunn/">Kaltenbrunn</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Kaltenbrunn/">Kaltenbrunn</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Kaltenbrunn/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neundorf/">Neundorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Kellerweg/">Kellerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Kellerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Kirchplatz/">Kirchplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Kirchplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Steinach_a._d._Steinach/">Steinach a. d. Steinach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Kirchsteig/">Kirchsteig</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Kirchsteig/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Kirchstraße/">Kirchstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Kirchstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Kronacher_Straße/">Kronacher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Kronacher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Krötendorfswustung/">Krötendorfswustung</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Krötendorfswustung/">Krötendorfswustung</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Krötendorfswustung/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leutendorf/">Leutendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Leutendorf/">Leutendorf</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Leutendorf/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Lindenweg/">Lindenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Lindenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lochleithen/">Lochleithen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Lochleithen/">Lochleithen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Lochleithen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neundorf/">Neundorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Lohäckerstraße/">Lohäckerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Lohäckerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Ludwig-Adam-Freund-Weg/">Ludwig-Adam-Freund-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Ludwig-Adam-Freund-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Ludwig-Freiherr-von-Würtzburg-Straße/">Ludwig-Freiherr-von-Würtzburg-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Ludwig-Freiherr-von-Würtzburg-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Steinach_a._d._Steinach/">Steinach a. d. Steinach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Mühlsiedlung/">Mühlsiedlung</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Mühlsiedlung/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaltenbrunn/">Kaltenbrunn</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Müßweg/">Müßweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Müßweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neubau/">Neubau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Neubau/">Neubau</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Neubau/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neundorf/">Neundorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Neundorf/">Neundorf</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Neundorf/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Neundorfer_Straße/">Neundorfer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Neundorfer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Oberes_Schloß/">Oberes Schloß</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Oberes_Schloß/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Pinsenhofstraße/">Pinsenhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Pinsenhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neundorf/">Neundorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Prof.-Bauer-Straße/">Prof.-Bauer-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Prof.-Bauer-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reuterswustung/">Reuterswustung</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Reuterswustung/">Reuterswustung</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Reuterswustung/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Rosenweg/">Rosenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Rosenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rotberg/">Rotberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Rotberg/">Rotberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Rotberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schaumbergwustung/">Schaumbergwustung</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Schaumbergwustung/">Schaumbergwustung</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Schaumbergwustung/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Steinach_a._d._Steinach/">Steinach a. d. Steinach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Schleifmühle/">Schleifmühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Schleifmühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Schlesier_Straße/">Schlesier Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Schlesier_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schnitzerswustung/">Schnitzerswustung</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Schnitzerswustung/">Schnitzerswustung</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Schnitzerswustung/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Schulstraße/">Schulstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Schulstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schwärzdorf/">Schwärzdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Schwärzdorf/">Schwärzdorf</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Schwärzdorf/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaltenbrunn/">Kaltenbrunn</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Seewiese/">Seewiese</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Seewiese/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Sonneberger_Straße/">Sonneberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Sonneberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Steinach_a._d._Steinach/">Steinach a. d. Steinach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Steinach/">Steinach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Steinach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Sudetenstraße/">Sudetenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Sudetenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Thüringer_Straße/">Thüringer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Thüringer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Tulpenweg/">Tulpenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Tulpenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Unteres_Schloß/">Unteres Schloß</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Unteres_Schloß/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Veitenwustung/">Veitenwustung</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Veitenwustung/">Veitenwustung</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Veitenwustung/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Von-Cramer-Klett-Straße/">Von-Cramer-Klett-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Von-Cramer-Klett-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Von-Rosenau-Straße/">Von-Rosenau-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Von-Rosenau-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neundorf/">Neundorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Wacholderweg/">Wacholderweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Wacholderweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neundorf/">Neundorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Waldstraße/">Waldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Waldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Wiesenweg/">Wiesenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Wiesenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Burgstall/">Burgstall</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Wolfsberg/">Wolfsberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Wolfsberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/"><strong>PLZ Mitwitz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hof_a._d._Steinach/">Hof a. d. Steinach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Zur_Mühlleite/">Zur Mühlleite</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_96268/">96268</a></td>
+<td><a href="https://plzplz.de/PLZ_Mitwitz/Zur_Mühlleite/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.017 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

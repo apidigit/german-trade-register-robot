@@ -1,0 +1,1343 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 08223 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="08223, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 08223 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 08223">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_08223/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 08223 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="08223" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Ahegg/" title="PLZ Ahegg"><strong>PLZ Ahegg</strong></a>|<a href="https://plzplz.de/PLZ_Alt_Vorwerk/" title="PLZ Alt Vorwerk"><strong>PLZ Alt Vorwerk</strong></a>|<a href="https://plzplz.de/PLZ_Andorf/" title="PLZ Andorf"><strong>PLZ Andorf</strong></a>|<a href="https://plzplz.de/PLZ_Benningen/" title="PLZ Benningen"><strong>PLZ Benningen</strong></a>|<a href="https://plzplz.de/PLZ_Bollweg/" title="PLZ Bollweg"><strong>PLZ Bollweg</strong></a>|<a href="https://plzplz.de/PLZ_Brandmühle/" title="PLZ Brandmühle"><strong>PLZ Brandmühle</strong></a>|<a href="https://plzplz.de/PLZ_Ehrendorf/" title="PLZ Ehrendorf"><strong>PLZ Ehrendorf</strong></a>|<a href="https://plzplz.de/PLZ_Eichenberg/" title="PLZ Eichenberg"><strong>PLZ Eichenberg</strong></a>|<a href="https://plzplz.de/PLZ_Gervershagen/" title="PLZ Gervershagen"><strong>PLZ Gervershagen</strong></a>|<a href="https://plzplz.de/PLZ_Görgeshausen/" title="PLZ Görgeshausen"><strong>PLZ Görgeshausen</strong></a>|<a href="https://plzplz.de/PLZ_Goßdorf/" title="PLZ Goßdorf"><strong>PLZ Goßdorf</strong></a>|<a href="https://plzplz.de/PLZ_Grimmelshofen/" title="PLZ Grimmelshofen"><strong>PLZ Grimmelshofen</strong></a>|<a href="https://plzplz.de/PLZ_Gundelswind/" title="PLZ Gundelswind"><strong>PLZ Gundelswind</strong></a>|<a href="https://plzplz.de/PLZ_Gute_Mühle/" title="PLZ Gute Mühle"><strong>PLZ Gute Mühle</strong></a>|<a href="https://plzplz.de/PLZ_Holzolling/" title="PLZ Holzolling"><strong>PLZ Holzolling</strong></a>|<a href="https://plzplz.de/PLZ_Jenkwitz/" title="PLZ Jenkwitz"><strong>PLZ Jenkwitz</strong></a>|<a href="https://plzplz.de/PLZ_Klettbach/" title="PLZ Klettbach"><strong>PLZ Klettbach</strong></a>|<a href="https://plzplz.de/PLZ_Kopfsöd/" title="PLZ Kopfsöd"><strong>PLZ Kopfsöd</strong></a>|<a href="https://plzplz.de/PLZ_Langensall/" title="PLZ Langensall"><strong>PLZ Langensall</strong></a>|<a href="https://plzplz.de/PLZ_Maitis/" title="PLZ Maitis"><strong>PLZ Maitis</strong></a>|<a href="https://plzplz.de/PLZ_Mannhof/" title="PLZ Mannhof"><strong>PLZ Mannhof</strong></a>|<a href="https://plzplz.de/PLZ_Mantlarn/" title="PLZ Mantlarn"><strong>PLZ Mantlarn</strong></a>|<a href="https://plzplz.de/PLZ_Orr/" title="PLZ Orr"><strong>PLZ Orr</strong></a>|<a href="https://plzplz.de/PLZ_Pierstling/" title="PLZ Pierstling"><strong>PLZ Pierstling</strong></a>|<a href="https://plzplz.de/PLZ_Propach/" title="PLZ Propach"><strong>PLZ Propach</strong></a>|<a href="https://plzplz.de/PLZ_Sankt_Kilian/" title="PLZ Sankt Kilian"><strong>PLZ Sankt Kilian</strong></a>|<a href="https://plzplz.de/PLZ_Schatzlöd/" title="PLZ Schatzlöd"><strong>PLZ Schatzlöd</strong></a>|<a href="https://plzplz.de/PLZ_Schmalzöd/" title="PLZ Schmalzöd"><strong>PLZ Schmalzöd</strong></a>|<a href="https://plzplz.de/PLZ_Schöningen/" title="PLZ Schöningen"><strong>PLZ Schöningen</strong></a>|<a href="https://plzplz.de/PLZ_Staaken/" title="PLZ Staaken"><strong>PLZ Staaken</strong></a>|<a href="https://plzplz.de/PLZ_Troja/" title="PLZ Troja"><strong>PLZ Troja</strong></a>|<a href="https://plzplz.de/PLZ_Unterschneitbach/" title="PLZ Unterschneitbach"><strong>PLZ Unterschneitbach</strong></a>|<a href="https://plzplz.de/PLZ_Unterstadion/" title="PLZ Unterstadion"><strong>PLZ Unterstadion</strong></a>|<a href="https://plzplz.de/PLZ_Wilkau-Haßlau/" title="PLZ Wilkau-Haßlau"><strong>PLZ Wilkau-Haßlau</strong></a>|<a href="https://plzplz.de/PLZ_Winterschneidbach/" title="PLZ Winterschneidbach"><strong>PLZ Winterschneidbach</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 08223</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Allee/">Allee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Allee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Am_alten_Krankenhaus/">Am alten Krankenhaus</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Am_alten_Krankenhaus/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dorfstadt/">Dorfstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Am_Anger/">Am Anger</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Am_Anger/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Am_Brand/">Am Brand</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Am_Brand/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Am_Datacenter-Park/">Am Datacenter-Park</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Am_Datacenter-Park/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Am_Lohberg/">Am Lohberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Am_Lohberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Am_Markt/">Am Markt</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Am_Markt/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Am_Pfarrlehn/">Am Pfarrlehn</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Am_Pfarrlehn/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Am_Schafacker/">Am Schafacker</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Am_Schafacker/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dorfstadt/">Dorfstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Am_Sportplatz/">Am Sportplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Am_Sportplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Am_Teich/">Am Teich</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Am_Teich/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Am_Wald/">Am Wald</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Am_Wald/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Amtsstraße/">Amtsstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Amtsstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/An_der_Götzenwiese/">An der Götzenwiese</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/An_der_Götzenwiese/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/An_der_Hanneloh/">An der Hanneloh</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/An_der_Hanneloh/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/An_der_Talsperre/">An der Talsperre</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/An_der_Talsperre/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/An_der_Zeidelweide/">An der Zeidelweide</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/An_der_Zeidelweide/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Anton-Günther-Straße/">Anton-Günther-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Anton-Günther-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Auerbacher_Straße/">Auerbacher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Auerbacher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/August-Bebel-Straße/">August-Bebel-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/August-Bebel-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Bahnhofstraße/">Bahnhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Bahnhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Beethovenstraße/">Beethovenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Beethovenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Bleichweg/">Bleichweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Bleichweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Brandstraße/">Brandstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Brandstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Brüderstraße/">Brüderstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Brüderstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Brunnenweg/">Brunnenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Brunnenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Carolaplatz/">Carolaplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Carolaplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Clara-Zetkin-Straße/">Clara-Zetkin-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Clara-Zetkin-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Damaschkestraße/">Damaschkestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Damaschkestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dorfstadt/">Dorfstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Dorfstädter_Straße/">Dorfstädter Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Dorfstädter_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Dr.-Robert-Koch-Straße/">Dr.-Robert-Koch-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Dr.-Robert-Koch-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Dr.-Wilhelm-Külz-Straße/">Dr.-Wilhelm-Külz-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Dr.-Wilhelm-Külz-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Eisenbahnstraße/">Eisenbahnstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Eisenbahnstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Ellefelder_Straße/">Ellefelder Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Ellefelder_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Falgardring/">Falgardring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Falgardring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Feldstraße/">Feldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Feldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Ferdinand-Lassalle-Straße/">Ferdinand-Lassalle-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Ferdinand-Lassalle-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Friedrich-Engels-Straße/">Friedrich-Engels-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Friedrich-Engels-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Gartenstraße/">Gartenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Gartenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Gewerbering/">Gewerbering</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Gewerbering/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Goethestraße/">Goethestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Goethestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Grenzstraße/">Grenzstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Grenzstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Grünbacher_Straße/">Grünbacher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Grünbacher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Grund/">Grund</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Grund/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Hammerbrücker_Straße/">Hammerbrücker Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Hammerbrücker_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Hangweg/">Hangweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Hangweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Hauptstraße/">Hauptstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Hauptstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Heinrich-Heine-Straße/">Heinrich-Heine-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Heinrich-Heine-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Holzbrunnen/">Holzbrunnen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Holzbrunnen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Jahnplatz/">Jahnplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Jahnplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dorfstadt/">Dorfstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Käthe-Kollwitz-Straße/">Käthe-Kollwitz-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Käthe-Kollwitz-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dorfstadt/">Dorfstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Lauterbacher_Straße/">Lauterbacher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Lauterbacher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Lessingstraße/">Lessingstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Lessingstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Lindenstraße/">Lindenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Lindenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Lochsteinweg/">Lochsteinweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Lochsteinweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Louis-Müller-Straße/">Louis-Müller-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Louis-Müller-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Lutherstraße/">Lutherstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Lutherstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Melanchthonstraße/">Melanchthonstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Melanchthonstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Mittlerer_Weg/">Mittlerer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Mittlerer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Mosenstraße/">Mosenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Mosenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Mozartstraße/">Mozartstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Mozartstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Oberer_Weg/">Oberer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Oberer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Oelsnitzer_Straße/">Oelsnitzer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Oelsnitzer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Oskar-Hölzel-Straße/">Oskar-Hölzel-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Oskar-Hölzel-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Paul-Popp-Straße/">Paul-Popp-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Paul-Popp-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Pestalozzistraße/">Pestalozzistraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Pestalozzistraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Plauensche_Straße/">Plauensche Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Plauensche_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Rathenaustraße/">Rathenaustraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Rathenaustraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dorfstadt/">Dorfstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Reumtengrüner_Straße/">Reumtengrüner Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Reumtengrüner_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Rosa-Luxemburg-Straße/">Rosa-Luxemburg-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Rosa-Luxemburg-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Rudolf-Breitscheid-Straße/">Rudolf-Breitscheid-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Rudolf-Breitscheid-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Schillerstraße/">Schillerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Schillerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Schloßplatz/">Schloßplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Schloßplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Schloßstraße/">Schloßstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Schloßstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Siebenhitz/">Siebenhitz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Siebenhitz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Siebenhitzer_Weg/">Siebenhitzer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Siebenhitzer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Spinngasse/">Spinngasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Spinngasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Theodor-Körner-Straße/">Theodor-Körner-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Theodor-Körner-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dorfstadt/">Dorfstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Trieber_Weg/">Trieber Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Trieber_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Unterer_Weg/">Unterer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Unterer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Weißmühlenweg/">Weißmühlenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Weißmühlenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Wenzelstraße/">Wenzelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Wenzelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Willy-Rudert-Platz/">Willy-Rudert-Platz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Willy-Rudert-Platz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Winnweg/">Winnweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Winnweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Wohnpark_am_Brand/">Wohnpark am Brand</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Wohnpark_am_Brand/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dorfstadt/">Dorfstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Ziegengasse/">Ziegengasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Ziegengasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/"><strong>PLZ Falkenstein (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenstein/">Falkenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Zum_Wendelstein/">Zum Wendelstein</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Falkenstein_(Vogtland)/Zum_Wendelstein/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünbach/"><strong>PLZ Grünbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Alte_Muldenberger_Straße/">Alte Muldenberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Alte_Muldenberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünbach/"><strong>PLZ Grünbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünbach-Muldenberg/">Grünbach-Muldenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Am_Bahnhof/">Am Bahnhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Am_Bahnhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünbach/"><strong>PLZ Grünbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Am_Krugler/">Am Krugler</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Am_Krugler/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünbach/"><strong>PLZ Grünbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/An_der_Siedlung/">An der Siedlung</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/An_der_Siedlung/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünbach/"><strong>PLZ Grünbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Bahnhofstraße/">Bahnhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Bahnhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünbach/"><strong>PLZ Grünbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Bergstraße/">Bergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Bergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünbach/"><strong>PLZ Grünbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Falkensteiner_Straße/">Falkensteiner Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Falkensteiner_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünbach/"><strong>PLZ Grünbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Hammerbrücker_Straße/">Hammerbrücker Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Hammerbrücker_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünbach/"><strong>PLZ Grünbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünbach-Muldenberg/">Grünbach-Muldenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Hammerbrücker_Straße/">Hammerbrücker Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Hammerbrücker_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünbach/"><strong>PLZ Grünbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünbach-Muldenberg/">Grünbach-Muldenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Klingenthaler_Straße/">Klingenthaler Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Klingenthaler_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünbach/"><strong>PLZ Grünbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Krumme_Straße/">Krumme Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Krumme_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünbach/"><strong>PLZ Grünbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Muldenberger_Straße/">Muldenberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Muldenberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünbach/"><strong>PLZ Grünbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünbach-Muldenberg/">Grünbach-Muldenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Muldenweg/">Muldenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Muldenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünbach/"><strong>PLZ Grünbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Neustädter_Straße/">Neustädter Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Neustädter_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünbach/"><strong>PLZ Grünbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Pfannenstiel/">Pfannenstiel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Pfannenstiel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünbach/"><strong>PLZ Grünbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Poststraße/">Poststraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Poststraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünbach/"><strong>PLZ Grünbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Querstraße/">Querstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Querstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünbach/"><strong>PLZ Grünbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Rathausstraße/">Rathausstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Rathausstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünbach/"><strong>PLZ Grünbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünbach-Muldenberg/">Grünbach-Muldenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Schönecker_Straße/">Schönecker Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Schönecker_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünbach/"><strong>PLZ Grünbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Schönecker_Weg/">Schönecker Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Schönecker_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünbach/"><strong>PLZ Grünbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Siehdichfür/">Siehdichfür</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Siehdichfür/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünbach/"><strong>PLZ Grünbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Siehdichfürer_Straße/">Siehdichfürer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Siehdichfürer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünbach/"><strong>PLZ Grünbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünbach-Muldenberg/">Grünbach-Muldenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Silberteich/">Silberteich</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Silberteich/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünbach/"><strong>PLZ Grünbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünbach-Muldenberg/">Grünbach-Muldenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Talsperrenweg/">Talsperrenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Talsperrenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünbach/"><strong>PLZ Grünbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Waldstraße/">Waldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Waldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünbach/"><strong>PLZ Grünbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Wendelsteinweg/">Wendelsteinweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Wendelsteinweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünbach/"><strong>PLZ Grünbach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grünbach-Muldenberg/">Grünbach-Muldenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Wiesengrund/">Wiesengrund</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Wiesengrund/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Grünbach/"><strong>PLZ Grünbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Wiesenstraße/">Wiesenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Grünbach/Wiesenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/"><strong>PLZ Neustadt (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neustadt/">Neustadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Am_Bezelberg/">Am Bezelberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Am_Bezelberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/"><strong>PLZ Neustadt (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neustadt/">Neustadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Armeestraße/">Armeestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Armeestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/"><strong>PLZ Neustadt (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neudorf/">Neudorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Ascherwinkel/">Ascherwinkel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Ascherwinkel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/"><strong>PLZ Neustadt (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Poppengrün/">Poppengrün</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Bergener_Straße/">Bergener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Bergener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/"><strong>PLZ Neustadt (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neustadt/">Neustadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Bergstraße/">Bergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Bergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/"><strong>PLZ Neustadt (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neustadt/">Neustadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Birkenweg/">Birkenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Birkenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/"><strong>PLZ Neustadt (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neudorf/">Neudorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Breitenstein/">Breitenstein</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Breitenstein/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/"><strong>PLZ Neustadt (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Poppengrün/">Poppengrün</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Forstweg/">Forstweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Forstweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/"><strong>PLZ Neustadt (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neustadt/">Neustadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Grünbacher_Straße/">Grünbacher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Grünbacher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/"><strong>PLZ Neustadt (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Poppengrün/">Poppengrün</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Hinterer_Weg/">Hinterer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Hinterer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/"><strong>PLZ Neustadt (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Siebenhitz/">Siebenhitz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Neustädter_Straße/">Neustädter Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Neustädter_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/"><strong>PLZ Neustadt (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neustadt/">Neustadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Oberer_Weg/">Oberer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Oberer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/"><strong>PLZ Neustadt (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neustadt/">Neustadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Oberer_Winnweg/">Oberer Winnweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Oberer_Winnweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/"><strong>PLZ Neustadt (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Oberwinn/">Oberwinn</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Oberwinn/">Oberwinn</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Oberwinn/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/"><strong>PLZ Neustadt (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neustadt/">Neustadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Oelsnitzer_Straße/">Oelsnitzer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Oelsnitzer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/"><strong>PLZ Neustadt (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Poppengrün/">Poppengrün</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Oelsnitzer_Straße/">Oelsnitzer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Oelsnitzer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/"><strong>PLZ Neustadt (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Siebenhitz/">Siebenhitz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Plauener_Straße/">Plauener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Plauener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/"><strong>PLZ Neustadt (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neustadt/">Neustadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Sandweg/">Sandweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Sandweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/"><strong>PLZ Neustadt (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neustadt/">Neustadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Scheibenhaus/">Scheibenhaus</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Scheibenhaus/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/"><strong>PLZ Neustadt (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neudorf/">Neudorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Schönecker_Straße/">Schönecker Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Schönecker_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/"><strong>PLZ Neustadt (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Poppengrün/">Poppengrün</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Schönecker_Straße/">Schönecker Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Schönecker_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/"><strong>PLZ Neustadt (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neustadt/">Neustadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Siebenhitzer_Straße/">Siebenhitzer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Siebenhitzer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/"><strong>PLZ Neustadt (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Siebenhitz/">Siebenhitz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Siebenhitzer_Straße/">Siebenhitzer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Siebenhitzer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/"><strong>PLZ Neustadt (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Siebenhitz/">Siebenhitz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Siedlungsweg/">Siedlungsweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Siedlungsweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/"><strong>PLZ Neustadt (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neudorf/">Neudorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Siehdichfürer_Straße/">Siehdichfürer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Siehdichfürer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/"><strong>PLZ Neustadt (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Siebenhitz/">Siebenhitz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Sonnenweg/">Sonnenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Sonnenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/"><strong>PLZ Neustadt (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neustadt/">Neustadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Sportplatzweg/">Sportplatzweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Sportplatzweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/"><strong>PLZ Neustadt (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Unterwinn/">Unterwinn</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Unterwinn/">Unterwinn</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Unterwinn/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/"><strong>PLZ Neustadt (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neudorf/">Neudorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Waldweg/">Waldweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Waldweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/"><strong>PLZ Neustadt (Vogtland)</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Unterwinn/">Unterwinn</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Winnweg/">Winnweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Neustadt_(Vogtland)/Winnweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Werda/"><strong>PLZ Werda</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Alte_Landstraße/">Alte Landstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Alte_Landstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Werda/"><strong>PLZ Werda</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kottengrün/">Kottengrün</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Am_Bühl/">Am Bühl</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Am_Bühl/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Werda/"><strong>PLZ Werda</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kottengrün/">Kottengrün</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Am_Eimberg/">Am Eimberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Am_Eimberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Werda/"><strong>PLZ Werda</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Am_Sonnenblick/">Am Sonnenblick</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Am_Sonnenblick/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Werda/"><strong>PLZ Werda</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kottengrün/">Kottengrün</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Badstraße/">Badstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Badstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Werda/"><strong>PLZ Werda</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kottengrün/">Kottengrün</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Berg/">Berg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Berg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Werda/"><strong>PLZ Werda</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Bergener_Straße/">Bergener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Bergener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Werda/"><strong>PLZ Werda</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kottengrün/">Kottengrün</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Brotenfelder_Weg/">Brotenfelder Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Brotenfelder_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Werda/"><strong>PLZ Werda</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Eimbergweg/">Eimbergweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Eimbergweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Werda/"><strong>PLZ Werda</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kottengrün/">Kottengrün</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Fichtzig/">Fichtzig</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Fichtzig/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Werda/"><strong>PLZ Werda</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Hauptstraße/">Hauptstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Hauptstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Werda/"><strong>PLZ Werda</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kottengrün/">Kottengrün</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Jägerswald/">Jägerswald</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Jägerswald/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Werda/"><strong>PLZ Werda</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Jahnsmühle/">Jahnsmühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Jahnsmühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Werda/"><strong>PLZ Werda</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kottengrün/">Kottengrün</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Kornaer_Straße/">Kornaer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Kornaer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Werda/"><strong>PLZ Werda</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kottengrün/">Kottengrün</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Kottengrüner_Hauptstraße/">Kottengrüner Hauptstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Kottengrüner_Hauptstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Werda/"><strong>PLZ Werda</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Kottengrüner_Straße/">Kottengrüner Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Kottengrüner_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Werda/"><strong>PLZ Werda</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kottengrün/">Kottengrün</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Langer_Weg/">Langer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Langer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Werda/"><strong>PLZ Werda</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kottengrün/">Kottengrün</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Lottengrüner_Straße/">Lottengrüner Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Lottengrüner_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Werda/"><strong>PLZ Werda</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Mittlere_Straße/">Mittlere Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Mittlere_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Werda/"><strong>PLZ Werda</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kottengrün/">Kottengrün</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Oelsnitzer_Straße/">Oelsnitzer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Oelsnitzer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Werda/"><strong>PLZ Werda</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Parkstraße/">Parkstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Parkstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Werda/"><strong>PLZ Werda</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Pfarrstraße/">Pfarrstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Pfarrstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Werda/"><strong>PLZ Werda</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Siedlung/">Siedlung</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Siedlung/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Werda/"><strong>PLZ Werda</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kottengrün/">Kottengrün</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Siedlungsstraße/">Siedlungsstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Siedlungsstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Werda/"><strong>PLZ Werda</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kottengrün/">Kottengrün</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Steinbruchstraße/">Steinbruchstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Steinbruchstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Werda/"><strong>PLZ Werda</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Talsperrenstraße/">Talsperrenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Talsperrenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Werda/"><strong>PLZ Werda</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Wacholderstraße/">Wacholderstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Wacholderstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Werda/"><strong>PLZ Werda</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kottengrün/">Kottengrün</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Werdaer_Straße/">Werdaer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Werdaer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Werda/"><strong>PLZ Werda</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kottengrün/">Kottengrün</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Wiesenweg/">Wiesenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Wiesenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Werda/"><strong>PLZ Werda</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kottengrün/">Kottengrün</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Zum_Jägerswald/">Zum Jägerswald</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_08223/">08223</a></td>
+<td><a href="https://plzplz.de/PLZ_Werda/Zum_Jägerswald/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.006 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 97076 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="97076, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 97076 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 97076">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_97076/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 97076 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="97076" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Algesdorf/" title="PLZ Algesdorf"><strong>PLZ Algesdorf</strong></a>|<a href="https://plzplz.de/PLZ_Assamstadt/" title="PLZ Assamstadt"><strong>PLZ Assamstadt</strong></a>|<a href="https://plzplz.de/PLZ_Bischofsholz/" title="PLZ Bischofsholz"><strong>PLZ Bischofsholz</strong></a>|<a href="https://plzplz.de/PLZ_Böcklersiedlung/" title="PLZ Böcklersiedlung"><strong>PLZ Böcklersiedlung</strong></a>|<a href="https://plzplz.de/PLZ_Bomlitz/" title="PLZ Bomlitz"><strong>PLZ Bomlitz</strong></a>|<a href="https://plzplz.de/PLZ_Diekhof/" title="PLZ Diekhof"><strong>PLZ Diekhof</strong></a>|<a href="https://plzplz.de/PLZ_Dieringhausen/" title="PLZ Dieringhausen"><strong>PLZ Dieringhausen</strong></a>|<a href="https://plzplz.de/PLZ_Eisenbuch/" title="PLZ Eisenbuch"><strong>PLZ Eisenbuch</strong></a>|<a href="https://plzplz.de/PLZ_Exenberg/" title="PLZ Exenberg"><strong>PLZ Exenberg</strong></a>|<a href="https://plzplz.de/PLZ_Garmissen-Garbolzum/" title="PLZ Garmissen-Garbolzum"><strong>PLZ Garmissen-Garbolzum</strong></a>|<a href="https://plzplz.de/PLZ_Großhesselohe/" title="PLZ Großhesselohe"><strong>PLZ Großhesselohe</strong></a>|<a href="https://plzplz.de/PLZ_Hertmann/" title="PLZ Hertmann"><strong>PLZ Hertmann</strong></a>|<a href="https://plzplz.de/PLZ_Hölingen/" title="PLZ Hölingen"><strong>PLZ Hölingen</strong></a>|<a href="https://plzplz.de/PLZ_Inzmühlen/" title="PLZ Inzmühlen"><strong>PLZ Inzmühlen</strong></a>|<a href="https://plzplz.de/PLZ_Kittersburg/" title="PLZ Kittersburg"><strong>PLZ Kittersburg</strong></a>|<a href="https://plzplz.de/PLZ_Klein_Offenseth-Sparrieshoop/" title="PLZ Klein Offenseth-Sparrieshoop"><strong>PLZ Klein Offenseth-Sparrieshoop</strong></a>|<a href="https://plzplz.de/PLZ_Klingenbrunn-Bahnhof/" title="PLZ Klingenbrunn-Bahnhof"><strong>PLZ Klingenbrunn-Bahnhof</strong></a>|<a href="https://plzplz.de/PLZ_Knapsack/" title="PLZ Knapsack"><strong>PLZ Knapsack</strong></a>|<a href="https://plzplz.de/PLZ_Krönhof/" title="PLZ Krönhof"><strong>PLZ Krönhof</strong></a>|<a href="https://plzplz.de/PLZ_Mesmering/" title="PLZ Mesmering"><strong>PLZ Mesmering</strong></a>|<a href="https://plzplz.de/PLZ_Neuhaus/" title="PLZ Neuhaus"><strong>PLZ Neuhaus</strong></a>|<a href="https://plzplz.de/PLZ_Neumühle/" title="PLZ Neumühle"><strong>PLZ Neumühle</strong></a>|<a href="https://plzplz.de/PLZ_Oberlützschera/" title="PLZ Oberlützschera"><strong>PLZ Oberlützschera</strong></a>|<a href="https://plzplz.de/PLZ_Öschle/" title="PLZ Öschle"><strong>PLZ Öschle</strong></a>|<a href="https://plzplz.de/PLZ_Pampow/" title="PLZ Pampow"><strong>PLZ Pampow</strong></a>|<a href="https://plzplz.de/PLZ_Raasdorf/" title="PLZ Raasdorf"><strong>PLZ Raasdorf</strong></a>|<a href="https://plzplz.de/PLZ_Rabelsdorf/" title="PLZ Rabelsdorf"><strong>PLZ Rabelsdorf</strong></a>|<a href="https://plzplz.de/PLZ_Sackstetten/" title="PLZ Sackstetten"><strong>PLZ Sackstetten</strong></a>|<a href="https://plzplz.de/PLZ_Stadtamhof/" title="PLZ Stadtamhof"><strong>PLZ Stadtamhof</strong></a>|<a href="https://plzplz.de/PLZ_Tengling/" title="PLZ Tengling"><strong>PLZ Tengling</strong></a>|<a href="https://plzplz.de/PLZ_Westerscheps/" title="PLZ Westerscheps"><strong>PLZ Westerscheps</strong></a>|<a href="https://plzplz.de/PLZ_Wollenberg/" title="PLZ Wollenberg"><strong>PLZ Wollenberg</strong></a>|<a href="https://plzplz.de/PLZ_Wonnitz/" title="PLZ Wonnitz"><strong>PLZ Wonnitz</strong></a>|<a href="https://plzplz.de/PLZ_Zella-Mehlis/" title="PLZ Zella-Mehlis"><strong>PLZ Zella-Mehlis</strong></a>|<a href="https://plzplz.de/PLZ_Zippelsförde/" title="PLZ Zippelsförde"><strong>PLZ Zippelsförde</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 97076</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Ahornweg/">Ahornweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Ahornweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Albert-Schweitzer-Straße/">Albert-Schweitzer-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Albert-Schweitzer-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Alfons-M.-Mitnacht-Straße/">Alfons-M.-Mitnacht-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Alfons-M.-Mitnacht-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Alte_Würzburger_Straße/">Alte Würzburger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Alte_Würzburger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Am_Bauhof/">Am Bauhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Am_Bauhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grombühl/">Grombühl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Am_Greinberg/">Am Greinberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Am_Greinberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Am_Handelshof/">Am Handelshof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Am_Handelshof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Am_Hasensprung/">Am Hasensprung</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Am_Hasensprung/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Am_Hölzlein/">Am Hölzlein</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Am_Hölzlein/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Am_Mühlenhang/">Am Mühlenhang</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Am_Mühlenhang/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Am_Schießgraben/">Am Schießgraben</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Am_Schießgraben/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Am_Schloßgarten/">Am Schloßgarten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Am_Schloßgarten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Am_Sonnenhof/">Am Sonnenhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Am_Sonnenhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Am_Sonnfeld/">Am Sonnfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Am_Sonnfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Am_Stuck/">Am Stuck</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Am_Stuck/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Am_Trog/">Am Trog</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Am_Trog/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Am_Weinberg/">Am Weinberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Am_Weinberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/An_der_Kürnach/">An der Kürnach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/An_der_Kürnach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Angermaierstraße/">Angermaierstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Angermaierstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Auf_der_Läng/">Auf der Läng</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Auf_der_Läng/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Auf_der_Röthe/">Auf der Röthe</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Auf_der_Röthe/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Auf_der_Schanz/">Auf der Schanz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Auf_der_Schanz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grombühl/">Grombühl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Äußere_Aumühlstraße/">Äußere Aumühlstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Äußere_Aumühlstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Bergstraße/">Bergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Bergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Birkenstraße/">Birkenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Birkenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Buchenweg/">Buchenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Buchenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Carl-Orff-Straße/">Carl-Orff-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Carl-Orff-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grombühl/">Grombühl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Carl-Zeiss-Straße/">Carl-Zeiss-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Carl-Zeiss-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/David-Schuster-Weg/">David-Schuster-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/David-Schuster-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Dorfgraben/">Dorfgraben</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Dorfgraben/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Dr.-Georg-Teichtweier-Straße/">Dr.-Georg-Teichtweier-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Dr.-Georg-Teichtweier-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Dr.-Heinrich-Wunderlich-Straße/">Dr.-Heinrich-Wunderlich-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Dr.-Heinrich-Wunderlich-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Erlenweg/">Erlenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Erlenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Essiggarten/">Essiggarten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Essiggarten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Falkenstraße/">Falkenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Falkenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Fasanenstraße/">Fasanenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Fasanenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grombühl/">Grombühl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Faulenbergstraße/">Faulenbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Faulenbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Ferdinand-Nickles-Straße/">Ferdinand-Nickles-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Ferdinand-Nickles-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Florian-Geyer-Straße/">Florian-Geyer-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Florian-Geyer-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Flürleinstraße/">Flürleinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Flürleinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Fraunhoferstraße/">Fraunhoferstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Fraunhoferstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Friedrich-Bergius-Ring/">Friedrich-Bergius-Ring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Friedrich-Bergius-Ring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Fritz-Erler-Straße/">Fritz-Erler-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Fritz-Erler-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Frühlingstraße/">Frühlingstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Frühlingstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grombühl/">Grombühl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Gattingerstraße/">Gattingerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Gattingerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Georg-Engel-Straße/">Georg-Engel-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Georg-Engel-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Graf-Moritz-Weg/">Graf-Moritz-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Graf-Moritz-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Heisenbergstraße/">Heisenbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Heisenbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Hermann-Mitnacht-Straße/">Hermann-Mitnacht-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Hermann-Mitnacht-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Hermann-Zürrlein-Straße/">Hermann-Zürrlein-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Hermann-Zürrlein-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Herrnhofstraße/">Herrnhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Herrnhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grombühl/">Grombühl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Hertzstraße/">Hertzstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Hertzstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Im_Kreuz/">Im Kreuz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Im_Kreuz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Industriestraße/">Industriestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Industriestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grombühl/">Grombühl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Innere_Aumühlstraße/">Innere Aumühlstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Innere_Aumühlstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Jägerruh/">Jägerruh</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Jägerruh/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Jahnstraße/">Jahnstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Jahnstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Johanniterweg/">Johanniterweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Johanniterweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Joseph-Seitz-Straße/">Joseph-Seitz-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Joseph-Seitz-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Keltenstraße/">Keltenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Keltenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Kitzinger_Straße/">Kitzinger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Kitzinger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Kürnachtalstraße/">Kürnachtalstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Kürnachtalstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Kurze_Gasse/">Kurze Gasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Kurze_Gasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Laurentiusstraße/">Laurentiusstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Laurentiusstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Lengfelder_Höh/">Lengfelder Höh</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Lengfelder_Höh/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Lengfelder_Landwehr/">Lengfelder Landwehr</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Lengfelder_Landwehr/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Liborius-Wagner-Straße/">Liborius-Wagner-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Liborius-Wagner-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Louis-Pasteur-Straße/">Louis-Pasteur-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Louis-Pasteur-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Malteserweg/">Malteserweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Malteserweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grombühl/">Grombühl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Matthias-Thoma-Straße/">Matthias-Thoma-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Matthias-Thoma-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grombühl/">Grombühl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Mittlerer_Greinbergweg/">Mittlerer Greinbergweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Mittlerer_Greinbergweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grombühl/">Grombühl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Nürnberger_Straße/">Nürnberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Nürnberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Nürnberger_Straße/">Nürnberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Nürnberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Oberer_Greinbergweg/">Oberer Greinbergweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Oberer_Greinbergweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Odenwaldstraße/">Odenwaldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Odenwaldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grombühl/">Grombühl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Ohmstraße/">Ohmstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Ohmstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Otto-Roth-Straße/">Otto-Roth-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Otto-Roth-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Otto-Stein-Straße/">Otto-Stein-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Otto-Stein-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Pacotistraße/">Pacotistraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Pacotistraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Philipp-Fasel-Straße/">Philipp-Fasel-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Philipp-Fasel-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Pilziggrundstraße/">Pilziggrundstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Pilziggrundstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Rabanus-Maurus-Straße/">Rabanus-Maurus-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Rabanus-Maurus-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Rembrandtstraße/">Rembrandtstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Rembrandtstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Riedstraße/">Riedstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Riedstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Ritterstiftstraße/">Ritterstiftstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Ritterstiftstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grombühl/">Grombühl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Robert-Bunsen-Straße/">Robert-Bunsen-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Robert-Bunsen-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Robert-Kirchhoff-Straße/">Robert-Kirchhoff-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Robert-Kirchhoff-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Roland-Frank-Straße/">Roland-Frank-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Roland-Frank-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grombühl/">Grombühl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Rosenmühlweg/">Rosenmühlweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Rosenmühlweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Sandäcker/">Sandäcker</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Sandäcker/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Schlehenweg/">Schlehenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Schlehenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Schöpf/">Schöpf</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Schöpf/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Schützensteige/">Schützensteige</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Schützensteige/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grombühl/">Grombühl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Schweinfurter_Straße/">Schweinfurter Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Schweinfurter_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Seepfad/">Seepfad</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Seepfad/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Simon-Blenk-Weg/">Simon-Blenk-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Simon-Blenk-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Sonnenhang/">Sonnenhang</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Sonnenhang/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Sonnleite/">Sonnleite</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Sonnleite/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/St.-Lioba-Straße/">St.-Lioba-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/St.-Lioba-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Stauferstraße/">Stauferstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Stauferstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Steigerwaldstraße/">Steigerwaldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Steigerwaldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Steinbruchweg/">Steinbruchweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Steinbruchweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Talweg/">Talweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Talweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Taschenpfad/">Taschenpfad</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Taschenpfad/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grombühl/">Grombühl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Urlaubstraße/">Urlaubstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Urlaubstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Vogelsangweg/">Vogelsangweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Vogelsangweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Waidmannsteige/">Waidmannsteige</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Waidmannsteige/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Weg_zum_Sportplatz/">Weg zum Sportplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Weg_zum_Sportplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grombühl/">Grombühl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Werner-von-Siemens-Straße/">Werner-von-Siemens-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Werner-von-Siemens-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lengfeld/">Lengfeld</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Werner-von-Siemens-Straße/">Werner-von-Siemens-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_97076/">97076</a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/Werner-von-Siemens-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.006 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

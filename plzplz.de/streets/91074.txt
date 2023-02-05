@@ -1,0 +1,424 @@
+Adalbert-Stifter-Straße
+Adam-Kraft-Straße
+Adi-Dassler-Platz
+Adi-Dassler-Straße
+Adlerstraße
+Adolf-Kolping-Straße
+Ahornstraße
+Albert-Schweitzer-Straße
+Albrecht-Dürer-Straße
+Alfred-Fried-Straße
+Am Behälterberg
+Am Birkenbühl
+Am Buck
+Am Burgwald
+Am Friedhof
+Am Gemeindeweiher
+Am Goldberganger
+Am Gründla
+Am Hallertürlein
+Am Hans-Ottenberg
+Am Hasengarten
+Am Hirtengraben
+Am Rahmberg
+Am Rehweg
+Am Schloßgraben
+Am Stiegelein
+Am Stockberg
+Am Viehtrieb
+Am Wasserwerk
+Am Weihersbach
+Am Wiwaweiher
+Amselweg
+Amsterdamstraße
+An der Aurach
+An der Bieg
+An der Kirche
+An der Schütt
+Anemonenweg
+Anna-Herrmann-Straße
+Anna-Seghers-Straße
+Anne-Frank-Straße
+Ansbacher Straße
+Antwerpenstraße
+Aristide-Briand-Straße
+Asternweg
+Athenstraße
+Auf der Nutzung
+Badener Weg
+Badgasse
+Bahnhofstraße
+Bamberger Straße
+Bayernstraße
+Beethovenstraße
+Benzstraße
+Bergstraße
+Berliner Straße
+Berneisstraße
+Bernhard-Dietz-Weg
+Bertha-von-Suttner-Straße
+Bertolt-Brecht-Straße
+Beutelsdorfer Straße
+Biberweg
+Birkenweg
+Blobenstraße
+Blumenstraße
+Brahmsstraße
+Brentanostraße
+Breslauer Straße
+Brucknerstraße
+Brunnenweg
+Büchenbacher Straße
+Buchenstraße
+Bunzlauer Straße
+Burgstall
+Burgstaller Weg
+Bussardweg
+Cadolzburger Straße
+Carl-von-Ossietzky-Straße
+Carl-Zuckmayer-Straße
+Christoph-Daßler-Straße
+Cyprianstraße
+Dachsweg
+Dahlienstraße
+Daimlerstraße
+Damaschkestraße
+Dambachstraße
+Dechsendorfer Straße
+Dieselstraße
+Dietrich-Bonhoeffer-Straße
+Dohnwaldstraße
+Dondörflein
+Dr.-Daßler-Straße
+Dr.-Fröhlich-Straße
+Dr.-Pezold-Straße
+Dr.-Rühl-Straße
+Dr.-Walther-Straße
+Dr.-Wilhelm-Schaeffler-Straße
+Dr.-Wölfel-Straße
+Ebrachweg
+Eckenmühle
+Edergasse
+Edith-Stein-Straße
+Egerländerstraße
+Egkstraße
+Eichelmühlgasse
+Eichenberg
+Eichendorffstraße
+Eichholzstraße
+Einsteinstraße
+Elisabethstraße
+Engelgasse
+Erich-Kästner-Straße
+Erlanger Straße
+Erlenstraße
+Ernst-Toller-Straße
+Eschenstraße
+Falkendorfer Straße
+Falkenweg
+Fasanenweg
+Feldstraße
+Ferdinand-Buisson-Straße
+Fichtestraße
+Fliederstraße
+Flughafenstraße
+Flurstraße
+Föhrenberg
+Forststraße
+Frankenstraße
+Franz-Hußenether-Straße
+Frauenauracher Straße
+Fridtjof-Nansen-Straße
+Friedrich-Weiler-Platz
+Fuchsweg
+Fürther Straße
+Galgenhofer Straße
+Gartenstraße
+Georg-Elser-Straße
+Gerhart-Hauptmann-Straße
+Geschwister-Scholl-Straße
+Ginsterweg
+Gladiolenstraße
+Glatzer Straße
+Gleiwitzer Straße
+Glockengasse
+Gluckstraße
+Goethestraße
+Görlitzer Straße
+Graf-von-Moltke-Straße
+Graf-von-Stauffenberg-Straße
+Gustav-Hertz-Straße
+Gustav-Stresemann-Straße
+Gutenbergstraße
+Habichtweg
+Hammerbacher Straße
+Händelstraße
+Hannberger Straße
+Hans-Herold-Straße
+Hans-Maier-Straße
+Hans-Ort-Ring
+Hans-Sachs-Straße
+Hans-Sterzl-Straße
+Haundorfer Straße
+Hauptendorfer Straße
+Hauptstraße
+Häuslinger Weg
+Haydnstraße
+Heinestraße
+Heinrichsmühle
+Heinrichstraße
+Helsinkistraße
+Henri-Dunant-Straße
+Hermann-Müller-Straße
+Hessenstraße
+Hintere Gasse
+Hirschberger Straße
+Hirtenbuckstraße
+Hirtenwiesen
+Höchstadter Weg
+Höfener Straße
+Hofwiesenstraße
+Holsteiner Weg
+Holunderweg
+Holzäckerstraße
+Horst-Dassler-Straße
+Hubertusstraße
+Hüttendorfer Straße
+Hutweg
+Im Espan
+In der Reuth
+In der Röte
+INA-Ring
+Industriestraße
+Jägerweg
+Jane-Addams-Straße
+Jean-Mandel-Straße
+Johann-Raab-Weg
+Johann-Sebastian-Bach-Straße
+Julius-Leber-Straße
+Jupiterstraße
+Kantstraße
+Kapellenstraße
+Kardinal-Döpfner-Straße
+Kardinal-Faulhaber-Straße
+Karl-Bröger-Straße
+Karlsbader Straße
+Kärntner Straße
+Kastanienweg
+Käthe-Dassler-Straße
+Katscher Straße
+Kellergasse
+Kiefernberg
+Kiesgrube
+Kiliansplatz
+Kirchenplatz
+Kleiststraße
+Klingenweiherstraße
+Klosterwaldstraße
+Klummgasse
+Kolbstraße
+Konrad-Groß-Straße
+Konrad-Scheidler-Straße
+Konrad-Wormser-Straße
+Kornblumenstraße
+Kosbacher Straße
+Kriegenbrunner Straße
+Krohäckerstraße
+Krokusstraße
+Kunigundenstraße
+Kupferbergstraße
+Kurrstraße
+Kurt-Tucholsky-Straße
+Lange Striche
+Langenzenner Straße
+Langer Platz
+Leharstraße
+Leitenäckerstraße
+Lenzenbergstraße
+Leonhard-Ritter-Straße
+Lerchenweg
+Lessingstraße
+Liegnitzer Straße
+Lilienstraße
+Lindenweg
+Linus-Pauling-Straße
+Lion-Feuchtwanger-Straße
+Lisztstraße
+Lohhof
+Lohhofer Straße
+Lohstraße
+Londonstraße
+Lortzingstraße
+Ludwig-Quidde-Straße
+Luitpold-Maier-Straße
+Lupinenstraße
+Mainstraße
+Margeritenstraße
+Maria-Lerch-Straße
+Maria-Ward-Straße
+Marktplatz
+Marsstraße
+Martin-Luther-King-Straße
+Martin-Luther-Platz
+Martin-Niemöller-Straße
+Mater-Rosalie-Weg
+Mausdorfer Straße
+Max-Planck-Straße
+Meisenweg
+Melbournestraße
+Membacher Straße
+Mercedes-Gleitze-Straße
+Merkurstraße
+Michael-Kreß-Weg
+Michelbacher Weg
+Mohnblumenweg
+Möhrendorfer Straße
+Mönaustraße
+Montrealstraße
+Moskaustraße
+Mozartstraße
+Mühlgasse
+Münchauracher Straße
+Münchener Straße
+Mutter-Teresa-Straße
+Nankendorfer Straße
+Nelkenstraße
+Nelly-Sachs-Straße
+Neptunstraße
+Neundorfer Straße
+Neuseser Straße
+Niederndorfer Hauptstraße
+Noppengasse
+Noppenplatz
+Nürnberger Straße
+Nutzungstraße
+Offenbachstraße
+Ohmstraße
+Olympiaring
+Orffstraße
+Orionstraße
+Ottostraße
+Pappelweg
+Parisstraße
+Parkstraße
+Pater-Loyson-Straße
+Paul-Lincke-Straße
+Peter-Fleischmann-Straße
+Peter-Vischer-Straße
+Pfälzer Straße
+Pfitznerstraße
+Pirckheimerstraße
+Plonergasse
+Puma Way
+Puschendorfer Straße
+Rathgeberstraße
+Regerstraße
+Regnitzweg
+Reichenberger Straße
+Reichenfelser Straße
+Reisigstraße
+Reytherstraße
+Richard-Wagner-Straße
+Rilkestraße
+Ringstraße
+Ritzgasse
+Romstraße
+Röntgenstraße
+Rosenstraße
+Rote Klinge
+Rückertstraße
+Rudelsäckerweg
+Rudolf-Dassler-Straße
+Ruppertstraße
+Sachsenstraße
+Sandäcker
+Sandstraße
+Saturnstraße
+Schießhausstraße
+Schillerstraße
+Schlaffhäusergasse
+Schlehenweg
+Schleifmühle
+Schlesierstraße
+Schmiedstraße
+Schönthalstraße
+Schreberstraße
+Schubertring
+Schulstraße
+Schumannstraße
+Schürrstraße
+Schützengraben
+Schützstraße
+Schwarzholzstraße
+Schwedenstraße
+Sesselmannstraße
+Siedlung
+Sonnenstraße
+Sperberweg
+Spiegelgartenstraße
+St.-Josefs-Platz
+Stegerstraße
+Steggasse
+Steinbacher Straße
+Steinweg
+Sternstraße
+Steudacher Straße
+Stockholmstraße
+Stolzstraße
+Störcherstraße
+Straßenäcker
+Straußstraße
+Sudetenring
+Tachauer Weg
+Tannenweg
+Telemannstraße
+Theodor-Heuss-Straße
+Thomas-Christian-Fink-Weg
+Thüringer Straße
+Tiroler Straße
+Tokiostraße
+Trosslerstraße
+Tuchenbacher Straße
+Tuchmachergasse
+Tulpenstraße
+Turnerweg
+Uhlandstraße
+Ulmenstraße
+Vacher Straße
+Veilchenstraße
+Veit-Stoß-Straße
+Veitsbronner Straße
+Venusweg
+Von-Andechs-Weg
+Von-Brauneck-Straße
+Von-Erthal-Straße
+Von-Hauck-Straße
+Von-Hohenlohe-Straße
+Von-Ketteler-Straße
+Von-Schönborn-Straße
+Von-Seckendorff-Straße
+Von-Weber-Straße
+Wacholderweg
+Waldstraße
+Weidenweg
+Welkenbacher Kirchweg
+Welkenbacher Kirchweg
+Werner-Heisenberg-Straße
+Wielandstraße
+Wiesengrund
+Wiesenstraße
+Wilhelm-Löhe-Straße
+Willy-Brandt-Platz
+Wolfsberger Straße
+Wolfsleite
+Woodrow-Wilson-Straße
+Würzburger Straße
+Wydhösselstraße
+Zellerstraße
+Zeppelinstraße
+Ziehrerstraße
+Zum Flughafen
+Zum Köpfwasen
+Zum Schwalbennest
+Zum Voltensteg
+Zweifelsheimer Straße

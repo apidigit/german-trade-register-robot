@@ -1,0 +1,372 @@
+3C-Ring
+Adam-Vogt-Straße
+Adlerstraße
+Adlerweg
+Adolph-Kolping-Straße
+Aggensteinstraße
+Ahornallee
+Akazienstraße
+Akeleistraße
+Albert-Einstein-Straße
+Alois-Elsner-Straße
+Alpenstraße
+Alpspitzweg
+Alte Bergstraße
+Altöttinger Anger
+Altöttinger Straße
+Am Alten Sägwerk
+Am Englischen Garten
+Am Fleck
+Am Geräumtweg
+Am Hasenberg
+Am Klostergarten
+Am Kornfeld
+Am Krachenberg
+Am Krautgarten
+Am Mühlwinkel
+Am Papierbach
+Am Penzinger Feld
+Am Seelberg
+Am Wassergraben
+Am Ziegelanger
+An der Holzgasse
+An der Papiermühle
+An der Schmiede
+Andernachhof
+Andernachstraße
+Angelus-Silesius-Straße
+Angerstraße
+Anne-Frank-Platz
+Asternstraße
+Aufeldstraße
+Augsburger Straße
+Bachfeldstraße
+Bahnhofsplatz
+Balserstraße
+Bayerfeldstraße
+Benedikt-Hagg-Straße
+Benediktenwandstraße
+Birkenstraße
+Bischof-Riegg-Straße
+Blatterngasse
+Brendelstraße
+Breslauer Straße
+Bronner Weg
+Brudergasse
+Buchloer Straße
+Bürgermeister-Dr.-Hartmann-Straße
+Bussardstraße
+Campingplatz
+Carl-Friedrich-Benz-Straße
+Celsiusstraße
+Christoph-Thomas-Scheffler-Straße
+Daimlerstraße
+Danziger Platz
+Dominikus-Zimmermann-Straße
+Dr.-Baur-Straße
+Dr.-Friedrich-Wacker-Straße
+Dr.-Strasser-Straße
+Dreitorspitzstraße
+Ebereschenstraße
+Eckenstraße
+Edith-Stein-Straße
+Ehrenpreisstraße
+Eibersbergstraße
+Eichendorffweg
+Eichenstraße
+Eichholzstraße
+Eichkapellenstraße
+Eichteilstraße
+Ellighofer Heide
+Ellighofer Straße
+Emmenhauser Straße
+Emmy-Noether-Straße
+Epfenhauser Siedlung
+Epfenhauser Straße
+Erikaweg
+Erlenstraße
+Erpftinger Straße
+Espachstraße
+Eulenweg
+Fahrenheitstraße
+Falkenstraße
+Fichtenstraße
+Fliederweg
+Floßgassenweg
+Forststraße
+Franz-Kollmann-Straße
+Franz-X.-Altegger-Straße
+Freien Feld
+Frieda-Weber-Straße
+Friedensstraße
+Friedheim
+Fritz-Beck-Straße
+Frühlingstraße
+Fuchsbergstraße
+Fuchstalstraße
+Galgenweg
+Gangwolferweg
+Gartenstraße
+Geierstraße
+Geiselsteinweg
+Georg-Hellmair-Platz
+Geschwister-Scholl-Straße
+Ginsterweg
+Gogglgasse
+Görlitzer Straße
+Gotenstraße
+Gottesackerangerweg
+Graf-von-Stauffenberg-Straße
+Graf-Zeppelin-Straße
+Grüntenstraße
+Gut Geratshof
+Gut Mittelstetten
+Gut Pössing
+Gutsstraße
+Habichtstraße
+Hainbuchenstraße
+Haldenäckerstraße
+Haldenweg
+Hans-Kistler-Straße
+Hans-Multscher-Straße
+Hauptplatz
+Hauptstraße
+Heideweg
+Heimstättenstraße
+Herbstweg
+Hermann-Köhl-Straße
+Herzog-Ernst-Straße
+Herzogstandstraße
+Heuweg
+Hexenviertel
+Hindenburgring
+Hintere Mühlgasse
+Hintere Salzgasse
+Hinterer Anger
+Hochvogelstraße
+Hofgraben
+Holzangerberg
+Holzhauser Straße
+Holzmarkt
+Hopfengartenstraße
+Hubert-von-Herkomer-Straße
+Hungerbachweg
+Husarenstraße
+Hyazinthenweg
+Iglinger Straße
+Ignatius-Merani-Straße
+Ignaz-Kögler-Straße
+Im Mittelstetter Feld
+Im Moosbachtal
+Im Winkel
+Immelmannstraße
+Irving-Heymont-Straße
+Isidor-Hipper-Straße
+Isotex-Straße
+Israel-Beker-Straße
+Jahnstraße
+Jesuitengasse
+Johann-Arnold-Straße
+Johann-Ferstl-Straße
+Johann-Kobrich-Straße
+Johann-Mutter-Straße
+Johann-Schmidt-Straße
+Johann-Wechsler-Straße
+Josef-Kloo-Straße
+Josef-Schober-Straße
+Justus-von-Liebig-Straße
+Kalkbrennerstraße
+Kapellenstraße
+Karlsbader Straße
+Karwendelstraße
+Kastanienstraße
+Katharinenstraße
+Kauferinger Weg
+Keltenstraße
+Kelvinstraße
+Kirchenstraße
+Kirchplatz
+Klosteranger
+Klösterl
+Kochgasse
+Köhlerstraße
+Kohlstattstraße
+Kommerzienrat-Winklhofer-Platz
+Kommerzienrat-Winklhofer-Straße
+Königsberger Platz
+Konrad-Schmalholz-Straße
+Kreuthofer Straße
+Kreutstraße
+Landrat-Müller-Hahl-Straße
+Landsberger Straße
+Lechalpe
+Lechalpenstraße
+Lechanger
+Lechfeldstraße
+Lechhanslstraße
+Lechrainkaserne
+Lechrainstraße
+Lechstraße
+Lechwiesenstraße
+Ledergasse
+Lena-Christ-Straße
+Leonhardiplatz
+Lichtnelkenweg
+Limonigasse
+Lindenallee
+Lohstraße
+Lorenz-Luidl-Straße
+Lorenz-Oettl-Straße
+Ludwig-Anzengruber-Straße
+Ludwig-Ganghofer-Straße
+Ludwigstraße
+Luibachstraße
+Malteserstiege
+Malteserstraße
+Margaritenweg
+Marie-Curie-Straße
+Martin-Kolmsperger-Straße
+Max-Friesenegger-Straße
+Max-Planck-Straße
+Max-von-Eyth-Straße
+Mehlbeerenstraße
+Michael-Kuisl-Weg
+Michael-Nocker-Straße
+Milanstraße
+Mittelfeldstraße
+Mittelstetter Straße
+Mohnblumenring
+Moosstraße
+Mühlbachweg
+Mühlweg
+Münchener Straße
+Museumstraße
+Narzigäßchen
+Neue Bergstraße
+Neuteilweg
+Nikolaus-Mangold-Straße
+Nikolsburger Straße
+Nordfeldstraße
+Nordring
+Nordstraße
+Oberbürgermeister-Dr.-Engshuber-Straße
+Oberbürgermeister-Thoma-Straße
+Obere Ringstraße
+Obere Wiesen
+Ohmstraße
+Otto-Leybold-Straße
+Otto-Lilienthal-Straße
+Pappelstraße
+Pater-Rupert-Mayer-Straße
+Peter-Dörfler-Weg
+Peter-Rosegger-Straße
+Pfannenstieler Straße
+Pfettenstraße
+Platanenstraße
+Pöringer Straße
+Pössinger Au
+Pössinger Straße
+Pürgener Straße
+Raiffeisenstraße
+Rankinestraße
+Reaumurstraße
+Reicheteile
+Reischer Talweg
+Reitenstraße
+Richthofenstraße
+Robert-Bosch-Straße
+Römerauterrasse
+Römerhang
+Römerstraße
+Rosenstraße
+Roßmarkt
+Rot-Kreuz-Straße
+Rotbuchenstraße
+Rotdornstraße
+Rudolf-Diesel-Straße
+Saarburgstraße
+Sägmühlweg
+Salzgasse
+Sandau
+Sandauer Straße
+Säulingstraße
+Schanzweg
+Schanzwiese
+Schelmanger
+Schleifweg
+Schlesierstraße
+Schloßberg
+Schlossergasse
+Schloßleite
+Schongauer Straße
+Schrannengasse
+Schulgasse
+Schulstraße
+Schwaighofanger
+Schwaighofstraße
+Schwedenstraße
+Schwiftinger Straße
+Sebastian-Rieger-Straße
+Seestraße
+Seiferstetterstraße
+Siegfried-Meister-Straße
+Siemensstraße
+Sießmayrstraße
+Sonnenstraße
+Speestraße
+Sperberstraße
+Spitalfeldstraße
+Spitalplatz
+Spötting
+Spöttinger Straße
+St.-Stephanus-Straße
+St.-Ulrich-Platz
+St.-Ulrich-Straße
+Stadtwaldstraße
+Staufenstraße
+Stockgartenstraße
+Stoffener Straße
+Sudetenstraße
+Tannheimer Weg
+Tegelbergstraße
+Thalerseestraße
+Thalhofstraße
+Tobias-Unfried-Straße
+Trautweinstraße
+Ulmenstraße
+Ulrich-Kiffhaber-Straße
+Ulrich-Veist-Straße
+Umhausener Straße
+Ummendorfer Feld
+Ummendorfer Straße
+Untere Ringstraße
+Valentin-Kindlin-Straße
+Veilchenweg
+Viktor-Frankl-Straße
+Vogelkirschenstraße
+Von-den-Hoff-Platz
+Von-den-Hoff-Straße
+Von-Eichendorff-Straße
+Von-Helfensteingasse
+Von-Kühlmann-Straße
+Von-Leoprechting-Straße
+Vordere Mühlgasse
+Vorderer Anger
+Waaler Straße
+Waitzinger Wiese
+Waldheimer Straße
+Waldstraße
+Waxensteinstraße
+Weddigenstraße
+Weiherstraße
+Weilheimer Straße
+Weißdornstraße
+Welfenstraße
+Wettersteinstraße
+Wiesbachstraße
+Wiesenring
+Wildparkweg
+Zehnerhof
+Zehnerweg
+Ziegeleistraße
+Zugspitzweg

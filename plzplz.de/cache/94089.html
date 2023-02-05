@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 94089 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="94089, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 94089 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 94089">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_94089/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 94089 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="94089" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Altenbauna/" title="PLZ Altenbauna"><strong>PLZ Altenbauna</strong></a>|<a href="https://plzplz.de/PLZ_Babst/" title="PLZ Babst"><strong>PLZ Babst</strong></a>|<a href="https://plzplz.de/PLZ_Bösleben-Wüllersleben/" title="PLZ Bösleben-Wüllersleben"><strong>PLZ Bösleben-Wüllersleben</strong></a>|<a href="https://plzplz.de/PLZ_Braunweiler/" title="PLZ Braunweiler"><strong>PLZ Braunweiler</strong></a>|<a href="https://plzplz.de/PLZ_Breidscheid/" title="PLZ Breidscheid"><strong>PLZ Breidscheid</strong></a>|<a href="https://plzplz.de/PLZ_Elmischwang/" title="PLZ Elmischwang"><strong>PLZ Elmischwang</strong></a>|<a href="https://plzplz.de/PLZ_Exdorf/" title="PLZ Exdorf"><strong>PLZ Exdorf</strong></a>|<a href="https://plzplz.de/PLZ_Garbeck/" title="PLZ Garbeck"><strong>PLZ Garbeck</strong></a>|<a href="https://plzplz.de/PLZ_Gebenhofen/" title="PLZ Gebenhofen"><strong>PLZ Gebenhofen</strong></a>|<a href="https://plzplz.de/PLZ_Gößlow/" title="PLZ Gößlow"><strong>PLZ Gößlow</strong></a>|<a href="https://plzplz.de/PLZ_Hahnenkrug/" title="PLZ Hahnenkrug"><strong>PLZ Hahnenkrug</strong></a>|<a href="https://plzplz.de/PLZ_Halböd/" title="PLZ Halböd"><strong>PLZ Halböd</strong></a>|<a href="https://plzplz.de/PLZ_Helmbach/" title="PLZ Helmbach"><strong>PLZ Helmbach</strong></a>|<a href="https://plzplz.de/PLZ_Hengen/" title="PLZ Hengen"><strong>PLZ Hengen</strong></a>|<a href="https://plzplz.de/PLZ_Hof_Hau/" title="PLZ Hof Hau"><strong>PLZ Hof Hau</strong></a>|<a href="https://plzplz.de/PLZ_Hutzenau/" title="PLZ Hutzenau"><strong>PLZ Hutzenau</strong></a>|<a href="https://plzplz.de/PLZ_Jessern/" title="PLZ Jessern"><strong>PLZ Jessern</strong></a>|<a href="https://plzplz.de/PLZ_Karrer_am_Holz/" title="PLZ Karrer am Holz"><strong>PLZ Karrer am Holz</strong></a>|<a href="https://plzplz.de/PLZ_Keula/" title="PLZ Keula"><strong>PLZ Keula</strong></a>|<a href="https://plzplz.de/PLZ_Koldingen/" title="PLZ Koldingen"><strong>PLZ Koldingen</strong></a>|<a href="https://plzplz.de/PLZ_Leideneck/" title="PLZ Leideneck"><strong>PLZ Leideneck</strong></a>|<a href="https://plzplz.de/PLZ_Linthe/" title="PLZ Linthe"><strong>PLZ Linthe</strong></a>|<a href="https://plzplz.de/PLZ_Menninghausen/" title="PLZ Menninghausen"><strong>PLZ Menninghausen</strong></a>|<a href="https://plzplz.de/PLZ_Mießling/" title="PLZ Mießling"><strong>PLZ Mießling</strong></a>|<a href="https://plzplz.de/PLZ_Nardt/" title="PLZ Nardt"><strong>PLZ Nardt</strong></a>|<a href="https://plzplz.de/PLZ_Osterwald_Oberende/" title="PLZ Osterwald Oberende"><strong>PLZ Osterwald Oberende</strong></a>|<a href="https://plzplz.de/PLZ_Rheinweiler/" title="PLZ Rheinweiler"><strong>PLZ Rheinweiler</strong></a>|<a href="https://plzplz.de/PLZ_Rückersmühle/" title="PLZ Rückersmühle"><strong>PLZ Rückersmühle</strong></a>|<a href="https://plzplz.de/PLZ_Rudholzen/" title="PLZ Rudholzen"><strong>PLZ Rudholzen</strong></a>|<a href="https://plzplz.de/PLZ_Schelchwitz/" title="PLZ Schelchwitz"><strong>PLZ Schelchwitz</strong></a>|<a href="https://plzplz.de/PLZ_Seligenporten/" title="PLZ Seligenporten"><strong>PLZ Seligenporten</strong></a>|<a href="https://plzplz.de/PLZ_Straßhäusl/" title="PLZ Straßhäusl"><strong>PLZ Straßhäusl</strong></a>|<a href="https://plzplz.de/PLZ_Volkmannsgrün/" title="PLZ Volkmannsgrün"><strong>PLZ Volkmannsgrün</strong></a>|<a href="https://plzplz.de/PLZ_Walddachsbach/" title="PLZ Walddachsbach"><strong>PLZ Walddachsbach</strong></a>|<a href="https://plzplz.de/PLZ_Willanzheim/" title="PLZ Willanzheim"><strong>PLZ Willanzheim</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 94089</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Alm/">Alm</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Alm/">Alm</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Alm/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Am_Liegbach/">Am Liegbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Am_Liegbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gsenget/">Gsenget</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Am_Michelbach/">Am Michelbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Am_Michelbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altreichenau/">Altreichenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Aufeld/">Aufeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Aufeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gsenget/">Gsenget</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Bachstraße/">Bachstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Bachstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Bahnhofstraße/">Bahnhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Bahnhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bernau/">Bernau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Bernau/">Bernau</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Bernau/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Binderberg/">Binderberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Binderberg/">Binderberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Binderberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Binderbruck/">Binderbruck</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Binderbruck/">Binderbruck</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Binderbruck/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Branntweinhäuser/">Branntweinhäuser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Branntweinhäuser/">Branntweinhäuser</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Branntweinhäuser/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altreichenau/">Altreichenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Breitfeld/">Breitfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Breitfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altreichenau/">Altreichenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Dorfplatz/">Dorfplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Dorfplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altreichenau/">Altreichenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Dorfstraße/">Dorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Dorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dreisesselhaus/">Dreisesselhaus</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Dreisesselhaus/">Dreisesselhaus</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Dreisesselhaus/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Dreisesselstraße/">Dreisesselstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Dreisesselstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Duschlberg/">Duschlberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Duschlberg/">Duschlberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Duschlberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gsenget/">Gsenget</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Firmianstraße/">Firmianstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Firmianstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Fischergrün/">Fischergrün</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Fischergrün/">Fischergrün</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Fischergrün/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gänswies/">Gänswies</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Gänswies/">Gänswies</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Gänswies/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altreichenau/">Altreichenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Gassenweg/">Gassenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Gassenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gern/">Gern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Gern/">Gern</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Gern/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gsenget/">Gsenget</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Goldbachstraße/">Goldbachstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Goldbachstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gsenget/">Gsenget</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Hängerstufenweg/">Hängerstufenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Hängerstufenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Hauerwiese/">Hauerwiese</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Hauerwiese/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gsenget/">Gsenget</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Hauptstraße/">Hauptstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Hauptstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hinterfreundorf/">Hinterfreundorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Hinterfreundorf/">Hinterfreundorf</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Hinterfreundorf/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Hochfeld/">Hochfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Hochfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altreichenau/">Altreichenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Hochstraße/">Hochstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Hochstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gsenget/">Gsenget</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Jägerstraße/">Jägerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Jägerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altreichenau/">Altreichenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Jandelsbrunner_Straße/">Jandelsbrunner Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Jandelsbrunner_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gsenget/">Gsenget</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Kapellenstraße/">Kapellenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Kapellenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kernberg/">Kernberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Kernberg/">Kernberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Kernberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Klafferstraß/">Klafferstraß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Klafferstraß/">Klafferstraß</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Klafferstraß/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Klausenweg/">Klausenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Klausenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altreichenau/">Altreichenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Klausgupfweg/">Klausgupfweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Klausgupfweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kleingsenget/">Kleingsenget</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Kleingsenget/">Kleingsenget</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Kleingsenget/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lackenhäuser/">Lackenhäuser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Lackenhäuser/">Lackenhäuser</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Lackenhäuser/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lackerau/">Lackerau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Lackerau/">Lackerau</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Lackerau/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Langbruck/">Langbruck</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Langbruck/">Langbruck</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Langbruck/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gsenget/">Gsenget</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Leickingerberg/">Leickingerberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Leickingerberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Loiblau/">Loiblau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Loiblau/">Loiblau</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Loiblau/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altreichenau/">Altreichenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Mühlberg/">Mühlberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Mühlberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pleckenstein/">Pleckenstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Pleckenstein/">Pleckenstein</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Pleckenstein/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altreichenau/">Altreichenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Reichenauer_Straße/">Reichenauer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Reichenauer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altreichenau/">Altreichenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Reichenberger_Straße/">Reichenberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Reichenberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Riedelsbach/">Riedelsbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Riedelsbach/">Riedelsbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Riedelsbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Röhrndlberg/">Röhrndlberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Röhrndlberg/">Röhrndlberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Röhrndlberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Schachtlau/">Schachtlau</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Schachtlau/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schimmelbach/">Schimmelbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Schimmelbach/">Schimmelbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Schimmelbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Schönenbach_Straße/">Schönenbach Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Schönenbach_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Schulstraße/">Schulstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Schulstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Sonnwendberg/">Sonnwendberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Sonnwendberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Spillerhäuser/">Spillerhäuser</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Spillerhäuser/">Spillerhäuser</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Spillerhäuser/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Spitzenberg/">Spitzenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Spitzenberg/">Spitzenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Spitzenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/"><strong>PLZ Neureichenau</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Stubenberg/">Stubenberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Stubenberg/">Stubenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_94089/">94089</a></td>
+<td><a href="https://plzplz.de/PLZ_Neureichenau/Stubenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.007 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

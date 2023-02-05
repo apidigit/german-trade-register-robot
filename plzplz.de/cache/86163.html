@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 86163 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="86163, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 86163 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 86163">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_86163/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 86163 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="86163" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Achterathsfeld/" title="PLZ Achterathsfeld"><strong>PLZ Achterathsfeld</strong></a>|<a href="https://plzplz.de/PLZ_Bärnthal/" title="PLZ Bärnthal"><strong>PLZ Bärnthal</strong></a>|<a href="https://plzplz.de/PLZ_Bonbruck/" title="PLZ Bonbruck"><strong>PLZ Bonbruck</strong></a>|<a href="https://plzplz.de/PLZ_Buchhof/" title="PLZ Buchhof"><strong>PLZ Buchhof</strong></a>|<a href="https://plzplz.de/PLZ_Dahlheim/" title="PLZ Dahlheim"><strong>PLZ Dahlheim</strong></a>|<a href="https://plzplz.de/PLZ_Dietratried/" title="PLZ Dietratried"><strong>PLZ Dietratried</strong></a>|<a href="https://plzplz.de/PLZ_Dreiweibern/" title="PLZ Dreiweibern"><strong>PLZ Dreiweibern</strong></a>|<a href="https://plzplz.de/PLZ_Eliasbrunn/" title="PLZ Eliasbrunn"><strong>PLZ Eliasbrunn</strong></a>|<a href="https://plzplz.de/PLZ_Ella/" title="PLZ Ella"><strong>PLZ Ella</strong></a>|<a href="https://plzplz.de/PLZ_Friedrichsruh/" title="PLZ Friedrichsruh"><strong>PLZ Friedrichsruh</strong></a>|<a href="https://plzplz.de/PLZ_Gerolfing/" title="PLZ Gerolfing"><strong>PLZ Gerolfing</strong></a>|<a href="https://plzplz.de/PLZ_Hohenfeld/" title="PLZ Hohenfeld"><strong>PLZ Hohenfeld</strong></a>|<a href="https://plzplz.de/PLZ_Holdermühle/" title="PLZ Holdermühle"><strong>PLZ Holdermühle</strong></a>|<a href="https://plzplz.de/PLZ_Huböd/" title="PLZ Huböd"><strong>PLZ Huböd</strong></a>|<a href="https://plzplz.de/PLZ_Kaltenneuses/" title="PLZ Kaltenneuses"><strong>PLZ Kaltenneuses</strong></a>|<a href="https://plzplz.de/PLZ_Krautsand/" title="PLZ Krautsand"><strong>PLZ Krautsand</strong></a>|<a href="https://plzplz.de/PLZ_Langelsheim/" title="PLZ Langelsheim"><strong>PLZ Langelsheim</strong></a>|<a href="https://plzplz.de/PLZ_Langeneck/" title="PLZ Langeneck"><strong>PLZ Langeneck</strong></a>|<a href="https://plzplz.de/PLZ_Leer/" title="PLZ Leer"><strong>PLZ Leer</strong></a>|<a href="https://plzplz.de/PLZ_Mühlreut/" title="PLZ Mühlreut"><strong>PLZ Mühlreut</strong></a>|<a href="https://plzplz.de/PLZ_Oberhauenstein/" title="PLZ Oberhauenstein"><strong>PLZ Oberhauenstein</strong></a>|<a href="https://plzplz.de/PLZ_Pitscheid/" title="PLZ Pitscheid"><strong>PLZ Pitscheid</strong></a>|<a href="https://plzplz.de/PLZ_Putting/" title="PLZ Putting"><strong>PLZ Putting</strong></a>|<a href="https://plzplz.de/PLZ_Reifensägmühle/" title="PLZ Reifensägmühle"><strong>PLZ Reifensägmühle</strong></a>|<a href="https://plzplz.de/PLZ_Seelabach/" title="PLZ Seelabach"><strong>PLZ Seelabach</strong></a>|<a href="https://plzplz.de/PLZ_Sellstedt/" title="PLZ Sellstedt"><strong>PLZ Sellstedt</strong></a>|<a href="https://plzplz.de/PLZ_Siegenburg/" title="PLZ Siegenburg"><strong>PLZ Siegenburg</strong></a>|<a href="https://plzplz.de/PLZ_Sudendorf/" title="PLZ Sudendorf"><strong>PLZ Sudendorf</strong></a>|<a href="https://plzplz.de/PLZ_Wachau/" title="PLZ Wachau"><strong>PLZ Wachau</strong></a>|<a href="https://plzplz.de/PLZ_Wächtering/" title="PLZ Wächtering"><strong>PLZ Wächtering</strong></a>|<a href="https://plzplz.de/PLZ_Wendessen/" title="PLZ Wendessen"><strong>PLZ Wendessen</strong></a>|<a href="https://plzplz.de/PLZ_Wien/" title="PLZ Wien"><strong>PLZ Wien</strong></a>|<a href="https://plzplz.de/PLZ_Wrist/" title="PLZ Wrist"><strong>PLZ Wrist</strong></a>|<a href="https://plzplz.de/PLZ_Wüstenhöfen/" title="PLZ Wüstenhöfen"><strong>PLZ Wüstenhöfen</strong></a>|<a href="https://plzplz.de/PLZ_Zimmermeister/" title="PLZ Zimmermeister"><strong>PLZ Zimmermeister</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 86163</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Aggensteinstraße/">Aggensteinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Aggensteinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Alatseestraße/">Alatseestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Alatseestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Alpseestraße/">Alpseestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Alpseestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Alpspitzstraße/">Alpspitzstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Alpspitzstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Ammerseestraße/">Ammerseestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Ammerseestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Auerbergweg/">Auerbergweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Auerbergweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Bannwaldseestraße/">Bannwaldseestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Bannwaldseestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Berchtesgadener_Straße/">Berchtesgadener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Berchtesgadener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Biberkopfstraße/">Biberkopfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Biberkopfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Breitachweg/">Breitachweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Breitachweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Breitenbergstraße/">Breitenbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Breitenbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Christleseeweg/">Christleseeweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Christleseeweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Edelsbergstraße/">Edelsbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Edelsbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Eibseestraße/">Eibseestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Eibseestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Elmauer_Weg/">Elmauer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Elmauer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Falkensteinstraße/">Falkensteinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Falkensteinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Farchanter_Weg/">Farchanter Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Farchanter_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Fellhornstraße/">Fellhornstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Fellhornstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Forggenseestraße/">Forggenseestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Forggenseestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Freibergseestraße/">Freibergseestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Freibergseestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Friedberger_Straße/">Friedberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Friedberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Friedrich-Deffner-Straße/">Friedrich-Deffner-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Friedrich-Deffner-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Friedrich-Sohnle-Straße/">Friedrich-Sohnle-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Friedrich-Sohnle-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Füssener_Straße/">Füssener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Füssener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Garmischer_Straße/">Garmischer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Garmischer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Geishornstraße/">Geishornstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Geishornstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Grainauer_Weg/">Grainauer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Grainauer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Grüntenstraße/">Grüntenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Grüntenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Gunzesrieder_Weg/">Gunzesrieder Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Gunzesrieder_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Herzogstandstraße/">Herzogstandstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Herzogstandstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Hindelanger_Straße/">Hindelanger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Hindelanger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Hochgratstraße/">Hochgratstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Hochgratstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Hochvogelstraße/">Hochvogelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Hochvogelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Hochzoller_Straße/">Hochzoller Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Hochzoller_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Höfatsstraße/">Höfatsstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Höfatsstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Hopfenseeweg/">Hopfenseeweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Hopfenseeweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Ifenstraße/">Ifenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Ifenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Immenstädter_Straße/">Immenstädter Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Immenstädter_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Innsbrucker_Straße/">Innsbrucker Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Innsbrucker_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Iselerstraße/">Iselerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Iselerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Jochbergstraße/">Jochbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Jochbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Kalkbrennerweg/">Kalkbrennerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Kalkbrennerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Karwendelstraße/">Karwendelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Karwendelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Kaufbeurer_Straße/">Kaufbeurer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Kaufbeurer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Kemptener_Straße/">Kemptener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Kemptener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Kochelseestraße/">Kochelseestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Kochelseestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Königsseestraße/">Königsseestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Königsseestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Kreuzeckstraße/">Kreuzeckstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Kreuzeckstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Krottenkopfweg/">Krottenkopfweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Krottenkopfweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Lechrainstraße/">Lechrainstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Lechrainstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Lindenberger_Straße/">Lindenberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Lindenberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Meringer_Straße/">Meringer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Meringer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Mittelberger_Straße/">Mittelberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Mittelberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Mittenwalder_Straße/">Mittenwalder Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Mittenwalder_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Münchner_Straße/">Münchner Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Münchner_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Murnauer_Weg/">Murnauer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Murnauer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Nebelhornstraße/">Nebelhornstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Nebelhornstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Nesselwanger_Straße/">Nesselwanger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Nesselwanger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Neuschwansteinstraße/">Neuschwansteinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Neuschwansteinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Oberländer_Straße/">Oberländer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Oberländer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Oberstaufener_Straße/">Oberstaufener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Oberstaufener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Oberstdorfer_Straße/">Oberstdorfer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Oberstdorfer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Ortlerstraße/">Ortlerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Ortlerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Otto-Holzer-Weg/">Otto-Holzer-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Otto-Holzer-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Ottobeurer_Straße/">Ottobeurer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Ottobeurer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Oytalstraße/">Oytalstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Oytalstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Peißenbergstraße/">Peißenbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Peißenbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Penzbergweg/">Penzbergweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Penzbergweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Peterhofstraße/">Peterhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Peterhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Pfrontener_Straße/">Pfrontener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Pfrontener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Rappenseeweg/">Rappenseeweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Rappenseeweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Reintalstraße/">Reintalstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Reintalstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Rießerseestraße/">Rießerseestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Rießerseestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Roßhauptener_Straße/">Roßhauptener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Roßhauptener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Rubihornstraße/">Rubihornstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Rubihornstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Salzmannstraße/">Salzmannstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Salzmannstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Säulingstraße/">Säulingstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Säulingstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Scharnitzer_Weg/">Scharnitzer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Scharnitzer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Scheidegger_Straße/">Scheidegger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Scheidegger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Schneefernerstraße/">Schneefernerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Schneefernerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Schöneckstraße/">Schöneckstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Schöneckstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Schrofenstraße/">Schrofenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Schrofenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Schwangaustraße/">Schwangaustraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Schwangaustraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Schwanseestraße/">Schwanseestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Schwanseestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Seefelder_Straße/">Seefelder Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Seefelder_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Söllereckstraße/">Söllereckstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Söllereckstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Sonthofer_Straße/">Sonthofer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Sonthofer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/St.-Mang-Weg/">St.-Mang-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/St.-Mang-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Stauffenstraße/">Stauffenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Stauffenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Stillachweg/">Stillachweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Stillachweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Stuibenstraße/">Stuibenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Stuibenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Tannheimer_Straße/">Tannheimer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Tannheimer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Tegelbergstraße/">Tegelbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Tegelbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Thanellerstraße/">Thanellerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Thanellerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Trauchgaustraße/">Trauchgaustraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Trauchgaustraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Trettachstraße/">Trettachstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Trettachstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Untersbergstraße/">Untersbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Untersbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Wallgauer_Weg/">Wallgauer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Wallgauer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Walsertalweg/">Walsertalweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Walsertalweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Watzmannstraße/">Watzmannstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Watzmannstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Waxensteinstraße/">Waxensteinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Waxensteinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Weißenseestraße/">Weißenseestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Weißenseestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Wendelsteinstraße/">Wendelsteinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Wendelsteinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Werdenfelser_Straße/">Werdenfelser Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Werdenfelser_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Wessobrunner_Weg/">Wessobrunner Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Wessobrunner_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Wettersteinstraße/">Wettersteinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Wettersteinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Wörishofer_Straße/">Wörishofer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Wörishofer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Zedlitzstraße/">Zedlitzstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Zedlitzstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Zugspitzstraße/">Zugspitzstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Zugspitzstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochzoll/">Hochzoll</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Zwölf-Apostel-Platz/">Zwölf-Apostel-Platz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_86163/">86163</a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/Zwölf-Apostel-Platz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.005 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

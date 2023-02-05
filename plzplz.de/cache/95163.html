@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 95163 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="95163, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 95163 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 95163">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_95163/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 95163 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="95163" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Altwildungen/" title="PLZ Altwildungen"><strong>PLZ Altwildungen</strong></a>|<a href="https://plzplz.de/PLZ_Assau/" title="PLZ Assau"><strong>PLZ Assau</strong></a>|<a href="https://plzplz.de/PLZ_Burgstädt/" title="PLZ Burgstädt"><strong>PLZ Burgstädt</strong></a>|<a href="https://plzplz.de/PLZ_Demmlstadl/" title="PLZ Demmlstadl"><strong>PLZ Demmlstadl</strong></a>|<a href="https://plzplz.de/PLZ_Ebering/" title="PLZ Ebering"><strong>PLZ Ebering</strong></a>|<a href="https://plzplz.de/PLZ_Ellenberg/" title="PLZ Ellenberg"><strong>PLZ Ellenberg</strong></a>|<a href="https://plzplz.de/PLZ_Emskeim/" title="PLZ Emskeim"><strong>PLZ Emskeim</strong></a>|<a href="https://plzplz.de/PLZ_Freinhausen/" title="PLZ Freinhausen"><strong>PLZ Freinhausen</strong></a>|<a href="https://plzplz.de/PLZ_Ganswies/" title="PLZ Ganswies"><strong>PLZ Ganswies</strong></a>|<a href="https://plzplz.de/PLZ_Gigling/" title="PLZ Gigling"><strong>PLZ Gigling</strong></a>|<a href="https://plzplz.de/PLZ_Göggingen/" title="PLZ Göggingen"><strong>PLZ Göggingen</strong></a>|<a href="https://plzplz.de/PLZ_Göllersreuth/" title="PLZ Göllersreuth"><strong>PLZ Göllersreuth</strong></a>|<a href="https://plzplz.de/PLZ_Griebnitz/" title="PLZ Griebnitz"><strong>PLZ Griebnitz</strong></a>|<a href="https://plzplz.de/PLZ_Hannöd/" title="PLZ Hannöd"><strong>PLZ Hannöd</strong></a>|<a href="https://plzplz.de/PLZ_Hasenmoor/" title="PLZ Hasenmoor"><strong>PLZ Hasenmoor</strong></a>|<a href="https://plzplz.de/PLZ_Hillau/" title="PLZ Hillau"><strong>PLZ Hillau</strong></a>|<a href="https://plzplz.de/PLZ_Hilmes/" title="PLZ Hilmes"><strong>PLZ Hilmes</strong></a>|<a href="https://plzplz.de/PLZ_Holzschneid/" title="PLZ Holzschneid"><strong>PLZ Holzschneid</strong></a>|<a href="https://plzplz.de/PLZ_Jakobhub/" title="PLZ Jakobhub"><strong>PLZ Jakobhub</strong></a>|<a href="https://plzplz.de/PLZ_Klein_Mimmelage/" title="PLZ Klein Mimmelage"><strong>PLZ Klein Mimmelage</strong></a>|<a href="https://plzplz.de/PLZ_Kynoten/" title="PLZ Kynoten"><strong>PLZ Kynoten</strong></a>|<a href="https://plzplz.de/PLZ_Laag/" title="PLZ Laag"><strong>PLZ Laag</strong></a>|<a href="https://plzplz.de/PLZ_Lindafeld/" title="PLZ Lindafeld"><strong>PLZ Lindafeld</strong></a>|<a href="https://plzplz.de/PLZ_Mährenhausen/" title="PLZ Mährenhausen"><strong>PLZ Mährenhausen</strong></a>|<a href="https://plzplz.de/PLZ_Neckarweihingen/" title="PLZ Neckarweihingen"><strong>PLZ Neckarweihingen</strong></a>|<a href="https://plzplz.de/PLZ_Nustrow/" title="PLZ Nustrow"><strong>PLZ Nustrow</strong></a>|<a href="https://plzplz.de/PLZ_Pritzwalk/" title="PLZ Pritzwalk"><strong>PLZ Pritzwalk</strong></a>|<a href="https://plzplz.de/PLZ_Radersdorf/" title="PLZ Radersdorf"><strong>PLZ Radersdorf</strong></a>|<a href="https://plzplz.de/PLZ_Reddighausen/" title="PLZ Reddighausen"><strong>PLZ Reddighausen</strong></a>|<a href="https://plzplz.de/PLZ_Rothhausen/" title="PLZ Rothhausen"><strong>PLZ Rothhausen</strong></a>|<a href="https://plzplz.de/PLZ_Schloß_Holte/" title="PLZ Schloß Holte"><strong>PLZ Schloß Holte</strong></a>|<a href="https://plzplz.de/PLZ_Spitalhof/" title="PLZ Spitalhof"><strong>PLZ Spitalhof</strong></a>|<a href="https://plzplz.de/PLZ_Stinstedt/" title="PLZ Stinstedt"><strong>PLZ Stinstedt</strong></a>|<a href="https://plzplz.de/PLZ_Uedesheim/" title="PLZ Uedesheim"><strong>PLZ Uedesheim</strong></a>|<a href="https://plzplz.de/PLZ_Völpke/" title="PLZ Völpke"><strong>PLZ Völpke</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 95163</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Adalbert-Stifter-Straße/">Adalbert-Stifter-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Adalbert-Stifter-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Am_Bahndamm/">Am Bahndamm</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Am_Bahndamm/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Am_Bahnhof/">Am Bahnhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Am_Bahnhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Am_Ehrenhain/">Am Ehrenhain</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Am_Ehrenhain/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Am_Hexenstein/">Am Hexenstein</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Am_Hexenstein/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Am_Lohbrunnen/">Am Lohbrunnen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Am_Lohbrunnen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Am_Mühlbach/">Am Mühlbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Am_Mühlbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Am_Stadtgraben/">Am Stadtgraben</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Am_Stadtgraben/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/An_der_Eger/">An der Eger</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/An_der_Eger/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/An_der_Marienkirche/">An der Marienkirche</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/An_der_Marienkirche/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/An_der_Stadtmauer/">An der Stadtmauer</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/An_der_Stadtmauer/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Badstraße/">Badstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Badstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Bayreuther_Straße/">Bayreuther Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Bayreuther_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Bergstraße/">Bergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Bergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Birk/">Birk</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Birk/">Birk</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Birk/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Birkenweg/">Birkenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Birkenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Blumenweg/">Blumenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Blumenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Brunnenweg/">Brunnenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Brunnenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Bürgermeister-Pöhlmann-Straße/">Bürgermeister-Pöhlmann-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Bürgermeister-Pöhlmann-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Egerlandstraße/">Egerlandstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Egerlandstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Eichendorffstraße/">Eichendorffstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Eichendorffstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Erhard-Ackermann-Straße/">Erhard-Ackermann-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Erhard-Ackermann-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Finkenmühle/">Finkenmühle</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Finkenmühle/">Finkenmühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Finkenmühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Franken/">Franken</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Franken/">Franken</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Franken/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Frohnlohe/">Frohnlohe</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Frohnlohe/">Frohnlohe</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Frohnlohe/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Galgenberg/">Galgenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Galgenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Gartenstraße/">Gartenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Gartenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Goethestraße/">Goethestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Goethestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Grabengasse/">Grabengasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Grabengasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grafenmühle/">Grafenmühle</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Grafenmühle/">Grafenmühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Grafenmühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grub/">Grub</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Grub/">Grub</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Grub/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grubbach/">Grubbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Grubbach/">Grubbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Grubbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Haltstelle/">Haltstelle</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Haltstelle/">Haltstelle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Haltstelle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Heimstättenweg/">Heimstättenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Heimstättenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Hermann-Löns-Weg/">Hermann-Löns-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Hermann-Löns-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Hirschberger_Straße/">Hirschberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Hirschberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Im_Quellenpark/">Im Quellenpark</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Im_Quellenpark/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Im_Seidig/">Im Seidig</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Im_Seidig/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Jean-Paul-Straße/">Jean-Paul-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Jean-Paul-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Kapellengäßchen/">Kapellengäßchen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Kapellengäßchen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Kellerhaus/">Kellerhaus</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Kellerhaus/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Kirchenlamitzer_Straße/">Kirchenlamitzer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Kirchenlamitzer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Kirchplatz/">Kirchplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Kirchplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kohlmesserhaus/">Kohlmesserhaus</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Kohlmesserhaus/">Kohlmesserhaus</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Kohlmesserhaus/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Lange_Straße/">Lange Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Lange_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Ledererring/">Ledererring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Ledererring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lehsten/">Lehsten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Lehsten/">Lehsten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Lehsten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Löhestraße/">Löhestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Löhestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Marktplatz/">Marktplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Marktplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Martin-Luther-Straße/">Martin-Luther-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Martin-Luther-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Meierhof/">Meierhof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Meierhof/">Meierhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Meierhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Mühlgäßchen/">Mühlgäßchen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Mühlgäßchen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuenhammer/">Neuenhammer</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Neuenhammer/">Neuenhammer</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Neuenhammer/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Peuntstraße/">Peuntstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Peuntstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Pfarrgäßchen/">Pfarrgäßchen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Pfarrgäßchen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Poststraße/">Poststraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Poststraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Rosenweg/">Rosenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Rosenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ruppertsgrün/">Ruppertsgrün</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Ruppertsgrün/">Ruppertsgrün</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Ruppertsgrün/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Schillerstraße/">Schillerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Schillerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Schlesienweg/">Schlesienweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Schlesienweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Schloßgäßchen/">Schloßgäßchen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Schloßgäßchen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Schneebergstraße/">Schneebergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Schneebergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schönlind/">Schönlind</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Schönlind/">Schönlind</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Schönlind/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Schönlinder_Weg/">Schönlinder Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Schönlinder_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Schulstraße/">Schulstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Schulstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Schwarzweiherweg/">Schwarzweiherweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Schwarzweiherweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Schwedengasse/">Schwedengasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Schwedengasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Siebensternweg/">Siebensternweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Siebensternweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Sparnecker_Straße/">Sparnecker Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Sparnecker_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Stadtweiherweg/">Stadtweiherweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Stadtweiherweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Staudenmühle/">Staudenmühle</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Staudenmühle/">Staudenmühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Staudenmühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Steinau/">Steinau</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Steinau/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Thermenallee/">Thermenallee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Thermenallee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Torfmoorhölle/">Torfmoorhölle</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Torfmoorhölle/">Torfmoorhölle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Torfmoorhölle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Voitsumra/">Voitsumra</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Voitsumra/">Voitsumra</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Voitsumra/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Vorstadtgäßchen/">Vorstadtgäßchen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Vorstadtgäßchen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Waldsteingäßchen/">Waldsteingäßchen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Waldsteingäßchen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Wallstraße/">Wallstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Wallstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiherhöfen/">Weiherhöfen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Weiherhöfen/">Weiherhöfen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Weiherhöfen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weißenhaid/">Weißenhaid</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Weißenhaid/">Weißenhaid</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Weißenhaid/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Wiesenweg/">Wiesenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Wiesenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Wunsiedler_Straße/">Wunsiedler Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Wunsiedler_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zechenhaus/">Zechenhaus</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Zechenhaus/">Zechenhaus</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Zechenhaus/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Zeller_Straße/">Zeller Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Zeller_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ziegelhütte_bei_Lehsten/">Ziegelhütte bei Lehsten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Ziegelhütte/">Ziegelhütte</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Ziegelhütte/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zigeunermühle/">Zigeunermühle</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Zigeunermühle/">Zigeunermühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Zigeunermühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/"><strong>PLZ Weißenstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Zinngrubenweg/">Zinngrubenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_95163/">95163</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenstadt/Zinngrubenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.007 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

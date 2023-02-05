@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 75385 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="75385, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 75385 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 75385">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_75385/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 75385 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="75385" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Breitenberg/" title="PLZ Breitenberg"><strong>PLZ Breitenberg</strong></a>|<a href="https://plzplz.de/PLZ_Breuna/" title="PLZ Breuna"><strong>PLZ Breuna</strong></a>|<a href="https://plzplz.de/PLZ_Burgwedel/" title="PLZ Burgwedel"><strong>PLZ Burgwedel</strong></a>|<a href="https://plzplz.de/PLZ_Diethe/" title="PLZ Diethe"><strong>PLZ Diethe</strong></a>|<a href="https://plzplz.de/PLZ_Eppishausen/" title="PLZ Eppishausen"><strong>PLZ Eppishausen</strong></a>|<a href="https://plzplz.de/PLZ_Fenne/" title="PLZ Fenne"><strong>PLZ Fenne</strong></a>|<a href="https://plzplz.de/PLZ_Giesenweiler/" title="PLZ Giesenweiler"><strong>PLZ Giesenweiler</strong></a>|<a href="https://plzplz.de/PLZ_Groß_Vollstedt/" title="PLZ Groß Vollstedt"><strong>PLZ Groß Vollstedt</strong></a>|<a href="https://plzplz.de/PLZ_Grünweg/" title="PLZ Grünweg"><strong>PLZ Grünweg</strong></a>|<a href="https://plzplz.de/PLZ_Hackenhofen/" title="PLZ Hackenhofen"><strong>PLZ Hackenhofen</strong></a>|<a href="https://plzplz.de/PLZ_Insheim/" title="PLZ Insheim"><strong>PLZ Insheim</strong></a>|<a href="https://plzplz.de/PLZ_Karpfenstein/" title="PLZ Karpfenstein"><strong>PLZ Karpfenstein</strong></a>|<a href="https://plzplz.de/PLZ_Karthan/" title="PLZ Karthan"><strong>PLZ Karthan</strong></a>|<a href="https://plzplz.de/PLZ_Kauzleben/" title="PLZ Kauzleben"><strong>PLZ Kauzleben</strong></a>|<a href="https://plzplz.de/PLZ_Kiefeld/" title="PLZ Kiefeld"><strong>PLZ Kiefeld</strong></a>|<a href="https://plzplz.de/PLZ_Labbus/" title="PLZ Labbus"><strong>PLZ Labbus</strong></a>|<a href="https://plzplz.de/PLZ_Lochmannshof/" title="PLZ Lochmannshof"><strong>PLZ Lochmannshof</strong></a>|<a href="https://plzplz.de/PLZ_Manching/" title="PLZ Manching"><strong>PLZ Manching</strong></a>|<a href="https://plzplz.de/PLZ_Nordheim/" title="PLZ Nordheim"><strong>PLZ Nordheim</strong></a>|<a href="https://plzplz.de/PLZ_Oberlaus/" title="PLZ Oberlaus"><strong>PLZ Oberlaus</strong></a>|<a href="https://plzplz.de/PLZ_Oebisfelde/" title="PLZ Oebisfelde"><strong>PLZ Oebisfelde</strong></a>|<a href="https://plzplz.de/PLZ_Opperode/" title="PLZ Opperode"><strong>PLZ Opperode</strong></a>|<a href="https://plzplz.de/PLZ_Pödelwitz/" title="PLZ Pödelwitz"><strong>PLZ Pödelwitz</strong></a>|<a href="https://plzplz.de/PLZ_Pohnsdorfer_Stauung/" title="PLZ Pohnsdorfer Stauung"><strong>PLZ Pohnsdorfer Stauung</strong></a>|<a href="https://plzplz.de/PLZ_Prerow/" title="PLZ Prerow"><strong>PLZ Prerow</strong></a>|<a href="https://plzplz.de/PLZ_Rathsweiler_Mühle/" title="PLZ Rathsweiler Mühle"><strong>PLZ Rathsweiler Mühle</strong></a>|<a href="https://plzplz.de/PLZ_Rauch_im_Holz/" title="PLZ Rauch im Holz"><strong>PLZ Rauch im Holz</strong></a>|<a href="https://plzplz.de/PLZ_Rödlas/" title="PLZ Rödlas"><strong>PLZ Rödlas</strong></a>|<a href="https://plzplz.de/PLZ_Roßtal/" title="PLZ Roßtal"><strong>PLZ Roßtal</strong></a>|<a href="https://plzplz.de/PLZ_Stöttwies/" title="PLZ Stöttwies"><strong>PLZ Stöttwies</strong></a>|<a href="https://plzplz.de/PLZ_Stürza/" title="PLZ Stürza"><strong>PLZ Stürza</strong></a>|<a href="https://plzplz.de/PLZ_Sülten/" title="PLZ Sülten"><strong>PLZ Sülten</strong></a>|<a href="https://plzplz.de/PLZ_Unterstefling/" title="PLZ Unterstefling"><strong>PLZ Unterstefling</strong></a>|<a href="https://plzplz.de/PLZ_Weidelsberg/" title="PLZ Weidelsberg"><strong>PLZ Weidelsberg</strong></a>|<a href="https://plzplz.de/PLZ_Welcherod/" title="PLZ Welcherod"><strong>PLZ Welcherod</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 75385</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rötenbach/">Rötenbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Aichenstraße/">Aichenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Aichenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sommenhardt/">Sommenhardt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Allmandstraße/">Allmandstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Allmandstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zavelstein/">Zavelstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Alte_Steige/">Alte Steige</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Alte_Steige/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sommenhardt/">Sommenhardt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Alter_Weg/">Alter Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Alter_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sommenhardt/">Sommenhardt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Am_Friedhof/">Am Friedhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Am_Friedhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sommenhardt/">Sommenhardt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Amselweg/">Amselweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Amselweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rötenbach/">Rötenbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Auf_der_Haardt/">Auf der Haardt</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Auf_der_Haardt/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Emberg/">Emberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Auf_der_Höhe/">Auf der Höhe</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Auf_der_Höhe/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bad_Teinach/">Bad Teinach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Badstraße/">Badstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Badstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zavelstein/">Zavelstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Bahnhofstraße/">Bahnhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Bahnhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bad_Teinach/">Bad Teinach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Berggasse/">Berggasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Berggasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sommenhardt/">Sommenhardt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Birkenwaldstraße/">Birkenwaldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Birkenwaldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Emberg/">Emberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Brunnenplatz/">Brunnenplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Brunnenplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bad_Teinach/">Bad Teinach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Bundesstraße_463/">Bundesstraße 463</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Bundesstraße_463/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bad_Teinach/">Bad Teinach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Burgstraße/">Burgstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Burgstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zavelstein/">Zavelstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Buwinghausenstraße/">Buwinghausenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Buwinghausenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sommenhardt/">Sommenhardt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Calwer_Straße/">Calwer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Calwer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kentheim/">Kentheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Candidusstraße/">Candidusstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Candidusstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rötenbach/">Rötenbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Dorfwiesenstraße/">Dorfwiesenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Dorfwiesenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rötenbach/">Rötenbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Emberger_Straße/">Emberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Emberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zavelstein/">Zavelstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Felsenweg/">Felsenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Felsenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rötenbach/">Rötenbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Finkenweg/">Finkenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Finkenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rötenbach/">Rötenbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Friedhofsweg/">Friedhofsweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Friedhofsweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zavelstein/">Zavelstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Fronwaldstraße/">Fronwaldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Fronwaldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schmieh/">Schmieh</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Gartenbergstraße/">Gartenbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Gartenbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zavelstein/">Zavelstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Graf-Eberhard-Straße/">Graf-Eberhard-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Graf-Eberhard-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sommenhardt/">Sommenhardt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Halde/">Halde</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Halde/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sommenhardt/">Sommenhardt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Hauffstraße/">Hauffstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Hauffstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schmieh/">Schmieh</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Hauptstraße/">Hauptstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Hauptstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rötenbach/">Rötenbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Hausackerweg/">Hausackerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Hausackerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Emberg/">Emberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Heckenweg/">Heckenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Heckenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schmieh/">Schmieh</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Heideäckerweg/">Heideäckerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Heideäckerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sommenhardt/">Sommenhardt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Hermann-Hesse-Straße/">Hermann-Hesse-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Hermann-Hesse-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zavelstein/">Zavelstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Herzog-Philipp-Straße/">Herzog-Philipp-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Herzog-Philipp-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sommenhardt/">Sommenhardt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Hintere_Gasse/">Hintere Gasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Hintere_Gasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bad_Teinach/">Bad Teinach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Hintere_Talstraße/">Hintere Talstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Hintere_Talstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bad_Teinach/">Bad Teinach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Hofrat-Dr._Wurm-Straße/">Hofrat-Dr. Wurm-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Hofrat-Dr._Wurm-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sommenhardt/">Sommenhardt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Hofstettweg/">Hofstettweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Hofstettweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sommenhardt/">Sommenhardt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Hölderlinstraße/">Hölderlinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Hölderlinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sommenhardt/">Sommenhardt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Hornacker/">Hornacker</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Hornacker/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Emberg/">Emberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Im_Burgblick/">Im Burgblick</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Im_Burgblick/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rötenbach/">Rötenbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Im_Eichwald/">Im Eichwald</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Im_Eichwald/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sommenhardt/">Sommenhardt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Im_Gäßle/">Im Gäßle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Im_Gäßle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zavelstein/">Zavelstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Im_Sonnenwinkel/">Im Sonnenwinkel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Im_Sonnenwinkel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zavelstein/">Zavelstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Im_Städtle/">Im Städtle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Im_Städtle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rötenbach/">Rötenbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Im_Steinberg/">Im Steinberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Im_Steinberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zavelstein/">Zavelstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Im_Steinlaible/">Im Steinlaible</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Im_Steinlaible/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zavelstein/">Zavelstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Im_Wäldle/">Im Wäldle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Im_Wäldle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sommenhardt/">Sommenhardt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Im_Wasen/">Im Wasen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Im_Wasen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zavelstein/">Zavelstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Im_Winkel/">Im Winkel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Im_Winkel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rötenbach/">Rötenbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Im_Zettelberg/">Im Zettelberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Im_Zettelberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sommenhardt/">Sommenhardt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/In_den_Hausäckern/">In den Hausäckern</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/In_den_Hausäckern/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rötenbach/">Rötenbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Jägerweg/">Jägerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Jägerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bad_Teinach/">Bad Teinach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Kentheimer_Straße/">Kentheimer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Kentheimer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schmieh/">Schmieh</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Kirchstraße/">Kirchstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Kirchstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zavelstein/">Zavelstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Krokusstraße/">Krokusstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Krokusstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zavelstein/">Zavelstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Küferweg/">Küferweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Küferweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schmieh/">Schmieh</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Lautenbachhof/">Lautenbachhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Lautenbachhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sommenhardt/">Sommenhardt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Lessingstraße/">Lessingstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Lessingstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rötenbach/">Rötenbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Lindenstraße/">Lindenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Lindenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sommenhardt/">Sommenhardt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Liststraße/">Liststraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Liststraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sommenhardt/">Sommenhardt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Lützenhardter_Straße/">Lützenhardter Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Lützenhardter_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zavelstein/">Zavelstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Marktplatz/">Marktplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Marktplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rötenbach/">Rötenbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Max-Eyth-Straße/">Max-Eyth-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Max-Eyth-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sommenhardt/">Sommenhardt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Mittelbachstraße/">Mittelbachstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Mittelbachstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sommenhardt/">Sommenhardt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Mörikestraße/">Mörikestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Mörikestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bad_Teinach/">Bad Teinach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Mühlweg/">Mühlweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Mühlweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sommenhardt/">Sommenhardt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Nagoldtalstraße/">Nagoldtalstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Nagoldtalstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zavelstein/">Zavelstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Otto-Feucht-Weg/">Otto-Feucht-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Otto-Feucht-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bad_Teinach/">Bad Teinach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Otto-Neidhart-Allee/">Otto-Neidhart-Allee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Otto-Neidhart-Allee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bad_Teinach/">Bad Teinach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Panoramastraße/">Panoramastraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Panoramastraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bad_Teinach/">Bad Teinach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Poststraße/">Poststraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Poststraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bad_Teinach/">Bad Teinach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Rathausstraße/">Rathausstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Rathausstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rötenbach/">Rötenbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Robert-Bosch-Straße/">Robert-Bosch-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Robert-Bosch-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Emberg/">Emberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Rosenstraße/">Rosenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Rosenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kentheim/">Kentheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Rötelbachweg/">Rötelbachweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Rötelbachweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Emberg/">Emberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Rötenbacher_Straße/">Rötenbacher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Rötenbacher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sommenhardt/">Sommenhardt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Scheffelstraße/">Scheffelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Scheffelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sommenhardt/">Sommenhardt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Schillerstraße/">Schillerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Schillerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zavelstein/">Zavelstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Schmiedgasse/">Schmiedgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Schmiedgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Emberg/">Emberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Schmieher_Straße/">Schmieher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Schmieher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zavelstein/">Zavelstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Schulstraße/">Schulstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Schulstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rötenbach/">Rötenbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Schützenweg/">Schützenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Schützenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sommenhardt/">Sommenhardt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Schwarzwaldstraße/">Schwarzwaldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Schwarzwaldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sommenhardt/">Sommenhardt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Silcherstraße/">Silcherstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Silcherstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bad_Teinach/">Bad Teinach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Sommenhardter_Weg/">Sommenhardter Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Sommenhardter_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zavelstein/">Zavelstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Sonnenhalde/">Sonnenhalde</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Sonnenhalde/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zavelstein/">Zavelstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Speßhardter_Straße/">Speßhardter Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Speßhardter_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zavelstein/">Zavelstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Spinnerin-Kreuz-Weg/">Spinnerin-Kreuz-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Spinnerin-Kreuz-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zavelstein/">Zavelstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Stauferstraße/">Stauferstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Stauferstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sommenhardt/">Sommenhardt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Stubenfelsenweg/">Stubenfelsenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Stubenfelsenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kentheim/">Kentheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Tannenhau/">Tannenhau</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Tannenhau/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zavelstein/">Zavelstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Teinacher_Straße/">Teinacher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Teinacher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zavelstein/">Zavelstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Teuchelweg/">Teuchelweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Teuchelweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bad_Teinach/">Bad Teinach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Uhlandstraße/">Uhlandstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Uhlandstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bad_Teinach/">Bad Teinach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Untere_Talstraße/">Untere Talstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Untere_Talstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zavelstein/">Zavelstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Vogteistraße/">Vogteistraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Vogteistraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zavelstein/">Zavelstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Weberweg/">Weberweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Weberweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bad_Teinach/">Bad Teinach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Weihreute/">Weihreute</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Weihreute/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zavelstein/">Zavelstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Weltenschwanner_Straße/">Weltenschwanner Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Weltenschwanner_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sommenhardt/">Sommenhardt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Wielandstraße/">Wielandstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Wielandstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Emberg/">Emberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Wiesenweg/">Wiesenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Wiesenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rötenbach/">Rötenbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Wildbader_Straße/">Wildbader Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Wildbader_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bad_Teinach/">Bad Teinach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Wilhelmshöhe/">Wilhelmshöhe</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Wilhelmshöhe/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kentheim/">Kentheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Wilhelmstraße/">Wilhelmstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Wilhelmstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schmieh/">Schmieh</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Winfried-Damrow-Straße/">Winfried-Damrow-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Winfried-Damrow-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rötenbach/">Rötenbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Würzbacher_Straße/">Würzbacher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Würzbacher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Bad_Teinach/">Bad Teinach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Zavelsteiner_Straße/">Zavelsteiner Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Zavelsteiner_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sommenhardt/">Sommenhardt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Ziegelgasse/">Ziegelgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Ziegelgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sommenhardt/">Sommenhardt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Zinkgasse/">Zinkgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Zinkgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/"><strong>PLZ Bad Teinach-Zavelstein</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rötenbach/">Rötenbach</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Zum_Häuptle/">Zum Häuptle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Bad_Teinach-Zavelstein/Zum_Häuptle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neubulach/"><strong>PLZ Neubulach</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lautenbachhof/">Lautenbachhof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neubulach/Lautenbachhof/">Lautenbachhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Neubulach/Lautenbachhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuweiler/"><strong>PLZ Neuweiler</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dachshof/">Dachshof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuweiler/Dachshof/">Dachshof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuweiler/Dachshof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuweiler/"><strong>PLZ Neuweiler</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Glasmühle/">Glasmühle</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuweiler/Glasmühle/">Glasmühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_75385/">75385</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuweiler/Glasmühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.006 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

@@ -1,0 +1,380 @@
+Am Schützenplatz
+Aussiedlerhof
+Bahnhofstraße
+Blumenstraße
+Eichelstraße
+Friedensstraße
+Gartenstraße
+Hauptstraße
+Im großen Sand
+Im Sand
+Jahnstraße
+Kirchstraße
+Kohläckerweg
+Lindenstraße
+Mittelstraße
+Mühlstraße
+Schützenstraße
+Am Kirchberg
+Brunnenstraße
+Gartenstraße
+Gehlmühle
+Hauptstraße
+Im Eck
+Im Sandfeld
+In den Leitswiesen
+Kirchbergstraße
+Mösigstraße
+Rustelstraße
+Sandstraße
+Schwarzerdstraße
+Waldstraße
+Friedhofstraße
+Haingasse
+Hauptstraße
+Hollergasse
+Jahnstraße
+Kirchgasse
+Langehohl
+Lehmhohl
+Leichthohl
+Mühlweg
+Wasgaustraße
+Am Kolmerberg
+Am Spöhren
+Am Springberg
+Brunnenstraße
+Buchenweg
+Guttenbergstraße
+Hauptstraße
+Heideweg
+Im Rödelstal
+In der Zeil
+Kastanienstraße
+Kirchgraben
+Rathausgasse
+Scheidelsgasse
+Schulstraße
+Stäffelsbergstraße
+Talstraße
+Tannenweg
+Übergasse
+Waldhof
+Weed-Borngasse
+Wiesenstraße
+Bachgasse
+Bergstraße
+Blidenfeldstraße
+Brühlstraße
+Dionysiusstraße
+Frühmeß
+Gartenstraße
+Gernweg
+Hauptstraße
+Höhenstraße
+Im Altengarten
+Im Spieß
+Im Weinberg
+Im Weißröckel
+Im Woog
+Kirchbergstraße
+Kirchgasse
+Lettengasse
+Neubergstraße
+Schlemmergasse
+Schulstraße
+Waldstraße
+Weinstraße
+Winzergasse
+Ziegelgasse
+Agnes-Kimmle-Straße
+Brückenwiesenstraße
+Brückwiesenstraße
+Danziger Straße
+Deutschhof
+Dorfstraße
+Eichenhof
+Friedhofstraße
+Gartenstraße
+Hintergasse
+Im Büschel
+Im kurzen Stein
+Kaplaneihof
+Ludwig-Kröber-Straße
+Neuer Schafweg
+Obere Hauptstraße
+Ostpreussenstraße
+Pfaffenhohl
+Pommernstraße
+Raiffeisenstraße
+Schlesienstraße
+Schulstraße
+Untere Hauptstraße
+Wassergasse
+Weinbergstraße
+Abt-Eberhard-Straße
+Am Augraben
+Aussiedlerhof 1
+Bahnhofstraße
+Bienwaldstraße
+Burgebracher Straße
+Finstergasse
+Friedhofstraße
+Geißbergstraße
+Haardtstraße
+Hauptstraße
+Heinrich-v.-Fleckenstein-Straße
+Hollergasse
+Hundsgasse
+Im Lichel
+Im Schäfergarten
+Kirchgasse
+Krautergersheimer Platz
+Martin-Conrath-Weg
+Mundatstraße
+Raiffeisenstraße
+Rollgasse
+Samsgasse
+Schafgasse
+Schulgasse
+St.-Remig-Platz
+Viehstrichhof
+Vogesenstraße
+Wasgaustraße
+Weißenburger Straße
+Werkgasse
+Albert-Decker-Weg
+Alte Straße
+Am Bahnhof
+Am Federbach
+Am Gleisweg
+Am Sauerbrünnel
+An der Ziegelhütte
+August-Becker-Straße
+Badstubengasse
+Bahnhofstraße
+Burg Landeck
+Dagobertstraße
+Friedhofstraße
+Großwiese
+Heidenschuhstraße
+Hilsengasse
+Im Böhnert
+Im Heißbühl
+Im Hofwingert
+Im Kahngarten
+Im Kammeracker
+Im Oberen Heißbühl
+Im Obstgarten
+Im Steinacker
+Im Stift
+Im Wiesengrund
+Im Winkel
+In den Schelmengärten
+In der Glasbach
+In der Kostrey
+Johanna-Weg
+Kaiserbacher Mühle
+Kaiserstraße
+Karl-Hoffmann-Straße
+Landeckstraße
+Lettgasse
+Magdalenenweg
+Mühlgasse
+Müllerstraße
+Nikolausweg
+Obere Hofwiese
+Poststraße
+Riemerschmidweg
+Schelmengasse
+Schlendergasse
+Schloßbergstraße
+Schlösselstraße
+Schulstraße
+Steinstraße
+Totenweg
+Untere Hofwiese
+Weinstraße
+Am Weinberg
+Bahnhofstraße
+Hauptstraße
+Im Schafgarten
+Im Tiergarten
+Landauer Straße
+Raiffeisenstraße
+Zinkhohlweg
+Gartenstraße
+Hauptstraße
+Hintergasse
+In den Hofäckern
+Littenheimer Ring
+Niedergasse
+Seltzer Ring
+Wickengärten
+Dammweg
+Eichhorngasse
+Friedhofstraße
+Friedsgasse
+Guttenbergstraße
+Handwerksgasse
+Hasenberg
+Heidebrunnerhof
+Herrengasse
+Herrenwiese
+Hintergasse
+Hummelsgasse
+Im Schiffertsgarten
+In den Birken
+Karl-Meyer-Straße
+Lenkerweg
+Maienstraße
+Marktstraße
+Mühlgasse
+Oberdorfstraße
+Raiffeisenstraße
+Röllergasse
+Rotackerweg
+Schweppenhäuserstraße
+Unterdorfstraße
+Untergasse
+Weinstraße
+Weißenburger Straße
+Willi-Fischer-Straße
+August-Becker-Straße
+Bergstraße
+Glimbornstraße
+Im Adelstal
+Langwiesenstraße
+Untergasse
+Wohnplatz Bühlhof
+Wohnplatz Hahnenhof
+Am Geisberg
+Am Schloßberg
+Baumgartenstraße
+Engelsgasse
+Hauptstraße
+Im Bienengarten
+Im Saigen
+Im Weidfeld
+Nonnensuselstraße
+Schäfergasse
+Schloss-Straße
+Wappenschmiedstraße
+Weinstraße
+Weyhersacker
+Wiesenstraße
+Adam-Lattrell-Straße
+Am Herdweg
+Am Weiher
+An der Schmalwiese
+Bacchusstraße
+Bergstraße
+Blumenstraße
+Burgunder Straße
+Feuerwehrstraße
+Flurstraße
+Friedhofstraße
+Gartenstraße
+Guttenbergstraße
+Hauptstraße
+Höfelsstraße
+Höhenstraße
+Im Pfarrwingert
+Karlsruher Straße
+Kirchstraße
+Landrat-Hoffmann-Straße
+Längelsstraße
+Martin-Luther-King-Straße
+Müllerstraße
+Nordring
+Paulinerstraße
+Rambergstraße
+Rieslingstraße
+Ringstraße
+Rosenstraße
+Ruländerstraße
+Schulstraße
+Schulweg
+Silvanerstraße
+Sonnenberg
+St.-Urban-Platz
+Südring
+Talstraße
+Theodor-Heuss-Straße
+Traminerstraße
+Waldstraße
+Wasgaustraße
+Weinstraße
+Weinstraße
+Wiesenstraße
+Zollstraße
+Buxarium
+Friedhofstraße
+Gartenstraße
+Haftelhof
+Haftelhof
+Hans-Trapp-Straße
+Hauptstraße
+Kirchstraße
+Lichtenhart
+Neuhof
+Pfr.-Michael-Frey-Straße
+Schulstraße
+Speckstraße
+St.-Remigius-Straße
+Südring
+Wiesenstraße
+Windhof
+Albrechtser Ring
+Alte Landstraße
+Am Sportplatz
+Bachstraße
+Bahnhof Schaidt
+Bahnhofstraße
+Barbara-Labbe-Straße
+Bienwaldziegelhütte
+Bildstraße
+Dirlewanger Ring
+Feldpfad
+Gartenstraße
+Gerbertshohl
+Guttenbergstraße
+Haardtstraße
+Höckerlinie
+In den Mittelgärten
+In der südlichen Au
+Kirchgasse
+Kleinsteinfeld
+Margaretenstraße
+Obere Hauptstraße
+Raiffeisenstraße
+Riedstraße
+Schmiedgasse
+Schulring
+Speyerer Straße
+Untere Hauptstraße
+Waldhof
+Waldstraße
+Wasgaustraße
+Wengelspfad
+Am Döllenpfad
+Am Wingertsberg
+Bergstraße
+Berwartsteinstraße
+Bethof
+Brühlstraße
+Gartenstraße
+Hauptstraße
+Im Entenbruch
+In den Pitzenäckern
+Kirchstraße
+Lindelbrunn
+Lindelbrunnstraße
+Mühlstraße
+Rödelsteinstraße
+Sägemühle
+Schulstraße
+Thalstraße
+Untere Bergstraße
+Waldstraße
+Wiesenstraße

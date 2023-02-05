@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 90419 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="90419, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 90419 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 90419">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_90419/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 90419 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="90419" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Alfershausen/" title="PLZ Alfershausen"><strong>PLZ Alfershausen</strong></a>|<a href="https://plzplz.de/PLZ_Bärenbrunnermühle/" title="PLZ Bärenbrunnermühle"><strong>PLZ Bärenbrunnermühle</strong></a>|<a href="https://plzplz.de/PLZ_Bechtoldsweiler/" title="PLZ Bechtoldsweiler"><strong>PLZ Bechtoldsweiler</strong></a>|<a href="https://plzplz.de/PLZ_Beigelswinden/" title="PLZ Beigelswinden"><strong>PLZ Beigelswinden</strong></a>|<a href="https://plzplz.de/PLZ_Betzisried/" title="PLZ Betzisried"><strong>PLZ Betzisried</strong></a>|<a href="https://plzplz.de/PLZ_Breckerfeld/" title="PLZ Breckerfeld"><strong>PLZ Breckerfeld</strong></a>|<a href="https://plzplz.de/PLZ_Brennet/" title="PLZ Brennet"><strong>PLZ Brennet</strong></a>|<a href="https://plzplz.de/PLZ_Buntenbock/" title="PLZ Buntenbock"><strong>PLZ Buntenbock</strong></a>|<a href="https://plzplz.de/PLZ_Diele/" title="PLZ Diele"><strong>PLZ Diele</strong></a>|<a href="https://plzplz.de/PLZ_Dornholzhausen/" title="PLZ Dornholzhausen"><strong>PLZ Dornholzhausen</strong></a>|<a href="https://plzplz.de/PLZ_Dreveskirchen/" title="PLZ Dreveskirchen"><strong>PLZ Dreveskirchen</strong></a>|<a href="https://plzplz.de/PLZ_Dühren/" title="PLZ Dühren"><strong>PLZ Dühren</strong></a>|<a href="https://plzplz.de/PLZ_Geesdorf/" title="PLZ Geesdorf"><strong>PLZ Geesdorf</strong></a>|<a href="https://plzplz.de/PLZ_Helmerotherhöhe/" title="PLZ Helmerotherhöhe"><strong>PLZ Helmerotherhöhe</strong></a>|<a href="https://plzplz.de/PLZ_Hiltrop/" title="PLZ Hiltrop"><strong>PLZ Hiltrop</strong></a>|<a href="https://plzplz.de/PLZ_Höfstettermühle/" title="PLZ Höfstettermühle"><strong>PLZ Höfstettermühle</strong></a>|<a href="https://plzplz.de/PLZ_Höhensteig/" title="PLZ Höhensteig"><strong>PLZ Höhensteig</strong></a>|<a href="https://plzplz.de/PLZ_Hoykenkamp/" title="PLZ Hoykenkamp"><strong>PLZ Hoykenkamp</strong></a>|<a href="https://plzplz.de/PLZ_Idsingen/" title="PLZ Idsingen"><strong>PLZ Idsingen</strong></a>|<a href="https://plzplz.de/PLZ_Lacken/" title="PLZ Lacken"><strong>PLZ Lacken</strong></a>|<a href="https://plzplz.de/PLZ_Maierholz/" title="PLZ Maierholz"><strong>PLZ Maierholz</strong></a>|<a href="https://plzplz.de/PLZ_Neubauer/" title="PLZ Neubauer"><strong>PLZ Neubauer</strong></a>|<a href="https://plzplz.de/PLZ_Neubreitenau/" title="PLZ Neubreitenau"><strong>PLZ Neubreitenau</strong></a>|<a href="https://plzplz.de/PLZ_Praßl/" title="PLZ Praßl"><strong>PLZ Praßl</strong></a>|<a href="https://plzplz.de/PLZ_Pucking/" title="PLZ Pucking"><strong>PLZ Pucking</strong></a>|<a href="https://plzplz.de/PLZ_Putensen/" title="PLZ Putensen"><strong>PLZ Putensen</strong></a>|<a href="https://plzplz.de/PLZ_Röspe/" title="PLZ Röspe"><strong>PLZ Röspe</strong></a>|<a href="https://plzplz.de/PLZ_Saalborn/" title="PLZ Saalborn"><strong>PLZ Saalborn</strong></a>|<a href="https://plzplz.de/PLZ_Schlemm/" title="PLZ Schlemm"><strong>PLZ Schlemm</strong></a>|<a href="https://plzplz.de/PLZ_Schreieröd/" title="PLZ Schreieröd"><strong>PLZ Schreieröd</strong></a>|<a href="https://plzplz.de/PLZ_Steffing/" title="PLZ Steffing"><strong>PLZ Steffing</strong></a>|<a href="https://plzplz.de/PLZ_Unterpleichfeld/" title="PLZ Unterpleichfeld"><strong>PLZ Unterpleichfeld</strong></a>|<a href="https://plzplz.de/PLZ_Vordereck/" title="PLZ Vordereck"><strong>PLZ Vordereck</strong></a>|<a href="https://plzplz.de/PLZ_Weidenwang/" title="PLZ Weidenwang"><strong>PLZ Weidenwang</strong></a>|<a href="https://plzplz.de/PLZ_Wenholthausen/" title="PLZ Wenholthausen"><strong>PLZ Wenholthausen</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 90419</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Adam-Kraft-Straße/">Adam-Kraft-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Adam-Kraft-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Adelgundenstraße/">Adelgundenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Adelgundenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Am_Johannisfriedhof/">Am Johannisfriedhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Am_Johannisfriedhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Amalienstraße/">Amalienstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Amalienstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Arndtstraße/">Arndtstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Arndtstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Äußere_Großweidenmühlstraße/">Äußere Großweidenmühlstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Äußere_Großweidenmühlstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Bielingplatz/">Bielingplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Bielingplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Bielingstraße/">Bielingstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Bielingstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Brückenstraße/">Brückenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Brückenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Bucher_Straße/">Bucher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Bucher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Burgschmietstraße/">Burgschmietstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Burgschmietstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Campestraße/">Campestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Campestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Christoph-Weiß-Straße/">Christoph-Weiß-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Christoph-Weiß-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Fleischmannplatz/">Fleischmannplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Fleischmannplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Fleischmannstraße/">Fleischmannstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Fleischmannstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Flurstraße/">Flurstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Flurstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Franzstraße/">Franzstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Franzstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Frauenholzstraße/">Frauenholzstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Frauenholzstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Friedrich-Löffler-Straße/">Friedrich-Löffler-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Friedrich-Löffler-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Friedrich-Stettner-Straße/">Friedrich-Stettner-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Friedrich-Stettner-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Frommannstraße/">Frommannstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Frommannstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Gottliebstraße/">Gottliebstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Gottliebstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Großweidenmühlstraße/">Großweidenmühlstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Großweidenmühlstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Hallerstraße/">Hallerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Hallerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Hallerwiese/">Hallerwiese</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Hallerwiese/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Heimerichstraße/">Heimerichstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Heimerichstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Helenenhof/">Helenenhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Helenenhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Helenenstraße/">Helenenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Helenenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Helmstraße/">Helmstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Helmstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Hufelandstraße/">Hufelandstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Hufelandstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Innere_Hallerstraße/">Innere Hallerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Innere_Hallerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Jagdstraße/">Jagdstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Jagdstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Johannisstraße/">Johannisstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Johannisstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Julienstraße/">Julienstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Julienstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Juvenellstraße/">Juvenellstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Juvenellstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Ketzelstraße/">Ketzelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Ketzelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Kirchenweg/">Kirchenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Kirchenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Kirschgartenstraße/">Kirschgartenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Kirschgartenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kleinweidenmühle/">Kleinweidenmühle</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Kleinweidenmühle/">Kleinweidenmühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Kleinweidenmühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Kressenstraße/">Kressenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Kressenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Krugstraße/">Krugstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Krugstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Lahmannstraße/">Lahmannstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Lahmannstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Lange_Zeile/">Lange Zeile</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Lange_Zeile/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Lerchenbühlstraße/">Lerchenbühlstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Lerchenbühlstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Leuchsstraße/">Leuchsstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Leuchsstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Lindengasse/">Lindengasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Lindengasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Lobsingerstraße/">Lobsingerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Lobsingerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Mesmerstraße/">Mesmerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Mesmerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Neutorgraben/">Neutorgraben</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Neutorgraben/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Nordwestring/">Nordwestring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Nordwestring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Palmplatz/">Palmplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Palmplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Penzstraße/">Penzstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Penzstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Poppelstraße/">Poppelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Poppelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Poppenreuther_Straße/">Poppenreuther Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Poppenreuther_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Prießnitzstraße/">Prießnitzstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Prießnitzstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Prof.-Ernst-Nathan-Straße/">Prof.-Ernst-Nathan-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Prof.-Ernst-Nathan-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Riesenschritt/">Riesenschritt</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Riesenschritt/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Rieterstraße/">Rieterstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Rieterstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Rilkestraße/">Rilkestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Rilkestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Rohledererstraße/">Rohledererstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Rohledererstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Roritzerstraße/">Roritzerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Roritzerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Rückertstraße/">Rückertstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Rückertstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Sandbergstraße/">Sandbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Sandbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Sandrartstraße/">Sandrartstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Sandrartstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Schnieglinger_Straße/">Schnieglinger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Schnieglinger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Schrothstraße/">Schrothstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Schrothstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/St.-Johannis-Mühlgasse/">St.-Johannis-Mühlgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/St.-Johannis-Mühlgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Steinstraße/">Steinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Steinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Süßheimweg/">Süßheimweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Süßheimweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Vogelherdstraße/">Vogelherdstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Vogelherdstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Wehefritzstraße/">Wehefritzstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Wehefritzstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Weichselstraße/">Weichselstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Weichselstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Weigelstraße/">Weigelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Weigelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Wielandstraße/">Wielandstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Wielandstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Wiesentalstraße/">Wiesentalstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Wiesentalstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sankt_Johannis/">Sankt Johannis</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Wilhelm-Marx-Straße/">Wilhelm-Marx-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_90419/">90419</a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/Wilhelm-Marx-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.004 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

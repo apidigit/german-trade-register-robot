@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 09557 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="09557, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 09557 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 09557">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_09557/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 09557 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="09557" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Baumen/" title="PLZ Baumen"><strong>PLZ Baumen</strong></a>|<a href="https://plzplz.de/PLZ_Dettmannsdorf/" title="PLZ Dettmannsdorf"><strong>PLZ Dettmannsdorf</strong></a>|<a href="https://plzplz.de/PLZ_Eberlsöd/" title="PLZ Eberlsöd"><strong>PLZ Eberlsöd</strong></a>|<a href="https://plzplz.de/PLZ_Echtz/" title="PLZ Echtz"><strong>PLZ Echtz</strong></a>|<a href="https://plzplz.de/PLZ_Ecklak/" title="PLZ Ecklak"><strong>PLZ Ecklak</strong></a>|<a href="https://plzplz.de/PLZ_Eggerszell/" title="PLZ Eggerszell"><strong>PLZ Eggerszell</strong></a>|<a href="https://plzplz.de/PLZ_Eisendorf/" title="PLZ Eisendorf"><strong>PLZ Eisendorf</strong></a>|<a href="https://plzplz.de/PLZ_Faselsberg/" title="PLZ Faselsberg"><strong>PLZ Faselsberg</strong></a>|<a href="https://plzplz.de/PLZ_Friedrichsgraben/" title="PLZ Friedrichsgraben"><strong>PLZ Friedrichsgraben</strong></a>|<a href="https://plzplz.de/PLZ_Gaiging/" title="PLZ Gaiging"><strong>PLZ Gaiging</strong></a>|<a href="https://plzplz.de/PLZ_Geblatsried/" title="PLZ Geblatsried"><strong>PLZ Geblatsried</strong></a>|<a href="https://plzplz.de/PLZ_Gehlsdorf/" title="PLZ Gehlsdorf"><strong>PLZ Gehlsdorf</strong></a>|<a href="https://plzplz.de/PLZ_Großmeinfeld/" title="PLZ Großmeinfeld"><strong>PLZ Großmeinfeld</strong></a>|<a href="https://plzplz.de/PLZ_Hackl/" title="PLZ Hackl"><strong>PLZ Hackl</strong></a>|<a href="https://plzplz.de/PLZ_Harpstedt/" title="PLZ Harpstedt"><strong>PLZ Harpstedt</strong></a>|<a href="https://plzplz.de/PLZ_Kirchleus/" title="PLZ Kirchleus"><strong>PLZ Kirchleus</strong></a>|<a href="https://plzplz.de/PLZ_Kißlegg/" title="PLZ Kißlegg"><strong>PLZ Kißlegg</strong></a>|<a href="https://plzplz.de/PLZ_Kubach/" title="PLZ Kubach"><strong>PLZ Kubach</strong></a>|<a href="https://plzplz.de/PLZ_Leingarten/" title="PLZ Leingarten"><strong>PLZ Leingarten</strong></a>|<a href="https://plzplz.de/PLZ_Nauden/" title="PLZ Nauden"><strong>PLZ Nauden</strong></a>|<a href="https://plzplz.de/PLZ_Neunaigen/" title="PLZ Neunaigen"><strong>PLZ Neunaigen</strong></a>|<a href="https://plzplz.de/PLZ_Nußbühl/" title="PLZ Nußbühl"><strong>PLZ Nußbühl</strong></a>|<a href="https://plzplz.de/PLZ_Oberlaichling/" title="PLZ Oberlaichling"><strong>PLZ Oberlaichling</strong></a>|<a href="https://plzplz.de/PLZ_Papitz/" title="PLZ Papitz"><strong>PLZ Papitz</strong></a>|<a href="https://plzplz.de/PLZ_Rasöd/" title="PLZ Rasöd"><strong>PLZ Rasöd</strong></a>|<a href="https://plzplz.de/PLZ_Reddingshausen/" title="PLZ Reddingshausen"><strong>PLZ Reddingshausen</strong></a>|<a href="https://plzplz.de/PLZ_Ruchheim/" title="PLZ Ruchheim"><strong>PLZ Ruchheim</strong></a>|<a href="https://plzplz.de/PLZ_Schmierhof/" title="PLZ Schmierhof"><strong>PLZ Schmierhof</strong></a>|<a href="https://plzplz.de/PLZ_Stadleck/" title="PLZ Stadleck"><strong>PLZ Stadleck</strong></a>|<a href="https://plzplz.de/PLZ_Streudorf/" title="PLZ Streudorf"><strong>PLZ Streudorf</strong></a>|<a href="https://plzplz.de/PLZ_Unterbernhards/" title="PLZ Unterbernhards"><strong>PLZ Unterbernhards</strong></a>|<a href="https://plzplz.de/PLZ_Untermaisbach/" title="PLZ Untermaisbach"><strong>PLZ Untermaisbach</strong></a>|<a href="https://plzplz.de/PLZ_Wenzenried/" title="PLZ Wenzenried"><strong>PLZ Wenzenried</strong></a>|<a href="https://plzplz.de/PLZ_Windmais/" title="PLZ Windmais"><strong>PLZ Windmais</strong></a>|<a href="https://plzplz.de/PLZ_Zolkendorf/" title="PLZ Zolkendorf"><strong>PLZ Zolkendorf</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 09557</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Adlerstraße/">Adlerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Adlerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Adolfstraße/">Adolfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Adolfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Am_Auenblick/">Am Auenblick</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Am_Auenblick/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenau/">Falkenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Am_Bahnhof/">Am Bahnhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Am_Bahnhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Am_Brauereiwald/">Am Brauereiwald</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Am_Brauereiwald/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenau/">Falkenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Am_Fabrikweg/">Am Fabrikweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Am_Fabrikweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenau/">Falkenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Am_Haltepunkt/">Am Haltepunkt</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Am_Haltepunkt/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Am_Hang/">Am Hang</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Am_Hang/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Am_Mörbitzbach/">Am Mörbitzbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Am_Mörbitzbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Am_Park/">Am Park</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Am_Park/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Am_Personenbahnhof/">Am Personenbahnhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Am_Personenbahnhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Am_Pfarrwald/">Am Pfarrwald</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Am_Pfarrwald/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Am_Steinbruch/">Am Steinbruch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Am_Steinbruch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenau/">Falkenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Am_Südrand/">Am Südrand</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Am_Südrand/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Am_Teich/">Am Teich</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Am_Teich/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Am_Wasserwerk/">Am Wasserwerk</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Am_Wasserwerk/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Amselsteig/">Amselsteig</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Amselsteig/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenau/">Falkenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/An_der_Aue/">An der Aue</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/An_der_Aue/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenau/">Falkenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/An_der_Napoleonsbuche/">An der Napoleonsbuche</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/An_der_Napoleonsbuche/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Anton-Günther-Straße/">Anton-Günther-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Anton-Günther-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/August-Bebel-Straße/">August-Bebel-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/August-Bebel-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Augustusburger_Straße/">Augustusburger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Augustusburger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenau/">Falkenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Badweg/">Badweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Badweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenau/">Falkenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Bahnhofsiedlung/">Bahnhofsiedlung</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Bahnhofsiedlung/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Bahnhofstraße/">Bahnhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Bahnhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Beckersberg/">Beckersberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Beckersberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Bergmannsteig/">Bergmannsteig</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Bergmannsteig/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Bergstraße/">Bergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Bergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenau/">Falkenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Birkenstraße/">Birkenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Birkenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Bussardweg/">Bussardweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Bussardweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Chemnitzer_Straße/">Chemnitzer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Chemnitzer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Claußstraße/">Claußstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Claußstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenau/">Falkenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Dahlienweg/">Dahlienweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Dahlienweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Dammstraße/">Dammstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Dammstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenau/">Falkenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Dorfstraße/">Dorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Dorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Dr.-Kurt-Fischer-Straße/">Dr.-Kurt-Fischer-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Dr.-Kurt-Fischer-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Dr.-Otto-Klemp-Straße/">Dr.-Otto-Klemp-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Dr.-Otto-Klemp-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Dr.-Theodor-Neubauer-Straße/">Dr.-Theodor-Neubauer-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Dr.-Theodor-Neubauer-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Dr.-Wilhelm-Külz-Straße/">Dr.-Wilhelm-Külz-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Dr.-Wilhelm-Külz-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenau/">Falkenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Dresdner_Straße/">Dresdner Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Dresdner_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Dresdner_Straße/">Dresdner Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Dresdner_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Drosselweg/">Drosselweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Drosselweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Erdmannsdorfer_Straße/">Erdmannsdorfer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Erdmannsdorfer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Ernst-Schneller-Straße/">Ernst-Schneller-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Ernst-Schneller-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenau/">Falkenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Ernst-Thälmann-Straße/">Ernst-Thälmann-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Ernst-Thälmann-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Fabrikweg/">Fabrikweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Fabrikweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenau/">Falkenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Falkenauer_Wiesenstraße/">Falkenauer Wiesenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Falkenauer_Wiesenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Feldstraße/">Feldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Feldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Fortunaweg/">Fortunaweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Fortunaweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Frankenberger_Straße/">Frankenberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Frankenberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Friedhofstraße/">Friedhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Friedhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Friedrich-Ludwig-Jahn-Straße/">Friedrich-Ludwig-Jahn-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Friedrich-Ludwig-Jahn-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Fritz-Heckert-Straße/">Fritz-Heckert-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Fritz-Heckert-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Gartenstraße/">Gartenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Gartenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Gartenweg/">Gartenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Gartenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Goethestraße/">Goethestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Goethestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Golfplatz/">Golfplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Golfplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Grüne_Aue/">Grüne Aue</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Grüne_Aue/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenau/">Falkenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Gustav-Haubold-Siedlung/">Gustav-Haubold-Siedlung</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Gustav-Haubold-Siedlung/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Hausdorfer_Straße/">Hausdorfer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Hausdorfer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Heinrich-Heine-Straße/">Heinrich-Heine-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Heinrich-Heine-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Kohlenstraße/">Kohlenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Kohlenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Kurze_Straße/">Kurze Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Kurze_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Lärchenstraße/">Lärchenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Lärchenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Lärchental/">Lärchental</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Lärchental/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Lessingstraße/">Lessingstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Lessingstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenau/">Falkenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Lindenstraße/">Lindenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Lindenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Margaretenweg/">Margaretenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Margaretenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Marktplatz/">Marktplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Marktplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Marktsteig/">Marktsteig</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Marktsteig/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Max-Lange-Straße/">Max-Lange-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Max-Lange-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Mittelstraße/">Mittelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Mittelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Morgenleite/">Morgenleite</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Morgenleite/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenau/">Falkenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Neuer_Weg/">Neuer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Neuer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Obere_Güterbahnhofstraße/">Obere Güterbahnhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Obere_Güterbahnhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Oststraße/">Oststraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Oststraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Plauberg/">Plauberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Plauberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenau/">Falkenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Plauer_Straße/">Plauer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Plauer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Pufendorfstraße/">Pufendorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Pufendorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Richard-Wagner-Straße/">Richard-Wagner-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Richard-Wagner-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenau/">Falkenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Ringstraße/">Ringstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Ringstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenau/">Falkenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Rosenweg/">Rosenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Rosenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Rudolf-Breitscheid-Straße/">Rudolf-Breitscheid-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Rudolf-Breitscheid-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Sachsenstraße/">Sachsenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Sachsenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Schillerstraße/">Schillerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Schillerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Schlossblick/">Schlossblick</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Schlossblick/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Schwarzer_Weg/">Schwarzer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Schwarzer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Schweddey/">Schweddey</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Schweddey/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Seeberstraße/">Seeberstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Seeberstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Steiler_Weg/">Steiler Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Steiler_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenau/">Falkenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Straße_der_Einheit/">Straße der Einheit</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Straße_der_Einheit/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Straße_des_Friedens/">Straße des Friedens</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Straße_des_Friedens/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Struthweg/">Struthweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Struthweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Südstraße/">Südstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Südstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Talstraße/">Talstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Talstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenau/">Falkenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Tannengasse/">Tannengasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Tannengasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Turnerstraße/">Turnerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Turnerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Uferstraße/">Uferstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Uferstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Untere_Güterbahnhofstraße/">Untere Güterbahnhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Untere_Güterbahnhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Waldsiedlung/">Waldsiedlung</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Waldsiedlung/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Waldstraße/">Waldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Waldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Wehrstraße/">Wehrstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Wehrstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Wiesenstraße/">Wiesenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Wiesenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Wiesenweg/">Wiesenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Wiesenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Ziegeleistraße/">Ziegeleistraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Ziegeleistraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenau/">Falkenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Zum_Gewerbegebiet/">Zum Gewerbegebiet</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Zum_Gewerbegebiet/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Zum_Rosenheim/">Zum Rosenheim</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Zum_Rosenheim/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Zur_Baumwolle/">Zur Baumwolle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Zur_Baumwolle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Zur_Finkenmühle/">Zur Finkenmühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Zur_Finkenmühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Flöha/"><strong>PLZ Flöha</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Falkenau/">Falkenau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Zur_Siedlung/">Zur Siedlung</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_09557/">09557</a></td>
+<td><a href="https://plzplz.de/PLZ_Flöha/Zur_Siedlung/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.005 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

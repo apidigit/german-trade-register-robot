@@ -1,0 +1,318 @@
+Achtstraße
+Akazienweg
+Altes Schloß
+Am Babelsberg
+Am Dimmerstein
+Am Fischerberg
+Am Flachsfeld
+Am Fürstenwald
+Am Hainbach
+Am Heiligenberg
+Am Markt
+Am Petersberg
+Am Römerkastell
+Am Rosselstein
+Am Schlachthof
+Am Schützenhof
+Am Schwimmbad
+Am Stadion
+Am Wald
+Am Waldeck
+Amalienstraße
+Amselweg
+An der Papiermühle
+Annastraße
+Antoniusweg
+Asterstraße
+Auf der Altmühl
+Auf der Scheif
+Auf der Vogelweide
+Auf die Anthät
+Auf die Furth
+Auf die Insel
+Auf die Vogelweide
+Auf die Ziegelhütte
+Augrät
+Augsburger Straße
+Bahnhofstraße
+Bamberger Straße
+Beckinger Straße
+Bedersdorfer Straße
+Beethovenstraße
+Berckheimstraße
+Bergstraße
+Berliner Straße
+Bernhardstraße
+Bierenfeld
+Birkenweg
+Bismarckstraße
+Bittenfeldstraße
+Bliesstraße
+Blumenstraße
+Böckingstraße
+Brigittenweg
+Bromberger Weg
+Bruchweg
+Brückenstraße
+Brühlstraße
+Brunnenstraße
+Buchenhain
+Cäcilienstraße
+Charlottenweg
+Creutzwalder Ring
+Dahlienweg
+Daimlerstraße
+De-Lenoncourt-Straße
+Deckersheck
+Defrancestraße
+Deutsches Eck
+Deutzstraße
+Dieffler Straße
+Dieselstraße
+Dillinger Straße
+Dimmersteinstraße
+Dollbergstraße
+Dr.-Aloys-Lehnert-Weg
+Dr.-Prior-Straße
+Drosselweg
+Düppenweilerstraße
+Dürener Straße
+Eisenacher Weg
+Eisenbahnstraße
+Eisenbergweg
+Elisabethstraße
+Ellerbachweg
+Elsterweg
+Enzianweg
+Erbeskopfstraße
+Erbringer Straße
+Erfurter Straße
+Espeltstraße
+Feldbergstraße
+Feldstraße
+Finkenweg
+Fischbachweg
+Fischerstraße
+Fliederweg
+Frankfurter Straße
+Franz-Meguin-Straße
+Franziskusweg
+Freiburger Straße
+Freiherr-v.-Stein-Straße
+Fremersdorfer Straße
+Friedhofsweg
+Friedrich-Ebert-Straße
+Friedrichstraße
+Fuchsbrunnen
+Gänswies
+Gartenstraße
+Gathmannstraße
+Georgstraße
+Geranienstraße
+Gertrudenstraße
+Gisinger Straße
+Gladiolenweg
+Göbenstraße
+Goethestraße
+Goldgillenlängt
+Grabenstraße
+Gutenbergstraße
+Haienbachweg
+Hambachweg
+Hasenbergweg
+Haustadter Straße
+Hedwigstraße
+Heiligenbergstraße
+Heinrich-Heine-Straße
+Helenenweg
+Hemmersdorfer Straße
+Hermann-Löns-Weg
+Herrenstraße
+Hessbergweg
+Hillenplatz
+Hillenstraße
+Hinterstraße
+Hirschbergstraße
+Hirschenlängt
+Honzrather Straße
+Hoxbergstraße
+Hüttenwerkstraße
+Hyazinthenweg
+Ihner Straße
+Im Eisengrund
+Im Grasgarten
+Im Herrenstück
+Im Klostergarten
+Im Lehnfeld
+Im Rosengarten
+Im Sanken
+Im Waldwinkel
+In den Espen
+In den Kurzen
+In den Steinen
+In den Zwergen
+In der Gaul
+In der Lach
+In der Nachtweid
+In der Naßwies
+In der Röth
+In der Schlung
+In Nempen
+In Röden
+Industriestraße
+Jahnplatz
+Jahnstraße
+Jakobstraße
+Jasminweg
+Johannesstraße
+Josefsweg
+Joseph-Roederer-Straße
+Kantweg
+Karcherstraße
+Karlstraße
+Katharinenstraße
+Kelkelstraße
+Kerlinger Straße
+Kieferstraße
+Kirchenstraße
+Kirchplatz
+Klosterstraße
+Koblenzer Straße
+Kochstraße
+Köllerbachweg
+Kölner Straße
+Kondeler Mühle
+Königstraße
+Konrad-Adenauer-Allee
+Kösliner Weg
+Kufergrät
+Landauer Straße
+Lauterbachweg
+Leidinger Straße
+Leipziger Ring
+Lerchenweg
+Lessingstraße
+Lilienstraße
+Lilienthalstraße
+Limbergstraße
+Lindenbergweg
+Lindenstraße
+Litermontstraße
+Lösterbachweg
+Lotteriestraße
+Luisenstraße
+Magdalenenweg
+Magnolienweg
+Mainzer Straße
+Malvenweg
+Mandelbachweg
+Mannheimer Straße
+Margarethenstraße
+Marie-Curie-Straße
+Marienstraße
+Marktstraße
+Maschinenstraße
+Mathildenstraße
+Maximinstraße
+Meisenweg
+Merziger Straße
+Mittelstraße
+Moltkestraße
+Mozartstraße
+Mühlbergweg
+Mühlenbachweg
+Münchener Straße
+Nachtigallenweg
+Nachtsheimstraße
+Nachtweidstraße
+Nalbacher Straße
+Narzissenweg
+Nelkenstraße
+Neues Schloß
+Neustraße
+Niedstraße
+Nikolausweg
+Nordallee
+Nürnberger Straße
+Obere Flurstraße
+Odilienplatz
+Oppener Straße
+Orchideenweg
+Ostallee
+Osterbachweg
+Ottostraße
+Pachtener Straße
+Parkstraße
+Paul-Desfossez-Allee
+Paulinenstraße
+Paulsweg
+Pestelstraße
+Petersweg
+Pfaffenweg
+Primelweg
+Primsstraße
+Rathausstraße
+Rehlinger Straße
+Reimsbacher Straße
+Richard-Wagner-Straße
+Robert-Koch-Straße
+Römerstraße
+Röntgenstraße
+Roonstraße
+Rosenstraße
+Rosselweg
+Rostocker Weg
+Saarlouiser Straße
+Saarstraße
+Scharnhorststraße
+Schaumbergstraße
+Schillerstraße
+Schloßbergstraße
+Schloßstraße
+Schmittenbachstraße
+Schnurrstraße
+Schubertstraße
+Schulgartenstraße
+Schulstraße
+Schumannstraße
+Siedlung
+Siemensstraße
+Siersburgstraße
+Sonnenhügel
+Sophienstraße
+St.-Barbara-Weg
+St.-Oranna-Weg
+Steinbergstraße
+Steinmetzstraße
+Steinritsch
+Stettiner Straße
+Stockwies
+Stolpmünder Weg
+Stummstraße
+Stuttgarter Straße
+Sulzbachweg
+Theelweg
+Theresienstraße
+Torbogenstraße
+Trierer Straße
+Tübinger Straße
+Tuchbleich
+Tulpenweg
+Uferstraße
+Ulmer Straße
+Ursulastraße
+Veilchenweg
+Waldstraße
+Wallerfanger Straße
+Wehlenbergweg
+Weilerstraße
+Weinligstraße
+Weiselbergstraße
+Werderstraße
+Werkstraße
+Werthstraße
+Wiesbadener Straße
+Wiesenstraße
+Wilhelmstraße
+Würzburger Straße
+Zum Bootshaus

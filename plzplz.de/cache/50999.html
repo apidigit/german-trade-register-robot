@@ -1,0 +1,1391 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 50999 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="50999, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 50999 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 50999">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_50999/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 50999 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="50999" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Aiglshof/" title="PLZ Aiglshof"><strong>PLZ Aiglshof</strong></a>|<a href="https://plzplz.de/PLZ_Alexisbad/" title="PLZ Alexisbad"><strong>PLZ Alexisbad</strong></a>|<a href="https://plzplz.de/PLZ_Biemenhorst/" title="PLZ Biemenhorst"><strong>PLZ Biemenhorst</strong></a>|<a href="https://plzplz.de/PLZ_Boren/" title="PLZ Boren"><strong>PLZ Boren</strong></a>|<a href="https://plzplz.de/PLZ_Brackwede/" title="PLZ Brackwede"><strong>PLZ Brackwede</strong></a>|<a href="https://plzplz.de/PLZ_Bunkenburg/" title="PLZ Bunkenburg"><strong>PLZ Bunkenburg</strong></a>|<a href="https://plzplz.de/PLZ_Bürgerpark/" title="PLZ Bürgerpark"><strong>PLZ Bürgerpark</strong></a>|<a href="https://plzplz.de/PLZ_Buschdorf/" title="PLZ Buschdorf"><strong>PLZ Buschdorf</strong></a>|<a href="https://plzplz.de/PLZ_Busenweiler/" title="PLZ Busenweiler"><strong>PLZ Busenweiler</strong></a>|<a href="https://plzplz.de/PLZ_Daube/" title="PLZ Daube"><strong>PLZ Daube</strong></a>|<a href="https://plzplz.de/PLZ_Dubrau/" title="PLZ Dubrau"><strong>PLZ Dubrau</strong></a>|<a href="https://plzplz.de/PLZ_Englschall/" title="PLZ Englschall"><strong>PLZ Englschall</strong></a>|<a href="https://plzplz.de/PLZ_Gaugenmühle/" title="PLZ Gaugenmühle"><strong>PLZ Gaugenmühle</strong></a>|<a href="https://plzplz.de/PLZ_Großwitzeetze/" title="PLZ Großwitzeetze"><strong>PLZ Großwitzeetze</strong></a>|<a href="https://plzplz.de/PLZ_Hagenau/" title="PLZ Hagenau"><strong>PLZ Hagenau</strong></a>|<a href="https://plzplz.de/PLZ_Heimpolding/" title="PLZ Heimpolding"><strong>PLZ Heimpolding</strong></a>|<a href="https://plzplz.de/PLZ_Heutensbach/" title="PLZ Heutensbach"><strong>PLZ Heutensbach</strong></a>|<a href="https://plzplz.de/PLZ_Kiegl/" title="PLZ Kiegl"><strong>PLZ Kiegl</strong></a>|<a href="https://plzplz.de/PLZ_Klein_Warin/" title="PLZ Klein Warin"><strong>PLZ Klein Warin</strong></a>|<a href="https://plzplz.de/PLZ_Oberbergen/" title="PLZ Oberbergen"><strong>PLZ Oberbergen</strong></a>|<a href="https://plzplz.de/PLZ_Oerel/" title="PLZ Oerel"><strong>PLZ Oerel</strong></a>|<a href="https://plzplz.de/PLZ_Oybin/" title="PLZ Oybin"><strong>PLZ Oybin</strong></a>|<a href="https://plzplz.de/PLZ_Rieseby/" title="PLZ Rieseby"><strong>PLZ Rieseby</strong></a>|<a href="https://plzplz.de/PLZ_Rutzenhof/" title="PLZ Rutzenhof"><strong>PLZ Rutzenhof</strong></a>|<a href="https://plzplz.de/PLZ_Scholmunderhof/" title="PLZ Scholmunderhof"><strong>PLZ Scholmunderhof</strong></a>|<a href="https://plzplz.de/PLZ_Schönkirch/" title="PLZ Schönkirch"><strong>PLZ Schönkirch</strong></a>|<a href="https://plzplz.de/PLZ_Schweinsbach/" title="PLZ Schweinsbach"><strong>PLZ Schweinsbach</strong></a>|<a href="https://plzplz.de/PLZ_Speckreu/" title="PLZ Speckreu"><strong>PLZ Speckreu</strong></a>|<a href="https://plzplz.de/PLZ_Thorstadl/" title="PLZ Thorstadl"><strong>PLZ Thorstadl</strong></a>|<a href="https://plzplz.de/PLZ_Ulbargen/" title="PLZ Ulbargen"><strong>PLZ Ulbargen</strong></a>|<a href="https://plzplz.de/PLZ_Vitzeroda/" title="PLZ Vitzeroda"><strong>PLZ Vitzeroda</strong></a>|<a href="https://plzplz.de/PLZ_Wallham/" title="PLZ Wallham"><strong>PLZ Wallham</strong></a>|<a href="https://plzplz.de/PLZ_Wattenheim/" title="PLZ Wattenheim"><strong>PLZ Wattenheim</strong></a>|<a href="https://plzplz.de/PLZ_Wolfertsried/" title="PLZ Wolfertsried"><strong>PLZ Wolfertsried</strong></a>|<a href="https://plzplz.de/PLZ_Wollershausen/" title="PLZ Wollershausen"><strong>PLZ Wollershausen</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 50999</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Ackerhummelweg/">Ackerhummelweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Ackerhummelweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Adolf-Menzel-Straße/">Adolf-Menzel-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Adolf-Menzel-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Ahornweg/">Ahornweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Ahornweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Akazienweg/">Akazienweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Akazienweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Albertusweg/">Albertusweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Albertusweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Albrecht-Dürer-Straße/">Albrecht-Dürer-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Albrecht-Dürer-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Alte_Kirchgasse/">Alte Kirchgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Alte_Kirchgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Alte_Rheinstraße/">Alte Rheinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Alte_Rheinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Am_Damm/">Am Damm</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Am_Damm/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Am_Feldrain/">Am Feldrain</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Am_Feldrain/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Am_Greinshof/">Am Greinshof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Am_Greinshof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Am_Hagelkreuz/">Am Hagelkreuz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Am_Hagelkreuz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Am_Rheinberg/">Am Rheinberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Am_Rheinberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Am_Rheinufer/">Am Rheinufer</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Am_Rheinufer/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Am_Sandpfad/">Am Sandpfad</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Am_Sandpfad/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Am_Tannenhof/">Am Tannenhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Am_Tannenhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Am_Treidelweg/">Am Treidelweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Am_Treidelweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Am_Weißer_Bogen/">Am Weißer Bogen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Am_Weißer_Bogen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Am_Wingert/">Am Wingert</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Am_Wingert/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Am_Zehnthof/">Am Zehnthof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Am_Zehnthof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Am_Ziegelofen/">Am Ziegelofen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Am_Ziegelofen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/An_den_Weiden/">An den Weiden</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/An_den_Weiden/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/An_der_Hellfuhr/">An der Hellfuhr</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/An_der_Hellfuhr/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Andreasweg/">Andreasweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Andreasweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Astridstraße/">Astridstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Astridstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Auf_dem_Hügel/">Auf dem Hügel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Auf_dem_Hügel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Auf_dem_Klemberg/">Auf dem Klemberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Auf_dem_Klemberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Auf_dem_Stumpelrott/">Auf dem Stumpelrott</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Auf_dem_Stumpelrott/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Auf_der_Ruhr/">Auf der Ruhr</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Auf_der_Ruhr/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Auferstehungskirchweg/">Auferstehungskirchweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Auferstehungskirchweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Bahnhofstraße/">Bahnhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Bahnhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Beethovenstraße/">Beethovenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Beethovenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Bergstraße/">Bergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Bergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Bergwinkel/">Bergwinkel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Bergwinkel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Bertramstraße/">Bertramstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Bertramstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Berufsförderungswerk/">Berufsförderungswerk</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Berufsförderungswerk/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Birgitstraße/">Birgitstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Birgitstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Butterblumenweg/">Butterblumenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Butterblumenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Carl-Spitzweg-Straße/">Carl-Spitzweg-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Carl-Spitzweg-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Carl-von-Linde-Straße/">Carl-von-Linde-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Carl-von-Linde-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Carola-Stern-Weg/">Carola-Stern-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Carola-Stern-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Dominikus-Böhm-Straße/">Dominikus-Böhm-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Dominikus-Böhm-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Eibenweg/">Eibenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Eibenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Elisabeth-Selbert-Straße/">Elisabeth-Selbert-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Elisabeth-Selbert-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Emil-Nolde-Straße/">Emil-Nolde-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Emil-Nolde-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Ensener_Weg/">Ensener Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Ensener_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Ernst-Volland-Straße/">Ernst-Volland-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Ernst-Volland-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Eschenweg/">Eschenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Eschenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Eygelshovener_Straße/">Eygelshovener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Eygelshovener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Falderstraße/">Falderstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Falderstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Feldhamsterstraße/">Feldhamsterstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Feldhamsterstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Franz-Marc-Straße/">Franz-Marc-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Franz-Marc-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Fronhofstraße/">Fronhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Fronhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Fuchskaulenweg/">Fuchskaulenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Fuchskaulenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Gabriele-Münter-Straße/">Gabriele-Münter-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Gabriele-Münter-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Georgstraße/">Georgstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Georgstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Gertrud-Bäumer-Haus/">Gertrud-Bäumer-Haus</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Gertrud-Bäumer-Haus/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Goldnesselweg/">Goldnesselweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Goldnesselweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Grüner_Weg/">Grüner Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Grüner_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Gut_Mönchhof/">Gut Mönchhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Gut_Mönchhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Hagebuttenweg/">Hagebuttenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Hagebuttenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Hammerschmidtstraße/">Hammerschmidtstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Hammerschmidtstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Hammerschmidtstraße/">Hammerschmidtstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Hammerschmidtstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Hammerschmidtstraße/">Hammerschmidtstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Hammerschmidtstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Hans-Holbein-Straße/">Hans-Holbein-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Hans-Holbein-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Hedwig-Dohm-Weg/">Hedwig-Dohm-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Hedwig-Dohm-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Hedwigstraße/">Hedwigstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Hedwigstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Heidelweg/">Heidelweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Heidelweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Heikestraße/">Heikestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Heikestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Heinrich-Erpenbach-Straße/">Heinrich-Erpenbach-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Heinrich-Erpenbach-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Heinrich-Zille-Straße/">Heinrich-Zille-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Heinrich-Zille-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Heinrichstraße/">Heinrichstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Heinrichstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Helene-Wessel-Straße/">Helene-Wessel-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Helene-Wessel-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Helmutweg/">Helmutweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Helmutweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Henrikestraße/">Henrikestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Henrikestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Hermann-Espenmüller-Straße/">Hermann-Espenmüller-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Hermann-Espenmüller-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Hiltrudstraße/">Hiltrudstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Hiltrudstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Holzweg/">Holzweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Holzweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Holzweg/">Holzweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Holzweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Hyazinthenweg/">Hyazinthenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Hyazinthenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Im_Bergerhof/">Im Bergerhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Im_Bergerhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Im_Brunnenhof/">Im Brunnenhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Im_Brunnenhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Im_Faldergarten/">Im Faldergarten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Im_Faldergarten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Im_Garten/">Im Garten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Im_Garten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Im_Gärtnerhof/">Im Gärtnerhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Im_Gärtnerhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Im_Rosengarten/">Im Rosengarten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Im_Rosengarten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Im_Salzgrund/">Im Salzgrund</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Im_Salzgrund/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Im_Weingarten/">Im Weingarten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Im_Weingarten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Im_Weißer_Grund/">Im Weißer Grund</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Im_Weißer_Grund/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/In_den_Frasen/">In den Frasen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/In_den_Frasen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/In_der_Aue/">In der Aue</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/In_der_Aue/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Industriestraße/">Industriestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Industriestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Jean-Kübbeler-Straße/">Jean-Kübbeler-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Jean-Kübbeler-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Johann-Pullem-Straße/">Johann-Pullem-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Johann-Pullem-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Johann-Reintgen-Straße/">Johann-Reintgen-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Johann-Reintgen-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Johann-Strauss-Straße/">Johann-Strauss-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Johann-Strauss-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Johannisstraße/">Johannisstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Johannisstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Josef-Kallscheuer-Straße/">Josef-Kallscheuer-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Josef-Kallscheuer-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Kantstraße/">Kantstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Kantstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Käthe-Kollwitz-Straße/">Käthe-Kollwitz-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Käthe-Kollwitz-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Kiefernweg/">Kiefernweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Kiefernweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Kirchplatz/">Kirchplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Kirchplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Kirschgarten/">Kirschgarten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Kirschgarten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Kölnstraße/">Kölnstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Kölnstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Körberstraße/">Körberstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Körberstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Kornblumenweg/">Kornblumenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Kornblumenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Kornradenweg/">Kornradenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Kornradenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Kunibertweg/">Kunibertweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Kunibertweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Lisztstraße/">Lisztstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Lisztstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Lotosweg/">Lotosweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Lotosweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Lucas-Cranach-Straße/">Lucas-Cranach-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Lucas-Cranach-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Ludwig-Richter-Straße/">Ludwig-Richter-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Ludwig-Richter-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Ludwigstraße/">Ludwigstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Ludwigstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Margeritenweg/">Margeritenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Margeritenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Markusweg/">Markusweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Markusweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Martinsweg/">Martinsweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Martinsweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Max-Liebermann-Straße/">Max-Liebermann-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Max-Liebermann-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Michaelshovener_Straße/">Michaelshovener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Michaelshovener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Michaelweg/">Michaelweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Michaelweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Minzeweg/">Minzeweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Minzeweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Mohnweg/">Mohnweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Mohnweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Mönchsgüterweg/">Mönchsgüterweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Mönchsgüterweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Moritz-von-Schwind-Straße/">Moritz-von-Schwind-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Moritz-von-Schwind-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Mozartstraße/">Mozartstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Mozartstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Mühlengasse/">Mühlengasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Mühlengasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Müller-Armack-Straße/">Müller-Armack-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Müller-Armack-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Narzissenweg/">Narzissenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Narzissenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Nikolausweg/">Nikolausweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Nikolausweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hahnwald/">Hahnwald</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Ober_Buschweg/">Ober Buschweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Ober_Buschweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Ober_Buschweg/">Ober Buschweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Ober_Buschweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Paulstraße/">Paulstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Paulstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Peter-Koep-Straße/">Peter-Koep-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Peter-Koep-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Peterstraße/">Peterstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Peterstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Pfarrer-te-Reh-Straße/">Pfarrer-te-Reh-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Pfarrer-te-Reh-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Pfauenaugenweg/">Pfauenaugenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Pfauenaugenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Pflasterhofweg/">Pflasterhofweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Pflasterhofweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Rembrandtstraße/">Rembrandtstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Rembrandtstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Remigiusstraße/">Remigiusstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Remigiusstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Rheinaustraße/">Rheinaustraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Rheinaustraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Richard-Wagner-Straße/">Richard-Wagner-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Richard-Wagner-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Ritterspornweg/">Ritterspornweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Ritterspornweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Ritterstraße/">Ritterstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Ritterstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Robertstraße/">Robertstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Robertstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Rodderweg/">Rodderweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Rodderweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Rotdornallee/">Rotdornallee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Rotdornallee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Rubensstraße/">Rubensstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Rubensstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Rudolf-Buch-Straße/">Rudolf-Buch-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Rudolf-Buch-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Rudolfweg/">Rudolfweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Rudolfweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Schlehenweg/">Schlehenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Schlehenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Schubertstraße/">Schubertstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Schubertstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Schwarzerlenweg/">Schwarzerlenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Schwarzerlenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Seniorenweg/">Seniorenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Seniorenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Silkestraße/">Silkestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Silkestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Sonnenblumenweg/">Sonnenblumenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Sonnenblumenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Stefan-Lochner-Straße/">Stefan-Lochner-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Stefan-Lochner-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Stieleichenweg/">Stieleichenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Stieleichenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Ströer-Allee/">Ströer-Allee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Ströer-Allee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Sürther_Feldallee/">Sürther Feldallee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Sürther_Feldallee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Sürther_Hauptstraße/">Sürther Hauptstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Sürther_Hauptstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Sürther_Leinpfad/">Sürther Leinpfad</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Sürther_Leinpfad/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Sürther_Straße/">Sürther Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Sürther_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Sürther_Straße/">Sürther Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Sürther_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Tausendschönweg/">Tausendschönweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Tausendschönweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Triftweg/">Triftweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Triftweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Tulpenweg/">Tulpenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Tulpenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Ulmenallee/">Ulmenallee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Ulmenallee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Unter_Buschweg/">Unter Buschweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Unter_Buschweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Unterer_Weißer_Weg/">Unterer Weißer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Unterer_Weißer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Veilchenweg/">Veilchenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Veilchenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Vincent-van-Gogh-Straße/">Vincent-van-Gogh-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Vincent-van-Gogh-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Wattigniesstraße/">Wattigniesstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Wattigniesstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Weidengasse/">Weidengasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Weidengasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Weißer_Hauptstraße/">Weißer Hauptstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Weißer_Hauptstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Weißer_Leinpfad/">Weißer Leinpfad</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Weißer_Leinpfad/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Weißer_Straße/">Weißer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Weißer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Weißer_Unterkölnweg/">Weißer Unterkölnweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Weißer_Unterkölnweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Wesselinger_Straße/">Wesselinger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Wesselinger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Westhovener_Weg/">Westhovener Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Westhovener_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Wilhelm-Leibl-Straße/">Wilhelm-Leibl-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Wilhelm-Leibl-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rodenkirchen/">Rodenkirchen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Zitronenfalterstraße/">Zitronenfalterstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Zitronenfalterstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Zum_Hedelsberg/">Zum Hedelsberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Zum_Hedelsberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sürth/">Sürth</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Zum_Keltershof/">Zum Keltershof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Zum_Keltershof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weiß/">Weiß</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Zündorfer_Weg/">Zündorfer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_50999/">50999</a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/Zündorfer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.007 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

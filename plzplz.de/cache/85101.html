@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 85101 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="85101, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 85101 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 85101">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_85101/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 85101 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="85101" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Aiblinger_Au/" title="PLZ Aiblinger Au"><strong>PLZ Aiblinger Au</strong></a>|<a href="https://plzplz.de/PLZ_Alt_Stassow/" title="PLZ Alt Stassow"><strong>PLZ Alt Stassow</strong></a>|<a href="https://plzplz.de/PLZ_Betzigerode/" title="PLZ Betzigerode"><strong>PLZ Betzigerode</strong></a>|<a href="https://plzplz.de/PLZ_Bodenrode/" title="PLZ Bodenrode"><strong>PLZ Bodenrode</strong></a>|<a href="https://plzplz.de/PLZ_Bönninghausen/" title="PLZ Bönninghausen"><strong>PLZ Bönninghausen</strong></a>|<a href="https://plzplz.de/PLZ_Bottenhorn/" title="PLZ Bottenhorn"><strong>PLZ Bottenhorn</strong></a>|<a href="https://plzplz.de/PLZ_Brunsteen/" title="PLZ Brunsteen"><strong>PLZ Brunsteen</strong></a>|<a href="https://plzplz.de/PLZ_Christanz/" title="PLZ Christanz"><strong>PLZ Christanz</strong></a>|<a href="https://plzplz.de/PLZ_Clausthal-Zellerfeld/" title="PLZ Clausthal-Zellerfeld"><strong>PLZ Clausthal-Zellerfeld</strong></a>|<a href="https://plzplz.de/PLZ_Drogen/" title="PLZ Drogen"><strong>PLZ Drogen</strong></a>|<a href="https://plzplz.de/PLZ_Eitlberg/" title="PLZ Eitlberg"><strong>PLZ Eitlberg</strong></a>|<a href="https://plzplz.de/PLZ_Freesen/" title="PLZ Freesen"><strong>PLZ Freesen</strong></a>|<a href="https://plzplz.de/PLZ_Gessertshausen/" title="PLZ Gessertshausen"><strong>PLZ Gessertshausen</strong></a>|<a href="https://plzplz.de/PLZ_Grafenanger/" title="PLZ Grafenanger"><strong>PLZ Grafenanger</strong></a>|<a href="https://plzplz.de/PLZ_Himmern/" title="PLZ Himmern"><strong>PLZ Himmern</strong></a>|<a href="https://plzplz.de/PLZ_Karlskamp/" title="PLZ Karlskamp"><strong>PLZ Karlskamp</strong></a>|<a href="https://plzplz.de/PLZ_Kletzenöd/" title="PLZ Kletzenöd"><strong>PLZ Kletzenöd</strong></a>|<a href="https://plzplz.de/PLZ_Klietzen/" title="PLZ Klietzen"><strong>PLZ Klietzen</strong></a>|<a href="https://plzplz.de/PLZ_Leckringhausen/" title="PLZ Leckringhausen"><strong>PLZ Leckringhausen</strong></a>|<a href="https://plzplz.de/PLZ_Lukahammer/" title="PLZ Lukahammer"><strong>PLZ Lukahammer</strong></a>|<a href="https://plzplz.de/PLZ_Münnerstadt/" title="PLZ Münnerstadt"><strong>PLZ Münnerstadt</strong></a>|<a href="https://plzplz.de/PLZ_Oberbergstraße/" title="PLZ Oberbergstraße"><strong>PLZ Oberbergstraße</strong></a>|<a href="https://plzplz.de/PLZ_Oberwörnitz/" title="PLZ Oberwörnitz"><strong>PLZ Oberwörnitz</strong></a>|<a href="https://plzplz.de/PLZ_Pevestorf/" title="PLZ Pevestorf"><strong>PLZ Pevestorf</strong></a>|<a href="https://plzplz.de/PLZ_Raupolz/" title="PLZ Raupolz"><strong>PLZ Raupolz</strong></a>|<a href="https://plzplz.de/PLZ_Retgendorf/" title="PLZ Retgendorf"><strong>PLZ Retgendorf</strong></a>|<a href="https://plzplz.de/PLZ_Schauerach/" title="PLZ Schauerach"><strong>PLZ Schauerach</strong></a>|<a href="https://plzplz.de/PLZ_Schenkenberg/" title="PLZ Schenkenberg"><strong>PLZ Schenkenberg</strong></a>|<a href="https://plzplz.de/PLZ_Schmiding/" title="PLZ Schmiding"><strong>PLZ Schmiding</strong></a>|<a href="https://plzplz.de/PLZ_Sellendorf/" title="PLZ Sellendorf"><strong>PLZ Sellendorf</strong></a>|<a href="https://plzplz.de/PLZ_Tännig/" title="PLZ Tännig"><strong>PLZ Tännig</strong></a>|<a href="https://plzplz.de/PLZ_Tettenberg/" title="PLZ Tettenberg"><strong>PLZ Tettenberg</strong></a>|<a href="https://plzplz.de/PLZ_Uetzing/" title="PLZ Uetzing"><strong>PLZ Uetzing</strong></a>|<a href="https://plzplz.de/PLZ_Vörstetten/" title="PLZ Vörstetten"><strong>PLZ Vörstetten</strong></a>|<a href="https://plzplz.de/PLZ_Wiek/" title="PLZ Wiek"><strong>PLZ Wiek</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 85101</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Alte_Landstraße/">Alte Landstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Alte_Landstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Am_Bergfürst/">Am Bergfürst</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Am_Bergfürst/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Am_Esper/">Am Esper</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Am_Esper/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Am_Gstocket/">Am Gstocket</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Am_Gstocket/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Am_Güßgraben/">Am Güßgraben</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Am_Güßgraben/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Am_Hang/">Am Hang</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Am_Hang/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Am_Hartsaum/">Am Hartsaum</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Am_Hartsaum/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Am_Kalkbrenner/">Am Kalkbrenner</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Am_Kalkbrenner/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Am_Lesermantel/">Am Lesermantel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Am_Lesermantel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Am_Pfannenstiel/">Am Pfannenstiel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Am_Pfannenstiel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Am_Schanzl/">Am Schanzl</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Am_Schanzl/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Am_Vogelherd/">Am Vogelherd</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Am_Vogelherd/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Antoniusweg/">Antoniusweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Antoniusweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Argula-von-Grumbach-Straße/">Argula-von-Grumbach-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Argula-von-Grumbach-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Asternstraße/">Asternstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Asternstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Auto-Union-Ring/">Auto-Union-Ring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Auto-Union-Ring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Bahnhofstraße/">Bahnhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Bahnhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Beethovenstraße/">Beethovenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Beethovenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Berggasse/">Berggasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Berggasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Bernd-Rosemeyer-Straße/">Bernd-Rosemeyer-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Bernd-Rosemeyer-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Bichel/">Bichel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Bichel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Blumenstraße/">Blumenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Blumenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Brunnengasse/">Brunnengasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Brunnengasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Buchtnerbarthl/">Buchtnerbarthl</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Buchtnerbarthl/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Einsiedlerweg/">Einsiedlerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Einsiedlerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Ellenbrunnerstraße/">Ellenbrunnerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Ellenbrunnerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Ernst-Rauwolf-Straße/">Ernst-Rauwolf-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Ernst-Rauwolf-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Fasanenpfad/">Fasanenpfad</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Fasanenpfad/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Felix-Wankel-Ring/">Felix-Wankel-Ring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Felix-Wankel-Ring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Fliederstraße/">Fliederstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Fliederstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Fuchsbau/">Fuchsbau</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Fuchsbau/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Fürstäcker/">Fürstäcker</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Fürstäcker/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Ganghoferstraße/">Ganghoferstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Ganghoferstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Gänsberg/">Gänsberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Gänsberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Goethering/">Goethering</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Goethering/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Guttenbergerstraße/">Guttenbergerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Guttenbergerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Hasenpfad/">Hasenpfad</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Hasenpfad/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Hepberger_Weg/">Hepberger Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Hepberger_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Hirschbergstraße/">Hirschbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Hirschbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Hofmark/">Hofmark</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Hofmark/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Im_Hacken/">Im Hacken</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Im_Hacken/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Industriestraße/">Industriestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Industriestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Ingolstädter_Straße/">Ingolstädter Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Ingolstädter_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Jurastraße/">Jurastraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Jurastraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Kapellenweg/">Kapellenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Kapellenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Kastenholzstraße/">Kastenholzstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Kastenholzstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Klausnerweg/">Klausnerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Klausnerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Leharstraße/">Leharstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Leharstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Lehenbuckl/">Lehenbuckl</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Lehenbuckl/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Lentinger_Mühle/">Lentinger Mühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Lentinger_Mühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Lessingstraße/">Lessingstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Lessingstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Lilienstraße/">Lilienstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Lilienstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Lindenhof/">Lindenhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Lindenhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Lodronstraße/">Lodronstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Lodronstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Lommelstraße/">Lommelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Lommelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Lortzingstraße/">Lortzingstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Lortzingstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Mailinger_Weg/">Mailinger Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Mailinger_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Mozartstraße/">Mozartstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Mozartstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Mühlweg/">Mühlweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Mühlweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Nelkenweg/">Nelkenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Nelkenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Nürnberger_Straße/">Nürnberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Nürnberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Pechmannstraße/">Pechmannstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Pechmannstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Pfarrgasse/">Pfarrgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Pfarrgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Purchhauserstraße/">Purchhauserstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Purchhauserstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Rathausplatz/">Rathausplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Rathausplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Rehsteig/">Rehsteig</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Rehsteig/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Richard-Strauß-Straße/">Richard-Strauß-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Richard-Strauß-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Richard-Wagner-Straße/">Richard-Wagner-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Richard-Wagner-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Rosenweg/">Rosenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Rosenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Rudolf-Diesel-Straße/">Rudolf-Diesel-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Rudolf-Diesel-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Schillerstraße/">Schillerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Schillerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Schlickhstraße/">Schlickhstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Schlickhstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Schönfeld/">Schönfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Schönfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Schubertstraße/">Schubertstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Schubertstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Siedlung_Desching/">Siedlung Desching</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Siedlung_Desching/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Simon-Mayr-Straße/">Simon-Mayr-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Simon-Mayr-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Steigweg/">Steigweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Steigweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Steinbuckel/">Steinbuckel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Steinbuckel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Stubenrauchstraße/">Stubenrauchstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Stubenrauchstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Sudetenstraße/">Sudetenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Sudetenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Tulpenweg/">Tulpenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Tulpenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Veilchenstraße/">Veilchenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Veilchenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Wettstettener_Straße/">Wettstettener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Wettstettener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Lenting/"><strong>PLZ Lenting</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Ziegelei/">Ziegelei</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85101/">85101</a></td>
+<td><a href="https://plzplz.de/PLZ_Lenting/Ziegelei/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.006 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

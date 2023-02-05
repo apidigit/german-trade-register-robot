@@ -1,0 +1,790 @@
+Ackerwiese
+Adam-Oechsner-Straße
+Adamstieg
+Agnes-Miegel-Straße
+Ahlshäuser Burg
+Ahlshäuser Endestraße
+Ahlshäuser Gatze
+Ahlshäuser Insel
+Ahlshäuser Kaffeetwetge
+Ahlshäuser Kirchstraße
+Ahlshäuser Lieth
+Ahlshäuser Mädchenstraße
+Ahlshäuser Menganger
+Ahlshäuser Siedlung
+Ahlshäuser Straße
+Ahlshäuser Teichstraße
+Ahornweg
+Akazienstraße
+Albert-Einstein-Straße
+Albert-Koch-Straße
+Alfred-Nobel-Ring
+Allensteiner Straße
+Alte Bahnhofstraße
+Alte Hagenstraße
+Alte Leinestraße
+Alte Marktstraße
+Alte Mühle
+Alte Schulgasse
+Alte Siedlung
+Alte Steinstraße
+Altendorfer Straße
+Altendorfer Tor
+Alter Bahnhof
+Alter Stadtweg
+Am Ahrberg
+Am Altendorfer Berg
+Am Ammerfelde
+Am Anger
+Am Bache
+Am Bahndamm
+Am Bahnübergang
+Am Beekeberg
+Am Berghof
+Am Billerberge
+Am Billingsborn
+Am Bleichanger
+Am Bohrturm
+Am Bornanger
+Am Brinke
+Am Brockenblick
+Am Brunnengarten
+Am Burgberg
+Am Butterberg
+Am Clusberg
+Am Dorfbach
+Am Dorfbrunnen
+Am Dreckmorgen
+Am Friedhof
+Am Fuchsloch
+Am Graben
+Am Güsselborn
+Am Heldenberg
+Am Hillebach
+Am Hils
+Am Hirtenhof
+Am Hohlen Wege
+Am Holzgrund
+Am Hoppenberg
+Am Hubestift
+Am Hüttenkrug
+Am Jägerstuhl
+Am Kälbertalsgraben
+Am Kalkwerk
+Am Kampe
+Am Kirchweg
+Am Kirschenberg
+Am Klee
+Am Kleie
+Am Krummen Wasser
+Am Küchengarten
+Am Linnenplack
+Am Mikenrott
+Am Mönchsweg
+Am Mühlenbach
+Am Mühlenberg
+Am Oberg
+Am Pfingstanger
+Am Placken
+Am Plackmorgen
+Am Plan
+Am Rennen
+Am Roten Stein
+Am Sägewerk
+Am Schäferhof
+Am Schillanger
+Am Schleck
+Am Schmiedebrink
+Am Schulberg
+Am Schulgarten
+Am Schulweg
+Am Schwimmbad
+Am Seegraben
+Am Silberbrink
+Am Sohlberg
+Am Spielplatz
+Am Sportplatz
+Am Stauwerk
+Am Steinbrink
+Am Steinbruch
+Am Thie
+Am Tiedexer Feld
+Am Tiehof
+Am Walde
+Am Wasser
+Am Wasserbruch
+Am Wehr
+Am Weidenfeld
+Am Weingarten
+Am Wendeborn
+Am Wiehenberg
+Am Witwenkamp
+Am Zementwerk
+Am Ziegenberg
+Am Zollhaus
+An den Kirchäckern
+An den Teichen
+An der Allee
+An der Aue
+An der Breite
+An der Bundesstraße
+An der Domäne
+An der Hechel
+An der Holker
+An der Kapelle
+An der Katzbach
+An der Kirche
+An der Kötnerei
+An der Langen Gasse
+An der Molkerei
+An der Opperworth
+An der Rebbe
+An der Rotte
+An der Schule
+An der Steinburg
+An der Synagoge
+An der Twetge
+Andershäuser Kirchweg
+Andershäuser Straße
+Angerstraße
+Anna-Seghers-Weg
+Anne-Frank-Straße
+Apfelweg
+Arnsdorfer Straße
+Astrid-Lindgren-Weg
+Auebrink
+Auf dem Bache
+Auf dem Berge
+Auf dem Kampe
+Auf dem Steinwege
+Auf dem Teiche
+Auf dem Vorwerk
+Auf der Amtsseite
+Auf der Höhe
+Auf der Kohlig
+Auf der Landwehr
+Auf der Lieben Frau
+Auf der Neuen Reihe
+Auf der Reihe
+Auf der Stiftsseite
+Auf der Toke
+Auf der Trumpe
+Auf der Worth
+Auf der Wurth
+Auguste-Jünemann-Straße
+Avendshäuser Straße
+Bachstraße
+Bäckerbrink
+Bäckerstraße
+Backofenstraße
+Bahnhof
+Bahnhofstraße
+Bahnhofsweg
+Bartshäuser Straße
+Bartshäuser Turm
+Barumstraße
+Baurat-Hase-Straße
+Baustraße
+Bebelstraße
+Beethovenstraße
+Bei der Kirche
+Bei der Seh
+Benser Mauer
+Benser Straße
+Bentieröder Born
+Bentieröder Bruch
+Bentieröder Hauptstraße
+Bentieröder Ring
+Bentieröder Wanne
+Bentieröder Winkel
+Bergfeld
+Bergstraße
+Berliner Straße
+Bettina-von-Arnim-Weg
+Beulshausen
+Beulshäuser Straße
+Beverstraße
+Biebelstraße
+Biekensteg
+Billerbecker Landwehr
+Billerbecker Straße
+Billingstätter Straße
+Birkenbergsweg
+Birkenfeld
+Birkenschlag
+Birkenstraße
+Birkenweg
+Bismarckstraße
+Bismarckweg
+Blumenstraße
+Blumenweg
+Bodelschwinghstraße
+Borntal
+Bössel
+Böwern
+Brahmsweg
+Braunschweiger Straße
+Breil
+Breiter Stein
+Brenneckewiese
+Breslauer Stieg
+Breslauer Straße
+Brinkweg
+Bruchhof
+Bruchhofer Straße
+Brucknerweg
+Brunnenstraße
+Buckenhusenstraße
+Buddelweg
+Buenser Weg
+Burgäcker
+Bürgermeisterwall
+Bürgerweg
+Burggraben
+Burgplatz
+Burgstraße
+Burgweg
+Butterbergsweg
+Carl-Diem-Weg
+Carl-Maria-von-Weber-Straße
+Carl-Orff-Straße
+Carl-von-Ossietzky-Straße
+Claude-Debussy-Straße
+Clusbusch
+Clusweg
+Crohmestraße
+Damaschkestraße
+Dannhof
+Danziger Straße
+Dassenser Mitteldorf
+Dassenser Straße
+Dehne
+Deichstraße
+Deinerlindenweg
+Die Grund
+Dietrich-Bonhoeffer-Straße
+Domäne
+Domeierstraße
+Dörchenstraße
+Dorfstraße
+Dr.-Edith-Stein-Straße
+Dr.-Friedrich-Uhde-Straße
+Dr.-Heinrichs-Straße
+Dreilinden
+Drift
+Ebertstraße
+Edemisser Dorfstraße
+Eichbaum
+Eichendorffallee
+Eichenweg
+Eichstamm
+Eigenheimstraße
+Eikestraße
+Einbecker Kirchweg
+Einbecker Straße
+Elbinger Straße
+Eppeltheren
+Erich-Ollenhauer-Straße
+Erlenweg
+Erzhäuser Straße
+Eschenstraße
+Eschenweg
+Falkenhorst
+Fasanengrund
+Feldstraße
+Feriendorfstraße
+Fichtenweg
+Fichtestraße
+Fliederstraße
+Flütstraße
+Forstamt Kranold
+Forstamt Schnepke
+Försterbrink
+Forsthaus Grubenhagen
+Franz-Liszt-Straße
+Fredelsloher Straße
+Freiherr-vom-Stein-Straße
+Friedhofsweg
+Friedlandweg
+Friedrich-Ebert-Straße
+Fritz-Jöde-Weg
+Fritz-Mackensen-Straße
+Fritz-Reuter-Straße
+Fröbelstraße
+Gandersheimer Straße
+Gänseanger
+Gänselandweg
+Garlebsen
+Gartenstraße
+Gasse
+Gebrüder-Grimm-Weg
+Gehrbreiten
+Geiststraße
+Gerhart-Hauptmann-Weg
+Gerichtsstraße
+Glatzer Straße
+Gleiwitzer Straße
+Goethestraße
+Gorch-Fock-Weg
+Görlitzer Straße
+Götgengasse
+Grasweg
+Greener Burg
+Greener Gartenstraße
+Greener Marktstraße
+Greener Neue Reihe
+Greener Straße
+Greener Tor
+Grepenweg
+Grimsehlstraße
+Große Mühle
+Grubenhagener Weg
+Gustav-Stresemann-Straße
+Hagebuttenstraße
+Hagenstraße
+Hägermauer
+Hägerstraße
+Haibergstraße
+Haieshausen
+Hainbergring
+Hainbergshöhe
+Hainbergstraße
+Hallenplan
+Hallensen
+Hallenser Straße
+Händelstraße
+Hannoversche Straße
+Hansestraße
+Hardenbergstraße
+Harlandstraße
+Haspel
+Hauptstraße
+Haydnstraße
+Hebbelweg
+Hector-Berlioz-Weg
+Heiligenkamp
+Heinrich-Keim-Weg
+Heinrichstraße
+Heldenberger Straße
+Helle
+Herderstraße
+Herthastraße
+Hertingweg
+Heukenberg
+Hierbrink
+Hindenburgstraße
+Hinter dem Sieke
+Hinter den Höfen
+Hinter den Planken
+Hinter der Passeewand
+Hinterdorf
+Hinterm Berge
+Hinterm Kamp
+Hinterm Wasser
+Hirschberger Straße
+Hirtenanger
+Hohe Münsterstraße
+Hoher Weg
+Hohler Weg
+Hölderlinstraße
+Holiger Weg
+Holtershausen
+Holunderweg
+Holzanger
+Holzmindener Straße
+Hören
+Hubertusstraße
+Hubeweg
+Huldersen
+Hullerser Landstraße
+Hullerser Mauer
+Hullerser Straße
+Hullerser Tor
+Hungerkamp
+Ibergstraße
+Iberhöhe
+Igelpfuhl
+Ilmeweg
+Im Bärenloch
+Im Hamelok
+Im Hasenwinkel
+Im Hohen Feld
+Im Lehmlieth
+Im Lindenthal
+Im Löberfeld
+Im Nettebüh
+Im Oberdorf
+Im Pohlschen Bock
+Im Sieke
+Im Sonnensiek
+Im Talmorgen
+Im Unterdorf
+Im Wiesengrund
+Im Winkel
+Immenser Straße
+In den Teichen
+In den Wiesen
+In der Marsch
+In der Wettmühle
+Ingeborg-Bachmann-Weg
+Insterburger Straße
+Ippensen
+Ivenstraße
+Jacobiplatz
+Jacobistraße
+Jahnstraße
+Jahnweg
+Judenstraße
+Juliusmühle
+Kaffeestraße
+Kampstraße
+Kanalstraße
+Kantor-Hase-Weg
+Kantstraße
+Kapellenstraße
+Karl-Burgsmüller-Straße
+Kastanienallee
+Kattensiek
+Kieskuhle
+Kirchbrink
+Kirchenstraße
+Kirchhofstraße
+Kirchplatz
+Kirchstraße
+Kirchweg
+Klapperturm
+Klapperweg
+Kleine Eiche
+Kleine Gasse
+Kleiner Varlenkamp
+Kleiststraße
+Klemmerdor
+Klopstockstraße
+Knickebrink
+Knickstraße
+Knochenhauerstraße
+Kohnser Straße
+Kohnser Weg
+Kolberger Straße
+Königsberger Platz
+Königsberger Stieg
+Königsberger Straße
+Konrad-Adenauer-Straße
+Konrad-Beste-Straße
+Koppelweg
+Köppenweg
+Krähengraben
+Kreiensener Kamp
+Kreuzkamp
+Krumme Wassermühle
+Krusenkamp
+Kuhlmanns Ziegelei
+Kuhstraße
+Kükenkamp
+Kükenschnipp
+Kurze Bergstraße
+Kurze Gasse
+Kurze Münsterstraße
+Kurze Straße
+Kurzer Hagen
+Kuventhaler Ring
+Kuventhaler Turm
+Lahbreite
+Landwehr
+Landwehrweg
+Lange Brücke
+Langensieck
+Langenstruck
+Langer Wall
+Lärchenweg
+Lehmhof
+Leinestraße
+Leineturm
+Lerchenstraße
+Lessingstraße
+Letznerstraße
+Liegnitzer Straße
+Lietgrund
+Liethstraße
+Lindenstraße
+Lise-Meitner-Straße
+Löhnefinkstraße
+Lönsweg
+Lortzingstraße
+Luisenstraße
+Mägdebrink
+Mahlerweg
+Manneweg
+Marienstraße
+Markoldendorfer Straße
+Marktplatz
+Marktstraße
+Maschenstraße
+Masswelle
+Maurice-Ravel-Straße
+Max-Planck-Straße
+Mendelssohnstraße
+Mergelkuhle
+Mitteldorf
+Mittelstraße
+Mittelweg
+Mittlere Dorfstraße
+Modersohn-Becker-Straße
+Molderamweg
+Möncheplatz
+Mörikestraße
+Moringer Straße
+Mozartstraße
+Mühlenbeck
+Mühlenbergstraße
+Mühlenkamp
+Mühlenstraße
+Mühlenwall
+Mühlenweg
+Müllershausen
+Münsterkamp
+Münstermauer
+Münsterstraße
+Naenser Hohler Weg
+Naenser Straße
+Neddenstraße
+Negenborner Landstraße
+Negenborner Weg
+Nelkenweg
+Neue Reihe
+Neue Straße
+Neuer Markt
+Neustädter Kirchplatz
+Northeimer Straße
+Nußschale
+Obere Dorfstraße
+Obere Waldstraße
+Ochsenhofweg
+Odagser Hauptstraße
+Oehlmannstraße
+Offenbachstraße
+Oldendorfer Straße
+Oleburg
+Olxheim
+Oppermannweg
+Orxhausen
+Osterbruch
+Ostertor
+Ostpreußenstraße
+Oststraße
+Otto-Hahn-Straße
+Oyershausen
+Papenstraße
+Pappelfeldstraße
+Parkstraße
+Pastor-Ebbrecht-Weg
+Pastorenstraße
+Patschkauer Straße
+Paul-Hindemith-Straße
+Paul-Lincke-Weg
+Petersiliengasse
+Petersilienwasser
+Pfaffenstraße
+Pfänderwinkel
+Pfarrgasse
+Pferdestraße
+Pfingstanger
+Pinkler
+Plack
+Plankenkamp
+Plantagenweg
+Pommernstraße
+Postweg
+Prinzenwinkel
+Professor-Ellissen-Straße
+Professor-Feise-Straße
+Quellenstraße
+Raabestraße
+Rabbethgestraße
+Raiffeisenstraße
+Rathenaustraße
+Ravenstraße
+Reinserturm
+Reinserturmweg
+Rengershäuser Landstraße
+Rengershäuser Straße
+Rimmerode
+Ringstraße
+Rittieröder Dorfstraße
+Rittieröder Gatze
+Rittieröder Helleweg
+Rittieröder Kirchweg
+Rittieröder Klappe
+Rittieröder Krugwinkel
+Rittieröder Mühlberg
+Rittieröder Pfingstanger
+Rittieröder Schmiedegasse
+Rittieroder Straße
+Rosenplänter
+Rosenstraße
+Rosental
+Rosenweg
+Rotdornstraße
+Rotdornweg
+Rotenkircher Straße
+Roter Kamp
+Roter Weg
+Rottweg
+Saalfeldstraße
+Saline
+Salinenplatz
+Salinenstraße
+Sandermannweg
+Sattelhof
+Schäfergarten
+Schäfergasse
+Schäferkamp
+Schaperstraße
+Schillerstraße
+Schlachthofstraße
+Schlesische Straße
+Schmiedebrink
+Schmiedeweg
+Schnurrbartstraße
+Schotteliusstraße
+Schrammstraße
+Schubertstraße
+Schulbrink
+Schulgasse
+Schulstraße
+Schusterstraße
+Schützenstraße
+Schwammelwitzer Straße
+Schweenbrink
+Schweidnitzer Straße
+Schweriner Straße
+Selterstraße
+Seminarstraße
+Sertürnerstraße
+Severshuser Weg
+Siedlung
+Siedlung Leinetal
+Sievershäuser Glockenturm
+Sievershäuser Oberdorf
+Sievershäuser Steimel
+Sievershäuser Unterdorf
+Sievershäuser Winkel
+Sohnreystraße
+Solstraße
+Sonnenhaken
+Sonnenwinkel
+Sophienstraße
+St. Justingasse
+Stadtgrabenstraße
+Staveern
+Steinanger
+Steinbrink
+Steinstraße
+Steinweg
+Stettiner Straße
+Stettiner Weg
+Stiftplatz
+Stiftstraße
+Stuckenbreite
+Sudetenstraße
+Sülbecksweg
+Tannenstraße
+Teichenweg
+Teichstraße
+Teichweg
+Telemannweg
+Tellerbeck
+Theodor-Heuss-Weg
+Theodor-Storm-Weg
+Thiaisplatz
+Thiebrink
+Tiedexer Straße
+Tiedexer Tor
+Tiefe Straße
+Tiefer Weg
+Tiestraße
+Tilsiter Straße
+Triftweg
+Trinkbornstraße
+Trojestraße
+Tulpenweg
+Tüsterweg
+Twete
+Twetgengasse
+Twetgenwiese
+Über dem Dorfe
+Über dem Haiberg
+Über dem Hofe
+Über dem Salzgraben
+Über den Schneiderhöfen
+Über den Sieben Gärten
+Über der Eykuhle
+Uhlandstraße
+Umspannwerk
+Unter dem Hirschsprung
+Unter den Linden
+Unter den Weiden
+Unter der Vogelsburg
+Unterdorf
+Uweweg
+Vardeilser Landstraße
+Verdistraße
+Vogelbecker Straße
+Von-Moltke-Ring
+Vor den Häusern
+Vor der Kirche
+Voßstraße
+Wacholderweg
+Wagnerstraße
+Waisengasse
+Waldstraße
+Walkemühlenweg
+Walter-Poser-Straße
+Walter-Rathenau-Straße
+Wasserfurche
+Weddehagen
+Weglange
+Weinbergsweg
+Weinstein-Platz
+Weißdornweg
+Wendebornstraße
+Werner-Heisenberg-Straße
+Westpreußenstraße
+Wiederkehr
+Wiesenstraße
+Wilhelm-Busch-Straße
+Wilhelm-Henze-Straße
+Wilhelm-Messerschmidt-Platz
+Wilhelm-Raabe-Straße
+Wilhelmstraße
+Windmühle
+Winkelgasse
+Wolperstraße
+Worpsweder Straße
+Zehntenstraße
+Ziegeleistraße
+Zollhaus
+Zollstraße
+Zum Anger
+Zum Dornhof
+Zum Eichenfeld
+Zum Eichholz
+Zum Habichtstal
+Zum Lindenfeld
+Zum Mühlenberg
+Zum Neuen Friedhof
+Zum Papenkamp
+Zum Park
+Zum Schmiedebrink
+Zum Siek
+Zum Steinbühl
+Zur Ahlsburg
+Zur Beeke
+Zur Hube
+Zur Kirche
+Zur Lehmkuhle
+Zur Mühle
+Zur Rießwarte
+Zur Wienecke
+Zur Wilhelmsbrücke
+Zur Wolfskuhle

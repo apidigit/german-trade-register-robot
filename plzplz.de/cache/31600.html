@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 31600 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="31600, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 31600 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 31600">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_31600/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 31600 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="31600" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Aichet/" title="PLZ Aichet"><strong>PLZ Aichet</strong></a>|<a href="https://plzplz.de/PLZ_Alt-Hohenschönhausen/" title="PLZ Alt-Hohenschönhausen"><strong>PLZ Alt-Hohenschönhausen</strong></a>|<a href="https://plzplz.de/PLZ_Assenhausen/" title="PLZ Assenhausen"><strong>PLZ Assenhausen</strong></a>|<a href="https://plzplz.de/PLZ_Atzenhof/" title="PLZ Atzenhof"><strong>PLZ Atzenhof</strong></a>|<a href="https://plzplz.de/PLZ_Baalsdorf/" title="PLZ Baalsdorf"><strong>PLZ Baalsdorf</strong></a>|<a href="https://plzplz.de/PLZ_Beigertsham/" title="PLZ Beigertsham"><strong>PLZ Beigertsham</strong></a>|<a href="https://plzplz.de/PLZ_Bernried_am_Starnberger_See/" title="PLZ Bernried am Starnberger See"><strong>PLZ Bernried am Starnberger See</strong></a>|<a href="https://plzplz.de/PLZ_Boekzetelerfehn/" title="PLZ Boekzetelerfehn"><strong>PLZ Boekzetelerfehn</strong></a>|<a href="https://plzplz.de/PLZ_Bramfeld/" title="PLZ Bramfeld"><strong>PLZ Bramfeld</strong></a>|<a href="https://plzplz.de/PLZ_Brunnschlag/" title="PLZ Brunnschlag"><strong>PLZ Brunnschlag</strong></a>|<a href="https://plzplz.de/PLZ_Dietzenrode/" title="PLZ Dietzenrode"><strong>PLZ Dietzenrode</strong></a>|<a href="https://plzplz.de/PLZ_Donaumünster/" title="PLZ Donaumünster"><strong>PLZ Donaumünster</strong></a>|<a href="https://plzplz.de/PLZ_Eberhardtsreuth/" title="PLZ Eberhardtsreuth"><strong>PLZ Eberhardtsreuth</strong></a>|<a href="https://plzplz.de/PLZ_Feuerbach/" title="PLZ Feuerbach"><strong>PLZ Feuerbach</strong></a>|<a href="https://plzplz.de/PLZ_Fölschnitz/" title="PLZ Fölschnitz"><strong>PLZ Fölschnitz</strong></a>|<a href="https://plzplz.de/PLZ_Garvsmühlen/" title="PLZ Garvsmühlen"><strong>PLZ Garvsmühlen</strong></a>|<a href="https://plzplz.de/PLZ_Groß_Daberkow/" title="PLZ Groß Daberkow"><strong>PLZ Groß Daberkow</strong></a>|<a href="https://plzplz.de/PLZ_Großkonreuth/" title="PLZ Großkonreuth"><strong>PLZ Großkonreuth</strong></a>|<a href="https://plzplz.de/PLZ_Hemsendorf/" title="PLZ Hemsendorf"><strong>PLZ Hemsendorf</strong></a>|<a href="https://plzplz.de/PLZ_Kakenstorf/" title="PLZ Kakenstorf"><strong>PLZ Kakenstorf</strong></a>|<a href="https://plzplz.de/PLZ_Leinberg/" title="PLZ Leinberg"><strong>PLZ Leinberg</strong></a>|<a href="https://plzplz.de/PLZ_Mücheln/" title="PLZ Mücheln"><strong>PLZ Mücheln</strong></a>|<a href="https://plzplz.de/PLZ_Nemsdorf/" title="PLZ Nemsdorf"><strong>PLZ Nemsdorf</strong></a>|<a href="https://plzplz.de/PLZ_Partenheim/" title="PLZ Partenheim"><strong>PLZ Partenheim</strong></a>|<a href="https://plzplz.de/PLZ_Prex/" title="PLZ Prex"><strong>PLZ Prex</strong></a>|<a href="https://plzplz.de/PLZ_Prießeck/" title="PLZ Prießeck"><strong>PLZ Prießeck</strong></a>|<a href="https://plzplz.de/PLZ_Rotenburg_a._d._Fulda/" title="PLZ Rotenburg a. d. Fulda"><strong>PLZ Rotenburg a. d. Fulda</strong></a>|<a href="https://plzplz.de/PLZ_Scheidens/" title="PLZ Scheidens"><strong>PLZ Scheidens</strong></a>|<a href="https://plzplz.de/PLZ_Schlüsbek/" title="PLZ Schlüsbek"><strong>PLZ Schlüsbek</strong></a>|<a href="https://plzplz.de/PLZ_Schweimke/" title="PLZ Schweimke"><strong>PLZ Schweimke</strong></a>|<a href="https://plzplz.de/PLZ_Stiddien/" title="PLZ Stiddien"><strong>PLZ Stiddien</strong></a>|<a href="https://plzplz.de/PLZ_Trauen/" title="PLZ Trauen"><strong>PLZ Trauen</strong></a>|<a href="https://plzplz.de/PLZ_Unterstrahlbach/" title="PLZ Unterstrahlbach"><strong>PLZ Unterstrahlbach</strong></a>|<a href="https://plzplz.de/PLZ_Walkerszell/" title="PLZ Walkerszell"><strong>PLZ Walkerszell</strong></a>|<a href="https://plzplz.de/PLZ_Weitsche/" title="PLZ Weitsche"><strong>PLZ Weitsche</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 31600</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Am_Bahnhof/">Am Bahnhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Am_Bahnhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Am_Bockmühlenberg/">Am Bockmühlenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Am_Bockmühlenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Am_Brahmberg/">Am Brahmberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Am_Brahmberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Am_Bürgerwald/">Am Bürgerwald</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Am_Bürgerwald/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Am_Hoffeld/">Am Hoffeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Am_Hoffeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Am_Hofgarten/">Am Hofgarten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Am_Hofgarten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Am_Krähenberg/">Am Krähenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Am_Krähenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Am_Meierhof/">Am Meierhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Am_Meierhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Am_Mühlenberg/">Am Mühlenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Am_Mühlenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Am_Niederfeld/">Am Niederfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Am_Niederfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Am_Richteberg/">Am Richteberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Am_Richteberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Am_Sportplatz/">Am Sportplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Am_Sportplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Am_Teich/">Am Teich</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Am_Teich/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Am_Wallmoor/">Am Wallmoor</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Am_Wallmoor/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Amselsteg/">Amselsteg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Amselsteg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Auf_dem_Berge/">Auf dem Berge</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Auf_dem_Berge/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Auf_dem_Kaltenhagen/">Auf dem Kaltenhagen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Auf_dem_Kaltenhagen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Auf_der_Kuckucksweide/">Auf der Kuckucksweide</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Auf_der_Kuckucksweide/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Auf_der_Twacht/">Auf der Twacht</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Auf_der_Twacht/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Balkenkamp/">Balkenkamp</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Balkenkamp/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Bergfrieden/">Bergfrieden</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Bergfrieden/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Berggartenstraße/">Berggartenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Berggartenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Berliner_Ring/">Berliner Ring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Berliner_Ring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Birkendamm/">Birkendamm</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Birkendamm/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Blumenland/">Blumenland</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Blumenland/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Bornkamp/">Bornkamp</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Bornkamp/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Brachvogelsteg/">Brachvogelsteg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Brachvogelsteg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Bremer_Straße/">Bremer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Bremer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Breslauer_Straße/">Breslauer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Breslauer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Brinkstraße/">Brinkstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Brinkstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Burgstraße/">Burgstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Burgstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Danziger_Straße/">Danziger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Danziger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Darlaten/">Darlaten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Darlaten/">Darlaten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Darlaten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Eichenweg/">Eichenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Eichenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Erlenweg/">Erlenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Erlenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Färberplatz/">Färberplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Färberplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Fasanenweg/">Fasanenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Fasanenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Frankensteiner_Straße/">Frankensteiner Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Frankensteiner_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Fritz-Reuter-Straße/">Fritz-Reuter-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Fritz-Reuter-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Fuchsberg/">Fuchsberg</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Fuchsberg/">Fuchsberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Fuchsberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Gartenweg/">Gartenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Gartenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Goldammerweg/">Goldammerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Goldammerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Haferkuhle/">Haferkuhle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Haferkuhle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Hambruch/">Hambruch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Hambruch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Hammer_Dresch/">Hammer Dresch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Hammer_Dresch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Hammer_Kirchweg/">Hammer Kirchweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Hammer_Kirchweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Hannoversche_Straße/">Hannoversche Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Hannoversche_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Hermann-Löns-Weg/">Hermann-Löns-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Hermann-Löns-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Höfelinger_Weg/">Höfelinger Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Höfelinger_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Höfen/">Höfen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Höfen/">Höfen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Höfen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Höfener_Straße/">Höfener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Höfener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hoysinghausen/">Hoysinghausen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Hoysinghausen/">Hoysinghausen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Hoysinghausen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Hoysinghauser_Straße/">Hoysinghauser Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Hoysinghauser_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Im_Busch/">Im Busch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Im_Busch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Im_Knick/">Im Knick</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Im_Knick/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/In_den_Engen_Gärten/">In den Engen Gärten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/In_den_Engen_Gärten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Kiebitzweg/">Kiebitzweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Kiebitzweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Kirchstraße/">Kirchstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Kirchstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Kleibersteg/">Kleibersteg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Kleibersteg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Kleines_Holz/">Kleines Holz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Kleines_Holz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Königsberger_Straße/">Königsberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Königsberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Koppelbusch/">Koppelbusch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Koppelbusch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Kornblumenring/">Kornblumenring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Kornblumenring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Kuhstraße/">Kuhstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Kuhstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Kurze_Heide/">Kurze Heide</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Kurze_Heide/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Lerchenweg/">Lerchenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Lerchenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lohhof/">Lohhof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Lohhof/">Lohhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Lohhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Meisenwinkel/">Meisenwinkel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Meisenwinkel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Mesenburg/">Mesenburg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Mesenburg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Mindener_Straße/">Mindener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Mindener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Möhlenbrehe/">Möhlenbrehe</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Möhlenbrehe/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Moorblick/">Moorblick</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Moorblick/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Mühlenstraße/">Mühlenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Mühlenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Ortstraße/">Ortstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Ortstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Philosophenweg/">Philosophenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Philosophenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Raiffeisenstraße/">Raiffeisenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Raiffeisenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Rotdornweg/">Rotdornweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Rotdornweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Saalbachstraße/">Saalbachstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Saalbachstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Stettiner_Straße/">Stettiner Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Stettiner_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Stolzer_Straße/">Stolzer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Stolzer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Straße_zur_Sparkasse/">Straße zur Sparkasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Straße_zur_Sparkasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Sulinger_Gärten/">Sulinger Gärten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Sulinger_Gärten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Waldstraße/">Waldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Waldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Weidenweg/">Weidenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Weidenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Wiesengrund/">Wiesengrund</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Wiesengrund/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Wilhelm-Busch-Straße/">Wilhelm-Busch-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Wilhelm-Busch-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Wilhelm-Kiel-Straße/">Wilhelm-Kiel-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Wilhelm-Kiel-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Wilhelm-Raabe-Weg/">Wilhelm-Raabe-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Wilhelm-Raabe-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Wilhelm-Rodenberg-Weg/">Wilhelm-Rodenberg-Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Wilhelm-Rodenberg-Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Windmühlenstraße/">Windmühlenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Windmühlenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Woltringhausen/">Woltringhausen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Woltringhausen/">Woltringhausen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Woltringhausen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Zur_Beeke/">Zur Beeke</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Zur_Beeke/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Zur_Ihle/">Zur Ihle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Zur_Ihle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Uchte/"><strong>PLZ Uchte</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Zur_Kleinbahn/">Zur Kleinbahn</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_31600/">31600</a></td>
+<td><a href="https://plzplz.de/PLZ_Uchte/Zur_Kleinbahn/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.004 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

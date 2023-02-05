@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 06688 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="06688, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 06688 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 06688">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_06688/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 06688 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="06688" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Altenberg/" title="PLZ Altenberg"><strong>PLZ Altenberg</strong></a>|<a href="https://plzplz.de/PLZ_Atzmannsricht/" title="PLZ Atzmannsricht"><strong>PLZ Atzmannsricht</strong></a>|<a href="https://plzplz.de/PLZ_Beenz/" title="PLZ Beenz"><strong>PLZ Beenz</strong></a>|<a href="https://plzplz.de/PLZ_Binghausen/" title="PLZ Binghausen"><strong>PLZ Binghausen</strong></a>|<a href="https://plzplz.de/PLZ_Brexelhof/" title="PLZ Brexelhof"><strong>PLZ Brexelhof</strong></a>|<a href="https://plzplz.de/PLZ_Büschdorf/" title="PLZ Büschdorf"><strong>PLZ Büschdorf</strong></a>|<a href="https://plzplz.de/PLZ_Drei_Linden/" title="PLZ Drei Linden"><strong>PLZ Drei Linden</strong></a>|<a href="https://plzplz.de/PLZ_Filz/" title="PLZ Filz"><strong>PLZ Filz</strong></a>|<a href="https://plzplz.de/PLZ_Gellen/" title="PLZ Gellen"><strong>PLZ Gellen</strong></a>|<a href="https://plzplz.de/PLZ_Grabenstätt/" title="PLZ Grabenstätt"><strong>PLZ Grabenstätt</strong></a>|<a href="https://plzplz.de/PLZ_Harthofen/" title="PLZ Harthofen"><strong>PLZ Harthofen</strong></a>|<a href="https://plzplz.de/PLZ_Heilingmühl/" title="PLZ Heilingmühl"><strong>PLZ Heilingmühl</strong></a>|<a href="https://plzplz.de/PLZ_Herlingshof/" title="PLZ Herlingshof"><strong>PLZ Herlingshof</strong></a>|<a href="https://plzplz.de/PLZ_Höllberg/" title="PLZ Höllberg"><strong>PLZ Höllberg</strong></a>|<a href="https://plzplz.de/PLZ_Kasten/" title="PLZ Kasten"><strong>PLZ Kasten</strong></a>|<a href="https://plzplz.de/PLZ_Kiesenhof/" title="PLZ Kiesenhof"><strong>PLZ Kiesenhof</strong></a>|<a href="https://plzplz.de/PLZ_Klingenhöfle/" title="PLZ Klingenhöfle"><strong>PLZ Klingenhöfle</strong></a>|<a href="https://plzplz.de/PLZ_Lichtenegg/" title="PLZ Lichtenegg"><strong>PLZ Lichtenegg</strong></a>|<a href="https://plzplz.de/PLZ_Mengkofen/" title="PLZ Mengkofen"><strong>PLZ Mengkofen</strong></a>|<a href="https://plzplz.de/PLZ_Neuschönau/" title="PLZ Neuschönau"><strong>PLZ Neuschönau</strong></a>|<a href="https://plzplz.de/PLZ_Obergrößling/" title="PLZ Obergrößling"><strong>PLZ Obergrößling</strong></a>|<a href="https://plzplz.de/PLZ_Rohrenfeld/" title="PLZ Rohrenfeld"><strong>PLZ Rohrenfeld</strong></a>|<a href="https://plzplz.de/PLZ_Schlankau/" title="PLZ Schlankau"><strong>PLZ Schlankau</strong></a>|<a href="https://plzplz.de/PLZ_Schönbuchen/" title="PLZ Schönbuchen"><strong>PLZ Schönbuchen</strong></a>|<a href="https://plzplz.de/PLZ_Spicking/" title="PLZ Spicking"><strong>PLZ Spicking</strong></a>|<a href="https://plzplz.de/PLZ_Spindelwag/" title="PLZ Spindelwag"><strong>PLZ Spindelwag</strong></a>|<a href="https://plzplz.de/PLZ_Stengelheim/" title="PLZ Stengelheim"><strong>PLZ Stengelheim</strong></a>|<a href="https://plzplz.de/PLZ_Suckow/" title="PLZ Suckow"><strong>PLZ Suckow</strong></a>|<a href="https://plzplz.de/PLZ_Volkhardinghausen/" title="PLZ Volkhardinghausen"><strong>PLZ Volkhardinghausen</strong></a>|<a href="https://plzplz.de/PLZ_Vordereggeten/" title="PLZ Vordereggeten"><strong>PLZ Vordereggeten</strong></a>|<a href="https://plzplz.de/PLZ_Weilmünster/" title="PLZ Weilmünster"><strong>PLZ Weilmünster</strong></a>|<a href="https://plzplz.de/PLZ_Wolfenhausen/" title="PLZ Wolfenhausen"><strong>PLZ Wolfenhausen</strong></a>|<a href="https://plzplz.de/PLZ_Zaunbos/" title="PLZ Zaunbos"><strong>PLZ Zaunbos</strong></a>|<a href="https://plzplz.de/PLZ_Zeez/" title="PLZ Zeez"><strong>PLZ Zeez</strong></a>|<a href="https://plzplz.de/PLZ_Zinzendorf/" title="PLZ Zinzendorf"><strong>PLZ Zinzendorf</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 06688</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Ahornstraße/">Ahornstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Ahornstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Alte_Weißenfelser_Straße/">Alte Weißenfelser Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Alte_Weißenfelser_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Am_Bahnhof/">Am Bahnhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Am_Bahnhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wengelsdorf/">Wengelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Am_Berge/">Am Berge</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Am_Berge/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wengelsdorf/">Wengelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Am_Felde/">Am Felde</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Am_Felde/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Am_Gymnasium/">Am Gymnasium</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Am_Gymnasium/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Am_Holländer/">Am Holländer</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Am_Holländer/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schkortleben/">Schkortleben</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Am_Schkortelbach/">Am Schkortelbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Am_Schkortelbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/An_den_Jätern/">An den Jätern</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/An_den_Jätern/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kriechau/">Kriechau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/An_den_Weinbergen/">An den Weinbergen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/An_den_Weinbergen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/An_der_Kirche/">An der Kirche</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/An_der_Kirche/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/An_der_Quarzitgrube/">An der Quarzitgrube</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/An_der_Quarzitgrube/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wengelsdorf/">Wengelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Auenstraße/">Auenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Auenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/August-Bebel-Straße/">August-Bebel-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/August-Bebel-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Bachstraße/">Bachstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Bachstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wengelsdorf/">Wengelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Bahnhofstraße/">Bahnhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Bahnhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Beethovenstraße/">Beethovenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Beethovenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kleinkorbetha/">Kleinkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Berggasse/">Berggasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Berggasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wengelsdorf/">Wengelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Bergstraße/">Bergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Bergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schkortleben/">Schkortleben</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Bergweg/">Bergweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Bergweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Birkenweg/">Birkenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Birkenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Blumenstraße/">Blumenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Blumenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kleinkorbetha/">Kleinkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Bothfelder_Straße/">Bothfelder Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Bothfelder_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kriechau/">Kriechau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Brunnenstraße/">Brunnenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Brunnenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Damaschkestraße/">Damaschkestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Damaschkestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Dr.-Scheele-Straße/">Dr.-Scheele-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Dr.-Scheele-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wengelsdorf/">Wengelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Dürrenberger_Straße/">Dürrenberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Dürrenberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Ellern/">Ellern</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Ellern/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schkortleben/">Schkortleben</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Ernst-Thälmann-Straße/">Ernst-Thälmann-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Ernst-Thälmann-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kleinkorbetha/">Kleinkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Fährstraße/">Fährstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Fährstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Feldstraße/">Feldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Feldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Fliederweg/">Fliederweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Fliederweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Friedensstraße/">Friedensstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Friedensstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wengelsdorf/">Wengelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Fröbelstraße/">Fröbelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Fröbelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wengelsdorf/">Wengelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Gartenstraße/">Gartenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Gartenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wengelsdorf/">Wengelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/George-Schlaegel-Straße/">George-Schlaegel-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/George-Schlaegel-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wengelsdorf/">Wengelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Glashütte/">Glashütte</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Glashütte/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wengelsdorf/">Wengelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Glashüttenweg/">Glashüttenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Glashüttenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Gniebendorfer_Straße/">Gniebendorfer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Gniebendorfer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Goethestraße/">Goethestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Goethestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schkortleben/">Schkortleben</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Grabenweg/">Grabenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Grabenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Grüne_Gasse/">Grüne Gasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Grüne_Gasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schkortleben/">Schkortleben</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Gutenbergring/">Gutenbergring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Gutenbergring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Händelstraße/">Händelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Händelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wengelsdorf/">Wengelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Hans-von-Biesenrodt-Straße/">Hans-von-Biesenrodt-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Hans-von-Biesenrodt-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Harnackplatz/">Harnackplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Harnackplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Harnackstraße/">Harnackstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Harnackstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Haselnußweg/">Haselnußweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Haselnußweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kriechau/">Kriechau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Hinter_der_Kirche/">Hinter der Kirche</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Hinter_der_Kirche/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Hohle/">Hohle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Hohle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schkortleben/">Schkortleben</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Jahnstraße/">Jahnstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Jahnstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Karl-Marx-Platz/">Karl-Marx-Platz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Karl-Marx-Platz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Kaynaer_Straße/">Kaynaer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Kaynaer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Kirschbergsiedlung/">Kirschbergsiedlung</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Kirschbergsiedlung/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Kirschbergstraße/">Kirschbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Kirschbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Kleine_Gartenstraße/">Kleine Gartenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Kleine_Gartenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kleinkorbetha/">Kleinkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Kleinkorbethaer_Straße/">Kleinkorbethaer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Kleinkorbethaer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kraßlau/">Kraßlau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Kraßlau/">Kraßlau</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Kraßlau/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kriechau/">Kriechau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Kriechauer_Straße/">Kriechauer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Kriechauer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wengelsdorf/">Wengelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Kurze_Straße/">Kurze Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Kurze_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Leina/">Leina</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Leina/">Leina</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Leina/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schkortleben/">Schkortleben</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Lindenstraße/">Lindenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Lindenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Lindenweg/">Lindenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Lindenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Lützener_Straße/">Lützener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Lützener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Merseburger_Straße/">Merseburger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Merseburger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wengelsdorf/">Wengelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Mittelweg/">Mittelweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Mittelweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Mozartstraße/">Mozartstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Mozartstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schkortleben/">Schkortleben</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Mühlweg/">Mühlweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Mühlweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Nordstraße/">Nordstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Nordstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kleinkorbetha/">Kleinkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Oeglitzscher_Straße/">Oeglitzscher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Oeglitzscher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wengelsdorf/">Wengelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Parkweg/">Parkweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Parkweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wengelsdorf/">Wengelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Platz_der_DSF/">Platz der DSF</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Platz_der_DSF/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Rosa-Luxemburg-Straße/">Rosa-Luxemburg-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Rosa-Luxemburg-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wengelsdorf/">Wengelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Rosenweg/">Rosenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Rosenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Rudolf-Breitscheid-Straße/">Rudolf-Breitscheid-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Rudolf-Breitscheid-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Saalestraße/">Saalestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Saalestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wengelsdorf/">Wengelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Schillerstraße/">Schillerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Schillerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Schkortlebener_Straße/">Schkortlebener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Schkortlebener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schkortleben/">Schkortleben</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Schulstraße/">Schulstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Schulstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Siedlerweg/">Siedlerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Siedlerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wengelsdorf/">Wengelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Spergauer_Straße/">Spergauer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Spergauer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Stadionstraße/">Stadionstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Stadionstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wengelsdorf/">Wengelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Stangenweg/">Stangenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Stangenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Wehdbergweg/">Wehdbergweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Wehdbergweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kriechau/">Kriechau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Weinbergstraße/">Weinbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Weinbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schkortleben/">Schkortleben</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Weißenfelser_Straße/">Weißenfelser Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Weißenfelser_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Wiesenstraße/">Wiesenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Wiesenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großkorbetha/">Großkorbetha</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Wilhelm-Külz-Straße/">Wilhelm-Külz-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Wilhelm-Külz-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schkortleben/">Schkortleben</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Zum_Ried/">Zum Ried</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Zum_Ried/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/"><strong>PLZ Weißenfels</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wengelsdorf/">Wengelsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Zur_Mühle/">Zur Mühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_06688/">06688</a></td>
+<td><a href="https://plzplz.de/PLZ_Weißenfels/Zur_Mühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.005 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

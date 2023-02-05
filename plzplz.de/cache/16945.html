@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 16945 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="16945, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 16945 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 16945">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_16945/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 16945 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="16945" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Ahrensfelde/" title="PLZ Ahrensfelde"><strong>PLZ Ahrensfelde</strong></a>|<a href="https://plzplz.de/PLZ_Außerleithen/" title="PLZ Außerleithen"><strong>PLZ Außerleithen</strong></a>|<a href="https://plzplz.de/PLZ_Bamenohl/" title="PLZ Bamenohl"><strong>PLZ Bamenohl</strong></a>|<a href="https://plzplz.de/PLZ_Brennschinken/" title="PLZ Brennschinken"><strong>PLZ Brennschinken</strong></a>|<a href="https://plzplz.de/PLZ_Brunnbauer/" title="PLZ Brunnbauer"><strong>PLZ Brunnbauer</strong></a>|<a href="https://plzplz.de/PLZ_Dorf_Zechlin/" title="PLZ Dorf Zechlin"><strong>PLZ Dorf Zechlin</strong></a>|<a href="https://plzplz.de/PLZ_Elpe/" title="PLZ Elpe"><strong>PLZ Elpe</strong></a>|<a href="https://plzplz.de/PLZ_Erlinghausen/" title="PLZ Erlinghausen"><strong>PLZ Erlinghausen</strong></a>|<a href="https://plzplz.de/PLZ_Foret/" title="PLZ Foret"><strong>PLZ Foret</strong></a>|<a href="https://plzplz.de/PLZ_Gorsdorf/" title="PLZ Gorsdorf"><strong>PLZ Gorsdorf</strong></a>|<a href="https://plzplz.de/PLZ_Greverath/" title="PLZ Greverath"><strong>PLZ Greverath</strong></a>|<a href="https://plzplz.de/PLZ_Groß_Jamno/" title="PLZ Groß Jamno"><strong>PLZ Groß Jamno</strong></a>|<a href="https://plzplz.de/PLZ_Grüntal/" title="PLZ Grüntal"><strong>PLZ Grüntal</strong></a>|<a href="https://plzplz.de/PLZ_Haldenmühle/" title="PLZ Haldenmühle"><strong>PLZ Haldenmühle</strong></a>|<a href="https://plzplz.de/PLZ_Hattenbach/" title="PLZ Hattenbach"><strong>PLZ Hattenbach</strong></a>|<a href="https://plzplz.de/PLZ_Homating/" title="PLZ Homating"><strong>PLZ Homating</strong></a>|<a href="https://plzplz.de/PLZ_Hübender/" title="PLZ Hübender"><strong>PLZ Hübender</strong></a>|<a href="https://plzplz.de/PLZ_Ippinghausen/" title="PLZ Ippinghausen"><strong>PLZ Ippinghausen</strong></a>|<a href="https://plzplz.de/PLZ_Irschenham/" title="PLZ Irschenham"><strong>PLZ Irschenham</strong></a>|<a href="https://plzplz.de/PLZ_Langbroich/" title="PLZ Langbroich"><strong>PLZ Langbroich</strong></a>|<a href="https://plzplz.de/PLZ_Langhub/" title="PLZ Langhub"><strong>PLZ Langhub</strong></a>|<a href="https://plzplz.de/PLZ_Lanzenöd/" title="PLZ Lanzenöd"><strong>PLZ Lanzenöd</strong></a>|<a href="https://plzplz.de/PLZ_Lauchringen/" title="PLZ Lauchringen"><strong>PLZ Lauchringen</strong></a>|<a href="https://plzplz.de/PLZ_Neuried/" title="PLZ Neuried"><strong>PLZ Neuried</strong></a>|<a href="https://plzplz.de/PLZ_Osteel/" title="PLZ Osteel"><strong>PLZ Osteel</strong></a>|<a href="https://plzplz.de/PLZ_Parchow_Ausbau/" title="PLZ Parchow Ausbau"><strong>PLZ Parchow Ausbau</strong></a>|<a href="https://plzplz.de/PLZ_Porschnitz/" title="PLZ Porschnitz"><strong>PLZ Porschnitz</strong></a>|<a href="https://plzplz.de/PLZ_Rambow_am_See/" title="PLZ Rambow am See"><strong>PLZ Rambow am See</strong></a>|<a href="https://plzplz.de/PLZ_Rott/" title="PLZ Rott"><strong>PLZ Rott</strong></a>|<a href="https://plzplz.de/PLZ_Sandweier/" title="PLZ Sandweier"><strong>PLZ Sandweier</strong></a>|<a href="https://plzplz.de/PLZ_Schlingshöhe/" title="PLZ Schlingshöhe"><strong>PLZ Schlingshöhe</strong></a>|<a href="https://plzplz.de/PLZ_Schwabmühlhausen/" title="PLZ Schwabmühlhausen"><strong>PLZ Schwabmühlhausen</strong></a>|<a href="https://plzplz.de/PLZ_Weilburg/" title="PLZ Weilburg"><strong>PLZ Weilburg</strong></a>|<a href="https://plzplz.de/PLZ_Willmersbach/" title="PLZ Willmersbach"><strong>PLZ Willmersbach</strong></a>|<a href="https://plzplz.de/PLZ_Wohlmirstedt/" title="PLZ Wohlmirstedt"><strong>PLZ Wohlmirstedt</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 16945</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/"><strong>PLZ Halenbeck-Rohlsdorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ellershagen/">Ellershagen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Alleeweg/">Alleeweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Alleeweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/"><strong>PLZ Halenbeck-Rohlsdorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Brügge/">Brügge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Am_Bahnhof/">Am Bahnhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Am_Bahnhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/"><strong>PLZ Halenbeck-Rohlsdorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Brügge/">Brügge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Am_Luch/">Am Luch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Am_Luch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/"><strong>PLZ Halenbeck-Rohlsdorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rohlsdorf/">Rohlsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Am_Sportplatz/">Am Sportplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Am_Sportplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/"><strong>PLZ Halenbeck-Rohlsdorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Warnsdorf/">Warnsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Ausbau/">Ausbau</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Ausbau/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/"><strong>PLZ Halenbeck-Rohlsdorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Warnsdorf/">Warnsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Bergstraße/">Bergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Bergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/"><strong>PLZ Halenbeck-Rohlsdorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Brügge/">Brügge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Birkenweg/">Birkenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Birkenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/"><strong>PLZ Halenbeck-Rohlsdorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rohlsdorf/">Rohlsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Dorfstraße/">Dorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Dorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/"><strong>PLZ Halenbeck-Rohlsdorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Halenbeck/">Halenbeck</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Eichenweg/">Eichenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Eichenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/"><strong>PLZ Halenbeck-Rohlsdorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ellershagen/">Ellershagen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Ellershagener_Straße/">Ellershagener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Ellershagener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/"><strong>PLZ Halenbeck-Rohlsdorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Warnsdorf/">Warnsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Frehner_Weg/">Frehner Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Frehner_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/"><strong>PLZ Halenbeck-Rohlsdorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Halenbeck/">Halenbeck</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Gartenstraße/">Gartenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Gartenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/"><strong>PLZ Halenbeck-Rohlsdorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ellershagen/">Ellershagen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Gartenweg/">Gartenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Gartenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/"><strong>PLZ Halenbeck-Rohlsdorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Brügge/">Brügge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Hauptstraße/">Hauptstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Hauptstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/"><strong>PLZ Halenbeck-Rohlsdorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Halenbeck/">Halenbeck</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Heckenweg/">Heckenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Heckenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/"><strong>PLZ Halenbeck-Rohlsdorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Warnsdorf/">Warnsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Hofstraße/">Hofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Hofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/"><strong>PLZ Halenbeck-Rohlsdorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rohlsdorf/">Rohlsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Kirchstraße/">Kirchstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Kirchstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/"><strong>PLZ Halenbeck-Rohlsdorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rohlsdorf/">Rohlsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Lindenweg/">Lindenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Lindenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/"><strong>PLZ Halenbeck-Rohlsdorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Brügge/">Brügge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Neuer_Weg/">Neuer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Neuer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/"><strong>PLZ Halenbeck-Rohlsdorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ellershagen/">Ellershagen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Objektstraße/">Objektstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Objektstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/"><strong>PLZ Halenbeck-Rohlsdorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Halenbeck/">Halenbeck</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Pritzwalker_Straße/">Pritzwalker Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Pritzwalker_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/"><strong>PLZ Halenbeck-Rohlsdorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Rohlsdorf/">Rohlsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Rapshagener_Weg/">Rapshagener Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Rapshagener_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/"><strong>PLZ Halenbeck-Rohlsdorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Brügge/">Brügge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Ringstraße/">Ringstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Ringstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/"><strong>PLZ Halenbeck-Rohlsdorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Brügge/">Brügge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Verbindungsweg/">Verbindungsweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Verbindungsweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/"><strong>PLZ Halenbeck-Rohlsdorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Halenbeck/">Halenbeck</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Waldstraße/">Waldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Waldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/"><strong>PLZ Halenbeck-Rohlsdorf</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Halenbeck/">Halenbeck</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Wittstocker_Damm/">Wittstocker Damm</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Halenbeck-Rohlsdorf/Wittstocker_Damm/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/"><strong>PLZ Kümmernitztal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Preddöhl/">Preddöhl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/Ausbauweg/">Ausbauweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/Ausbauweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/"><strong>PLZ Kümmernitztal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grabow/">Grabow</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/Buckower_Straße/">Buckower Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/Buckower_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/"><strong>PLZ Kümmernitztal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Preddöhl/">Preddöhl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/Dorfstraße/">Dorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/Dorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/"><strong>PLZ Kümmernitztal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Felsenhagen/">Felsenhagen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/Felsenhagener_Straße/">Felsenhagener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/Felsenhagener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/"><strong>PLZ Kümmernitztal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grabow/">Grabow</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/Frehner_Damm/">Frehner Damm</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/Frehner_Damm/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/"><strong>PLZ Kümmernitztal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grabow/">Grabow</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/Hauptstraße/">Hauptstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/Hauptstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/"><strong>PLZ Kümmernitztal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grabow/">Grabow</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/Kirschallee/">Kirschallee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/Kirschallee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/"><strong>PLZ Kümmernitztal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Buckow/">Buckow</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/Mertensdorfer_Weg/">Mertensdorfer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/Mertensdorfer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/"><strong>PLZ Kümmernitztal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Buckow/">Buckow</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/Preddöhler_Straße/">Preddöhler Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/Preddöhler_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/"><strong>PLZ Kümmernitztal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Buckow/">Buckow</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/Ringstraße/">Ringstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/Ringstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/"><strong>PLZ Kümmernitztal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Felsenhagen/">Felsenhagen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/Siedlerweg/">Siedlerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/Siedlerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/"><strong>PLZ Kümmernitztal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grabow/">Grabow</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/Silmersdorfer_Weg/">Silmersdorfer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/Silmersdorfer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/"><strong>PLZ Kümmernitztal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grabow/">Grabow</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/Triftweg/">Triftweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/Triftweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/"><strong>PLZ Kümmernitztal</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Buckow/">Buckow</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/Waldweg/">Waldweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Kümmernitztal/Waldweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/"><strong>PLZ Marienfließ</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Frehne/">Frehne</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/Am_Lindberg/">Am Lindberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/Am_Lindberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/"><strong>PLZ Marienfließ</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Krempendorf/">Krempendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/Dorfring/">Dorfring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/Dorfring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/"><strong>PLZ Marienfließ</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Frehne/">Frehne</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/Frehner_Allee/">Frehner Allee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/Frehner_Allee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/"><strong>PLZ Marienfließ</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Frehne/">Frehne</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/Grabower_Damm/">Grabower Damm</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/Grabower_Damm/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/"><strong>PLZ Marienfließ</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Jännersdorf/">Jännersdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/Jännersdorfer_Ring/">Jännersdorfer Ring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/Jännersdorfer_Ring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/"><strong>PLZ Marienfließ</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kuwalk/">Kuwalk</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/Kuwalk/">Kuwalk</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/Kuwalk/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/"><strong>PLZ Marienfließ</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Stepenitz/">Stepenitz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/Lindenstraße/">Lindenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/Lindenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/"><strong>PLZ Marienfließ</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neu_Redlin/">Neu Redlin</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/Neu_Redlin/">Neu Redlin</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/Neu_Redlin/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/"><strong>PLZ Marienfließ</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Stepenitz/">Stepenitz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/Objektstraße/">Objektstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/Objektstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/"><strong>PLZ Marienfließ</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Stepenitz/">Stepenitz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/Stift_Marienfließ/">Stift Marienfließ</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/Stift_Marienfließ/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/"><strong>PLZ Marienfließ</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Krempendorf/">Krempendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/Stolpe/">Stolpe</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/Stolpe/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/"><strong>PLZ Marienfließ</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Stepenitz/">Stepenitz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/Telschower_Weg/">Telschower Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/Telschower_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/"><strong>PLZ Marienfließ</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Krempendorf/">Krempendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/Waldhofer_Weg/">Waldhofer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/Waldhofer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/"><strong>PLZ Marienfließ</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Frehne/">Frehne</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/Wittstocker_Damm/">Wittstocker Damm</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/Wittstocker_Damm/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/"><strong>PLZ Marienfließ</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Frehne/">Frehne</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/Ziegeleiweg/">Ziegeleiweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/Ziegeleiweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/"><strong>PLZ Marienfließ</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Frehne/">Frehne</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/Zur_Waage/">Zur Waage</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Marienfließ/Zur_Waage/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Am_Schlehenweg/">Am Schlehenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Am_Schlehenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Amselweg/">Amselweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Amselweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/An_den_Koppelwiesen/">An den Koppelwiesen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/An_den_Koppelwiesen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Bahnhofstraße/">Bahnhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Bahnhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Baustraße/">Baustraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Baustraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Bergsoll/">Bergsoll</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Bergsoll/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Bergstraße/">Bergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Bergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Birkenweg/">Birkenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Birkenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Buddenhagen/">Buddenhagen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Buddenhagen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schmolde/">Schmolde</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Dorfstraße/">Dorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Dorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Düpower_Weg/">Düpower Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Düpower_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Eisenbahnstraße/">Eisenbahnstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Eisenbahnstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Freyensteiner_Straße/">Freyensteiner Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Freyensteiner_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Gartenstraße/">Gartenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Gartenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Griffenhagen/">Griffenhagen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Griffenhagen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Grünstraße/">Grünstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Grünstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Hagenplatz/">Hagenplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Hagenplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Hagenstraße/">Hagenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Hagenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Heinrich-Heine-Straße/">Heinrich-Heine-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Heinrich-Heine-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Hinterwall/">Hinterwall</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Hinterwall/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Kiebitzberger_Weg/">Kiebitzberger Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Kiebitzberger_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Kirchplatz/">Kirchplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Kirchplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Kirchstraße/">Kirchstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Kirchstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Krempendorfer_Chaussee/">Krempendorfer Chaussee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Krempendorfer_Chaussee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Kurze_Straße/">Kurze Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Kurze_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Marktstraße/">Marktstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Marktstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Mittelstraße/">Mittelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Mittelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schmolde/">Schmolde</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Penzliner_Straße/">Penzliner Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Penzliner_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Plauer_Ring/">Plauer Ring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Plauer_Ring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Plauer_Straße/">Plauer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Plauer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Pritzwalker_Straße/">Pritzwalker Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Pritzwalker_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Putlitzer_Straße/">Putlitzer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Putlitzer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Rathenaustraße/">Rathenaustraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Rathenaustraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Schabernack/">Schabernack</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Schabernack/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Schloß/">Schloß</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Schloß/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Siedlung/">Siedlung</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Siedlung/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schmolde/">Schmolde</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Südstraße/">Südstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Südstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schmolde/">Schmolde</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Waldeckstraße/">Waldeckstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Waldeckstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Waldhofer_Weg/">Waldhofer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Waldhofer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Wallstraße/">Wallstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Wallstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Wilhelmsplatz/">Wilhelmsplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Wilhelmsplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/"><strong>PLZ Meyenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Ziegelei/">Ziegelei</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_16945/">16945</a></td>
+<td><a href="https://plzplz.de/PLZ_Meyenburg/Ziegelei/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.004 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

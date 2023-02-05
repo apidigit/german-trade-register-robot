@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 99991 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="99991, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 99991 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 99991">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_99991/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 99991 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="99991" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Amhof/" title="PLZ Amhof"><strong>PLZ Amhof</strong></a>|<a href="https://plzplz.de/PLZ_Andenhausen/" title="PLZ Andenhausen"><strong>PLZ Andenhausen</strong></a>|<a href="https://plzplz.de/PLZ_Birgelen/" title="PLZ Birgelen"><strong>PLZ Birgelen</strong></a>|<a href="https://plzplz.de/PLZ_Bodenstedt/" title="PLZ Bodenstedt"><strong>PLZ Bodenstedt</strong></a>|<a href="https://plzplz.de/PLZ_Bruchmachtersen/" title="PLZ Bruchmachtersen"><strong>PLZ Bruchmachtersen</strong></a>|<a href="https://plzplz.de/PLZ_Burkasberg/" title="PLZ Burkasberg"><strong>PLZ Burkasberg</strong></a>|<a href="https://plzplz.de/PLZ_Dagow/" title="PLZ Dagow"><strong>PLZ Dagow</strong></a>|<a href="https://plzplz.de/PLZ_Dondorf/" title="PLZ Dondorf"><strong>PLZ Dondorf</strong></a>|<a href="https://plzplz.de/PLZ_Drößnitz/" title="PLZ Drößnitz"><strong>PLZ Drößnitz</strong></a>|<a href="https://plzplz.de/PLZ_Glienig/" title="PLZ Glienig"><strong>PLZ Glienig</strong></a>|<a href="https://plzplz.de/PLZ_Groß_Kubitz/" title="PLZ Groß Kubitz"><strong>PLZ Groß Kubitz</strong></a>|<a href="https://plzplz.de/PLZ_Guxhagen/" title="PLZ Guxhagen"><strong>PLZ Guxhagen</strong></a>|<a href="https://plzplz.de/PLZ_Hänscheid/" title="PLZ Hänscheid"><strong>PLZ Hänscheid</strong></a>|<a href="https://plzplz.de/PLZ_Haunswies/" title="PLZ Haunswies"><strong>PLZ Haunswies</strong></a>|<a href="https://plzplz.de/PLZ_Huppenbroich/" title="PLZ Huppenbroich"><strong>PLZ Huppenbroich</strong></a>|<a href="https://plzplz.de/PLZ_Jägerhäusl/" title="PLZ Jägerhäusl"><strong>PLZ Jägerhäusl</strong></a>|<a href="https://plzplz.de/PLZ_Jägershof/" title="PLZ Jägershof"><strong>PLZ Jägershof</strong></a>|<a href="https://plzplz.de/PLZ_Jeersdorf/" title="PLZ Jeersdorf"><strong>PLZ Jeersdorf</strong></a>|<a href="https://plzplz.de/PLZ_Käselow/" title="PLZ Käselow"><strong>PLZ Käselow</strong></a>|<a href="https://plzplz.de/PLZ_Klötzin/" title="PLZ Klötzin"><strong>PLZ Klötzin</strong></a>|<a href="https://plzplz.de/PLZ_Langmeier/" title="PLZ Langmeier"><strong>PLZ Langmeier</strong></a>|<a href="https://plzplz.de/PLZ_Lavenstedt/" title="PLZ Lavenstedt"><strong>PLZ Lavenstedt</strong></a>|<a href="https://plzplz.de/PLZ_Leimgruben/" title="PLZ Leimgruben"><strong>PLZ Leimgruben</strong></a>|<a href="https://plzplz.de/PLZ_Miesterhorst/" title="PLZ Miesterhorst"><strong>PLZ Miesterhorst</strong></a>|<a href="https://plzplz.de/PLZ_Peißenberg/" title="PLZ Peißenberg"><strong>PLZ Peißenberg</strong></a>|<a href="https://plzplz.de/PLZ_Pressel/" title="PLZ Pressel"><strong>PLZ Pressel</strong></a>|<a href="https://plzplz.de/PLZ_Riemersdorf/" title="PLZ Riemersdorf"><strong>PLZ Riemersdorf</strong></a>|<a href="https://plzplz.de/PLZ_Rodheim-Bieber/" title="PLZ Rodheim-Bieber"><strong>PLZ Rodheim-Bieber</strong></a>|<a href="https://plzplz.de/PLZ_Sassen-Trantow/" title="PLZ Sassen-Trantow"><strong>PLZ Sassen-Trantow</strong></a>|<a href="https://plzplz.de/PLZ_Schleifmühle/" title="PLZ Schleifmühle"><strong>PLZ Schleifmühle</strong></a>|<a href="https://plzplz.de/PLZ_Thalhof/" title="PLZ Thalhof"><strong>PLZ Thalhof</strong></a>|<a href="https://plzplz.de/PLZ_Vorderschleefeld/" title="PLZ Vorderschleefeld"><strong>PLZ Vorderschleefeld</strong></a>|<a href="https://plzplz.de/PLZ_Wald-Michelbach/" title="PLZ Wald-Michelbach"><strong>PLZ Wald-Michelbach</strong></a>|<a href="https://plzplz.de/PLZ_Zehnthof/" title="PLZ Zehnthof"><strong>PLZ Zehnthof</strong></a>|<a href="https://plzplz.de/PLZ_Zitzelsheim/" title="PLZ Zitzelsheim"><strong>PLZ Zitzelsheim</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 99991</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altengottern/">Altengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Alte_Feldstraße/">Alte Feldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Alte_Feldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altengottern/">Altengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Alte_Schloßgärtnerei/">Alte Schloßgärtnerei</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Alte_Schloßgärtnerei/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Altengottersche_Straße/">Altengottersche Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Altengottersche_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Altengottersches_Tor/">Altengottersches Tor</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Altengottersches_Tor/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weberstedt/">Weberstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Bache/">Am Bache</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Bache/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mülverstedt/">Mülverstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Burghof/">Am Burghof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Burghof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Dorfgraben/">Am Dorfgraben</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Dorfgraben/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Flarchheim/">Flarchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Eichbach/">Am Eichbach</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Eichbach/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mülverstedt/">Mülverstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Feldgarten/">Am Feldgarten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Feldgarten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altengottern/">Altengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Georgendamm/">Am Georgendamm</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Georgendamm/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altengottern/">Altengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Graben/">Am Graben</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Graben/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weberstedt/">Weberstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Hainich/">Am Hainich</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Hainich/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Hoeg/">Am Hoeg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Hoeg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Hopfenberg/">Am Hopfenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Hopfenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altengottern/">Altengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Kanal/">Am Kanal</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Kanal/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altengottern/">Altengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Plan/">Am Plan</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Plan/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altengottern/">Altengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Rasen/">Am Rasen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Rasen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mülverstedt/">Mülverstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Schelmental/">Am Schelmental</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Schelmental/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Schießufer/">Am Schießufer</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Schießufer/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weberstedt/">Weberstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Schloß/">Am Schloß</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Schloß/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weberstedt/">Weberstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Schwimmbad/">Am Schwimmbad</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Schwimmbad/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mülverstedt/">Mülverstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Wasser/">Am Wasser</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Wasser/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mülverstedt/">Mülverstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Wehr/">Am Wehr</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Am_Wehr/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/An_der_Reitbahn/">An der Reitbahn</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/An_der_Reitbahn/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altengottern/">Altengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/An_der_Unstrut/">An der Unstrut</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/An_der_Unstrut/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Flarchheim/">Flarchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Angelungstraße/">Angelungstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Angelungstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Angerstraße/">Angerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Angerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altengottern/">Altengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Aufbaustraße/">Aufbaustraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Aufbaustraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Bachgasse/">Bachgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Bachgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altengottern/">Altengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Backhausstraße/">Backhausstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Backhausstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Bahnhofstraße/">Bahnhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Bahnhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altengottern/">Altengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Bärenfang/">Bärenfang</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Bärenfang/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Flarchheim/">Flarchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Bei_der_Kirche/">Bei der Kirche</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Bei_der_Kirche/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mülverstedt/">Mülverstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Bei_der_Windmühle/">Bei der Windmühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Bei_der_Windmühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Bergstraße/">Bergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Bergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mülverstedt/">Mülverstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Besenmarkt/">Besenmarkt</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Besenmarkt/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altengottern/">Altengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Bollstedter_Weg/">Bollstedter Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Bollstedter_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Brauhaus/">Brauhaus</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Brauhaus/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Brückenstraße/">Brückenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Brückenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Flarchheim/">Flarchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Brunnengasse/">Brunnengasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Brunnengasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altengottern/">Altengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Brunnenstraße/">Brunnenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Brunnenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Burggasse/">Burggasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Burggasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altengottern/">Altengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Dammweg/">Dammweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Dammweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Denkmalplatz/">Denkmalplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Denkmalplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Heroldishausen/">Heroldishausen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Dorfstraße/">Dorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Dorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Dr.-Wilhelm-Külz-Straße/">Dr.-Wilhelm-Külz-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Dr.-Wilhelm-Külz-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altengottern/">Altengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Eichsfeld/">Eichsfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Eichsfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Entenlaich/">Entenlaich</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Entenlaich/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weberstedt/">Weberstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Feldgasse/">Feldgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Feldgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Feldstraße/">Feldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Feldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Flarchheim/">Flarchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Flarchheimer_Hauptstraße/">Flarchheimer Hauptstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Flarchheimer_Hauptstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altengottern/">Altengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Friedensstraße/">Friedensstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Friedensstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mülverstedt/">Mülverstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Froschgasse/">Froschgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Froschgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Gartenstraße/">Gartenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Gartenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weberstedt/">Weberstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Gartenweg/">Gartenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Gartenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Goethestraße/">Goethestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Goethestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Goldener_Ring/">Goldener Ring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Goldener_Ring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mülverstedt/">Mülverstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Gottersche_Straße/">Gottersche Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Gottersche_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Flarchheim/">Flarchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Grenzhausgasse/">Grenzhausgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Grenzhausgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mülverstedt/">Mülverstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Große_hohle_Gasse/">Große hohle Gasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Große_hohle_Gasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mülverstedt/">Mülverstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Hainichblick/">Hainichblick</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Hainichblick/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Flarchheim/">Flarchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Hainichstraße/">Hainichstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Hainichstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altengottern/">Altengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Hauptstraße/">Hauptstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Hauptstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Hinter_dem_Hopfenberg/">Hinter dem Hopfenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Hinter_dem_Hopfenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weberstedt/">Weberstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Hintergasse/">Hintergasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Hintergasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Hohe_Straße/">Hohe Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Hohe_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Hohe_Wende/">Hohe Wende</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Hohe_Wende/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Hoher_Graben/">Hoher Graben</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Hoher_Graben/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Flarchheim/">Flarchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Hohler_Weg/">Hohler Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Hohler_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weberstedt/">Weberstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Hopfenweg/">Hopfenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Hopfenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weberstedt/">Weberstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Hullerberg/">Hullerberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Hullerberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mülverstedt/">Mülverstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Ihlefelder_Straße/">Ihlefelder Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Ihlefelder_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altengottern/">Altengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Kappel/">Kappel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Kappel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weberstedt/">Weberstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Kirchberg/">Kirchberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Kirchberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mülverstedt/">Mülverstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Kirchgasse/">Kirchgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Kirchgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altengottern/">Altengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Kirchstraße/">Kirchstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Kirchstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altengottern/">Altengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Kleine_Gartenstraße/">Kleine Gartenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Kleine_Gartenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weberstedt/">Weberstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Kleine_Gasse/">Kleine Gasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Kleine_Gasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mülverstedt/">Mülverstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Kleine_hohle_Gasse/">Kleine hohle Gasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Kleine_hohle_Gasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altengottern/">Altengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Kleine_Straße/">Kleine Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Kleine_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Korngasse/">Korngasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Korngasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Kreuzstraße/">Kreuzstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Kreuzstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Kroisbacher_Straße/">Kroisbacher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Kroisbacher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Langensalzaer_Straße/">Langensalzaer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Langensalzaer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mülverstedt/">Mülverstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Langensalzaer_Tor/">Langensalzaer Tor</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Langensalzaer_Tor/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weberstedt/">Weberstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Langgasse/">Langgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Langgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Flarchheim/">Flarchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Lindigstraße/">Lindigstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Lindigstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Marktstraße/">Marktstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Marktstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Mittelstraße/">Mittelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Mittelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altengottern/">Altengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Mühlgasse/">Mühlgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Mühlgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mülverstedt/">Mülverstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Mühlhäuser_Gasse/">Mühlhäuser Gasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Mühlhäuser_Gasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Mühlhäuser_Straße/">Mühlhäuser Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Mühlhäuser_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Mülverstedter_Straße/">Mülverstedter Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Mülverstedter_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weberstedt/">Weberstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Nationalparkstraße/">Nationalparkstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Nationalparkstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Neue_Straße/">Neue Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Neue_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mülverstedt/">Mülverstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Neuer_Stieg/">Neuer Stieg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Neuer_Stieg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weberstedt/">Weberstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Neuer_Weg/">Neuer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Neuer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Flarchheim/">Flarchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Oberdorf/">Oberdorf</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Oberdorf/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Obere_Kirchstraße/">Obere Kirchstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Obere_Kirchstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altengottern/">Altengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Obere_Neue_Straße/">Obere Neue Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Obere_Neue_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Oststraße/">Oststraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Oststraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mülverstedt/">Mülverstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Petersberg/">Petersberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Petersberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Flarchheim/">Flarchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Querstraße/">Querstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Querstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Rasenweg/">Rasenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Rasenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Ringmühle/">Ringmühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Ringmühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Rosengasse/">Rosengasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Rosengasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altengottern/">Altengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Rosenstraße/">Rosenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Rosenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Flarchheim/">Flarchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Rüspelsweg/">Rüspelsweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Rüspelsweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Flarchheim/">Flarchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Schäfergasse/">Schäfergasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Schäfergasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mülverstedt/">Mülverstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Schafgasse/">Schafgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Schafgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weberstedt/">Weberstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Schenkengasse/">Schenkengasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Schenkengasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Schloßstraße/">Schloßstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Schloßstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Schuhmarkt/">Schuhmarkt</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Schuhmarkt/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Schulstraße/">Schulstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Schulstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altengottern/">Altengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Schulweg/">Schulweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Schulweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mülverstedt/">Mülverstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Sperlingsgasse/">Sperlingsgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Sperlingsgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altengottern/">Altengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Steinkreuzstraße/">Steinkreuzstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Steinkreuzstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mülverstedt/">Mülverstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Straße_der_Einheit/">Straße der Einheit</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Straße_der_Einheit/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altengottern/">Altengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Straße_des_Kindes/">Straße des Kindes</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Straße_des_Kindes/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altengottern/">Altengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Straße_zur_Einheit/">Straße zur Einheit</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Straße_zur_Einheit/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altengottern/">Altengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Tannenweg/">Tannenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Tannenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altengottern/">Altengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Torgasse/">Torgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Torgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Flarchheim/">Flarchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Trift/">Trift</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Trift/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altengottern/">Altengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Unstrutstraße/">Unstrutstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Unstrutstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Untere_Kirchstraße/">Untere Kirchstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Untere_Kirchstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mülverstedt/">Mülverstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Vorwerksgasse/">Vorwerksgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Vorwerksgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Wahlstraße/">Wahlstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Wahlstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Waidstraße/">Waidstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Waidstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mülverstedt/">Mülverstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Weberstedter_Straße/">Weberstedter Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Weberstedter_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weberstedt/">Weberstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Weiher_Tor/">Weiher Tor</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Weiher_Tor/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Flarchheim/">Flarchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Weinbergstraße/">Weinbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Weinbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Wertinger_Weg/">Wertinger Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Wertinger_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Flarchheim/">Flarchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Wiesenstraße/">Wiesenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Wiesenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altengottern/">Altengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Wiesenweg/">Wiesenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Wiesenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weberstedt/">Weberstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Windmühle/">Windmühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Windmühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Flarchheim/">Flarchheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Windmühlenstraße/">Windmühlenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Windmühlenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Ziegelstraße/">Ziegelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Ziegelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Großengottern/">Großengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Zum_Hopfenberg/">Zum Hopfenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Zum_Hopfenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Weberstedt/">Weberstedt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Zum_Schloß/">Zum Schloß</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Zum_Schloß/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altengottern/">Altengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Zum_Sportplatz/">Zum Sportplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Zum_Sportplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/"><strong>PLZ Unstrut-Hainich</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Altengottern/">Altengottern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Zur_alten_Schule/">Zur alten Schule</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_99991/">99991</a></td>
+<td><a href="https://plzplz.de/PLZ_Unstrut-Hainich/Zur_alten_Schule/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.021 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 33604 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="33604, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 33604 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 33604">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_33604/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 33604 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="33604" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Adligstadt/" title="PLZ Adligstadt"><strong>PLZ Adligstadt</strong></a>|<a href="https://plzplz.de/PLZ_Altenlingen/" title="PLZ Altenlingen"><strong>PLZ Altenlingen</strong></a>|<a href="https://plzplz.de/PLZ_Ballingshausen/" title="PLZ Ballingshausen"><strong>PLZ Ballingshausen</strong></a>|<a href="https://plzplz.de/PLZ_Ballstädt/" title="PLZ Ballstädt"><strong>PLZ Ballstädt</strong></a>|<a href="https://plzplz.de/PLZ_Bökendorf/" title="PLZ Bökendorf"><strong>PLZ Bökendorf</strong></a>|<a href="https://plzplz.de/PLZ_Engerndorf/" title="PLZ Engerndorf"><strong>PLZ Engerndorf</strong></a>|<a href="https://plzplz.de/PLZ_Grundhaus/" title="PLZ Grundhaus"><strong>PLZ Grundhaus</strong></a>|<a href="https://plzplz.de/PLZ_Haiderl/" title="PLZ Haiderl"><strong>PLZ Haiderl</strong></a>|<a href="https://plzplz.de/PLZ_Haselau/" title="PLZ Haselau"><strong>PLZ Haselau</strong></a>|<a href="https://plzplz.de/PLZ_Hausschwendt/" title="PLZ Hausschwendt"><strong>PLZ Hausschwendt</strong></a>|<a href="https://plzplz.de/PLZ_Herflucht/" title="PLZ Herflucht"><strong>PLZ Herflucht</strong></a>|<a href="https://plzplz.de/PLZ_Hopfengarten/" title="PLZ Hopfengarten"><strong>PLZ Hopfengarten</strong></a>|<a href="https://plzplz.de/PLZ_Kahla/" title="PLZ Kahla"><strong>PLZ Kahla</strong></a>|<a href="https://plzplz.de/PLZ_Kirschkau/" title="PLZ Kirschkau"><strong>PLZ Kirschkau</strong></a>|<a href="https://plzplz.de/PLZ_Klosterhäuser/" title="PLZ Klosterhäuser"><strong>PLZ Klosterhäuser</strong></a>|<a href="https://plzplz.de/PLZ_Kraja/" title="PLZ Kraja"><strong>PLZ Kraja</strong></a>|<a href="https://plzplz.de/PLZ_Landolfshausen/" title="PLZ Landolfshausen"><strong>PLZ Landolfshausen</strong></a>|<a href="https://plzplz.de/PLZ_Leizen/" title="PLZ Leizen"><strong>PLZ Leizen</strong></a>|<a href="https://plzplz.de/PLZ_Locktow/" title="PLZ Locktow"><strong>PLZ Locktow</strong></a>|<a href="https://plzplz.de/PLZ_Mespelbrunn/" title="PLZ Mespelbrunn"><strong>PLZ Mespelbrunn</strong></a>|<a href="https://plzplz.de/PLZ_Metzlos-Gehaag/" title="PLZ Metzlos-Gehaag"><strong>PLZ Metzlos-Gehaag</strong></a>|<a href="https://plzplz.de/PLZ_Niedermeilingen/" title="PLZ Niedermeilingen"><strong>PLZ Niedermeilingen</strong></a>|<a href="https://plzplz.de/PLZ_Oberpirach/" title="PLZ Oberpirach"><strong>PLZ Oberpirach</strong></a>|<a href="https://plzplz.de/PLZ_Palingen/" title="PLZ Palingen"><strong>PLZ Palingen</strong></a>|<a href="https://plzplz.de/PLZ_Pietzpuhl/" title="PLZ Pietzpuhl"><strong>PLZ Pietzpuhl</strong></a>|<a href="https://plzplz.de/PLZ_Pölzöd/" title="PLZ Pölzöd"><strong>PLZ Pölzöd</strong></a>|<a href="https://plzplz.de/PLZ_Püttsee/" title="PLZ Püttsee"><strong>PLZ Püttsee</strong></a>|<a href="https://plzplz.de/PLZ_Rothenburg_ob_der_Tauber/" title="PLZ Rothenburg ob der Tauber"><strong>PLZ Rothenburg ob der Tauber</strong></a>|<a href="https://plzplz.de/PLZ_Schrottenbaummühle/" title="PLZ Schrottenbaummühle"><strong>PLZ Schrottenbaummühle</strong></a>|<a href="https://plzplz.de/PLZ_Sdier/" title="PLZ Sdier"><strong>PLZ Sdier</strong></a>|<a href="https://plzplz.de/PLZ_Stürzenhardt/" title="PLZ Stürzenhardt"><strong>PLZ Stürzenhardt</strong></a>|<a href="https://plzplz.de/PLZ_Tiefenlauter/" title="PLZ Tiefenlauter"><strong>PLZ Tiefenlauter</strong></a>|<a href="https://plzplz.de/PLZ_Treben/" title="PLZ Treben"><strong>PLZ Treben</strong></a>|<a href="https://plzplz.de/PLZ_Unterdrackenstein/" title="PLZ Unterdrackenstein"><strong>PLZ Unterdrackenstein</strong></a>|<a href="https://plzplz.de/PLZ_Weidelwangermühle/" title="PLZ Weidelwangermühle"><strong>PLZ Weidelwangermühle</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 33604</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sieker/">Sieker</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Alemannstraße/">Alemannstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Alemannstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Alter_Berg/">Alter Berg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Alter_Berg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sieker/">Sieker</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Am_Ellernkamp/">Am Ellernkamp</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Am_Ellernkamp/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sieker/">Sieker</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Am_Kordskamp/">Am Kordskamp</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Am_Kordskamp/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Am_Niedermühlenhof/">Am Niedermühlenhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Am_Niedermühlenhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Am_Ostpark/">Am Ostpark</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Am_Ostpark/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Am_Rußkamp/">Am Rußkamp</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Am_Rußkamp/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Am_Stiel/">Am Stiel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Am_Stiel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sieker/">Sieker</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Am_Tempel/">Am Tempel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Am_Tempel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Am_Tiefen_Weg/">Am Tiefen Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Am_Tiefen_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sieker/">Sieker</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Am_Töllenkamp/">Am Töllenkamp</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Am_Töllenkamp/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/An_den_Glockenstücken/">An den Glockenstücken</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/An_den_Glockenstücken/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sieker/">Sieker</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/An_der_Krücke/">An der Krücke</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/An_der_Krücke/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Andreas-Lamey-Straße/">Andreas-Lamey-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Andreas-Lamey-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sieker/">Sieker</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Anton-Bruckner-Straße/">Anton-Bruckner-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Anton-Bruckner-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sieker/">Sieker</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Auf_dem_Calvinenfelde/">Auf dem Calvinenfelde</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Auf_dem_Calvinenfelde/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Auf_dem_Rabenkampe/">Auf dem Rabenkampe</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Auf_dem_Rabenkampe/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Bandelstraße/">Bandelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Bandelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Beethovenstraße/">Beethovenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Beethovenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Bielsteinstraße/">Bielsteinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Bielsteinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sieker/">Sieker</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Bodelschwinghstraße/">Bodelschwinghstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Bodelschwinghstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sieker/">Sieker</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Bromberger_Straße/">Bromberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Bromberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Culemannstraße/">Culemannstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Culemannstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Detmolder_Straße/">Detmolder Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Detmolder_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Diesterwegstraße/">Diesterwegstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Diesterwegstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Eduard-Windthorst-Straße/">Eduard-Windthorst-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Eduard-Windthorst-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Ehlentruper_Weg/">Ehlentruper Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Ehlentruper_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Else-Lohmann-Straße/">Else-Lohmann-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Else-Lohmann-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sieker/">Sieker</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Fritz-Reuter-Straße/">Fritz-Reuter-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Fritz-Reuter-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Fröbelstraße/">Fröbelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Fröbelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Furtwänglerstraße/">Furtwänglerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Furtwänglerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Gabelsbergerstraße/">Gabelsbergerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Gabelsbergerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Gartenstraße/">Gartenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Gartenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Gobelinusstraße/">Gobelinusstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Gobelinusstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sieker/">Sieker</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Graudenzer_Straße/">Graudenzer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Graudenzer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Hamelmannstraße/">Hamelmannstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Hamelmannstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sieker/">Sieker</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Händelstraße/">Händelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Händelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Hanglehne/">Hanglehne</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Hanglehne/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sieker/">Sieker</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Harrogate_Allee/">Harrogate Allee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Harrogate_Allee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Hartlager_Weg/">Hartlager Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Hartlager_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Haspelstraße/">Haspelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Haspelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Heimweg/">Heimweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Heimweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sieker/">Sieker</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Hellenkamp/">Hellenkamp</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Hellenkamp/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Hindemithstraße/">Hindemithstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Hindemithstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Im_Krummen_Timpen/">Im Krummen Timpen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Im_Krummen_Timpen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sieker/">Sieker</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Im_Siekerfelde/">Im Siekerfelde</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Im_Siekerfelde/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sieker/">Sieker</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/In_der_Töde/">In der Töde</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/In_der_Töde/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Jakobuskirchplatz/">Jakobuskirchplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Jakobuskirchplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Jakobusstraße/">Jakobusstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Jakobusstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sieker/">Sieker</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Johann-Sebastian-Bach-Straße/">Johann-Sebastian-Bach-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Johann-Sebastian-Bach-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sieker/">Sieker</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Johannes-Brahms-Straße/">Johannes-Brahms-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Johannes-Brahms-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sieker/">Sieker</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Joseph-Haydn-Straße/">Joseph-Haydn-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Joseph-Haydn-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Karl-Löwe-Straße/">Karl-Löwe-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Karl-Löwe-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Klusstraße/">Klusstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Klusstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sieker/">Sieker</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Königsbrügge/">Königsbrügge</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Königsbrügge/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sieker/">Sieker</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Leeds-Straße/">Leeds-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Leeds-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Lemgoer_Straße/">Lemgoer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Lemgoer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Lessingstraße/">Lessingstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Lessingstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sieker/">Sieker</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Lipper_Hellweg/">Lipper Hellweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Lipper_Hellweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Lippische_Straße/">Lippische Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Lippische_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Lortzingstraße/">Lortzingstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Lortzingstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Ludwig-Lepper-Straße/">Ludwig-Lepper-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Ludwig-Lepper-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sieker/">Sieker</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Manchester_Straße/">Manchester Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Manchester_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Max-Cahnbley-Straße/">Max-Cahnbley-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Max-Cahnbley-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Mozartstraße/">Mozartstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Mozartstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Niedermühlenkamp/">Niedermühlenkamp</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Niedermühlenkamp/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sieker/">Sieker</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Nitzschstraße/">Nitzschstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Nitzschstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Oelmühlenstraße/">Oelmühlenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Oelmühlenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Oldentruper_Straße/">Oldentruper Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Oldentruper_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Oststraße/">Oststraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Oststraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sieker/">Sieker</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Otto-Brenner-Straße/">Otto-Brenner-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Otto-Brenner-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Prießallee/">Prießallee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Prießallee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Promenade/">Promenade</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Promenade/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Regerstraße/">Regerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Regerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sieker/">Sieker</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Rußheider_Weg/">Rußheider Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Rußheider_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Schatenstraße/">Schatenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Schatenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Schubertstraße/">Schubertstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Schubertstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Schumannstraße/">Schumannstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Schumannstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sieker/">Sieker</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Soltkamp/">Soltkamp</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Soltkamp/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sieker/">Sieker</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Sperberstraße/">Sperberstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Sperberstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Spindelstraße/">Spindelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Spindelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sieker/">Sieker</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Stückenstraße/">Stückenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Stückenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Teutoburger_Straße/">Teutoburger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Teutoburger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sieker/">Sieker</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Theodor-Hürth-Straße/">Theodor-Hürth-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Theodor-Hürth-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sieker/">Sieker</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Vormbaumstraße/">Vormbaumstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Vormbaumstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Weddigenstraße/">Weddigenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Weddigenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Wilbrandstraße/">Wilbrandstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Wilbrandstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Innenstadt/">Innenstadt</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Wilhelm-Busch-Straße/">Wilhelm-Busch-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Wilhelm-Busch-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sieker/">Sieker</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Wilhelm-Raabe-Straße/">Wilhelm-Raabe-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_33604/">33604</a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/Wilhelm-Raabe-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.006 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 18569 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="18569, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 18569 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 18569">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_18569/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 18569 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="18569" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Berging/" title="PLZ Berging"><strong>PLZ Berging</strong></a>|<a href="https://plzplz.de/PLZ_Bräsen/" title="PLZ Bräsen"><strong>PLZ Bräsen</strong></a>|<a href="https://plzplz.de/PLZ_Bühne/" title="PLZ Bühne"><strong>PLZ Bühne</strong></a>|<a href="https://plzplz.de/PLZ_Butterstadt/" title="PLZ Butterstadt"><strong>PLZ Butterstadt</strong></a>|<a href="https://plzplz.de/PLZ_Dexhof/" title="PLZ Dexhof"><strong>PLZ Dexhof</strong></a>|<a href="https://plzplz.de/PLZ_Dietenhausen/" title="PLZ Dietenhausen"><strong>PLZ Dietenhausen</strong></a>|<a href="https://plzplz.de/PLZ_Dillendorf/" title="PLZ Dillendorf"><strong>PLZ Dillendorf</strong></a>|<a href="https://plzplz.de/PLZ_Eulhof/" title="PLZ Eulhof"><strong>PLZ Eulhof</strong></a>|<a href="https://plzplz.de/PLZ_Garbus/" title="PLZ Garbus"><strong>PLZ Garbus</strong></a>|<a href="https://plzplz.de/PLZ_Großhänchen/" title="PLZ Großhänchen"><strong>PLZ Großhänchen</strong></a>|<a href="https://plzplz.de/PLZ_Gut_Aussiedler_Hof/" title="PLZ Gut Aussiedler Hof"><strong>PLZ Gut Aussiedler Hof</strong></a>|<a href="https://plzplz.de/PLZ_Hammergmünd/" title="PLZ Hammergmünd"><strong>PLZ Hammergmünd</strong></a>|<a href="https://plzplz.de/PLZ_Hoyerhagen/" title="PLZ Hoyerhagen"><strong>PLZ Hoyerhagen</strong></a>|<a href="https://plzplz.de/PLZ_Hülseburg/" title="PLZ Hülseburg"><strong>PLZ Hülseburg</strong></a>|<a href="https://plzplz.de/PLZ_Lüdershausen/" title="PLZ Lüdershausen"><strong>PLZ Lüdershausen</strong></a>|<a href="https://plzplz.de/PLZ_Luso/" title="PLZ Luso"><strong>PLZ Luso</strong></a>|<a href="https://plzplz.de/PLZ_Merode/" title="PLZ Merode"><strong>PLZ Merode</strong></a>|<a href="https://plzplz.de/PLZ_NATO-Hauptquartier/" title="PLZ NATO-Hauptquartier"><strong>PLZ NATO-Hauptquartier</strong></a>|<a href="https://plzplz.de/PLZ_Niederwerrn/" title="PLZ Niederwerrn"><strong>PLZ Niederwerrn</strong></a>|<a href="https://plzplz.de/PLZ_Obermeißling/" title="PLZ Obermeißling"><strong>PLZ Obermeißling</strong></a>|<a href="https://plzplz.de/PLZ_Pastin/" title="PLZ Pastin"><strong>PLZ Pastin</strong></a>|<a href="https://plzplz.de/PLZ_Petershain/" title="PLZ Petershain"><strong>PLZ Petershain</strong></a>|<a href="https://plzplz.de/PLZ_Rengershausen/" title="PLZ Rengershausen"><strong>PLZ Rengershausen</strong></a>|<a href="https://plzplz.de/PLZ_Reuden_a._d._Fuhne/" title="PLZ Reuden a. d. Fuhne"><strong>PLZ Reuden a. d. Fuhne</strong></a>|<a href="https://plzplz.de/PLZ_Saladorf/" title="PLZ Saladorf"><strong>PLZ Saladorf</strong></a>|<a href="https://plzplz.de/PLZ_Sechtem/" title="PLZ Sechtem"><strong>PLZ Sechtem</strong></a>|<a href="https://plzplz.de/PLZ_Seitschen/" title="PLZ Seitschen"><strong>PLZ Seitschen</strong></a>|<a href="https://plzplz.de/PLZ_Siebenbach/" title="PLZ Siebenbach"><strong>PLZ Siebenbach</strong></a>|<a href="https://plzplz.de/PLZ_Simmelsdorf/" title="PLZ Simmelsdorf"><strong>PLZ Simmelsdorf</strong></a>|<a href="https://plzplz.de/PLZ_Sudershausen/" title="PLZ Sudershausen"><strong>PLZ Sudershausen</strong></a>|<a href="https://plzplz.de/PLZ_Tradt/" title="PLZ Tradt"><strong>PLZ Tradt</strong></a>|<a href="https://plzplz.de/PLZ_Trömbach/" title="PLZ Trömbach"><strong>PLZ Trömbach</strong></a>|<a href="https://plzplz.de/PLZ_Weißes_Moor/" title="PLZ Weißes Moor"><strong>PLZ Weißes Moor</strong></a>|<a href="https://plzplz.de/PLZ_Woltow/" title="PLZ Woltow"><strong>PLZ Woltow</strong></a>|<a href="https://plzplz.de/PLZ_Ziegelhausen/" title="PLZ Ziegelhausen"><strong>PLZ Ziegelhausen</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 18569</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Gingst/"><strong>PLZ Gingst</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Am_Cavelin/">Am Cavelin</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Am_Cavelin/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Gingst/"><strong>PLZ Gingst</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Friedensstraße/">Friedensstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Friedensstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Gingst/"><strong>PLZ Gingst</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Güstin/">Güstin</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Güstin/">Güstin</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Güstin/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Gingst/"><strong>PLZ Gingst</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Haidhof/">Haidhof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Haidhof/">Haidhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Haidhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Gingst/"><strong>PLZ Gingst</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Hermann-Matern-Straße/">Hermann-Matern-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Hermann-Matern-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Gingst/"><strong>PLZ Gingst</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Johann-Gottlieb-Picht-Straße/">Johann-Gottlieb-Picht-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Johann-Gottlieb-Picht-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Gingst/"><strong>PLZ Gingst</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kapelle/">Kapelle</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Kapelle/">Kapelle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Kapelle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Gingst/"><strong>PLZ Gingst</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Karl-Marx-Straße/">Karl-Marx-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Karl-Marx-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Gingst/"><strong>PLZ Gingst</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Kirchplatz/">Kirchplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Kirchplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Gingst/"><strong>PLZ Gingst</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Kurt-Bürger-Straße/">Kurt-Bürger-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Kurt-Bürger-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Gingst/"><strong>PLZ Gingst</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Malkvitz/">Malkvitz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Malkvitz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Gingst/"><strong>PLZ Gingst</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Markt/">Markt</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Markt/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Gingst/"><strong>PLZ Gingst</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Mühlenstraße/">Mühlenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Mühlenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Gingst/"><strong>PLZ Gingst</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Platz_der_Solidarität/">Platz der Solidarität</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Platz_der_Solidarität/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Gingst/"><strong>PLZ Gingst</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Presnitz/">Presnitz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Presnitz/">Presnitz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Presnitz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Gingst/"><strong>PLZ Gingst</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Teschvitz/">Teschvitz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Teschvitz/">Teschvitz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Teschvitz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Gingst/"><strong>PLZ Gingst</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Thälmannstraße/">Thälmannstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Thälmannstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Gingst/"><strong>PLZ Gingst</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Ummanzer_Chaussee/">Ummanzer Chaussee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Ummanzer_Chaussee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Gingst/"><strong>PLZ Gingst</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Volsvitz/">Volsvitz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Volsvitz/">Volsvitz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Volsvitz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Gingst/"><strong>PLZ Gingst</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Wiekstraße/">Wiekstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Gingst/Wiekstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kluis/"><strong>PLZ Kluis</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gagern/">Gagern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kluis/An_der_Eiche/">An der Eiche</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Kluis/An_der_Eiche/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kluis/"><strong>PLZ Kluis</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gagern/">Gagern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kluis/An_der_Feuerwehr/">An der Feuerwehr</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Kluis/An_der_Feuerwehr/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kluis/"><strong>PLZ Kluis</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kluis/Dorfstraße/">Dorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Kluis/Dorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kluis/"><strong>PLZ Kluis</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gagern/">Gagern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kluis/Feldweg/">Feldweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Kluis/Feldweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kluis/"><strong>PLZ Kluis</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gagern/">Gagern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kluis/Gagern_am_Soll/">Gagern am Soll</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Kluis/Gagern_am_Soll/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kluis/"><strong>PLZ Kluis</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gagern/">Gagern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kluis/Gagern_Ausbau/">Gagern Ausbau</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Kluis/Gagern_Ausbau/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kluis/"><strong>PLZ Kluis</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pansevitz/">Pansevitz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kluis/Pansevitz/">Pansevitz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Kluis/Pansevitz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kluis/"><strong>PLZ Kluis</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gagern/">Gagern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kluis/Schulstraße/">Schulstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Kluis/Schulstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kluis/"><strong>PLZ Kluis</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Schweikvitz/">Schweikvitz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kluis/Schweikvitz/">Schweikvitz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Kluis/Schweikvitz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kluis/"><strong>PLZ Kluis</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gagern/">Gagern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kluis/Siedlerweg/">Siedlerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Kluis/Siedlerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kluis/"><strong>PLZ Kluis</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Silenz/">Silenz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kluis/Silenz/">Silenz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Kluis/Silenz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kluis/"><strong>PLZ Kluis</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gagern/">Gagern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kluis/Windmühlenweg/">Windmühlenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Kluis/Windmühlenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Kluis/"><strong>PLZ Kluis</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Gagern/">Gagern</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Kluis/Zum_Anger/">Zum Anger</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Kluis/Zum_Anger/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/"><strong>PLZ Neuenkirchen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Vieregge/">Vieregge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/Am_Breetzer_Bodden/">Am Breetzer Bodden</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/Am_Breetzer_Bodden/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/"><strong>PLZ Neuenkirchen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Breetz/">Breetz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/Breetz/">Breetz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/Breetz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/"><strong>PLZ Neuenkirchen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/Dorfstraße/">Dorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/Dorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/"><strong>PLZ Neuenkirchen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grubnow/">Grubnow</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/Grubnow/">Grubnow</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/Grubnow/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/"><strong>PLZ Neuenkirchen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Laase/">Laase</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/Laase/">Laase</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/Laase/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/"><strong>PLZ Neuenkirchen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lebbin/">Lebbin</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/Lebbin/">Lebbin</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/Lebbin/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/"><strong>PLZ Neuenkirchen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Liddow/">Liddow</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/Liddow/">Liddow</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/Liddow/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/"><strong>PLZ Neuenkirchen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Vieregge/">Vieregge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/Maschenhack/">Maschenhack</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/Maschenhack/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/"><strong>PLZ Neuenkirchen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grubnow/">Grubnow</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/Moor/">Moor</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/Moor/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/"><strong>PLZ Neuenkirchen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Moritzhagen/">Moritzhagen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/Moritzhagen/">Moritzhagen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/Moritzhagen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/"><strong>PLZ Neuenkirchen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuendorf/">Neuendorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/Neuendorf/">Neuendorf</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/Neuendorf/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/"><strong>PLZ Neuenkirchen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Reetz/">Reetz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/Reetz/">Reetz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/Reetz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/"><strong>PLZ Neuenkirchen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Sylvin/">Sylvin</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/Sylvin/">Sylvin</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/Sylvin/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/"><strong>PLZ Neuenkirchen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tribbevitz/">Tribbevitz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/Tribbevitz/">Tribbevitz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/Tribbevitz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/"><strong>PLZ Neuenkirchen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Vieregge/">Vieregge</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/Vieregge/">Vieregge</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/Vieregge/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/"><strong>PLZ Neuenkirchen</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zessin/">Zessin</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/Zessin/">Zessin</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Neuenkirchen/Zessin/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Schaprode/"><strong>PLZ Schaprode</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dwarsdorf/">Dwarsdorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Schaprode/Dwarsdorf/">Dwarsdorf</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Schaprode/Dwarsdorf/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Schaprode/"><strong>PLZ Schaprode</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Schaprode/Gartenweg/">Gartenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Schaprode/Gartenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Schaprode/"><strong>PLZ Schaprode</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Schaprode/Granskevitz/">Granskevitz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Schaprode/Granskevitz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Schaprode/"><strong>PLZ Schaprode</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Schaprode/Hafenweg/">Hafenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Schaprode/Hafenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Schaprode/"><strong>PLZ Schaprode</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Schaprode/Lange_Straße/">Lange Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Schaprode/Lange_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Schaprode/"><strong>PLZ Schaprode</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lehsten/">Lehsten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Schaprode/Lehsten/">Lehsten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Schaprode/Lehsten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Schaprode/"><strong>PLZ Schaprode</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Neuholstein/">Neuholstein</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Schaprode/Neuholstein/">Neuholstein</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Schaprode/Neuholstein/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Schaprode/"><strong>PLZ Schaprode</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Schaprode/Oehe/">Oehe</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Schaprode/Oehe/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Schaprode/"><strong>PLZ Schaprode</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Poggenhof/">Poggenhof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Schaprode/Poggenhof/">Poggenhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Schaprode/Poggenhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Schaprode/"><strong>PLZ Schaprode</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Schaprode/Postweg/">Postweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Schaprode/Postweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Schaprode/"><strong>PLZ Schaprode</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seehof/">Seehof</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Schaprode/Seehof/">Seehof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Schaprode/Seehof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Schaprode/"><strong>PLZ Schaprode</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Streu/">Streu</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Schaprode/Streu/">Streu</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Schaprode/Streu/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Schaprode/"><strong>PLZ Schaprode</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Schaprode/Streuer_Weg/">Streuer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Schaprode/Streuer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Schaprode/"><strong>PLZ Schaprode</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Udars/">Udars</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Schaprode/Udars/">Udars</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Schaprode/Udars/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Trent/"><strong>PLZ Trent</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Vaschvitz/">Vaschvitz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Trent/Am_Dorfanger/">Am Dorfanger</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Trent/Am_Dorfanger/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Trent/"><strong>PLZ Trent</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Vaschvitz/">Vaschvitz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Trent/Am_Gutshof/">Am Gutshof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Trent/Am_Gutshof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Trent/"><strong>PLZ Trent</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Vaschvitz/">Vaschvitz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Trent/Am_Park/">Am Park</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Trent/Am_Park/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Trent/"><strong>PLZ Trent</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Vaschvitz/">Vaschvitz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Trent/Am_Ufer/">Am Ufer</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Trent/Am_Ufer/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Trent/"><strong>PLZ Trent</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Vaschvitz/">Vaschvitz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Trent/An_den_Feldern/">An den Feldern</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Trent/An_den_Feldern/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Trent/"><strong>PLZ Trent</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trent/Dorfstraße/">Dorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Trent/Dorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Trent/"><strong>PLZ Trent</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Freesen/">Freesen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Trent/Freesen/">Freesen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Trent/Freesen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Trent/"><strong>PLZ Trent</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Ganschvitz/">Ganschvitz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Trent/Ganschvitz/">Ganschvitz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Trent/Ganschvitz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Trent/"><strong>PLZ Trent</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Grosow/">Grosow</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Trent/Grosow/">Grosow</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Trent/Grosow/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Trent/"><strong>PLZ Trent</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trent/Heidemühl/">Heidemühl</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Trent/Heidemühl/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Trent/"><strong>PLZ Trent</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Holstenhagen/">Holstenhagen</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Trent/Holstenhagen/">Holstenhagen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Trent/Holstenhagen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Trent/"><strong>PLZ Trent</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Jabelitz/">Jabelitz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Trent/Jabelitz/">Jabelitz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Trent/Jabelitz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Trent/"><strong>PLZ Trent</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trent/Kuckelvitz/">Kuckelvitz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Trent/Kuckelvitz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Trent/"><strong>PLZ Trent</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Libnitz/">Libnitz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Trent/Libnitz/">Libnitz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Trent/Libnitz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Trent/"><strong>PLZ Trent</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Tribkevitz/">Tribkevitz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Trent/Tribkevitz/">Tribkevitz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Trent/Tribkevitz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Trent/"><strong>PLZ Trent</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Vaschvitz/">Vaschvitz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Trent/Vaschvitz/">Vaschvitz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Trent/Vaschvitz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Trent/"><strong>PLZ Trent</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Venz/">Venz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Trent/Venz/">Venz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Trent/Venz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Trent/"><strong>PLZ Trent</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Zubzow/">Zubzow</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Trent/Zubzow/">Zubzow</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Trent/Zubzow/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ummanz/"><strong>PLZ Ummanz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Waase/">Waase</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Am_Focker_Strom/">Am Focker Strom</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Am_Focker_Strom/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ummanz/"><strong>PLZ Ummanz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wusse/">Wusse</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Dorfstraße/">Dorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Dorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ummanz/"><strong>PLZ Ummanz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Dubkevitz/">Dubkevitz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Dubkevitz/">Dubkevitz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Dubkevitz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ummanz/"><strong>PLZ Ummanz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wusse/">Wusse</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Freesenort/">Freesenort</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Freesenort/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ummanz/"><strong>PLZ Ummanz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Groß_Kubitz/">Groß Kubitz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Groß_Kubitz/">Groß Kubitz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Groß_Kubitz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ummanz/"><strong>PLZ Ummanz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Haide/">Haide</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Haide/">Haide</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Haide/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ummanz/"><strong>PLZ Ummanz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lieschow/">Lieschow</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Lieschow/">Lieschow</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Lieschow/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ummanz/"><strong>PLZ Ummanz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Lüßvitz/">Lüßvitz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Lüßvitz/">Lüßvitz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Lüßvitz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ummanz/"><strong>PLZ Ummanz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Waase/">Waase</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Möhlend/">Möhlend</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Möhlend/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ummanz/"><strong>PLZ Ummanz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Moordorf/">Moordorf</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Moordorf/">Moordorf</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Moordorf/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ummanz/"><strong>PLZ Ummanz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mursewiek/">Mursewiek</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Mursewiek/">Mursewiek</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Mursewiek/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ummanz/"><strong>PLZ Ummanz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mursewiek/">Mursewiek</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Mursewieker_Boddenblick/">Mursewieker Boddenblick</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Mursewieker_Boddenblick/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ummanz/"><strong>PLZ Ummanz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Waase/">Waase</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Neue_Straße/">Neue Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Neue_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ummanz/"><strong>PLZ Ummanz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wusse/">Wusse</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Pappelweg/">Pappelweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Pappelweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ummanz/"><strong>PLZ Ummanz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Wusse/">Wusse</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Suhrendorf/">Suhrendorf</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Suhrendorf/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ummanz/"><strong>PLZ Ummanz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Waase/">Waase</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Tankow/">Tankow</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Tankow/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ummanz/"><strong>PLZ Ummanz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Unrow/">Unrow</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Unrow/">Unrow</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Unrow/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Ummanz/"><strong>PLZ Ummanz</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Varbelvitz/">Varbelvitz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Varbelvitz/">Varbelvitz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_18569/">18569</a></td>
+<td><a href="https://plzplz.de/PLZ_Ummanz/Varbelvitz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.005 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 85117 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="85117, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 85117 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 85117">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_85117/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 85117 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="85117" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Addernhausen/" title="PLZ Addernhausen"><strong>PLZ Addernhausen</strong></a>|<a href="https://plzplz.de/PLZ_Barlo/" title="PLZ Barlo"><strong>PLZ Barlo</strong></a>|<a href="https://plzplz.de/PLZ_Beesenlaublingen/" title="PLZ Beesenlaublingen"><strong>PLZ Beesenlaublingen</strong></a>|<a href="https://plzplz.de/PLZ_Breunsberg/" title="PLZ Breunsberg"><strong>PLZ Breunsberg</strong></a>|<a href="https://plzplz.de/PLZ_Eselsberg/" title="PLZ Eselsberg"><strong>PLZ Eselsberg</strong></a>|<a href="https://plzplz.de/PLZ_Friedrichsruhe/" title="PLZ Friedrichsruhe"><strong>PLZ Friedrichsruhe</strong></a>|<a href="https://plzplz.de/PLZ_Geroldstein/" title="PLZ Geroldstein"><strong>PLZ Geroldstein</strong></a>|<a href="https://plzplz.de/PLZ_Gevelsberg/" title="PLZ Gevelsberg"><strong>PLZ Gevelsberg</strong></a>|<a href="https://plzplz.de/PLZ_Gramstetterhof/" title="PLZ Gramstetterhof"><strong>PLZ Gramstetterhof</strong></a>|<a href="https://plzplz.de/PLZ_Großenbroderfelde/" title="PLZ Großenbroderfelde"><strong>PLZ Großenbroderfelde</strong></a>|<a href="https://plzplz.de/PLZ_Hebbecke/" title="PLZ Hebbecke"><strong>PLZ Hebbecke</strong></a>|<a href="https://plzplz.de/PLZ_Hillenloh/" title="PLZ Hillenloh"><strong>PLZ Hillenloh</strong></a>|<a href="https://plzplz.de/PLZ_Holtgast/" title="PLZ Holtgast"><strong>PLZ Holtgast</strong></a>|<a href="https://plzplz.de/PLZ_Holzbunge/" title="PLZ Holzbunge"><strong>PLZ Holzbunge</strong></a>|<a href="https://plzplz.de/PLZ_Klötzlamühle/" title="PLZ Klötzlamühle"><strong>PLZ Klötzlamühle</strong></a>|<a href="https://plzplz.de/PLZ_Kreiden/" title="PLZ Kreiden"><strong>PLZ Kreiden</strong></a>|<a href="https://plzplz.de/PLZ_Kurzholz/" title="PLZ Kurzholz"><strong>PLZ Kurzholz</strong></a>|<a href="https://plzplz.de/PLZ_Langenbrügge/" title="PLZ Langenbrügge"><strong>PLZ Langenbrügge</strong></a>|<a href="https://plzplz.de/PLZ_Leimbühlholz/" title="PLZ Leimbühlholz"><strong>PLZ Leimbühlholz</strong></a>|<a href="https://plzplz.de/PLZ_Liepen/" title="PLZ Liepen"><strong>PLZ Liepen</strong></a>|<a href="https://plzplz.de/PLZ_Malzow/" title="PLZ Malzow"><strong>PLZ Malzow</strong></a>|<a href="https://plzplz.de/PLZ_Mügeln/" title="PLZ Mügeln"><strong>PLZ Mügeln</strong></a>|<a href="https://plzplz.de/PLZ_Nebitzschen/" title="PLZ Nebitzschen"><strong>PLZ Nebitzschen</strong></a>|<a href="https://plzplz.de/PLZ_Neumühlen-Dietrichsdorf/" title="PLZ Neumühlen-Dietrichsdorf"><strong>PLZ Neumühlen-Dietrichsdorf</strong></a>|<a href="https://plzplz.de/PLZ_Pfaffenweiler/" title="PLZ Pfaffenweiler"><strong>PLZ Pfaffenweiler</strong></a>|<a href="https://plzplz.de/PLZ_Reba/" title="PLZ Reba"><strong>PLZ Reba</strong></a>|<a href="https://plzplz.de/PLZ_Reitzenstein/" title="PLZ Reitzenstein"><strong>PLZ Reitzenstein</strong></a>|<a href="https://plzplz.de/PLZ_Schatz/" title="PLZ Schatz"><strong>PLZ Schatz</strong></a>|<a href="https://plzplz.de/PLZ_Simselwitz/" title="PLZ Simselwitz"><strong>PLZ Simselwitz</strong></a>|<a href="https://plzplz.de/PLZ_Tauernfeld/" title="PLZ Tauernfeld"><strong>PLZ Tauernfeld</strong></a>|<a href="https://plzplz.de/PLZ_Unterdallersbach/" title="PLZ Unterdallersbach"><strong>PLZ Unterdallersbach</strong></a>|<a href="https://plzplz.de/PLZ_Vadersdorf/" title="PLZ Vadersdorf"><strong>PLZ Vadersdorf</strong></a>|<a href="https://plzplz.de/PLZ_Vier/" title="PLZ Vier"><strong>PLZ Vier</strong></a>|<a href="https://plzplz.de/PLZ_Wetterzeube/" title="PLZ Wetterzeube"><strong>PLZ Wetterzeube</strong></a>|<a href="https://plzplz.de/PLZ_Weuspert/" title="PLZ Weuspert"><strong>PLZ Weuspert</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 85117</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Ahornweg/">Ahornweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Ahornweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Alb.-Schweitzer-Straße/">Alb.-Schweitzer-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Alb.-Schweitzer-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Am_Anger/">Am Anger</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Am_Anger/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Am_Bachl/">Am Bachl</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Am_Bachl/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Asternring/">Asternring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Asternring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Auenstraße/">Auenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Auenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Bahnhofstraße/">Bahnhofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Bahnhofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Beethovenstraße/">Beethovenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Beethovenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Birkenweg/">Birkenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Birkenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Blumenstraße/">Blumenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Blumenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Böhmfelder_Weg/">Böhmfelder Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Böhmfelder_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Bräuweg/">Bräuweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Bräuweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Breitenweg/">Breitenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Breitenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Buchenweg/">Buchenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Buchenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Buxheimer_Straße/">Buxheimer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Buxheimer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Carl-Benz-Straße/">Carl-Benz-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Carl-Benz-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Dahlienweg/">Dahlienweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Dahlienweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Don-Bosco-Straße/">Don-Bosco-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Don-Bosco-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Drosselstraße/">Drosselstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Drosselstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Eichstätter_Straße/">Eichstätter Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Eichstätter_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Erlenweg/">Erlenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Erlenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Eschenweg/">Eschenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Eschenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Fasanenstraße/">Fasanenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Fasanenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Finkenweg/">Finkenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Finkenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Fliederstraße/">Fliederstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Fliederstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Föhrenweg/">Föhrenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Föhrenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Fröbelstraße/">Fröbelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Fröbelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Frühlingstraße/">Frühlingstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Frühlingstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Gaimersheimer_Straße/">Gaimersheimer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Gaimersheimer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Gartenstraße/">Gartenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Gartenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Gluckstraße/">Gluckstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Gluckstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Goethestraße/">Goethestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Goethestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Haderstraße/">Haderstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Haderstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Händelstraße/">Händelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Händelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Haydnstraße/">Haydnstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Haydnstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Herderstraße/">Herderstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Herderstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Hitzhofener_Straße/">Hitzhofener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Hitzhofener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Hofgasse/">Hofgasse</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Hofgasse/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Hofwiesenstraße/">Hofwiesenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Hofwiesenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Horchstraße/">Horchstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Horchstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/In_der_Breiten/">In der Breiten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/In_der_Breiten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/In_der_Goi/">In der Goi</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/In_der_Goi/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Ingolstädter_Straße/">Ingolstädter Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Ingolstädter_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Jahnstraße/">Jahnstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Jahnstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Kampflwiesenweg/">Kampflwiesenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Kampflwiesenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Kantstraße/">Kantstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Kantstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Kirchplatz/">Kirchplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Kirchplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Lerchenstraße/">Lerchenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Lerchenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Lessingstraße/">Lessingstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Lessingstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Liebigstraße/">Liebigstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Liebigstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Lindenstraße/">Lindenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Lindenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Lippertshofener_Straße/">Lippertshofener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Lippertshofener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Lüssweg/">Lüssweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Lüssweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Mozartstraße/">Mozartstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Mozartstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Mühlthaler_Weg/">Mühlthaler Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Mühlthaler_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Narzissenweg/">Narzissenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Narzissenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Nelkenweg/">Nelkenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Nelkenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Orchideenweg/">Orchideenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Orchideenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Pestalozzistraße/">Pestalozzistraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Pestalozzistraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Richard-Wagner-Straße/">Richard-Wagner-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Richard-Wagner-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Robert-Bosch-Straße/">Robert-Bosch-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Robert-Bosch-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Robert-Koch-Straße/">Robert-Koch-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Robert-Koch-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Röntgenstraße/">Röntgenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Röntgenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Rosenweg/">Rosenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Rosenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Sägewerk/">Sägewerk</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Sägewerk/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Sägewerkstraße/">Sägewerkstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Sägewerkstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Sauerbruchstraße/">Sauerbruchstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Sauerbruchstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Schillerstraße/">Schillerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Schillerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Schulstraße/">Schulstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Schulstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Siemensstraße/">Siemensstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Siemensstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Steigäckerring/">Steigäckerring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Steigäckerring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Tauberfelder_Weg/">Tauberfelder Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Tauberfelder_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Tulpenweg/">Tulpenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Tulpenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Ziegelei/">Ziegelei</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Ziegelei/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/"><strong>PLZ Eitensheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Ziegeleiweg/">Ziegeleiweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_85117/">85117</a></td>
+<td><a href="https://plzplz.de/PLZ_Eitensheim/Ziegeleiweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.007 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

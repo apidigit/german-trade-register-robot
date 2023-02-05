@@ -1,0 +1,614 @@
+Kirschbacherhof
+Kirschbachermühle
+Riedelberg-Tal
+Zollhaus
+Hirschhof
+Acaunusstraße
+Ackerweg
+Adlergäßchen
+Ahornweg
+Akazienweg
+Albert-Einstein-Straße
+Alexanderstraße
+Alleeweg
+Allensteinstraße
+Alsterhof
+Alte Bubenhauser Straße
+Alte Friedhofstraße
+Alte Ixheimer Straße
+Alte Steinhauser Straße
+Altersheim Bickenalb
+Altheimer Straße
+Am Alten Denkmal
+Am Atzenbach
+Am Auerbach
+Am Beckerswäldchen
+Am Bornrech
+Am Fichtenhain
+Am Funkturm
+Am Gentersberg
+Am Glockenberg
+Am Grunderhang
+Am Güterbahnhof
+Am Hirtenbrunnen
+Am Hofweg
+Am Hungerberg
+Am Klingelsberg
+Am Kloster
+Am Krummacker
+Am Marienstein
+Am Ölkorb
+Am Otterstein
+Am Petersberg
+Am Raulstein
+Am Rechacker
+Am Rechenbach
+Am Rothenberg
+Am Rothweg
+Am Sandrech
+Am Schmalscheid
+Am Schönhof
+Am Schützenhaus
+Am Silberberg
+Am Sportplatz
+Am Storchennest
+Am Tannenblick
+Am Wackenpfad
+Am Wasserturm
+Amalie-Sieveking-Straße
+Amerikastraße
+Amselstraße
+An der Bickenalb
+An der Eiche
+An der Feigenklamm
+An der Feigenklamm
+An der Feuerwache
+An der Kirche
+Angelsbachweg
+Annweilerstraße
+Athenstraße
+Attichstraße
+Auf Äckerchen
+Auf dem Berg
+Auf dem Kissel
+Auf dem Kissel A
+Auf dem Kissel B
+Auf dem Kissel C
+Auf dem Lohr
+Augartenstraße
+August-Bebel-Straße
+Auguste-Schmidt-Straße
+Austraße
+Badenstraße
+Bahnhofstraße
+Bannsteinhof
+Bärenstraße
+Bärental
+Barriestraße
+Battweilerstraße
+Bautzenbachstraße
+Bauwerkerstraße
+Bayernstraße
+Beethovenstraße
+Bei den Fuchslöchern
+Beinhornstraße
+Berghauserhof
+Berghof
+Bergstraße
+Berliner Allee
+Berlingshecke
+Berner Straße
+Bickenaschbacher Torhaus
+Bickenaschbacherhof
+Bickenaschbachermühle
+Bierbachstraße
+Bierstraße
+Billrothstraße
+Bimbachstraße
+Birkenbacherhof
+Birkenweg
+Birkhausen
+Bischweilerstraße
+Bismarckstraße
+Bitscher Straße
+Bleicherstraße
+Blieskastelstraße
+Bliestalstraße
+Blumenstraße
+Bodentalstraße
+Böhmenstraße
+Bombacherhof
+Bombacherweg
+Bornäckerhof
+Boulognestraße
+Brandenburgstraße
+Breitensteinstraße
+Breitensteinstraße
+Bremenstraße
+Breslaustraße
+Brückenstraße
+Brucknerstraße
+Brunnenstraße
+Brüsseler Straße
+Bubenhauser Straße
+Buchenwaldhof
+Buchenweg
+Burrbergstraße
+Californiastraße
+Campingplatz
+Canadastraße
+Carl-Pöhlmann-Straße
+Christian-Ott-Straße
+Christian-Pfender-Straße
+Christian-Schwarz-Straße
+Christoph-Knorr-Straße
+Colmarstraße
+Contwiger Straße
+Contwigerhangstraße
+Crolliusstraße
+Deileisterhof
+Delawarestraße
+Dellenhof
+Denisstraße
+Denkmalstraße
+Dianaweg
+Dibeliushof
+Dietrich-Bonhoeffer-Platz
+Dinglerstraße
+Dorndorfstraße
+Dr.-Albert-Becker-Straße
+Dr.-Alois-Keßler-Straße
+Dr.-Eckener-Straße
+Dr.-Ehrensberger-Straße
+Drosselstraße
+Dunantstraße
+Dunantweg
+Eckstraße
+Ehrgartenweg
+Ehrlichstraße
+Eichenhof
+Eichwaldweg
+Eiflerstraße
+Einödstraße
+Eitersbergstraße
+Elisenweg
+Elsässerstraße
+Emmy-Braun-Straße
+Entenstraße
+Eremitagestraße
+Erlenweg
+Ernst-Abbe-Straße
+Ernst-Drumm-Straße
+Ernstweilerhangstraße
+Ernstweilerhof
+Ernstweilertalstraße
+Esebeckstraße
+Etzelweg
+Etzelweg
+Etzelweg
+Eulenstraße
+Europa Allee
+Europaring
+Exterstraße
+Fahrenbergstraße
+Färbergasse
+Fasanerie
+Fasaneriestraße
+Faustermühle
+Feldstraße
+Felsbachstraße
+Festplatz
+Fieselerstraße
+Finkenstraße
+Fischerstraße
+Fliederweg
+Flugplatz
+Flugplatzstraße
+Flurstraße
+Forstbergstraße
+Franckstraße
+Freudenbergerhof
+Freudenbergerhofstraße
+Friedrich-Ebert-Straße
+Friedrich-Ebert-Straße
+Friedrich-Jericho-Straße
+Friedrichsruhe
+Friesenstraße
+Froelichstraße
+Fruchtmarktstraße
+Fruchtschuppenstraße
+Frühlingstraße
+Fuchsstraße
+Gabelsbergerstraße
+Galgenberghof
+Galgenbergstraße
+Gartenstraße
+Gasstraße
+Georg-Büchner-Straße
+Georgiastraße
+Gerhart-Hauptmann-Straße
+Gersbergerhof
+Gersbergerhofstraße
+Geschwister-Scholl-Allee
+Gestütsallee
+Gewerbestraße
+Ginsterweg
+Gleiwitzstraße
+Glockenhof
+Glockenstraße
+Gluckplatz
+Goetheplatz
+Goethestraße
+Göteborger Straße
+Gottfried-Benn-Straße
+Gottlieb-Daimler-Straße
+Greenwichstraße
+Grinsardstraße
+Guldenweg
+Gutenbergstraße
+Gutentalstraße
+Gymnasiumstraße
+Habsburgerstraße
+Hallplatz
+Hallstraße
+Hambacher Platz
+Hammerweg
+Händelstraße
+Hangstraße
+Hansstraße
+Hasenpfad
+Hauptstraße
+Haydnstraße
+Haydnweg
+Heckenweg
+Heckfelderstraße
+Hedwig-Dohm-Straße
+Heidelbingerhof
+Heilbachhof
+Heilbachstraße
+Heiligentalstraße
+Heinkelstraße
+Heinrich-Heine-Straße
+Helene-Lange-Straße
+Helmholtzstraße
+Hengstbacher Straße
+Hengstbachermühle
+Heroldstraße
+Herzog-Christian-Straße
+Herzog-Wolfgang-Straße
+Herzogplatz
+Herzogstraße
+Hessenstraße
+Hienstraße
+Hilgardplatz
+Hilgardstraße
+Himmelsbergstraße
+Hintere Ixheimer Straße
+Hinterstraße
+Hochstraße
+Hochwaldstraße
+Hofenfelsstraße
+Hofenfelsstraße
+Hofgartenstraße
+Höhenstraße
+Hohenzollernstraße
+Hohlstraße
+Hollerweg
+Holsteinstraße
+Holzgartenstraße
+Homburger Straße
+Hornbacher Straße
+Hubertusstraße
+Hünefeldstraße
+Im Flachsacker
+Im Flur
+Im Haargarten
+Im Haberacker
+Im Hanfgarten
+Im Höfchen
+Im Klingeltal
+Im Königswinkel
+Im Liebestal
+Im Tempel
+Im Wiesengrund
+Im Wingert
+Im Winkel am Wall
+In den Amtswiesen
+In den Langenwiesen
+In den Pfaffenäckern
+In den Sielesäckern
+In den Stegwiesen
+In den Wiesenplätzen
+In der Acht
+In der Arnoldsruhe
+In der Gasse
+Ingweilerstraße
+Ixheimer Straße
+Ixheimer Straße
+Jacobystraße
+Jahnstraße
+Jakob-Leyser-Straße
+Jakob-Locher-Straße
+Jakobstraße
+Johann-Schwebel-Straße
+John-F.-Kennedy-Straße
+Josefstraße
+Junkersstraße
+Kaiserstraße
+Kantstraße
+Kaplaneihof
+Karlstraße
+Kasernenstraße
+Kastanienweg
+Katzenwiese
+Keltenstraße
+Kentuckystraße
+Kesselbachstraße
+Kettersbergerhof
+Kirchberghof
+Kirchbergstraße
+Kirchentalstraße
+Kirchhofstraße
+Kirrberger Straße
+Kneippstraße
+Kohlenhofstraße
+Köhlstraße
+Königsbergstraße
+Kopenhagener Ring
+Kreuzbergstraße
+Lammstraße
+Landauer Straße
+Landstuhler Straße
+Langentalhof
+Langentalstraße
+Langes Feld
+Langheckerhof
+Lanzstraße
+Lappstraße
+Lautzkirchenstraße
+Lerchenhof
+Lerchenstraße
+Lessingstraße
+Liebigstraße
+Liebknechtstraße
+Lilienthalstraße
+Lina-Staab-Straße
+Lindberghstraße
+Lindenhof
+Lindenhofstraße
+Lindenstraße
+Londoner Bogen
+Lothringerstraße
+Louisianastraße
+Löwengasse
+Ludwig-Hautt-Straße
+Luitpoldstraße
+Lützelstraße
+Luxemburger Straße
+Maastrichter Straße
+Maerckerstraße
+Mailänder Ring
+Maler-Müller-Straße
+Mannlichplatz
+Marie-Juchacz-Straße
+Marienstraße
+Marktsteige
+Martins-Hof
+Masurenstraße
+Mauritiusring
+Max-Planck-Straße
+Maxstraße
+Meisenstraße
+Meisenwinkel
+Memelstraße
+Mendelssohnstraße
+Mertelstraße
+Messerschmittstraße
+Metzstraße
+Mimbachstraße
+Missouristraße
+Mittelbacher Straße
+Molitorstraße
+Mölschbacher Straße
+Mölschbacherhof
+Mörsbacher Straße
+Möwenstraße
+Mozartstraße
+Mühlbergstraße
+Mühlstraße
+Mühltalerhof
+Münchener Straße
+Münzstraße
+Nachtigallenstraße
+Nardinistraße
+Nonnenbusch
+Nordpfad
+Obere Denisstraße
+Obere Gutentalstraße
+Obere Himmelsbergstraße
+Oberer Hornbachstaden
+Oberer Sandrech
+Oberer Stadtweg
+Oelwiese
+Oklahomastraße
+Oltschstraße
+Ontariostraße
+Oselbachstraße
+Ottilie-Baader-Straße
+Paracelsusstraße
+Pariser Straße
+Parkstraße
+Pasteurstraße
+Paul-Strauß-Straße
+Pennsylvaniastraße
+Petristraße
+Pfalzstraße
+Philippsweg
+Pirmasenser Straße
+Pirminiusstraße
+Pistorstraße
+Pommernstraße
+Poststraße
+Pottschütterweg
+Prager Ring
+Prießnitzplatz
+Prießnitzweg
+Quebecstraße
+Quellenweg
+Querstraße
+Raiffeisenstraße
+Realschulstraße
+Rebenstraße
+Rebgartenstraße
+Rechentalerhof
+Reitweg
+Rennplatz
+Richard-Wagner-Straße
+Richthofenstraße
+Riedersbornhof
+Riedingerstraße
+Rimschweilerstraße
+Rinckenhof
+Ringstraße
+Ritterstraße
+Robert-Koch-Straße
+Roesingerstraße
+Römerstraße
+Römerstraße
+Röntgenstraße
+Rosengartenstraße
+Rosenhofstraße
+Rosenstraße
+Roststraße
+Rotdornweg
+Rothenbergerhof
+Rothenbergstraße
+Rudolf-Nebel-Weg
+Saarlandstraße
+Saarpfalzstraße
+Sachsenstraße
+Sandstraße
+Sauerbruchstraße
+Savoyestraße
+Schäferstraße
+Schangenhof
+Scheiderbergstraße
+Schilbergasse
+Schillerstraße
+Schillerstraße
+Schlachthofstraße
+Schlehenweg
+Schlesienstraße
+Schloßgartenweg
+Schloßplatz
+Schneiderstraße
+Schubertstraße
+Schulacker
+Schülerstraße
+Schulstraße
+Schumannweg
+Schützenstraße
+Schwabenstraße
+Schwalbenstraße
+Schwalbenstraße
+Schwarzwaldstraße
+Schweizer Ring
+Seelstraße
+Seilbachstraße
+Seilerstraße
+Seiterswalderhof
+Semmelweisweg
+Sickingerhöhstraße
+Siebenpfeifferstraße
+Sommerstraße
+Sonnengasse
+Speckgärten
+Starenstraße
+Staufenstraße
+Steinackerstraße
+Steinhauser Straße
+Stengelstraße
+Stettinstraße
+Stockholmer Straße
+Storchenstraße
+Straßburger Ring
+Straßburgstraße
+Strubbergstraße
+Stuppacherweg
+Sturzenhof
+Sturzenhofstraße
+Sundahlstraße
+Talstraße
+Tannenblick
+Taubenstraße
+Texasstraße
+Thierystraße
+Thomas-Mann-Straße
+Thüringenstraße
+Tilsitstraße
+Tivolistraße
+Traubenstraße
+Trautmannstraße
+Trifthof
+Triftweg
+Tschifflick
+Tschifflicker Dell
+Tschifflickerstraße
+Tulpenstraße
+Turnhallstraße
+Udetstraße
+Uhlandstraße
+Ulmenweg
+Untere Zabernstraße
+Unterer Hornbachstaden
+Unterer Sandrech
+Uttmannstraße
+Villenstraße
+Virchowstraße
+Virginiastraße
+Vogelgesangstraße
+Vogesenstraße
+Von-Behring-Straße
+Von-Ketteler-Straße
+Von-Rosen-Straße
+Wacholderstraße
+Wachtelstraße
+Wackenpfad
+Wackenstraße
+Wahlerhof
+Waldstraße
+Wallhalber Straße
+Wallstraße
+Wassergasse
+Wattweilerstraße
+Webenheimstraße
+Weiherwiese
+Weinbergstraße
+Weißdornweg
+Wernher-von-Braun-Straße
+Westfalenstraße
+Wichernstraße
+Wiener Straße
+Wiesenstraße
+Wiesenstraße
+Wilhelm-Schultz-Straße
+Wilhelmstraße
+Wilkstraße
+Winzerstraße
+Wirthstraße
+Wittelsbacherstraße
+Wolffangelstraße
+Wolffstraße
+Wolfsachterhof
+Wolfslochstraße
+Wollenweberstraße
+Wörschweilerstraße
+Yorktownstraße
+Zabernstraße
+Zeilbäumerstraße
+Zeppelinstraße
+Zollamtstraße
+Zum Bickenalb-Blick
+Zur Adelsklinge
+Zweibrücker Straße
+Zweiundzwanzigerstraße

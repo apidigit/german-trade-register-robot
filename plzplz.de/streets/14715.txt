@@ -1,0 +1,344 @@
+Am Bahnhof
+Am Deich
+Am Feld
+Am Havelweg
+Am See
+Am Wald
+An der Mühle
+Ausbau
+Backofenberg
+Bungalowsiedlung
+Deich
+Dorfstraße
+Gahlberg
+Gartenstraße
+Grossdorf
+Gülper Hauptstraße
+Hauptstraße
+Havelweg
+Hintere Dorfstraße
+Hohenwinkel
+Kirchplatz
+Kleindorf
+Kreuzbergweg
+Mittelstraße
+Mittelweg
+Pareyer Dorfstraße
+Pareyer Straße
+Prietzener Dorfstraße
+Prietzener Straße
+Rhinower Straße
+Scheunstelle
+Schleusenweg
+Seitenbeutel
+Spaatzer Hauptstraße
+Straße am Neubau
+Voßberg
+Ziegenstraße
+Am Park
+Am Weinberg
+An der Kleinbahn
+Bahnhofstraße
+Baustellenweg
+Bergstraße
+Dorfstraße
+Ferchesarer Weg
+Gartenstraße
+Hauptstraße
+Kotzener Straße
+Krieler Weg
+Kurze Straße
+Mühlenberg
+Parkstraße
+Sandweg
+Steinstraße
+Altbuschower Straße
+Bäckerweg
+Bahnhofstraße
+Barnewitzer Straße
+Bauernende
+Birkenweg
+Brandenburger Straße
+Brunnenweg
+Buschower Dorfstraße
+Dudel
+Feldweg
+Garlitzer Dorfstraße
+Gartenstraße
+Gortzer Straße
+Kastanienweg
+Kieck
+Kolonie
+Lieper Straße
+Lindenstraße
+Möthlower Hauptstraße
+Mützlitzer Straße
+Neubauerndorf
+Neues Ende
+Rasenstraße
+Siedlungsweg
+Spandauer Weg
+Steege
+Straße der Bodenreform
+Weg am Teich
+Zum Wald
+Zur Fenne
+Alte Dorfstraße
+Am Bahnhof
+Am Berg
+Am Dorfplatz
+Am Gutspark
+Am Kahlberg
+Am Mühlenweg
+Am Rittergut
+Am Schulplatz
+Am Springberg
+Am Thermweg
+Am Tiergarten
+An der Kudix Laake
+An der Lanke
+An der Lutze
+August-Bebel-Straße
+Ausbau
+Backofenstraße
+Bahndamm
+Bahnhofstraße
+Bahnhofsweg
+Bergstraße
+Breite Straße
+Brunnenstraße
+Bünsche
+Carl-Bolle-Straße
+Chausseestraße
+Dorfplatz
+Dorfstraße
+Dunkenweg
+Eichwerder
+Ernst-Thälmann-Straße
+Feldstraße
+Forststraße
+Friedensstraße
+Friedhofstraße
+Galmer Straße
+Gartenstraße
+Gartenweg
+Genthiner Straße
+Grillenweg
+Hasenheide
+Hauptstraße
+Havelberger Straße
+Havelstraße
+Heimstraße
+Hohenheide
+Horstweg
+Im Winkel
+Karl-Marx-Straße
+Karlstraße
+Kastanienweg
+Kater
+Kattenweg
+Kiefernweg
+Kirchgang
+Kleinbuckow
+Kleine Bergstraße
+Kleine Feldstraße
+Kleiner Mühlenweg
+Kleiner Wiesenweg
+Kleinwudicke
+Kleinwudicker Weg
+Knoblaucher Straße
+Kossatenstraße
+Kreuzstraße
+Kurze Straße
+Lange Straße
+Lindenstraße
+Lindenweg
+Märkische Straße
+Marquede
+Märsche
+Mietenweg
+Milower Schulstraße
+Milower Straße
+Möthlitzer Hauptstraße
+MTS-Weg
+Mühlenweg
+Neudessauer Straße
+Neue Rathenower Straße
+Neue Straße
+Neuer Weg
+Osterrönfelder Ring
+Parkstraße
+Rathenower Chaussee
+Rathenower Straße
+Rosenstraße
+Rosenwinkel
+Rotdornweg
+Sandgrubenweg
+Schäfereiweg
+Schulstraße
+Steckelsdorfer Weg
+Steege
+Straße der Jugend
+Straße der Technik
+Stremmestraße
+Tannenweg
+Turmweg
+Waldstraße
+Waldweg
+Wendeberg
+Wendeberger Weg
+Wiesenweg
+Wilhelminenthaler Straße
+Wochenendsiedlung Am Bahndamm
+Wochenendsiedlung Bahnhofslanke
+Wolfsmühle
+Wolfssteg
+Worthstraße
+Wudicker Bahnhofstraße
+Wudicker Waldweg
+Ziegelei
+Ziegelstraße
+Zimmerstraße
+Zollchower Straße
+Zum Puhlpahn
+Zur alten Ziegelei
+Am Bahnhof
+Am Teich
+Am Weinberg
+Am Wiesenweg
+Ausbau
+Bammer Landweg
+Bergstraße
+Brandenburger Landstraße
+Brandenburger Straße
+Breite Straße
+Buckower Dorfstraße
+Buckower Straße
+Dammer Dorfstraße
+Dammer Landstraße
+Döberitzer Straße
+Döberitzer Weg
+Dorfstraße
+Fontanestraße
+Fouque-Platz
+Garlitzer Straße
+Gartenstraße
+Gasse
+Hauptstraße
+Im Winkel
+Kirchstraße
+Kirschweg
+Kleine Gartenstraße
+Krieler Weg
+Krügershorst
+Lindenstraße
+Luchhof
+Mittelstraße
+Nennhausener Straße
+Nennhof
+Neuer Weg
+Pflaumenweg
+Plattenweg
+Rathenower Straße
+Römerberg
+Schäfereiweg
+Siedlerweg
+Vksk Sparte Spolierenberg
+Waldweg
+Weg von der Rathenower Chaussee
+Weg zum Pfarracker
+Albrechtstraße
+Am Mühlenberg
+An der Lackfabrik
+August-Bebel-Straße
+Bergstraße
+Brückenstraße
+Drosselweg
+Feldstraße
+Ferchels
+Finkenweg
+Fischerweg
+Friedenstraße
+Gartenstraße
+Havelberger Straße
+Karlstal
+Kiezerstraße
+Lindenstraße
+Mahlitz
+Meisenweg
+Molkenberg
+Molkenberger Straße
+Mühlenstraße
+Neu-Schollene
+Neuwartensleben
+Nierow
+Platz des Friedens
+Rathenower Straße
+Schulstraße
+Schwalbenweg
+Seeberg
+Weinbergstraße
+Alte Rathenower Straße
+Am Bahnhof
+Am Dudel
+Am Glien
+Am Hohennauener See
+Am Sportplatz
+Bollwerksweg
+Dorfstraße
+Elslaake Dorf
+Elslaake Hauptstraße
+Elslaake Kohlhof
+Elslaaker Weg
+Feldweg
+Gartenweg
+Hohennauener Straße
+Kleebuchte
+Kuhtrift
+Lehmbahn
+Mühlenweg
+Pareyer Straße
+Rhinower Straße
+Seestraße
+Siedlungsweg
+Straße der Technik
+Wiesenweg
+Witzker Dorfstraße
+Akazienweg
+Alte Heerstraße
+Alter Stadtweg
+Altes Forsthaus Tegeland
+Am Bahndamm
+Am Heuberg
+Am Sportplatz
+Amselweg
+An der B 188
+An der Kaianlage
+Birkenweg
+Bungalowsiedlung Heubrücke
+Dorfstraße
+Dransesiedlung an den Eichen
+Dransestraße
+Dunkerweg
+Eichenweg
+Ferchesarer Straße
+Feriensiedlung Waldesruh
+Friedensstraße
+Großes Fenn
+IG Dranseschlucht
+Kleines Fenn
+Lochower Straße
+LPG-Hof
+Nennhausener Straße
+Parkstraße
+Semliner Straße
+Semliner Weg
+Stahlbergring
+Stechower Straße
+Tegeländer Weg
+Trintseeweg
+Waldstraße
+Weg zum Zeltplatz
+Wochenendsiedlung Leuenberg
+Wochenendsiedlung Sonnenschein
+Zur Feldscheune

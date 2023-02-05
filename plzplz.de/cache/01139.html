@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 01139 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="01139, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 01139 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 01139">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_01139/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 01139 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="01139" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Boldevitz/" title="PLZ Boldevitz"><strong>PLZ Boldevitz</strong></a>|<a href="https://plzplz.de/PLZ_Bromenhof/" title="PLZ Bromenhof"><strong>PLZ Bromenhof</strong></a>|<a href="https://plzplz.de/PLZ_Bücheloh/" title="PLZ Bücheloh"><strong>PLZ Bücheloh</strong></a>|<a href="https://plzplz.de/PLZ_Desloch/" title="PLZ Desloch"><strong>PLZ Desloch</strong></a>|<a href="https://plzplz.de/PLZ_Ditzumerhammrich/" title="PLZ Ditzumerhammrich"><strong>PLZ Ditzumerhammrich</strong></a>|<a href="https://plzplz.de/PLZ_Eglofsdorf/" title="PLZ Eglofsdorf"><strong>PLZ Eglofsdorf</strong></a>|<a href="https://plzplz.de/PLZ_Eimsbüttel/" title="PLZ Eimsbüttel"><strong>PLZ Eimsbüttel</strong></a>|<a href="https://plzplz.de/PLZ_Elendhof/" title="PLZ Elendhof"><strong>PLZ Elendhof</strong></a>|<a href="https://plzplz.de/PLZ_Erzhausen/" title="PLZ Erzhausen"><strong>PLZ Erzhausen</strong></a>|<a href="https://plzplz.de/PLZ_Falkenhof/" title="PLZ Falkenhof"><strong>PLZ Falkenhof</strong></a>|<a href="https://plzplz.de/PLZ_Flügelsberg/" title="PLZ Flügelsberg"><strong>PLZ Flügelsberg</strong></a>|<a href="https://plzplz.de/PLZ_Hamma/" title="PLZ Hamma"><strong>PLZ Hamma</strong></a>|<a href="https://plzplz.de/PLZ_Heidenhofen/" title="PLZ Heidenhofen"><strong>PLZ Heidenhofen</strong></a>|<a href="https://plzplz.de/PLZ_Janneby/" title="PLZ Janneby"><strong>PLZ Janneby</strong></a>|<a href="https://plzplz.de/PLZ_Krappe/" title="PLZ Krappe"><strong>PLZ Krappe</strong></a>|<a href="https://plzplz.de/PLZ_Leitgering/" title="PLZ Leitgering"><strong>PLZ Leitgering</strong></a>|<a href="https://plzplz.de/PLZ_Lette/" title="PLZ Lette"><strong>PLZ Lette</strong></a>|<a href="https://plzplz.de/PLZ_Lobetal/" title="PLZ Lobetal"><strong>PLZ Lobetal</strong></a>|<a href="https://plzplz.de/PLZ_Nettershausen/" title="PLZ Nettershausen"><strong>PLZ Nettershausen</strong></a>|<a href="https://plzplz.de/PLZ_Neu_Poorstorf/" title="PLZ Neu Poorstorf"><strong>PLZ Neu Poorstorf</strong></a>|<a href="https://plzplz.de/PLZ_Neustädtles/" title="PLZ Neustädtles"><strong>PLZ Neustädtles</strong></a>|<a href="https://plzplz.de/PLZ_Niedersteinach/" title="PLZ Niedersteinach"><strong>PLZ Niedersteinach</strong></a>|<a href="https://plzplz.de/PLZ_Nimritz/" title="PLZ Nimritz"><strong>PLZ Nimritz</strong></a>|<a href="https://plzplz.de/PLZ_Oberrehberg/" title="PLZ Oberrehberg"><strong>PLZ Oberrehberg</strong></a>|<a href="https://plzplz.de/PLZ_Ölbrunn/" title="PLZ Ölbrunn"><strong>PLZ Ölbrunn</strong></a>|<a href="https://plzplz.de/PLZ_Petersaurach/" title="PLZ Petersaurach"><strong>PLZ Petersaurach</strong></a>|<a href="https://plzplz.de/PLZ_Rothen/" title="PLZ Rothen"><strong>PLZ Rothen</strong></a>|<a href="https://plzplz.de/PLZ_Schwartow/" title="PLZ Schwartow"><strong>PLZ Schwartow</strong></a>|<a href="https://plzplz.de/PLZ_Siddessen/" title="PLZ Siddessen"><strong>PLZ Siddessen</strong></a>|<a href="https://plzplz.de/PLZ_Titschendorf/" title="PLZ Titschendorf"><strong>PLZ Titschendorf</strong></a>|<a href="https://plzplz.de/PLZ_Waldmannshofen/" title="PLZ Waldmannshofen"><strong>PLZ Waldmannshofen</strong></a>|<a href="https://plzplz.de/PLZ_Wartin/" title="PLZ Wartin"><strong>PLZ Wartin</strong></a>|<a href="https://plzplz.de/PLZ_Weichselgarten/" title="PLZ Weichselgarten"><strong>PLZ Weichselgarten</strong></a>|<a href="https://plzplz.de/PLZ_Wenigkemnathen/" title="PLZ Wenigkemnathen"><strong>PLZ Wenigkemnathen</strong></a>|<a href="https://plzplz.de/PLZ_Zuhr/" title="PLZ Zuhr"><strong>PLZ Zuhr</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 01139</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Adolfstraße/">Adolfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Adolfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Altkaditz/">Altkaditz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Altkaditz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Altmickten/">Altmickten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Altmickten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Alttrachau/">Alttrachau</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Alttrachau/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Altübigau/">Altübigau</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Altübigau/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Am_Kaditzer_Tännicht/">Am Kaditzer Tännicht</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Am_Kaditzer_Tännicht/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Am_Kesselgrund/">Am Kesselgrund</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Am_Kesselgrund/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Am_Seegraben/">Am Seegraben</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Am_Seegraben/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Am_Stadtrand/">Am Stadtrand</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Am_Stadtrand/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Am_Trachauer_Bahnhof/">Am Trachauer Bahnhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Am_Trachauer_Bahnhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Trachau/">Trachau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Am_Trachauer_Bahnhof/">Am Trachauer Bahnhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Am_Trachauer_Bahnhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Am_Vorwerksfeld/">Am Vorwerksfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Am_Vorwerksfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/An_den_Hufen/">An den Hufen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/An_den_Hufen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Trachau/">Trachau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/An_der_Böschung/">An der Böschung</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/An_der_Böschung/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Trachau/">Trachau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/An_der_Dürren_Heide/">An der Dürren Heide</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/An_der_Dürren_Heide/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/An_der_Elbaue/">An der Elbaue</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/An_der_Elbaue/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/An_der_Flutrinne/">An der Flutrinne</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/An_der_Flutrinne/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Andersenstraße/">Andersenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Andersenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Baudissinstraße/">Baudissinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Baudissinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Trachau/">Trachau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Baumwiesenweg/">Baumwiesenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Baumwiesenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Bobestraße/">Bobestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Bobestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Böcklinstraße/">Böcklinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Böcklinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Brockwitzer_Straße/">Brockwitzer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Brockwitzer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Bunsenstraße/">Bunsenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Bunsenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Carrierastraße/">Carrierastraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Carrierastraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Dettmerstraße/">Dettmerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Dettmerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Dreyßigplatz/">Dreyßigplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Dreyßigplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Dungerstraße/">Dungerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Dungerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Elbvillenweg/">Elbvillenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Elbvillenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Emilienstraße/">Emilienstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Emilienstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Fechnerstraße/">Fechnerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Fechnerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Flößerstraße/">Flößerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Flößerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Franz-Lehmann-Straße/">Franz-Lehmann-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Franz-Lehmann-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Fürstenhainer_Straße/">Fürstenhainer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Fürstenhainer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Gaußstraße/">Gaußstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Gaußstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Trachau/">Trachau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Geblerstraße/">Geblerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Geblerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Geibelstraße/">Geibelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Geibelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Gleinaer_Straße/">Gleinaer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Gleinaer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Grimmstraße/">Grimmstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Grimmstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Gucksbergweg/">Gucksbergweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Gucksbergweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Gustav-Schwab-Straße/">Gustav-Schwab-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Gustav-Schwab-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Guts-Muths-Straße/">Guts-Muths-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Guts-Muths-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Hauptmannstraße/">Hauptmannstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Hauptmannstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Henricistraße/">Henricistraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Henricistraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Herbststraße/">Herbststraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Herbststraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Hildesheimer_Straße/">Hildesheimer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Hildesheimer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Homiliusstraße/">Homiliusstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Homiliusstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Jubiläumsstraße/">Jubiläumsstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Jubiläumsstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Kaditzer_Straße/">Kaditzer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Kaditzer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Kathenweg/">Kathenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Kathenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Trachau/">Trachau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Kleestraße/">Kleestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Kleestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Kleinsiedlerweg/">Kleinsiedlerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Kleinsiedlerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Klingerstraße/">Klingerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Klingerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Kolbestraße/">Kolbestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Kolbestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Kötitzer_Straße/">Kötitzer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Kötitzer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Kötzschenbroder_Straße/">Kötzschenbroder Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Kötzschenbroder_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Kötzschenbroder_Straße/">Kötzschenbroder Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Kötzschenbroder_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Krantzstraße/">Krantzstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Krantzstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Lange_Felder/">Lange Felder</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Lange_Felder/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Leipziger_Straße/">Leipziger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Leipziger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Leipziger_Straße/">Leipziger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Leipziger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Trachau/">Trachau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Leipziger_Straße/">Leipziger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Leipziger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Leuckartstraße/">Leuckartstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Leuckartstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Lommatzscher_Platz/">Lommatzscher Platz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Lommatzscher_Platz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Lommatzscher_Straße/">Lommatzscher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Lommatzscher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Lommatzscher_Straße/">Lommatzscher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Lommatzscher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Marie-Curie-Straße/">Marie-Curie-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Marie-Curie-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Mengsstraße/">Mengsstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Mengsstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Micktner_Straße/">Micktner Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Micktner_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Naundorfer_Straße/">Naundorfer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Naundorfer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Overbeckstraße/">Overbeckstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Overbeckstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Peschelstraße/">Peschelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Peschelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Pettenkoferstraße/">Pettenkoferstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Pettenkoferstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Pieschener_Straße/">Pieschener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Pieschener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Pisendelstraße/">Pisendelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Pisendelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Quandtstraße/">Quandtstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Quandtstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Radebeuler_Straße/">Radebeuler Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Radebeuler_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Rankestraße/">Rankestraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Rankestraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Rauchstraße/">Rauchstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Rauchstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Rethelstraße/">Rethelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Rethelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Riegelplatz/">Riegelplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Riegelplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Rietzstraße/">Rietzstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Rietzstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Trachau/">Trachau</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Rodung/">Rodung</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Rodung/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Roscherstraße/">Roscherstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Roscherstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Roßmäßlerstraße/">Roßmäßlerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Roßmäßlerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Sandbodenweg/">Sandbodenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Sandbodenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Scharfenberger_Straße/">Scharfenberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Scharfenberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Schenkendorfstraße/">Schenkendorfstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Schenkendorfstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Schwindstraße/">Schwindstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Schwindstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Seewiesenweg/">Seewiesenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Seewiesenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Serkowitzer_Straße/">Serkowitzer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Serkowitzer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Sörnewitzer_Straße/">Sörnewitzer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Sörnewitzer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Spitzhausstraße/">Spitzhausstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Spitzhausstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Sternstraße/">Sternstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Sternstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Tauberthstraße/">Tauberthstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Tauberthstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Teichstraße/">Teichstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Teichstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Thäterstraße/">Thäterstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Thäterstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Tichatscheckstraße/">Tichatscheckstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Tichatscheckstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Pieschen-Süd/">Pieschen-Süd</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Tichatscheckstraße/">Tichatscheckstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Tichatscheckstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Trachauer_Straße/">Trachauer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Trachauer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Treidlerstraße/">Treidlerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Treidlerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Übigauer_Straße/">Übigauer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Übigauer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Veteranenstraße/">Veteranenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Veteranenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Wächterstraße/">Wächterstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Wächterstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Wächterstraße/">Wächterstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Wächterstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Waldemarstraße/">Waldemarstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Waldemarstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Washingtonstraße/">Washingtonstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Washingtonstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Weingartenweg/">Weingartenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Weingartenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Werftstraße/">Werftstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Werftstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Winterstraße/">Winterstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Winterstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Wöhlerstraße/">Wöhlerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Wöhlerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Wüllnerstraße/">Wüllnerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Wüllnerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Zelenkastraße/">Zelenkastraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Zelenkastraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Mickten/">Mickten</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Zinggstraße/">Zinggstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Zinggstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Kaditz/">Kaditz</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Zitzschewiger_Straße/">Zitzschewiger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_01139/">01139</a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/Zitzschewiger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.007 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

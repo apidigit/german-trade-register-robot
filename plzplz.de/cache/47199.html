@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 47199 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="47199, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 47199 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 47199">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_47199/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 47199 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="47199" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Altmannshof/" title="PLZ Altmannshof"><strong>PLZ Altmannshof</strong></a>|<a href="https://plzplz.de/PLZ_Baumbach/" title="PLZ Baumbach"><strong>PLZ Baumbach</strong></a>|<a href="https://plzplz.de/PLZ_Beuel/" title="PLZ Beuel"><strong>PLZ Beuel</strong></a>|<a href="https://plzplz.de/PLZ_Bräuhausen/" title="PLZ Bräuhausen"><strong>PLZ Bräuhausen</strong></a>|<a href="https://plzplz.de/PLZ_Canum/" title="PLZ Canum"><strong>PLZ Canum</strong></a>|<a href="https://plzplz.de/PLZ_Damelsdorf/" title="PLZ Damelsdorf"><strong>PLZ Damelsdorf</strong></a>|<a href="https://plzplz.de/PLZ_Gammellund/" title="PLZ Gammellund"><strong>PLZ Gammellund</strong></a>|<a href="https://plzplz.de/PLZ_Groß_Biewende/" title="PLZ Groß Biewende"><strong>PLZ Groß Biewende</strong></a>|<a href="https://plzplz.de/PLZ_Hag/" title="PLZ Hag"><strong>PLZ Hag</strong></a>|<a href="https://plzplz.de/PLZ_Hohenroden/" title="PLZ Hohenroden"><strong>PLZ Hohenroden</strong></a>|<a href="https://plzplz.de/PLZ_Hurst/" title="PLZ Hurst"><strong>PLZ Hurst</strong></a>|<a href="https://plzplz.de/PLZ_Kasselvitz/" title="PLZ Kasselvitz"><strong>PLZ Kasselvitz</strong></a>|<a href="https://plzplz.de/PLZ_Kelze/" title="PLZ Kelze"><strong>PLZ Kelze</strong></a>|<a href="https://plzplz.de/PLZ_Klein_Bölkow/" title="PLZ Klein Bölkow"><strong>PLZ Klein Bölkow</strong></a>|<a href="https://plzplz.de/PLZ_Kleinharbach/" title="PLZ Kleinharbach"><strong>PLZ Kleinharbach</strong></a>|<a href="https://plzplz.de/PLZ_Kurzbach/" title="PLZ Kurzbach"><strong>PLZ Kurzbach</strong></a>|<a href="https://plzplz.de/PLZ_Kutenhausen/" title="PLZ Kutenhausen"><strong>PLZ Kutenhausen</strong></a>|<a href="https://plzplz.de/PLZ_Linderer/" title="PLZ Linderer"><strong>PLZ Linderer</strong></a>|<a href="https://plzplz.de/PLZ_Nieder-Liebersbach/" title="PLZ Nieder-Liebersbach"><strong>PLZ Nieder-Liebersbach</strong></a>|<a href="https://plzplz.de/PLZ_Niendorf_(Stecknitz)/" title="PLZ Niendorf (Stecknitz)"><strong>PLZ Niendorf (Stecknitz)</strong></a>|<a href="https://plzplz.de/PLZ_Nüchel/" title="PLZ Nüchel"><strong>PLZ Nüchel</strong></a>|<a href="https://plzplz.de/PLZ_Pentenried/" title="PLZ Pentenried"><strong>PLZ Pentenried</strong></a>|<a href="https://plzplz.de/PLZ_Röhrwangen/" title="PLZ Röhrwangen"><strong>PLZ Röhrwangen</strong></a>|<a href="https://plzplz.de/PLZ_Saas/" title="PLZ Saas"><strong>PLZ Saas</strong></a>|<a href="https://plzplz.de/PLZ_Schaffner/" title="PLZ Schaffner"><strong>PLZ Schaffner</strong></a>|<a href="https://plzplz.de/PLZ_Schallfeld/" title="PLZ Schallfeld"><strong>PLZ Schallfeld</strong></a>|<a href="https://plzplz.de/PLZ_Soislieden/" title="PLZ Soislieden"><strong>PLZ Soislieden</strong></a>|<a href="https://plzplz.de/PLZ_Sprengseisen/" title="PLZ Sprengseisen"><strong>PLZ Sprengseisen</strong></a>|<a href="https://plzplz.de/PLZ_Trobelsdorf/" title="PLZ Trobelsdorf"><strong>PLZ Trobelsdorf</strong></a>|<a href="https://plzplz.de/PLZ_Viöl/" title="PLZ Viöl"><strong>PLZ Viöl</strong></a>|<a href="https://plzplz.de/PLZ_Volkenschwand/" title="PLZ Volkenschwand"><strong>PLZ Volkenschwand</strong></a>|<a href="https://plzplz.de/PLZ_Weichshofen/" title="PLZ Weichshofen"><strong>PLZ Weichshofen</strong></a>|<a href="https://plzplz.de/PLZ_Weil_im_Schönbuch/" title="PLZ Weil im Schönbuch"><strong>PLZ Weil im Schönbuch</strong></a>|<a href="https://plzplz.de/PLZ_Westerskirchen/" title="PLZ Westerskirchen"><strong>PLZ Westerskirchen</strong></a>|<a href="https://plzplz.de/PLZ_Winterhalde/" title="PLZ Winterhalde"><strong>PLZ Winterhalde</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 47199</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Ackerstraße/">Ackerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Ackerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Am_Bremmekamp/">Am Bremmekamp</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Am_Bremmekamp/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Am_Gorreshof/">Am Gorreshof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Am_Gorreshof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Am_Heesberg/">Am Heesberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Am_Heesberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochheide/">Hochheide</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Am_Kuhlenfeld/">Am Kuhlenfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Am_Kuhlenfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Am_Lohmühlensee/">Am Lohmühlensee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Am_Lohmühlensee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Am_Nellenberg/">Am Nellenberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Am_Nellenberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Am_Scholtheishof/">Am Scholtheishof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Am_Scholtheishof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Am_Westerfeld/">Am Westerfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Am_Westerfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/An_der_Hegstiegswiese/">An der Hegstiegswiese</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/An_der_Hegstiegswiese/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/An_der_Heide/">An der Heide</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/An_der_Heide/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/An_der_Lohmühle/">An der Lohmühle</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/An_der_Lohmühle/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Auf_dem_Bremmenkamp/">Auf dem Bremmenkamp</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Auf_dem_Bremmenkamp/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Auf_dem_Driesch/">Auf dem Driesch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Auf_dem_Driesch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Auf_dem_Flaskamp/">Auf dem Flaskamp</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Auf_dem_Flaskamp/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Auf_der_Gest/">Auf der Gest</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Auf_der_Gest/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Augustastraße/">Augustastraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Augustastraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Bahnstraße/">Bahnstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Bahnstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochheide/">Hochheide</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Bergstraße/">Bergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Bergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Buchenallee/">Buchenallee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Buchenallee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Buchenstraße/">Buchenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Buchenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Dammstraße/">Dammstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Dammstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Damschenweg/">Damschenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Damschenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Denkmalstraße/">Denkmalstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Denkmalstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Elisenstraße/">Elisenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Elisenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Flingerstraße/">Flingerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Flingerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Gärtnerstraße/">Gärtnerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Gärtnerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Georgstraße/">Georgstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Georgstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Gerdtweg/">Gerdtweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Gerdtweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Geststraße/">Geststraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Geststraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Ginsterweg/">Ginsterweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Ginsterweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Glückstraße/">Glückstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Glückstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Grafschafter_Straße/">Grafschafter Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Grafschafter_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Hattropstraße/">Hattropstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Hattropstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Heesbergstraße/">Heesbergstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Heesbergstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Hegentweg/">Hegentweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Hegentweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Hegstieg/">Hegstieg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Hegstieg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Heinrich-Kerlen-Straße/">Heinrich-Kerlen-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Heinrich-Kerlen-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Hermann-Löns-Straße/">Hermann-Löns-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Hermann-Löns-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Hofstraße/">Hofstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Hofstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Hubertusstraße/">Hubertusstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Hubertusstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Im_Buschhuck/">Im Buschhuck</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Im_Buschhuck/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Jakob-Schroer-Straße/">Jakob-Schroer-Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Jakob-Schroer-Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Kantstraße/">Kantstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Kantstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Karlstraße/">Karlstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Karlstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Kastellstraße/">Kastellstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Kastellstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Kohlenstraße/">Kohlenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Kohlenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Königsberger_Straße/">Königsberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Königsberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Kreisstraße/">Kreisstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Kreisstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Kreuzstraße/">Kreuzstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Kreuzstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Laakmannsfeld/">Laakmannsfeld</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Laakmannsfeld/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Lindekum/">Lindekum</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Lindekum/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Mispelkampshuck/">Mispelkampshuck</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Mispelkampshuck/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Mühlenstraße/">Mühlenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Mühlenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Niederhalener_Dorfweg/">Niederhalener Dorfweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Niederhalener_Dorfweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Orsoyer_Allee/">Orsoyer Allee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Orsoyer_Allee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Orsoyer_Straße/">Orsoyer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Orsoyer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Panderstraße/">Panderstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Panderstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Paschmannstraße/">Paschmannstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Paschmannstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Querstraße/">Querstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Querstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Reitweg/">Reitweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Reitweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Rheindeichstraße/">Rheindeichstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Rheindeichstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Rheinstraße/">Rheinstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Rheinstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Riedweg/">Riedweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Riedweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Römerstraße/">Römerstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Römerstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Sägewerkstraße/">Sägewerkstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Sägewerkstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochheide/">Hochheide</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Sandstraße/">Sandstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Sandstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Sardmannsbruchweg/">Sardmannsbruchweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Sardmannsbruchweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Hochheide/">Hochheide</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Scherpenberger_Straße/">Scherpenberger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Scherpenberger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Schlotweg/">Schlotweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Schlotweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Schulstraße/">Schulstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Schulstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Steinschenstraße/">Steinschenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Steinschenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Uettelsheimer_Weg/">Uettelsheimer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Uettelsheimer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Voßbuschstraße/">Voßbuschstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Voßbuschstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Waldstraße/">Waldstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Waldstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Walnußweg/">Walnußweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Walnußweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Weidenstraße/">Weidenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Weidenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Wiesenstraße/">Wiesenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Wiesenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Woltershofer_Straße/">Woltershofer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Woltershofer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Zum_Baerler_Busch/">Zum Baerler Busch</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Zum_Baerler_Busch/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Baerl/">Baerl</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Zum_Dachsberg/">Zum Dachsberg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_47199/">47199</a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/Zum_Dachsberg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.004 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>PLZ 68239 | plzPLZ.de – Postleitzahl</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="keywords" content="68239, plz, postleitzahlen, plz deutschland, postleitzahlen deutschland, plz suche">
+<meta name="description" content="PLZ 68239 - Postleitzahl (PLZ) – Suche nach Postleitzahlen von Städten in Deutschland, Liste der Postleitzahlen Deutschland, einfache Suche nach Postleitzahlen.">
+<meta name="robots" content="all, follow">
+<meta name="author" content="(c) Team Zones.sk – kontakt.zones.sk">
+<base href="https://plzplz.de/">
+<link rel="stylesheet" href="https://plzplz.de/css/plzplz.css?v=7">
+<link rel="shortcut icon" href="https://plzplz.de/favicon.ico" type="image/ico">
+<link rel="icon" href="https://plzplz.de/favicon.ico">
+<meta property="og:title" content="PLZ 68239">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plzplz.de/PLZ_68239/">
+<meta property="og:image" content="https://plzplz.de/graphics/preview/plzplz.png">
+<meta property="og:site_name" content="plzPLZ.de">
+<meta property="fb:admins" content="1041042466">
+<script src="https://plzplz.de/modules/function/jquery.js"></script>
+<script data-ad-client="ca-pub-9205749889165725" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://plzplz.de/css/modules/jquery-ui.css?v=1">
+<script src="https://plzplz.de/modules/function/jquery-ui.min.js"></script>
+<!-- Google Analytics plzPLZ.de -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1816665-32', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1816665-33', 'auto', 'zonesMedia');
+    ga('zonesMedia.send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) plzPLZ.de -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60FB2LZ6R3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-60FB2LZ6R3');
+    gtag('config', 'G-E9P064VYZR');
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="content">
+	<script>
+/* Autocomplete pre vyhladavanie */
+$(function() {
+	function autocompleteNajdiPSC(idInput, ajax_url)
+	{
+		$(idInput)
+		.bind( "keydown", function( event ) {
+			if ( event.keyCode === $.ui.keyCode.TAB &&
+					$( this ).data( "autocomplete" ).menu.active ) {
+				event.preventDefault();
+			}
+		})
+		.autocomplete({
+			source: function( request, response ) {
+				$.getJSON(ajax_url, {
+					term: request.term
+				}, response );
+			},
+			search: function() {
+				var term = this.value;
+				if ( term.length < 2 ) {
+					return false;
+				}
+			},
+            select: function(event, ui) {
+                $(idInput).val(ui.item.label);
+                $("#form_psc_obce_ulice").submit();
+			}
+		});
+	}
+	
+	autocompleteNajdiPSC("#psc_obec", "modules/ajax/autocomplete-obce.php");
+    autocompleteNajdiPSC("#psc_ulica", "modules/ajax/autocomplete-ulice.php");
+});
+</script>
+
+<!-- Vyhladavaci formular -->
+<div id="letter_top">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R -->
+<ins class="adsbygoogle a_najdipsc_top_mobile"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="9447217865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- Logo -->
+    <div id="plz-ergebnisse">
+	    <a href=""><div id="logo" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche"></div></a>
+    </div>
+	<!-- Tab vyhladavanie -->
+	<div id="tabs" class="cleaner">
+		<label id="label_vyhladavanie_podla"><span class="dlhsi_text">Suche</span><span class="kratsi_text">Suche</span>&nbsp;nach:</label>
+		<a href="#" id="tab_city"><img src="graphics/tab_obce.svg" style="width: 16px; margin-bottom: -2px;" class="xtab" alt="">Orte und Straßen</a>
+		<a href="#" id="tab_psc" class="active"><img src="graphics/tab_psc.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">PLZ</a>
+		<a href="#" id="tab_oblubene"><img src="graphics/tab_oblubene.svg" style="width: 16px; margin-bottom: -3px;" class="xtab" alt="">Populär</a>
+	</div>
+	
+	<!-- Vyhladavaci box -->
+	<div id="search_box">
+		<h1>PLZ 68239 (Postleitzahl)</h1>
+		<!-- Obce + ulice -->
+		<div id="search_city" class="no_display">
+			<form action="https://plzplz.de/" method="post" id="form_psc_obce_ulice" class="cleaner">
+				<div id="form_input_obec"><label for="obec">Ort:</label><input type="text" name="obec" id="psc_obec" class="form_obec" tabindex="1" value=""></div>
+				<div id="abeceda">
+					<a href="orte-stadte/A/" title="Städte und Dörfer beginnend mit A">A</a> <a href="orte-stadte/B/" title="Städte und Dörfer beginnend mit B">B</a> <a href="orte-stadte/C/" title="Städte und Dörfer beginnend mit C">C</a> <a href="orte-stadte/D/" title="Städte und Dörfer beginnend mit D">D</a> <a href="orte-stadte/E/" title="Städte und Dörfer beginnend mit E">E</a> <a href="orte-stadte/F/" title="Städte und Dörfer beginnend mit F">F</a> <a href="orte-stadte/G/" title="Städte und Dörfer beginnend mit G">G</a> <a href="orte-stadte/H/" title="Städte und Dörfer beginnend mit H">H</a> <a href="orte-stadte/I/" title="Städte und Dörfer beginnend mit I">I</a> <a href="orte-stadte/J/" title="Städte und Dörfer beginnend mit J">J</a> <a href="orte-stadte/K/" title="Städte und Dörfer beginnend mit K">K</a> <a href="orte-stadte/L/" title="Städte und Dörfer beginnend mit L">L</a> <a href="orte-stadte/M/" title="Städte und Dörfer beginnend mit M">M</a> <a href="orte-stadte/N/" title="Städte und Dörfer beginnend mit N">N</a> <a href="orte-stadte/O/" title="Städte und Dörfer beginnend mit O">O</a> <a href="orte-stadte/P/" title="Städte und Dörfer beginnend mit P">P</a> <a href="orte-stadte/Q/" title="Städte und Dörfer beginnend mit Q">Q</a> <a href="orte-stadte/R/" title="Städte und Dörfer beginnend mit R">R</a> <a href="orte-stadte/S/" title="Städte und Dörfer beginnend mit S">S</a> <a href="orte-stadte/T/" title="Städte und Dörfer beginnend mit T">T</a> <a href="orte-stadte/U/" title="Städte und Dörfer beginnend mit U">U</a> <a href="orte-stadte/V/" title="Städte und Dörfer beginnend mit V">V</a> <a href="orte-stadte/W/" title="Städte und Dörfer beginnend mit W">W</a> <a href="orte-stadte/X/" title="Städte und Dörfer beginnend mit X">X</a> <a href="orte-stadte/Y/" title="Städte und Dörfer beginnend mit Y">Y</a> <a href="orte-stadte/Z/" title="Städte und Dörfer beginnend mit Z">Z</a> 				</div>
+				<div id="form_input_ulica"><label for="ulica">Straße:</label><input type="text" name="ulica" id="psc_ulica" class="form_ulica" tabindex="2" value=""></div>
+				<div id="form_input_submit"><input type="submit" class="button_obce" tabindex="3" value="PLZ Suche"></div>
+			</form>
+		</div>
+		<!-- PSC -->
+		<div id="search_psc">
+			<form action="https://plzplz.de/" method="post" class="cleaner">
+				<div id="form_input_psc">
+					<label for="psc" title="Geben Sie eine Postleitzahl ein">Postleitzahl (PLZ):</label>
+					<input type="text" name="psc" id="psc_psc" class="form_psc" tabindex="2" value="68239" style="width: 100px;">
+					<input type="submit" class="button" tabindex="3" value="PLZ Suche">
+				</div>	
+			</form>
+		</div>
+		<!-- Oblubene -->
+		<div id="search_oblubene" class="no_display">
+            <table class="psc_oblubene psc_oblubene_poradie1">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Berlin/"><strong>PLZ Berlin</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamburg/"><strong>PLZ Hamburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_München/"><strong>PLZ München</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Köln/"><strong>PLZ Köln</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Stuttgart/"><strong>PLZ Stuttgart</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Düsseldorf/"><strong>PLZ Düsseldorf</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dortmund/"><strong>PLZ Dortmund</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Essen/"><strong>PLZ Essen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leipzig/"><strong>PLZ Leipzig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Frankfurt_am_Main/"><strong>PLZ Frankfurt am Main</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bremen/"><strong>PLZ Bremen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Dresden/"><strong>PLZ Dresden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hannover/"><strong>PLZ Hannover</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Nürnberg/"><strong>PLZ Nürnberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Duisburg/"><strong>PLZ Duisburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bochum/"><strong>PLZ Bochum</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wuppertal/"><strong>PLZ Wuppertal</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bielefeld/"><strong>PLZ Bielefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bonn/"><strong>PLZ Bonn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Münster/"><strong>PLZ Münster</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Karlsruhe/"><strong>PLZ Karlsruhe</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Augsburg/"><strong>PLZ Augsburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wiesbaden/"><strong>PLZ Wiesbaden</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Gelsenkirchen/"><strong>PLZ Gelsenkirchen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie2">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mönchengladbach/"><strong>PLZ Mönchengladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Braunschweig/"><strong>PLZ Braunschweig</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Chemnitz/"><strong>PLZ Chemnitz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kiel/"><strong>PLZ Kiel</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Aachen/"><strong>PLZ Aachen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Saale/"><strong>PLZ Saale</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Magdeburg/"><strong>PLZ Magdeburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erlangen/"><strong>PLZ Erlangen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Krefeld/"><strong>PLZ Krefeld</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Lübeck/"><strong>PLZ Lübeck</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Oberhausen/"><strong>PLZ Oberhausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Erfurt/"><strong>PLZ Erfurt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mainz/"><strong>PLZ Mainz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Rostock/"><strong>PLZ Rostock</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Kassel/"><strong>PLZ Kassel</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Hagen/"><strong>PLZ Hagen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Hamm/"><strong>PLZ Hamm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Saarbrücken/"><strong>PLZ Saarbrücken</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Remscheid/"><strong>PLZ Remscheid</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Potsdam/"><strong>PLZ Potsdam</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Jena/"><strong>PLZ Jena</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Oldenburg/"><strong>PLZ Oldenburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Leverkusen/"><strong>PLZ Leverkusen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Osnabrück/"><strong>PLZ Osnabrück</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Solingen/"><strong>PLZ Solingen</strong></a></td>
+</tr>
+</table>
+<table class="psc_oblubene psc_oblubene_poradie3">
+<tr>
+<td><a href="https://plzplz.de/PLZ_Heidelberg/"><strong>PLZ Heidelberg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Herne/"><strong>PLZ Herne</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Neuss/"><strong>PLZ Neuss</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Darmstadt/"><strong>PLZ Darmstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Paderborn/"><strong>PLZ Paderborn</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Regensburg/"><strong>PLZ Regensburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ingolstadt/"><strong>PLZ Ingolstadt</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Würzburg/"><strong>PLZ Würzburg</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Fürth/"><strong>PLZ Fürth</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Wolfsburg/"><strong>PLZ Wolfsburg</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Koblenz/"><strong>PLZ Koblenz</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ulm/"><strong>PLZ Ulm</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Heilbronn/"><strong>PLZ Heilbronn</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Pforzheim/"><strong>PLZ Pforzheim</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Göttingen/"><strong>PLZ Göttingen</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Bottrop/"><strong>PLZ Bottrop</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Trier/"><strong>PLZ Trier</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Recklinghausen/"><strong>PLZ Recklinghausen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Reutlingen/"><strong>PLZ Reutlingen</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bremerhaven/"><strong>PLZ Bremerhaven</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Offenbach_am_Main/"><strong>PLZ Offenbach am Main</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Bergisch_Gladbach/"><strong>PLZ Bergisch Gladbach</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Ludwigshafen_am_Rhein/"><strong>PLZ Ludwigshafen am Rhein</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Mülheim_an_der_Ruhr/"><strong>PLZ Mülheim an der Ruhr</strong></a></td>
+<td><a href="https://plzplz.de/PLZ_Freiburg_im_Breisgau/"><strong>PLZ Freiburg im Breisgau</strong></a></td>
+</tr>
+</table>
+
+            <div class="psc_random_obce psc_oblubene_poradie4">
+                <a href="https://plzplz.de/PLZ_Algesdorf/" title="PLZ Algesdorf"><strong>PLZ Algesdorf</strong></a>|<a href="https://plzplz.de/PLZ_Ausang/" title="PLZ Ausang"><strong>PLZ Ausang</strong></a>|<a href="https://plzplz.de/PLZ_Axenbach/" title="PLZ Axenbach"><strong>PLZ Axenbach</strong></a>|<a href="https://plzplz.de/PLZ_Biere/" title="PLZ Biere"><strong>PLZ Biere</strong></a>|<a href="https://plzplz.de/PLZ_Crispendorf/" title="PLZ Crispendorf"><strong>PLZ Crispendorf</strong></a>|<a href="https://plzplz.de/PLZ_Eischeid/" title="PLZ Eischeid"><strong>PLZ Eischeid</strong></a>|<a href="https://plzplz.de/PLZ_Exlarn/" title="PLZ Exlarn"><strong>PLZ Exlarn</strong></a>|<a href="https://plzplz.de/PLZ_Fischgrub/" title="PLZ Fischgrub"><strong>PLZ Fischgrub</strong></a>|<a href="https://plzplz.de/PLZ_Gaugenmühle/" title="PLZ Gaugenmühle"><strong>PLZ Gaugenmühle</strong></a>|<a href="https://plzplz.de/PLZ_Geich/" title="PLZ Geich"><strong>PLZ Geich</strong></a>|<a href="https://plzplz.de/PLZ_Göhra/" title="PLZ Göhra"><strong>PLZ Göhra</strong></a>|<a href="https://plzplz.de/PLZ_Haueneberstein/" title="PLZ Haueneberstein"><strong>PLZ Haueneberstein</strong></a>|<a href="https://plzplz.de/PLZ_Hauptstuhl/" title="PLZ Hauptstuhl"><strong>PLZ Hauptstuhl</strong></a>|<a href="https://plzplz.de/PLZ_Heimstatt/" title="PLZ Heimstatt"><strong>PLZ Heimstatt</strong></a>|<a href="https://plzplz.de/PLZ_Henriette/" title="PLZ Henriette"><strong>PLZ Henriette</strong></a>|<a href="https://plzplz.de/PLZ_Hoyerberg/" title="PLZ Hoyerberg"><strong>PLZ Hoyerberg</strong></a>|<a href="https://plzplz.de/PLZ_Hürnig/" title="PLZ Hürnig"><strong>PLZ Hürnig</strong></a>|<a href="https://plzplz.de/PLZ_Innerirlach/" title="PLZ Innerirlach"><strong>PLZ Innerirlach</strong></a>|<a href="https://plzplz.de/PLZ_Knölling/" title="PLZ Knölling"><strong>PLZ Knölling</strong></a>|<a href="https://plzplz.de/PLZ_Körrenzig/" title="PLZ Körrenzig"><strong>PLZ Körrenzig</strong></a>|<a href="https://plzplz.de/PLZ_Lenggries/" title="PLZ Lenggries"><strong>PLZ Lenggries</strong></a>|<a href="https://plzplz.de/PLZ_Mülheim_an_der_Mosel/" title="PLZ Mülheim an der Mosel"><strong>PLZ Mülheim an der Mosel</strong></a>|<a href="https://plzplz.de/PLZ_Oberradach/" title="PLZ Oberradach"><strong>PLZ Oberradach</strong></a>|<a href="https://plzplz.de/PLZ_Ochsenkopf/" title="PLZ Ochsenkopf"><strong>PLZ Ochsenkopf</strong></a>|<a href="https://plzplz.de/PLZ_Pansdorf/" title="PLZ Pansdorf"><strong>PLZ Pansdorf</strong></a>|<a href="https://plzplz.de/PLZ_Ranhartsberg/" title="PLZ Ranhartsberg"><strong>PLZ Ranhartsberg</strong></a>|<a href="https://plzplz.de/PLZ_Rheinhausen-Mitte/" title="PLZ Rheinhausen-Mitte"><strong>PLZ Rheinhausen-Mitte</strong></a>|<a href="https://plzplz.de/PLZ_Rüsseina/" title="PLZ Rüsseina"><strong>PLZ Rüsseina</strong></a>|<a href="https://plzplz.de/PLZ_Sachsenheim/" title="PLZ Sachsenheim"><strong>PLZ Sachsenheim</strong></a>|<a href="https://plzplz.de/PLZ_Silberhäusle/" title="PLZ Silberhäusle"><strong>PLZ Silberhäusle</strong></a>|<a href="https://plzplz.de/PLZ_Stafflangen/" title="PLZ Stafflangen"><strong>PLZ Stafflangen</strong></a>|<a href="https://plzplz.de/PLZ_Steinbühl/" title="PLZ Steinbühl"><strong>PLZ Steinbühl</strong></a>|<a href="https://plzplz.de/PLZ_Thiersheim/" title="PLZ Thiersheim"><strong>PLZ Thiersheim</strong></a>|<a href="https://plzplz.de/PLZ_Thüngfeld/" title="PLZ Thüngfeld"><strong>PLZ Thüngfeld</strong></a>|<a href="https://plzplz.de/PLZ_Wüllersleben/" title="PLZ Wüllersleben"><strong>PLZ Wüllersleben</strong></a>            </div>
+            <div class="posuvnik_oblubene">
+                <a href='#' class='psc_oblubene_prepinac1'>1</a>
+                <a href='#' class='psc_oblubene_prepinac2'>2</a>
+                <a href='#' class='psc_oblubene_prepinac3'>3</a>
+                <a href='#' class='psc_oblubene_prepinac4'>4</a>
+            </div>
+		</div>
+	</div>	
+</div>	
+	
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - TOP R Desktop -->
+<ins class="adsbygoogle a_najdipsc_top_desktop"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="2714288559"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<div id="plz-ort-strasse"></div>
+
+	<div id="letter_middle" style="padding-top: 20px;">
+		<h2>PLZ 68239</h2>
+<table class="psc_results">
+	<tr>
+		<th class="th_obec">Ort / Stadt</th>
+		<th class="th_ulica">Straße</th>
+		<th class="th_psc">PLZ</th>
+		<th class="th_info">Detail</th>
+	</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Acherner_Straße/">Acherner Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Acherner_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Achkarrer_Weg/">Achkarrer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Achkarrer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Alpirsbacher_Weg/">Alpirsbacher Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Alpirsbacher_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Am_Dünenrand/">Am Dünenrand</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Am_Dünenrand/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Am_Klumbengarten/">Am Klumbengarten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Am_Klumbengarten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Am_Römerbrunnen/">Am Römerbrunnen</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Am_Römerbrunnen/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Am_Sandhang/">Am Sandhang</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Am_Sandhang/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Am_Stock/">Am Stock</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Am_Stock/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Auf_dem_Kegel/">Auf dem Kegel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Auf_dem_Kegel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Auggener_Straße/">Auggener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Auggener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Badener_Platz/">Badener Platz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Badener_Platz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Badener_Straße/">Badener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Badener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Badenweiler_Straße/">Badenweiler Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Badenweiler_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Bahlinger_Straße/">Bahlinger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Bahlinger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Baiersbronner_Winkel/">Baiersbronner Winkel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Baiersbronner_Winkel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Beim_Bauerspfad/">Beim Bauerspfad</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Beim_Bauerspfad/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Beim_Glockacker/">Beim Glockacker</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Beim_Glockacker/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Bellinger_Weg/">Bellinger Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Bellinger_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Bernauer_Weg/">Bernauer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Bernauer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Bickensohler_Weg/">Bickensohler Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Bickensohler_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Bonndorfer_Straße/">Bonndorfer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Bonndorfer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Bötzinger_Weg/">Bötzinger Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Bötzinger_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Breisacher_Straße/">Breisacher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Breisacher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Brettener_Straße/">Brettener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Brettener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Bühler_Straße/">Bühler Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Bühler_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Dünenhof/">Dünenhof</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Dünenhof/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Dünenweg/">Dünenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Dünenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Eichstetter_Straße/">Eichstetter Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Eichstetter_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Endinger_Straße/">Endinger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Endinger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Ettlinger_Straße/">Ettlinger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Ettlinger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Freiburger_Straße/">Freiburger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Freiburger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Gaggenauer_Straße/">Gaggenauer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Gaggenauer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Gengenbacher_Straße/">Gengenbacher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Gengenbacher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Gutacher_Ring/">Gutacher Ring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Gutacher_Ring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Hausacher_Straße/">Hausacher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Hausacher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Heckweg/">Heckweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Heckweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Herrenalber_Straße/">Herrenalber Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Herrenalber_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Heumarkt/">Heumarkt</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Heumarkt/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Hinter_den_Dorfgärten/">Hinter den Dorfgärten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Hinter_den_Dorfgärten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Hochstättstraße/">Hochstättstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Hochstättstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Holzweg/">Holzweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Holzweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Iffezheimer_Straße/">Iffezheimer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Iffezheimer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Ihringer_Straße/">Ihringer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Ihringer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Im_Kaisergewann/">Im Kaisergewann</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Im_Kaisergewann/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Im_oberen_Falltor/">Im oberen Falltor</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Im_oberen_Falltor/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/In_den_Hopfengärten/">In den Hopfengärten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/In_den_Hopfengärten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Innerer_Heckweg/">Innerer Heckweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Innerer_Heckweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Jechtinger_Weg/">Jechtinger Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Jechtinger_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Kaiserstuhlring/">Kaiserstuhlring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Kaiserstuhlring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Kapellenplatz/">Kapellenplatz</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Kapellenplatz/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Kapellenstraße/">Kapellenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Kapellenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Karolingerweg/">Karolingerweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Karolingerweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Kehler_Straße/">Kehler Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Kehler_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Kieselgrund/">Kieselgrund</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Kieselgrund/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Kloppenheimer_Straße/">Kloppenheimer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Kloppenheimer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Konstanzer_Straße/">Konstanzer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Konstanzer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Krautgartenweg/">Krautgartenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Krautgartenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Lahrer_Straße/">Lahrer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Lahrer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Lichtenauer_Straße/">Lichtenauer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Lichtenauer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Lörracher_Straße/">Lörracher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Lörracher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Mainauer_Weg/">Mainauer Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Mainauer_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Maxauer_Straße/">Maxauer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Maxauer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Meersburger_Straße/">Meersburger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Meersburger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Meßkircher_Straße/">Meßkircher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Meßkircher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Neckarplatten/">Neckarplatten</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Neckarplatten/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Neuostheimer_Straße/">Neuostheimer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Neuostheimer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Oberbergener_Straße/">Oberbergener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Oberbergener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Oberkircher_Straße/">Oberkircher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Oberkircher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Oberrotweiler_Straße/">Oberrotweiler Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Oberrotweiler_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Offenburger_Straße/">Offenburger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Offenburger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Ottenhöfer_Straße/">Ottenhöfer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Ottenhöfer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Pforzheimer_Straße/">Pforzheimer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Pforzheimer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Plittersdorfer_Straße/">Plittersdorfer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Plittersdorfer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Rastatter_Straße/">Rastatter Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Rastatter_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Renchener_Straße/">Renchener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Renchener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Rheinfelder_Straße/">Rheinfelder Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Rheinfelder_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Riedweg/">Riedweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Riedweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Riegeler_Weg/">Riegeler Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Riegeler_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Riestenweg/">Riestenweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Riestenweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Rohrlachstraße/">Rohrlachstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Rohrlachstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Säckinger_Straße/">Säckinger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Säckinger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Sasbacher_Straße/">Sasbacher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Sasbacher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Schlittweg/">Schlittweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Schlittweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Schopfheimer_Straße/">Schopfheimer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Schopfheimer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Schramberger_Winkel/">Schramberger Winkel</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Schramberger_Winkel/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Schwabenstraße/">Schwabenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Schwabenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Seckenheimer_Hauptstraße/">Seckenheimer Hauptstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Seckenheimer_Hauptstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Singener_Weg/">Singener Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Singener_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Sinsheimer_Straße/">Sinsheimer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Sinsheimer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Spargelweg/">Spargelweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Spargelweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Staufener_Straße/">Staufener Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Staufener_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Stengelstraße/">Stengelstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Stengelstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Stockacher_Straße/">Stockacher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Stockacher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Suebenheimer_Allee/">Suebenheimer Allee</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Suebenheimer_Allee/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Suebenstraße/">Suebenstraße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Suebenstraße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Triberger_Ring/">Triberger Ring</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Triberger_Ring/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Turfweg/">Turfweg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Turfweg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Überlinger_Straße/">Überlinger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Überlinger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Uhldinger_Straße/">Uhldinger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Uhldinger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Villinger_Straße/">Villinger Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Villinger_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Waldkircher_Straße/">Waldkircher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Waldkircher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Waldshuter_Straße/">Waldshuter Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Waldshuter_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Waldspitze/">Waldspitze</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Waldspitze/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Wasengrund/">Wasengrund</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Wasengrund/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Wasserturmanlage/">Wasserturmanlage</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Wasserturmanlage/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Wildbader_Straße/">Wildbader Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Wildbader_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Wolfacher_Straße/">Wolfacher Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Wolfacher_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Wörthfelder_Weg/">Wörthfelder Weg</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Wörthfelder_Weg/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Zähringer_Straße/">Zähringer Straße</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Zähringer_Straße/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Zur_Autobahn/">Zur Autobahn</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Zur_Autobahn/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+<tr>
+<td><a href="https://plzplz.de/PLZ_Mannheim/"><strong>PLZ Mannheim</strong></a><br><i class="hlaska_poznamka"><a href="https://plzplz.de/PLZ_Seckenheim/">Seckenheim</a></i></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Zur_Waldau/">Zur Waldau</a></td>
+<td class="td_psc"><a href="https://plzplz.de/PLZ_68239/">68239</a></td>
+<td><a href="https://plzplz.de/PLZ_Mannheim/Zur_Waldau/" class="button_small">Mehr<span>&nbsp;Informationen</span></a></td>
+</tr>
+</table>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- plzPLZ.de - 336x280 Text R -->
+<ins class="adsbygoogle a_najdipsc_rectangle_text"
+     style="display:block"
+     data-ad-client="ca-pub-9205749889165725"
+     data-ad-slot="8450842721"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>	</div>
+	<!-- Paticka obalky --><div id="letter_bottom">    <div id="zones_box">        <div id="zones_copyright">            <a href="https://www.zones.sk/kontakt/">Kontakt</a>            © 2023 <a href="https://plzplz.de/" title="plzPLZ.de – Postleitzahl – Postleitzahlen Deutschland – PLZ Suche">plzPLZ.de<span> – Postleitzahlen Deutschland – PLZ Suche<span></a>.            Generiert in 0.007 s.        </div>        <div id="zones_odkazy">            <a href="https://wechselkurse-euro.de/" title="Wechselkurs EURO">Aktuelle Wechselkurse EZB</a>            <a href="https://wechselkurse-euro.de/wahrungsrechner/" title="Währungsrechner – Umrechner online">Währungsrechner – Umrechner online</a>        </div>    </div></div><div id="zahranicne_odkazy">    <a href="https://plzplz.at/" class="najdipsc_at" title="Postleitzahlen Österreich – PLZ Suche">PLZ Österreich</a>    <a href="https://postleitzahl-plz.ch/" class="najdipsc_ch" title="Postleitzahlen Schweiz – PLZ Suche">PLZ Schweiz</a>    <a href="https://capcap.it/" class="najdipsc_it" title="Codice di Avviamento Postale – Cerca CAP Italia">CAP Italia</a>    <a href="https://najdipsc.zones.sk/" class="najdipsc_sk" title="Vyhľadávanie PSČ miest a obcí na Slovensku">PSČ Slowakei</a>    <a href="https://pscpsc.cz/" class="najdipsc_cz" title="Vyhledávání PSČ měst a obcí v Česku">PSČ Tschechische Republik</a></div></div><!-- JS --><script src="https://plzplz.de/modules/function/js_functions.js"></script></div>
+</body>
+</html>

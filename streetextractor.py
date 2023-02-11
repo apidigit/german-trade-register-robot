@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-import csv
 import os
 
 import scrapy
 from scrapy import Selector
 from scrapy.crawler import CrawlerProcess
+
 import utils
 
 
@@ -41,17 +41,17 @@ class PlzplzSpiderSpider(scrapy.Spider):
             else:
                 file_path = f'plzplz.de/cache/{postal_code}.html'
                 if os.path.isfile(file_path):
-                    sel = Selector(text=self.cache_html_file(file_path))
+                    sel = Selector(text=utils.read_file(file_path))
                     if self.reset_txt_cache_flag:
                         all_streets = sel.css('.psc_results>tr>td:nth-child(2)>a::text').getall()
-                        self.write_street_file(postal_code, all_streets)
+                        utils.write_street_results(postal_code, all_streets)
                     else:
                         file_path = f'plzplz.de/streets/{postal_code}.txt'
                         if os.path.isfile(file_path):
                             pass
                         else:
                             all_streets = sel.css('.psc_results>tr>td:nth-child(2)>a::text').getall()
-                            self.write_street_file(postal_code, all_streets)
+                            utils.write_street_results(postal_code, all_streets)
 
                 else:
                     yield scrapy.Request(
@@ -66,32 +66,16 @@ class PlzplzSpiderSpider(scrapy.Spider):
         file_path = f'plzplz.de/streets/{postal_code}.txt'
         if self.reset_txt_cache_flag:
             all_streets = response.css('.psc_results>tr>td:nth-child(2)>a::text').getall()
-            self.write_street_file(postal_code, all_streets)
+            utils.write_street_results(postal_code, all_streets)
         else:
             if os.path.isfile(file_path):
                 pass
             else:
                 all_streets = response.css('.psc_results>tr>td:nth-child(2)>a::text').getall()
 
-                self.write_street_file(postal_code, all_streets)
+                utils.write_street_results(postal_code, all_streets)
 
-        self.write_html_file(postal_code, response.text)
-
-    @staticmethod
-    def write_html_file(postal_code, response):
-        with open(f"plzplz.de/cache/{postal_code}.html", "w", encoding='utf-8') as file:
-            file.write(response)
-
-    @staticmethod
-    def write_street_file(postal_code, response):
-        with open(f"plzplz.de/streets/{postal_code}.txt", "w", encoding='utf-8') as file:
-            for street in response:
-                file.write(f"{street}\n")
-
-    @staticmethod
-    def cache_html_file(file_path):
-        with open(file_path, "r", encoding='utf-8') as file:
-            return file.read()
+        utils.cache_street_html(postal_code, response.text)
 
 
 process = CrawlerProcess()

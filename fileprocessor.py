@@ -8,13 +8,12 @@ from watchfiles import watch, Change
 import fitz
 import pymysql
 
+from mysql import db, cursor
+
 
 class PdfReader:
 
-    def __init__(self):
-        self.conn = pymysql.connect(user='handelsregister_un', passwd='handelsregister_pw', host='localhost', port=3307,
-                                    db='handelsregister_db', use_unicode=True, charset='utf8')
-        self.cursor = self.conn.cursor()
+    # def __init__(self):
 
     @staticmethod
     def german_words_replacing(input_string):
@@ -115,16 +114,16 @@ class PdfReader:
             print("share_capital_currency:", share_capital_currency)
             print("ceo_birthdate:", ceo_date)
             try:
-                self.cursor.execute(
+                cursor.execute(
                     # f"UPDATE `companies` SET `headquarter_address_supplement`='{business_address}',`business_purpose`='{business_purpose}',`share_capital_amount`='{share_capital_amount}',`ceo_last_name`='{ceo_name}',`ceo_residence_city`='{ceo_city}',`ceo_birthdate`='{ceo_date}',`incorporation_date`='{incorporation_date}', `last_registry_update`='{last_entry}', `last_update_date_time`='{now}'  WHERE `ID` LIKE '%-{file_id}'"
                     f"UPDATE `companies` SET `headquarter_address_supplement`='{business_address}',`business_purpose`='{business_purpose}',`share_capital_amount`='{share_capital_amount}', `incorporation_date`='{incorporation_date}', `last_registry_update`='{last_entry}', `last_update_date_time`='{now}'  WHERE `ID` LIKE '%-{file_id}'"
                 )
                 # TODO `prokura`='{Prokura}',
                 # TODO `ceo_last_name`='{ceo_name}',`ceo_residence_city`='{ceo_city}',`ceo_birthdate`='{ceo_date}',
 
-                self.conn.commit()
+                db.commit()
                 doc.close()
-                os.remove(file_path)
+                # os.remove(file_path)
 
             except pymysql.Error as e:
                 print(e)

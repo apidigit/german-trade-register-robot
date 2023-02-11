@@ -4,10 +4,8 @@ import json
 import os
 import time
 from datetime import datetime, timezone
-from pathlib import Path
 
 import pymysql
-import utils
 from scrapy import Selector
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -15,113 +13,31 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 
+import utils
+from mysql import db, cursor
+
 
 class HandelsRegister:
-    def __init__(self):
-        try:
-            self.conn = pymysql.connect(user='handelsregister_un', passwd='handelsregister_pw', host='localhost',
-                                        port=3307, db='handelsregister_db', use_unicode=True, charset='utf8')
-            self.cursor = self.conn.cursor()
+    def __init__(self, search_query: {}):
+        if search_query is None:
+            raise ValueError
+        self.document_type = search_query["document_type"]
+        self.register_types = search_query["register_types"]
+        self.register_options = set()
+        self.register_options = search_query["register_options"]
+        self.streets = search_query["streets"]
+        self.cities = search_query["cities"]
+        self.postal_codes = set()
+        self.postal_codes = search_query["postal_codes"]
+        self.keywords = search_query["keywords"]
+        self.keywords_match_option = search_query["keywords_match_option"]
+        self.keywords_similar_sounding = search_query["keywords_similar_sounding"]
 
-            self.cursor.execute('''
-                CREATE TABLE IF NOT EXISTS companies( 
-                    `id` VARCHAR(255) NOT NULL PRIMARY KEY,
-                    `register_references` VARCHAR(255)  NOT NULL,
-                    `name` VARCHAR(255) NOT NULL, 
-                    `headquarter_city` VARCHAR(255) NOT NULL, 
-                    `headquarter_postal_code` VARCHAR(15), 
-                    `headquarter_street` VARCHAR(255),
-                    `headquarter_address_supplement` VARCHAR(255), 
-                    `currently_registered` BOOLEAN, 
-                    `business_purpose` VARCHAR(5000), 
-                    `share_capital_amount` VARCHAR(15), 
-                    `share_capital_currency` VARCHAR(15), 
-                    `incorporation_date` VARCHAR(255), 
-                    `last_registry_update` VARCHAR(255), 
-                    `phone` VARCHAR(255),
-                    `mobile` VARCHAR(255),
-                    `create_date_time` VARCHAR(35) NOT NULL,
-                    `last_update_date_time` VARCHAR(35));''')
-
-            self.cursor.execute('''
-                CREATE TABLE IF NOT EXISTS company_ceos( 
-                    `id` BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-                    `company_id` VARCHAR(255) NOT NULL,
-                    `titel` VARCHAR(15) NULL, 
-                    `gender` VARCHAR(15) NULL, 
-                    `first_name` VARCHAR(55), 
-                    `last_name` VARCHAR(55) NOT NULL, 
-                    `birth_name` VARCHAR(255), 
-                    `residence_city` VARCHAR(255), 
-                    `birthdate` VARCHAR(15), 
-                    `create_date_time` VARCHAR(35) NOT NULL,
-                    `last_update_date_time` VARCHAR(35),
-                    FOREIGN KEY (`company_id`) REFERENCES companies(`id`),
-                    CONSTRAINT `uc_ceo` UNIQUE (`company_id`, `first_name`, `last_name`));''')
-
-            self.cursor.execute('''
-                CREATE TABLE IF NOT EXISTS company_histories(
-                    `id` BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-                    `company_id` VARCHAR(255) NOT NULL,
-                    `position` int NOT NULL, 
-                    `name` VARCHAR(255) NOT NULL, 
-                    `city` VARCHAR(255) NOT NULL,
-                    `create_date_time` VARCHAR(35) NOT NULL,
-                    `last_update_date_time` VARCHAR(35),
-                    FOREIGN KEY (`company_id`) REFERENCES companies(`id`),
-                    CONSTRAINT `uc_history` UNIQUE (`company_id`, `name`, `city`));''')
-
-            self.cursor.execute('''
-                CREATE TABLE IF NOT EXISTS company_procura( 
-                    `id` BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-                    `company_id` VARCHAR(255) NOT NULL, 
-                    `titel` VARCHAR(15) NULL, 
-                    `gender` VARCHAR(15) NULL, 
-                    `first_name` VARCHAR(55), 
-                    `last_name` VARCHAR(55) NOT NULL, 
-                    `email` VARCHAR(255),
-                    `mobile` VARCHAR(255),
-                    `phone` VARCHAR(255),
-                    `create_date_time` VARCHAR(35) NOT NULL,
-                    `last_update_date_time` VARCHAR(35),
-                    FOREIGN KEY (`company_id`) REFERENCES companies(`id`),
-                    CONSTRAINT `uc_procura` UNIQUE (`company_id`, `first_name`, `last_name`));''')
-
-            self.cursor.execute('''
-                CREATE TABLE IF NOT EXISTS company_locations( 
-                    `id` BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-                    `company_id` VARCHAR(255) NOT NULL,
-                    `city` VARCHAR(255) NOT NULL, 
-                    `postal_code` VARCHAR(15) NOT NULL, 
-                    `street` VARCHAR(255) NOT NULL,
-                    `address_supplement` VARCHAR(255),
-                    `email` VARCHAR(255),
-                    `phone` VARCHAR(255),
-                    `mobile` VARCHAR(255),
-                    `create_date_time` VARCHAR(35) NOT NULL,
-                    `last_update_date_time` VARCHAR(35),
-                    FOREIGN KEY (`company_id`) REFERENCES companies(`id`),
-                    CONSTRAINT `uc_location` UNIQUE (`company_id`, `city`, `postal_code`, `street`));''')
-
-            self.cursor.execute('''CREATE TABLE IF NOT EXISTS company_contacts( `id` BIGINT NOT NULL AUTO_INCREMENT 
-            PRIMARY KEY, `company_id` VARCHAR(255) NOT NULL, `titel` VARCHAR(15) NULL, `gender` VARCHAR(15) NULL, 
-            `first_name` VARCHAR(55), `last_name` VARCHAR(55) NOT NULL, `position` VARCHAR(255), `location` BIGINT 
-            NULL, `office_email` VARCHAR(255), `private_email` VARCHAR(255), `office_mobile` VARCHAR(255), 
-            `office_phone` VARCHAR(255), `private_mobile` VARCHAR(255), `private_phone` VARCHAR(255), 
-            `create_date_time` VARCHAR(35) NOT NULL, `last_update_date_time` VARCHAR(35), FOREIGN KEY (`company_id`) 
-            REFERENCES companies(`id`), FOREIGN KEY (`location`) REFERENCES company_locations(`id`), CONSTRAINT 
-            `uc_contact` UNIQUE (`company_id`, `first_name`, `last_name`, `office_email`));''')
-
-            self.conn.commit()
-        except (AttributeError, pymysql.OperationalError) as e:
-            raise e
-
-    @staticmethod
-    def get_driver():
+    def get_driver(self):
         opt = webdriver.ChromeOptions()
         opt.add_argument("--start-maximized")
         preferences = {
-            "download.default_directory": os.path.join(os.getcwd(), 'handelsregister.de/AD'),
+            "download.default_directory": os.path.join(os.getcwd(), f'handelsregister.de/{self.document_type}'),
             "safebrowsing.enabled": "false", "plugins.always_open_pdf_externally": "true",
             "profile.default_content_setting_values.automatic_downloads": 1}
         opt.add_experimental_option("prefs", preferences)
@@ -136,63 +52,65 @@ class HandelsRegister:
             driver.execute_script("window.scrollTo(0, {});".format(current_scroll_position))
             new_height = driver.execute_script("return document.body.scrollHeight")
 
-    def start_request(self, search_query=None):
-        if search_query is None:
-            raise ValueError
-        keyword = search_query["keywords"]
-        print("keyword:", keyword)
-        keywords_match_option = self.get_keyword_match_option(search_query["keywords_match_option"])
+    def start_request(self):
+        print("keyword:", self.keywords)
+        keywords_match_option = self.get_keyword_match_option()
         print("keywords_match_option:", keywords_match_option)
 
         csv_postal_code = utils.read_postal_code_csv_file()
-        for register_type in self.get_register_types(search_query["register_types"]):
+
+        for register_type in self.get_register_types():
             print("register_type:", register_type)
-            for register_option in self.get_register_options(register_type):
-                print("register_option:", register_option)
-                for city in self.get_cities(csv_postal_code, search_query["cities"]):
-                    print("city:", city)
-                    for postal_code in self.get_postal_codes(csv_postal_code, city):
-                        print("postal_code:", postal_code)
+            for city in self.get_cities(csv_postal_code):
+                print("city:", city)
+                for postal_code in self.get_postal_codes(csv_postal_code, city):
+                    print("postal_code:", postal_code)
+                    for register_option in self.get_register_options(register_type):
+                        print("register_option:", register_option)
                         # for street in utils.get_streets(postal_code):
                         # print("street:", street)
+
+                        if self.query_has_no_result() or self.query_completed_successfully():
+                            continue
+
                         driver = self.get_driver()
                         driver.get('https://www.handelsregister.de/rp_web/erweitertesuche.xhtml')
                         time.sleep(3)
 
-                        WebDriverWait(driver, 30).until(
-                            # EC.presence_of_element_located((By.CSS_SELECTOR, '[id="form:registerNummer"]')))
-                            EC.presence_of_element_located((By.CSS_SELECTOR, '[id="form:schlagwoerter"]')))
-                        self.__scroll_down_page(driver)
+                        if self.keywords is not None and len(self.keywords) > 0:
 
-                        # TODO: keyword (variable: keyword)
-                        time.sleep(0.5)
-                        driver.find_element(By.CSS_SELECTOR, '[id="form:schlagwoerter"]').send_keys(keyword)
+                            WebDriverWait(driver, 30).until(
+                                EC.presence_of_element_located((By.CSS_SELECTOR, '[id="form:schlagwoerter"]')))
 
-                        # TODO: keywords match option (variable: keywords_match_option)
-                        time.sleep(0.5)
-                        driver.find_element(By.CSS_SELECTOR,
-                                            f'label[for="form:schlagwortOptionen:{keywords_match_option}"]').click()
+                            time.sleep(0.5)
+                            driver.find_element(By.CSS_SELECTOR, '[id="form:schlagwoerter"]').send_keys(self.keywords)
+
+                            time.sleep(0.5)
+                            driver.find_element(By.CSS_SELECTOR,
+                                                f'label[for="form:schlagwortOptionen:{keywords_match_option}"]').click()
 
                         WebDriverWait(driver, 30).until(
                             EC.presence_of_element_located((By.CSS_SELECTOR, '[id="form:registerNummer"]')))
                         self.__scroll_down_page(driver)
 
-                        # TODO: register type (variable: register_type)
                         time.sleep(0.5)
                         driver.find_element(By.CSS_SELECTOR, '[id="form:registerArt_label"]').click()
 
-                        # TODO: register option (variable: register_option)
                         time.sleep(0.5)
                         driver.find_element(By.CSS_SELECTOR, f'li[data-label="{register_type}"]').click()
 
-                        # TODO: postal code (variable: postal_code)
+                        time.sleep(0.5)
+                        driver.find_element(By.CSS_SELECTOR, '[id="form:rechtsform_label"]').click()
+
+                        time.sleep(0.5)
+                        driver.find_element(By.CSS_SELECTOR, f'li[data-label="{register_option}"]').click()
+
                         time.sleep(0.5)
                         driver.find_element(By.CSS_SELECTOR, '[id="form:postleitzahl"]').send_keys(postal_code)
 
                         time.sleep(0.5)
                         driver.find_element(By.CSS_SELECTOR, '[id="form:ort"]').send_keys(city)
 
-                        # TODO: street (variable: street)
                         # time.sleep(0.5)
                         # driver.find_element(By.CSS_SELECTOR, '[id="form:strasse"]').send_keys(street)
 
@@ -211,177 +129,208 @@ class HandelsRegister:
                         for row_data in response.css('.borderBottom3'):
                             history = row_data.xpath('.//td[contains(text(), "History")]/following::table[1]')
                             history_list = list()
-                            for history_row in history.css('tr.ui-widget-content'):
-                                history_list.append(
-                                    {
-                                        'position': history_row.css('.RegPortErg_HistorieZn>span::text').re_first(
-                                            '\d+'),
-                                        'name': history_row.css('.RegPortErg_HistorieZn>span::text').get('').split(
-                                            '.)')[-1].strip(),
-                                        'city': history_row.css('.RegPortErg_SitzStatus>span::text').get('').split(
-                                            '.)')[-1].strip(),
-                                    }
-                                )
 
-                            item = {
-                                'register': ' '.join(
-                                    [row.strip() for row in row_data.css('td.fontTableNameSize *::text').getall() if
-                                     row.strip() != '']),
-                                'name': row_data.css('span[class="marginLeft20"]::text').get('').strip(),
-                                'city': row_data.css('.sitzSuchErgebnisse>span::text').get('').strip(),
-                                'currently_registered': True if 'currently registered' in row_data.css(
-                                    'td:nth-child(3)>span::text').get('') else False,
-                                'history': json.dumps(history_list)
-                            }
-                            print('history: ', history_list)
-                            print('currently_registered: ', item['currently_registered'])
-                            print("register: ", item['register'])
+                            register_references = ' '.join(
+                                [row.strip() for row in row_data.css('td.fontTableNameSize *::text').getall() if
+                                 row.strip() != ''])
+
                             company_id = utils.clean_company_id(
-                                item['register'].split('court')[-1].strip().replace(' ', '-').lower())
-                            print("id: ", company_id)
-                            print("name: ", item['name'])
-                            print("city: ", item['city'])
-                            now = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
-                            print("created_datetime: ", now)
-                            print(" ")
-                            print(" ")
-                            try:
-                                self.cursor.execute('''
-                                                INSERT INTO `companies`(
-                                                    `id`, 
-                                                    `register_references`, 
-                                                    `name`, 
-                                                    `headquarter_city`, 
-                                                    `currently_registered`,  
-                                                    `create_date_time`) 
-                                                    VALUES (
-                                                        %s,%s,%s,%s,%s,%s
-                                                    )
-                                                ''',
-                                                    (
-                                                        company_id,
-                                                        item['register'],
-                                                        item['name'],
-                                                        item['city'],
-                                                        item['currently_registered'],
-                                                        now
-                                                    ))
-                                self.conn.commit()
+                                register_references.split('court')[-1].strip().replace(' ', '-').lower())
 
-                            except pymysql.Error as e:
-                                print("Error %d: %s" % (e.args[0], e.args[1]))
+                            caching_date = utils.read_company_cache(company_id, self.document_type)
 
-                        for res in response.css('.borderBottom3>table::attr(id)').getall():
-                            try:
-                                driver.execute_script("arguments[0].scrollIntoView(true);",
-                                                      driver.find_element(By.XPATH,
-                                                                          f'//table[@id="{res}"]//span[contains(text(), "AD")]/..'))
-                                time.sleep(0.5)
-                                driver.find_element(By.XPATH,
-                                                    f'//table[@id="{res}"]//span[contains(text(), "AD")]/..').click()
+                            if caching_date is None:
 
-                                time.sleep(3)
-                                WebDriverWait(driver, 30).until(
-                                    EC.presence_of_element_located(
-                                        (By.CSS_SELECTOR, '[id="form:kostenpflichtigabrufen"]')))
-                                driver.find_element(By.CSS_SELECTOR, '[id="form:kostenpflichtigabrufen"]').click()
-                                detail_sel = Selector(text=driver.page_source)
-                                pdf_name = detail_sel.css('div.ui-panel-content>span::text').get(
-                                    '').strip().replace(' ', '-')
-                                # print(pdf_name)
-                                time.sleep(3)
-                                driver.back()
+                                for history_row in history.css('tr.ui-widget-content'):
+                                    history_list.append(
+                                        {
+                                            'position': history_row.css('.RegPortErg_HistorieZn>span::text').re_first(
+                                                '\d+'),
+                                            'name': history_row.css('.RegPortErg_HistorieZn>span::text').get('').split(
+                                                '.)')[-1].strip(),
+                                            'city': history_row.css('.RegPortErg_SitzStatus>span::text').get('').split(
+                                                '.)')[-1].strip(),
+                                        }
+                                    )
 
-                                WebDriverWait(driver, 30).until(EC.presence_of_element_located(
-                                    (By.CSS_SELECTOR, 'div[id="ergebnissForm:selectedSuchErgebnisFormTable"]')))
-                                time.sleep(5)
-                            except Exception as ex:
-                                print('error', ex)
-                                sel = Selector(text=driver.page_source)
-                                if sel.css('[id="form:kostenpflichtigabrufen"]').get():
+                                item = {
+                                    'register': register_references,
+                                    'name': row_data.css('span[class="marginLeft20"]::text').get('').strip(),
+                                    'city': row_data.css('.sitzSuchErgebnisse>span::text').get('').strip(),
+                                    'currently_registered': True if 'currently registered' in row_data.css(
+                                        'td:nth-child(3)>span::text').get('') else False,
+                                    'history': json.dumps(history_list)
+                                }
+
+                                now = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+
+                                result_table_id = row_data.css('table::attr(id)').getall().pop()
+
+                                try:
+                                    driver.execute_script("arguments[0].scrollIntoView(true);",
+                                                          driver.find_element(By.XPATH,
+                                                                              f'//table[@id="{result_table_id}"]//span[contains(text(), "{self.document_type}")]/..'))
+                                    time.sleep(0.5)
+                                    driver.find_element(By.XPATH,
+                                                        f'//table[@id="{result_table_id}"]//span[contains(text(), "{self.document_type}")]/..').click()
+
+                                    time.sleep(3)
+                                    WebDriverWait(driver, 30).until(
+                                        EC.presence_of_element_located(
+                                            (By.CSS_SELECTOR, '[id="form:kostenpflichtigabrufen"]')))
+                                    driver.find_element(By.CSS_SELECTOR, '[id="form:kostenpflichtigabrufen"]').click()
+
+                                    time.sleep(3)
+
                                     driver.back()
 
-                                    WebDriverWait(driver, 30).until(EC.presence_of_element_located((
-                                        By.CSS_SELECTOR,
-                                        'div[id="ergebnissForm:selectedSuchErgebnisFormTable"]')))
-                                    time.sleep(3)
-                                else:
-                                    time.sleep(2)
-                                    pass
+                                    WebDriverWait(driver, 30).until(EC.presence_of_element_located(
+                                        (By.CSS_SELECTOR, 'div[id="ergebnissForm:selectedSuchErgebnisFormTable"]')))
+                                    time.sleep(5)
+
+                                except Exception as ex:
+                                    print('error', ex)
+                                    sel = Selector(text=driver.page_source)
+                                    if sel.css('[id="form:kostenpflichtigabrufen"]').get():
+                                        driver.back()
+
+                                        WebDriverWait(driver, 30).until(EC.presence_of_element_located((
+                                            By.CSS_SELECTOR,
+                                            'div[id="ergebnissForm:selectedSuchErgebnisFormTable"]')))
+                                        time.sleep(3)
+                                    else:
+                                        time.sleep(2)
+                                        pass
+
+                                try:
+                                    cursor.execute('''
+                                                    INSERT INTO `companies`(
+                                                        `id`, 
+                                                        `register_references`, 
+                                                        `name`, 
+                                                        `headquarter_city`, 
+                                                        `currently_registered`,  
+                                                        `create_date_time`) 
+                                                        VALUES (
+                                                            %s,%s,%s,%s,%s,%s
+                                                        )
+                                                    ''',
+                                                   (
+                                                       company_id,
+                                                       item['register'],
+                                                       item['name'],
+                                                       item['city'],
+                                                       item['currently_registered'],
+                                                       now
+                                                   ))
+
+                                    utils.cache_company(company_id, self.document_type, now)
+
+                                    db.commit()
+
+                                except pymysql.Error as e:
+                                    print("Error %d: %s" % (e.args[0], e.args[1]))
+
                         time.sleep(20)
                         driver.quit()
 
-    @staticmethod
-    def get_register_types(register_types: set) -> set:
+    def get_register_types(self) -> set:
         register_types_catalog = {"HRA", "HRB", "GnR", "PR", "VR"}
 
-        if register_types is None or len(register_types) == 0:
+        if self.register_types is None or len(self.register_types) == 0:
             return register_types_catalog
 
         # ensure that register_types has only valid values
-        invalid_register_types = register_types.difference(register_types_catalog)
+        invalid_register_types = self.register_types.difference(register_types_catalog)
 
         if len(invalid_register_types) > 0:
             raise Exception('valid register types are: "HRA", "HRB", "GnR", "PR" and "VR"')
 
-        if len(register_types) == len(register_types_catalog):
-            return { "all" }
+        if len(self.register_types) == len(register_types_catalog):
+            return {"all"}
 
-        return register_types
+        return self.register_types
 
-    @staticmethod
-    def get_register_options(register_type_filter) -> set:
-        return {"all"}
+    def get_register_options(self, register_type_filter: str) -> set:
+        if register_type_filter == "VR":
+            return {"all"}
+        register_options = utils.get_register_options(register_type_filter)
+        if self.register_options is not None and len(self.register_options) > 0:
+            intersection_options = self.register_options.intersection(register_options)
+            return intersection_options
+        return register_options
 
-    @staticmethod
-    def get_cities(csv_file_content, cities: set) -> set:
+    def get_cities(self, csv_file_content) -> set:
         collected_cities = set()
-        if cities is None or len(cities) == 0:
-            # read all cities from the file (in read only mode)
-            # return HandelsRegister.read_csv_column(postal_codes_by_city_df, 'ort')
+        if self.cities is None or len(self.cities) == 0:
             for csv_dict in csv_file_content[:]:
                 item = csv_dict.get('ort')
-                print(item)
                 collected_cities.add(item)
-
             return collected_cities
+        return self.cities
 
-        return cities
-
-    @staticmethod
-    def get_postal_codes(csv_file_content, city_filter: str) -> set:
+    def get_postal_codes(self, csv_file_content, city_filter: str) -> set:
         postal_codes_set = set()
         for csv_dict in csv_file_content[:]:
             postal_code_item = csv_dict.get('plz')
             city_item = csv_dict.get('ort')
             if postal_code_item is not None and city_item is not None and utils.replace_german_chars(
-                    city_item.strip()).lower() == utils.replace_german_chars(city_filter.strip()).lower():
+                    city_item.strip()).lower() == utils.replace_german_chars(
+                    city_filter.strip()).lower() and postal_code_item in self.postal_codes:
                 postal_codes_set.add(postal_code_item)
         return postal_codes_set
 
-    @staticmethod
-    def get_streets(postal_code_filter: str) -> set:
-        return utils.get_streets(postal_code_filter)
+    def get_streets(self, postal_code_filter: str) -> set:
+        all_streets = utils.get_streets(postal_code_filter)
+        if self.streets is not None and len(self.streets) > 0:
+            return self.streets.intersection(all_streets)
+        return all_streets
 
-    @staticmethod
-    def get_keyword_match_option(keywords_match_option: str) -> int:
-        if keywords_match_option is None or keywords_match_option == "one":
+    def get_keyword_match_option(self) -> int:
+        if self.keywords_match_option is None or self.keywords_match_option == "one":
             return 1
-        if keywords_match_option == "all":
+        if self.keywords_match_option == "all":
             return 0
-        if keywords_match_option == "exact":
+        if self.keywords_match_option == "exact":
             return 2
         raise Exception('valid keywords options are: "all", "one" and "exact"')
 
+    def query_has_no_result(self) -> bool:
+        return False
+
+    def query_completed_successfully(self) -> bool:
+        return False
+
 
 if __name__ == '__main__':
-    obj = HandelsRegister()
 
     query = {"register_types": {"HRB"},
+             "register_options": {},
+             "document_type": "AD",
              "cities": {"Mannheim"},
-             "postal_codes": {},
+             "streets": {},
+             "postal_codes": {'68305', '68309', '68167', '68307', '68169', '68159', '68161', '68163', '68165', '68132',
+                              '68139', '68131', '68127', '68149', '68156', '68147', '68145', '68143', '68141', '68134',
+                              '68122', '68148', '68051', '68144', '68137', '68140', '68299', '68124', '68301', '68135',
+                              '68151', '68136', '68300', '68112', '68298', '68133', '68150', '68123', '68146', '68142',
+                              '68197', '68126', '68302', '68121', '68138', '68130', '68128', '68157', '68259', '68056',
+                              '67061', '67059', '68623', '68517', '67082', '67055', '67076', '67077', '67057', '67075',
+                              '67056', '67078', '68519', '67069', '67079', '68199', '67065', '68549', '67227', '68619',
+                              '68542', '68239', '67063', '67071', '67067', '68535', '67122', '68219', '67225', '68526',
+                              '68229', '67240', '69493', '67141', '69469', '67545', '69221', '68642', '69465', '69502',
+                              '67259', '69198', '67112', '67117', '67258', '68782', '67165', '69514', '64653', '67468',
+                              '67551', '67547', '69123', '67549', '67245', '69517', '68723', '67133', '69488', '64646',
+                              '64683', '68721', '67136', '67166', '69214', '67125', '69124', '67229', '69115', '68775',
+                              '69120', '69121', '64625', '67105', '67134', '69509', '68647', '67256', '67550', '67158',
+                              '67246', '67126', '64624', '64623', '69117', '69109', '69108', '69112', '69111', '69110',
+                              '67127', '69253', '69259', '64668', '67167', '69126', '69207', '67161', '68649', '67098',
+                              '67591', '69118', '67251', '69518', '67459', '67271', '67281', '67346', '64673', '67159',
+                              '64579', '68766', '67283', '68764', '67273', '69483', '67580', '64658', '64686', '67149',
+                              '67574', '67343', '67342', '67340', '64665', '69250', '69181', '67169', '67278', '67373',
+                              '67590', '67150', '68804'},
              "keywords": {},
              "keywords_match_option": "one",
              "keywords_similar_sounding": False}
 
-    obj.start_request(query)
+    obj = HandelsRegister(query)
+    obj.start_request()

@@ -21,6 +21,25 @@ pip install --upgrade pip
 ```
 pip install pymysql scrapy selenium pathlib webdriver_manager watchfiles pymupdf
 ```
+- Install Docker Engine
+
+Refer to the [official docker website](https://docs.docker.com/engine/install/)
+
+- Run MySQL Docker image
+```
+docker run --name handelsregister_mysql \
+  -p 3307:3306 \
+  -e ALLOW_EMPTY_PASSWORD=yes \
+  -e MYSQL_USER=handelsregister_un \
+  -e MYSQL_PASSWORD=handelsregister_pw \
+  -e MYSQL_DATABASE=handelsregister_db \
+  -e MYSQL_AUTHENTICATION_PLUGIN=mysql_native_password \
+  bitnami/mysql:latest
+```
+
+- Initialize the database schema
+
+Run the script located in the file `resources/db_schema.sql`
 
 - Initialize the street files
 ```

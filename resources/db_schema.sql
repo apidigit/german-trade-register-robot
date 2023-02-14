@@ -16,7 +16,7 @@
                     `phone` VARCHAR(255),
                     `mobile` VARCHAR(255),
                     `create_date_time` VARCHAR(35) NOT NULL,
-                    `last_update_date_time` VARCHAR(35)) ENGINE=INNODB;
+                    `last_update_date_time` VARCHAR(35));
 
 				CREATE TABLE IF NOT EXISTS company_ceos(
                     `id` BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -31,7 +31,7 @@
     				`create_date_time` VARCHAR(35) NOT NULL,
                     `last_update_date_time` VARCHAR(35),
                     FOREIGN KEY (`company_id`) REFERENCES companies(`id`),
-                	CONSTRAINT `uc_ceo` UNIQUE (`company_id`, `first_name`, `last_name`)) ENGINE=INNODB;
+                	CONSTRAINT `uc_ceo` UNIQUE (`company_id`, `first_name`, `last_name`));
 
  				CREATE TABLE IF NOT EXISTS company_histories(
                     `id` BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -42,7 +42,7 @@
                     `create_date_time` VARCHAR(35) NOT NULL,
                     `last_update_date_time` VARCHAR(35),
                     FOREIGN KEY (`company_id`) REFERENCES companies(`id`),
-                	CONSTRAINT `uc_history` UNIQUE (`company_id`, `name`, `city`)) ENGINE=INNODB;
+                	CONSTRAINT `uc_history` UNIQUE (`company_id`, `name`, `city`));
 
                  CREATE TABLE IF NOT EXISTS company_procura(
                     `id` BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -57,7 +57,7 @@
                     `create_date_time` VARCHAR(35) NOT NULL,
                     `last_update_date_time` VARCHAR(35),
                     FOREIGN KEY (`company_id`) REFERENCES companies(`id`),
-                	CONSTRAINT `uc_procura` UNIQUE (`company_id`, `first_name`, `last_name`)) ENGINE=INNODB;
+                	CONSTRAINT `uc_procura` UNIQUE (`company_id`, `first_name`, `last_name`));
 
                 CREATE TABLE IF NOT EXISTS company_locations(
                     `id` BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -72,7 +72,7 @@
                     `create_date_time` VARCHAR(35) NOT NULL,
                     `last_update_date_time` VARCHAR(35),
                     FOREIGN KEY (`company_id`) REFERENCES companies(`id`),
-                	CONSTRAINT `uc_location` UNIQUE (`company_id`, `city`, `postal_code`, `street`)) ENGINE=INNODB;
+                	CONSTRAINT `uc_location` UNIQUE (`company_id`, `city`, `postal_code`, `street`));
 
                   CREATE TABLE IF NOT EXISTS company_contacts(
                     `id` BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -93,5 +93,5 @@
                     `last_update_date_time` VARCHAR(35),
                     FOREIGN KEY (`company_id`) REFERENCES companies(`id`),
 					FOREIGN KEY (`location`) REFERENCES company_locations(`id`),
-                	CONSTRAINT `uc_contact` UNIQUE (`company_id`, `first_name`, `last_name`, `office_email`)) ENGINE=INNODB;
+                	CONSTRAINT `uc_contact` UNIQUE (`company_id`, `first_name`, `last_name`, `office_email`));
 

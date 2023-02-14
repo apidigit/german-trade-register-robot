@@ -18,4 +18,3 @@ cursor.execute(utils.CREATE_LOCATION_TABLE)
 cursor.execute(utils.CREATE_CONTACT_TABLE)
 
 db.commit()
-

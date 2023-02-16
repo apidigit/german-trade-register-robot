@@ -133,7 +133,7 @@ class PdfReader:
                                 ''',
                                (
                                    company_id,
-                                   ceo_fist_name,
+                                   ceo_first_name,
                                    ceo_name,
                                    ceo_city,
                                    ceo_birthdate,

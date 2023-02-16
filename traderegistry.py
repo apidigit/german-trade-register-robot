@@ -18,10 +18,10 @@ from mysql import db, cursor
 
 
 class HandelsRegister:
-    def __init__(self, search_query: {}):
+    def __init__(self, search_query: {}, link_type: "AD"):
         if search_query is None:
             raise ValueError
-        self.document_type = search_query["document_type"]
+        self.document_type = link_type
         self.register_types = search_query["register_types"]
         self.register_options = set()
         self.register_options = search_query["register_options"]
@@ -303,10 +303,9 @@ class HandelsRegister:
 
 
 if __name__ == '__main__':
-
+    file_type = "SI"
     query = {"register_types": {"HRB"},
              "register_options": {},
-             "document_type": "AD",
              "cities": {"Mannheim"},
              "streets": {},
              "postal_codes": {'68305', '68309', '68167', '68307', '68169', '68159', '68161', '68163', '68165', '68132',
@@ -332,5 +331,5 @@ if __name__ == '__main__':
              "keywords_match_option": "one",
              "keywords_similar_sounding": False}
 
-    obj = HandelsRegister(query)
+    obj = HandelsRegister(query, file_type)
     obj.start_request()

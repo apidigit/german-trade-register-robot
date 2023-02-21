@@ -117,10 +117,10 @@ def added_xml_filter(change: Change, file_path: str) -> bool:
     return change.value == Change.added and file_path.endswith('.xml')
 
 
-def clean_cache_filename(file_path):
-    temp_file_name = file_path.replace(DOWNLOADS_FOLDER_PATH + '/', '')
-    temp_file_name = re.sub('-[0-9]{14}', '', temp_file_name).lower()
-    return temp_file_name.split('/')[-1].replace('.', '-').replace('_', '-').replace('+', '-').strip() + '.txt'
+# def clean_cache_filename(file_path):
+#     temp_file_name = file_path.replace(DOWNLOADS_FOLDER_PATH + '/', '')
+#     temp_file_name = re.sub('-[0-9]{14}', '', temp_file_name).lower()
+#     return temp_file_name.split('/')[-1].replace('.', '-').replace('_', '-').replace('+', '-').strip() + '.txt'
 
 
 def get_streets(postal_code) -> set:
@@ -153,13 +153,26 @@ def read_file(file_path):
         return file.read()
 
 
-def cache_company(company_id, document_type, now):
-    with open(f"handelsregister.de/cache/{company_id}-{document_type}.txt", "w", encoding='utf-8') as file:
+def cache_company(company_id, now):
+    with open(f"handelsregister.de/cache/companies/{company_id}.txt", "w", encoding='utf-8') as file:
         file.write(f"{now}")
 
 
-def read_company_cache(company_id, document_type):
-    file_name = f"handelsregister.de/cache/{company_id}-{document_type}.txt"
+def cache_query(cache_id, now):
+    with open(f"handelsregister.de/cache/queries/{cache_id}.txt", "w", encoding='utf-8') as file:
+        file.write(f"{now}")
+
+
+def read_company_cache(company_id):
+    file_name = f"handelsregister.de/cache/companies/{company_id}.txt"
+    if not os.path.exists(file_name):
+        return None
+    with open(file_name, "r", encoding='utf-8') as file:
+        return file.readline()
+
+
+def read_query_cache(company_id):
+    file_name = f"handelsregister.de/cache/queries/{company_id}.txt"
     if not os.path.exists(file_name):
         return None
     with open(file_name, "r", encoding='utf-8') as file:

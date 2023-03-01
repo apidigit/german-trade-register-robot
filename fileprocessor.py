@@ -2,6 +2,8 @@
 import glob
 import os
 import re
+from csv import writer
+from csv import DictWriter
 from datetime import datetime, timezone
 
 import fitz
@@ -15,7 +17,8 @@ from mysql import db, cursor
 
 class PdfReader:
 
-    # def __init__(self):
+    def __init__(self):
+        self.append_header = True
 
     @staticmethod
     def german_words_replacing(input_string):
@@ -30,12 +33,27 @@ class PdfReader:
 
     def process_xml_file(self, file_path):
 
+        postal_codes = {
+            '76870', '76863', '76770', '76872', '76779', '76751', '76116', '76314', '76477', '76183', '76125'
+            '76744', '76764',  '76831', '76865', '76889', '76359', '76467', '76126', '76182', '76109', '76253',
+            '76072', '76115', '76071', '76133', '76073', '76119', '76097', '76098', '76107', '76117', '76246',
+            '76287', '76448', '76199', '76776', '76133', '76070', '76273', '76118', '76247', '76245', '76120',
+            '76437', '76473', '76549', '76530', '76532', '76534', '77815', '77833', '77836', '76275', '76316',
+            '76571', '76474', '76767', '76131', '76133', '76149', '76185', '76187', '76135', '76189', '76137',
+            '67227', '68159', '68259', '68157', '68128', '68130', '68138', '68121', '68302', '68126', '68197',
+            '68142', '68146', '68123', '68150', '68133', '76185', '68298', '68112', '68300', '68136', '68151',
+            '68135', '68301', '68124', '68299', '68140', '68137', '68144', '68051', '68148', '68122', '68134',
+            '68141', '68143', '68145', '68147', '68156', '68149', '68127', '68131', '68139', '68132', '68161',
+            '68165', '68167', '68163', '68305', '68169', '67059', '67061', '67063', '67065', '67067', '67069',
+            '67071', '68307', '68309'
+        }
         ceos = []
         liable_persons = []
         liable_companies = []
         person_limited_partners = []
         prokurist_persons = []
         vorstands = []
+        executive_directors = []
 
         company_name = ''
         company_typ = ''
@@ -52,19 +70,28 @@ class PdfReader:
         trade_register_number = ''
         primary_key = ''
 
+        results = []
+
         with open(file_path) as fd:
             doc = xmltodict.parse(fd.read())
             payload = doc['XJustiz_Daten']
 
             participation = list(payload['Grunddaten']['Verfahrensdaten']['Beteiligung'])
-            company_purpose = payload['Fachdaten_Register']['Basisdaten_Register']['Gegenstand_oder_Geschaeftszweck']
+            fach_register = payload['Fachdaten_Register']
+            company_purpose = fach_register['Basisdaten_Register']['Gegenstand_oder_Geschaeftszweck']
+            register_gmbh_capital = ''
+            # register_kg_capital = payload['Fachdaten_Register']['Zusatzangaben']['Personengesellschaft']['Zusatz_KG']['Daten_Kommanditist']
+            if 'Zusatzangaben' in fach_register and 'Kapitalgesellschaft' in fach_register[
+                'Zusatzangaben'] and 'Zusatz_GmbH' in fach_register['Zusatzangaben']['Kapitalgesellschaft']:
+                register_gmbh_capital = fach_register['Zusatzangaben']['Kapitalgesellschaft']['Zusatz_GmbH'][
+                    'Stammkapital']
 
             # print("1. participation", participation[0])
             # print("2. participation", participation[1])
 
             for part in participation:
 
-                print(part)
+                # print(part)
 
                 role = part['Rolle']
 
@@ -100,7 +127,8 @@ class PdfReader:
                     primary_key = (trade_court + '-' + trade_register_number).replace(' ', '-').strip().lower()
                     primary_key = utils.replace_german_chars(primary_key)
 
-                elif (role_name == 'Kommanditist' or role_name == 'Kommanditist(in)') and 'Natuerliche_Person' in part['Beteiligter']:
+                elif (role_name == 'Kommanditist' or role_name == 'Kommanditist(in)') and 'Natuerliche_Person' in part[
+                    'Beteiligter']:
                     person_limited_partner = part['Beteiligter']['Natuerliche_Person']
                     person_limited_partner_firstname = person_limited_partner['Voller_Name']['Vorname']
                     person_limited_partner_lastname = person_limited_partner['Voller_Name']['Nachname']
@@ -123,7 +151,8 @@ class PdfReader:
                                                     'residency_city': person_limited_partner_residency_city,
                                                     'residency_country': person_limited_partner_residency_country})
 
-                elif (role_name == 'Kommanditist' or role_name == 'Kommanditist(in)') and 'Organisation' in part['Beteiligter']:
+                elif (role_name == 'Kommanditist' or role_name == 'Kommanditist(in)') and 'Organisation' in part[
+                    'Beteiligter']:
                     company = part['Beteiligter']['Organisation']
                     company_name = company['Bezeichnung']['Bezeichnung_Aktuell']
                     company_typ = company['Rechtsform']['content']
@@ -143,7 +172,8 @@ class PdfReader:
                     company_address_city = company['Anschrift']['Ort']
                     company_address_country = company['Anschrift']['Staat']['content']
 
-                elif (role_name == 'Prokurist' or role_name == 'Prokurist(in)') and 'Natuerliche_Person' in part['Beteiligter']:
+                elif (role_name == 'Prokurist' or role_name == 'Prokurist(in)') and 'Natuerliche_Person' in part[
+                    'Beteiligter']:
                     prokurist_person = part['Beteiligter']['Natuerliche_Person']
                     prokurist_person_firstname = prokurist_person['Voller_Name']['Vorname']
                     prokurist_person_lastname = prokurist_person['Voller_Name']['Nachname']
@@ -166,7 +196,9 @@ class PdfReader:
                                               'residency_city': prokurist_person_residency_city,
                                               'residency_country': prokurist_person_residency_country})
 
-                elif (role_name == 'Persönlich haftender Gesellschafter' or role_name == 'Persönlich haftende(r) Gesellschafter(in)') and 'Natuerliche_Person' in part['Beteiligter']:
+                elif (
+                        role_name == 'Persönlich haftender Gesellschafter' or role_name == 'Persönlich haftende(r) Gesellschafter(in)') and 'Natuerliche_Person' in \
+                        part['Beteiligter']:
                     person_limited_partner = part['Beteiligter']['Natuerliche_Person']
                     person_limited_partner_firstname = person_limited_partner['Voller_Name']['Vorname']
                     person_limited_partner_lastname = person_limited_partner['Voller_Name']['Nachname']
@@ -187,7 +219,9 @@ class PdfReader:
                                            'residency_city': person_limited_partner_residency_city,
                                            'residency_country': person_limited_partner_residency_country})
 
-                elif (role_name == 'Persönlich haftender Gesellschafter' or role_name == 'Persönlich haftende(r) Gesellschafter(in)') and 'Organisation' in part['Beteiligter']:
+                elif (
+                        role_name == 'Persönlich haftender Gesellschafter' or role_name == 'Persönlich haftende(r) Gesellschafter(in)') and 'Organisation' in \
+                        part['Beteiligter']:
                     limited_partner = part['Beteiligter']['Organisation']
                     limited_partner_name = limited_partner['Bezeichnung']['Bezeichnung_Aktuell']
                     limited_partner_headquarter_city = limited_partner['Sitz']['Ort']
@@ -220,11 +254,13 @@ class PdfReader:
                                  'residency_country': ceo_residency_country})
 
                 # if role_name == 'Prokurist' and 'Organisation' in part['Beteiligter']:
-                elif (role_name == 'Liquidator' or role_name == 'Liquidator(in)') and 'Natuerliche_Person' in part['Beteiligter']:
-                    print("liquidator")
+                elif (role_name == 'Liquidator' or role_name == 'Liquidator(in)') and 'Natuerliche_Person' in part[
+                    'Beteiligter']:
+                    # print("TODO: liquidator")
+                    continue
 
                 elif role_name == 'Vorstand' and 'Natuerliche_Person' in part['Beteiligter']:
-                    print("Vorstand")
+                    # print("Vorstand")
                     vorstand = part['Beteiligter']['Natuerliche_Person']
                     vorstand_firstname = vorstand['Voller_Name']['Vorname']
                     vorstand_lastname = vorstand['Voller_Name']['Nachname']
@@ -241,43 +277,112 @@ class PdfReader:
                     vorstand_residency_country = vorstand['Anschrift']['Staat']['content']
 
                     vorstands.append({'firstname': vorstand_firstname,
-                                              'lastname': vorstand_lastname,
-                                              'birthdate': vorstand_birthdate,
-                                              'profession': vorstand_profession,
-                                              'residency_city': vorstand_residency_city,
-                                              'residency_country': vorstand_residency_country})
+                                      'lastname': vorstand_lastname,
+                                      'birthdate': vorstand_birthdate,
+                                      'profession': vorstand_profession,
+                                      'residency_city': vorstand_residency_city,
+                                      'residency_country': vorstand_residency_country})
 
                 elif role_name == 'Abwickler' and 'Natuerliche_Person' in part['Beteiligter']:
-                    print("############ TODO: Abwickler", part)
+                    # print("############ TODO: Abwickler", part)
+                    continue
 
                 elif role_name == 'Hauptniederlassung' and 'Organisation' in part['Beteiligter']:
-                    print("############ TODO: Hauptniederlassung", part)
+                    # print("############ TODO: Hauptniederlassung", part)
+                    continue
 
                 elif role_name == 'Geschäftsführender Direktor' and 'Natuerliche_Person' in part['Beteiligter']:
-                    print("############ TODO: Geschäftsführender Direktor", part)
+                    # print("Geschäftsführender Direktor")
+                    executive_director = part['Beteiligter']['Natuerliche_Person']
+                    executive_director_firstname = executive_director['Voller_Name']['Vorname']
+                    executive_director_lastname = executive_director['Voller_Name']['Nachname']
 
+                    executive_director_birthdate = None
+                    if 'Geburt' in executive_director:
+                        executive_director_birthdate = executive_director['Geburt']['Geburtsdatum']
+
+                    executive_director_profession = None
+                    if 'Beruf' in executive_director:
+                        executive_director_profession = executive_director['Beruf']
+
+                    executive_director_residency_city = executive_director['Anschrift']['Ort']
+                    executive_director_residency_country = executive_director['Anschrift']['Staat']['content']
+                    executive_directors.append({'firstname': executive_director_firstname,
+                                                'lastname': executive_director_lastname,
+                                                'birthdate': executive_director_birthdate,
+                                                'profession': executive_director_profession,
+                                                'residency_city': executive_director_residency_city,
+                                                'residency_country': executive_director_residency_country})
                 else:
-                    print("############ TODO: " + role_name, part)
+                    # print("############ TODO: " + role_name, part)
+                    continue
 
-        print("--------------")
-        print("company_name:", company_name)
-        print("company_typ:", company_typ)
-        print("company_headquarter_city:", company_headquarter_city)
-        print("company_headquarter_country:", company_headquarter_country)
-        print("address_typ:", address_typ)
-        print("company_address_street:", company_address_street)
-        print("company_address_haus_number:", company_address_haus_number)
-        print("company_address_postal_code:", company_address_postal_code)
-        print("company_address_city:", company_address_city)
-        print("company_address_country:", company_address_country)
-        print("trade_court:", trade_court)
-        print("trade_register_number:", trade_register_number)
-        print("primary_key:", primary_key)
-        print("company_purpose:", company_purpose)
-        print("ceos:", ceos)
-        print("liable_companies:", liable_companies)
-        print("person_limited_partners:", person_limited_partners)
-        print("--------------")
+        company_name_l = company_name.lower()
+        if company_purpose is not None:
+            company_purpose_l = company_purpose.lower()
+        else:
+            company_purpose_l = ''
+
+        field_names = ['Unternehmen', 'Sitz', 'Anschrift: Straße', 'Anschrift: PLZ', 'Anschrift: City',
+                       'Anschrift: Land', 'Stammkapital', 'Gegenstand/Geschäftszweck']
+
+        if (
+                'logistik' in company_name_l or 'logistics' in company_name_l or 'cargo' in company_name_l or 'spedition' in company_name_l or 'transport' in company_name_l or 'logistik' in company_purpose_l or 'logistics' in company_purpose_l or 'cargo' in company_purpose_l or 'spedition' in company_purpose_l or 'transport' in company_purpose_l) and company_address_postal_code in postal_codes:
+            print("Unternehmen:", company_name)
+            # print("company_typ:", company_typ)
+            print("Sitz:", company_headquarter_city + ", " + company_headquarter_country)
+            # print("address_typ:", address_typ)
+            print("Anschrift:")
+            print(company_address_street + " " + company_address_haus_number)
+            print(company_address_postal_code + " " + company_address_city)
+            print(company_address_country)
+            # print("trade_court:", trade_court)
+            # print("trade_register_number:", trade_register_number)
+            # print("primary_key:", primary_key)
+            if len(ceos) > 0:
+                print("Geschäftsführer:")
+                for ceo in ceos:
+                    print(ceo['firstname'] + " " + ceo['lastname'])
+            # print("Persönlich haftender Gesellschafter:", liable_companies)
+            # print("Kommanditist:", person_limited_partners)
+            if len(executive_directors) > 0:
+                print("Geschäftsführender Direktor:")
+                for executive_director in executive_directors:
+                    print(executive_director['firstname'] + " " + executive_director['lastname'])
+            gmbh_capital = '-'
+            if len(register_gmbh_capital) > 0:
+                gmbh_capital = register_gmbh_capital['Zahl'] + ' ' + register_gmbh_capital['Waehrung']
+
+            print("Stammkapital:", gmbh_capital)
+
+            print("Gegenstand/Geschäftszweck:", company_purpose)
+            print("")
+
+            results.append({
+                "Unternehmen": company_name,
+                "Sitz": company_headquarter_city + ", " + company_headquarter_country,
+                "Anschrift: Straße": company_address_street + " " + company_address_haus_number,
+                "Anschrift: PLZ": company_address_postal_code,
+                "Anschrift: City": company_address_city,
+                "Anschrift: Land": company_address_country,
+                "Stammkapital": gmbh_capital,
+                "Gegenstand/Geschäftszweck": company_purpose
+            })
+
+        for result in results:
+            print(result)
+            self.append_dict_as_row("output.csv", result, field_names)
+
+    def append_dict_as_row(self, file_name, dict_of_elem, field_names):
+        # Open file in append mode
+        with open(file_name, 'a+', newline='') as write_obj:
+            # Create a writer object from csv module
+            dict_writer = DictWriter(write_obj, fieldnames=field_names)
+            # Add dictionary as wor in the csv
+            if self.append_header:
+                dict_writer.writeheader()
+                self.append_header = False
+            dict_writer.writerow(dict_of_elem)
 
     def process_pdf_file(self, file_path):
         doc = fitz.Document(file_path)

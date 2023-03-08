@@ -2,7 +2,6 @@
 import glob
 import os
 import re
-from csv import writer
 from csv import DictWriter
 from datetime import datetime, timezone
 
@@ -35,7 +34,8 @@ class PdfReader:
 
         postal_codes = {
             '76870', '76863', '76770', '76872', '76779', '76751', '76116', '76314', '76477', '76183', '76125'
-            '76744', '76764',  '76831', '76865', '76889', '76359', '76467', '76126', '76182', '76109', '76253',
+                                                                                                      '76744', '76764',
+            '76831', '76865', '76889', '76359', '76467', '76126', '76182', '76109', '76253',
             '76072', '76115', '76071', '76133', '76073', '76119', '76097', '76098', '76107', '76117', '76246',
             '76287', '76448', '76199', '76776', '76133', '76070', '76273', '76118', '76247', '76245', '76120',
             '76437', '76473', '76549', '76530', '76532', '76534', '77815', '77833', '77836', '76275', '76316',
@@ -54,6 +54,7 @@ class PdfReader:
         prokurist_persons = []
         vorstands = []
         executive_directors = []
+        liquidators = []
 
         company_name = ''
         company_typ = ''
@@ -256,8 +257,27 @@ class PdfReader:
                 # if role_name == 'Prokurist' and 'Organisation' in part['Beteiligter']:
                 elif (role_name == 'Liquidator' or role_name == 'Liquidator(in)') and 'Natuerliche_Person' in part[
                     'Beteiligter']:
-                    # print("TODO: liquidator")
-                    continue
+                    liquidator = part['Beteiligter']['Natuerliche_Person']
+                    liquidator_firstname = liquidator['Voller_Name']['Vorname']
+                    liquidator_lastname = liquidator['Voller_Name']['Nachname']
+
+                    liquidator_birthdate = None
+                    if 'Geburt' in liquidator:
+                        liquidator_birthdate = liquidator['Geburt']['Geburtsdatum']
+
+                    liquidator_profession = None
+                    if 'Beruf' in liquidator:
+                        liquidator_profession = liquidator['Beruf']
+
+                    liquidator_residency_city = liquidator['Anschrift']['Ort']
+                    liquidator_residency_country = liquidator['Anschrift']['Staat']['content']
+
+                    liquidators.append({'firstname': liquidator_firstname,
+                                        'lastname': liquidator_lastname,
+                                        'birthdate': liquidator_birthdate,
+                                        'profession': liquidator_profession,
+                                        'residency_city': liquidator_residency_city,
+                                        'residency_country': liquidator_residency_country})
 
                 elif role_name == 'Vorstand' and 'Natuerliche_Person' in part['Beteiligter']:
                     # print("Vorstand")
@@ -323,11 +343,34 @@ class PdfReader:
         else:
             company_purpose_l = ''
 
-        field_names = ['Unternehmen', 'Sitz', 'Anschrift: Straße', 'Anschrift: PLZ', 'Anschrift: City',
-                       'Anschrift: Land', 'Stammkapital', 'Gegenstand/Geschäftszweck']
+        field_names = ['ID', 'Unternehmen', "Geschäftsführer", "Branchen",
+                       'Sitz', 'Anschrift: Straße', 'Anschrift: PLZ', 'Anschrift: City',
+                       'Anschrift: Land', 'Stammkapital',  "Persönliche haftender Gesellschafter (Natürliche Person)",
+                       "Persönliche haftender Gesellschafter (Unternehmen)", "Leitende Direktoren", "Liquidatoren",
+                       'Gegenstand/Geschäftszweck']
 
-        if (
-                'logistik' in company_name_l or 'logistics' in company_name_l or 'cargo' in company_name_l or 'spedition' in company_name_l or 'transport' in company_name_l or 'logistik' in company_purpose_l or 'logistics' in company_purpose_l or 'cargo' in company_purpose_l or 'spedition' in company_purpose_l or 'transport' in company_purpose_l) and company_address_postal_code in postal_codes:
+        branches = []
+
+        if ('logistik' in company_name_l or 'logistics' in company_name_l or 'cargo' in company_name_l or 'spedition'
+                in company_name_l or 'transport' in company_name_l or 'logistik' in company_purpose_l or 'logistics'
+                in company_purpose_l or 'cargo' in company_purpose_l or 'spedition' in company_purpose_l or 'transport'
+                in company_purpose_l):
+
+            branches.append('Logistics')
+
+            if ('chemie' in company_name_l or 'pharma' in company_name_l or 'chemie' in company_purpose_l or
+                    'pharma' in company_purpose_l):
+                branches.append('Chemie / Pharma')
+
+            if 'bank' in company_name_l or 'bank' in company_purpose_l:
+                branches.append('Banking')
+
+            if 'versicherung' in company_name_l or 'versicherung' in company_purpose_l:
+                branches.append('Versicherung')
+
+            if 'finanz' in company_name_l or 'finanz' in company_purpose_l:
+                branches.append('Finanz')
+
             print("Unternehmen:", company_name)
             # print("company_typ:", company_typ)
             print("Sitz:", company_headquarter_city + ", " + company_headquarter_country)
@@ -339,16 +382,21 @@ class PdfReader:
             # print("trade_court:", trade_court)
             # print("trade_register_number:", trade_register_number)
             # print("primary_key:", primary_key)
+            ceo_str = []
             if len(ceos) > 0:
                 print("Geschäftsführer:")
                 for ceo in ceos:
                     print(ceo['firstname'] + " " + ceo['lastname'])
+                    ceo_str.append(ceo['firstname'] + " " + ceo['lastname'])
             # print("Persönlich haftender Gesellschafter:", liable_companies)
             # print("Kommanditist:", person_limited_partners)
+            executive_director_str = []
             if len(executive_directors) > 0:
                 print("Geschäftsführender Direktor:")
                 for executive_director in executive_directors:
                     print(executive_director['firstname'] + " " + executive_director['lastname'])
+                    executive_director_str.append(
+                        executive_director['firstname'] + " " + executive_director['lastname'])
             gmbh_capital = '-'
             if len(register_gmbh_capital) > 0:
                 gmbh_capital = register_gmbh_capital['Zahl'] + ' ' + register_gmbh_capital['Waehrung']
@@ -358,14 +406,33 @@ class PdfReader:
             print("Gegenstand/Geschäftszweck:", company_purpose)
             print("")
 
+            liable_persons_str = []
+            for liable_person in liable_persons:
+                liable_persons_str.append(liable_person['firstname'] + " " + liable_person['lastname'])
+
+            liable_companies_str = []
+            for liable_company in liable_companies:
+                liable_companies_str.append(liable_company['partner_name'])
+
+            liquidators_str = []
+            for liquidator in liquidators:
+                liquidators_str.append(liquidator['firstname'] + " " + liquidator['lastname'])
+
             results.append({
+                "ID": primary_key,
                 "Unternehmen": company_name,
+                "Branchen": ", ".join(branches),
+                "Geschäftsführer": ", ".join(ceo_str),
                 "Sitz": company_headquarter_city + ", " + company_headquarter_country,
                 "Anschrift: Straße": company_address_street + " " + company_address_haus_number,
                 "Anschrift: PLZ": company_address_postal_code,
                 "Anschrift: City": company_address_city,
                 "Anschrift: Land": company_address_country,
                 "Stammkapital": gmbh_capital,
+                "Persönliche haftender Gesellschafter (Natürliche Person)": ", ".join(liable_persons_str),
+                "Persönliche haftender Gesellschafter (Unternehmen)": ", ".join(liable_companies_str),
+                "Leitende Direktoren": ", ".join(executive_director_str),
+                "Liquidatoren": ", ".join(liquidators_str),
                 "Gegenstand/Geschäftszweck": company_purpose
             })
 

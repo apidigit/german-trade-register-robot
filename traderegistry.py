@@ -160,15 +160,15 @@ class HandelsRegister:
                                 result_table_id = row_data.css('table::attr(id)').getall().pop()
 
                                 try:
-                                    time.sleep(2)
+                                    time.sleep(5)
                                     driver.execute_script("arguments[0].scrollIntoView(true);",
                                                           driver.find_element(By.XPATH,
                                                                               f'//table[@id="{result_table_id}"]//span[contains(text(), "{self.document_type}")]/..'))
-                                    time.sleep(3)
+                                    time.sleep(5)
                                     driver.find_element(By.XPATH,
                                                         f'//table[@id="{result_table_id}"]//span[contains(text(), "{self.document_type}")]/..').click()
 
-                                    time.sleep(5)
+                                    time.sleep(3)
                                     WebDriverWait(driver, 30).until(
                                         EC.presence_of_element_located(
                                             (By.CSS_SELECTOR, '[id="form:kostenpflichtigabrufen"]')))
@@ -246,10 +246,9 @@ class HandelsRegister:
         for csv_dict in csv_file_content[:]:
             postal_code_item = csv_dict.get('plz')
             city_item = csv_dict.get('ort')
-            if postal_code_item is not None and city_item is not None and utils.replace_german_chars(
-                    city_item.strip()).lower() == utils.replace_german_chars(
-                city_filter.strip()).lower() and postal_code_item in self.postal_codes:
+            if postal_code_item is not None and city_item is not None and utils.replace_german_chars(city_item.strip()).lower() == utils.replace_german_chars(city_filter.strip()).lower() and (postal_code_item in self.postal_codes or len(self.postal_codes) == 0):
                 postal_codes_set.add(postal_code_item)
+                print(postal_code_item)
         return postal_codes_set
 
     def get_streets(self, postal_code_filter: str) -> set:
@@ -280,24 +279,13 @@ if __name__ == '__main__':
     query = {"register_types": {"HRB", "HRA"},
              "register_options": {"Kommanditgesellschaft", "Aktiengesellschaft", "Europäische Aktiengesellschaft (SE)",
                                   "Gesellschaft mit beschränkter Haftung"},
-             "cities": {},
+             "cities": {"Mannheim", "Ludwigshafen"},
              "streets": {},
-             "keywords": 'Logistik Logistics Transport Spedition Cargo',
+             # "keywords": 'Logistik Logistics Transport Spedition Cargo',
+             "keywords": 'Chemie Pharma Abbvie BASF Bayer',
              "keywords_match_option": "one",
              "keywords_similar_sounding": False,
-             "postal_codes": {
-                 '76870', '76863', '76770', '76872', '76779', '76751', '76116', '76314', '76477', '76183', '76125',
-                 '76744', '76764', '76831', '76865', '76889', '76359', '76467', '76126', '76182', '76109', '76253',
-                 '76072', '76115', '76071', '76133', '76073', '76119', '76097', '76098', '76107', '76117', '76246',
-                 '76287', '76448', '76199', '76776', '76133', '76070', '76273', '76118', '76247', '76245', '76120',
-                 '76437', '76473', '76549', '76530', '76532', '76534', '77815', '77833', '77836', '76275', '76316',
-                 '76571', '76474', '76767', '76131', '76133', '76149', '76185', '76187', '76135', '76189', '76137',
-                 '67227', '68159', '68259', '68157', '68128', '68130', '68138', '68121', '68302', '68126', '68197',
-                 '68142', '68146', '68123', '68150', '68133', '76185', '68298', '68112', '68300', '68136', '68151',
-                 '68135', '68301', '68124', '68299', '68140', '68137', '68144', '68051', '68148', '68122', '68134',
-                 '68141', '68143', '68145', '68147', '68156', '68149', '68127', '68131', '68139', '68132', '68161',
-                 '68165', '68167', '68163', '68305', '68169', '67059', '67061', '67063', '67065', '67067', '67069',
-                 '67071', '68307', '68309'}}
+             "postal_codes": {}}
 
     obj = HandelsRegister(query, file_type)
     obj.start_request()
